@@ -1,0 +1,183 @@
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = rate.bot.com.tw; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = 6sspjij05umgk43u2mpmkqce
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = open.er-api.com; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = ecp0t8q8hj96qvrb0ohgecrf
+exchange_rate_failed {
+  primaryError: [Error: internal error; reference = 6sspjij05umgk43u2mpmkqce] {
+    remote: true
+  },
+  fallbackError: [Error: internal error; reference = ecp0t8q8hj96qvrb0ohgecrf] {
+    remote: true
+  }
+}
+PASS 1: 管理後台登入成功並載入商品資料（隔離測試資料庫）
+PASS 2: 商品可公開瀏覽，會員資料不外洩
+PASS 3: ChatGPT 身分登入後仍需加入 KK 會員
+PASS 4: 新會員一次獲得 5 點
+shop H [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-xmClUClC.js:1:10120
+    at Array.map (<anonymous>)
+    at Object.N [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-xmClUClC.js:1:9942)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 400
+}
+PASS 5: 多規格商品必須先選盒裝，報價保存選擇與正確原價
+PASS 6: 尚未進入販售期間的商品不會出現在前台
+PASS 7: 單件成本先進位，浮動代購費按整行進位（751×5，費率6.7354%）
+PASS 8: 販售商品下單立即建立 KK 單號
+shop H [Error]: 旅客尚未按「我已付款」並提供末五碼或付款截圖，後台目前不能核對此訂單。
+    at K (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:4315)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:19287)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 9: 買家回報末五碼後，後台確認收款才累積消費、里程並升等
+PASS 10: 下一筆訂單有至少 30 點時自動兌換零食驚喜包
+PASS 11: 未採買取消會退回 30 點
+shop H [Error]: AI 查價尚未啟用，請稍後再試。尚未建立訂單。 / AI pricing is not enabled. No order was created.
+    at Object.k [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-DHmJSxDp.js:1:3279)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 12: 未啟用 AI 時立即回報，不會因上傳建立後台訂單
+PASS 13: AI 查價只允許訂單會員啟動，未設金鑰時保留訂單並清楚回報
+PASS 14: 白金客製代購費為 8%，報價同步到會員訂單
+PASS 15: 客製報價接受後才兌換 30 點，不會在上傳時先扣
+PASS 16: 已付款調價保留原金額，待旅客確認
+shop H [Error]: 請先完成訂單調價。
+    at E (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:3382)
+    at async re (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:11041)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:17745)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 17: 核對價差後原費率保留，金額與會員累計一次更新
+shop H [Error]: 請先等待旅客同意調價。
+    at fe (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:17450)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:19085)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+shop H [Error]: 商品已買到或訂單已結案，無法再調整價格。
+    at M (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:12806)
+    at K (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:1486)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:19287)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 18: 採買完成鎖價，舊版接口不能繞過鎖價，價差不能重複入帳
+PASS 19: 新版管理後台 AI 接口可用，缺金鑰時回報啟用需求
+shop H [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at K (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:5355)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:19287)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+shop H [Error]: 已開始採買，無法取消或申請退款。
+    at r (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/order-actions-CVkjklwx.js:1:604)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:18001)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 20: 調價並採買後禁止直接標記退款或取消，消費與購物金不變
+PASS 21: 後台可以授予無消費限制的金鑽會員
+PASS 22: 金鑽商品代購費為零，已核對價格的一般開放商品也能購買
+PASS 23: 金鑽可選貨到付款，建立待採買且尚未付款訂單
+PASS 24: 貨到付款可以先採買，尚未收款不累積消費
+PASS 25: 貨到付款收款後才累計，採買進度不倒退
+shop H [Error]: 貨到付款僅限後台授予的金鑽會員。 / Cash on delivery is available to Diamond members only.
+    at D (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-xmClUClC.js:1:2894)
+    at Object.N [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-xmClUClC.js:1:11215)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 403
+}
+PASS 26: 一般會員不能偽造貨到付款
+PASS 27: 匯款訂單保存三天期限
+PASS 28: 我已匯款只進入待核對，不自動認定已付款
+PASS 29: 管理員只能回覆未收到，系統會通知買家重新確認
+PASS 30: 買家重新回報後，管理員可確認已收到並通知買家
+PASS 31: 旅客一次下載一筆訂單收據
+shop H [Error]: 旅客一次只能下載一筆訂單收據。 / Customers can download one order receipt at a time.
+    at Object.s [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-B7h66i5n2.js:1:484)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 400
+}
+shop H [Error]: 無權讀取其中的訂單。 / An order is unavailable or not yours.
+    at Object.s [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-B7h66i5n2.js:1:788)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 403
+}
+PASS 32: 管理員可合併同一位旅客的多張訂單收據
+PASS 33: 買家私訊可雙向同步，管理員可關聯訂單
+PASS 34: 未配置模型的費用說明標成 system，不冒充 AI 回覆
+support_summary_ai_failed Error: AI 尚未設定完整：OPENAI_API_KEY 或 KK_AI_GATEWAY_URL＋KK_AI_GATEWAY_SECRET；尚未發送模型請求。
+    at t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/ai-config-Dqgo-_kS.js:1:500)
+    at g (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-C3lXPSxG.js:1:652)
+    at b (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-C3lXPSxG.js:7:390)
+    at T (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-C3lXPSxG.js:8:1053)
+    at async Object.D [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-C3lXPSxG.js:11:3836)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+PASS 35: 旅客用中英文提出人工需求時會自動轉接、保存對話並產生後台摘要
+PASS 36: 管理員回覆後切換為真人客服狀態
+PASS 37: 建立新對話會重設旅客畫面，但管理後台仍保留完整對話紀錄
+PASS 38: 購買期間的統一到貨日優先套用至報價
+38 commerce checks passed

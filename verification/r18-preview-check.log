@@ -1,0 +1,1 @@
+PASS: storefront/admin HTML and JS assets, current recovery catalog, local member login, local HTTP cookie adapter, admin authentication, persisted restart and idempotent migrations. Linux runtime only; Mac Finder launch not executed.

@@ -1,0 +1,4 @@
+{
+  "checks": 21,
+  "scope": "Compiled APIs with disposable D1; no production financial writes or real provider calls"
+}

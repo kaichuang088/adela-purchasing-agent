@@ -1,0 +1,81 @@
+[
+  {
+    "match": "La Roche-Posay Cicaplast Lip Balm reference",
+    "nameZh": "理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL",
+    "nameEn": "La Roche-Posay Cicaplast Lip Balm 7.5mL",
+    "priceKrw": 11000,
+    "taiwanRetailTwd": 420,
+    "taiwanPromotionTwd": 0,
+    "taiwanRetailSource": "https://www.momoshop.com.tw/product/8962228",
+    "purchaseUrl": "https://www.larocheposay.co.kr/product/view/4689.do",
+    "spec": "7.5mL 單條",
+    "descriptionZh": "7.5mL 單條。韓國品牌官網與 momo 同容量商品已核對；依採買批次代購，非台灣現貨。",
+    "descriptionEn": "One 7.5mL tube. Matching size verified at Korean brand store and momo Taiwan. Scheduled-batch preorder.",
+    "evidence": [
+      "https://www.larocheposay.co.kr/cscenter/noticeView/136315.do",
+      "https://www.larocheposay.co.kr/product/view/4689.do",
+      "https://www.momoshop.com.tw/product/8962228"
+    ],
+    "sourceNotes": "韓國官方商品價11000；未滿30000另收3000國內運費，集中採買合併處理。",
+    "sourceCheckedAt": "2026-10-04",
+    "taiwanRetailCheckedAt": "2026-10-04",
+    "taiwanRetailClassification": "retailer_exact_spec",
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": [],
+    "taxIncludedJpy": 11000
+  },
+  {
+    "match": "Samyang Buldak Noodles 140g x 5",
+    "nameZh": "三養原味辣火雞炒麵 140g × 5 包",
+    "nameEn": "Samyang Buldak Noodles 140g x 5",
+    "priceKrw": 5100,
+    "taiwanRetailTwd": 319,
+    "taiwanPromotionTwd": 296,
+    "taiwanRetailSource": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC",
+    "purchaseUrl": "https://www.kurly.com/goods/5069816",
+    "spec": "原味 140g × 5 包，共700g",
+    "descriptionZh": "原味五入袋裝，每包140g。台灣比價採 PChome 同規格五入商品及公開單件優惠，不混用其他口味。依採買批次代購。",
+    "descriptionEn": "Five 140g packs, original flavor. Matched against the same PChome five-pack and its public single-item offer. Scheduled-batch preorder.",
+    "evidence": [
+      "https://www.kurly.com/goods/5069816",
+      "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC"
+    ],
+    "sourceNotes": "Kurly商品價5100；未滿40000另收3000韓國配送費，集中採買合併處理。",
+    "sourceCheckedAt": "2026-10-04",
+    "taiwanRetailCheckedAt": "2026-10-04",
+    "taiwanRetailClassification": "retailer_exact_spec",
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": [],
+    "taxIncludedJpy": 5100
+  },
+  {
+    "match": "Crown Choco Heim 142g",
+    "nameZh": "CROWN 榛果巧克力威化酥 142g",
+    "nameEn": "Crown Choco Heim 142g",
+    "priceKrw": 2200,
+    "taiwanRetailTwd": 159,
+    "taiwanPromotionTwd": 80,
+    "taiwanRetailSource": "https://www.momoshop.com.tw/product/4925565",
+    "purchaseUrl": "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001",
+    "spec": "142g 單盒，榛果巧克力口味",
+    "descriptionZh": "142g 單盒。改用韓國 SSG 同規格來源；台灣比價採 momo 同規格公開促銷價。依採買批次代購。",
+    "descriptionEn": "One 142g box, chocolate and hazelnut. Korean SSG source matched with momo Taiwan same-size public offer. Scheduled-batch preorder.",
+    "evidence": [
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001",
+      "https://www.momoshop.com.tw/product/4925565"
+    ],
+    "sourceNotes": "2026-10-04原始核查SSG單盒2200，不含韓國配送3000/次；後續抓取间歇失敗，集中採買合併處理。",
+    "sourceCheckedAt": "2026-10-04",
+    "taiwanRetailCheckedAt": "2026-10-04",
+    "taiwanRetailClassification": "retailer_exact_spec",
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": [],
+    "taxIncludedJpy": 2200
+  }
+]

@@ -1,0 +1,91 @@
+exchange_rate_failed {
+  primaryError: Error: Bank of Taiwan returned 503
+      at i (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/bank-rate-By9Fc7P7.js:1:442)
+      at async Z (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-DValu6I-.js:13:34670)
+      at async Object.j [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-BHqNSEFR.js:1:5797)
+      at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18300)
+      at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18586)
+      at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+      at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+      at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173892)
+      at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296),
+  fallbackError: Error: ExchangeRate-API returned 503
+      at i (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/bank-rate-By9Fc7P7.js:1:1277)
+      at async Z (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-DValu6I-.js:13:34670)
+      at async Object.j [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-BHqNSEFR.js:1:5797)
+      at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18300)
+      at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18586)
+      at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+      at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+      at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173892)
+      at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296)
+}
+PASS 1: Withdrawn Beyblade products are absent from storefront
+PASS 2: 13 JPGs plus the repeated salt photo have 14 preserved research records, not fabricated sellable products
+PASS 3: Coffee pricing issue is visible in admin review, not silently settled
+PASS 4: Actual cost preserved; storefront/checkout and 5% ceiling agree for standard
+PASS 5: Actual cost preserved; storefront/checkout and 5% ceiling agree for platinum
+PASS 6: Actual cost preserved; storefront/checkout and 5% ceiling agree for black
+PASS 7: Actual cost preserved; storefront/checkout and 5% ceiling agree for diamond
+PASS 8: Each membership tier has a lower payable product price
+PASS 9: Automatic rate decreases continuously as unit cost increases
+PASS 10: Membership savings remain distinct even when the Taiwan cap binds
+PASS 11: Below-cost catalog price is never displayed as purchasable
+shop H [Error]: 此規格的實際成本無法符合售價規則，請聯絡客服。 / Actual cost exceeds the price limit.
+    at file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-DValu6I-.js:13:37256
+    at Array.map (<anonymous>)
+    at Ne (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-DValu6I-.js:13:36259)
+    at async Object.N [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-BHqNSEFR.js:1:10632)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173892)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 12: Backend rejects an impossible cost rather than reducing recorded goods cost
+PASS 13: Missing/unverified/prohibited comparison is blocked: taiwanRetailSource
+PASS 14: Missing/unverified/prohibited comparison is blocked: taiwanRetailCheckedAt
+PASS 15: Missing/unverified/prohibited comparison is blocked: taiwanRetailSource
+PASS 16: Reviewed no-Taiwan-sale case retains finite actual cost at zero member fee
+PASS 17: New transfer order starts unpaid
+shop H [Error]: 旅客尚未按「我已付款」並提供末五碼或付款截圖，後台目前不能核對此訂單。
+    at K (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-bctMa8bU.js:1:4315)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-bctMa8bU.js:1:20171)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173892)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 18: Buyer report keeps payment unconfirmed and does not earn repeat-order discount
+PASS 19: Unconfirmed payment cannot enter procurement list
+PASS 20: Only seller payment confirmation marks the transfer paid and counts purchase history
+PASS 21: One verified paid order lowers the next price consistently
+PASS 22: Confirmed order appears in independent procurement list
+PASS 23: Taipei October 16 procurement does not start early
+PASS 24: Taipei October 16 midnight advances the paid order
+PASS 25: Lychee resolves its own photo, not the grape parent
+shop H [Error]: 此口味目前供應商缺貨，請選擇其他口味。 / This flavor is currently sold out.
+    at file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-BHqNSEFR.js:1:10194
+    at Array.map (<anonymous>)
+    at Object.N [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-BHqNSEFR.js:1:9942)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-9szuwaoR.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173892)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 26: Variant price, stock, photo, quantity and cart snapshot stay in sync
+PASS 27: Admin can save exact variant photo/reference and explicit review date
+PASS 28: Editing one variant preserves another variant stock and price
+PASS 29: Migration replay creates no duplicate references and preserves order snapshots
+PASS 30: Storefront source has no Taiwan retail price widgets/date
+PASS 31: Cart photo uses cart variant rather than current browse selection
+PASS 32: Direct message UI belongs to Messages, separated from batch notifications
+PASS 33: Missing real AI credentials report unavailable

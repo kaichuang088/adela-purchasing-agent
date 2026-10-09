@@ -1,0 +1,80 @@
+PASS 1: 482 total keeps 200 credit and 282 cash
+PASS 2: Paid increase preserves original credit; proposal cannot change wallet
+PASS 3: Three settlement requests yield one success and two conflicts
+PASS 4: Settlement changes cash and spend once
+PASS 5: Increase then cancellation refunds total 590 and reverses spend
+PASS 6: Full-credit 482 checkout leaves 18
+PASS 7: Accepted decrease does not return credit before reconciliation
+PASS 8: Injected wallet error reports failure
+PASS 9: Failure rolls back proposal claim, quote, wallet and member spend
+PASS 10: Retry returns 405 and retains 77 in order
+PASS 11: Decrease then cancellation conserves original 500 wallet
+PASS 12: Unpaid decrease atomically returns excess 123
+PASS 13: Reconfirm zero cash retains original 77 credit
+PASS 14: Unpaid decrease/reconfirm/cancel restores original 200
+PASS 15: Concurrent reconfirm only claims once
+PASS 16: Reconfirm adds 50 without losing previously reserved 200
+PASS 17: 481 KRW rounds merchandise first, then fee, total 65
+PASS 18: Unsettled v9 proposal repaired without double charging original credit
+PASS 19: Spent miles produce debt rather than negative points on decrease
+PASS 20: Cancellation includes debt_delta when reversing revised earned miles
+Credit recovery: 20 checks, compiled API and isolated D1 only.
+shop z [Error]: 請先等待旅客同意調價。
+    at te (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:6935)
+    at async Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-Bo71Uljy.js:1:16693)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 請先等待旅客同意調價。
+    at te (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:6935)
+    at async Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-Bo71Uljy.js:1:16693)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop Error: D1_ERROR: injected wallet failure: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+    at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:139:19)
+    at async cloudflare-internal:d1-api:90:27
+    ... 7 lines matching cause stack trace ...
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  [cause]: Error: injected wallet failure: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:140:24)
+      at async cloudflare-internal:d1-api:90:27
+      at async te (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:7561)
+      at async Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-Bo71Uljy.js:1:16693)
+      at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+      at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+      at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+      at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+      at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+      at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296)
+}
+shop z [Error]: 報價已更新，請重新載入。
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:5774)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 報價已更新，請重新載入。
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:5774)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}

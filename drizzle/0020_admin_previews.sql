@@ -1,0 +1,1 @@
+CREATE TABLE kk_admin_previews ( id TEXT PRIMARY KEY, command_json TEXT NOT NULL, snapshot_json TEXT NOT NULL, expires_at TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'pending', claim_token TEXT, created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP, applied_at TEXT );

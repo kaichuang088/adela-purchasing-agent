@@ -1,0 +1,352 @@
+{
+  "verifiedAt": "2026-10-07",
+  "scope": "19paused snack/toy listings restored; 14 supplier-cost-plusready patches and5real availability/spec/logisticsblockers; no code/databasechanges",
+  "pricingPolicy": "User approved actual suppliercost+flexiblefee; Taiwan comparison optional, Shopee forbidden; no inferenceofTaiwanabsence",
+  "readyPatches": [
+    {
+      "match": "HBAF Popcorn Four Flavors 80g x 16",
+      "nameZh": "HBAF 四口味爆米花（80g × 16 包）",
+      "nameEn": "HBAF Popcorn Four Flavors 80g x 16",
+      "price": 15990,
+      "priceKrw": 15990,
+      "spec": "Option1,80g×16bags: HoneyButter/SaltMilk/CaramelCheese/BakedCorn×4each",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/Chocolates-Bars/HBAF-Four-Popcorn-Set-1280g-OPTION1/p/680056-OPTION1",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 15990,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view5",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Nongshim Shin Non-Fried Ramyun 97g x 20",
+      "nameZh": "農心 辛拉麵非油炸麵（97g × 20 包）",
+      "nameEn": "Nongshim Shin Non-Fried Ramyun 97g x 20",
+      "price": 21990,
+      "priceKrw": 21990,
+      "spec": "97g×20packs",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Non-Fried-Ramyun-97g-x-20/p/620834",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 21990,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view0",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Orion Snack Assortment 780g / 26 packs",
+      "nameZh": "Orion 好麗友零食綜合包（30g × 26 包）",
+      "nameEn": "Orion Snack Assortment 780g / 26 packs",
+      "price": 16490,
+      "priceKrw": 16490,
+      "spec": "780g,30g×26bags: PocaOriginal7/PocaOnion6/Swing6/OGamja7",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Orion-Snack-Assortment-780g-26ea/p/603457",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 16490,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view1",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Haitai Homerun Ball Chocolate 128g x 6",
+      "nameZh": "海太 Homerun Ball 巧克力泡芙（128g × 6）",
+      "nameEn": "Haitai Homerun Ball Chocolate 128g x 6",
+      "price": 17890,
+      "priceKrw": 17890,
+      "spec": "Chocolate128g×6boxes,768gtotal",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Haitai-Homerun-Ball-768g-128g-x-6/p/671210",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 17890,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view2",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Nongshim Assorted Snacks 1080g / 36 packs",
+      "nameZh": "農心 人氣零食綜合包（30g × 36 包）",
+      "nameEn": "Nongshim Assorted Snacks 1080g / 36 packs",
+      "price": 20990,
+      "priceKrw": 20990,
+      "spec": "1080g/36mini bags,Nongshim five-flavor assortment",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Nogshim-Assorted-Snacks-1080g-36/p/516641",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 20990,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view3",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Samyang Buldak Large Cup 105g x 16",
+      "nameZh": "三養 火雞炒麵大杯（105g × 16 杯）",
+      "nameEn": "Samyang Buldak Large Cup 105g x 16",
+      "price": 20990,
+      "priceKrw": 20990,
+      "spec": "Original spicy105g×16large cups",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Buldak-Cup-Ramyun-105g-x-16/p/638431",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 20990,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn298view4",
+      "note": "Costco Korea online member purchase; Korean delivery included. Cart enabled. Stock may change.",
+      "commerce": {
+        "sourceShippingIncluded": true,
+        "supplierRequiresMembership": true
+      }
+    },
+    {
+      "match": "Nongshim Spicy Shrimp Crackers 90g",
+      "nameZh": "農心 蝦味條 辣味 90g",
+      "nameEn": "Nongshim Spicy Shrimp Crackers 90g",
+      "price": 1280,
+      "priceKrw": 1280,
+      "spec": "Spicy90g×1bag",
+      "purchaseUrl": "https://www.kurly.com/goods/1002129007",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 1280,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn297view9",
+      "note": "Kurly cart displayed; KR shipping3000 unless combined purchase >=40000. Do not reuse Taiwan75g comparison.",
+      "commerce": {
+        "sourceShippingKrw": 3000,
+        "sourceFreeShippingMinimumKrw": 40000
+      }
+    },
+    {
+      "match": "Nongshim Saewookkang Shrimp Crackers 90g",
+      "nameZh": "農心 蝦味先 90g",
+      "nameEn": "Nongshim Saewookkang Shrimp Crackers 90g",
+      "price": 1260,
+      "priceKrw": 1260,
+      "spec": "Original90g×1bag",
+      "purchaseUrl": "https://www.kurly.com/goods/5061325",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 1260,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn297view7 / turn297view8",
+      "note": "Kurly cart displayed; KR shipping3000 unless combined purchase >=40000. Do not reuse Taiwan75g comparison.",
+      "commerce": {
+        "sourceShippingKrw": 3000,
+        "sourceFreeShippingMinimumKrw": 40000
+      }
+    },
+    {
+      "match": "Orion Korean Snack Mix 4 Bags",
+      "nameZh": "好麗友 四種經典零食組（4 包）",
+      "nameEn": "Orion Korean Snack Mix 4 Bags",
+      "price": 3380,
+      "priceKrw": 3380,
+      "spec": "4bags,35–49g each: PocaOriginal/TurtleCornSoup/SunOriginal/OGamjaGratin",
+      "purchaseUrl": "https://www.kurly.com/goods/5069938",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 3380,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn299view0",
+      "note": "Kurly cart enabled; minimum expiry2027-02-07; exact batch unknown.",
+      "commerce": {
+        "sourceShippingKrw": 3000,
+        "sourceFreeShippingMinimumKrw": 40000
+      }
+    },
+    {
+      "match": "Market O Real Brownie 120g 6 pieces",
+      "nameZh": "Market O 巧克力布朗尼 120g／6入",
+      "nameEn": "Market O Real Brownie 120g 6 pieces",
+      "price": 3300,
+      "priceKrw": 3300,
+      "spec": "6pieces/120g box",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 3300,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn303search12; direct public OY HTML structured product JSON",
+      "note": "Exact OY option001 soldOutFlag=false, salePrice/finalPrice3300. Catalog120g supported by unit275KRW/10g and6pieces; no current exact Taiwan reference. Do not reuse Shopee109TWD reference.",
+      "commerce": {}
+    },
+    {
+      "match": "Condition Green Apple Stick 18g",
+      "nameZh": "Condition 韓國解酒果凍 18g｜單條",
+      "nameEn": "Condition Green Apple Stick 18g",
+      "price": 3900,
+      "priceKrw": 3900,
+      "spec": "GreenApple1stick, option001, GTIN8809422043815; historical catalog18g",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000168270",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 3900,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "direct public OY HTML structured product JSON 2026-10-07",
+      "note": "Current option001 nameGreenApple1stick, soldOutFlag=false and salePrice/finalPrice3900. Public quantity0 is placeholder, not stockout. Current HTML does not state18g; use1stick label unless sameGTIN pack weight corroborated. Keep existing face-free image.",
+      "commerce": {
+        "supplierOption": "001",
+        "gtin": "8809422043815"
+      }
+    },
+    {
+      "match": "RE:NEW PHY Hansonkki Petit Shake 40g",
+      "nameZh": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "nameEn": "RE:NEW PHY Hansonkki Petit Shake 40g",
+      "price": 2286,
+      "priceKrw": 2286,
+      "spec": "PISTACHIO CHOCOLATE40g×1pack; supplier batch28packs",
+      "purchaseUrl": "https://renewphy.cafe24.com/product/detail.html?product_no=185",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 2286,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn303search13/23 plus direct manufacturer HTML JSONLD andoption_stock_data",
+      "note": "Seller buys28packs at64000KRW, cost64000/28 roundedUPto2286KRW perpack; customer buys individual40g pack. All-pistachio supplier optionP00000HD000C:14+7+7pistachio, is_sellingT,use_soldoutF,use_stockfalse, JSONLDInStock. Do not apply same cost to unverified colors/flavors. Shippingfree >=50000. Keep face-free existing image (OYmain image can containhumanface).",
+      "commerce": {
+        "supplierMinimumUnits": 28,
+        "supplierBatchPriceKrw": 64000,
+        "supplierOption": "P00000HD000C",
+        "sourceShippingIncluded": true
+      }
+    },
+    {
+      "match": "Nongshim Shin Ramyun Rosé 4-pack",
+      "nameZh": "農心 辛拉麵 Rosé 4 入裝",
+      "nameEn": "Nongshim Shin Ramyun Rosé 4-pack",
+      "price": 5280,
+      "priceKrw": 5280,
+      "spec": "Rosé134g×4packs",
+      "purchaseUrl": "https://m.nongshimmall.com/product/detail.html?product_no=4647",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 5280,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn303search0/2 plus direct official product HTML",
+      "note": "Maker currentprice5280KRW, active actionCart/actionBuy; SOLDOUTbutton displaynone. single_option_stock_data use_stockfalse,use_soldoutF (quantity3 not inventory-managed, do not claimthreein stock). Shipping3000KRW unlesscombined >=30000.",
+      "commerce": {
+        "sourceShippingKrw": 3000,
+        "sourceFreeShippingMinimumKrw": 30000
+      }
+    },
+    {
+      "match": "Nongshim Wasabi Shrimp Crackers 70g",
+      "nameZh": "農心 蝦味條 哇沙米 70g",
+      "nameEn": "Nongshim Wasabi Shrimp Crackers 70g",
+      "price": 1650,
+      "priceKrw": 1650,
+      "spec": "Wasabi70g×1bag",
+      "purchaseUrl": "https://m.nongshimmall.com/product/detail.html?product_no=4444",
+      "sourceCurrency": "KRW",
+      "sourceAmount": 1650,
+      "status": "active",
+      "stock": -1,
+      "verifiedAt": "2026-10-07",
+      "availability": "Purchasable listing; source inventory quantity unknown unless separately supplied; checkout not performed",
+      "sourceRef": "turn308search0–8 plus direct official maker HTML2026-10-07",
+      "note": "Replacement exact manufacturer offer1650KRW. Active actionBuy; SOLDOUTbutton displaynone. Inventory-managed source stock2445. use_soldoutT is gating configuration, positive2445meansnot soldout. ExistingOY1600offer soldOutFlagtrue; replace source. Sourcequantity does not mean seller-owned inventory.",
+      "commerce": {
+        "sourceShippingKrw": 3000,
+        "sourceFreeShippingMinimumKrw": 30000,
+        "supplierReportedStock": 2445
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "match": "CU Dubai Chewy Chocolate Cookie reference",
+      "reason": "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price."
+    },
+    {
+      "match": "Milky Shop Butter Sand",
+      "reason": "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain."
+    },
+    {
+      "match": "Beyblade X BX-01 Dran Sword 3-60F",
+      "purchaseUrl": "https://www.ntoyshop.com/shop/shopdetail.html?branduid=1086360",
+      "reason": "NToyBX01 exact listing public description recovered but current offer text has no decisive buy/price stockpayload; previous R12 verifiedsoldout viaNToy/SSG/Lotte. Do not clear existing genuine stock0 based on generictemplate.",
+      "sourceRef": "turn304view4 / turn306view1"
+    },
+    {
+      "match": "LOTTE Pepero Assorted 644g / 15-pack",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548",
+      "reason": "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified."
+    },
+    {
+      "match": "Orion Turtle Chips Matcha Chocolate 104g",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330",
+      "reason": "CurrentOY product andoption001 soldOutFlag=true,2500KRW. AlternateKurly1980KRWcart but minimumexpiry2026-08-23 beforetoday; cannot guaranteefreshness withoutsupplierbatchconfirmation.",
+      "sourceRef": "turn304view2 and currentdirectOYstructuredJSON",
+      "alternateUrl": "https://www.kurly.com/goods/1002070482"
+    }
+  ],
+  "recoveredTaiwanReferencesNotRecheckedThisRun": [
+    {
+      "match": "Nongshim Shin Non-Fried Ramyun 97g x 20",
+      "priceTwd": 970,
+      "url": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=7017881",
+      "calculation": "97g×4pack209,automatic15discount until10/19=>194×5; verify currentpromotion beforeusing",
+      "originalVerifiedAt": "2026-10-07"
+    },
+    {
+      "match": "RE:NEW PHY Hansonkki Petit Shake 40g",
+      "priceTwd": 82,
+      "url": "https://www.wuz.com.tw/products/korea13",
+      "spec": "PistachioChocolate40g1pack only,SKUJ-57-CUPISTACHIO-004-40",
+      "originalVerifiedAt": "2026-10-07"
+    },
+    {
+      "match": "Orion Turtle Chips Matcha Chocolate 104g",
+      "priceTwd": 139,
+      "url": "https://jambolive.tv/shop/10467/product/29724082",
+      "spec": "MatchaChocolate104g1bag",
+      "originalVerifiedAt": "2026-10-07"
+    }
+  ]
+}

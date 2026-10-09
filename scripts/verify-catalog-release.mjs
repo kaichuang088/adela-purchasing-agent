@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {realpathSync} from 'node:fs';
+import {readFile,readdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {randomUUID} from 'node:crypto';
+const require=createRequire(realpathSync(resolve('node_modules/wrangler/package.json'))),{Miniflare}=require('miniflare');
+const files=(await readdir('dist/server',{recursive:true})).filter(p=>/\.m?js$/.test(p));
+const password=randomUUID();let cookie='';let count=0;
+const mf=new Miniflare({modules:['index.js',...files.filter(p=>p!=='index.js')].map(p=>({type:'ESModule',path:resolve('dist/server',p)})),modulesRoot:resolve('dist/server'),scriptPath:undefined,compatibilityDate:'2026-05-15',compatibilityFlags:['nodejs_compat'],d1Databases:['DB'],bindings:{ADMIN_PASSWORD:password},assets:{directory:resolve('dist/client'),binding:'ASSETS',routerConfig:{has_user_worker:true,invoke_user_worker_ahead_of_assets:true}},cf:false});
+const check=(condition,label)=>{assert.ok(condition,label);console.log(`PASS ${++count}: ${label}`);};
+async function call(path,{body,admin=false,member=false,status=200}={}){const headers={'Content-Type':'application/json'};if(admin)headers['X-KK-Admin-Password']=password;if(member)headers.Cookie=cookie;const r=await mf.dispatchFetch('https://adela.test'+path,{method:body?'POST':'GET',headers,body:body?JSON.stringify(body):undefined});const data=await r.text();assert.equal(r.status,status,path+' '+data.slice(0,400));return {data:data?JSON.parse(data):null,r};}
+try{
+const db=await mf.getD1Database('DB');for(const f of (await readdir('drizzle')).filter(x=>x.endsWith('.sql')).sort())for(const sql of (await readFile('drizzle/'+f,'utf8')).split('--> statement-breakpoint').map(x=>x.trim()).filter(Boolean))await db.prepare(sql).run();
+await db.prepare("INSERT INTO store_settings(key,value) VALUES('commerce_settings',?)").bind(JSON.stringify({rateCurrency:'KRW',rateMode:'manual',manualRate:.025,orderOpensAt:new Date(Date.now()-86400000).toISOString(),orderClosesAt:new Date(Date.now()+86400000).toISOString(),shopPaused:false})).run();
+const initial=(await call('/api/shop')).data,curated=JSON.parse(await readFile('lib/curated-catalog.json','utf8'));
+check(initial.products.length>=49,'At least 49 catalog records visible in isolated API');
+for(const expected of curated){const p=initial.products.find(p=>p.nameEn===expected.nameEn);assert.ok(p,expected.nameEn);assert.equal(p.priceJpy,expected.price);assert.equal(p.imageUrl,expected.image);assert.equal(p.nameKo,expected.nameKo);assert.equal(p.currency,'KRW');assert.equal(p.country,'KR');}
+check(true,'Curated records reach the shop API unchanged (does not verify live source prices/images)');
+for(const flavor of ['Espresso','Americano','Matcha Latte']) assert.ok(initial.products.some(p=>p.nameEn===`I'MINT ${flavor} Coffee Candy 32g`),flavor+' single box');
+check(true,'All three coffee flavors each have a separate single-box record');
+check(initial.products.every(p=>p.nameKo?.trim()),'All visible catalog products have Korean display names (not full UI translation)');
+const again=(await call('/api/shop')).data;check(again.products.length===initial.products.length,'Catalog initialization is idempotent');
+await call('/api/operations',{status:401});check(true,'Admin data requires authentication');
+const signup=await call('/api/auth',{body:{action:'signup',email:'release@example.test',name:'Release Buyer',password:'test-pass-only-2026'},status:201});cookie=signup.r.headers.get('set-cookie').split(';')[0];
+check((await call('/api/shop',{member:true})).data.member.email==='release@example.test','Member remains signed in through session cookie');
+const gummy=initial.products.find(p=>p.nameEn==='Orion Peelable Grape Gummies 67g');
+const empty=initial.products.find(p=>p.stock===0);await call('/api/shop',{member:true,status:400,body:{action:'estimate',items:[{productId:empty.id,quantity:1,variantId:empty.variants[0]?.id}]}});check(true,'Unavailable item cannot be ordered');
+const offer={title:'Test minimum',titleEn:'Test minimum',code:'MIN400',tiers:['standard','platinum','black','diamond'],rate:8,discountType:'fixed',value:10,currency:'TWD',scope:'all',minMerchandiseTwd:400,startsAt:new Date(Date.now()-86400000).toISOString(),endsAt:new Date(Date.now()+86400000).toISOString()};
+await db.prepare('INSERT INTO kk_offers(code,data,active) VALUES(?,?,1)').bind(offer.code,JSON.stringify(offer)).run();
+await call('/api/shop',{member:true,body:{action:'claim_coupon',code:'MIN400'}});
+await call('/api/shop',{member:true,status:400,body:{action:'estimate',coupon:'MIN400',items:[{productId:gummy.id,quantity:1}]}});
+const eligible=(await call('/api/shop',{member:true,body:{action:'estimate',coupon:'MIN400',items:[{productId:gummy.id,quantity:20}]}})).data.pricing;check(eligible.discountTwd===10,'Coupon minimum rejects small basket and applies to qualifying basket');
+const items=[{productId:gummy.id,quantity:2}],p=(await call('/api/shop',{member:true,body:{action:'estimate',items}})).data.pricing;
+const order={action:'checkout',items,submissionKey:randomUUID(),approvedTotal:p.totalTwd,approvedSignature:JSON.stringify(p.items),approvedPurchaseAt:p.purchaseAt,approvedCancelUntil:p.cancelUntil};
+await call('/api/shop',{member:true,status:400,body:order});
+const address={recipient:'Test Buyer',phone:'0912345678',postalCode:'100',street:'台北市測試路 1 號'};
+const placed=(await call('/api/shop',{member:true,status:201,body:{...order,shippingAddress:address}})).data.order;
+check(placed.shippingAddress.street===address.street,'Checkout requires and saves shipping address');
+await call('/api/shop',{member:true,body:{action:'payment_reference',id:placed.id,reference:'12345'}});
+const admin=(await call('/api/operations',{admin:true})).data;check(admin.orders.find(o=>o.id===placed.id).status==='payment_review','Payment report reaches admin order queue');
+await call('/api/receipts',{member:true,body:{ids:[placed.id]}});check(true,'Buyer receipt data remains accessible');
+await call('/api/operations/ai-product',{admin:true,status:503,body:{prompt:'Le Labo hand soap',imageMode:'research',research:true}});check(true,'Missing AI connection is reported accurately without creating a product');
+await call('/api/operations/ai-command',{admin:true,status:400,body:{mode:'apply',command:{type:'arrival',from:'2026-02-30',to:'2026-03-10',eta:'2026-03-15'}}});check(true,'Impossible calendar date is rejected');
+await call('/api/operations/ai-command',{admin:true,body:{mode:'apply',command:{type:'discontinue',productId:gummy.id,name:gummy.nameZh}}});
+check(!(await call('/api/shop')).data.products.some(p=>p.id===gummy.id),'Confirmed discontinue hides item and seed does not reactivate it');
+await db.prepare("UPDATE store_settings SET value=json_set(value,'$.orderClosesAt',?) WHERE key='commerce_settings'").bind(new Date(Date.now()-1000).toISOString()).run();
+await call('/api/shop',{member:true,status:409,body:{action:'estimate',items:[{productId:initial.products.find(p=>p.id!==gummy.id&&p.stock===-1&&!p.variants.length).id,quantity:1}]}});check(true,'Purchase cutoff enforced on server');
+console.log('Release checks complete. Live AI connection is NOT covered and remains unconfigured.');
+}finally{await mf.dispose();}

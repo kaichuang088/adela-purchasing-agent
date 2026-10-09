@@ -1,0 +1,40 @@
+[mf:info] Ready on http://127.0.0.1:34181
+scheduled response 200 ok
+PASS 1: Compiled scheduled handler runs without an application page request
+PASS 2: Successful no-page scheduler records its event time for administrator diagnostics
+PASS 3: Verified paid and actual COD orders advance using scheduledTime
+PASS 4: Unverified, quoted, cancelled, held, purchased, collected, revised and future orders stay unchanged
+PASS 5: Each advancing order records one event and buyer notice atomically
+PASS 6: Event timestamp comes from scheduledTime
+scheduled response 200 ok
+scheduled response 200 ok
+scheduled response 200 ok
+PASS 7: Concurrent cron retries cannot duplicate events or notifications
+PASS 8: Missing email config preserves pending notifications
+PASS 9: Minute cron sends a daily payment reminder once in Taiwan 10:00 hour
+scheduled response 200 ok
+PASS 10: Next Taiwan day may send another reminder
+scheduled response 200 ok
+PASS 11: Disabled reminders remain disabled
+scheduled response 500 exception
+PASS 12: Injected notification failure is reported by scheduled handler
+PASS 13: Failed scheduler does not advance its last successful heartbeat
+PASS 14: Failure rolls back both purchasing event and status
+scheduled response 200 ok
+PASS 15: Failed transaction can be retried without lost work
+[mf:info] Updated and ready on http://127.0.0.1:45585
+scheduled response 200 ok
+PASS 16: Scheduled worker dispatches queued email through mock provider; no real email verified
+Scheduler recovery 16 checks; local compiled Worker only.
+scheduled_job_failed Error: D1_ERROR: injected notice failure: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+    at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:139:19)
+    at async cloudflare-internal:d1-api:90:27
+    ... 2 lines matching cause stack trace ...
+    at async file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:568 {
+  [cause]: Error: injected notice failure: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:140:24)
+      at async cloudflare-internal:d1-api:90:27
+      at async e (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/order-scheduler-baJWenH8.js:1:380)
+      at async Promise.all (index 0)
+      at async file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:568
+}

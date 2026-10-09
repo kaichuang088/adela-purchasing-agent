@@ -1,0 +1,41 @@
+shop I [Error]: 目前不開放此國家的代購。 / This country is currently unavailable.
+    at le (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:7494)
+    at Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-MHuJO-NK.js:1:3730)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 403
+}
+PASS 1: Non-Korean purchase blocked
+PASS 2: Mock Korean quote: 500 goods + 50 fee + 50 shipping
+PASS 3: Photo estimate creates no admin order
+PASS 4: Photo quantity recalculates quote
+PASS 5: AI order awaits seller review; no payment demand
+PASS 6: Photo order redeems exactly 30 points atomically
+PASS 7: Repeated photo purchase does not create duplicate order or deduct points twice
+PASS 8: Cancelling unpaid AI order restores snack points
+shop I [Error]: 查價已失效，請重新上傳。 / Quote expired. Upload again.
+    at Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-MHuJO-NK.js:1:5738)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 410
+}
+PASS 9: Discarded quote cannot be purchased
+shop I [Error]: AI 尚無法確認商品型號。請補充品牌／型號或改用能看清標籤的照片；不會建立訂單。 / The exact item could not be identified. Add the brand/model or upload a photo showing the label. No order was created.
+    at D (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-MHuJO-NK.js:1:601)
+    at O (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-MHuJO-NK.js:1:2777)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-MHuJO-NK.js:1:4913)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 422
+}
+PASS 10: Uncertain identification cannot become a quote
+10 Korean photo workflow checks passed using a MOCK provider; real AI remains unverified.

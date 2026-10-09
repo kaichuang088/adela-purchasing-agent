@@ -1,0 +1,291 @@
+{
+  "checked_at": "2026-09-27",
+  "method": "Public web search for official pages and authorized Shinsegae Le Labo brand listings; public official Taiwan HTML JSON-LD exact variant offers/images; no authenticated prices. Korea official HTML exposed null prices, so Korean list prices use Shinsegae.",
+  "candidates": [
+    {
+      "id": "another-13-50",
+      "brand": "Le Labo",
+      "name": "別物 13 淡香精",
+      "official_variant_name": "ANOTHER 13 - 50ml",
+      "spec": "50 ml",
+      "size_ml": 50,
+      "sku": "J0R601R000",
+      "category": "fragrance",
+      "korea_regular_nonmember_price_krw": 319000,
+      "korea_price_source": "https://department.ssg.com/item/itemView.ssg?itemId=1000026965464",
+      "korea_price_source_ref": "turn26search0",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/another-13-747.html",
+      "taiwan_price_twd": 7600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/050PA13100__PRODUCT_01--IMG_1200--ANOTHER13--1187746420.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "ANOTHER 13 - 50ml; priceCurrency TWD; price 7600",
+        "korea": "판매가/정상가격 319,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/another-13-50.jpg",
+      "image_http_status": 200,
+      "image_bytes": 600041,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "the-noir-29-50",
+      "brand": "Le Labo",
+      "name": "黑茶 29 淡香精",
+      "official_variant_name": "THÉ NOIR 29 - 50ml",
+      "spec": "50 ml",
+      "size_ml": 50,
+      "sku": "J0TL01R000",
+      "category": "fragrance",
+      "korea_regular_nonmember_price_krw": 319000,
+      "korea_price_source": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "korea_price_source_ref": "turn29search2",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/th-noir-29-1003.html",
+      "taiwan_price_twd": 7600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/th-noir-29-1003.html?size=50ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/050PT29100__PRODUCT_01--IMG_1200--THNOIR29-1054665072.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "THÉ NOIR 29 - 50ml; priceCurrency TWD; price 7600",
+        "korea": "판매가/정상가격 319,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-th-noir-29-1003.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/the-noir-29-50.jpg",
+      "image_http_status": 200,
+      "image_bytes": 606450,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "the-matcha-26-50",
+      "brand": "Le Labo",
+      "name": "末茶 26 淡香精",
+      "official_variant_name": "THÉ MATCHA 26 - 50ml",
+      "spec": "50 ml",
+      "size_ml": 50,
+      "sku": "J34301R000",
+      "category": "fragrance",
+      "korea_regular_nonmember_price_krw": 319000,
+      "korea_price_source": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&click=itemMidArea23&itemId=1000229430227&salestrNo=1004&siteNo=6009",
+      "korea_price_source_ref": "turn20search1",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/th-matcha-26-1186.html",
+      "taiwan_price_twd": 7600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/th-matcha-26-1186.html?size=50ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/J34301R000__PRODUCT_01--IMG_1200--THMATCHA26-1718797361.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "THÉ MATCHA 26 - 50ml; priceCurrency TWD; price 7600",
+        "korea": "판매가/정상가격 319,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-th-matcha-26-1186.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/the-matcha-26-50.jpg",
+      "image_http_status": 200,
+      "image_bytes": 610744,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "bergamote-22-50",
+      "brand": "Le Labo",
+      "name": "佛手柑 22 淡香精",
+      "official_variant_name": "BERGAMOTE 22 - 50ml",
+      "spec": "50 ml",
+      "size_ml": 50,
+      "sku": "J0R901R000",
+      "category": "fragrance",
+      "korea_regular_nonmember_price_krw": 319000,
+      "korea_price_source": "https://department.ssg.com/item/itemView.ssg?itemId=1000020808132",
+      "korea_price_source_ref": "turn20search4",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/bergamote-22-771.html",
+      "taiwan_price_twd": 7600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/bergamote-22-771.html?size=50ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/050PB22100__PRODUCT_01--IMG_1200--BERGAMOTE22--572008081.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "BERGAMOTE 22 - 50ml; priceCurrency TWD; price 7600",
+        "korea": "판매가/정상가격 319,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-bergamote-22-771.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/bergamote-22-50.jpg",
+      "image_http_status": 200,
+      "image_bytes": 605423,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "rose-31-50",
+      "brand": "Le Labo",
+      "name": "玫瑰 31 淡香精",
+      "official_variant_name": "ROSE 31 - 50ml",
+      "spec": "50 ml",
+      "size_ml": 50,
+      "sku": "J1KY01R000",
+      "category": "fragrance",
+      "korea_regular_nonmember_price_krw": 319000,
+      "korea_price_source": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "korea_price_source_ref": "turn20search2",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/rose-31-962.html",
+      "taiwan_price_twd": 7600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/rose-31-962.html?size=50ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/050PR31100__PRODUCT_01--IMG_1200--ROSE31-1879177013.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "ROSE 31 - 50ml; priceCurrency TWD; price 7600",
+        "korea": "판매가/정상가격 319,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-rose-31-962.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/rose-31-50.jpg",
+      "image_http_status": 200,
+      "image_bytes": 600016,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "basil-hand-soap-250",
+      "brand": "Le Labo",
+      "name": "羅勒洗手露",
+      "official_variant_name": "HAND SOAP - 250ml",
+      "spec": "250 ml",
+      "size_ml": 250,
+      "sku": "J1X8010000",
+      "category": "bodycare",
+      "korea_regular_nonmember_price_krw": 44000,
+      "korea_price_source": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "korea_price_source_ref": "turn31search8",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/hand-soap-1113.html",
+      "taiwan_price_twd": 1250,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/PHSB250100__PRODUCT_01--IMG_1200--HANDSOAP-1724298092.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "HAND SOAP - 250ml; priceCurrency TWD; price 1250",
+        "korea": "판매가/정상가격 44,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-hand-soap-1113.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。",
+        "較舊7月快取商品頁列₩42,000；較新的品牌頁（搜尋顯示昨日擷取）列₩44,000。商品頁型號PHSB250100確認250ml。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/basil-hand-soap-250.jpg",
+      "image_http_status": 200,
+      "image_bytes": 777348,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "hinoki-hand-lotion-250",
+      "brand": "Le Labo",
+      "name": "檜木護手乳",
+      "official_variant_name": "HAND LOTION - 250ml",
+      "spec": "250 ml",
+      "size_ml": 250,
+      "sku": "J0L3010000",
+      "category": "bodycare",
+      "korea_regular_nonmember_price_krw": 59000,
+      "korea_price_source": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84",
+      "korea_price_source_ref": "turn29search0",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/hand-lotion-1059.html",
+      "taiwan_price_twd": 1600,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/P002250100__PRODUCT_01--IMG_1200--HANDLOTION-687164991.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "HAND LOTION - 250ml; priceCurrency TWD; price 1600",
+        "korea": "판매가/정상가격 59,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-hand-lotion-1059.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/hinoki-hand-lotion-250.jpg",
+      "image_http_status": 200,
+      "image_bytes": 557065,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    },
+    {
+      "id": "hinoki-shower-gel-250",
+      "brand": "Le Labo",
+      "name": "檜木沐浴膠",
+      "official_variant_name": "SHOWER GEL - 250ml",
+      "spec": "250 ml",
+      "size_ml": 250,
+      "sku": "J0WP010000",
+      "category": "bodycare",
+      "korea_regular_nonmember_price_krw": 49000,
+      "korea_price_source": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8",
+      "korea_price_source_ref": "turn29search1",
+      "korea_official_url": "https://www.lelabofragrances.co.kr/shower-gel-1062.html",
+      "taiwan_price_twd": 1300,
+      "taiwan_official_url": "https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml",
+      "image_url": "https://assets.lltw.lelabo.uncacloud.com/images/skus/P016250100__PRODUCT_01--IMG_1200--SHOWERGEL--261465608.jpg",
+      "image_source": "Le Labo Taiwan official ProductGroup.hasVariant.image; exact SKU and volume match",
+      "checked_at": "2026-09-27",
+      "evidence": {
+        "taiwan": "SHOWER GEL - 250ml; priceCurrency TWD; price 1300",
+        "korea": "판매가/정상가격 49,000원; brand store 본사직영"
+      },
+      "raw_taiwan_html": "/workspace/scratch/4bd0e5239ba5/research/tw-shower-gel-1062.html",
+      "notes": [
+        "韓價採新世界百貨 Le Labo 本社直營常規售價；未採可能限會員的5%即時折扣。"
+      ],
+      "local_image_path": "/workspace/scratch/4bd0e5239ba5/research/images/hinoki-shower-gel-250.jpg",
+      "image_http_status": 200,
+      "image_bytes": 569065,
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "visual_check": "Contact sheet visually inspected: matching branded product packshot, no logo-only art; official structured data links exact volume/SKU."
+    }
+  ],
+  "limitations": [
+    "價格為查核時公開顯示；結帳、庫存與匯率另行確認。",
+    "韓國官方產品頁原始HTML未提供可讀價格，已明列實際採用的新世界來源。"
+  ]
+}

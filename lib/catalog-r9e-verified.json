@@ -1,0 +1,28 @@
+[
+  {
+    "match": "MEDIHEAL Madecassoside Sun Stick Airy Fit 10g",
+    "nameZh": "MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g",
+    "nameEn": "MEDIHEAL Madecassoside Sun Stick Airy Fit 10g",
+    "priceKrw": 11000,
+    "taiwanRetailTwd": 610,
+    "taiwanPromotionTwd": 367,
+    "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+    "spec": "10g 單支，SPF50+ PA++++，Airy Fit 空氣感款",
+    "descriptionZh": "10g 單支，Airy Fit 空氣感款。韓國 Olive Young 與 momo 同容量單支商品已核對；台灣比價採 momo 公開促銷價367元。依採買批次代購，非台灣現貨。",
+    "descriptionEn": "One 10g Airy Fit sun stick. Matching single-stick size verified at Korean Olive Young and momo Taiwan, using momo's public NT$367 offer. Scheduled-batch preorder.",
+    "evidence": [
+      "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+      "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094"
+    ],
+    "sourceNotes": "2026-10-04核查：Olive Young 10g單支公開促銷11000韓元（原15000），顯示加入購物車／立即購買及韓國一般配送免運；未承諾實際庫存數量。momo同容量單支公開促銷367元（市售610），韓國跨境配送，另列70元運費、滿490免運；比價僅用商品367元，未把台灣運費加進基準。",
+    "sourceCheckedAt": "2026-10-04",
+    "taiwanRetailCheckedAt": "2026-10-04",
+    "taiwanRetailClassification": "retailer_exact_spec",
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": [],
+    "taxIncludedJpy": 11000
+  }
+]

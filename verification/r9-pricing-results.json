@@ -1,0 +1,18 @@
+{
+  "checks": 21,
+  "prices": [
+    6300,
+    6188,
+    6113,
+    6000
+  ],
+  "capped": [
+    6175,
+    6144,
+    6113,
+    6000
+  ],
+  "visibleProducts": 117,
+  "unresolvedProducts": 64,
+  "scope": "Compiled API/disposable D1 only; no real procurement or live phone push"
+}

@@ -1,0 +1,4 @@
+{
+  "checks": 9,
+  "scope": "React server render and task behavior; no browser/mobile visual QA"
+}

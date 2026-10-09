@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-09-29T13:53:41.429Z",
+  "suites": [
+    {
+      "suite": "wallet-delivery",
+      "passed": true,
+      "namedChecks": 30,
+      "log": "verification/current-wallet-delivery.log"
+    },
+    {
+      "suite": "regressions",
+      "passed": true,
+      "namedChecks": 23,
+      "log": "verification/current-regressions.log"
+    },
+    {
+      "suite": "auth",
+      "passed": true,
+      "namedChecks": 6,
+      "log": "verification/current-auth.log"
+    },
+    {
+      "suite": "korea-photo-flow",
+      "passed": true,
+      "namedChecks": 10,
+      "log": "verification/current-korea-photo-flow.log"
+    },
+    {
+      "suite": "catalog-expansion",
+      "passed": true,
+      "namedChecks": 56,
+      "log": "verification/current-catalog-expansion.log"
+    },
+    {
+      "suite": "adela-korea",
+      "passed": true,
+      "namedChecks": 0,
+      "log": "verification/current-adela-korea.log"
+    },
+    {
+      "suite": "policy-updates",
+      "passed": true,
+      "namedChecks": 61,
+      "log": "verification/current-policy-updates.log"
+    },
+    {
+      "suite": "photo-quotes",
+      "passed": true,
+      "namedChecks": 20,
+      "log": "verification/current-photo-quotes.log"
+    },
+    {
+      "suite": "commerce",
+      "passed": true,
+      "namedChecks": 38,
+      "log": "verification/current-commerce.log"
+    },
+    {
+      "suite": "flows",
+      "passed": true,
+      "namedChecks": 14,
+      "log": "verification/current-flows.log"
+    },
+    {
+      "suite": "email-outbox",
+      "passed": true,
+      "namedChecks": 20,
+      "log": "verification/current-email-outbox.log"
+    },
+    {
+      "suite": "localization",
+      "passed": true,
+      "namedChecks": 32,
+      "log": "verification/current-localization.log"
+    }
+  ],
+  "totalNamedChecks": 310,
+  "scope": "Isolated database and local compiled app. Photo AI and email transport are mocked. Not live provider, browser UI or cross-site deployment verification."
+}

@@ -1,0 +1,4 @@
+{
+  "checks": 10,
+  "scope": "Isolated D1 scheduling/retention test; navigation source inspected; no browser/mobile visual QA"
+}

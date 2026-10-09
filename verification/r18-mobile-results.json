@@ -1,0 +1,2144 @@
+{
+  "engine": "Chromium",
+  "scope": "Actual compiled local app at 375/390/430; isolated data, not physical phone or live Sites",
+  "results": [
+    {
+      "width": 375,
+      "label": "shop",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":517.359375,\"width\":95.015625,\"height\":35.5,\"top\":517.359375,\"right\":414.0625,\"bottom\":552.859375,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":517.359375,\"width\":82.015625,\"height\":35.5,\"top\":517.359375,\"right\":503.078125,\"bottom\":552.859375,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":517.359375,\"width\":108.015625,\"height\":35.5,\"top\":517.359375,\"right\":618.09375,\"bottom\":552.859375,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":517.359375,\"width\":82.015625,\"height\":35.5,\"top\":517.359375,\"right\":707.109375,\"bottom\":552.859375,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "topup-detail",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21386.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":414.0625,\"bottom\":-21351.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":503.078125,\"bottom\":-21351.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21386.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":618.09375,\"bottom\":-21351.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":707.109375,\"bottom\":-21351.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "topup-payment",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21386.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":414.0625,\"bottom\":-21351.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":503.078125,\"bottom\":-21351.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21386.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":618.09375,\"bottom\":-21351.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":707.109375,\"bottom\":-21351.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "topup-reported",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21386.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":414.0625,\"bottom\":-21351.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":503.078125,\"bottom\":-21351.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21386.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":618.09375,\"bottom\":-21351.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21386.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21386.640625,\"right\":707.109375,\"bottom\":-21351.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "member-history",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "variant-photo-a",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-372.640625,\"width\":95.015625,\"height\":35.5,\"top\":-372.640625,\"right\":414.0625,\"bottom\":-337.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-372.640625,\"width\":82.015625,\"height\":35.5,\"top\":-372.640625,\"right\":503.078125,\"bottom\":-337.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-372.640625,\"width\":108.015625,\"height\":35.5,\"top\":-372.640625,\"right\":618.09375,\"bottom\":-337.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-372.640625,\"width\":82.015625,\"height\":35.5,\"top\":-372.640625,\"right\":707.109375,\"bottom\":-337.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "variant-photo-b",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-372.640625,\"width\":95.015625,\"height\":35.5,\"top\":-372.640625,\"right\":414.0625,\"bottom\":-337.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-372.640625,\"width\":82.015625,\"height\":35.5,\"top\":-372.640625,\"right\":503.078125,\"bottom\":-337.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-372.640625,\"width\":108.015625,\"height\":35.5,\"top\":-372.640625,\"right\":618.09375,\"bottom\":-337.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-372.640625,\"width\":82.015625,\"height\":35.5,\"top\":-372.640625,\"right\":707.109375,\"bottom\":-337.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "variant-photo-switch",
+      "ok": true,
+      "photoA": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+      "photoB": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko"
+    },
+    {
+      "width": 375,
+      "label": "product-detail",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-17314.640625,\"width\":95.015625,\"height\":35.5,\"top\":-17314.640625,\"right\":414.0625,\"bottom\":-17279.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-17314.640625,\"width\":82.015625,\"height\":35.5,\"top\":-17314.640625,\"right\":503.078125,\"bottom\":-17279.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-17314.640625,\"width\":108.015625,\"height\":35.5,\"top\":-17314.640625,\"right\":618.09375,\"bottom\":-17279.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-17314.640625,\"width\":82.015625,\"height\":35.5,\"top\":-17314.640625,\"right\":707.109375,\"bottom\":-17279.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "cart-address-payment",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-14760.640625,\"width\":95.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":414.0625,\"bottom\":-14725.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-14760.640625,\"width\":82.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":503.078125,\"bottom\":-14725.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-14760.640625,\"width\":108.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":618.09375,\"bottom\":-14725.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-14760.640625,\"width\":82.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":707.109375,\"bottom\":-14725.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 15,
+          "right": 375,
+          "clientWidth": 359,
+          "scrollWidth": 359
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "checkout-address",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-14760.640625,\"width\":95.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":414.0625,\"bottom\":-14725.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-14760.640625,\"width\":82.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":503.078125,\"bottom\":-14725.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-14760.640625,\"width\":108.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":618.09375,\"bottom\":-14725.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-14760.640625,\"width\":82.015625,\"height\":35.5,\"top\":-14760.640625,\"right\":707.109375,\"bottom\":-14725.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 15,
+          "right": 375,
+          "clientWidth": 359,
+          "scrollWidth": 359
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "checkout-success",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":306,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":418,\"bottom\":1097.875,\"left\":306}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":347,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":377,\"bottom\":1016.6875,\"left\":347}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":341,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":383,\"bottom\":1045.6875,\"left\":341}"
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "rect": "{\"x\":327.65625,\"y\":1053.6875,\"width\":68.6875,\"height\":44.1875,\"top\":1053.6875,\"right\":396.34375,\"bottom\":1097.875,\"left\":327.65625}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":546,\"bottom\":1097.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":505,\"bottom\":1016.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":511,\"bottom\":1045.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":674,\"bottom\":1097.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":633,\"bottom\":1016.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1024.6875,\"width\":70,\"height\":21,\"top\":1024.6875,\"right\":653,\"bottom\":1045.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":802,\"bottom\":1097.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":761,\"bottom\":1016.6875,\"left\":731}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "payment-report-form",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":306,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":418,\"bottom\":1549.875,\"left\":306}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":347,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":377,\"bottom\":1468.6875,\"left\":347}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":341,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":383,\"bottom\":1497.6875,\"left\":341}"
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "rect": "{\"x\":327.65625,\"y\":1505.6875,\"width\":68.6875,\"height\":44.1875,\"top\":1505.6875,\"right\":396.34375,\"bottom\":1549.875,\"left\":327.65625}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":546,\"bottom\":1549.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":505,\"bottom\":1468.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":511,\"bottom\":1497.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":674,\"bottom\":1549.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":633,\"bottom\":1468.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1476.6875,\"width\":70,\"height\":21,\"top\":1476.6875,\"right\":653,\"bottom\":1497.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":802,\"bottom\":1549.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":761,\"bottom\":1468.6875,\"left\":731}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "customer-support",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-orders-topups",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-topup-reconcile",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-topup-confirmed",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-notifications",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-products",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-edit-price-warning",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "admin-ai-edit-price-warning",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "admin-navigation",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 16,
+          "right": 359,
+          "clientWidth": 341,
+          "scrollWidth": 341
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "label": "admin-ai-batch",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-members-refund",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-coupons",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "admin-settings",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 375,
+      "label": "browser-errors",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "label": "shop",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":517.359375,\"width\":95.015625,\"height\":35.5,\"top\":517.359375,\"right\":414.0625,\"bottom\":552.859375,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":517.359375,\"width\":82.015625,\"height\":35.5,\"top\":517.359375,\"right\":503.078125,\"bottom\":552.859375,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":517.359375,\"width\":108.015625,\"height\":35.5,\"top\":517.359375,\"right\":618.09375,\"bottom\":552.859375,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":517.359375,\"width\":82.015625,\"height\":35.5,\"top\":517.359375,\"right\":707.109375,\"bottom\":552.859375,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "topup-detail",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21654.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":414.0625,\"bottom\":-21619.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":503.078125,\"bottom\":-21619.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21654.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":618.09375,\"bottom\":-21619.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":707.109375,\"bottom\":-21619.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "topup-payment",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21654.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":414.0625,\"bottom\":-21619.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":503.078125,\"bottom\":-21619.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21654.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":618.09375,\"bottom\":-21619.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":707.109375,\"bottom\":-21619.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "topup-reported",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-21654.640625,\"width\":95.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":414.0625,\"bottom\":-21619.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":503.078125,\"bottom\":-21619.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-21654.640625,\"width\":108.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":618.09375,\"bottom\":-21619.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-21654.640625,\"width\":82.015625,\"height\":35.5,\"top\":-21654.640625,\"right\":707.109375,\"bottom\":-21619.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "member-history",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "variant-photo-a",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-380.640625,\"width\":95.015625,\"height\":35.5,\"top\":-380.640625,\"right\":414.0625,\"bottom\":-345.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-380.640625,\"width\":82.015625,\"height\":35.5,\"top\":-380.640625,\"right\":503.078125,\"bottom\":-345.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-380.640625,\"width\":108.015625,\"height\":35.5,\"top\":-380.640625,\"right\":618.09375,\"bottom\":-345.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-380.640625,\"width\":82.015625,\"height\":35.5,\"top\":-380.640625,\"right\":707.109375,\"bottom\":-345.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "variant-photo-b",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-380.640625,\"width\":95.015625,\"height\":35.5,\"top\":-380.640625,\"right\":414.0625,\"bottom\":-345.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-380.640625,\"width\":82.015625,\"height\":35.5,\"top\":-380.640625,\"right\":503.078125,\"bottom\":-345.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-380.640625,\"width\":108.015625,\"height\":35.5,\"top\":-380.640625,\"right\":618.09375,\"bottom\":-345.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-380.640625,\"width\":82.015625,\"height\":35.5,\"top\":-380.640625,\"right\":707.109375,\"bottom\":-345.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "variant-photo-switch",
+      "ok": true,
+      "photoA": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+      "photoB": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko"
+    },
+    {
+      "width": 390,
+      "label": "product-detail",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-17510.640625,\"width\":95.015625,\"height\":35.5,\"top\":-17510.640625,\"right\":414.0625,\"bottom\":-17475.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-17510.640625,\"width\":82.015625,\"height\":35.5,\"top\":-17510.640625,\"right\":503.078125,\"bottom\":-17475.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-17510.640625,\"width\":108.015625,\"height\":35.5,\"top\":-17510.640625,\"right\":618.09375,\"bottom\":-17475.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-17510.640625,\"width\":82.015625,\"height\":35.5,\"top\":-17510.640625,\"right\":707.109375,\"bottom\":-17475.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "cart-address-payment",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-15008.640625,\"width\":95.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":414.0625,\"bottom\":-14973.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-15008.640625,\"width\":82.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":503.078125,\"bottom\":-14973.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-15008.640625,\"width\":108.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":618.09375,\"bottom\":-14973.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-15008.640625,\"width\":82.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":707.109375,\"bottom\":-14973.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 15.609375,
+          "right": 390,
+          "clientWidth": 373,
+          "scrollWidth": 373
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "checkout-address",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":319.046875,\"y\":-15008.640625,\"width\":95.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":414.0625,\"bottom\":-14973.140625,\"left\":319.046875}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-15008.640625,\"width\":82.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":503.078125,\"bottom\":-14973.140625,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-15008.640625,\"width\":108.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":618.09375,\"bottom\":-14973.140625,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-15008.640625,\"width\":82.015625,\"height\":35.5,\"top\":-15008.640625,\"right\":707.109375,\"bottom\":-14973.140625,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 15.609375,
+          "right": 390,
+          "clientWidth": 373,
+          "scrollWidth": 373
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "checkout-success",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":306,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":418,\"bottom\":1097.875,\"left\":306}"
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "rect": "{\"x\":327.65625,\"y\":1053.6875,\"width\":68.6875,\"height\":44.1875,\"top\":1053.6875,\"right\":396.34375,\"bottom\":1097.875,\"left\":327.65625}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":546,\"bottom\":1097.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":505,\"bottom\":1016.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":511,\"bottom\":1045.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":674,\"bottom\":1097.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":633,\"bottom\":1016.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1024.6875,\"width\":70,\"height\":21,\"top\":1024.6875,\"right\":653,\"bottom\":1045.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":802,\"bottom\":1097.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":761,\"bottom\":1016.6875,\"left\":731}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":725,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":767,\"bottom\":1045.6875,\"left\":725}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":818,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":930,\"bottom\":1097.875,\"left\":818}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "payment-report-form",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":306,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":418,\"bottom\":1549.875,\"left\":306}"
+        },
+        {
+          "tag": "SMALL",
+          "cls": "",
+          "rect": "{\"x\":327.65625,\"y\":1505.6875,\"width\":68.6875,\"height\":44.1875,\"top\":1505.6875,\"right\":396.34375,\"bottom\":1549.875,\"left\":327.65625}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":546,\"bottom\":1549.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":505,\"bottom\":1468.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":511,\"bottom\":1497.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":674,\"bottom\":1549.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":633,\"bottom\":1468.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1476.6875,\"width\":70,\"height\":21,\"top\":1476.6875,\"right\":653,\"bottom\":1497.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":802,\"bottom\":1549.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":761,\"bottom\":1468.6875,\"left\":731}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":725,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":767,\"bottom\":1497.6875,\"left\":725}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":818,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":930,\"bottom\":1549.875,\"left\":818}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "customer-support",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-orders-topups",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-topup-reconcile",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-topup-confirmed",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-notifications",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-products",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-edit-price-warning",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "admin-ai-edit-price-warning",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "admin-navigation",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 16,
+          "right": 374,
+          "clientWidth": 356,
+          "scrollWidth": 356
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "label": "admin-ai-batch",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-members-refund",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-coupons",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "admin-settings",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 390,
+      "label": "browser-errors",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "label": "shop",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":494.96875,\"width\":82.015625,\"height\":35.5,\"top\":494.96875,\"right\":503.078125,\"bottom\":530.46875,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":494.96875,\"width\":108.015625,\"height\":35.5,\"top\":494.96875,\"right\":618.09375,\"bottom\":530.46875,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":494.96875,\"width\":82.015625,\"height\":35.5,\"top\":494.96875,\"right\":707.109375,\"bottom\":530.46875,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "topup-detail",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":503.078125,\"bottom\":-22542.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-22578.03125,\"width\":108.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":618.09375,\"bottom\":-22542.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":707.109375,\"bottom\":-22542.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "topup-payment",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":503.078125,\"bottom\":-22542.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-22578.03125,\"width\":108.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":618.09375,\"bottom\":-22542.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":707.109375,\"bottom\":-22542.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "topup-reported",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":503.078125,\"bottom\":-22542.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-22578.03125,\"width\":108.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":618.09375,\"bottom\":-22542.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-22578.03125,\"width\":82.015625,\"height\":35.5,\"top\":-22578.03125,\"right\":707.109375,\"bottom\":-22542.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "member-history",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "variant-photo-a",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-400.03125,\"width\":82.015625,\"height\":35.5,\"top\":-400.03125,\"right\":503.078125,\"bottom\":-364.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-400.03125,\"width\":108.015625,\"height\":35.5,\"top\":-400.03125,\"right\":618.09375,\"bottom\":-364.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-400.03125,\"width\":82.015625,\"height\":35.5,\"top\":-400.03125,\"right\":707.109375,\"bottom\":-364.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "variant-photo-b",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-400.03125,\"width\":82.015625,\"height\":35.5,\"top\":-400.03125,\"right\":503.078125,\"bottom\":-364.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-400.03125,\"width\":108.015625,\"height\":35.5,\"top\":-400.03125,\"right\":618.09375,\"bottom\":-364.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-400.03125,\"width\":82.015625,\"height\":35.5,\"top\":-400.03125,\"right\":707.109375,\"bottom\":-364.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "variant-photo-switch",
+      "ok": true,
+      "photoA": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+      "photoB": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko"
+    },
+    {
+      "width": 430,
+      "label": "product-detail",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-18266.03125,\"width\":82.015625,\"height\":35.5,\"top\":-18266.03125,\"right\":503.078125,\"bottom\":-18230.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-18266.03125,\"width\":108.015625,\"height\":35.5,\"top\":-18266.03125,\"right\":618.09375,\"bottom\":-18230.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-18266.03125,\"width\":82.015625,\"height\":35.5,\"top\":-18266.03125,\"right\":707.109375,\"bottom\":-18230.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "cart-address-payment",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-15764.03125,\"width\":82.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":503.078125,\"bottom\":-15728.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-15764.03125,\"width\":108.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":618.09375,\"bottom\":-15728.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-15764.03125,\"width\":82.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":707.109375,\"bottom\":-15728.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 17.203125,
+          "right": 430,
+          "clientWidth": 412,
+          "scrollWidth": 412
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "checkout-address",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":421.0625,\"y\":-15764.03125,\"width\":82.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":503.078125,\"bottom\":-15728.53125,\"left\":421.0625}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":510.078125,\"y\":-15764.03125,\"width\":108.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":618.09375,\"bottom\":-15728.53125,\"left\":510.078125}"
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "",
+          "rect": "{\"x\":625.09375,\"y\":-15764.03125,\"width\":82.015625,\"height\":35.5,\"top\":-15764.03125,\"right\":707.109375,\"bottom\":-15728.53125,\"left\":625.09375}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 17.203125,
+          "right": 430,
+          "clientWidth": 412,
+          "scrollWidth": 412
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "checkout-success",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":546,\"bottom\":1097.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":505,\"bottom\":1016.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":511,\"bottom\":1045.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":674,\"bottom\":1097.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":633,\"bottom\":1016.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1024.6875,\"width\":70,\"height\":21,\"top\":1024.6875,\"right\":653,\"bottom\":1045.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":802,\"bottom\":1097.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":761,\"bottom\":1016.6875,\"left\":731}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":725,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":767,\"bottom\":1045.6875,\"left\":725}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":818,\"y\":986.6875,\"width\":112,\"height\":111.1875,\"top\":986.6875,\"right\":930,\"bottom\":1097.875,\"left\":818}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":859,\"y\":986.6875,\"width\":30,\"height\":30,\"top\":986.6875,\"right\":889,\"bottom\":1016.6875,\"left\":859}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":853,\"y\":1024.6875,\"width\":42,\"height\":21,\"top\":1024.6875,\"right\":895,\"bottom\":1045.6875,\"left\":853}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "payment-report-form",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":434,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":546,\"bottom\":1549.875,\"left\":434}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":475,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":505,\"bottom\":1468.6875,\"left\":475}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":469,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":511,\"bottom\":1497.6875,\"left\":469}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":562,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":674,\"bottom\":1549.875,\"left\":562}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":603,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":633,\"bottom\":1468.6875,\"left\":603}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":583,\"y\":1476.6875,\"width\":70,\"height\":21,\"top\":1476.6875,\"right\":653,\"bottom\":1497.6875,\"left\":583}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":690,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":802,\"bottom\":1549.875,\"left\":690}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":731,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":761,\"bottom\":1468.6875,\"left\":731}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":725,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":767,\"bottom\":1497.6875,\"left\":725}"
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "rect": "{\"x\":818,\"y\":1438.6875,\"width\":112,\"height\":111.1875,\"top\":1438.6875,\"right\":930,\"bottom\":1549.875,\"left\":818}"
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "rect": "{\"x\":859,\"y\":1438.6875,\"width\":30,\"height\":30,\"top\":1438.6875,\"right\":889,\"bottom\":1468.6875,\"left\":859}"
+        },
+        {
+          "tag": "B",
+          "cls": "",
+          "rect": "{\"x\":853,\"y\":1476.6875,\"width\":42,\"height\":21,\"top\":1476.6875,\"right\":895,\"bottom\":1497.6875,\"left\":853}"
+        }
+      ],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "customer-support",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-orders-topups",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-topup-reconcile",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-topup-confirmed",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-notifications",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-products",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-edit-price-warning",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "admin-ai-edit-price-warning",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "admin-navigation",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": [
+        {
+          "left": 16,
+          "right": 414,
+          "clientWidth": 396,
+          "scrollWidth": 396
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "label": "admin-ai-batch",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-members-refund",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-coupons",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "admin-settings",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "overflow": [],
+      "clippedControls": [],
+      "dialogs": []
+    },
+    {
+      "width": 430,
+      "label": "browser-errors",
+      "ok": true,
+      "errors": []
+    }
+  ],
+  "screens": [
+    "verification/r18-mobile/375-shop.png",
+    "verification/r18-mobile/375-topup-detail.png",
+    "verification/r18-mobile/375-topup-payment.png",
+    "verification/r18-mobile/375-topup-reported.png",
+    "verification/r18-mobile/375-member-history.png",
+    "verification/r18-mobile/375-variant-photo-a.png",
+    "verification/r18-mobile/375-variant-photo-b.png",
+    "verification/r18-mobile/375-product-detail.png",
+    "verification/r18-mobile/375-cart-address-payment.png",
+    "verification/r18-mobile/375-checkout-address.png",
+    "verification/r18-mobile/375-checkout-success.png",
+    "verification/r18-mobile/375-payment-report-form.png",
+    "verification/r18-mobile/375-customer-support.png",
+    "verification/r18-mobile/375-notifications.png",
+    "verification/r18-mobile/375-admin-orders-topups.png",
+    "verification/r18-mobile/375-admin-topup-reconcile.png",
+    "verification/r18-mobile/375-admin-topup-confirmed.png",
+    "verification/r18-mobile/375-admin-notifications.png",
+    "verification/r18-mobile/375-admin-products.png",
+    "verification/r18-mobile/375-admin-edit-price-warning.png",
+    "verification/r18-mobile/375-admin-ai-edit-price-warning.png",
+    "verification/r18-mobile/375-admin-navigation.png",
+    "verification/r18-mobile/375-admin-ai-batch.png",
+    "verification/r18-mobile/375-admin-members-refund.png",
+    "verification/r18-mobile/375-admin-coupons.png",
+    "verification/r18-mobile/375-admin-settings.png",
+    "verification/r18-mobile/390-shop.png",
+    "verification/r18-mobile/390-topup-detail.png",
+    "verification/r18-mobile/390-topup-payment.png",
+    "verification/r18-mobile/390-topup-reported.png",
+    "verification/r18-mobile/390-member-history.png",
+    "verification/r18-mobile/390-variant-photo-a.png",
+    "verification/r18-mobile/390-variant-photo-b.png",
+    "verification/r18-mobile/390-product-detail.png",
+    "verification/r18-mobile/390-cart-address-payment.png",
+    "verification/r18-mobile/390-checkout-address.png",
+    "verification/r18-mobile/390-checkout-success.png",
+    "verification/r18-mobile/390-payment-report-form.png",
+    "verification/r18-mobile/390-customer-support.png",
+    "verification/r18-mobile/390-notifications.png",
+    "verification/r18-mobile/390-admin-orders-topups.png",
+    "verification/r18-mobile/390-admin-topup-reconcile.png",
+    "verification/r18-mobile/390-admin-topup-confirmed.png",
+    "verification/r18-mobile/390-admin-notifications.png",
+    "verification/r18-mobile/390-admin-products.png",
+    "verification/r18-mobile/390-admin-edit-price-warning.png",
+    "verification/r18-mobile/390-admin-ai-edit-price-warning.png",
+    "verification/r18-mobile/390-admin-navigation.png",
+    "verification/r18-mobile/390-admin-ai-batch.png",
+    "verification/r18-mobile/390-admin-members-refund.png",
+    "verification/r18-mobile/390-admin-coupons.png",
+    "verification/r18-mobile/390-admin-settings.png",
+    "verification/r18-mobile/430-shop.png",
+    "verification/r18-mobile/430-topup-detail.png",
+    "verification/r18-mobile/430-topup-payment.png",
+    "verification/r18-mobile/430-topup-reported.png",
+    "verification/r18-mobile/430-member-history.png",
+    "verification/r18-mobile/430-variant-photo-a.png",
+    "verification/r18-mobile/430-variant-photo-b.png",
+    "verification/r18-mobile/430-product-detail.png",
+    "verification/r18-mobile/430-cart-address-payment.png",
+    "verification/r18-mobile/430-checkout-address.png",
+    "verification/r18-mobile/430-checkout-success.png",
+    "verification/r18-mobile/430-payment-report-form.png",
+    "verification/r18-mobile/430-customer-support.png",
+    "verification/r18-mobile/430-notifications.png",
+    "verification/r18-mobile/430-admin-orders-topups.png",
+    "verification/r18-mobile/430-admin-topup-reconcile.png",
+    "verification/r18-mobile/430-admin-topup-confirmed.png",
+    "verification/r18-mobile/430-admin-notifications.png",
+    "verification/r18-mobile/430-admin-products.png",
+    "verification/r18-mobile/430-admin-edit-price-warning.png",
+    "verification/r18-mobile/430-admin-ai-edit-price-warning.png",
+    "verification/r18-mobile/430-admin-navigation.png",
+    "verification/r18-mobile/430-admin-ai-batch.png",
+    "verification/r18-mobile/430-admin-members-refund.png",
+    "verification/r18-mobile/430-admin-coupons.png",
+    "verification/r18-mobile/430-admin-settings.png"
+  ]
+}

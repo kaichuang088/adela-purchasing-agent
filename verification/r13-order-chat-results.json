@@ -1,0 +1,4 @@
+{
+  "checks": 18,
+  "scope": "Compiled API in disposable D1 and mock gateway; no live AI, browser, phone or payment end-to-end test"
+}

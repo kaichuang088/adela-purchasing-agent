@@ -1,0 +1,389 @@
+{
+  "count": 64,
+  "products": [
+    {
+      "name": "Stüssy Seoul 首爾限定 T 恤｜黑／白",
+      "nameEn": "Stussy Seoul Chapter Tee reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "唇彩 04 Hip Chocolate／01 Salmon Beige",
+      "nameEn": "Lip Colors Hip Chocolate Salmon Beige reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "OFRA Glazed Donut 打亮",
+      "nameEn": "OFRA Glazed Donut Highlighter reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "背部身體護理噴霧（品牌待辨識）",
+      "nameEn": "Body Care Spray reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "三麗鷗聯名美妝與配件",
+      "nameEn": "Sanrio Beauty and Accessories reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "Kuromi 聯名彩妝與掛飾",
+      "nameEn": "Kuromi Cosmetics and Charms reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "Hello Kitty 聯名唇彩（參考款）",
+      "nameEn": "Hello Kitty Lip Collection reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "飛天小女警聯名粉餅（參考款）",
+      "nameEn": "Powerpuff Girls Compact reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "CU 杜拜巧克力 Q 餅（參考款）",
+      "nameEn": "CU Dubai Chewy Chocolate Cookie reference",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "MEDIHEAL 三麗鷗聯名棉片",
+      "nameEn": "MEDIHEAL Sanrio Derma Toner Pads",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "Milky Shop 奶油夾心餅乾",
+      "nameEn": "Milky Shop Butter Sand",
+      "spec": "",
+      "purchaseUrl": ""
+    },
+    {
+      "name": "戰鬥陀螺 X BX-01 Dran Sword 3-60F",
+      "nameEn": "Beyblade X BX-01 Dran Sword 3-60F",
+      "spec": "韓國 Young Toys 版起始組",
+      "purchaseUrl": "https://www.ntoyshop.com/shop/shopdetail.html?branduid=1086360"
+    },
+    {
+      "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "nameEn": "RE:NEW PHY Hansonkki Petit Shake 40g",
+      "spec": "40g 單包",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000241255"
+    },
+    {
+      "name": "Condition 韓國解酒果凍 18g｜單條",
+      "nameEn": "Condition Green Apple Stick 18g",
+      "spec": "青蘋果 18g，單條",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000168270"
+    },
+    {
+      "name": "Torriden DIVE IN 精華 50mL 新版",
+      "nameEn": "Torriden DIVE IN Serum 50mL NEW",
+      "spec": "50mL 新版；與台灣舊版配方尚未核實一致",
+      "purchaseUrl": "https://www.torriden.com/goods/goods_view.php?goodsNo=2268"
+    },
+    {
+      "name": "makeprem 三麗鷗 NMN 彈力安瓶 50mL＋20mL",
+      "nameEn": "makeprem Sanrio NMN Ampoule 50mL + 20mL",
+      "spec": "50mL＋20mL，聯名卡夾與手機支架",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534"
+    },
+    {
+      "name": "UNOVE × 飛天小女警 絲柔髮油 70mL × 2",
+      "nameEn": "UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2",
+      "spec": "70mL × 2",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422"
+    },
+    {
+      "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
+      "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "spec": "50g × 1",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852"
+    },
+    {
+      "name": "Le Labo 薰衣草 31淡香精 50ml",
+      "nameEn": "Le Labo LAVANDE 31 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "purchaseUrl": "https://www.lelabofragrances.co.kr/31--lavande-31-1265.html"
+    },
+    {
+      "name": "Le Labo 香葵 9淡香精 50ml",
+      "nameEn": "Le Labo AMBRETTE 9 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "purchaseUrl": "https://www.lelabofragrances.co.kr/ambrette-9-735.html"
+    },
+    {
+      "name": "Mardi Mercredi LA TYPO FRANCAISE 海軍藍帆布托特包",
+      "nameEn": "Mardi Mercredi Canvas Tote Bag La Typo Francaise Navy",
+      "spec": "1個；商品14425；單一販售規格，尺寸數據未確認",
+      "purchaseUrl": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/"
+    },
+    {
+      "name": "Mardi Mercredi 羊絨混紡黑粉菱格圓領開襟衫",
+      "nameEn": "Mardi Mercredi Cashmere Blend Cardigan Round Neck Argyle Punching Detail Black Pink",
+      "spec": "1件；商品15120；單一販售規格，尺寸數據未確認",
+      "purchaseUrl": "https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/"
+    },
+    {
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "nameEn": "Mardi Mercredi Legere Sneakers Pink",
+      "spec": "1雙；商品5456；請選鞋碼（mm）",
+      "purchaseUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/"
+    },
+    {
+      "name": "Mardi Mercredi CAP M 海軍藍白色棒球帽",
+      "nameEn": "Mardi Mercredi CAP M Navy White",
+      "spec": "1頂；商品6143；單一販售規格，尺寸數據未確認",
+      "purchaseUrl": "https://mardimercredi.com/product/cap-mnavy-white/6143/"
+    },
+    {
+      "name": "Stüssy WAVES SKULLCAP 炭灰色毛帽",
+      "nameEn": "Stüssy Waves Skullcap Charcoal",
+      "spec": "1頂；ONE SIZE；80%壓克力／20%羊毛；款號1321240",
+      "purchaseUrl": "https://kr.stussy.com/products/1321240-waves-skullcap-charcoal"
+    },
+    {
+      "name": "Stüssy SILK BANDANA 豹紋真絲方巾",
+      "nameEn": "Stüssy Silk Bandana Leopard",
+      "spec": "1條；66 × 66cm；100%真絲；款號138965",
+      "purchaseUrl": "https://kr.stussy.com/products/138965-silk-bandana-leopard"
+    },
+    {
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "nameEn": "Stüssy Authorized Crew Navy",
+      "spec": "1件；430gsm，75%棉／25%聚酯纖維；款號1915122",
+      "purchaseUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy"
+    },
+    {
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "nameEn": "Stüssy Berries Tee Cayenne",
+      "spec": "1件；220gsm 純棉；款號1905108",
+      "purchaseUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne"
+    },
+    {
+      "name": "Isntree 洋蔥 Newpair Booster Shot 2000 精華 50ml",
+      "nameEn": "Isntree Onion Newpair Booster Shot 2000 50ml",
+      "spec": "50ml × 1",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864"
+    },
+    {
+      "name": "ma:nyo Pure Soybean 大豆卸妝油 200ml",
+      "nameEn": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+      "spec": "200ml × 1",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679"
+    },
+    {
+      "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
+      "nameEn": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+      "spec": "100片 × 1盒",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380"
+    },
+    {
+      "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
+      "nameEn": "AESTURA Atobarrier365 Cream 80ml Set (Toner 25ml + Cleanser 3g x 3)",
+      "spec": "面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864"
+    },
+    {
+      "name": "ILLIYOON Ceramide Ato 神經醯胺集中保濕霜（75ml × 1條）",
+      "nameEn": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+      "spec": "75ml × 1條",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30"
+    },
+    {
+      "name": "Dr.G Red Blemish EX 清爽舒緩面霜（第三代 EX新版 70ml × 1罐）",
+      "nameEn": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+      "spec": "第三代 EX新版 70ml × 1罐",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251651"
+    },
+    {
+      "name": "Anua 魚腥草77玻尿酸保濕舒緩化妝水（新版 350ml × 1瓶）",
+      "nameEn": "Anua Heartleaf 77 Hyaluron Moisturizing Toner 350ml",
+      "spec": "新版 350ml × 1瓶",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696"
+    },
+    {
+      "name": "Byredo Bibliothèque 圖書館香氛蠟燭 240g",
+      "nameEn": "Byredo Bibliothèque Candle 240g",
+      "spec": "240g",
+      "purchaseUrl": "https://www.byredo.com/ko_kr/c/perfume"
+    },
+    {
+      "name": "Diptyque BAIES 漿果香氛蠟燭 190g",
+      "nameEn": "Diptyque Baies Classic Candle 190g",
+      "spec": "",
+      "purchaseUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000812908481&salestrNo=1004&siteNo=6009"
+    },
+    {
+      "name": "thisisneverthat T-Logo Tee 水洗黑",
+      "nameEn": "thisisneverthat T-Logo Tee Washed Black SS26",
+      "spec": "",
+      "purchaseUrl": "https://www.musinsa.com/products/5992310"
+    },
+    {
+      "name": "Matin Kim Accordion Wallet 黑色卡夾",
+      "nameEn": "Matin Kim Accordion Wallet Black",
+      "spec": "",
+      "purchaseUrl": "https://matinkim.com/product/accordion-wallet-in-black/2164/"
+    },
+    {
+      "name": "Stüssy Basic Tee 黑色",
+      "nameEn": "Stüssy Basic Tee Black",
+      "spec": "",
+      "purchaseUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black"
+    },
+    {
+      "name": "Beauty of Joseon 米萃防曬 50ml＋贈20ml",
+      "nameEn": "Beauty of Joseon Relief Sun 50ml + 20ml",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657"
+    },
+    {
+      "name": "ROUND LAB 獨島化妝水 200ml＋贈50ml",
+      "nameEn": "Round Lab Dokdo Toner 200ml + 50ml",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162"
+    },
+    {
+      "name": "Torriden DIVE IN 精華 50ml＋補充包50ml",
+      "nameEn": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291"
+    },
+    {
+      "name": "rom&nd Juicy Lasting Tint ZERO 透明唇蜜",
+      "nameEn": "romand Juicy Lasting Tint ZERO Clear",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293"
+    },
+    {
+      "name": "農心 蝦味條 哇沙米 70g",
+      "nameEn": "Nongshim Wasabi Shrimp Crackers 70g",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233613"
+    },
+    {
+      "name": "農心 蝦味條 辣味 90g",
+      "nameEn": "Nongshim Spicy Shrimp Crackers 90g",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233529"
+    },
+    {
+      "name": "Market O 巧克力布朗尼 120g／6入",
+      "nameEn": "Market O Real Brownie 120g 6 pieces",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857"
+    },
+    {
+      "name": "Orion 烏龜四層脆片 抹茶巧克力 104g",
+      "nameEn": "Orion Turtle Chips Matcha Chocolate 104g",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330"
+    },
+    {
+      "name": "好麗友 四種經典零食組（4 包）",
+      "nameEn": "Orion Korean Snack Mix 4 Bags",
+      "spec": "",
+      "purchaseUrl": "https://www.kurly.com/goods/5069938"
+    },
+    {
+      "name": "農心 蝦味先 90g",
+      "nameEn": "Nongshim Saewookkang Shrimp Crackers 90g",
+      "spec": "",
+      "purchaseUrl": "https://www.kurly.com/goods/5061325"
+    },
+    {
+      "name": "Fillimilli 885 腮紅刷",
+      "nameEn": "Fillimilli Point Blusher Brush 885",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645"
+    },
+    {
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "nameEn": "Stüssy Relaxed Zip Hoodie Natural",
+      "spec": "",
+      "purchaseUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural"
+    },
+    {
+      "name": "Stüssy Big Stock 棒球帽 Royal",
+      "nameEn": "Stüssy Big Stock Snapback Cap Royal",
+      "spec": "",
+      "purchaseUrl": "https://kr.stussy.com/products/1311209-big-stock-snapback-cap-royal"
+    },
+    {
+      "name": "Stüssy Basic Tee 卡其色",
+      "nameEn": "Stüssy Basic Tee Khaki",
+      "spec": "",
+      "purchaseUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki"
+    },
+    {
+      "name": "Torriden DIVE-IN 防曬精華（50ml＋20ml）",
+      "nameEn": "Torriden DIVE-IN Watery Fit Sun Serum 50ml + 20ml",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495"
+    },
+    {
+      "name": "Round Lab 1025 獨島化妝水＋乳液（200ml × 2）",
+      "nameEn": "Round Lab 1025 Dokdo Toner and Lotion 200ml x 2",
+      "spec": "",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179"
+    },
+    {
+      "name": "HBAF 四口味爆米花（80g × 16 包）",
+      "nameEn": "HBAF Popcorn Four Flavors 80g x 16",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/Chocolates-Bars/HBAF-Four-Popcorn-Set-1280g-OPTION1/p/680056-OPTION1"
+    },
+    {
+      "name": "農心 辛拉麵非油炸麵（97g × 20 包）",
+      "nameEn": "Nongshim Shin Non-Fried Ramyun 97g x 20",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Non-Fried-Ramyun-97g-x-20/p/620834"
+    },
+    {
+      "name": "Orion 好麗友零食綜合包（30g × 26 包）",
+      "nameEn": "Orion Snack Assortment 780g / 26 packs",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Orion-Snack-Assortment-780g-26ea/p/603457"
+    },
+    {
+      "name": "海太 Homerun Ball 巧克力泡芙（128g × 6）",
+      "nameEn": "Haitai Homerun Ball Chocolate 128g x 6",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Haitai-Homerun-Ball-768g-128g-x-6/p/671210"
+    },
+    {
+      "name": "農心 人氣零食綜合包（30g × 36 包）",
+      "nameEn": "Nongshim Assorted Snacks 1080g / 36 packs",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Nogshim-Assorted-Snacks-1080g-36/p/516641"
+    },
+    {
+      "name": "三養 火雞炒麵大杯（105g × 16 杯）",
+      "nameEn": "Samyang Buldak Large Cup 105g x 16",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Buldak-Cup-Ramyun-105g-x-16/p/638431"
+    },
+    {
+      "name": "LOTTE 樂天 Pepero 六口味綜合包（15 盒）",
+      "nameEn": "LOTTE Pepero Assorted 644g / 15-pack",
+      "spec": "",
+      "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548"
+    },
+    {
+      "name": "農心 辛拉麵 Rosé 4 入裝",
+      "nameEn": "Nongshim Shin Ramyun Rosé 4-pack",
+      "spec": "",
+      "purchaseUrl": "https://m.nongshimmall.com/product/detail.html?cate_no=43&display_group=1&product_no=4647"
+    }
+  ]
+}

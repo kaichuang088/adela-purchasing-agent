@@ -1,0 +1,12 @@
+PASS 1: Netlify proxy removes forged trusted identity headers
+PASS 2: Proxy preserves member session cookie and private response caching
+PASS 3: Sites backend product edit is visible through the real Netlify proxy handler
+PASS 4: Frontend checkout and backend administration read one exact NT$522 order
+PASS 5: Payment reporting is shared while receipt remains unverified
+PASS 6: Seller receipt verification changes the same front order and member spending
+PASS 7: Cancellation credits 522 once and reverses spending consistently across both local entrypoints
+PASS 8: Private coupon claim survives proxy and reaches the shared coupon wallet
+PASS 9: Both authenticated diagnostic routes confirm the same persistent backend identity
+PASS 10: Proxy never supplies an administrator password for anonymous callers
+PASS 11: Login walls, network failure and absent backend fail visibly without a second data store
+11 shared-backend checks; local compiled backend + actual proxy logic, NOT deployed cross-site verification.

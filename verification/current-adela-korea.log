@@ -1,0 +1,47 @@
+Korean catalog, KRW quote and membership, address sync, legacy block and purchase deadline: PASS
+shop L [Error]: 暫停接受新訂單，既有訂單及客服仍可使用。 / New orders are paused. Existing orders and support remain available.
+    at J (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:13579)
+    at async X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:14822)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:1812)
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:8347)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:5539)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at J (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:13750)
+    at async X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:14822)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}

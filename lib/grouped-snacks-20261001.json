@@ -1,0 +1,103 @@
+[
+  {
+    "key": "coffee",
+    "nameZh": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+    "nameEn": "I'MINT Coffee Candy 32g · Choose a flavor",
+    "nameKo": "아이민트 커피 캔디 32g · 맛 선택",
+    "price": 11350,
+    "image": "https://www.imintcandy.com/uploads/images/20260801/c3969b3de9fe25fd5776e8f9f18f5a1e.png",
+    "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000822845261&salestrNo=6005&siteNo=6004",
+    "variants": [
+      {
+        "id": "coffee-0",
+        "labelZh": "濃縮 · 32g 單盒",
+        "labelEn": "Espresso · 32g tin",
+        "priceJpy": 11350,
+        "imageUrl": "https://www.imintcandy.com/uploads/images/20260801/c3969b3de9fe25fd5776e8f9f18f5a1e.png",
+        "purchaseUrl": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000822845261&salestrNo=6005&siteNo=6004",
+        "taiwanRetailTwd": 130,
+        "taiwanRetailSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+        "taiwanRetailCheckedAt": "2026-10-01"
+      },
+      {
+        "id": "coffee-1",
+        "labelZh": "美式 · 32g 單盒",
+        "labelEn": "Americano · 32g tin",
+        "priceJpy": 6767,
+        "imageUrl": "https://www.imintcandy.com/uploads/images/20260801/b5975e63527389f1bff8a7b5b5b385ed.png",
+        "purchaseUrl": "https://item.gmarket.co.kr/Item?goodscode=4845821356",
+        "taiwanRetailTwd": 130,
+        "taiwanRetailSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+        "taiwanRetailCheckedAt": "2026-10-01"
+      },
+      {
+        "id": "coffee-2",
+        "labelZh": "抹茶拿鐵 · 32g 單盒",
+        "labelEn": "Matcha Latte · 32g tin",
+        "priceJpy": 6767,
+        "imageUrl": "https://www.imintcandy.com/uploads/images/20260908/9647e647681b2ae486954e7962f97932.jpg",
+        "purchaseUrl": "https://item.gmarket.co.kr/Item?goodscode=4845821356",
+        "taiwanRetailTwd": 130,
+        "taiwanRetailSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+        "taiwanRetailCheckedAt": "2026-10-01"
+      }
+    ],
+    "previousNames": [
+      "I'MINT Espresso Coffee Candy 32g",
+      "I'MINT Americano Coffee Candy 32g",
+      "I'MINT Matcha Latte Coffee Candy 32g"
+    ]
+  },
+  {
+    "key": "peelable",
+    "nameZh": "Orion 剝皮果實軟糖 67g｜單包選口味",
+    "nameEn": "Orion Peelable Gummies 67g · Choose a flavor",
+    "nameKo": "오리온 과육젤리 67g · 맛 선택",
+    "price": 1200,
+    "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+    "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420",
+    "variants": [
+      {
+        "id": "peelable-0",
+        "labelZh": "葡萄 · 67g 單包",
+        "labelEn": "Grape · 67g pouch",
+        "priceJpy": 1200,
+        "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+        "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420",
+        "taiwanRetailTwd": 49,
+        "taiwanRetailSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+        "taiwanRetailCheckedAt": "2026-10-03",
+        "taiwanRetailClassification": "official_importer_single_67g"
+      },
+      {
+        "id": "peelable-1",
+        "labelZh": "荔枝 · 67g 單包",
+        "labelEn": "Lychee · 67g pouch",
+        "priceJpy": 1200,
+        "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko",
+        "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425",
+        "taiwanRetailTwd": 49,
+        "taiwanRetailSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+        "taiwanRetailCheckedAt": "2026-10-03",
+        "taiwanRetailClassification": "official_importer_single_67g"
+      },
+      {
+        "id": "peelable-2",
+        "labelZh": "李子 · 67g 單包",
+        "labelEn": "Plum · 67g pouch",
+        "priceJpy": 1200,
+        "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542301ko.jpg?l=ko",
+        "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423",
+        "taiwanRetailTwd": 49,
+        "taiwanRetailSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+        "taiwanRetailCheckedAt": "2026-10-03",
+        "taiwanRetailClassification": "official_importer_single_67g"
+      }
+    ],
+    "previousNames": [
+      "Orion Peelable Grape Gummies 67g",
+      "Orion Peelable Lychee Gummies 67g",
+      "Orion Peelable Plum Gummies 67g"
+    ]
+  }
+]

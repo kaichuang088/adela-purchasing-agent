@@ -1,0 +1,12 @@
+PASS 1: All 17 recovery records exist once; pre-existing legacy drafts remain preserved
+PASS 2: Only six exact-spec currently buyable additions appear in storefront
+PASS 3: Each researched specification retains exact image, KRW price, source, Korean copy and publication status
+PASS 4: LANEIGE 730/621 and three existing Byredo exact-50ml references distinguish reference from promotional price
+PASS 5: Dokdo compares 200ml and 500ml separately without sharing the lower price
+PASS 6: Exact 50ml moisturizing sunscreen official reference is 699 with promotion separate
+PASS 7: HINOKI exact 55ml reference is 1100; unknown remaining stock is disclosed
+PASS 8: Fresh database seed descriptions agree with populated reference fields
+PASS 9: Saved v9 exact seeded descriptions repair without changing price or status
+PASS 10: Replayed repairs preserve seller copy, comparison price and source
+PASS 11: Replaying expansion neither duplicates nor republishes discontinued seller-edited products
+11 catalog recovery checks; source research is separate from isolated API behavior.

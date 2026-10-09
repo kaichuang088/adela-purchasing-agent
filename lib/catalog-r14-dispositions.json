@@ -1,0 +1,182 @@
+[
+  {
+    "match": "Isntree Onion Newpair Booster Shot 2000 50ml",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+    "stock": 0,
+    "verifiedAt": "2026-10-07T16:44:55.813196+00:00",
+    "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+    "options": [
+      {
+        "optionNumber": "001",
+        "standardCode": "8809800941221",
+        "nameKo": " ",
+        "soldOut": true
+      }
+    ],
+    "disposition": "sold_out"
+  },
+  {
+    "match": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+    "stock": 0,
+    "verifiedAt": "2026-10-07T16:45:08.619307+00:00",
+    "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+    "options": [
+      {
+        "optionNumber": "001",
+        "standardCode": "8809800700491",
+        "nameKo": "어성초 진정패드 100매",
+        "soldOut": true
+      }
+    ],
+    "disposition": "sold_out"
+  },
+  {
+    "match": "AESTURA Atobarrier365 Cream 80ml Set (Toner 25ml + Cleanser 3g x 3)",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864",
+    "stock": 0,
+    "verifiedAt": "2026-10-07T16:45:08.439006+00:00",
+    "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+    "options": [
+      {
+        "optionNumber": "001",
+        "standardCode": "8800283697186",
+        "nameKo": "크림80ml+토너25ml+클렌징폼3g*3",
+        "soldOut": true
+      },
+      {
+        "optionNumber": "002",
+        "standardCode": "8809013349050",
+        "nameKo": "크림80ml 단품",
+        "soldOut": true
+      }
+    ],
+    "disposition": "sold_out"
+  },
+  {
+    "match": "CU Dubai Chewy Chocolate Cookie reference",
+    "reason": "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.",
+    "disposition": "research"
+  },
+  {
+    "match": "Milky Shop Butter Sand",
+    "reason": "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.",
+    "disposition": "research"
+  },
+  {
+    "match": "Beyblade X BX-01 Dran Sword 3-60F",
+    "purchaseUrl": "https://www.ntoyshop.com/shop/shopdetail.html?branduid=1086360",
+    "reason": "2026-10-05原韓國來源已核實售罄，本次頁面未取得補貨證據，保留缺貨狀態。",
+    "sourceRef": "turn304view4 / turn306view1",
+    "disposition": "sold_out",
+    "verifiedAt": "2026-10-05"
+  },
+  {
+    "match": "LOTTE Pepero Assorted 644g / 15-pack",
+    "purchaseUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548",
+    "reason": "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified.",
+    "disposition": "research"
+  },
+  {
+    "match": "Orion Turtle Chips Matcha Chocolate 104g",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330",
+    "reason": "CurrentOY product andoption001 soldOutFlag=true,2500KRW. AlternateKurly1980KRWcart but minimumexpiry2026-08-23 beforetoday; cannot guaranteefreshness withoutsupplierbatchconfirmation.",
+    "sourceRef": "turn304view2 and currentdirectOYstructuredJSON",
+    "alternateUrl": "https://www.kurly.com/goods/1002070482",
+    "disposition": "sold_out"
+  },
+  {
+    "nameEn": "Mardi Mercredi CAP M Navy White",
+    "name": "Mardi Mercredi CAP M 海軍藍白色棒球帽",
+    "sourceUrl": "https://mardimercredi.com/product/cap-mnavy-white/6143/",
+    "priceKrw": 45000,
+    "spec": "1頂；NAVY WHITE；ONE SIZE；商品6143",
+    "verifiedAt": "2026-10-07T16:45:51.494871+00:00",
+    "stock": 0,
+    "available": false,
+    "reason": "Official soldout_icon=T and single_option_stock_data stock_number=0.",
+    "match": "Mardi Mercredi CAP M Navy White",
+    "disposition": "sold_out"
+  },
+  {
+    "nameEn": "Mardi Mercredi Canvas Tote Bag La Typo Francaise Navy",
+    "sourceUrl": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/",
+    "verifiedAt": "2026-10-07T16:45:51.494871+00:00",
+    "reason": "Official exact listing returns HTTP404; current cost and buyable stock not verified.",
+    "match": "Mardi Mercredi Canvas Tote Bag La Typo Francaise Navy",
+    "disposition": "research"
+  },
+  {
+    "nameEn": "Stussy Seoul Chapter Tee reference",
+    "reason": "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.",
+    "match": "Stussy Seoul Chapter Tee reference",
+    "disposition": "research"
+  },
+  {
+    "nameEn": "thisisneverthat T-Logo Tee Washed Black SS26",
+    "sourceUrl": "https://www.musinsa.com/products/5992310",
+    "priceKrw": 44000,
+    "reason": "Prior current Korean cost44000 verified, but size-specific stock not verified; not sufficient for purchasable variants.",
+    "match": "thisisneverthat T-Logo Tee Washed Black SS26",
+    "disposition": "research"
+  },
+  {
+    "match": "Byredo Bibliothèque Candle 240g",
+    "disposition": "research",
+    "reason": "官方價格136000KRW可確認，但商品頁購買／供貨狀態未能取得，不能把系列目錄當成供貨證明。"
+  },
+  {
+    "match": "UNOVE Powerpuff Girls Hair Mask 320mL x 2",
+    "disposition": "research",
+    "reason": "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。"
+  },
+  {
+    "matchNameEn": "MEDIHEAL Sanrio Derma Toner Pads",
+    "disposition": "research",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262413",
+    "evidence": "Current primary page explicitly 상품을 찾을 수 없어요 / 판매종료 또는 중지. Searchcache28500–28900 on campaigncategory is stale and cannot establishcurrentorderableoptions.",
+    "references": [
+      "turn310view2"
+    ],
+    "status": "research",
+    "doNotSetStockZero": "Listingendedisnotinventory proof; preserve merchantcountedstock.",
+    "match": "MEDIHEAL Sanrio Derma Toner Pads",
+    "reason": "參考圖片尚不能對應核實的可售商品。"
+  },
+  {
+    "matchNameEn": "Sanrio Beauty and Accessories reference",
+    "disposition": "research",
+    "evidence": "Screenshot9.07.09 contains multiple unrelated cosmetics/accessories, not one purchasablepack. Preserve asadminreference and link individual verifiedproducts; no inventedbundleprice.",
+    "status": "research",
+    "match": "Sanrio Beauty and Accessories reference",
+    "reason": "參考圖片尚不能對應核實的可售商品。"
+  },
+  {
+    "matchNameEn": "Kuromi Cosmetics and Charms reference",
+    "disposition": "research",
+    "evidence": "Screenshot9.06.45 includes UNOVEpromotionalcombmirror/charms pluspossibleCOLORGRAMTintoriEyePalette. ExactKuromivariant stock/price not proven. Ordinary A000000201881 is not evidenceforlimitededition.",
+    "status": "research",
+    "match": "Kuromi Cosmetics and Charms reference",
+    "reason": "參考圖片尚不能對應核實的可售商品。"
+  },
+  {
+    "matchNameEn": "Hello Kitty Lip Collection reference",
+    "disposition": "research",
+    "evidence": "Reviewedoriginal9.06.51. It shows WAKEMAKE LeopardHelloKitty lipstick/tint/keyringrange (not provenCOLORGRAM). Currentofficialcategory names matchWAKEMAKE LeopardHelloKitty, but exactshade/SKUstock/price hasnotbeenverified. Do notsubstituteordinaryCOLORGRAMTanghulu.",
+    "references": [
+      "turn314search5"
+    ],
+    "status": "research",
+    "match": "Hello Kitty Lip Collection reference",
+    "reason": "參考圖片尚不能對應核實的可售商品。"
+  },
+  {
+    "matchNameEn": "Powerpuff Girls Compact reference",
+    "disposition": "research",
+    "correctedNameZh": "UNOVE 飛天小女警聯名梳鏡／鑰匙圈（活動周邊）",
+    "evidence": "Original9.06.35 compact is UNOVEpromotionalmirrorcomb/accessory, notpowderfoundation. PriorSeptember PWPcampaigngift cannot be promisedforOct16–20 withoutcurrentlisting. Ordinaryheartmirrorcombo isnotPowerpuff. Preserveadminreference, not fakeactiveSKU.",
+    "status": "research",
+    "match": "Powerpuff Girls Compact reference",
+    "reason": "參考圖片尚不能對應核實的可售商品。"
+  }
+]

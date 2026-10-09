@@ -1,0 +1,47 @@
+Korean catalog, KRW quote and membership, address sync, legacy block and purchase deadline: PASS
+shop R [Error]: 暫停接受新訂單，既有訂單及客服仍可使用。 / New orders are paused. Existing orders and support remain available.
+    at Y (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-no3Le7Vi.js:13:22220)
+    at async Z (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-no3Le7Vi.js:13:23463)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-DmaTANlx.js:1:7845)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}
+shop R [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-DmaTANlx.js:1:1764)
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-DmaTANlx.js:1:8477)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 400
+}
+shop R [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-GC-PlIl9.js:1:4984)
+    at async Object.I [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-GC-PlIl9.js:1:16895)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}
+shop R [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at Y (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-no3Le7Vi.js:13:22391)
+    at async Z (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-no3Le7Vi.js:13:23463)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-DmaTANlx.js:1:7845)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch-CfIuOz3D.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}

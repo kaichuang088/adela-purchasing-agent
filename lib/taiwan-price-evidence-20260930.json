@@ -1,0 +1,75 @@
+[
+  {
+    "catalogSourceId": "olive-A000000232892",
+    "nameEn": "LANEIGE Lip Sleeping Mask EX Strawberry Shortcake 20g",
+    "spec": "20g × 1",
+    "priceTwd": 730,
+    "url": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html",
+    "checkedAt": "2026-09-30",
+    "classification": "official_regular_price",
+    "basis": "LANEIGE Taiwan official page, Strawberry Shortcake 20g single jar; public promotion NT621 recorded separately and not substituted for regular comparison",
+    "promotion": {
+      "priceTwd": 621,
+      "classification": "promotion"
+    }
+  },
+  {
+    "catalogSourceId": "byredo-mojave-ghost",
+    "nameEn": "Byredo Mojave Ghost Eau de Parfum 50ml",
+    "spec": "50ml",
+    "priceTwd": 6360,
+    "url": "https://www.1976.com.tw/prod/17260",
+    "checkedAt": "2026-09-30",
+    "classification": "retailer_reference_price",
+    "basis": "1976 Taiwan retailer item 1726002, 50ml, 市價 NT6360; this is a retailer reference and not a verified brand official price or lowest market price. Public special NT4950 recorded separately.",
+    "promotion": {
+      "priceTwd": 4950,
+      "classification": "promotion"
+    }
+  },
+  {
+    "catalogSourceId": "byredo-rose-no-man",
+    "observedProductId": 88,
+    "nameEn": "Byredo Rose of No Man’s Land Eau de Parfum 50ml",
+    "spec": "50ml",
+    "priceTwd": 6280,
+    "classification": "retailer_reference_price",
+    "url": "https://www.1976.com.tw/prod/16998",
+    "checkedAt": "2026-09-30",
+    "basis": "Exact50ml row1699802, retailer 市價6280; not official price. 1010 multiple-size page lowest6360 not used without selected capacity.",
+    "promotion": {
+      "priceTwd": 5280,
+      "classification": "promotion"
+    }
+  },
+  {
+    "catalogSourceId": "byredo-bal-dafrique",
+    "observedProductId": 87,
+    "nameEn": "Byredo Bal d’Afrique Eau de Parfum 50ml",
+    "spec": "50ml",
+    "priceTwd": 6300,
+    "classification": "retailer_reference_price",
+    "url": "https://www.1976.com.tw/prod/17311",
+    "checkedAt": "2026-09-30",
+    "basis": "Exact50ml row1731101, retailer 市價6300; not official price. 1010 multiple-size page lowest6360 not used without selected capacity.",
+    "promotion": {
+      "priceTwd": 5050,
+      "classification": "promotion"
+    }
+  },
+  {
+    "catalogSourceId": "byredo-gypsy-water-50",
+    "observedProductId": null,
+    "nameEn": "Byredo Gypsy Water Eau de Parfum 50ml",
+    "spec": "50ml × 1",
+    "priceTwd": 6360,
+    "classification": "retailer_reference_price",
+    "url": "https://www.1976.com.tw/prod/17393",
+    "checkedAt": "2026-09-30",
+    "basis": "Exact50ml row1739301, retailer 市價6360; not official price.",
+    "promotion": {
+      "priceTwd": 5080,
+      "classification": "promotion"
+    }
+  }
+]

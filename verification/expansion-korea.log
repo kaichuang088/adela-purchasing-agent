@@ -1,0 +1,33 @@
+shop I [Error]: 暫停接受新訂單，既有訂單及客服仍可使用。 / New orders are paused. Existing orders and support remain available.
+    at q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:12920)
+    at async Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:14163)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+shop I [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:1812)
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:8347)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 400
+}
+shop I [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:13091)
+    at async Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:14163)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+Korean catalog, KRW quote and membership, address sync, legacy block and purchase deadline: PASS

@@ -1,0 +1,30 @@
+[
+  {
+    "catalogSourceId": "olive-A000000232892",
+    "nameEn": "LANEIGE Lip Sleeping Mask EX Strawberry Shortcake 20g",
+    "spec": "20g × 1",
+    "priceTwd": 730,
+    "url": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html",
+    "checkedAt": "2026-09-30",
+    "classification": "official_regular_price",
+    "basis": "LANEIGE Taiwan official page, Strawberry Shortcake 20g single jar; public promotion NT621 recorded separately and not substituted for regular comparison",
+    "promotion": {
+      "priceTwd": 621,
+      "classification": "promotion"
+    }
+  },
+  {
+    "catalogSourceId": "byredo-mojave-ghost",
+    "nameEn": "Byredo Mojave Ghost Eau de Parfum 50ml",
+    "spec": "50ml",
+    "priceTwd": 6360,
+    "url": "https://www.1976.com.tw/prod/17260",
+    "checkedAt": "2026-09-30",
+    "classification": "retailer_reference_price",
+    "basis": "1976 Taiwan retailer item 1726002, 50ml, 市價 NT6360; this is a retailer reference and not a verified brand official price or lowest market price. Public special NT4950 recorded separately.",
+    "promotion": {
+      "priceTwd": 4950,
+      "classification": "promotion"
+    }
+  }
+]

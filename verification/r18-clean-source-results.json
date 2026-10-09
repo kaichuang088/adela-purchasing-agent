@@ -1,0 +1,6 @@
+{
+  "typecheckPassed": true,
+  "buildPassed": true,
+  "noNextOrBuildCachesCopied": true,
+  "scope": "Clean copy of staged source with node_modules symlink to same frozen installed dependencies; not a second fresh network install"
+}

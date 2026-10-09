@@ -1,0 +1,20 @@
+[
+  {
+    "optionNumber": "003",
+    "standardCode": "8809593900788",
+    "optionName": "[단품] 200ml",
+    "optionImage": null,
+    "soldOutFlag": false,
+    "salePrice": 21900,
+    "finalPrice": 18200
+  },
+  {
+    "optionNumber": "006",
+    "standardCode": "8809593901143",
+    "optionName": "[기획] 200ml+미니어처 30ml",
+    "optionImage": null,
+    "soldOutFlag": true,
+    "salePrice": 21900,
+    "finalPrice": 18200
+  }
+]

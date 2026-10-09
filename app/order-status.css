@@ -1,0 +1,7 @@
+.adela-status{display:inline-flex;align-items:center;justify-content:center;gap:6px;max-width:100%;width:fit-content;padding:5px 10px;border:1px solid #d9e5e0;border-radius:999px;background:#f1f6f3;color:#42665a;font-size:12px;font-weight:600;line-height:1.5;text-align:center;white-space:normal;overflow-wrap:anywhere;font-style:normal}
+.adela-status::before{content:"";width:5px;height:5px;flex:none;border-radius:50%;background:currentColor}
+.adela-status[data-status="payment_review"],.adela-status[data-status="purchasing"]{background:#fff6d8;border-color:#eed99a;color:#896215}
+.adela-status[data-status="paid"],.adela-status[data-status="purchased"],.adela-status[data-status="completed"]{background:#edf8f2;border-color:#c5e4d1;color:#27704d}
+.adela-status[data-status="cancelled"],.adela-status[data-status="refunded"],.adela-status[data-status="refund_pending"],.adela-status[data-status="rejected"]{background:#f8eeeb;border-color:#e9d2cc;color:#995043}
+.adela-status[data-status="arrived_taiwan"],.adela-status[data-status="shipped_japan"]{background:#edf4fb;border-color:#cddfec;color:#3b6689}
+.adela-order-card>header>.adela-status{padding:5px 10px;border-radius:999px;font-size:11px;letter-spacing:0;font-weight:600}

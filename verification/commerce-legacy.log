@@ -1,0 +1,30 @@
+PASS 1: 管理後台登入成功並載入正式商品與既有測試商品
+shop I [Error]: 請設定有效的開放下單與停止下單時間，結束必須晚於開始。
+    at Object.M [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-BRKcoKEM.js:1:19374)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-BC2EGIeU.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-BC2EGIeU.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Um (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:163783) {
+  status: 400
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: /api/operations: {"error":"請設定有效的開放下單與停止下單時間，結束必須晚於開始。"}
+
+400 !== 200
+
+    at call (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/scripts/verify-commerce.mjs:12:666)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/scripts/verify-commerce.mjs:16:2 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 400,
+  expected: 200,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,300 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProductGroup",
+  "@id": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/",
+  "name": "[NEW/RENEWAL] 슬림 미니 하이라이터",
+  "productGroupID": "cafe24_wedive_1_614",
+  "variesBy": [
+    "슬림 미니 하이라이터"
+  ],
+  "hasVariant": [
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 글레이즈드 도넛",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000A",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "글레이즈드 도넛"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000A",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 페퍼민트",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000B",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "페퍼민트"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000B",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 샴페인 허쉬",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000C",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "샴페인 허쉬"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000C",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 클라우드9",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000D",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "클라우드9"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000D",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 필로우 토크",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000E",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "필로우 토크"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000E",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 데이드림",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000F",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "데이드림"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000F",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/OutOfStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 스타 아일랜드",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000G",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "스타 아일랜드"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000G",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 슈가 쿠키",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000H",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "슈가 쿠키"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000H",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 서울",
+      "image": [
+        "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+      ],
+      "description": "",
+      "brand": {
+        "@type": "Brand",
+        "name": "OFRA"
+      },
+      "sku": "cafe24_wedive_1_614_P00000XQ000I",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "슬림 미니 하이라이터",
+          "value": "서울"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000I",
+        "priceCurrency": "KRW",
+        "price": 29000,
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+      }
+    }
+  ]
+}

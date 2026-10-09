@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-03",
+  "gummy": {
+    "spec": "67g single pack",
+    "taiwanPrice": 49,
+    "source": "https://www.koreatop.com.tw/SalePage/Index/11679230"
+  },
+  "additions": "lib/catalog-r8-additions.json",
+  "stockLimitation": "Source listings are not guarantees of future inventory.",
+  "beybladeBx03": {
+    "source": "https://www.ntoyshop.com/m/product.html?branduid=1086361",
+    "priceKrw": 16870,
+    "available": false
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "checkedAt": "2026-10-08",
+  "scope": "13筆原R14未解項目與恢復的香草鹽圖片；唯讀研究，不更新前台、不替換指定限定款。",
+  "authoritativeProject": "/workspace/sites/adelas-korea-shop-recovery",
+  "liveSnapshot": "verification/r15-live-before.json",
+  "inventoryCaveat": "所有來源價格是公開零售報價，不是已完成採購成本。網頁可下單旗標與商家盤點庫存不同；未盤點不填造數字。",
+  "rows": [
+    {
+      "id": 147,
+      "nameEn": "CU Dubai Chewy Chocolate Cookie reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原截圖的精確品名、重量與目前可採購來源仍未確認；不能以 CU 杜拜麻糬代替曲奇。"
+      ],
+      "sources": [
+        {
+          "url": "https://origin.bgf.co.kr/bgflive/view/?categoryId=3&id=1791",
+          "checkedAt": "2026-10-08",
+          "evidence": "CU/BGF 官方 2026-01-06 文章區分杜拜曲奇熱潮與 CU 的杜拜糯米麻糬；不是同一SKU。"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "nameEn": "Milky Shop Butter Sand",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "精確8入組現價未取得；冷凍配送與韓台冷鏈未成立，不能沿用常溫出貨。",
+        "14日保存資訊來自舊證據與現行搜尋摘要；本批效期必須由供應商確認。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coupang.com/vp/products/8953663898?itemId=26193091045&vendorItemId=89966456847",
+          "checkedAt": "2026-10-08",
+          "evidence": "找到 Milky Shop Butter Sand 8入；商家 어반바이트(urban bite)。頁面／搜尋摘要有冷凍配送資訊，未取得可依賴的現行價格。"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "nameEn": "LOTTE Pepero Assorted 644g / 15-pack",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "目前 Costco 精確644g/15包頁面未返回可讀內容；舊 ₩19,490 價格不能當現在可採購證明。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548",
+          "checkedAt": "2026-10-08",
+          "evidence": "本次直接讀取0行；來源不可核實。",
+          "state": "source_unreadable"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "nameEn": "Mardi Mercredi Canvas Tote Bag La Typo Francaise Navy",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原官方精確海軍藍托特包連結404；現價、尺寸與供貨均未復核。"
+      ],
+      "sources": [
+        {
+          "url": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/",
+          "checkedAt": "2026-10-08",
+          "evidence": "原韓國官方商品頁404。",
+          "state": "http_404"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "nameEn": "Stussy Seoul Chapter Tee reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "官方資料可證明首爾店存在，但無當前 Seoul Chapter Tee 精確黑／白色、尺碼、價格與可購買來源。",
+        "不可改用一般 Basic Tee。"
+      ],
+      "sources": [
+        {
+          "url": "https://kr.stussy.com/blogs/news/stussy-seoul-opening",
+          "checkedAt": "2026-10-08",
+          "evidence": "品牌官方首爾開店資訊，不是該款可結帳SKU。"
+        },
+        {
+          "url": "https://kr.stussy.com/blogs/chapters",
+          "checkedAt": "2026-10-08",
+          "evidence": "品牌官方門市列表，不能證明該T恤在店內有貨或現價。"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "nameEn": "thisisneverthat T-Logo Tee Washed Black SS26",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "精確洗黑SS26頁面有現價，但本次無法確認逐尺碼可訂購狀態；不能建立可售尺碼。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.musinsa.com/products/5992310",
+          "checkedAt": "2026-10-08",
+          "evidence": "精確商品頁現價 ₩44,000、定價 ₩55,000；未取得尺碼庫存。",
+          "priceKrw": 44000,
+          "regularPriceKrw": 55000
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "nameEn": "Byredo Bibliothèque Candle 240g",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "官方目錄可確認 Bibliothèque 240g / ₩136,000，但精確商品頁供貨／結帳狀態未取得；系列目錄不是供貨證明。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.byredo.com/ko_kr/c/perfume",
+          "checkedAt": "2026-10-08",
+          "evidence": "官方目錄列 Bibliothèque 240g 與 ₩136,000。",
+          "priceKrw": 136000
+        },
+        {
+          "url": "https://www.byredo.com/ko_kr/bibliotheque-candle-240g",
+          "checkedAt": "2026-10-08",
+          "evidence": "本次未取得可供貨的精確商品頁狀態。"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "nameEn": "UNOVE Powerpuff Girls Hair Mask 320mL x 2",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原指定飛天小女警聯名／擠壓器組合不在現行選項；一般髮膜雙入不可替代。",
+        "與新附件 IMG_7287(1).JPG 的普通版需求分開保留。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423",
+          "checkedAt": "2026-10-08",
+          "evidence": "現行結構化選項019心形梳鏡贈品、007 Warm Petal雙入、001 Tender Bloom雙入、005香味雙拼，均 soldOutFlag=false，折後 ₩27,800；頁面無 파워퍼프/Powerpuff。這證明普通版可訂購，不證明原聯名版。",
+          "ordinaryVariantPriceKrw": 27800
+        }
+      ],
+      "localEvidence": "/workspace/scratch/744af0e5be84/unove-current-options.json"
+    },
+    {
+      "id": 146,
+      "nameEn": "MEDIHEAL Sanrio Derma Toner Pads",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原精確 MEDIHEAL Sanrio 頁面已結束／停止銷售；舊活動摘要價格不能當目前採購依據。",
+        "下架不等於商家已盤點庫存0，不要改写商家實體庫存。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262413",
+          "checkedAt": "2026-10-08",
+          "evidence": "直接頁面顯示 商品找不到／판매종료 또는 중지。",
+          "state": "listing_ended_or_stopped"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "nameEn": "Sanrio Beauty and Accessories reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原9.07.09圖片包含多件不同品牌美容品與周邊，不是一個可購買組合SKU。",
+        "須拆分個別可識別商品後另核價，不能造一個組合售價。"
+      ],
+      "sources": [
+        {
+          "url": "https://m.oliveyoung.co.kr/m/mtn/planshop/detail/500000100019A1U",
+          "checkedAt": "2026-10-08",
+          "evidence": "原活动页面本次僅返回iframe，未提供當前精確選項或報價。"
+        }
+      ],
+      "identityEvidence": "verification/catalog-research/r14-references-restored.json"
+    },
+    {
+      "id": 152,
+      "nameEn": "Kuromi Cosmetics and Charms reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原9.06.45圖片的 Kuromi 限定組合／贈品選項未確認。",
+        "普通 COLORGRAM 彩盤與 UNOVE 一般梳鏡選項不能證明 Kuromi 限定可購買。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000201881",
+          "checkedAt": "2026-10-08",
+          "evidence": "現行普通彩盤1COLOR ₩14,000起，沒有核實精確 Kuromi 包裝。",
+          "ordinaryVariantPriceKrw": 14000
+        }
+      ],
+      "identityEvidence": "verification/catalog-research/r14-references-restored.json"
+    },
+    {
+      "id": 149,
+      "nameEn": "Hello Kitty Lip Collection reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原圖應對 WAKEMAKE Leopard Hello Kitty 唇彩／鑰匙圈系列，不是已證實 COLORGRAM。",
+        "現行官方品牌頁已是 Off Cherry；原 Kitty 色號、包裝、價格與供貨未證實。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/display/getBrandShopDetail.do?onlBrndCd=A001240",
+          "checkedAt": "2026-10-08",
+          "evidence": "目前品牌頁改為 Off Cherry；舊搜尋 Kitty 摘要不能當現行SKU。"
+        },
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258679",
+          "checkedAt": "2026-10-08",
+          "evidence": "目前 Off Cherry glow stick ₩11,900起、定價₩16,000，不是原 Kitty 精確選項。",
+          "ordinaryVariantPriceKrw": 11900
+        }
+      ],
+      "identityEvidence": "verification/catalog-research/r14-references-restored.json"
+    },
+    {
+      "id": 148,
+      "nameEn": "Powerpuff Girls Compact reference",
+      "disposition": "research",
+      "confirmedBuyableExactSku": false,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "blockers": [
+        "原9.06.35圖片是 UNOVE 飛天小女警活動梳鏡／周邊，不是粉底。",
+        "現行一般心形梳鏡贈品不能替代；舊9月活動不能保證10/16採購批次取得飛天小女警贈品。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423",
+          "checkedAt": "2026-10-08",
+          "evidence": "目前選項含心形梳鏡組合，沒有 Powerpuff/파워퍼프選項。"
+        }
+      ],
+      "correctedNameZh": "UNOVE 飛天小女警聯名梳鏡／鑰匙圈（活動周邊）"
+    }
+  ],
+  "recoveredSalt": {
+    "nameZh": "清淨園 香草調味鹽 大蒜洋蔥 52g",
+    "nameKo": "청정원 허브맛솔트 마늘&양파 52g",
+    "nameEn": "CheongJeongWon Herb Salt Garlic and Onion 52g",
+    "spec": "52g／罐；大蒜&洋蔥",
+    "gtin": "8801052740379",
+    "catalogExactMatch": false,
+    "attachments": [
+      "recovered-screenshots/image(5).png",
+      "recovered-screenshots/image(6).png"
+    ],
+    "checkedAt": "2026-10-08",
+    "identityConfirmed": true,
+    "stock": null,
+    "stockQuantityVerified": false,
+    "sources": [
+      {
+        "url": "https://jungoneshop.com/goods/goods_view.php?goodsNo=1366",
+        "checkedAt": "2026-10-08",
+        "evidence": "大象官方精確52g商品；標示 ₩3,200、另有5%即時價 ₩3,040 與 임직원 신청가文字，需確認實際資格。常溫，直接購買／購物車按鈕。韓國境內配送，無海外配送，付款後通常2–3工作日且缺貨可能延遲。",
+        "regularPriceKrw": 3200,
+        "displayedDiscountPriceKrw": 3040,
+        "conservativeProductAllowanceKrw": 3200,
+        "shippingKrw": 3000,
+        "freeShippingThresholdKrw": 20000,
+        "singleItemDeliveredAllowanceKrw": 6200,
+        "refs": [
+          "turn32view0"
+        ]
+      },
+      {
+        "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000025075109&salestrNo=1004&siteNo=6009",
+        "checkedAt": "2026-10-08",
+        "evidence": "新世界百貨江南店精確52g、條碼8801052740379、現價₩3,120，購買按鈕；頁面說下單後仍可能店內售完，不能當盤點庫存。",
+        "priceKrw": 3120,
+        "shippingKrw": 3000,
+        "freeShippingThresholdKrw": 30000,
+        "singleItemDeliveredAllowanceKrw": 6120,
+        "refs": [
+          "turn31view1",
+          "turn30view1"
+        ]
+      },
+      {
+        "url": "https://www.momoshop.com.tw/TP/TP0000152/goodsDetail/TP00001520000139",
+        "checkedAt": "2026-10-08",
+        "evidence": "momo精確大蒜&洋蔥52g／罐；促銷價NT$115、市售價140。超取45、滿190免運；宅配72、滿690免運。有購買按鈕，仍須店家確認供貨。",
+        "priceTwd": 115,
+        "listPriceTwd": 140,
+        "pickupShippingTwd": 45,
+        "pickupFreeThresholdTwd": 190,
+        "homeShippingTwd": 72,
+        "homeFreeThresholdTwd": 690,
+        "refs": [
+          "turn31view0"
+        ]
+      }
+    ],
+    "pricingBoundary": {
+      "taiwanSameSpecProductPriceTwd": 115,
+      "fivePercentBelowUnroundedTwd": 109.25,
+      "wholeTwdMaximumIfAtLeastFivePercentBelow": 109,
+      "note": "比價使用115非140；價格上限109.25，不是下限。實際售價還需全成本及專案毛利規則；單件韓國宅配成本不能只填3200。",
+      "warning": "109.25為比NT$115便宜至少5%的價格上限；此為比較價條件，不代表全成本支持該售價。"
+    },
+    "remainingBlockers": [
+      "韓國來源當批可出貨／具體庫存數量未盤點；不能把購買按鈕寫成已確認庫存。",
+      "本批採購量若未滿韓國免運門檻，須完整計入3000韓元配送；不可假設實體店同價或免費取得。",
+      "國際運輸與其他專案費用仍由既有費率計算；保留實際購入／到貨效期核對。"
+    ],
+    "sourceOrderingEvidence": {
+      "publicProductPageObserved": true,
+      "exactSkuAndPriceObserved": true,
+      "purchaseControlsObserved": true,
+      "koreanFulfillmentTermsObserved": true,
+      "sourceSoldOutFlagParsed": false,
+      "checkoutOrderAccepted": false,
+      "countedInventoryKnown": false,
+      "note": "可陳述現行精確商品頁公開提供下單入口與韓國配送條款；未完成結帳、未取得選項級供貨旗標。2026-10-09直接原始HTML被Web Firewall拒絕，僅保留前一天web讀取內容。"
+    },
+    "recommendedStatus": "research_until_source_orderability_and_full_cost_rule_pass",
+    "singleItemKoreanDeliveryAllowances": {
+      "manufacturerKrw": 6200,
+      "ssgKrw": 6120,
+      "excludes": [
+        "國際運輸",
+        "代購服務費",
+        "付款費用",
+        "台灣端配送"
+      ],
+      "bundlingCondition": "分攤或免除韓國配送費，必須有同一來源合單達免運門檻／實際分攤證據。"
+    }
+  },
+  "summary": {
+    "remainingResearchRecords": 13,
+    "fullyResolvedExistingRecords": 0,
+    "newExactSaltMatch": true
+  },
+  "evidenceFiles": [
+    "/workspace/scratch/744af0e5be84/unove-current-options.json",
+    "/workspace/scratch/744af0e5be84/unove-current-source.html"
+  ],
+  "assembledAt": "2026-10-09",
+  "coffee": {
+    "productId": 133,
+    "conclusion": "沒有證據顯示SSG單盒被錯當多盒；原SKU明確32g×1及11350KRW。主要問題是高價供應來源與台灣5%上限不符。",
+    "sources": [
+      {
+        "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000822845261&salestrNo=6005&siteNo=6004",
+        "ref": "turn4view0",
+        "priceKrw": 11350,
+        "promoPriceKrw": 10060,
+        "promoEnds": "2026-10-11 04:00（網頁顯示，時區未明）",
+        "unit": "32g × 1",
+        "note": "優惠早於10/16批次，不可當整批永久成本"
+      },
+      {
+        "url": "https://item.gmarket.co.kr/Item?goodscode=4845821356",
+        "ref": "turn16view2",
+        "note": "本輪連兩次無法讀取，三盒20300及單盒6767只是舊證據未刷新"
+      },
+      {
+        "url": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+        "ref": "turn16view1",
+        "note": "2026-10-08直接頁面標題變為預購10/13左右出貨；搜尋130未找到。舊130台幣不能標成當前已核實，仍需口味／包裝選項匹配。"
+      },
+      {
+        "url": "https://www.momoshop.com.tw/TP/TP0009156/goodsDetail/TP00091560000332",
+        "ref": "turn4view2",
+        "priceRangeTwd": [
+          149,
+          1168
+        ],
+        "note": "未解析單盒所選口味，不能直接填149"
+      },
+      {
+        "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000498",
+        "ref": "turn2search0",
+        "priceTwd": 780,
+        "unit": "32g × 4",
+        "note": "內容說抹茶4或抹茶2美式1濃縮1，選項區出現無關色款，頁面資料矛盾；不能直接作同單盒195比較"
+      },
+      {
+        "url": "https://24h.pchome.com.tw/prod/DBAEEN-A900KHR70",
+        "ref": "turn16view0",
+        "priceTwd": 250,
+        "unit": "32g鐵盒；多款選項",
+        "note": "有CU/Emart/紫美式多包裝，無抹茶選項；需選項包裝對應，不能不查匹配就取较高比較價"
+      }
+    ],
+    "remainingBlockers": [
+      "未取得較低韓國精確同SKU當前報價；Gmarket來源不可讀。",
+      "台灣同包裝／同口味單盒現價仍需對應，不得挑選較高比較價。",
+      "不能主張SSG原單盒11350是把多盒誤當一盒，來源明載32g×1。"
+    ]
+  }
+}

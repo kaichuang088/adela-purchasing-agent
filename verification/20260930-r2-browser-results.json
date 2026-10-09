@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-30T14:48:27.623435+00:00",
+  "release": "2026-09-30-recovery-r2",
+  "scope": "Disposable localhost preview database, synthetic account and messages. No real payment, provider delivery or deployed cross-site synchronization.",
+  "orders": [
+    "KK260930-74E578A2970C",
+    "KK260930-A8D2301974B0"
+  ],
+  "verified": [
+    "Admin and member sessions survive reload",
+    "AI product draft disabled after input while service is absent; manual editor remains available",
+    "English and Korean product names follow the selected locale; merchant remaining quantity is explicitly unknown",
+    "Coupon start/end dates submit successfully without Invalid time value; edit reload retains dates",
+    "Public limited coupon claim -> free delivery50 -> credit472 -> order total0 -> remaining credit50 -> coupon Used",
+    "Private coupon can be claimed by code; minimum2000 with eligible merchandise437 is disabled with a reason; Used public coupon is disabled",
+    "After seller removes private minimum, quote shows English coupon name and goods472 + shipping50 - coupon20 - credit50 = total452; quote not submitted",
+    "Human support request produces admin unread1; admin opens and replies; buyer receives that exact synthetic message",
+    "Final chat brand Adela and English Taipei timestamps displayed; source user messages and existing system text remain unchanged",
+    "Actual PDFs downloaded to disk for cancelled522 and credit-funded total0 orders; title, status and totals checked and renders inspected",
+    "Genuine390x844 storefront, checkout, membership and admin pages measured clientWidth390/scrollWidth390; header and all8 mobile admin menus corrected",
+    "Final mobile AI editor remains disabled when service missing; order filters wrap without document overflow"
+  ],
+  "incomplete": [
+    "Live AI/provider-model availability, real email delivery, production autonomous cron and deployed Netlify/Sites shared backend",
+    "All catalog image/availability/size/Taiwan price references; current prices remain93 visible with55 unmatched Taiwan references",
+    "Every dialog, payment evidence upload and language combination on every mobile size not exhaustively reviewed",
+    "Original offshore rates and reference images1-6 absent"
+  ],
+  "evidence": [
+    "20260930-r2-ai-unconfigured.jpg",
+    "20260930-r2-coupon-credit-checkout.jpg",
+    "20260930-r2-coupon-english-quote.jpg",
+    "20260930-r2-coupon-ineligible.jpg",
+    "20260930-r2-human-support.jpg",
+    "20260930-r2-korean-catalog.jpg",
+    "20260930-r2-mobile-admin.jpg",
+    "20260930-r2-mobile-checkout.jpg",
+    "20260930-r2-mobile-member.jpg",
+    "20260930-r2-mobile-store.jpg",
+    "20260930-r2-receipt-ready.jpg",
+    "20260930-r2-pdf-download-results.json"
+  ]
+}

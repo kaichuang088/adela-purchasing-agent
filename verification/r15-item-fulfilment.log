@@ -1,0 +1,141 @@
+shop H [Error]: 找不到訂單。
+    at ne (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:7374)
+    at async Object.c [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-Bh2YaCjB.js:1:537)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 404
+}
+PASS 1: Another member cannot decide on this order
+shop Error: D1_ERROR: TEST_REFUND_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+    at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:139:19)
+    at async cloudflare-internal:d1-api:90:27
+    ... 7 lines matching cause stack trace ...
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  [cause]: Error: TEST_REFUND_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:140:24)
+      at async cloudflare-internal:d1-api:90:27
+      at async ne (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:10654)
+      at async Object.c [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-Bh2YaCjB.js:1:537)
+      at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+      at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+      at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+      at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+      at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+      at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296)
+}
+PASS 2: Wallet failure rolls back item decision and order claim
+PASS 3: Partial refund uses discounted line value and retains shipping
+shop H [Error]: 延期已處理，請重新載入。
+    at ne (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:7475)
+    at async Object.c [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-Bh2YaCjB.js:1:537)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 4: Repeated decline cannot duplicate credit
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = rate.bot.com.tw; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = mas6956vqhp91ronp403n95s
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = open.er-api.com; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = om2nvdonnml5nfv0i3bectd8
+exchange_rate_failed {
+  primaryError: [Error: internal error; reference = mas6956vqhp91ronp403n95s] {
+    remote: true
+  },
+  fallbackError: [Error: internal error; reference = om2nvdonnml5nfv0i3bectd8] {
+    remote: true
+  }
+}
+PASS 5: Refunded item leaves paid item count; remaining order stays active
+PASS 6: Last-item cancellation refunds remaining shipping; total including original credit conserved
+PASS 7: Item refunds reverse membership spend exactly
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = rate.bot.com.tw; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = beip62v7f5q16cekgt7aqf31
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = open.er-api.com; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = b5l07die81s1samovr6nsgr2
+exchange_rate_failed {
+  primaryError: [Error: internal error; reference = beip62v7f5q16cekgt7aqf31] {
+    remote: true
+  },
+  fallbackError: [Error: internal error; reference = b5l07die81s1samovr6nsgr2] {
+    remote: true
+  }
+}
+PASS 8: Five grape gummies across three orders aggregate as one group
+shop H [Error]: 商品正在等待延期確認或已退款，不能標記買到。
+    at re (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:11220)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:17535)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 9: Pending buyer decision prevents purchase and no selected order changes
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = rate.bot.com.tw; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = 2g4cv953glf4b7qvv7corej6
+workerd/jsg/util.c++:405: error: e = kj/async-io-unix.c++:1298: failed: DNS lookup failed.; params.host = open.er-api.com; params.service = ; gai_strerror(status) = Temporary failure in name resolution
+stack: /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@528fe6e /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@5290960 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@355b6e0 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3772c60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774330 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3774810 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3786210 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@1fd1670 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2f54d60 /workspace/sites/adelas-korea-shop-recovery/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260515.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@2c0e960; sentryErrorContext = jsgInternalError; wdErrId = qnca443hns4ov7o5cmn3djj5
+exchange_rate_failed {
+  primaryError: [Error: internal error; reference = 2g4cv953glf4b7qvv7corej6] {
+    remote: true
+  },
+  fallbackError: [Error: internal error; reference = qnca443hns4ov7o5cmn3djj5] {
+    remote: true
+  }
+}
+PASS 10: Acceptance moves item and effective purchase date to the next batch
+shop Error: D1_ERROR: TEST_GROUP_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+    at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:139:19)
+    at async cloudflare-internal:d1-api:90:27
+    ... 7 lines matching cause stack trace ...
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  [cause]: Error: TEST_GROUP_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:140:24)
+      at async cloudflare-internal:d1-api:90:27
+      at async re (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:11621)
+      at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:17535)
+      at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+      at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+      at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+      at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+      at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+      at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296)
+}
+PASS 11: Second-order failure rolls back purchase across all selected orders
+PASS 12: Grouped purchase advances both orders, leaves deferred order unpurchased
+PASS 13: Repeating purchase does not duplicate notifications
+PASS 14: One purchased item does not complete mixed order
+shop H [Error]: 此訂單已有單品採買或延期紀錄，請使用單品處理流程。
+    at r (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/order-actions-CVkjklwx.js:1:974)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:18001)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+shop H [Error]: 訂單已更新或仍有未完成的調價，請重新載入。
+    at ue (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/commerce-B1Xox7I7.js:13:16822)
+    at async K (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:1507)
+    at async Object.Y [as handlerFn] (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/route-MFJuZ6Oj.js:1:19287)
+    at async at (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18300)
+    at async ot (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/_next/static/app-route-handler-dispatch-CoWB8YRl.js:1:18586)
+    at async jo.route (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:14:173847)
+    at async Object.fetch (file:///workspace/sites/adelas-korea-shop-recovery/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 15: Whole-order refunds and repricing cannot invalidate partial-item records

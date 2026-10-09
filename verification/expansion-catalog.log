@@ -1,0 +1,74 @@
+PASS 1: All baseline and expanded records are visible with no duplicate new records
+PASS 2: Every added SKU reaches API with exact price, size, brand, Korean name, sources and a loadable local image
+PASS 3: Le Labo has expanded perfume and non-perfume coverage
+PASS 4: Byredo has expanded perfume and non-perfume coverage
+PASS 5: Diptyque has expanded perfume and non-perfume coverage
+PASS 6: At least 12 exact-spec Olive Young additions are present
+PASS 7: Olive Young collection includes only products sourced from that retailer
+PASS 8: Olive Young search finds the new products
+PASS 9: Le Labo search finds all added scents and body care
+PASS 10: Korean product search finds ANOTHER 13
+PASS 11: Unrelated lookalike retailer domains are excluded
+PASS 12: At least 49 catalog records visible in isolated API
+PASS 13: Curated records reach the shop API unchanged (does not verify live source prices/images)
+PASS 14: All three coffee flavors each have a separate single-box record
+PASS 15: All visible catalog products have Korean display names (not full UI translation)
+PASS 16: Catalog initialization is idempotent
+PASS 17: Admin data requires authentication
+PASS 18: Member remains signed in through session cookie
+PASS 19: Every added SKU can be quoted individually in KRW with correct rounded TWD amount
+shop I [Error]: 商品數量不足。
+    at file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C4yaD52x.js:13:15421
+    at Array.map (<anonymous>)
+    at Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C4yaD52x.js:13:15112)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-BcI_gAxh.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:166354) {
+  status: 400
+}
+PASS 20: Unavailable item cannot be ordered
+shop I [Error]: MIN400：適用商品須滿 NT$400（類別券只計算該類別商品）。
+    at Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C4yaD52x.js:13:14969)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-BcI_gAxh.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:166354) {
+  status: 400
+}
+PASS 21: Coupon minimum rejects small basket and applies to qualifying basket
+shop I [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-BcI_gAxh.js:1:1812)
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-BcI_gAxh.js:1:8347)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:166354) {
+  status: 400
+}
+PASS 22: Checkout requires and saves shipping address
+PASS 23: Payment report reaches admin order queue
+PASS 24: Buyer receipt data remains accessible
+PASS 25: Missing AI connection is reported accurately without creating a product
+PASS 26: Impossible calendar date is rejected
+PASS 27: Confirmed discontinue hides item and seed does not reactivate it
+shop I [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C4yaD52x.js:13:13091)
+    at async Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C4yaD52x.js:13:14163)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-BcI_gAxh.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Df7PZfYO.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:166354) {
+  status: 409
+}
+PASS 28: Purchase cutoff enforced on server
+PASS 29: Replaying expansion never reactivates a seller-discontinued product
+{"total":79,"LeLabo":10,"Byredo":8,"Diptyque":5,"OliveYoung":28}
+Release checks complete. Live AI connection is NOT covered and remains unconfigured.

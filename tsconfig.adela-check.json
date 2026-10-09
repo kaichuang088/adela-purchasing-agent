@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.json","include":["app/**/*.ts","app/**/*.tsx","lib/**/*.ts","db/**/*.ts","next-env.d.ts","cloudflare-env.d.ts"],"exclude":["node_modules",".next","dist","netlify-dist"]}

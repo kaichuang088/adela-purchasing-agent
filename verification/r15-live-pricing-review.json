@@ -1,0 +1,983 @@
+{
+  "rate": {
+    "rate": 0.023753,
+    "at": "2026-10-07T00:02:32.000Z",
+    "source": "ExchangeRate-API 每日參考匯率（最近成功牌告；結帳時重新確認）"
+  },
+  "availableCount": 22,
+  "issueCounts": {
+    "來源缺貨，尚未恢復供貨": 1,
+    "實際成本高於台灣價格的 95%，需更換貨源或重核規格": 15,
+    "缺少同規格台灣價格、來源或查核日期": 105
+  },
+  "issues": [
+    {
+      "id": 134,
+      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+      "option": "奇異果 · 67g 單包",
+      "reason": "來源缺貨，尚未恢復供貨",
+      "cost": 27,
+      "ceiling": 46
+    },
+    {
+      "id": 133,
+      "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+      "option": "濃縮 · 32g 單盒",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 270,
+      "ceiling": 123
+    },
+    {
+      "id": 133,
+      "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+      "option": "美式 · 32g 單盒",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 161,
+      "ceiling": 123
+    },
+    {
+      "id": 133,
+      "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+      "option": "抹茶拿鐵 · 32g 單盒",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 161,
+      "ceiling": 123
+    },
+    {
+      "id": 156,
+      "name": "COLORGRAM Nude Blur 唇線筆",
+      "option": "01 Salmon Beige",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 191,
+      "ceiling": null
+    },
+    {
+      "id": 156,
+      "name": "COLORGRAM Nude Blur 唇線筆",
+      "option": "04 Hip Chocolate",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 191,
+      "ceiling": null
+    },
+    {
+      "id": 155,
+      "name": "OFRA Glazed Donut Slim Mini 新版打亮餅",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 689,
+      "ceiling": null
+    },
+    {
+      "id": 154,
+      "name": "NOT4U Clear Body Mist 身體噴霧200ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 521,
+      "ceiling": null
+    },
+    {
+      "id": 143,
+      "name": "戰鬥陀螺 X BX-01 Dran Sword 3-60F",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 401,
+      "ceiling": null
+    },
+    {
+      "id": 142,
+      "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "option": "開心果巧克力",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 93,
+      "ceiling": null
+    },
+    {
+      "id": 142,
+      "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "option": "地瓜拿鐵",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 93,
+      "ceiling": null
+    },
+    {
+      "id": 142,
+      "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "option": "草莓",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 93,
+      "ceiling": null
+    },
+    {
+      "id": 142,
+      "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+      "option": "玉米",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 93,
+      "ceiling": null
+    },
+    {
+      "id": 141,
+      "name": "Condition 青蘋果解酒果凍｜單條",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 93,
+      "ceiling": null
+    },
+    {
+      "id": 140,
+      "name": "Torriden DIVE IN 新版玻尿酸精華 50mL",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 402,
+      "ceiling": null
+    },
+    {
+      "id": 139,
+      "name": "makeprem 三麗鷗布丁狗 NMN 彈力安瓶組",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 566,
+      "ceiling": null
+    },
+    {
+      "id": 138,
+      "name": "UNOVE × 飛天小女警絲柔髮油雙入組",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 687,
+      "ceiling": null
+    },
+    {
+      "id": 136,
+      "name": "Aesop 賦活芳香手部清潔露 500mL（壓頭）",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 1378,
+      "ceiling": 1282
+    },
+    {
+      "id": 135,
+      "name": "Aesop 賦活芳香護手霜 75mL",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 998,
+      "ceiling": 997
+    },
+    {
+      "id": 127,
+      "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 523,
+      "ceiling": null
+    },
+    {
+      "id": 120,
+      "name": "Le Labo 薰衣草 31淡香精 50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 116,
+      "name": "Le Labo 香葵 9淡香精 50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 114,
+      "name": "Mardi Mercredi 羊絨混紡黑粉菱格圓領開襟衫",
+      "option": "FREE",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 3136,
+      "ceiling": null
+    },
+    {
+      "id": 113,
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "option": "230mm",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1473,
+      "ceiling": null
+    },
+    {
+      "id": 113,
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "option": "235mm",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1473,
+      "ceiling": null
+    },
+    {
+      "id": 113,
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "option": "240mm",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1473,
+      "ceiling": null
+    },
+    {
+      "id": 113,
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "option": "245mm",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1473,
+      "ceiling": null
+    },
+    {
+      "id": 113,
+      "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+      "option": "250mm",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1473,
+      "ceiling": null
+    },
+    {
+      "id": 112,
+      "name": "Mardi Mercredi CAP M 海軍藍白色棒球帽",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1069,
+      "ceiling": null
+    },
+    {
+      "id": 111,
+      "name": "Stüssy WAVES SKULLCAP 炭灰色毛帽",
+      "option": "ONE SIZE",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 2020,
+      "ceiling": null
+    },
+    {
+      "id": 110,
+      "name": "Stüssy SILK BANDANA 豹紋真絲方巾",
+      "option": "ONE SIZE",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 2352,
+      "ceiling": null
+    },
+    {
+      "id": 109,
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "option": "S",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4727,
+      "ceiling": null
+    },
+    {
+      "id": 109,
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "option": "M",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4727,
+      "ceiling": null
+    },
+    {
+      "id": 109,
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "option": "L",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4727,
+      "ceiling": null
+    },
+    {
+      "id": 109,
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "option": "XL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4727,
+      "ceiling": null
+    },
+    {
+      "id": 109,
+      "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+      "option": "XXL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4727,
+      "ceiling": null
+    },
+    {
+      "id": 108,
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "option": "S",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 108,
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "option": "M",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 108,
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "option": "L",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 108,
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "option": "XL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 108,
+      "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+      "option": "XXL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 107,
+      "name": "Isntree 洋蔥 Newpair Booster Shot 2000 精華 50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 666,
+      "ceiling": null
+    },
+    {
+      "id": 105,
+      "name": "ma:nyo Pure Soybean 大豆卸妝油 200ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 369,
+      "ceiling": null
+    },
+    {
+      "id": 104,
+      "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 371,
+      "ceiling": null
+    },
+    {
+      "id": 101,
+      "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 706,
+      "ceiling": null
+    },
+    {
+      "id": 100,
+      "name": "ILLIYOON 神經醯胺集中保濕霜 75ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 164,
+      "ceiling": null
+    },
+    {
+      "id": 99,
+      "name": "Dr.G Red Blemish EX 清爽舒緩面霜企劃組",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 656,
+      "ceiling": null
+    },
+    {
+      "id": 97,
+      "name": "COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 547,
+      "ceiling": null
+    },
+    {
+      "id": 96,
+      "name": "Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 542,
+      "ceiling": null
+    },
+    {
+      "id": 95,
+      "name": "Diptyque Fleur de Peau 肌膚之華淡香精 75ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7791,
+      "ceiling": 6602
+    },
+    {
+      "id": 94,
+      "name": "Diptyque Philosykos 希臘無花果淡香精 75ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7791,
+      "ceiling": 6602
+    },
+    {
+      "id": 93,
+      "name": "Diptyque Orphéon 爵夢淡香精 75ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7791,
+      "ceiling": 6602
+    },
+    {
+      "id": 92,
+      "name": "Byredo Blanche 返璞歸真身體乳 225ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 2376,
+      "ceiling": 2185
+    },
+    {
+      "id": 91,
+      "name": "Byredo Blanche 返璞歸真沐浴露 225ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 1948,
+      "ceiling": 1719
+    },
+    {
+      "id": 89,
+      "name": "Byredo Mojave Ghost 莫哈維之影淡香精 50ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7245,
+      "ceiling": 4702
+    },
+    {
+      "id": 88,
+      "name": "Byredo Rose of No Man’s Land 無人之境淡香精 50ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7245,
+      "ceiling": 5016
+    },
+    {
+      "id": 87,
+      "name": "Byredo Bal d’Afrique 熱帶爵士淡香精 50ml",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 7245,
+      "ceiling": 4797
+    },
+    {
+      "id": 86,
+      "name": "Le Labo 檜木沐浴膠 250 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1164,
+      "ceiling": null
+    },
+    {
+      "id": 85,
+      "name": "Le Labo 檜木護手乳 250 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1402,
+      "ceiling": null
+    },
+    {
+      "id": 84,
+      "name": "Le Labo 羅勒洗手露 250 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1046,
+      "ceiling": null
+    },
+    {
+      "id": 83,
+      "name": "Le Labo 玫瑰 31 淡香精 50 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 82,
+      "name": "Le Labo 佛手柑 22 淡香精 50 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 81,
+      "name": "Le Labo 末茶 26 淡香精 50 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 80,
+      "name": "Le Labo 黑茶 29 淡香精 50 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 79,
+      "name": "Le Labo 別物 13 淡香精 50 ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 74,
+      "name": "Byredo Blanche 返樸歸真護手霜 30ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1259,
+      "ceiling": null
+    },
+    {
+      "id": 73,
+      "name": "Diptyque BAIES 漿果香氛蠟燭 190g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 2423,
+      "ceiling": null
+    },
+    {
+      "id": 72,
+      "name": "Le Labo HINOKI 檜木洗手露 250ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1046,
+      "ceiling": null
+    },
+    {
+      "id": 71,
+      "name": "Le Labo SANTAL 33 淡香精 50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7578,
+      "ceiling": null
+    },
+    {
+      "id": 70,
+      "name": "Mardi Mercredi FLOWERMARDI 燕麥色黑花",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1069,
+      "ceiling": null
+    },
+    {
+      "id": 69,
+      "name": "Mardi Mercredi FLOWERMARDI 白色綠花",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1069,
+      "ceiling": null
+    },
+    {
+      "id": 67,
+      "name": "Matin Kim Accordion Wallet 黑色卡夾",
+      "option": "FREE",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 2091,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "XS",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "S",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "M",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "L",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "XL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 66,
+      "name": "Stüssy Basic Tee 黑色",
+      "option": "XXL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 65,
+      "name": "Beauty of Joseon 米萃防曬 50ml＋20ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 357,
+      "ceiling": null
+    },
+    {
+      "id": 64,
+      "name": "ROUND LAB 獨島化妝水 200ml＋50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 321,
+      "ceiling": null
+    },
+    {
+      "id": 63,
+      "name": "Torriden DIVE IN 新版精華＋補充包組",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 856,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z02 Nucadamia",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z03 Bare Grape",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z04 Fig Fig",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z05 Jujube",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z06 Peeling Cherry",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 62,
+      "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "option": "Z23 Peach Peach Me",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 309,
+      "ceiling": null
+    },
+    {
+      "id": 61,
+      "name": "農心 蝦味條 哇沙米 70g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 40,
+      "ceiling": null
+    },
+    {
+      "id": 60,
+      "name": "農心 蝦味條 辣味 90g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 31,
+      "ceiling": null
+    },
+    {
+      "id": 59,
+      "name": "LOTTE BINCH 巧克力餅乾 102g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 67,
+      "ceiling": null
+    },
+    {
+      "id": 58,
+      "name": "Market O 巧克力布朗尼 120g／6入",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 79,
+      "ceiling": null
+    },
+    {
+      "id": 57,
+      "name": "Orion 烏龜四層脆片 抹茶巧克力 104g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 60,
+      "ceiling": null
+    },
+    {
+      "id": 45,
+      "name": "Byredo Blanche 返樸歸真淡香精 50ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 4620,
+      "ceiling": null
+    },
+    {
+      "id": 44,
+      "name": "Diptyque Do Son 杜桑淡香精 75ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 7791,
+      "ceiling": null
+    },
+    {
+      "id": 52,
+      "name": "好麗友 四種經典零食組（4 包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 81,
+      "ceiling": null
+    },
+    {
+      "id": 51,
+      "name": "農心 蝦味先 90g",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 30,
+      "ceiling": null
+    },
+    {
+      "id": 49,
+      "name": "Fillimilli 885 腮紅刷",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 238,
+      "ceiling": null
+    },
+    {
+      "id": 48,
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "option": "S",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 5202,
+      "ceiling": null
+    },
+    {
+      "id": 48,
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "option": "M",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 5202,
+      "ceiling": null
+    },
+    {
+      "id": 48,
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "option": "L",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 5202,
+      "ceiling": null
+    },
+    {
+      "id": 48,
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "option": "XL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 5202,
+      "ceiling": null
+    },
+    {
+      "id": 48,
+      "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+      "option": "XXL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 5202,
+      "ceiling": null
+    },
+    {
+      "id": 41,
+      "name": "Stüssy Big Stock 棒球帽 Royal",
+      "option": "ONE SIZE",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 2020,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "XS",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "S",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "M",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "L",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "XL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 40,
+      "name": "Stüssy Basic Tee 卡其色",
+      "option": "XXL",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 1782,
+      "ceiling": null
+    },
+    {
+      "id": 39,
+      "name": "Torriden SOLID-IN 神經醯胺護唇精華 11ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 167,
+      "ceiling": null
+    },
+    {
+      "id": 37,
+      "name": "Torriden DIVE-IN 防曬精華 50ml＋20ml",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 594,
+      "ceiling": null
+    },
+    {
+      "id": 36,
+      "name": "Round Lab 1025 獨島化妝水＋乳液組",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 618,
+      "ceiling": null
+    },
+    {
+      "id": 34,
+      "name": "HBAF 四口味爆米花（80g × 16 包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 380,
+      "ceiling": null
+    },
+    {
+      "id": 33,
+      "name": "農心 辛拉麵非油炸麵（97g × 20 包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 523,
+      "ceiling": null
+    },
+    {
+      "id": 32,
+      "name": "Orion 好麗友零食綜合包（30g × 26 包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 392,
+      "ceiling": null
+    },
+    {
+      "id": 31,
+      "name": "海太 Homerun Ball 巧克力泡芙（128g × 6）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 425,
+      "ceiling": null
+    },
+    {
+      "id": 30,
+      "name": "農心 人氣零食綜合包（30g × 36 包）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 499,
+      "ceiling": null
+    },
+    {
+      "id": 29,
+      "name": "三養 火雞炒麵大杯（105g × 16 杯）",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 499,
+      "ceiling": null
+    },
+    {
+      "id": 6,
+      "name": "農心 辛拉麵 Rosé 4 入裝",
+      "option": "",
+      "reason": "缺少同規格台灣價格、來源或查核日期",
+      "cost": 126,
+      "ceiling": null
+    },
+    {
+      "id": 2,
+      "name": "Round Lab 白樺樹保濕防曬霜",
+      "option": "",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 535,
+      "ceiling": 445
+    },
+    {
+      "id": 1,
+      "name": "Round Lab 1025 獨島化妝水",
+      "option": "500 mL",
+      "reason": "實際成本高於台灣價格的 95%，需更換貨源或重核規格",
+      "cost": 547,
+      "ceiling": 521
+    }
+  ]
+}

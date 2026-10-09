@@ -1,0 +1,128 @@
+PASS 1: 上傳依模擬韓國來源完成 KRW 報價，且沒有建立單號
+PASS 2: 上傳後後台及會員訂單為空，不扣里程
+PASS 3: 他人不能辨識此照片，私人照片不能透過公開圖片網址讀取
+PASS 4: 重讀已完成的自動 AI 報價不會再次呼叫模型
+PASS 5: 韓國報價使用有憑據的退稅金額，客製費 10% 與運費 50 元
+PASS 6: 看過報價仍不會進入後台
+PASS 7: 取消查價會刪除 D1 暫存照片
+PASS 8: 選擇不買：沒有訂單且里程不變
+PASS 9: 確認購買產生唯一單號與待賣家審核訂單，重送不重複
+PASS 10: 建立訂單後保留商品圖並刪除私人查價暫存
+PASS 11: 確認購買才扣 30 點附贈零食，未付款不累積消費
+PASS 12: 不確定或不符規格的商品不會產生可購買的假報價
+PASS 13: 過期報價不可購買
+PASS 14: 下次查價會清理過期草稿與 D1 暫存照片
+PASS 15: 目前僅開放韓國，日本上傳由伺服器拒絕
+PASS 16: 韓國 KRW 報價按已核對的匯率換算，金鑽免代購費及運費
+PASS 17: 暫停下單後既有草稿也不能繼續購買
+PASS 18: 金鑽 AI 貨到付款仍待賣家審核，不能自動標記收款
+PASS 19: 無退稅證明時使用當地商家含稅現價，不編造退稅
+PASS 20: 韓國查價不能使用日本來源產生訂單
+20 photo flow checks passed (D1 media fallback; no R2 binding; mock AI; not a live provider test)
+shop z [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at U (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-CTlvcml7.js:13:17804)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:3133)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 401
+}
+shop z [Error]: 找不到此查價。 / Photo quote not found.
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:5164)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 404
+}
+shop z [Error]: 報價已更新，請重新查看。 / Review the updated quote.
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:6513)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 查價已失效，請重新上傳。 / Quote expired. Upload again.
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:5701)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 410
+}
+shop z [Error]: 報價已更新，請重新查看。 / Review the updated quote.
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:6513)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: AI 尚無法確認商品型號。請補充品牌／型號或改用能看清標籤的照片；不會建立訂單。 / The exact item could not be identified. Add the brand/model or upload a photo showing the label. No order was created.
+    at D (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:564)
+    at O (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:2740)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:4876)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 422
+}
+shop z [Error]: 查價已失效，請重新上傳。 / Quote expired. Upload again.
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:5701)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 410
+}
+shop z [Error]: 目前不開放此國家的代購。 / This country is currently unavailable.
+    at me (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-CTlvcml7.js:13:16125)
+    at Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:3693)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 403
+}
+shop z [Error]: 暫停接受新訂單，既有訂單及客服仍可使用。 / New orders are paused. Existing orders and support remain available.
+    at X (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/commerce-CTlvcml7.js:13:22220)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:6295)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 韓國目前未查到販售此商品。請確認型號或改選其他國家；不會建立訂單。 / This item is not currently found for sale in South Korea. No order was created.
+    at D (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:564)
+    at O (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:2740)
+    at async Object.k [as handlerFn] (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/route-Dy0bQMoX.js:1:4876)
+    at async at (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18300)
+    at async ot (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/_next/static/app-route-handler-dispatch--6IubBaw.js:1:18586)
+    at async Ao.route (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26390)
+    at async t (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:2:26599)
+    at async Jm (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///Users/kai/Documents/Codex/2026-09-30/start-here-md-adelapa-codex-prompt/work/handoff/source/dist/server/index.js:16:296) {
+  status: 422
+}

@@ -1,0 +1,12 @@
+import {createRequire} from 'node:module';
+import {realpathSync} from 'node:fs';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import assert from 'node:assert/strict';
+const require=createRequire(realpathSync('node_modules/wrangler/package.json'));
+const esbuild=require('esbuild');esbuild.buildSync({entryPoints:['lib/receipt-pdf.ts'],bundle:true,platform:'node',format:'cjs',outfile:'/tmp/kk-receipt-module.cjs',logLevel:'silent'});
+const {createReceiptPdf}=createRequire(import.meta.url)('/tmp/kk-receipt-module.cjs');
+const base={id:1,requestNo:'KK260915-TEST00000001',customerName:'收據測試會員',email:'preview@example.test',kind:'catalog',status:'paid',paidAt:'2026-09-15T00:00:00Z',paymentMethod:'transfer',snackRedeemed:false,pricing:{items:[{nameZh:'帆布托特包',nameEn:'Canvas tote',quantity:1,originalJpy:3200,goodsTwd:688,feeRate:8,feeTwd:56,sizeFeeTwd:0}],goodsJpy:3200,goodsTwd:688,feeTwd:56,shippingTwd:0,sizeFeeTwd:0,discountTwd:100,discountLabel:'測試優惠',totalTwd:644,exchangeRate:.215,rateAt:'2026-09-15T00:00:00Z',pricedAt:'2026-09-15T00:00:00Z'}};
+const second={...base,id:2,requestNo:'KK260915-TEST00000002',status:'awaiting_cod',paidAt:null,paymentMethod:'cod',pricing:{...base.pricing,items:[{...base.pricing.items[0],nameZh:'日本零食禮盒',nameEn:'Japanese snack box',feeRate:0,feeTwd:0}],feeTwd:0,discountTwd:0,totalTwd:688}};
+const bytes=await createReceiptPdf([base,second],new Uint8Array(await readFile('public/fonts/NotoSansCJKtc-Regular.otf')));assert.equal(Buffer.from(bytes).subarray(0,5).toString(),'%PDF-');
+await mkdir('outputs',{recursive:true});await writeFile('outputs/KK_Combined_Receipt_Test.pdf',bytes);console.log('PDF generated with two synthetic orders:',bytes.length,'bytes');

@@ -1,0 +1,16 @@
+{
+  "release": "R18 local source only",
+  "published": false,
+  "lastKnownSiteVersion": 29,
+  "projectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "localChecksPassed": true,
+  "readyToClaimAllRequirementsComplete": false,
+  "blockers": [
+    "No Sites read/publish tools; source and runtime not freshly retrieved",
+    "Catalog 211/228 specifications missing evidence",
+    "Le Labo final prices and live sources unresolved",
+    "Actual AI provider/model, Netlify route, physical Push, Email and unattended schedule unverified",
+    "Migration 0025 not applied online"
+  ],
+  "noRealFinancialWrites": true
+}

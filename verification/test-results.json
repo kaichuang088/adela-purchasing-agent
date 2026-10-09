@@ -1,0 +1,26 @@
+[
+  {
+    "suite": "wallet-delivery",
+    "exitCode": 0
+  },
+  {
+    "suite": "regressions",
+    "exitCode": 0
+  },
+  {
+    "suite": "korea-photo-flow",
+    "exitCode": 0
+  },
+  {
+    "suite": "catalog-release",
+    "exitCode": 0
+  },
+  {
+    "suite": "auth",
+    "exitCode": 0
+  },
+  {
+    "suite": "receipt",
+    "exitCode": 0
+  }
+]

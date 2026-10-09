@@ -1,0 +1,35 @@
+{
+  "retrievedAt": "2026-10-05",
+  "verifiedPairs": [],
+  "scope": "Four exact-size existing snacks; no Shopee comparisons. Public cart controls demonstrate a listing, not physical stock quantity or successful checkout. No absence claims from search results.",
+  "products": [
+    {
+      "nameEn": "Nongshim Saewookkang Shrimp Crackers 90g",
+      "status": "unresolved_exact_taiwan_reference",
+      "korea": {"url": "https://www.kurly.com/goods/5061325", "spec": "Original flavor90g x1bag", "priceKrw": 1260, "shippingKrw": 3000, "freeShippingMinimumKrw": 40000, "availability": "Add-to-cart displayed; quantity unverified", "sourceRef": "turn159view4"},
+      "rejectedReferences": [{"url": "https://24h.pchome.com.tw/prod/DBAEK5-A900JWS7R", "spec": "Original75g x1bag", "priceTwd": 42, "reason": "Different weight: cannot claim identical90g price. Any weight-normalized comparison must explicitly show the75g source and arithmetic, and remains outside this exact-size task.", "sourceRef": "turn158search1"}],
+      "notes": "Coupang Taiwan search results show90g x6bags but no price verified; neither a single-bag price nor Taiwan unavailability is inferred. Importer Star禾 primary brand page does not expose an exact90g retail price."
+    },
+    {
+      "nameEn": "Nongshim Spicy Shrimp Crackers 90g",
+      "status": "unresolved_exact_taiwan_reference",
+      "korea": {"url": "https://www.kurly.com/goods/1002129007", "spec": "Spicy90g x1bag", "priceKrw": 1280, "shippingKrw": 3000, "freeShippingMinimumKrw": 40000, "availability": "Add-to-cart displayed; quantity unverified", "expiryEvidence": "Supplier states shipments have expiration2027-02-20 or later; exact delivered batch unverified", "sourceRef": "turn159view3"},
+      "rejectedReferences": [{"url": "https://24h.pchome.com.tw/prod/DBAEK5-A900JWS7T", "spec": "Spicy75g x1bag", "priceTwd": 42, "reason": "Different weight. September promotion39 shown in search cache is not a verified current October price.", "sourceRef": "turn158search5"}],
+      "notes": "No exact90g momo/PChome/official/importer Taiwan retail price verified."
+    },
+    {
+      "nameEn": "Market O Real Brownie 120g 6 pieces",
+      "status": "unresolved_taiwan_option_price_and_availability",
+      "korea": {"url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857", "spec": "6pieces, existing catalog120g; supplier unit price275KRW per10g is consistent with120g at3300KRW", "priceKrw": 3300, "availability": "Public cart/direct-buy displayed; quantity unverified", "sourceRef": "turn159view1"},
+      "taiwanCandidate": {"url": "https://www.momoshop.com.tw/TP/TP0003794/goodsDetail/TP00037940000195", "priceVerified": false, "reason": "Old search cache shows59–219 across chocolate/cheese/matcha options. Current reader returned zero lines; direct HTML fetch succeeded but no product name/option/price payload found. Cannot assign lowest59 to120g6piece box or claim current availability.", "sourceRef": "turn158search0"},
+      "notes": "Coupang Taiwan search result shows120g x3boxes, but no price verified; no conversion to a one-box reference."
+    },
+    {
+      "nameEn": "Nongshim Wasabi Shrimp Crackers 70g",
+      "status": "unresolved_exact_taiwan_reference",
+      "korea": {"url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233613", "spec": "Wasabi70g x1bag", "priceKrw": 1600, "availability": "Public cart/direct-buy displayed; quantity unverified", "sourceRef": "turn159view2"},
+      "rejectedReferences": [{"url": "https://www.shop2000.com.tw/%E6%B2%90%E5%85%89%E5%9A%B4%E9%81%B8%E5%9C%98%E8%B3%BC%E4%BB%A3%E8%B3%BC/product/p58450936", "reason": "Taiwan group-buy page conceals general/member prices behind question marks; no public price verified", "sourceRef": "turn161view1"}, {"url": "https://one-mall.com/products/%E8%BE%B2%E5%BF%83-%E9%9F%93%E5%9C%8B%E8%BE%B2%E5%BF%83%E8%9D%A6%E6%A2%9D%E8%8A%A5%E6%9C%AB%E5%91%B3-70g-%E7%B6%A0%E5%B9%B3%E8%A1%8C%E9%80%B2%E5%8F%A3-f1-2-%E5%8C%85%E8%A3%9D%E9%9A%A8%E6%A9%9F", "reason": "Hong Kong retailer HKD12.50, sold out; not Taiwan TWD reference", "sourceRef": "turn161view0"}],
+      "notes": "Coupang Taiwan search results70g x10bags lack a verified current price. No Taiwan absence claim."
+    }
+  ]
+}

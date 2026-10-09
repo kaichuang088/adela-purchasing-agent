@@ -1,0 +1,8 @@
+{
+  "checks": 4,
+  "historicalRowsIdentical": true,
+  "new2000Bonus": 160,
+  "new5000Bonus": 600,
+  "invalidBonusRejected": true,
+  "scope": "SQLite in memory; never applied to live DB"
+}

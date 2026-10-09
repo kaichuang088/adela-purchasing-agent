@@ -1,0 +1,8 @@
+PASS 1: Missing credentials never imply readiness
+PASS 2: Gateway URL alone is insufficient without shared secret
+PASS 3: Gateway requires HTTPS
+PASS 4: Gateway rejects embedded URL credentials
+PASS 5: Requested default model stays GPT6.1Sol
+PASS 6: Stale gateway secret cannot break direct OpenAI authorization
+PASS 7: Gateway receives only shared authorization, never the direct key
+PASS 8: Status response never exposes key values

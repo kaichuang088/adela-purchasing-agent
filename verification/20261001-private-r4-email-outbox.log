@@ -1,0 +1,21 @@
+PASS 1: Migration and browsing do not send or backfill old notifications
+PASS 2: Real cancellation transaction queues one email with the actual NT$522 refund and correct recipient
+PASS 3: Failed transaction rolls back both notification and queued email
+PASS 4: Unconfigured email stays pending and is never reported as sent
+PASS 5: Concurrent dispatchers claim one email once
+PASS 6: Provider acceptance updates notification state without claiming inbox delivery
+PASS 7: Accepted email is never resent by subsequent runs
+PASS 8: Temporary provider failure stores a safe error and schedules backoff
+PASS 9: Backoff prevents immediate retry
+PASS 10: Retry preserves provider payload and idempotency key even after configuration changes
+PASS 11: Payload conflict is blocked rather than retried
+PASS 12: Network errors retain retry state without leaking exception secrets
+PASS 13: Unknown outcome outside provider deduplication window requires review and cannot resend
+PASS 14: Active sending lease excludes another worker
+PASS 15: Expired worker lease can recover within the safe retry window
+PASS 16: Exhausted attempts enter review even after a worker crash
+PASS 17: Invalid recipient never reaches provider
+PASS 18: A 200 response without a provider message ID does not claim success
+PASS 19: Only admin can process queue; missing real configuration and pending count are reported honestly
+PASS 20: Compiled Worker automatically dispatches pending order email after a successful action when configured (mock outbound service)
+Email provider transport is mocked throughout. No external emails sent.

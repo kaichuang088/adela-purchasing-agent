@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {realpathSync,mkdirSync} from 'node:fs';
+const require=createRequire(realpathSync('node_modules/wrangler/package.json'));mkdirSync('work',{recursive:true});
+require('esbuild').buildSync({entryPoints:['lib/ai-config.ts'],outfile:'work/ai-config.mjs',bundle:true,platform:'node',format:'esm'});
+const {aiConfiguration,aiConnection}=await import('../work/ai-config.mjs');let n=0;const check=(v,l)=>{assert.ok(v,l);console.log(`PASS ${++n}: ${l}`)};
+check(!aiConfiguration({}).configured,'Missing credentials never imply readiness');
+check(!aiConfiguration({KK_AI_GATEWAY_URL:'https://gateway.example.test/api/ai-provider'}).configured,'Gateway URL alone is insufficient without shared secret');
+check(!aiConfiguration({KK_AI_GATEWAY_URL:'http://gateway.example.test',KK_AI_GATEWAY_SECRET:'fixture'}).configured,'Gateway requires HTTPS');
+check(!aiConfiguration({KK_AI_GATEWAY_URL:'https://user:password@gateway.example.test',KK_AI_GATEWAY_SECRET:'fixture'}).configured,'Gateway rejects embedded URL credentials');
+check(aiConfiguration({OPENAI_API_KEY:'fixture'}).model==='gpt-6.1-sol','Requested default model stays GPT6.1Sol');
+const direct=aiConnection({OPENAI_API_KEY:'fixture-key',KK_AI_GATEWAY_SECRET:'stale-fixture'});check(direct.headers.Authorization==='Bearer fixture-key'&&!direct.headers['X-KK-AI-Gateway-Secret'],'Stale gateway secret cannot break direct OpenAI authorization');
+const gateway=aiConnection({OPENAI_API_KEY:'fixture-key',KK_AI_GATEWAY_URL:'https://gateway.example.test/api/ai-provider',KK_AI_GATEWAY_SECRET:'fixture-shared'});check(gateway.headers['X-KK-AI-Gateway-Secret']==='fixture-shared'&&!gateway.headers.Authorization,'Gateway receives only shared authorization, never the direct key');
+check(!JSON.stringify(aiConfiguration({OPENAI_API_KEY:'fixture-secret'})).includes('fixture-secret'),'Status response never exposes key values');

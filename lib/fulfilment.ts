@@ -1,0 +1,8 @@
+import {ShopError} from './commerce';
+import {countries,type Country} from './countries';
+export {countries,type Country} from './countries';
+export type ArrivalWindow={from:string;to:string;eta:string;etaTo?:string};
+const validDate=(d:string)=>/^\d{4}-\d{2}-\d{2}$/.test(d)&&Number.isFinite(Date.parse(d))&&new Date(d).toISOString().slice(0,10)===d;
+export function validateWindow(value:unknown):ArrivalWindow|null{if(!value)return null;const w=value as ArrivalWindow;if(![w.from,w.to,w.eta].every(validDate)||w.from>w.to||w.eta<w.to)throw new ShopError('請檢查購買期間及預計到貨日。 / Check order window and arrival date.');if(w.etaTo&&(!validDate(w.etaTo)||w.etaTo<w.eta))throw new ShopError('到貨區間結束不可早於開始。');return{from:w.from,to:w.to,eta:w.eta,etaTo:w.etaTo||w.eta};}
+export function arrivalEstimate(hours:number[],window:ArrivalWindow|null,now=new Date()){const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);if(window&&date>=window.from&&date<=window.to)return{estimatedArrival:window.eta,estimatedArrivalTo:window.etaTo||window.eta,etaReason:`${window.from} - ${window.to} 下單統一預估到貨 / Ordering window delivery`};const longest=Math.max(0,...hours);return longest?{estimatedArrival:new Date(now.getTime()+longest*3600000).toISOString(),etaReason:`下單後約 ${longest} 小時 / Approximately ${longest} hours after ordering`}:{estimatedArrival:null,etaReason:''};}
+export function enabledCountry(value:unknown,enabled:string[]):Country{if(!Object.hasOwn(countries,String(value))||!enabled.includes(String(value)))throw new ShopError('目前不開放此國家的代購。 / This country is currently unavailable.',403);return value as Country;}

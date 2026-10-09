@@ -1,0 +1,191 @@
+{
+  "candidates": 17,
+  "exactImages": 9,
+  "listingReady": 6,
+  "products": [
+    {
+      "id": "lelabo-ambrette-9-50",
+      "nameEn": "Le Labo AMBRETTE 9 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "priceKrw": 319000,
+      "sourcePriceClassification": "brand_direct_department_store_regular_price",
+      "sourceUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PA09100__PRODUCT_01--IMG_1200--AMBRETTE9--657710601.jpg",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/ambrette-9-735.html",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 50ml × 1. Numeric remaining stock not checked.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": [
+        "Taiwan matching price unverified"
+      ]
+    },
+    {
+      "id": "lelabo-ylang-49-50",
+      "nameEn": "Le Labo YLANG 49 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "priceKrw": 319000,
+      "sourcePriceClassification": "brand_direct_department_store_regular_price",
+      "sourceUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_1200--YLANG49-1134123156.jpg",
+      "stockVerified": false,
+      "listingReady": false,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/ylang-49-1043.html",
+        "type": "not_verified_for_exact_selected_spec",
+        "basis": "Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls."
+      },
+      "gaps": [
+        "Taiwan matching price unverified",
+        "No current stock verification"
+      ]
+    },
+    {
+      "id": "lelabo-neroli-36-50",
+      "nameEn": "Le Labo NEROLI 36 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "priceKrw": 319000,
+      "sourcePriceClassification": "brand_direct_department_store_regular_price",
+      "sourceUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_1200--NEROLI36--1184684923.jpg",
+      "stockVerified": false,
+      "listingReady": false,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp",
+        "type": "not_verified_for_exact_selected_spec",
+        "basis": "Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls."
+      },
+      "gaps": [
+        "Taiwan matching price unverified",
+        "No current stock verification"
+      ]
+    },
+    {
+      "id": "lelabo-tonka-25-50",
+      "nameEn": "Le Labo TONKA 25 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "priceKrw": 319000,
+      "sourcePriceClassification": "brand_direct_department_store_regular_price",
+      "sourceUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_1200--TONKA25--880596687.jpg",
+      "stockVerified": false,
+      "listingReady": false,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/tonka-25-1105.html",
+        "type": "not_verified_for_exact_selected_spec",
+        "basis": "Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls."
+      },
+      "gaps": [
+        "Taiwan matching price unverified",
+        "No current stock verification"
+      ]
+    },
+    {
+      "id": "lelabo-lavande-31-50",
+      "nameEn": "Le Labo LAVANDE 31 Eau de Parfum 50ml",
+      "spec": "50ml × 1",
+      "priceKrw": 319000,
+      "sourcePriceClassification": "brand_direct_department_store_regular_price",
+      "sourceUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J3LM01R000__PRODUCT_01--IMG_1200--31LAVANDE31-1104299997.jpg",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/31--lavande-31-1265.html",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 50ml × 1. Numeric remaining stock not checked.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": [
+        "Taiwan matching price unverified"
+      ]
+    },
+    {
+      "id": "olive-A000000249274",
+      "nameEn": "MEDIHEAL Madecassoside Sun Stick Airy Fit 10g",
+      "spec": "10g × 1",
+      "priceKrw": 11000,
+      "sourcePriceClassification": "promotion",
+      "sourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024927411ko.jpg?l=ko",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Exact single-item title, current KRW price, image, product-specific 장바구니/바로구매 controls and normal delivery shown; not merely header shopping-cart link.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": [
+        "Taiwan matching price unverified"
+      ]
+    },
+    {
+      "id": "olive-A000000251852",
+      "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "spec": "50g × 1",
+      "priceKrw": 14400,
+      "sourcePriceClassification": "promotion",
+      "sourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025185209ko.jpg?l=ko",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Exact single-item title, current KRW price, image, product-specific 장바구니/바로구매 controls and normal delivery shown; not merely header shopping-cart link.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": [
+        "Taiwan matching price unverified"
+      ]
+    },
+    {
+      "id": "olive-A000000223423",
+      "nameEn": "MEDIHEAL Madecassoside Moisture Sun Serum Blemish Repair 50g",
+      "spec": "50g × 1",
+      "priceKrw": 14400,
+      "sourcePriceClassification": "promotion",
+      "sourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223423",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022342327ko.jpg?l=ko",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223423",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Exact single-item title, current KRW price, image, product-specific 장바구니/바로구매 controls and normal delivery shown; not merely header shopping-cart link.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": [
+        "Taiwan matching price unverified"
+      ]
+    },
+    {
+      "id": "lelabo-hinoki-hand-pomade-55",
+      "nameEn": "Le Labo HINOKI Hand Pomade 55ml",
+      "spec": "55ml × 1",
+      "priceKrw": 42000,
+      "sourcePriceClassification": "official_regular_price",
+      "sourceUrl": "https://www.lelabofragrances.co.kr/hand-pomade-1068.html",
+      "imageUrl": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_1200--HANDPOMADE-1173383336.JPG",
+      "stockVerified": true,
+      "listingReady": true,
+      "availabilityEvidence": {
+        "url": "https://www.lelabofragrances.co.kr/hand-pomade-1068.html",
+        "type": "public_purchase_controls_for_exact_spec",
+        "basis": "Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 55ml × 1. Numeric remaining stock not checked.",
+        "stockQuantityVerified": false,
+        "taiwanPriceNotRequiredForListing": true
+      },
+      "gaps": []
+    }
+  ]
+}

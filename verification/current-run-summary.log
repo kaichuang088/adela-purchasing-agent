@@ -1,0 +1,12 @@
+PASS wallet-delivery: 30 named checks
+PASS regressions: 18 named checks
+PASS auth: 6 named checks
+PASS korea-photo-flow: 10 named checks
+PASS catalog-expansion: 56 named checks
+PASS adela-korea: 0 named checks
+PASS policy-updates: 61 named checks
+PASS photo-quotes: 20 named checks
+PASS commerce: 38 named checks
+PASS flows: 14 named checks
+PASS email-outbox: 20 named checks
+PASS localization: 24 named checks

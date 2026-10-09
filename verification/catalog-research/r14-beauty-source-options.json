@@ -1,0 +1,2059 @@
+[
+  {
+    "name": "Torriden DIVE IN 精華 50mL 新版",
+    "nameEn": "Torriden DIVE IN Serum 50mL NEW",
+    "spec": "50mL 新版；與台灣舊版配方尚未核實一致",
+    "purchaseUrl": "https://www.torriden.com/goods/goods_view.php?goodsNo=2268",
+    "fetchedAt": "2026-10-07T16:44:52.001650+00:00",
+    "htmlFlags": {
+      "goodsPrice": [
+        "        }\r\n    }\r\n\r\n    /**\r\n     * 총 합산\r\n     */\r\n    function gd_total_calculate() {\r\n        var goodsPrice = parseFloat($('#frmView input[name=\"set_goods_price\"]').val());\r\n\r\n        //총합계 계산\r\n        goodsTotalCnt =  0;\r\n        $('#frmView input[name*=\"goodsCnt[]\"]').each(f",
+        "     goodsOptionCnt[index] = parseFloat($(this).val());\r\n        });\r\n        var goodsTotalPrice = goodsPrice * goodsTotalCnt;\r\n        let setOriginOptionPrice =  0;\r\n\r\n        $('#frmView input[name*=\"originOptionPriceSum[]\"]').each(function () {\r\n            setOriginOptionPr",
+        " type=\"hidden\" name=\"optionSno[]\" value=\"<%=optionSno%>\" />\r\n            <input type=\"hidden\" name=\"goodsPriceSum[]\" value=\"0\" />\r\n            <input type=\"hidden\" name=\"addGoodsPriceSum[]\" value=\"0\" />\r\n            <input type=\"hidden\" name=\"displayOptionkey[]\" value=\"<%=display",
+        " name=\"optionSno[]\" value=\"1098\" />\r\n                                    <input type=\"hidden\" name=\"goodsPriceSum[]\" value=\"0\" />\r\n                                    <input type=\"hidden\" name=\"addGoodsPriceSum[]\" value=\"0\" />\r\n                                    <div class=\"cart"
+      ],
+      "soldOutFl": [],
+      "goodsStock": [],
+      "stockFl": [],
+      "16900": [
+        "\n            'setSalesUnit' : '1',\r\n            'setDecimal' : '0',\r\n            'setGoodsPrice' : '16900.00',\r\n            'setGoodsNo' : '2268',\r\n            'setMileageFl' : ' c',\r\n            'setFixedSales' : 'option',\r\n            'setFixedOrderCnt' : 'goods',\r\n            ",
+        "hidden\" name=\"cartMode\" value=\"\" />\r\n            <input type=\"hidden\" name=\"set_goods_price\" value=\"16900\" />\r\n            <input type=\"hidden\" id=\"set_goods_fixedPrice\" name=\"set_goods_fixedPrice\" value=\"22000.00\" />\r\n            <input type=\"hidden\" name=\"set_goods_mileage\" val",
+        "=\"set_goods_stock\" value=\"∞\" />\r\n            <input type=\"hidden\" name=\"set_coupon_dc_price\" value=\"16900.00\" />\r\n            <input type=\"hidden\" id=\"set_goods_total_price\" name=\"set_goods_total_price\" value=\"0\" />\r\n            <input type=\"hidden\" id=\"set_origin_option_price\" n",
+        "=\"set_add_goods_price\" value=\"0\" />\r\n            <input type=\"hidden\" name=\"set_total_price\" value=\"16900\" />\r\n            <input type=\"hidden\" name=\"mileageFl\" value=\"c\" />\r\n            <input type=\"hidden\" name=\"mileageGoods\" value=\"0.00\" />\r\n            <input type=\"hidden\" na"
+      ],
+      "구매 불가": [
+        "_disabled_order\">\r\n                                <button type=\"button\" class=\"btn_disabled_order\">구매 불가</button>\r\n                            </div>\r\n\t\t\t\t\t\t\t<div class=\"naver_pay sns_pay\">\r\n\t\t\t\t\t\t\t\t\n<script type=\"text/javascript\" src=\"https://pay.naver.com/customer/js/naverPayB"
+      ]
+    }
+  },
+  {
+    "name": "makeprem 三麗鷗 NMN 彈力安瓶 50mL＋20mL",
+    "nameEn": "makeprem Sanrio NMN Ampoule 50mL + 20mL",
+    "spec": "50mL＋20mL，聯名卡夾與手機支架",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534",
+    "fetchedAt": "2026-10-07T16:44:55.481695+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000262534",
+      "goodsName": "[주름개선/산리오콜라보] 메이크프렘 NMN 퍼밍 엑스퍼트 앰플 50ml 기획 (+20ml+카드지갑+스마트톡)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026253424ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026253413ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026253414ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026253408ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026253401ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 34000,
+      "finalPrice": 23800,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000262534",
+          "optionNumber": "001",
+          "standardCode": "8809495686636",
+          "optionName": " NMN앰플 폼폼푸린 기획",
+          "goodsName": "[주름개선/산리오콜라보] 메이크프렘 NMN 퍼밍 엑스퍼트 앰플 50ml 기획 (+20ml+카드지갑+스마트톡)",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/7/8316621821093821059.png"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 34000,
+          "finalPrice": 23800,
+          "maxBenefitPrice": 23800,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010103",
+            "lowerCategoryName": "에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 4760,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3126",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "UNOVE × 飛天小女警 絲柔髮油 70mL × 2",
+    "nameEn": "UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2",
+    "spec": "70mL × 2",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422",
+    "fetchedAt": "2026-10-07T16:44:55.795297+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000171422",
+      "goodsName": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142289ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142275ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142286ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142276ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142264ko.png?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0017/A00000017142265ko.png?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 35000,
+      "finalPrice": 28900,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000171422",
+          "optionNumber": "009",
+          "standardCode": "8800372000125",
+          "optionName": "[올영픽] 텐더블룸X2+헤어마스크40ml",
+          "goodsName": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈)",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/9/7107572220622753968.png"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 6,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 35000,
+          "finalPrice": 28900,
+          "maxBenefitPrice": 28900,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "05",
+            "upperCategoryName": "헤어용품",
+            "middleCategory": "0502",
+            "middleCategoryName": "헤어 트리트먼트",
+            "lowerCategory": "050203",
+            "lowerCategoryName": "헤어에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4522",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000171422",
+          "optionNumber": "008",
+          "standardCode": "8809669508955",
+          "optionName": "[파워퍼프걸콜라보] 텐더블룸X2+캡반지",
+          "goodsName": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈)",
+          "sortSeq": 2,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/8/6443425435239084853.png"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 6,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 35000,
+          "finalPrice": 28900,
+          "maxBenefitPrice": 28900,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "05",
+            "upperCategoryName": "헤어용품",
+            "middleCategory": "0502",
+            "middleCategoryName": "헤어 트리트먼트",
+            "lowerCategory": "050203",
+            "lowerCategoryName": "헤어에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4522",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000171422",
+          "optionNumber": "003",
+          "standardCode": "8809669503561",
+          "optionName": "[더블] 웜페탈*2",
+          "goodsName": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈)",
+          "sortSeq": 3,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/5/6145566420823904778.png"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 6,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 35000,
+          "finalPrice": 28900,
+          "maxBenefitPrice": 28900,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "05",
+            "upperCategoryName": "헤어용품",
+            "middleCategory": "0502",
+            "middleCategoryName": "헤어 트리트먼트",
+            "lowerCategory": "050203",
+            "lowerCategoryName": "헤어에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4522",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000171422",
+          "optionNumber": "001",
+          "standardCode": "8809669502403",
+          "optionName": "[더블] 텐더블룸*2",
+          "goodsName": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈)",
+          "sortSeq": 4,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/5/244269630644548108.png"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 6,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 35000,
+          "finalPrice": 28900,
+          "maxBenefitPrice": 28900,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "05",
+            "upperCategoryName": "헤어용품",
+            "middleCategory": "0502",
+            "middleCategoryName": "헤어 트리트먼트",
+            "lowerCategory": "050203",
+            "lowerCategoryName": "헤어에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4522",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
+    "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+    "spec": "50g × 1",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+    "fetchedAt": "2026-10-07T16:44:55.806471+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000251852",
+      "goodsName": "[NEW] 메디힐 PDRN 수분 선세럼 매끈 톤업 50g",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025185209ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025185202ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 22000,
+      "finalPrice": 22000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000251852",
+          "optionNumber": "001",
+          "standardCode": "8809936749050",
+          "optionName": " ",
+          "goodsName": "[NEW] 메디힐 PDRN 수분 선세럼 매끈 톤업 50g",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 22000,
+          "finalPrice": 22000,
+          "maxBenefitPrice": 22000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0104",
+            "middleCategoryName": "선케어",
+            "lowerCategory": "010401",
+            "lowerCategoryName": "선블록"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 4400,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "1535",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Isntree 洋蔥 Newpair Booster Shot 2000 精華 50ml",
+    "nameEn": "Isntree Onion Newpair Booster Shot 2000 50ml",
+    "spec": "50ml × 1",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+    "fetchedAt": "2026-10-07T16:44:55.813196+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000205864",
+      "goodsName": "[NCT 재민PICK] 이즈앤트리 어니언 뉴페어 부스터 샷 2000 50ml",
+      "saleableFlag": true,
+      "soldOutFlag": true,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0020/A00000020586410ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0020/A00000020586406ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 28000,
+      "finalPrice": 19600,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000205864",
+          "optionNumber": "001",
+          "standardCode": "8809800941221",
+          "optionName": " ",
+          "goodsName": "[NCT 재민PICK] 이즈앤트리 어니언 뉴페어 부스터 샷 2000 50ml",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": true,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 28000,
+          "finalPrice": 19600,
+          "maxBenefitPrice": 19600,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010103",
+            "lowerCategoryName": "에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 3920,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2805",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "ma:nyo Pure Soybean 大豆卸妝油 200ml",
+    "nameEn": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+    "spec": "200ml × 1",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679",
+    "fetchedAt": "2026-10-07T16:45:08.477466+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000107679",
+      "goodsName": "마녀공장 퓨어 소이빈 클렌징 오일 200ml",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0010/A00000010767956ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0010/A00000010767957ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0010/A00000010767954ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0010/A00000010767955ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0010/A00000010767951ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 19900,
+      "finalPrice": 15500,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000107679",
+          "optionNumber": "001",
+          "standardCode": "8809082392292",
+          "optionName": " ",
+          "goodsName": "마녀공장 퓨어 소이빈 클렌징 오일 200ml",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 19900,
+          "finalPrice": 15500,
+          "maxBenefitPrice": 15500,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0102",
+            "middleCategoryName": "클렌징",
+            "lowerCategory": "010202",
+            "lowerCategoryName": "클렌징오일"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 775,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 200
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3002",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
+    "nameEn": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+    "spec": "100片 × 1盒",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+    "fetchedAt": "2026-10-07T16:45:08.619307+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000181380",
+      "goodsName": "에필로우 어성초 마데카소사이드 트러블 수딩 패드 100매",
+      "saleableFlag": true,
+      "soldOutFlag": true,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0018/A00000018138017ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0018/A00000018138018ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0018/A00000018138019ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0018/A00000018138020ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0018/A00000018138021ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 26000,
+      "finalPrice": 26000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000181380",
+          "optionNumber": "001",
+          "standardCode": "8809800700491",
+          "optionName": "어성초 진정패드 100매",
+          "goodsName": "에필로우 어성초 마데카소사이드 트러블 수딩 패드 100매",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2023/3/2324921245362090995.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": true,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 26000,
+          "finalPrice": 26000,
+          "maxBenefitPrice": 26000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0103",
+            "middleCategoryName": "마스크팩",
+            "lowerCategory": "010305",
+            "lowerCategoryName": "패드"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 260,
+            "priceUnit": "1",
+            "priceUnitName": "매",
+            "totalProvidedDays": 100
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "5380",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
+    "nameEn": "AESTURA Atobarrier365 Cream 80ml Set (Toner 25ml + Cleanser 3g x 3)",
+    "spec": "面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864",
+    "fetchedAt": "2026-10-07T16:45:08.439006+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000261864",
+      "goodsName": "[1등크림] 에스트라 아토베리어365 크림 80ml 기획(+토너25ml+클렌징폼3g*3EA)",
+      "saleableFlag": true,
+      "soldOutFlag": true,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026186405ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026186403ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026186407ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026186406ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0026/A00000026186404ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 33000,
+      "finalPrice": 33000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000261864",
+          "optionNumber": "001",
+          "standardCode": "8800283697186",
+          "optionName": "크림80ml+토너25ml+클렌징폼3g*3",
+          "goodsName": "[1등크림] 에스트라 아토베리어365 크림 80ml 기획(+토너25ml+클렌징폼3g*3EA)",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": true,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 33000,
+          "finalPrice": 33000,
+          "maxBenefitPrice": 33000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010104",
+            "lowerCategoryName": "크림"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 41250,
+            "priceUnit": "100",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 80
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3440",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000261864",
+          "optionNumber": "002",
+          "standardCode": "8809013349050",
+          "optionName": "크림80ml 단품",
+          "goodsName": "[1등크림] 에스트라 아토베리어365 크림 80ml 기획(+토너25ml+클렌징폼3g*3EA)",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": true,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 33000,
+          "finalPrice": 33000,
+          "maxBenefitPrice": 33000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010104",
+            "lowerCategoryName": "크림"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 41250,
+            "priceUnit": "100",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 80
+          },
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3440",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "ILLIYOON Ceramide Ato 神經醯胺集中保濕霜（75ml × 1條）",
+    "nameEn": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+    "spec": "75ml × 1條",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30",
+    "fetchedAt": "2026-10-07T16:45:08.448202+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000233237",
+      "goodsName": "일리윤 세라마이드 아토 집중 크림 75ML",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0023/A00000023323706ko.png?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0023/A00000023323703ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0023/A00000023323704ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0023/A00000023323705ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 6900,
+      "finalPrice": 6900,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000233237",
+          "optionNumber": "001",
+          "standardCode": "8809925134911",
+          "optionName": " ",
+          "goodsName": "일리윤 세라마이드 아토 집중 크림 75ML",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 6900,
+          "finalPrice": 6900,
+          "maxBenefitPrice": 6900,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "04",
+            "upperCategoryName": "바디용품",
+            "middleCategory": "0402",
+            "middleCategoryName": "바디 보습류",
+            "lowerCategory": "040203",
+            "lowerCategoryName": "바디크림"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 9200,
+            "priceUnit": "100",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 75
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "1844",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dr.G Red Blemish EX 清爽舒緩面霜（第三代 EX新版 70ml × 1罐）",
+    "nameEn": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+    "spec": "第三代 EX新版 70ml × 1罐",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752",
+    "fetchedAt": "2026-10-07T16:45:22.791426+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000255752",
+      "goodsName": "[수분진정/세럼증정] 닥터지 레드블레미쉬 클리어 수딩크림 EX 70ml기획 (+30ml+세럼10ml*2ea)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025575208ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025575202ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025575205ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025575219ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 38000,
+      "finalPrice": 27600,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000255752",
+          "optionNumber": "001",
+          "standardCode": "8800310764553",
+          "optionName": " ",
+          "goodsName": "[수분진정/세럼증정] 닥터지 레드블레미쉬 클리어 수딩크림 EX 70ml기획 (+30ml+세럼10ml*2ea)",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/6/4580757123516222230.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 38000,
+          "finalPrice": 27600,
+          "maxBenefitPrice": 27600,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010104",
+            "lowerCategoryName": "크림"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 27600,
+            "priceUnit": "100",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 100
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4244",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Anua 魚腥草77玻尿酸保濕舒緩化妝水（新版 350ml × 1瓶）",
+    "nameEn": "Anua Heartleaf 77 Hyaluron Moisturizing Toner 350ml",
+    "spec": "新版 350ml × 1瓶",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696",
+    "fetchedAt": "2026-10-07T16:45:22.794083+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000252696",
+      "goodsName": "[깐달걀 토너] 아누아 어성초 77 히알루론산 수분 진정 토너 350ml",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025269610ko.png?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025269606ko.png?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025269607ko.png?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 30500,
+      "finalPrice": 22800,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000252696",
+          "optionNumber": "001",
+          "standardCode": "8800307378190",
+          "optionName": "",
+          "goodsName": "[깐달걀 토너] 아누아 어성초 77 히알루론산 수분 진정 토너 350ml",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": ""
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 30500,
+          "finalPrice": 22800,
+          "maxBenefitPrice": 22800,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010101",
+            "lowerCategoryName": "스킨/토너"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 651,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 350
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4332",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Beauty of Joseon 米萃防曬 50ml＋贈20ml",
+    "nameEn": "Beauty of Joseon Relief Sun 50ml + 20ml",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
+    "fetchedAt": "2026-10-07T16:45:22.763905+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000224657",
+      "goodsName": "[화잘먹] 조선미녀 맑은쌀 선크림 50ml+20ml 증정 기획",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022465715ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022465705ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022465702ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022465708ko.jpeg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 20000,
+      "finalPrice": 15000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000224657",
+          "optionNumber": "001",
+          "standardCode": "8809968131267",
+          "optionName": "맑은쌀선크림 기획",
+          "goodsName": "[화잘먹] 조선미녀 맑은쌀 선크림 50ml+20ml 증정 기획",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 20000,
+          "finalPrice": 15000,
+          "maxBenefitPrice": 15000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0104",
+            "middleCategoryName": "선케어",
+            "lowerCategory": "010401",
+            "lowerCategoryName": "선블록"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 3000,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "4911",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUND LAB 獨島化妝水 200ml＋贈50ml",
+    "nameEn": "Round Lab Dokdo Toner 200ml + 50ml",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162",
+    "fetchedAt": "2026-10-07T16:45:22.771461+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000132162",
+      "goodsName": "[1등토너] 라운드랩 1025 독도 토너 200ml 기획 (+50ml)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013216235ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013216236ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013216237ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013216238ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013216227ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 15000,
+      "finalPrice": 13500,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000132162",
+          "optionNumber": "001",
+          "standardCode": "8809657112829",
+          "optionName": " ",
+          "goodsName": "[1등토너] 라운드랩 1025 독도 토너 200ml 기획 (+50ml)",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 15000,
+          "finalPrice": 13500,
+          "maxBenefitPrice": 13500,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010101",
+            "lowerCategoryName": "스킨/토너"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 675,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 200
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3697",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Torriden DIVE IN 精華 50ml＋補充包50ml",
+    "nameEn": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291",
+    "fetchedAt": "2026-10-07T16:45:38.789491+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000258291",
+      "goodsName": "[NEW/1등수분세럼] 토리든 다이브인 저분자 히알루론산 세럼 50ml 리필 기획(+리필 50ml)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025829122ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025829123ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0025/A00000025829124ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 36000,
+      "finalPrice": 36000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000258291",
+          "optionNumber": "001",
+          "standardCode": "8809784607632",
+          "optionName": " ",
+          "goodsName": "[NEW/1등수분세럼] 토리든 다이브인 저분자 히알루론산 세럼 50ml 리필 기획(+리필 50ml)",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/6/3235586673857400831.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 36000,
+          "finalPrice": 36000,
+          "maxBenefitPrice": 36000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010103",
+            "lowerCategoryName": "에센스"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 3600,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 100
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3791",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "rom&nd Juicy Lasting Tint ZERO 透明唇蜜",
+    "nameEn": "romand Juicy Lasting Tint ZERO Clear",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293",
+    "fetchedAt": "2026-10-07T16:45:39.026484+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000248293",
+      "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0024/A00000024829305ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0024/A00000024829306ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0024/A00000024829307ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 13000,
+      "finalPrice": 13000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "001",
+          "standardCode": "8800344920031",
+          "optionName": "Z02 누카다미아",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/4917634761251854438.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/4917634761251854438.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/6326367421206250038.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "002",
+          "standardCode": "8800344920048",
+          "optionName": "Z03 베어 그레이프",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/873924363836421654.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/873924363836421654.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/4934076562036756620.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "003",
+          "standardCode": "8800344920055",
+          "optionName": "Z04 피그피그",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/6168238768249401342.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/6168238768249401342.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/8380976068558749219.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "004",
+          "standardCode": "8800344920062",
+          "optionName": "Z05 쥬쥬브",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/3948184929291648414.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/3948184929291648414.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/4521630645418740834.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "005",
+          "standardCode": "8800344920079",
+          "optionName": "Z06 필링 앵두",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/6077880955133045029.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/6077880955133045029.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/551118341759779741.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000248293",
+          "optionNumber": "006",
+          "standardCode": "8800344920239",
+          "optionName": "Z23 피치 피치 미",
+          "goodsName": "롬앤 더 쥬시 래스팅 틴트 제로",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/1285807816880948803.jpg"
+          },
+          "colorChipImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/1285807816880948803.jpg"
+          },
+          "colorCompareImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/3639385177421322126.jpg"
+          },
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 13000,
+          "finalPrice": 13000,
+          "maxBenefitPrice": 13000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "02",
+            "upperCategoryName": "색조화장품",
+            "middleCategory": "0203",
+            "middleCategoryName": "립 메이크업",
+            "lowerCategory": "020302",
+            "lowerCategoryName": "립틴트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "2898",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fillimilli 885 腮紅刷",
+    "nameEn": "Fillimilli Point Blusher Brush 885",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
+    "fetchedAt": "2026-10-07T16:45:38.880924+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000229645",
+      "goodsName": "필리밀리 포인트 블러셔브러시 885",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022964505ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022964502ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022964503ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0022/A00000022964504ko.jpeg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 10000,
+      "finalPrice": 10000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000229645",
+          "optionNumber": "001",
+          "standardCode": "8809865770392",
+          "optionName": " ",
+          "goodsName": "필리밀리 포인트 블러셔브러시 885",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/5/5221432657770220229.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 10,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 10000,
+          "finalPrice": 10000,
+          "maxBenefitPrice": 10000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "09",
+            "upperCategoryName": "미용소품",
+            "middleCategory": "0902",
+            "middleCategoryName": "얼굴 소품(Face)",
+            "lowerCategory": "090203",
+            "lowerCategoryName": "메이크업브러시"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3459",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Torriden DIVE-IN 防曬精華（50ml＋20ml）",
+    "nameEn": "Torriden DIVE-IN Watery Fit Sun Serum 50ml + 20ml",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495",
+    "fetchedAt": "2026-10-07T16:45:38.819463+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000219495",
+      "goodsName": "[수분촉촉/화잘먹] 토리든 다이브인 워터리 핏 선세럼 50ml 증량 기획 (+20ml)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0021/A00000021949506ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0021/A00000021949505ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0021/A00000021949503ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0021/A00000021949504ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0021/A00000021949507ko.jpeg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 25000,
+      "finalPrice": 25000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000219495",
+          "optionNumber": "001",
+          "standardCode": "8809784604037",
+          "optionName": " 다이브인 선세럼 50ml+20ml",
+          "goodsName": "[수분촉촉/화잘먹] 토리든 다이브인 워터리 핏 선세럼 50ml 증량 기획 (+20ml)",
+          "sortSeq": 1,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/7695809272510435269.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 25000,
+          "finalPrice": 25000,
+          "maxBenefitPrice": 25000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0104",
+            "middleCategoryName": "선케어",
+            "lowerCategory": "010401",
+            "lowerCategoryName": "선블록"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 5000,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3791",
+          "preparingCancelPossibleFlag": true
+        },
+        {
+          "goodsNumber": "A000000219495",
+          "optionNumber": "002",
+          "standardCode": "8809784603979",
+          "optionName": " 다이브인 선세럼 50ml",
+          "goodsName": "[수분촉촉/화잘먹] 토리든 다이브인 워터리 핏 선세럼 50ml 증량 기획 (+20ml)",
+          "sortSeq": 2,
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2026/2/818636925458008437.jpg"
+          },
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 999,
+          "soldOutFlag": true,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 25000,
+          "finalPrice": 25000,
+          "maxBenefitPrice": 25000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0104",
+            "middleCategoryName": "선케어",
+            "lowerCategory": "010401",
+            "lowerCategoryName": "선블록"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": {
+            "price": 5000,
+            "priceUnit": "10",
+            "priceUnitName": "ml",
+            "totalProvidedDays": 50
+          },
+          "representFlag": false,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3791",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Round Lab 1025 獨島化妝水＋乳液（200ml × 2）",
+    "nameEn": "Round Lab 1025 Dokdo Toner and Lotion 200ml x 2",
+    "spec": "",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179",
+    "fetchedAt": "2026-10-07T16:45:50.072258+00:00",
+    "sourceData": {
+      "goodsNumber": "A000000137179",
+      "goodsName": "[저자극/세트] 라운드랩 1025 독도 토너/로션 2종 기획 (200ml+200ml)",
+      "saleableFlag": true,
+      "soldOutFlag": false,
+      "thumbnailImage": [
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013717928ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013717929ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013717927ko.jpg?l=ko"
+        },
+        {
+          "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails",
+          "path": "10/0000/0013/A00000013717924ko.jpg?l=ko"
+        }
+      ],
+      "price": null,
+      "prices": null,
+      "salePrice": 32000,
+      "finalPrice": 26000,
+      "optionPrice": null,
+      "options": [
+        {
+          "goodsNumber": "A000000137179",
+          "optionNumber": "001",
+          "standardCode": "8809657115196",
+          "optionName": " ",
+          "goodsName": "[저자극/세트] 라운드랩 1025 독도 토너/로션 2종 기획 (200ml+200ml)",
+          "sortSeq": 1,
+          "optionImage": null,
+          "colorChipImage": null,
+          "colorCompareImage": null,
+          "quantityAddUnit": 1,
+          "orderableMinimumQuantity": 1,
+          "orderableMaximumQuantity": 5,
+          "soldOutFlag": false,
+          "reservedInfo": null,
+          "limitedInfoDto": null,
+          "reservationFlag": false,
+          "reservationDeliveryDate": null,
+          "todayDeliveryFlag": true,
+          "buyTypeCode": "A1",
+          "salePrice": 32000,
+          "finalPrice": 26000,
+          "maxBenefitPrice": 26000,
+          "staffDiscountFlag": true,
+          "discountApplyFlag": true,
+          "affiliateDiscountFlag": true,
+          "standardCategory": {
+            "upperCategory": "01",
+            "upperCategoryName": "기초화장품",
+            "middleCategory": "0101",
+            "middleCategoryName": "스킨케어",
+            "lowerCategory": "010109",
+            "lowerCategoryName": "세트"
+          },
+          "underageSalesFlag": true,
+          "combinationOptionName": [],
+          "buyGetSctCode": "B",
+          "unitInfo": null,
+          "representFlag": true,
+          "quantity": 0,
+          "todayDeliveryQuantity": 0,
+          "todayDeliveryOperateFlag": false,
+          "brand": "3697",
+          "preparingCancelPossibleFlag": true
+        }
+      ]
+    }
+  }
+]

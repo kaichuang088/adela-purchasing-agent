@@ -1,0 +1,49 @@
+PASS 1: All baseline and expanded records are visible with no duplicate new records
+PASS 2: Every added SKU reaches API with exact price, size, brand, Korean name, sources and a loadable local image
+PASS 3: Le Labo has expanded perfume and non-perfume coverage
+PASS 4: Byredo has expanded perfume and non-perfume coverage
+PASS 5: Diptyque has expanded perfume and non-perfume coverage
+PASS 6: At least 12 exact-spec Olive Young additions are present
+PASS 7: Olive Young collection includes only products sourced from that retailer
+PASS 8: Olive Young search finds the new products
+PASS 9: Le Labo search finds all added scents and body care
+PASS 10: Korean product search finds ANOTHER 13
+PASS 11: Unrelated lookalike retailer domains are excluded
+PASS 12: At least 49 catalog records visible in isolated API
+PASS 13: Curated records reach the shop API unchanged (does not verify live source prices/images)
+PASS 14: All three coffee flavors each have a separate single-box record
+PASS 15: All visible catalog products have Korean display names (not full UI translation)
+PASS 16: Catalog initialization is idempotent
+PASS 17: Admin data requires authentication
+PASS 18: Member remains signed in through session cookie
+PASS 19: Every added SKU can be quoted individually in KRW with correct rounded TWD amount
+shop I [Error]: 商品圖片網址需為 HTTPS。
+    at A (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-DexmJieA.js:1:11449)
+    at Object.M [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-DexmJieA.js:1:16603)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Bu5B-p7i.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-Bu5B-p7i.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:166354) {
+  status: 400
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: /api/operations {"error":"商品圖片網址需為 HTTPS。"}
+
+400 !== 200
+
+    at call (file:///workspace/sites/adelapa-private-review/scripts/verify-catalog-expansion.mjs:17:371)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///workspace/sites/adelapa-private-review/scripts/verify-catalog-expansion.mjs:47:1 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 400,
+  expected: 200,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

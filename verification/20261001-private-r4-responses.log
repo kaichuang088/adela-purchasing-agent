@@ -1,0 +1,7 @@
+PASS 1: Valid success JSON is preserved
+PASS 2: Valid server validation error is preserved
+PASS 3: Empty gateway has a readable retry message and does not expose HTML
+PASS 4: HTML login wall has a readable retry message and does not expose HTML
+PASS 5: Null JSON has a readable retry message and does not expose HTML
+PASS 6: Wrong response shape has a readable retry message and does not expose HTML
+PASS 7: Redirected sessions ask for sign-in

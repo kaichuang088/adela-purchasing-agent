@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-04",
+  "readyPatches": [],
+  "note": "Research only; no main-checkout files changed. All four lack a verified exact-spec momo/PChome/Taiwan official comparison. Do not enable or label Taiwan unavailable from search absence.",
+  "findings": [
+    {
+      "match": "Nongshim Spicy Shrimp Crackers 90g",
+      "korea": {"priceKrw":1280,"spec":"Spicy 90g, one bag","url":"https://www.kurly.com/goods/1002129007","availability":"Add-to-cart shown; no sold-out label in retrieved content; exact quantity unknown","shippingKrw":3000,"freeShippingThresholdKrw":40000,"sourceRef":"turn93view0"},
+      "rejectedTaiwanReference": {"url":"https://24h.pchome.com.tw/prod/DBAEK5-A900JWS7T","priceTwd":42,"spec":"Spicy 75g","reason":"Different pack weight: cannot represent this as exact 90g comparison","sourceRef":"turn102view1"},
+      "blocker":"No verified same-size Taiwan reference. Korean source can reduce previously saved KRW1600 cost, but insufficient to approve a complete catalog patch."
+    },
+    {
+      "match": "Nongshim Saewookkang Shrimp Crackers 90g",
+      "korea": {"priceKrw":1260,"spec":"Original 90g, one bag","url":"https://www.kurly.com/goods/5061325","availability":"Add-to-cart shown; no sold-out label in retrieved content; exact quantity unknown","shippingKrw":3000,"freeShippingThresholdKrw":40000,"sourceRef":"turn97view0"},
+      "rejectedTaiwanReference": {"url":"https://24h.pchome.com.tw/prod/DBAEK5-A900JWS7R","priceTwd":42,"spec":"Original 75g","reason":"Different pack weight; not exact 90g comparison","sourceRef":"turn95search1"},
+      "blocker":"No verified exact-size Taiwan momo/PChome/official reference."
+    },
+    {
+      "match":"Market O Real Brownie 120g 6 pieces",
+      "korea":{"priceKrw":3300,"spec":"6 pieces; text fetch does not separately confirm 120g","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857","availability":"Cart and direct-buy controls present; quantity unknown","sourceRef":"turn99view1"},
+      "rejectedTaiwanReference":{"url":"https://24h.pchome.com.tw/prod/DBAEAG-A9006XT7R","reason":"Old product title remains, but actual product price/spec/buy controls absent; page now recommendation list","sourceRef":"turn95view0"},
+      "blocker":"No live exact-spec Taiwan reference. Existing curated-catalog Shopee109 reference is forbidden and must not be reused."
+    },
+    {
+      "match":"Orion Turtle Chips Matcha Chocolate 104g",
+      "korea":{"priceKrw":2500,"spec":"Matcha chocolate 104g, one bag","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330","availability":"Cart and direct-buy controls present; quantity unknown","sourceRef":"turn104view0"},
+      "alternateKorea":{"priceKrw":1980,"spec":"Matcha chocolate 104g","url":"https://www.kurly.com/goods/1002070482","availability":"Cart control present, but listed minimum expiry is 2026-08-23, before check date; do not guarantee freshness without clarification","shippingKrw":3000,"freeShippingThresholdKrw":40000,"sourceRef":"turn99view0"},
+      "blocker":"No verified same-flavor/size momo/PChome/Taiwan official reference; general search absence does not establish Taiwan unavailable."
+    }
+  ]
+}

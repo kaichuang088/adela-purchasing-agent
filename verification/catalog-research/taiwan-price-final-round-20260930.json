@@ -1,0 +1,267 @@
+{
+  "checkedAt": "2026-09-30",
+  "method": "Available web search/open/click only; no CUA, browser or shell network; no remote media downloads. Read-only website source.",
+  "limits": {
+    "taiwanPriceCandidates": 15,
+    "fashionCandidates": 4
+  },
+  "summary": {
+    "taiwanCandidatesInspected": 15,
+    "verifiedCatalogProducts": 2,
+    "verifiedExactVariantPriceRows": 3,
+    "unverifiedCandidates": 13,
+    "previousRemainingMissingProducts": 52,
+    "remainingMissingProductsIfBothAccepted": 50
+  },
+  "products": [
+    {
+      "observedProductId": 1,
+      "nameEn": "Round Lab 1025 Dokdo Toner",
+      "koreaSourceUrl": "https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/",
+      "checkedAt": "2026-09-30",
+      "status": "verified_public_price",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": "official_taiwan_storefront_list_price",
+      "reason": "Exact separate200ml/500ml product rows; never apply200ml price to500ml or to200ml+50ml pack.",
+      "variants": [
+        {
+          "variantId": "200ml",
+          "spec": "200ml single bottle",
+          "taiwanRetailTwd": 599,
+          "promotionalTwd": 359,
+          "sourceUrl": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-200ml",
+          "sourceCacheAge": "4 weeks",
+          "taiwanAvailabilityText": "Sold Out"
+        },
+        {
+          "variantId": "500ml",
+          "spec": "500ml single bottle",
+          "taiwanRetailTwd": 799,
+          "promotionalTwd": 549,
+          "sourceUrl": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml",
+          "sourceCacheAge": "3 weeks",
+          "taiwanAvailabilityText": "Sold Out"
+        }
+      ],
+      "authorizationEvidence": [
+        "https://www.roundlab.com.tw/",
+        "https://www.roundlab.com.tw/about/privacy-policy"
+      ],
+      "retailer": "ROUND LAB Taiwan / 韓妍美股份有限公司",
+      "authorizationNote": "Homepage labels itself Taiwan official flagship and identifies operator60550550; privacy policy names operator. Brand-owner cross-domain endorsement not separately inspected.",
+      "sourceLimitation": "Product pages contain older template footer, while homepage and policy give operator identity. Public cached prices observed; live checkout price not verified."
+    },
+    {
+      "observedProductId": 2,
+      "nameEn": "Round Lab Birch Juice Moisturizing Sun Cream",
+      "koreaSourceUrl": "https://www.roundlab.co.kr/product/%EC%9E%90%EC%9E%91%EB%82%98%EB%AC%B4-%EC%88%98%EB%B6%84-%EC%84%A0%ED%81%AC%EB%A6%BC-50ml/138/category/1/display/2/",
+      "checkedAt": "2026-09-30",
+      "status": "verified_public_price",
+      "taiwanRetailTwd": 699,
+      "promotionalTwd": 469,
+      "priceClassification": "official_taiwan_storefront_list_price",
+      "spec": "Birch Juice Moisturizing Sunscreen50ml SPF50+ PA++++ original moisturizing version",
+      "sourceUrl": "https://www.roundlab.com.tw/products/round-lab-birch-juice-moisturizing-sunscreen",
+      "sourceCacheAge": "today",
+      "taiwanAvailabilityText": "Sold Out",
+      "retailer": "ROUND LAB Taiwan / 韓妍美股份有限公司",
+      "authorizationEvidence": [
+        "https://www.roundlab.com.tw/",
+        "https://www.roundlab.com.tw/about/privacy-policy"
+      ],
+      "authorizationNote": "Taiwan official flagship self-identification plus operator60550550 in homepage/policy. No separate brand-owner endorsement inspected.",
+      "reason": "Exact original Moisturizing50ml, not MildUp or ToneUp.",
+      "sourceLimitation": "Public page price; no live checkout verification."
+    },
+    {
+      "observedProductId": 62,
+      "nameEn": "romand Juicy Lasting Tint ZERO Clear",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Found Watsons Glasting Water Gloss 00 Meteor Track 4.3g (420 / 357), but it is a different product line from Juicy Lasting Tint ZERO. Exact shade/capacity of the source ZERO item is also unspecified; do not substitute.",
+      "inspectedOrSearchFoundUrls": [
+        "https://www.watsons.com.tw/romand-rom-nd-%E7%8E%BB%E7%92%83%E5%85%89%E6%8C%81%E4%B9%85%E6%B0%B4%E5%85%89%E5%94%87%E5%BD%A9-00-%E6%B5%81%E6%98%9F%E8%BB%8C%E9%81%93-4.3g/p/BP_308673"
+      ]
+    },
+    {
+      "observedProductId": 63,
+      "nameEn": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Taiwan official Torriden store lists 50ml single serum at TWD799, not 50ml bottle + 50ml refill. Third-party linked special packs do not establish official/authorized exact pack pricing. Do not double the single price.",
+      "inspectedOrSearchFoundUrls": [
+        "https://torriden.tw/",
+        "https://tivian.tw/80650/"
+      ]
+    },
+    {
+      "observedProductId": 65,
+      "nameEn": "Beauty of Joseon Relief Sun 50ml + 20ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Search found the Korean 50ml + 20ml special pack in third-party/overseas listings, but no readable Taiwan official or authorized exact-pack price row. Single 50ml price would not match.",
+      "inspectedOrSearchFoundUrls": [
+        "https://www.findprice.com.tw/b/beauty%20of%20joseon%20%E7%9B%8A%E7%94%9F%E8%8F%8C"
+      ]
+    },
+    {
+      "observedProductId": 73,
+      "nameEn": "Diptyque Baies Classic Candle 190g",
+      "koreaSourceUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000812908481&salestrNo=1004&siteNo=6009",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "1010 official distributor product page shows a minimum TWD1550 across sizes. The web tool does not expose selected190g-to-price mapping; no capacity-specific price inferred from the minimum.",
+      "inspectedOrSearchFoundUrls": [
+        "https://1010online.com.tw/diptyque-scented-candle-baies",
+        "https://1010online.com.tw/diptyque"
+      ]
+    },
+    {
+      "observedProductId": 90,
+      "nameEn": "Byredo Bibliothèque Candle 240g",
+      "koreaSourceUrl": "https://www.byredo.com/ko_kr/c/perfume",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Exact 1010 Bibliotheque candle page found, but direct open returns Internal Error and search text exposes no 240g price. 1976 Bibliotheque is EDP50ml, not candle; excluded.",
+      "inspectedOrSearchFoundUrls": [
+        "https://1010online.com.tw/byredo-bibliotheque",
+        "https://www.1976.com.tw/prod/17261"
+      ]
+    },
+    {
+      "observedProductId": 96,
+      "nameEn": "Anua Heartleaf 77 Hyaluron Moisturizing Toner 350ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "momo cross-border listing matches new Hyaluron350ml but mixes single/double pack and displays TWD455–910 / 774–1547 ranges. Seller authorization and selected single-row price not established; not an official Taiwan retail price.",
+      "inspectedOrSearchFoundUrls": [
+        "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000131"
+      ]
+    },
+    {
+      "observedProductId": 99,
+      "nameEn": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251651",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Found Korean/international third-generation EX70ml pages, not a Taiwan official/authorized exact EX70ml price. Original non-EX70ml is not substituted.",
+      "inspectedOrSearchFoundUrls": [
+        "https://global.oliveyoung.com/sg/brands/drg"
+      ]
+    },
+    {
+      "observedProductId": 100,
+      "nameEn": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Exact75ml December listing uses HKD and is sold out; Taiwan Coupang listing is a 350ml lotion×2+75ml cream bundle. Neither supplies Taiwan exact single75ml official/authorized price.",
+      "inspectedOrSearchFoundUrls": [
+        "https://www.decemberofficial.com/products/illiyoon-ceramide-ato-concentrate-cream-75ml",
+        "https://www.tw.coupang.com/products/21006936844537?itemId=21016807145433&vendorItemId=21080429245496"
+      ]
+    },
+    {
+      "observedProductId": 101,
+      "nameEn": "AESTURA Atobarrier365 Cream 80ml Set (Toner 25ml + Cleanser 3g x 3)",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Search did not locate Taiwan official/authorized identical80ml+toner25ml+cleanser3g×3 pack. Single80ml and other trial sets are not exact matches.",
+      "inspectedOrSearchFoundUrls": [
+        "https://feebee.com.tw/bid/aestura/"
+      ]
+    },
+    {
+      "observedProductId": 104,
+      "nameEn": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Taiwan Coupang100-sheet result is refill packaging; efilow Hong Kong100-pad tub is Heartleaf Biome line. Neither confirms exact Madecassoside100-sheet tub with Taiwan authorized price.",
+      "inspectedOrSearchFoundUrls": [
+        "https://efilowhk.com/",
+        "https://www.tw.coupang.com/products/Efilow-%E9%AD%9A%E8%85%A5%E8%8D%89-%E7%A9%8D%E9%9B%AA%E8%8D%89%E8%8B%B7-%E5%95%8F%E9%A1%8C%E8%88%92%E7%B7%A9%E5%8C%96%E5%A6%9D%E6%B0%B4%E6%A3%89%E7%89%87-%E8%A3%9C%E5%85%85%E5%8C%85-180%E5%85%8B-574847285428225"
+      ]
+    },
+    {
+      "observedProductId": 105,
+      "nameEn": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Exact Soybean200ml seen in a third-party Shopee listing and ingredient guide; no Taiwan brand/authorized readable price. Original Pure Cleansing Oil200ml is not substituted for Pure Soybean.",
+      "inspectedOrSearchFoundUrls": [
+        "https://beautyshelflab.com/products/manyo-pure-soybean-cleansing-oil/"
+      ]
+    },
+    {
+      "observedProductId": 106,
+      "nameEn": "SKINFOOD Carrot Carotene Calming Water Pad 60 x 2 + PDRN 2 x 3",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Taiwan searches yield single60-pad Carrot products, BananaPDRN60-pad products or mixed pad choices, not Carrot60×2+PDRN2×3 special pack. No multiplication or gift value inferred.",
+      "inspectedOrSearchFoundUrls": [
+        "https://buy.line.me/product/600158/GA260136697",
+        "https://modammm.com/tw/product/BEAUTY-6256980"
+      ]
+    },
+    {
+      "observedProductId": 107,
+      "nameEn": "Isntree Onion Newpair Booster Shot 2000 50ml",
+      "koreaSourceUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+      "checkedAt": "2026-09-30",
+      "status": "not_verified",
+      "taiwanRetailTwd": null,
+      "promotionalTwd": null,
+      "priceClassification": null,
+      "reason": "Found exact50ml Isntree Onion Newpair Booster Shot2000 in international and Korean storefronts, but not Taiwan official/authorized TWD exact-spec price. Plum Peptide2000s is a different item.",
+      "inspectedOrSearchFoundUrls": [
+        "https://www.mirai-skin.com/zh-hant/products/isntree-onion-newpair-booster-shot-2000-50ml",
+        "https://www.ssfshop.com/isntree/GQHP24041740321/good"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "optionNumber": "006",
+    "standardCode": "8800353600283",
+    "optionName": "[NEW] 06 긱플럼",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2026/6/5219622231823177735.jpg"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "007",
+    "standardCode": "8800353600290",
+    "optionName": "[NEW]  07 브릭로즈",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2026/6/6176094702375948612.jpg"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "008",
+    "standardCode": "8800353600306",
+    "optionName": "[NEW] 08 누디로즈",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2026/6/1824873205903089797.jpg"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "009",
+    "standardCode": "8800353600313",
+    "optionName": "[NEW] 09 디핑피넛 ",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2026/6/7938468089207627096.jpg"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "010",
+    "standardCode": "8800353600320",
+    "optionName": "[NEW] 10 체리코코",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2026/6/5952537022723014274.jpg"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "001",
+    "standardCode": "8800316295174",
+    "optionName": "01 살구살몬",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2025/11/7196543101258574826.png"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "002",
+    "standardCode": "8800316295181",
+    "optionName": "02 플러핑크",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2025/11/2571549143396542274.png"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "003",
+    "standardCode": "8800316295198",
+    "optionName": "03 긱로즈",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2025/11/7441373718077029783.png"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "004",
+    "standardCode": "8800316295204",
+    "optionName": "04 힙초콜릿",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2025/11/2761500764839507078.png"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  },
+  {
+    "optionNumber": "005",
+    "standardCode": "8800316295211",
+    "optionName": "05 딸기멜로",
+    "optionImage": {
+      "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+      "path": "item/2025/11/2280709572024671109.png"
+    },
+    "soldOutFlag": false,
+    "salePrice": 8000,
+    "finalPrice": 7200
+  }
+]

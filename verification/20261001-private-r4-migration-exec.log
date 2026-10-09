@@ -1,0 +1,4 @@
+PASS exec migration 0016_adela_wallet_delivery.sql
+PASS exec migration 0017_atomic_stock.sql
+PASS exec migration 0018_email_outbox.sql
+PASS exec migration 0020_admin_previews.sql

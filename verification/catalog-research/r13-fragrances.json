@@ -1,0 +1,177 @@
+{
+  "retrievedAt": "2026-10-07",
+  "scope": "Four existing fragrance products; primary public prices, exact variants, genuine stock and supplier viability. No storefront/code changes.",
+  "researchBudget": {
+    "webSearchOpenCalls": 12,
+    "limit": 12
+  },
+  "fxForViabilityOnly": {
+    "KRW_TWD": 0.023668,
+    "note": "Parent supplied last verified live project exchange0.023668; no new exchange retrieval in bounded task."
+  },
+  "verifiedPairs": [],
+  "products": [
+    {
+      "model": "Le Labo LAVANDE 31 Eau de Parfum",
+      "size": "50ml × 1",
+      "status": "unresolved_cost_above_cap",
+      "korea": {
+        "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000561910236",
+        "seller": "Shinsegae department store / Le Labo brand shop",
+        "regularPriceKRW": 319000,
+        "conditionalInstantPriceKRW": 303050,
+        "discountPeriodEnd": "2026-10-31",
+        "availability": "Public cart and purchase controls; exact quantity not confirmed. Department-store supply can sell out while preparing order.",
+        "specEvidence": "Product specification table confirms50ml."
+      },
+      "taiwan": {
+        "url": "https://24h.pchome.com.tw/prod/DDAHN9-A900KAVO3",
+        "priceTWD": 6749,
+        "currentSingleBottleDiscountPriceTWD": 6199,
+        "discountPeriod": "2026-10-01 through2026-10-15",
+        "variant": "Lavande31薰衣草 appears in selectable50ml flavors",
+        "availability": "Purchase controls and flavor selection; exact quantity not confirmed."
+      },
+      "viability": {
+        "referenceTWD": 6199,
+        "maxFinalTWD": 5889.05,
+        "supplierCostTWDAtConditionalPrice": 7172.59,
+        "conclusion": "Even conditional Korean supplier price exceeds95%Taiwanreference before service fees."
+      },
+      "rejected": [
+        {
+          "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000704417302",
+          "reason": "KRW290150 but remaining quantity0; not a purchasable supplier."
+        }
+      ]
+    },
+    {
+      "model": "Le Labo AMBRETTE 9 Eau de Parfum",
+      "size": "50ml × 1",
+      "status": "candidate_exact_prices_but_availability_shipping_unresolved",
+      "korea": {
+        "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000020698378",
+        "seller": "Shinsegae department store / Le Labo brand shop",
+        "regularPriceKRW": 319000,
+        "conditionalInstantPriceKRW": 303050,
+        "discountPeriodEnd": "2026-10-31",
+        "availability": "Public cart and purchase controls; exact quantity not confirmed.",
+        "domesticShippingKRW": null,
+        "specEvidence": "Exact50mlEDP with labeling service."
+      },
+      "taiwan": {
+        "url": "https://www.lelabofragrances.com.tw/ambrette-9-735.html",
+        "variantUrl": "https://www.lelabofragrances.com.tw/ambrette-9-735.html?size=50ml",
+        "priceTWD": 7600,
+        "priceEvidence": "Successful direct public HTML fetch on2026-10-07: JSON-LD Offer exact?size=50ml, price7600, currencyTWD, schema.org/InStock.",
+        "availability": "Not conclusively verified: a nearby50mlSKU object had inStock:false, qtyAvailable:0 and price:null; association to primaryEDP versus refill/accessory not established. Retry timed out then403."
+      },
+      "viability": {
+        "referenceTWD": 7600,
+        "maxFinalTWD": 7220,
+        "supplierRegularCostTWD": 7550.09,
+        "remainingBeforeOtherCostsTWD": -330.09,
+        "conclusion": "Regular supplier price exceeds95%cap. Conditional instant discount leaves only48.01TWD before fee/shipping and is not generally verified. PrimaryTaiwanSKUstock remains ambiguous; do not settle.",
+        "supplierConditionalCostTWD": 7172.59,
+        "conditionalRemainingBeforeOtherCostsTWD": 47.41
+      }
+    },
+    {
+      "model": "Byredo Bibliothèque fragranced candle",
+      "size": "240g × 1",
+      "status": "unresolved_exact_current_pair",
+      "korea": [
+        {
+          "url": "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2012703122",
+          "evidence": "Search confirms exact240g, release priceKRW129000; current primary open times out. Release price is not a verified current price."
+        },
+        {
+          "url": "https://dept.sfcmall.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000018659",
+          "evidence": "Current search snapshot lists exact240g regular136000 and122740 discount including card conditions; primary open502. No unconditional current price/stock verified."
+        },
+        {
+          "url": "https://www.byredo.com/ko_kr/bibliotheque-candle-240g",
+          "evidence": "Primary web reader inaccessible."
+        }
+      ],
+      "taiwan": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DDCV3N-A900FZAY4",
+          "pagePriceTWD": 2599,
+          "evidence": "Direct public HTML exact selectable SKU DDCV3N-A900FZAY4-002 Spec烈焰紅唇_, Qty1. Bibliothèque appears only in description; NOT a valid Bibliothèque price/availability."
+        },
+        {
+          "url": "https://www.ifchic.com/tw/beauty-home/byredo/2265409-bibliotheque-scented-candle-240g-.html",
+          "evidence": "Search confirms exact product but no price; primary open inaccessible."
+        },
+        {
+          "url": "https://1010online.com.tw/byredo",
+          "evidence": "Authorized brand catalog primary fetch405; no exact product price."
+        }
+      ],
+      "rejected": [
+        {
+          "url": "https://www.sivillage.com/goods/initDetailGoods.siv?goods_no=01P0000115705",
+          "reason": "Listing title explicitly[사용안함]disabled; stale cache."
+        }
+      ]
+    },
+    {
+      "model": "Diptyque Baies classic candle",
+      "size": "190g × 1",
+      "status": "unresolved_authentic_supplier_and_normal_taiwan_reference",
+      "korea": [
+        {
+          "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000023640978",
+          "seller": "Shinsegae department store, importerShinsegaeInternational",
+          "regularPriceKRW": 102000,
+          "availability": "Public cart/purchase controls; exact quantity not confirmed.",
+          "rejectedDiscountKRW": 90117,
+          "rejectedDiscountReason": "Promotion ended2026-09-30; expired on retrievaldate."
+        },
+        {
+          "url": "https://www.shinsegaev.com/goods/initDetailGoods.siv?goods_no=2603861142",
+          "regularPriceKRW": 110000,
+          "conditionalLoginPriceKRW": 104500,
+          "availability": "Page includes purchase controls and sold-out/ended UI blocks. Actual flag not established; do not infer available."
+        },
+        {
+          "url": "https://item.gmarket.co.kr/Item?goodsCode=4205893644",
+          "seller": "이음뷰티샵 / 유한회사이음컴퍼니",
+          "regularPriceKRW": 85500,
+          "couponPriceKRW": 78660,
+          "couponEvidence": "Public 누구나 beauty8%coupon. Use regular price unless coupon eligibility and validity are confirmed at checkout.",
+          "domesticShippingKRW": 0,
+          "availability": "Current public buy/cart buttons and mainland Korea next-day dispatch estimate; no actual stock quantity established.",
+          "authenticity": "Independent seller; brand/importer authenticity not established. Not approved as authentic procurement source."
+        }
+      ],
+      "taiwan": [
+        {
+          "url": "https://www.everrich.com/tw/diptyque/88087-Classic-Candle-Baies-190g.html",
+          "priceTWD": 2250,
+          "modelCode": "B2",
+          "referenceType": "Taiwan airport duty-free, restricted to international outbound travelers",
+          "availability": "Airport-specific stock must be confirmed; site says duty-free online reservation is outbound-traveler-only."
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DDCV3N-A900BAP5D",
+          "pagePriceTWD": 2199,
+          "evidence": "Direct public HTML only selectable SKU DDCV3N-A900BAP5D-018 Spec香丸_, Qty3. Baies description is not an available selectable SKU; price not assigned toBaies."
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/12644551",
+          "evidence": "Available listed scents sandalwood/mimosa/amber/cypress, noBaies. Not an exact reference."
+        }
+      ],
+      "viability": {
+        "dutyFreeReferenceTWD": 2250,
+        "maxFinalAgainstDutyFreeTWD": 2137.5,
+        "ssgRegularCostTWD": 2414.14,
+        "gmarketRegularCostTWD": 2023.61,
+        "conclusion": "Authentic department regular price exceeds duty-free reference cap. Cheaper independent seller fits mathematically but authenticity and ordinaryTaiwanretail reference unresolved."
+      }
+    }
+  ],
+  "conclusion": "No fully verified ready-to-order pair obtained within bounded research. Do not replace unknowns with Taiwan無販售, fake stock, alternate scent pricing, expired discounts or Shopee."
+}

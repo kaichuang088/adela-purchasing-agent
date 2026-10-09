@@ -1,0 +1,4 @@
+{
+  "checks": 11,
+  "scope": "Isolated disposable Worker and database; no real AI, inventory checkout or phone delivery"
+}

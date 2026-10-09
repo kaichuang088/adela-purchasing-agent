@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-09-30T14:48:27.623435+00:00",
+  "scope": "Files actually saved by the browser UI in Downloads, isolated synthetic QA orders; text checks and full-page render inspected. Not offline generated replay or real payment. Browser event tools timed out, but actual files and timestamps verify downloads.",
+  "samples": [
+    {
+      "filename": "Adela-Receipt-KK260930-74E578A2970C.pdf",
+      "bytes": 13856255,
+      "sha256": "add29c6b5becbdcbdd2687d407a3cfe65719a167ac0dce1e3ee95a06f6bd488d",
+      "modifiedAt": "2026-09-30T14:15:27.928797+00:00",
+      "pages": 1,
+      "status": "已取消",
+      "verifiedText": [
+        "NT$ 522",
+        "退款已轉為購物金 NT$522"
+      ],
+      "visualRender": "20260930-r2-downloaded-74E578A2970C.png",
+      "passed": true
+    },
+    {
+      "filename": "Adela-Receipt-KK260930-A8D2301974B0.pdf",
+      "bytes": 13856314,
+      "sha256": "e2e0b30368f7c8b1cb5caef9d010e28c501ad4767adbf1cf64d68cbf7fdf44fb",
+      "modifiedAt": "2026-09-30T14:42:10.836697+00:00",
+      "pages": 1,
+      "status": "已付款",
+      "verifiedText": [
+        "NT$ -50",
+        "NT$ -472",
+        "NT$ 0"
+      ],
+      "visualRender": "20260930-r2-downloaded-A8D2301974B0.png",
+      "passed": true
+    }
+  ]
+}

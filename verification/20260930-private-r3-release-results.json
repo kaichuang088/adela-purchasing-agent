@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-09-30T15:15:21.927967+00:00",
+  "suites": [
+    {
+      "suite": "wallet-delivery",
+      "passed": true,
+      "namedChecks": 30,
+      "log": "verification/20260930-private-r3-wallet-delivery.log"
+    },
+    {
+      "suite": "regressions",
+      "passed": true,
+      "namedChecks": 23,
+      "log": "verification/20260930-private-r3-regressions.log",
+      "rerunReason": "Expected release identifier updated from R2 to published R3 identifier; full suite rerun passed"
+    },
+    {
+      "suite": "auth",
+      "passed": true,
+      "namedChecks": 6,
+      "log": "verification/20260930-private-r3-auth.log"
+    },
+    {
+      "suite": "korea-photo-flow",
+      "passed": true,
+      "namedChecks": 10,
+      "log": "verification/20260930-private-r3-korea-photo-flow.log"
+    },
+    {
+      "suite": "catalog-expansion",
+      "passed": true,
+      "namedChecks": 56,
+      "log": "verification/20260930-private-r3-catalog-expansion.log"
+    },
+    {
+      "suite": "adela-korea",
+      "passed": true,
+      "namedChecks": 0,
+      "log": "verification/20260930-private-r3-adela-korea.log"
+    },
+    {
+      "suite": "policy-updates",
+      "passed": true,
+      "namedChecks": 61,
+      "log": "verification/20260930-private-r3-policy-updates.log"
+    },
+    {
+      "suite": "photo-quotes",
+      "passed": true,
+      "namedChecks": 20,
+      "log": "verification/20260930-private-r3-photo-quotes.log"
+    },
+    {
+      "suite": "commerce",
+      "passed": true,
+      "namedChecks": 38,
+      "log": "verification/20260930-private-r3-commerce.log"
+    },
+    {
+      "suite": "flows",
+      "passed": true,
+      "namedChecks": 14,
+      "log": "verification/20260930-private-r3-flows.log"
+    },
+    {
+      "suite": "email-outbox",
+      "passed": true,
+      "namedChecks": 20,
+      "log": "verification/20260930-private-r3-email-outbox.log"
+    },
+    {
+      "suite": "localization",
+      "passed": true,
+      "namedChecks": 40,
+      "log": "verification/20260930-private-r3-localization.log"
+    },
+    {
+      "suite": "recovery-credit",
+      "passed": true,
+      "namedChecks": 20,
+      "log": "verification/20260930-private-r3-recovery-credit.log"
+    },
+    {
+      "suite": "recovery-scheduler",
+      "passed": true,
+      "namedChecks": 16,
+      "log": "verification/20260930-private-r3-recovery-scheduler.log"
+    },
+    {
+      "suite": "recovery-notifications",
+      "passed": true,
+      "namedChecks": 7,
+      "log": "verification/20260930-private-r3-recovery-notifications.log"
+    },
+    {
+      "suite": "recovery-admin",
+      "passed": true,
+      "namedChecks": 13,
+      "log": "verification/20260930-private-r3-recovery-admin.log"
+    },
+    {
+      "suite": "recovery-catalog",
+      "passed": true,
+      "namedChecks": 11,
+      "log": "verification/20260930-private-r3-recovery-catalog.log"
+    },
+    {
+      "suite": "recovery-sync",
+      "passed": true,
+      "namedChecks": 16,
+      "log": "verification/20260930-private-r3-recovery-sync.log"
+    }
+  ],
+  "totalNamedChecks": 401,
+  "scope": "Isolated database and local compiled app. Photo AI and email transport are mocked. Not live provider, browser UI or cross-site deployment verification.",
+  "separateResponseChecks": {
+    "passed": true,
+    "namedChecks": 7,
+    "script": "scripts/verify-response-errors.mjs",
+    "scope": "Success/error JSON, empty body, HTML login wall, null/wrong-shaped JSON and redirected session; local execution."
+  }
+}

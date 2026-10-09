@@ -1,0 +1,14 @@
+PASS 1: Unauthorized AI command cannot call provider or change data
+PASS 2: AI batch preview enumerates products and unpurchased orders without changing data
+PASS 3: Purchase interval persists in order snapshot with Taiwan dates and 24-hour cutoff
+PASS 4: Batch date update records buyer notification and event
+PASS 5: Consumed date preview cannot apply twice
+PASS 6: Changed catalog invalidates entire batch with no partial discontinuation
+PASS 7: Injected failure rolls back all products and preview claim
+PASS 8: Concurrent batch approval commits once and conflicts safely
+PASS 9: Product discontinuation preserves historical order status
+PASS 10: Mock AI Scan returns review drafts and publishes nothing
+PASS 11: Seller price and source confirmation is required
+PASS 12: Only individually selected scan products publish with seller-approved KRW prices
+PASS 13: Repeated scan approval cannot publish duplicates
+13 admin batch checks; isolated compiled Worker and mock AI only.

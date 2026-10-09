@@ -1,0 +1,138 @@
+{
+  "retrievedAt": "2026-10-05",
+  "scope": "Five existing beauty SKUs; public Korean supplier pages and momo/PChome/official Taiwan references only. No Shopee prices used. Listing buy buttons do not prove physical quantities or successful checkout.",
+  "products": [
+    {
+      "nameEn": "Fillimilli Point Blusher Brush 885",
+      "status": "unresolved_taiwan_reference",
+      "korea": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
+        "spec": "885 brush, one",
+        "priceKrw": 10000,
+        "availability": "Public cart/direct-buy controls; no sold-out marker in retrieved content; quantity unverified",
+        "retrievalRef": "turn140view2"
+      },
+      "taiwan": {
+        "verified": false,
+        "reason": "Search found momo #881, #880, #857 and #858 brushes, none is #885. Different model references must not be substituted.",
+        "rejectedDifferentModelUrl": "https://www.momoshop.com.tw/TP/TP0000495/goodsDetail/TP00004950000218"
+      }
+    },
+    {
+      "nameEn": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+      "status": "unresolved_taiwan_reference",
+      "korea": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+        "spec": "100 sheets",
+        "priceKrw": 26000,
+        "availability": "Public cart/direct-buy controls; quantity unverified",
+        "retrievalRef": "turn141view0"
+      },
+      "taiwan": {
+        "verified": false,
+        "reason": "No exact momo/PChome/official Taiwan price verified. Coupang Taiwan search results include exact-family tubs and refill packs but Coupang is outside this task's allowed reference set; absence of an allowed reference does not prove Taiwan unavailability."
+      }
+    },
+    {
+      "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "status": "verified_pair",
+      "spec": "50g x 1, pink tone-up",
+      "korea": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+        "priceKrw": 22000,
+        "availability": "Public cart/direct-buy controls; quantity unverified",
+        "retrievalRef": "turn140view0"
+      },
+      "taiwan": {
+        "url": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000234",
+        "priceTwd": 439,
+        "retailer": "momo / SeasonTree, Korea cross-border delivery",
+        "classification": "retailer_exact_spec",
+        "source": "Public product HTML read directly on 2026-10-05. Next.js embedded goodsType list maps option code001 to01 50g at439 and option code002 to02 50g+50g at875; search reader omitted this mapping and displayed unrelated size/spec text.",
+        "variantEvidence": [
+          {
+            "goodsTypeCode": "001",
+            "goodsTypeAName": "01 50g",
+            "goodsTypeBName": "單一規格",
+            "priceTwd": 439
+          },
+          {
+            "goodsTypeCode": "002",
+            "goodsTypeAName": "02 50g+50g",
+            "goodsTypeBName": "單一規格",
+            "priceTwd": 875
+          }
+        ],
+        "shippingTwd": 70,
+        "freeShippingMinimumTwd": 490,
+        "availability": "Buy/cart controls and embedded option availability; no physical-stock promise",
+        "retrievalRef": "turn139view0"
+      },
+      "pricingNote": "At the existing0.022 KRW/TWD rate, Korean cost484 exceeds95% of Taiwan439 (417.05). Verification is not a recommendation to sell below cost; integrator must use approved price-cap economics or a cheaper verified supplier, not use higher list price500 to inflate savings.",
+      "otherKoreaEvidence": {
+        "url": "https://www.medihealshop.com/product/pdrn-%EC%88%98%EB%B6%84-%EC%84%A0%EC%84%B8%EB%9F%BC-%EB%A7%A4%EB%81%88-%ED%86%A4%EC%97%85/1746/category/1/display/3/?icid=MAIN.product_listmain_2",
+        "priceKrw": 22000,
+        "spec": "50g",
+        "availability": "Reader includes both buy controls and SOLD OUT; not used as confirmed availability",
+        "retrievalRef": "turn147view0"
+      }
+    },
+    {
+      "nameEn": "MEDIHEAL Madecassoside Moisture Sun Serum Blemish Repair 50g",
+      "status": "verified_pair",
+      "korea": {
+        "url": "https://www.kurly.com/goods/1002381011",
+        "spec": "50g x 1",
+        "priceKrw": 14100,
+        "listPriceKrw": 22000,
+        "shippingKrw": 3000,
+        "freeShippingMinimumKrw": 40000,
+        "availability": "Add-to-cart control; seller Kurly; quantity unverified",
+        "retrievalRef": "turn147view1"
+      },
+      "alternativeKorea": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223423",
+        "priceKrw": 22000,
+        "spec": "50g",
+        "availability": "Public cart/direct-buy controls; quantity unverified",
+        "retrievalRef": "turn140view1"
+      },
+      "taiwan": {
+        "url": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231",
+        "verified": true,
+        "reason": "Public embedded goodsType options retrieved directly on2026-10-05:001=01 50g price395;002=02 50g+50g price675. Search reader price27990 is unrelated and rejected.",
+        "priceTwd": 395,
+        "classification": "retailer_exact_spec",
+        "variantEvidence": [
+          {
+            "goodsTypeCode": "001",
+            "goodsTypeAName": "01 50g",
+            "priceTwd": 395
+          },
+          {
+            "goodsTypeCode": "002",
+            "goodsTypeAName": "02 50g+50g",
+            "priceTwd": 675
+          }
+        ]
+      }
+    },
+    {
+      "nameEn": "Isntree Onion Newpair Booster Shot 2000 50ml",
+      "status": "unresolved_taiwan_reference",
+      "korea": {
+        "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+        "spec": "50ml x 1",
+        "priceKrw": 19600,
+        "listPriceKrw": 28000,
+        "availability": "Public cart/direct-buy controls; quantity unverified",
+        "retrievalRef": "turn144view0"
+      },
+      "taiwan": {
+        "verified": false,
+        "reason": "momo onion-family multioption listing TP00101830001045 is pads, spot gel, patch, ordinary serum, gel cream and sunscreen, not Booster Shot2000. YesStyle zh_TW page shows USD and ships to US; not an exact Taiwan official TWD reference. Do not claim Taiwan absence.",
+        "rejectedDifferentProductsUrl": "https://www.momoshop.com.tw/TP/TP0010183/goodsDetail/TP00101830001045"
+      }
+    }
+  ]
+}

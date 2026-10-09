@@ -1,0 +1,2 @@
+PASS 1: Recorded browser QA order has original 522 order cancelled with exactly 522 returned credit
+PASS 2: Actual receipt generator accepts browser-originated cancellation; browser download capture remains unverified

@@ -1,0 +1,4 @@
+{
+  "checks": 10,
+  "scope": "Isolated source test with mocked provider; not a real model or live AI end-to-end check"
+}

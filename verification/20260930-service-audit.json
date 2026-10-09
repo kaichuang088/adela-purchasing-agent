@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-30",
+  "projectId": "appgprj_6ab8b6da8d988191a1db39f6f4a6dd6c",
+  "currentUserRole": "owner",
+  "siteStatus": "active",
+  "latestSavedVersion": 9,
+  "currentLiveUrl": null,
+  "runtimeEnvironmentRevision": 0,
+  "runtimeEnvironmentKeys": [],
+  "automationList": "not returned; cannot verify a production schedule",
+  "productionDatabase": "Previous read-only overview returned no deployed DB bindings/tables; attachment is source, not a data backup"
+}

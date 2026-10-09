@@ -1,0 +1,138 @@
+PASS 1: Repeated request creates one top-up
+shop H [Error]: 請選擇儲值 NT$2,000 或 NT$5,000。
+    at E (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:751)
+    at Object.F [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:6767)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 400
+}
+shop H [Error]: 請先由會員回報匯款。
+    at O (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:1741)
+    at async Object.ne [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:21961)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 2: Unverified payment cannot credit wallet
+shop H [Error]: 找不到待核對的儲值申請。
+    at D (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:1493)
+    at async Object.F [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:6847)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 3: Member ownership and admin authorization enforced
+PASS 4: Concurrent confirmations credit 2000+160 once
+shop Error: D1_ERROR: TEST_BONUS_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+    at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:139:19)
+    at async cloudflare-internal:d1-api:90:27
+    ... 7 lines matching cause stack trace ...
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  [cause]: Error: TEST_BONUS_FAILURE: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:140:24)
+      at async cloudflare-internal:d1-api:90:27
+      at async O (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:1893)
+      at async Object.ne [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:21961)
+      at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+      at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+      at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+      at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+      at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+      at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296)
+}
+PASS 5: Bonus failure rolls back principal and confirmation atomically
+PASS 6: Retry safely credits 5000+600 once
+PASS 7: Customers only see their own top-up history
+PASS 8: Top-up credit covers merchandise, service fee AND shipping
+shop H [Error]: 找不到這位會員的退款金額券。
+    at Z (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:1798)
+    at async Object.ne [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:21303)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 404
+}
+shop H [Error]: 找不到這位會員的退款金額券。
+    at Z (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:1798)
+    at async Object.ne [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:21303)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 404
+}
+PASS 9: Refund cancellation requires admin, exact member, and refund key; top-up principal protected
+PASS 10: Refund reversal cancels only 1000 and repeated click cannot double debit
+PASS 11: Partial refund cancels unused 400; spent 600 and later 2000 principal protected
+shop H [Error]: 這筆退款金額已使用，沒有可取消的餘額。
+    at Z (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:1850)
+    at async Object.ne [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-D3_45y9j.js:1:21303)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 12: Fully spent refund cannot be cancelled or make balance negative
+PASS 13: Concurrent refund cancellation appends one reversal
+shop H [Error]: AI 查價尚未啟用，請稍後再試。尚未建立訂單。 / AI pricing is not enabled. No order was created.
+    at Object.A [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-CO3Khe36.js:1:3310)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 14: Order pause allows photo quote service to proceed independently
+shop H [Error]: 暫停接受新訂單，既有訂單及客服仍可使用。 / New orders are paused. Existing orders and support remain available.
+    at X (file:///workspace/adela-purchasing-agent/dist/server/_next/static/commerce-B9NbzkLQ.js:13:35604)
+    at async E (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:790)
+    at async Object.F [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-BzlL6_Lk.js:1:6761)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+shop H [Error]: 照片查價目前暫停，既有訂單仍可使用。 / Photo quotes are paused.
+    at Q (file:///workspace/adela-purchasing-agent/dist/server/_next/static/commerce-B9NbzkLQ.js:13:36818)
+    at async Object.A [as handlerFn] (file:///workspace/adela-purchasing-agent/dist/server/_next/static/route-CO3Khe36.js:1:3254)
+    at async at (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18300)
+    at async ot (file:///workspace/adela-purchasing-agent/dist/server/_next/static/app-route-handler-dispatch-CN0mmdh1.js:1:18586)
+    at async jo.route (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26389)
+    at async t (file:///workspace/adela-purchasing-agent/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/adela-purchasing-agent/dist/server/index.js:14:174019)
+    at async Object.fetch (file:///workspace/adela-purchasing-agent/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 15: Photo pause independently blocks photo upload
+PASS 16: Photo pause leaves catalog orders open and exposes separate state
+PASS 17: All 103 mapped product introductions persisted in three languages
+PASS 18: Product introductions contain no sourcing or pricing instructions
+PASS 19: coffee-0 uses full 34900+3000 / 8 cost, snapshots pack and remains within 123 ceiling
+PASS 20: coffee-1 uses full 34900+3000 / 8 cost, snapshots pack and remains within 123 ceiling
+PASS 21: Unverified Matcha cost unchanged
+PASS 22: One-time content migration does not overwrite later admin edits

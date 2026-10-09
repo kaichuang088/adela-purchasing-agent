@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.lelabofragrances.co.kr/santal-33-987.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000561910236",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534",
+    "status": 200,
+    "bytes": 72267
+  },
+  {
+    "url": "https://www.stussy.co.kr/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

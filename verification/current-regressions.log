@@ -1,0 +1,134 @@
+PASS 1: Exact NT$522 paid-order fixture
+PASS 2: Direct refund/rejection statuses cannot bypass cancellation or change the paid balance
+PASS 3: Concurrent refund requests settle safely
+PASS 4: Exactly 522 credit; only this order rewards reversed
+PASS 5: Refund creates one ledger entry
+PASS 6: Next order automatically spends 522 and is paid
+PASS 7: Mixed cash and credit order
+PASS 8: Mixed cancellation restores credit plus cash once
+PASS 9: Both admin cancellation routes restore credit and rewards once, including repeated requests
+PASS 10: Concurrent last-unit checkouts create exactly one order
+PASS 11: Stock never oversells
+PASS 12: Cancellation restores the reserved unit
+PASS 13: Twelve concurrent priority checkouts yield ten orders and two rejections
+PASS 14: Blocked rejection leaves unpaid priority reservation and stock unchanged
+PASS 15: Repeated admin cancellation releases exactly one priority slot and stock unit without unpaid credit
+PASS 16: Partially purchased mixed order cannot receive an automatic full refund
+PASS 17: Invalid calendar date and reversed pickup ranges are rejected
+PASS 18: Batch arrival updates the exact confirmed existing-order count
+PASS 19: Updated pickup range reaches buyer orders
+PASS 20: Backend admin edit immediately reaches storefront data
+PASS 21: Backend diagnostic identity is stable, migration is present, and anonymous access is blocked
+PASS 22: Historical bank refund cannot be marked complete without reconciliation evidence
+PASS 23: Historical bank refund reconciles rewards without falsely issuing store credit
+23 regression assertions passed on isolated D1. No live deployment/provider test.
+shop L [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:5539)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:5539)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:5539)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 商品數量不足。
+    at file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:16080
+    at Array.map (<anonymous>)
+    at X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:15771)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 本期 10 個加急名額已滿，請改一般配送。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:10390)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 本期 10 個加急名額已滿，請改一般配送。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:10390)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請使用取消訂單流程；符合條件的款項會自動轉入購物金，不需退款帳號。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:5539)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 部分商品已買到，無法整筆自動退款，請聯絡客服。
+    at r (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/order-actions-DgttPVGm.js:1:839)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-C-sf6mId.js:1:456)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請填寫有效的領貨日期區間。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:3850)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 請填寫退款轉帳核對資訊。
+    at N (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:6232)
+    at async Object.I [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CLNIDOcD.js:1:16970)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}

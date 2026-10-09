@@ -1,0 +1,420 @@
+{
+  "checkedAt": "2026-10-09",
+  "sourceRoot": "/workspace/sites/adelas-korea-shop-recovery",
+  "sourceCommit": "7dc6bb9",
+  "scope": "19張原始附件皆已逐張查看：13張JPG及6張復原截圖；兩張鹽圖重複。商品身份核對不等於完成供貨、成本或上架。",
+  "rows": [
+    {
+      "attachment": "IMG_7281(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7281(1).JPG",
+      "nameZh": "FOODOLOGY Coleology Diet Care 60錠（圖片舊版）",
+      "nameEn": "FOODOLOGY Coleology Diet Care 600mg x 60 reference",
+      "spec": "600mg × 60錠；36g；圖面含 Coleus forskohlii 配方文字",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。",
+      "sources": [
+        {
+          "url": "https://m.food-ology.co.kr/product/detail.html?item_code=P000000Z000L&product_no=25",
+          "ref": "turn1search1",
+          "note": "現行PRO同60錠，但配方不同；不是附件同款成本"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7282(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7282(1).JPG",
+      "nameZh": "FOODOLOGY Coleology Cutting Jelly 石榴果凍10條（圖片參考）",
+      "nameEn": "FOODOLOGY Coleology Cutting Jelly 25g x 10 reference",
+      "spec": "25g × 10條；250g；石榴",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。",
+      "sources": [
+        {
+          "url": "https://food-ology.co.kr/product/detail.html?cate_no=1&display_group=8&product_no=403",
+          "ref": "turn13view1",
+          "price": 23800,
+          "currency": "KRW",
+          "unit": "25g × 10條",
+          "note": "頁面單品選項；不採新客或多盒攤提價，尚未驗證supplier stock"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7283(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7283(1).JPG",
+      "nameZh": "LIVELING Apple/Pineapple Cider Vinegar Cleanse 多口味（圖片參考）",
+      "nameEn": "LIVELING Cleanse assorted flavors reference",
+      "spec": "圖中檸檬、葡萄柚、Shine Muscat青葡萄、梅子；官網對應15mL × 30條",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "照片是系列展示，不是混合整組；須分4口味確認SKU、各口味價格/庫存及台灣比價。",
+      "sources": [
+        {
+          "url": "https://www.flimeal.com/product/list.html?cate_no=76",
+          "ref": "turn4search14",
+          "note": "品牌頁確認口味與15mL×30規格"
+        },
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=B000000226414",
+          "ref": "turn14view2",
+          "price": 29900,
+          "currency": "KRW",
+          "unit": "30條；起價",
+          "note": "起價不能套用所有口味；brand頁先前快取27900與直接頁29900不同"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7284(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7284(1).JPG",
+      "nameZh": "SERY BOX Light Enzyme 穀物味28包（圖片參考）",
+      "nameEn": "SERY BOX Light Enzyme Grain 3g x 28 reference",
+      "spec": "3g × 28包；84g；穀物味",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "圖為原版，官方現售V2；Olive Young另為14+3包，均不能直接替代28包舊圖；需舊/新版確認。",
+      "sources": [
+        {
+          "url": "https://www.serybox.com/product/detail.html?cate_no=1&display_group=2&product_no=753",
+          "ref": "turn8search2",
+          "price": 35000,
+          "currency": "KRW",
+          "note": "V2起始價，含1BOX/3BOX選項；不是確認舊版28包成本"
+        },
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000212323",
+          "ref": "turn8search3",
+          "price": 16000,
+          "currency": "KRW",
+          "unit": "14+3包",
+          "note": "數量不同"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7285(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7285(1).JPG",
+      "nameZh": "LACTO-FIT Gold 益生菌50包（圖片參考）",
+      "nameEn": "LACTO-FIT Gold 2g x 50 reference",
+      "spec": "2g × 50包；100g；黃色Gold",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "韓國單罐來源有標價₩13,900；台灣momo代理版50入NT472，但網頁快取仍寫09/19到貨；需比對配方/版次、當前價格及供應商可買狀態。",
+      "sources": [
+        {
+          "url": "https://www.elandmall.co.kr/i/item?itemNo=2603321573",
+          "ref": "turn13view0",
+          "price": 13900,
+          "currency": "KRW",
+          "unit": "2g × 50包",
+          "note": "商品候選；供货未驗證"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15331510",
+          "ref": "turn11view0",
+          "price": 472,
+          "currency": "TWD",
+          "unit": "50入",
+          "note": "台灣代理升級版候選，需版次比對；不可自動標最新成交價"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7286(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7286(1).JPG",
+      "nameZh": "LACTO-FIT Slim 益生菌60包（圖片參考）",
+      "nameEn": "LACTO-FIT Slim 2g x 60 reference",
+      "spec": "2g × 60包；120g；粉紅Slim",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "韓國Costco為60包×2罐，不是單罐；₩36,990/2=₩18,495僅分攤，尚未確認可拆售、供貨及台灣同版比價。",
+      "sources": [
+        {
+          "url": "https://www.costco.co.kr/HealthSupplement/Probiotics/CKD-Lacto-Fit-Slim-2000mg-x-60ct-x-2/p/641772",
+          "ref": "turn15search0",
+          "price": 36990,
+          "currency": "KRW",
+          "unit": "2g × 60包 × 2罐",
+          "note": "含韓國配送；單罐不能沿用整組成本"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7287(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7287(1).JPG",
+      "nameZh": "UNOVE Deep Damage Treatment EX Tender Bloom 圖片組合",
+      "nameEn": "UNOVE Tender Bloom Treatment EX two tubes plus mini reference",
+      "spec": "可讀Tender Bloom；2大管+1小管，圖中大管似320mL但待原圖標籤/來源確認；小管量不清",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "不是既有id137飛天小女警联名；現OY普通版320mL雙組₩27,800起，未證實含照片小管，須獨立research。",
+      "sources": [
+        {
+          "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423",
+          "ref": "turn14view1",
+          "price": 27800,
+          "currency": "KRW",
+          "unit": "320mL雙/雙香組；起價",
+          "note": "現行名Hair Mask/Repair與圖EX版差異須驗證；不能套原聯名記錄"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7288(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7288(1).JPG",
+      "nameZh": "SO.NATURAL All Day Tight FIXX 粉瓶黑字定妝噴霧（圖片參考）",
+      "nameEn": "SO.NATURAL All Day Tight FIXX pink black-letter bottle reference",
+      "spec": "粉瓶黑字All Day Tight；照片容量不可讀",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "市面有35/75/100/120mL，同瓶外觀不足確定容量；momo120mL NT710只是候選，韓國單品來源/容量/可運輸供應方式待確認。",
+      "sources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0001035/goodsDetail/TP00010350000107",
+          "ref": "turn11view1",
+          "price": 710,
+          "currency": "TWD",
+          "unit": "120mL",
+          "note": "照片容量未明，不能當同規格已驗證"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7289(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7289(1).JPG",
+      "nameZh": "LION Eyemiru 40EX Gold 13mL（圖片參考）",
+      "nameEn": "LION Eyemiru 40EX Gold 13ml reference",
+      "spec": "13mL；Gold；非Gold Contact/非一般40EX",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "官方確認品名13mL並列OTC drug；未取得韓國採購價/庫存及台灣同款比較；保持研究記錄，不能與隱形眼鏡版混用。",
+      "sources": [
+        {
+          "url": "https://www.lionkorea.co.kr/en/brand/itemView.do?item_num=157&mode=item&pageIndex=1&param01=4&param02=5",
+          "ref": "turn14view0",
+          "note": "官方確認Gold13mL身份；無售價/庫存"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7290(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7290(1).JPG",
+      "nameZh": "Hetras × Hello Kitty 擴香三瓶（圖片參考）",
+      "nameEn": "Hetras Hello Kitty Diffuser 500ml x 3 reference",
+      "spec": "官網對應500mL × 3；1500mL，香味需選",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "原廠頁₩25,800，韓國運費₩3,000（滿3萬免）；頁面有品절/SOLD OUT，尚須以原始option狀態辨別模板與實際缺貨；不要承諾供應。",
+      "sources": [
+        {
+          "url": "https://hetras.co.kr/product/hetras-x-hello-kitty-premium-diffuser-3ea-1500ml/395/",
+          "ref": "turn7view1",
+          "price": 25800,
+          "currency": "KRW",
+          "unit": "500mL × 3",
+          "note": "source listing有SOLD OUT，不是庫存證明"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7291(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7291(1).JPG",
+      "nameZh": "Hetras × Hello Kitty 黑色限定禮組（圖片參考）",
+      "nameEn": "Hetras Hello Kitty Black Limited Gift Set reference",
+      "spec": "3瓶擴香＋泵瓶＋護手霜＋周邊；需官方明細確認容量/贈品",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "找到官方Black Limited Gift Set₩45,800，頁面品절圖示及SOLD OUT；有正式整組SKU，但仍須核對照片完整組成及供應狀態，不能只把系列照當確認整組。",
+      "sources": [
+        {
+          "url": "https://hetras.co.kr/product/hetras-x-hello-kitty-black-limited-gift-set/397/",
+          "ref": "turn7view0",
+          "price": 45800,
+          "currency": "KRW",
+          "unit": "Black Limited Gift Set",
+          "note": "售罄圖示；精確組成與台灣同組比價未驗證"
+        }
+      ]
+    },
+    {
+      "attachment": "IMG_7292(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7292(1).JPG",
+      "nameZh": "New Balance 黑色T字帶鞋（圖片參考）",
+      "nameEn": "New Balance black T-strap shoes reference",
+      "spec": "黑色麂皮感、T字帶、NB標誌；圖未顯示型號/尺碼",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "可能Breeze系列，不能憑相似外觀指定SD2202/2203；需官方款號、色號、尺碼、韓國成本、逐尺寸供貨及台灣同款比價。",
+      "sources": []
+    },
+    {
+      "attachment": "IMG_7293(1).JPG",
+      "attachmentPath": "/workspace/scratch/744af0e5be84/upload/IMG_7293(1).JPG",
+      "nameZh": "米色T字帶鞋（與黑色參考同系列待核）",
+      "nameEn": "Beige T-strap shoes matching reference",
+      "spec": "米色麂皮感、膠色大底、T字帶；圖未顯示型號/品牌字樣/尺碼",
+      "status": "research",
+      "catalogExactMatch": false,
+      "priceKrw": null,
+      "taiwanRetailTwd": null,
+      "stock": null,
+      "stockQuantityVerified": false,
+      "checkedAt": "2026-10-08",
+      "unresolved": "外觀與IMG7292接近但尚無官方同款證明；不能猜SD2203BE或共用黑鞋照片/庫存。",
+      "sources": []
+    },
+    {
+      "attachment": "image(4).png",
+      "nameZh": "會員費率截圖",
+      "checkedAt": "2026-10-09",
+      "outcome": "已改為依商品成本及已付款次數浮動；目前保留既有8/5/3/0會員基準，截圖紅字鑽石2%尚未套用，需確認是否要求最低2%。"
+    },
+    {
+      "attachment": "image(5).png",
+      "nameZh": "清淨園蒜洋蔥香草鹽52g",
+      "checkedAt": "2026-10-09",
+      "outcome": "新增待核對記錄；不能忽略單瓶韓國配送費。"
+    },
+    {
+      "attachment": "image(6).png",
+      "nameZh": "清淨園蒜洋蔥香草鹽52g",
+      "checkedAt": "2026-10-09",
+      "outcome": "與image(5).png相同照片，共用一筆研究記錄。"
+    },
+    {
+      "attachment": "截圖 2026-10-08 凌晨2.08.16.png",
+      "nameZh": "咖啡糖單盒NT270與台灣NT130",
+      "checkedAt": "2026-10-09",
+      "outcome": "來源單位32g×1；目前高價供應商無法滿足95%上限，已阻止不合規價格下單。"
+    },
+    {
+      "attachment": "截圖 2026-10-08 凌晨2.16.03.png",
+      "nameZh": "荔枝選項仍顯示葡萄照片",
+      "checkedAt": "2026-10-09",
+      "outcome": "卡片、詳細頁、購物車改用所選規格圖片；隔離API與邏輯測試通過，未做實機點選。"
+    },
+    {
+      "attachment": "截圖 2026-10-08 凌晨2.17.11.png",
+      "nameZh": "直接私訊旅客位置",
+      "checkedAt": "2026-10-09",
+      "outcome": "移至訊息分頁；通知分頁保留通知與待辦。"
+    }
+  ],
+  "coffee": {
+    "productId": 133,
+    "conclusion": "沒有證據顯示SSG單盒被錯當多盒；原SKU明確32g×1及11350KRW。主要問題是高價供應來源與台灣5%上限不符。",
+    "sources": [
+      {
+        "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000822845261&salestrNo=6005&siteNo=6004",
+        "ref": "turn4view0",
+        "priceKrw": 11350,
+        "promoPriceKrw": 10060,
+        "promoEnds": "2026-10-11 04:00（網頁顯示，時區未明）",
+        "unit": "32g × 1",
+        "note": "優惠早於10/16批次，不可當整批永久成本"
+      },
+      {
+        "url": "https://item.gmarket.co.kr/Item?goodscode=4845821356",
+        "ref": "turn16view2",
+        "note": "本輪連兩次無法讀取，三盒20300及單盒6767只是舊證據未刷新"
+      },
+      {
+        "url": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+        "ref": "turn16view1",
+        "note": "舊130台幣參考，需現讀確認出貨及口味"
+      },
+      {
+        "url": "https://www.momoshop.com.tw/TP/TP0009156/goodsDetail/TP00091560000332",
+        "ref": "turn4view2",
+        "priceRangeTwd": [
+          149,
+          1168
+        ],
+        "note": "未解析單盒所選口味，不能直接填149"
+      },
+      {
+        "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000498",
+        "ref": "turn2search0",
+        "priceTwd": 780,
+        "unit": "32g × 4",
+        "note": "內容說抹茶4或抹茶2美式1濃縮1，選項區出現無關色款，頁面資料矛盾；不能直接作同單盒195比較"
+      },
+      {
+        "url": "https://24h.pchome.com.tw/prod/DBAEEN-A900KHR70",
+        "ref": "turn16view0",
+        "priceTwd": 250,
+        "unit": "32g鐵盒；多款選項",
+        "note": "有CU/Emart/紫美式多包裝，無抹茶選項；需選項包裝對應，不能不查匹配就取较高比較價"
+      }
+    ]
+  },
+  "limitations": [
+    "價格是查到的公開頁面標价，非實際取得成本/付款金額。",
+    "所有新增圖片記錄均research；未臆造庫存或台灣無販售。",
+    "公開listing/Buy按鈕不證明庫存；SOLD OUT模板要用結構化option覆核。",
+    "stripe-directory skill已讀；CLI不存在，網站指向setup docs；不啟用Stripe收款。",
+    "舊13筆研究商品另見r15-remaining-catalog-audit.json；沒有足夠證據的SKU不標為已完成上架。"
+  ]
+}

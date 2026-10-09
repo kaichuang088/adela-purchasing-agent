@@ -1,0 +1,282 @@
+PASS 1: All baseline and expanded records are visible with no duplicate new records
+PASS 2: All currently listed seeded products expose the reviewed Korean description through the compiled API
+PASS 3: Administrator Korean name and description edits round-trip to the buyer API
+PASS 4: Reinitialization preserves seller-authored Korean descriptions
+PASS 5: Older editor payloads cannot erase Korean content by omitting it
+PASS 6: Seed translation is not applied when the seller has changed the source description
+PASS 7: Korean descriptions obey the same server-side length limit as other languages
+PASS 8: Every added SKU reaches API with exact price, size, brand, Korean name, sources and a loadable local image
+PASS 9: Le Labo has expanded perfume and non-perfume coverage
+PASS 10: Byredo has expanded perfume and non-perfume coverage
+PASS 11: Diptyque has expanded perfume and non-perfume coverage
+PASS 12: At least 12 exact-spec Olive Young additions are present
+PASS 13: Stüssy and Stussy spellings group all four old and four new records together
+PASS 14: Both Stussy spellings find all eight products
+PASS 15: Olive Young collection includes only products sourced from that retailer
+PASS 16: Olive Young search finds the new products
+PASS 17: Le Labo search finds all added scents and body care
+PASS 18: Korean product search finds ANOTHER 13
+PASS 19: Unrelated lookalike retailer domains are excluded
+PASS 20: At least 49 catalog records visible in isolated API
+PASS 21: Curated records reach the shop API unchanged (does not verify live source prices/images)
+PASS 22: All three coffee flavors each have a separate single-box record
+PASS 23: All visible catalog products have Korean display names (not full UI translation)
+PASS 24: Catalog initialization is idempotent
+PASS 25: Admin data requires authentication
+PASS 26: Member remains signed in through session cookie
+PASS 27: Every available added SKU can be quoted with a selected option and correct rounded TWD amount
+PASS 28: Eight new fashion records expose verified sizes, category and sold-out state
+PASS 29: New Stüssy records join the existing Stussy brand collection
+PASS 30: Fashion with size options rejects missing or unavailable sizes
+PASS 31: New sold-out cap cannot be quoted or ordered
+PASS 32: Verified Taiwan price, matching specification and check date reach the shop API
+PASS 33: Existing catalog receives missing reference prices without a fresh database
+PASS 34: Seller reference changes survive migration and clear the earlier check date
+PASS 35: All bundled product photos render an optional empty URL field, preserving the stored image without native URL mismatch
+PASS 36: External image URL remains visible and editable in the seller form
+PASS 37: New products show no false claim that a bundled photo exists
+PASS 38: Seller can edit a seeded product while preserving its bundled photo and brand
+PASS 39: Product image validation rejects traversal, external protocol-relative URLs and private endpoints
+PASS 40: Display price matches actual API rounding for both selected variants, including the old one-dollar mismatch
+PASS 41: Without an exchange rate, detail uses the selected variant KRW price
+PASS 42: Automatic fee discount appears only when the same-spec item meets the minimum
+PASS 43: The actual shared card/detail price component renders the selected qualifying amount
+PASS 44: Expired automatic discounts are removed from displayed prices
+PASS 45: Unreported payment shows bank information and the exact payable amount without another disclosure click
+PASS 46: Reported payment explains verification is pending and does not ask for another transfer
+PASS 47: Unavailable item cannot be ordered
+PASS 48: Coupon minimum rejects small basket and applies to qualifying basket
+PASS 49: Checkout requires and saves shipping address
+PASS 50: Payment report reaches admin order queue
+PASS 51: Buyer receipt data remains accessible
+PASS 52: Missing AI connection is reported accurately without creating a product
+PASS 53: Impossible calendar date is rejected
+PASS 54: Confirmed discontinue hides item and seed does not reactivate it
+PASS 55: Purchase cutoff enforced on server
+PASS 56: Replaying expansion never reactivates a seller-discontinued product
+{"total":93,"LeLabo":13,"Byredo":8,"Diptyque":5,"Stussy":8,"MardiMercredi":6,"OliveYoung":31}
+Release checks complete. Live AI connection is NOT covered and remains unconfigured.
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請先選擇商品規格。 / Select a product option first.
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7466
+    at Array.map (<anonymous>)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7288)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品數量不足。
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:24722
+    at Array.map (<anonymous>)
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:24413)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品圖片需為 HTTPS 網址或已收錄的商品照片。
+    at P (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:10971)
+    at Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:16809)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品圖片需為 HTTPS 網址或已收錄的商品照片。
+    at P (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:10971)
+    at Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:16809)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品圖片需為 HTTPS 網址或已收錄的商品照片。
+    at P (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:10971)
+    at Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:16809)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品圖片需為 HTTPS 網址或已收錄的商品照片。
+    at P (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:10971)
+    at Object.I [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-B4YD23m_.js:1:16809)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 商品數量不足。
+    at file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:24722
+    at Array.map (<anonymous>)
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:24413)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: MIN400：適用商品須滿 NT$400（類別券只計算該類別商品）。
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:24270)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:1764)
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:8477)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at X (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:22391)
+    at async ge (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/commerce-CTlvcml7.js:13:23464)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/route-BmWXbBUJ.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/_next/static/app-route-handler-dispatch-BrhEePfe.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r4/dist/server/index.js:16:296) {
+  status: 409
+}

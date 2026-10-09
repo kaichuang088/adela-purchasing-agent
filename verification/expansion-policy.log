@@ -1,0 +1,41 @@
+shop I [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at B (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:9170)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CWjWlcHZ.js:1:224)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 401
+}
+PASS 1: New order actions and administration reject anonymous requests
+shop I [Error]: 請設定有效的開放下單與停止下單時間，結束必須晚於開始。
+    at Object.M [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CZNdJF3y.js:1:19374)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 400
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: /api/operations: 400 {"error":"請設定有效的開放下單與停止下單時間，結束必須晚於開始。"}
+
+400 !== 200
+
+    at response (file:///workspace/sites/adelapa-private-review/scripts/verify-policy-updates.mjs:23:94)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async call (file:///workspace/sites/adelapa-private-review/scripts/verify-policy-updates.mjs:25:33)
+    at async file:///workspace/sites/adelapa-private-review/scripts/verify-policy-updates.mjs:47:63 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 400,
+  expected: 200,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,58 @@
+[
+  {
+    "match": "SKINFOOD Carrot Carotene Calming Water Pad 60 x 2 + PDRN 2 x 3",
+    "nameZh": "SKINFOOD 胡蘿蔔舒緩棉片雙盒組（60片×2＋PDRN棉片2片×3）",
+    "nameEn": "SKINFOOD Carrot Carotene Calming Water Pad 60 x 2 + PDRN 2 x 3",
+    "priceKrw": 25900,
+    "taxIncludedJpy": 25900,
+    "taiwanRetailTwd": 860,
+    "taiwanPromotionTwd": 0,
+    "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020",
+    "taiwanRetailClassification": "retailer_two_units_excludes_gift",
+    "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585",
+    "spec": "胡蘿蔔舒緩棉片60片×2盒（各250g）；PDRN棉片2片×3包贈品不計價",
+    "imageUrl": "/catalog-20260927/olive-A000000255585.png",
+    "imageEdited": false,
+    "descriptionZh": "胡蘿蔔舒緩棉片60片×2盒，附PDRN棉片2片×3包。韓國Olive Young公開價25900韓元；台灣參考為momo一般版同規格60片單盒430元×2＝860元，贈品不計價。依批次代購，非台灣現貨。",
+    "descriptionEn": "Two 60-pad, 250g jars plus three 2-pad PDRN gifts. Korean Olive Young public price KRW25900. Taiwan reference is two matching-size regular jars from momo at NT$430 each, total NT$860, excluding gifts. Batch preorder.",
+    "sourceCheckedAt": "2026-10-05",
+    "taiwanRetailCheckedAt": "2026-10-05",
+    "sourceNotes": "OY雙盒組25900KRW（原42000），購買／購物車按鈕及韓國一般配送免運。momo凱釜山TP00104230000020近期抓取頁60片430元，韓國跨境配送，購買／購物車按鈕；比較只計商品價430×2，不加台灣配送70元或使用限量抵用券。早期momo429來源較舊未採用。原有商品照片已目視檢查為實際雙盒＋PDRN商品，無真人臉。",
+    "evidence": [
+      "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585",
+      "https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020"
+    ],
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": []
+  },
+  {
+    "match": "MEDIHEAL Madecassoside Moisture Sun Serum Blemish Repair 50g",
+    "nameZh": "MEDIHEAL 積雪草保濕防曬精華 50g",
+    "nameEn": "MEDIHEAL Madecassoside Moisture Sun Serum Blemish Repair 50g",
+    "priceKrw": 14100,
+    "taxIncludedJpy": 14100,
+    "taiwanRetailTwd": 395,
+    "taiwanPromotionTwd": 0,
+    "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231",
+    "taiwanRetailClassification": "retailer_exact_spec",
+    "purchaseUrl": "https://www.kurly.com/goods/1002381011",
+    "spec": "50g × 1（積雪草修護款）",
+    "imageUrl": "/catalog-r8/product-128.png",
+    "imageEdited": true,
+    "descriptionZh": "積雪草保濕防曬精華50g單支。韓國Kurly公開商品價14100韓元；台灣參考momo同款50g單支395元，不使用雙支675元或混入其他商品價格。依批次集中採買；韓國供應商滿40000韓元免運，未達門檻運費由賣家處理。",
+    "descriptionEn": "One 50g Madecassoside Blemish Repair sun serum. Kurly public item price KRW14100; matching momo single-bottle option NT$395. Consolidated batch preorder. Korean supplier shipping is free above KRW40000; the seller handles supplier shipping below the threshold.",
+    "sourceCheckedAt": "2026-10-05",
+    "taiwanRetailCheckedAt": "2026-10-05",
+    "sourceNotes": "Kurly當日頁50g單支14100韓元（原22000）、加入購物車；配送3000韓元／滿40000韓元免運，量未核實。momo公開HTML選項001=01 50g售395，002=02 50g+50g售675，未採用搜尋閱讀器混入的27990。台灣運费70未計入比較；商品圖已目視確認單支綠色款、無真人臉。",
+    "evidence": [
+      "https://www.kurly.com/goods/1002381011",
+      "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231"
+    ],
+    "serviceFeePercent": 5,
+    "stock": -1,
+    "stockQuantityVerified": false,
+    "variants": []
+  }
+]

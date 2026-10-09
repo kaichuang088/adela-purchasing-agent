@@ -1,0 +1,76 @@
+PASS 1: Coffee and gummies each appear as one product with individual-unit flavor choices, including kiwi
+PASS 2: Old coffee tins and bundle listings are no longer duplicated in storefront
+PASS 3: 40 buyable specifications match display/checkout and satisfy the Taiwan 95% ceiling including fees
+PASS 4: Every coffee flavor is NT$123 per single tin; two tins are NT$246 before shipping
+shop B [Error]: 此規格正在核對台灣市售價，完成比價後開放下單。 / Matching Taiwan price pending.
+    at file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/commerce-CtNC8cgt.js:13:26292
+    at Array.map (<anonymous>)
+    at xe (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/commerce-CtNC8cgt.js:13:25643)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/route-CtJY6mPc.js:1:7978)
+    at async at (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18300)
+    at async ot (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18586)
+    at async jo.route (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26389)
+    at async t (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26598)
+    at async Qm (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:14:173607)
+    at async Object.fetch (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 5: Unmatched Taiwan prices cannot silently become purchasable or show a made-up discount
+PASS 6: Requested expansion is visible; incomplete candidates are explicitly under review
+PASS 7: Repeat catalog reads do not duplicate products
+PASS 8: New orders preserve the selected product photo
+PASS 9: Normal transfer checkout charges 123 + 50 shipping and does not invoke Stripe
+PASS 10: Opening an order-linked private message inserts its order summary exactly once
+PASS 11: Chat returns photo card data with original total
+PASS 12: Legacy photo lookup does not rewrite stored orders
+shop B [Error]: 訂單不屬於此會員。 / This order is not yours.
+    at Object.T [as handlerFn] (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/route-7j8FUrUD.js:7:4012)
+    at async at (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18300)
+    at async ot (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18586)
+    at async jo.route (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26389)
+    at async t (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26598)
+    at async Qm (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:14:173607)
+    at async Object.fetch (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:16:296) {
+  status: 403
+}
+PASS 13: Cannot share an order into a different customer’s conversation
+PASS 14: Buyer payment report remains pending until seller confirms funds
+PASS 15: Seller confirmation preserves the capped immutable order total
+shop B [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at W (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/commerce-CtNC8cgt.js:13:18577)
+    at async Object.u [as handlerFn] (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/route-BLL0IJY_.js:1:632)
+    at async at (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18300)
+    at async ot (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18586)
+    at async jo.route (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26389)
+    at async t (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26598)
+    at async Qm (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:14:173607)
+    at async Object.fetch (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:16:296) {
+  status: 401
+}
+shop B [Error]: 推播網址無效。
+    at Object.u [as handlerFn] (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/route-BLL0IJY_.js:1:718)
+    at async at (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18300)
+    at async ot (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18586)
+    at async jo.route (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26389)
+    at async t (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26598)
+    at async Qm (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:14:173607)
+    at async Object.fetch (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:16:296) {
+  status: 400
+}
+PASS 16: Push requires membership, rejects private network endpoints and starts after existing notifications
+PASS 17: Test notification is accepted by the simulated push provider
+shop B [Error]: 請先在此裝置開啟通知。
+    at Object.u [as handlerFn] (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/route-BLL0IJY_.js:1:1071)
+    at async at (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18300)
+    at async ot (file:///workspace/scratch/8379183971b4/adelapa/dist/server/_next/static/app-route-handler-dispatch-CEqkT71k.js:1:18586)
+    at async jo.route (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26389)
+    at async t (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:2:26598)
+    at async Qm (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:14:173607)
+    at async Object.fetch (file:///workspace/scratch/8379183971b4/adelapa/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 18: A different member cannot test or claim this device subscription
+PASS 19: Homepage activation reflects server registration for this member
+PASS 20: Users can unsubscribe their device
+PASS 21: Push uses valid VAPID signature and never sends private message content to push providers
+PASS 22: Service panel reports R7 and the requested GPT 6.1 Sol model

@@ -1,0 +1,4 @@
+PASS 1: Every historical column and the member index preserved
+PASS 2: 2000 with 160 accepted
+PASS 3: 5000 with 600 accepted
+PASS 4: Invalid bonus rejected

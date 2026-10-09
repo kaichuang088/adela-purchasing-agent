@@ -1,0 +1,41 @@
+PASS 1: English context works even without a legacy en prop
+PASS 2: Korean context reaches nested components
+PASS 3: Traditional Chinese remains available
+PASS 4: Named interpolation preserves currency signs and missing placeholders
+PASS 5: Remaining priority places render dynamically in Korean
+PASS 6: Category minimum blocks a coupon and explains both real amounts in Korean
+PASS 7: Checkout coupon and shipping instructions contain no Chinese copy in Korean mode
+PASS 8: Reaching the coupon minimum enables it while exhausted priority slots remain disabled
+PASS 9: Korean percentage means amount discounted and retains Chinese and English semantics
+PASS 10: All discount families distinguish percentage, fixed amount, service fee and free shipping
+PASS 11: Coupon wallet preserves credit and displays expiry in Taiwan time using Korean formatting
+PASS 12: Membership requirements and next tier translate with real thresholds
+PASS 13: Refund confirmation describes the exact credit amount in Korean
+PASS 14: Refund result retains order identity, actual credit and Taiwan timestamp
+PASS 15: Every declared order status has a Korean translation
+PASS 16: Shared status labels agree with pickup milestones
+PASS 17: Administrator receipt action follows the shared language
+PASS 18: Translated image editor preserves a bundled photo without invalid URL form values
+PASS 19: Korean AI panel honestly reports missing configuration and prevents execution
+PASS 20: Email queue translates configuration and delivery limitations without enabling an unavailable sender
+PASS 21: Korean admin settings preserve API enum values and shipping policy
+PASS 22: Admin login exposes Korean language selection and retains password authentication
+PASS 23: Korean product fields expose localized labels, stored values and matching input limits
+PASS 24: Catalog cards and details choose Korean descriptions with an explicit English fallback
+PASS 25: All registered application error translations are reachable and contain Korean text
+PASS 26: Coupon errors preserve the exact coupon identifier for all failure reasons
+PASS 27: Dynamic coupon minimum retains the exact amount and category-only rule
+PASS 28: Exchange-rate error keeps the currency and confirms no order was created
+PASS 29: AI errors preserve provider status and distinguish no changes from success
+PASS 30: Unknown merchant messages remain intact rather than receiving an invented translation
+PASS 31: Actual language hook renders the refund deadline error in Korean and preserves Chinese
+PASS 32: Dynamic error details remain escaped text in React output
+PASS 33: All registered administrator labels have both English and Korean translations
+PASS 34: All registered English errors are reachable without changing status or identifiers
+PASS 35: Actual buyer language hook translates refund deadline into English
+PASS 36: English administrator settings include the new purchase interval
+PASS 37: English retains unknown seller messages without invented translation
+PASS 38: Rendered 500ml reference never uses the 200ml reference price
+PASS 39: Closed product editor accepts null without crashing authenticated admin
+PASS 40: Every administrator status including awaiting verification has its English label
+Localization completed: 40 named checks; SSR component checks, not interactive browser QA.

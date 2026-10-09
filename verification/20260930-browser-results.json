@@ -1,0 +1,32 @@
+{
+  "scope": "Disposable local preview database and synthetic QA account; not production or deployed cross-site testing",
+  "orderNo": "KK260930-74E578A2970C",
+  "verified": [
+    "Frontend English search and variant selection; Dokdo 500ml comparison 799 separate from 200ml 599",
+    "Frontend member signup and reload retains session",
+    "Administrator login no longer crashes with null closed ProductDialog",
+    "Backend product edit reflected in frontend after reload",
+    "Browser checkout total 522 with standard shipping 50",
+    "Five-digit payment report leaves payment unverified; admin receipt verification changes to paid",
+    "Paid cumulative goods 17480 and points 8 before cancellation",
+    "Cancellation confirmation explicitly names 522 credit; result cancelled and returns 522 with original order and Taiwan time",
+    "AI management and batch Scan honestly disabled when service missing",
+    "AI add opens AI-only editor, with no manual product form",
+    "English admin status filter includes awaiting verification, purchased and collected",
+    "Korean cancelled/refund content retains original seller reason unchanged",
+    "Actual receipt generator renders browser order: title Adela's Purchasing Agent, cancelled, 522 credit, goods472+shipping50, received0 and outstanding0"
+  ],
+  "incomplete": [
+    "Browser PDF download event timed out after 50 seconds; no confirmed downloadable artifact from browser",
+    "Viewport override requested390 but observed796; genuine narrow mobile acceptance remains pending",
+    "Coupon interactive full flow, human support unread entry, all product image loading and all UI pages not fully reviewed",
+    "Real AI provider, email delivery, autonomous live scheduler and deployed Netlify/Sites sync not verified"
+  ],
+  "evidence": [
+    "20260930-browser-refund.jpg",
+    "20260930-browser-korean-refund.jpg",
+    "20260930-browser-receipt.png",
+    "20260930-browser-order.json",
+    "20260930-browser-receipt.log"
+  ]
+}

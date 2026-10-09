@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-30",
+  "deployAllowed": false,
+  "reason": "User requires all necessary acceptance before publication; production and data/UI gates below remain incomplete",
+  "baseline": {
+    "siteVersion": 9,
+    "commit": "7832ae067453efe5abb356139bd445573eff505b",
+    "files": 362,
+    "historicalChecks": 310,
+    "historicalChecksNotReused": true
+  },
+  "currentTests": {
+    "suitesPassed": 18,
+    "suitesTotal": 18,
+    "namedChecks": 398,
+    "separateRecordedBrowserPdfChecks": 0,
+    "sitesBuild": true,
+    "netlifyBuild": true,
+    "typecheck": true,
+    "scope": "Isolated database and local compiled app. Photo AI and email transport are mocked. Not live provider, browser UI or cross-site deployment verification.",
+    "separateActualBrowserPdfDownloads": 2,
+    "resultFile": "20260930-r2-release-results.json",
+    "browserEvidence": "20260930-r2-browser-results.json",
+    "previousR1PdfReplayChecksNotReused": 2
+  },
+  "catalog": {
+    "originalVisible": 87,
+    "recoveryRecords": 17,
+    "newVisible": 6,
+    "newDrafts": 11,
+    "visibleNow": 93,
+    "LeLabo": 13,
+    "Byredo": 8,
+    "Diptyque": 5,
+    "OliveYoung": 31,
+    "Stussy": 8,
+    "Mardi": 6,
+    "originalMissingTaiwanReferences": 56,
+    "originalRemainingMissing": 50,
+    "newVisibleProductsWithoutTaiwanReferences": 5,
+    "completeCatalog": false
+  },
+  "blocked": [
+    "ADMIN_PASSWORD is absent from production runtime; set a new server-only secret",
+    "Real OPENAI_API_KEY or KK_AI_GATEWAY_URL/secret plus verified supported OPENAI_MODEL; test every AI entry",
+    "RESEND_API_KEY, verified EMAIL_FROM, SHOP_PUBLIC_URL and an actual test recipient/inbox delivery",
+    "Production DB migration/binding and actual no-page-view cron execution; standalone cron configuration is not Sites activation",
+    "Authorized Netlify site/deployment and KK_BACKEND_URL reaching the same persistent backend with verified server-side auth; current Site has no live URL",
+    "50 original matching Taiwan references plus 5 new visible products remain unverified; fashion purchasable sizes/images pending",
+    "Original offshore shipping rates and reference images1\u20136 are missing",
+    "Remaining full-page/image review and every-dialog/mobile language combination pending; basic coupon UI, human-support unread and actual PDF downloads now verified locally"
+  ],
+  "published": false,
+  "liveUrl": null,
+  "release": "2026-09-30-recovery-r2",
+  "checkedAt": "2026-09-30T14:48:27.623435+00:00",
+  "historicalFormalReleaseGate": true,
+  "privatePreview": {
+    "authorized": true,
+    "request": "2026-10-01 Continue!!; continues authorized update of existing private site",
+    "targetProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+    "attachmentProjectId": "appgprj_6ab8b6da8d988191a1db39f6f4a6dd6c",
+    "attachmentProjectAccess": "NOT_FOUND in current workspace",
+    "scope": "Update the same existing owner-private preview from this conversation; no new site, no Netlify deployment; live AI, email and full catalog acceptance remain incomplete.",
+    "stage": "R4 validated; awaiting native publication",
+    "resultFile": "20261001-private-r4-release-results.json",
+    "migrationRepair": {
+      "firstDeploymentId": "appgdep_6abd282233988191af5f9504e6f0b1e2",
+      "firstResult": "failed: incomplete input: SQLITE_ERROR",
+      "reproduction": "D1 exec rejects the first multiline CREATE TRIGGER statement in 0017",
+      "newMigrationFormattingCorrected": [
+        "0017_atomic_stock.sql",
+        "0018_email_outbox.sql",
+        "0020_admin_previews.sql"
+      ],
+      "localCorrectedExecFilesPassed": 4,
+      "correctedSchemaChecksPassed": 66,
+      "productionRowsManuallyEdited": false,
+      "status": "R4 verified locally; native result pending",
+      "r3SecondDeploymentId": "appgdep_6abd2ce4fd6481918db357179bf177f0",
+      "r3SecondResult": "failed: incomplete input: SQLITE_ERROR",
+      "r4GuardRewrite": [
+        "0016_adela_wallet_delivery.sql",
+        "0017_atomic_stock.sql"
+      ]
+    }
+  },
+  "currentRuntimeObservations": {
+    "checkedAt": "2026-10-01T00:36:08.243793+00:00",
+    "envRevision": 3,
+    "adminSecretPresent": true,
+    "model": "gpt-6-astra",
+    "aiCredentialsPresent": false,
+    "emailCredentialsPresent": false,
+    "r3Published": false,
+    "existingLiveVersion": 9,
+    "scope": "Actual native runtime keys and failed v11 deployment; historical blocked array is retained as R2 snapshot, not current truth"
+  }
+}

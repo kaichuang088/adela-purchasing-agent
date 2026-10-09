@@ -1,0 +1,9 @@
+PASS 1: Unfinished bank refund is actionable
+PASS 2: Unfinished refund stays visible even if a reference was drafted
+PASS 3: Handled cancelled produces no task panel or empty container
+PASS 4: Handled refunded produces no task panel or empty container
+PASS 5: Handled completed produces no task panel or empty container
+PASS 6: Handled rejected produces no task panel or empty container
+PASS 7: Pending task shows customer, order, amount and action
+PASS 8: Availability fieldset renders two independent labelled checkboxes
+PASS 9: Two top-up products show exact purchase and credited amounts with purchase buttons

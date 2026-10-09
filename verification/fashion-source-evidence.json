@@ -1,0 +1,401 @@
+[
+  {
+    "id": "stussy-berries-20260928",
+    "brand": "Stüssy",
+    "nameZh": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+    "nameEn": "Stüssy Berries Tee Cayenne",
+    "officialProductName": "BERRIES TEE",
+    "color": "Cayenne",
+    "category": "fashion",
+    "spec": "1件；220gsm 純棉；款號1905108",
+    "price": 75000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne",
+    "imageSourceUrl": "https://kr.stussy.com/cdn/shop/files/1905108_CAYA_1.jpg?v=1765902018",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [
+      "S",
+      "L",
+      "XL"
+    ],
+    "allListedSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variantAvailability": [
+      {
+        "size": "S",
+        "sku": "1905108-CAYA-S",
+        "priceKrw": 75000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513458231"
+      },
+      {
+        "size": "M",
+        "sku": "1905108-CAYA-M",
+        "priceKrw": 75000.0,
+        "availability": "OutOfStock",
+        "sourceUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513490999"
+      },
+      {
+        "size": "L",
+        "sku": "1905108-CAYA-L",
+        "priceKrw": 75000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513523767"
+      },
+      {
+        "size": "XL",
+        "sku": "1905108-CAYA-XL",
+        "priceKrw": 75000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513556535"
+      },
+      {
+        "size": "XXL",
+        "sku": "1905108-CAYA-XXL",
+        "priceKrw": 75000.0,
+        "availability": "OutOfStock",
+        "sourceUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513589303"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1件；220gsm 純棉；款號1905108。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability."
+  },
+  {
+    "id": "stussy-crew-20260928",
+    "brand": "Stüssy",
+    "nameZh": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+    "nameEn": "Stüssy Authorized Crew Navy",
+    "officialProductName": "AUTHORIZED CREW",
+    "color": "Navy",
+    "category": "fashion",
+    "spec": "1件；430gsm，75%棉／25%聚酯纖維；款號1915122",
+    "price": 199000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy",
+    "imageSourceUrl": "https://kr.stussy.com/cdn/shop/files/1915122_NAVY_1_e61b464d-e2f2-4b2d-b9fb-65785e38df86.jpg?v=1763592707",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "allListedSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variantAvailability": [
+      {
+        "size": "S",
+        "sku": "1915122-NAVY-S",
+        "priceKrw": 199000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440927287"
+      },
+      {
+        "size": "M",
+        "sku": "1915122-NAVY-M",
+        "priceKrw": 199000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440960055"
+      },
+      {
+        "size": "L",
+        "sku": "1915122-NAVY-L",
+        "priceKrw": 199000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440992823"
+      },
+      {
+        "size": "XL",
+        "sku": "1915122-NAVY-XL",
+        "priceKrw": 199000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441025591"
+      },
+      {
+        "size": "XXL",
+        "sku": "1915122-NAVY-XXL",
+        "priceKrw": 199000.0,
+        "availability": "OutOfStock",
+        "sourceUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441058359"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1件；430gsm，75%棉／25%聚酯纖維；款號1915122。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability."
+  },
+  {
+    "id": "stussy-bandana-20260928",
+    "brand": "Stüssy",
+    "nameZh": "Stüssy SILK BANDANA 豹紋真絲方巾",
+    "nameEn": "Stüssy Silk Bandana Leopard",
+    "officialProductName": "SILK BANDANA",
+    "color": "Leopard",
+    "category": "fashion",
+    "spec": "1條；66 × 66cm；100%真絲；款號138965",
+    "price": 99000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://kr.stussy.com/products/138965-silk-bandana-leopard",
+    "imageSourceUrl": "https://kr.stussy.com/cdn/shop/files/138965_LEOP_2.jpg?v=1764163916",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "allListedSizes": [
+      "ONE SIZE"
+    ],
+    "variantAvailability": [
+      {
+        "size": "ONE SIZE",
+        "sku": "138965-LEOP-EA",
+        "priceKrw": 99000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/138965-silk-bandana-leopard?variant=41376504578103"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1條；66 × 66cm；100%真絲；款號138965。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability."
+  },
+  {
+    "id": "stussy-waves-20260928",
+    "brand": "Stüssy",
+    "nameZh": "Stüssy WAVES SKULLCAP 炭灰色毛帽",
+    "nameEn": "Stüssy Waves Skullcap Charcoal",
+    "officialProductName": "WAVES SKULLCAP",
+    "color": "Charcoal",
+    "category": "fashion",
+    "spec": "1頂；ONE SIZE；80%壓克力／20%羊毛；款號1321240",
+    "price": 85000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://kr.stussy.com/products/1321240-waves-skullcap-charcoal",
+    "imageSourceUrl": "https://kr.stussy.com/cdn/shop/files/1321240_CHAR_1_4a0b3ad7-9154-40d6-a65b-dc5466beff47.jpg?v=1760660657",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "allListedSizes": [
+      "ONE SIZE"
+    ],
+    "variantAvailability": [
+      {
+        "size": "ONE SIZE",
+        "sku": "1321240-CHAR-EA",
+        "priceKrw": 85000.0,
+        "availability": "InStock",
+        "sourceUrl": "https://kr.stussy.com/products/1321240-waves-skullcap-charcoal?variant=41590206267447"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1頂；ONE SIZE；80%壓克力／20%羊毛；款號1321240。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability."
+  },
+  {
+    "id": "mardi-cap-20260928",
+    "brand": "Mardi Mercredi",
+    "nameZh": "Mardi Mercredi CAP M 海軍藍白色棒球帽",
+    "nameEn": "Mardi Mercredi CAP M Navy White",
+    "officialProductName": "CAP M_NAVY WHITE",
+    "color": "Navy White",
+    "category": "fashion",
+    "spec": "1頂；商品6143；單一販售規格，尺寸數據未確認",
+    "price": 45000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://mardimercredi.com/product/cap-mnavy-white/6143/",
+    "imageSourceUrl": "https://cafe24img.poxo.com/mardi9993/web/product/big/202212/1dda860cbf21edce4b656844df97ec47.jpg",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": 0,
+    "availability": "sold_out",
+    "sizes": [],
+    "allListedSizes": [],
+    "variantAvailability": [
+      {
+        "size": null,
+        "sku": "cafe24_mardi9993_1_6143",
+        "priceKrw": 45000,
+        "availability": "OutOfStock",
+        "sourceUrl": "https://mardimercredi.com/product/cap-mnavy-white/6143/"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1頂；商品6143；單一販售規格，尺寸數據未確認。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。官方目前缺貨。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability.",
+    "sizeVerification": "Current page has_option=F: single listed SKU, no size selector. Measurements/size label unavailable; do not invent FREE or dimensions."
+  },
+  {
+    "id": "mardi-shoes-20260928",
+    "brand": "Mardi Mercredi",
+    "nameZh": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+    "nameEn": "Mardi Mercredi Legere Sneakers Pink",
+    "officialProductName": "LEGERE SNEAKERS_PINK",
+    "color": "Pink",
+    "category": "fashion",
+    "spec": "1雙；商品5456；請選鞋碼（mm）",
+    "price": 62000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://mardimercredi.com/product/legere-sneakerspink/5456/",
+    "imageSourceUrl": "https://cafe24img.poxo.com/mardi9993/web/product/big/202310/242acff480c7420c0620db3f7412c6ba.jpg",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [
+      "230mm",
+      "240mm",
+      "245mm",
+      "250mm"
+    ],
+    "allListedSizes": [
+      "230mm",
+      "235mm",
+      "240mm",
+      "245mm",
+      "250mm"
+    ],
+    "variantAvailability": [
+      {
+        "size": "230mm",
+        "sku": "cafe24_mardi9993_1_5456_P0000IBW00EK",
+        "priceKrw": 62000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/?item_code=P0000IBW00EK"
+      },
+      {
+        "size": "235mm",
+        "sku": "cafe24_mardi9993_1_5456_P0000IBW00EL",
+        "priceKrw": 62000,
+        "availability": "OutOfStock",
+        "sourceUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/?item_code=P0000IBW00EL"
+      },
+      {
+        "size": "240mm",
+        "sku": "cafe24_mardi9993_1_5456_P0000IBW00EM",
+        "priceKrw": 62000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/?item_code=P0000IBW00EM"
+      },
+      {
+        "size": "245mm",
+        "sku": "cafe24_mardi9993_1_5456_P0000IBW00EN",
+        "priceKrw": 62000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/?item_code=P0000IBW00EN"
+      },
+      {
+        "size": "250mm",
+        "sku": "cafe24_mardi9993_1_5456_P0000IBW00EO",
+        "priceKrw": 62000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/?item_code=P0000IBW00EO"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1雙；商品5456；請選鞋碼（mm）。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability."
+  },
+  {
+    "id": "mardi-cardigan-20260928",
+    "brand": "Mardi Mercredi",
+    "nameZh": "Mardi Mercredi 羊絨混紡黑粉菱格圓領開襟衫",
+    "nameEn": "Mardi Mercredi Cashmere Blend Cardigan Round Neck Argyle Punching Detail Black Pink",
+    "officialProductName": "CASHMERE BLEND CARDIGAN ROUND NECK ARGYLE PUNCHING DETAIL_BLACK PINK",
+    "color": "Black Pink",
+    "category": "fashion",
+    "spec": "1件；商品15120；單一販售規格，尺寸數據未確認",
+    "price": 165000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/",
+    "imageSourceUrl": "https://cafe24img.poxo.com/mardi9993/web/product/big/202608/57583181141637a6f4da3afef89edb47.jpg",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [],
+    "allListedSizes": [],
+    "variantAvailability": [
+      {
+        "size": null,
+        "sku": "cafe24_mardi9993_1_15120",
+        "priceKrw": 165000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1件；商品15120；單一販售規格，尺寸數據未確認。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability.",
+    "sizeVerification": "Current page has_option=F: single listed SKU, no size selector. Measurements/size label unavailable; do not invent FREE or dimensions."
+  },
+  {
+    "id": "mardi-bag-20260928",
+    "brand": "Mardi Mercredi",
+    "nameZh": "Mardi Mercredi LA TYPO FRANCAISE 海軍藍帆布托特包",
+    "nameEn": "Mardi Mercredi Canvas Tote Bag La Typo Francaise Navy",
+    "officialProductName": "CANVAS TOTE BAG LA TYPO FRANCAISE_NAVY",
+    "color": "Navy",
+    "category": "fashion",
+    "spec": "1個；商品14425；單一販售規格，尺寸數據未確認",
+    "price": 38000,
+    "currency": "KRW",
+    "sourcePriceBasis": "official_korea_public_regular_price",
+    "sourceCheckedAt": "2026-09-28",
+    "url": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/",
+    "imageSourceUrl": "https://cafe24img.poxo.com/mardi9993/web/product/big/202603/313617c34bf95ebad03974359265580b.jpg",
+    "imageInspection": "Matched official page SKU and colour; original product photograph inspected in contact sheet.",
+    "stock": -1,
+    "availability": "source_reports_some_in_stock",
+    "sizes": [],
+    "allListedSizes": [],
+    "variantAvailability": [
+      {
+        "size": null,
+        "sku": "cafe24_mardi9993_1_14425",
+        "priceKrw": 38000,
+        "availability": "InStock",
+        "sourceUrl": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/"
+      }
+    ],
+    "retailTwd": 0,
+    "retailUrl": "",
+    "descriptionZh": "1個；商品14425；單一販售規格，尺寸數據未確認。韓國官方一般售價，不預先套用會員或優惠券；採買時再確認庫存。",
+    "availabilityEvidence": "Current public HTML Product/ProductGroup JSON-LD offers; hidden sold-out template text in search extraction is not treated as availability.",
+    "sizeVerification": "Current page has_option=F: single listed SKU, no size selector. Measurements/size label unavailable; do not invent FREE or dimensions."
+  }
+]

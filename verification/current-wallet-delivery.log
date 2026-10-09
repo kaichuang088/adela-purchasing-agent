@@ -1,0 +1,150 @@
+PASS 1: Seller-confirmed payment accrues Korean spend and points
+PASS 2: Cancellation automatically issues full paid amount as credit and sets cancelled status
+PASS 3: Cancellation reverses points, spend and paid item count
+PASS 4: Refund approval notification is automatic
+PASS 5: Repeated cancellation does not duplicate store credit
+PASS 6: Credit pays next order automatically; leftover balance retained
+PASS 7: Cancelling credit-only order restores exactly the reserved credit
+PASS 8: Concurrent checkouts cannot double-spend wallet credit
+PASS 9: Priority delivery is NT$80
+PASS 10: Eleventh priority order blocked server-side across whole ordering window
+PASS 11: Standard delivery is NT$50
+PASS 12: Diamond delivery is free
+PASS 13: Public coupons are discoverable; private codes are not leaked
+PASS 14: Category minimum excludes expensive items from other categories
+PASS 15: Two eligible coupons stack correctly
+PASS 16: Each coupon remains single-use after cancellation
+PASS 17: Member-specific permanent coupon hidden from other users
+PASS 18: Repeated coupon code in one cart discounts only once
+PASS 19: Simultaneous checkouts can consume a member coupon only once
+PASS 20: Losing coupon checkout leaves no extra order or stock reservation
+PASS 21: Coupon expiring after estimate stays visible but checkout rejects it without consumption
+PASS 22: Expired coupon cannot be claimed again
+PASS 23: One remaining coupon across two members can only be claimed once
+PASS 24: Retrying successful claim at quota is idempotent and does not take another slot
+PASS 25: Screenshot-only payment report can be verified by seller
+PASS 26: Unauthenticated payment screenshot access is rejected
+PASS 27: Paid order automatically begins purchasing at planned date
+PASS 28: Purchasing order cannot refund past cutoff
+PASS 29: Explicit refund deadline enforced on server
+PASS 30: Admin can mark collected and resolve order
+Wallet, delivery, coupon and payment flow checks complete.
+shop L [Error]: 商品或費率已更新，請重新確認金額。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:8261)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 本期 10 個加急名額已滿，請改一般配送。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:10390)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: PUBLIC10：適用商品須滿 NT$100（類別券只計算該類別商品）。
+    at X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:15628)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 優惠券已使用：PUBLIC10
+    at X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:15212)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 優惠券已使用：RACEONCE
+    at X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:15212)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 優惠券無效、已到期或不適用此會員：EXPIRING
+    at X (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:15084)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:7802)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 優惠券不存在、已到期或不適用此會員。
+    at T (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:2722)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:4147)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 400
+}
+shop L [Error]: 此優惠券已領完。
+    at T (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:2921)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-jD550IoH.js:1:4147)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at V (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-B2kp88cE.js:13:9729)
+    at async Object.a [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-DhLeCqdX.js:1:263)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 401
+}
+shop L [Error]: 已開始採買，無法取消或申請退款。
+    at r (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/order-actions-DgttPVGm.js:1:604)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-C-sf6mId.js:1:456)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}
+shop L [Error]: 已超過退款／取消截止時間。
+    at r (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/order-actions-DgttPVGm.js:1:710)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-C-sf6mId.js:1:456)
+    at async at (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18300)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-D3PiciEs.js:1:18586)
+    at async Ao.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26390)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26599)
+    at async qm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:167949)
+    at async Object.fetch (file:///workspace/sites/adelapa-private-review/dist/server/index.js:16:296) {
+  status: 409
+}

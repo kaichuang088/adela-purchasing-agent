@@ -1,0 +1,60 @@
+PASS 1: At least 49 catalog records visible in isolated API
+PASS 2: Curated records reach the shop API unchanged (does not verify live source prices/images)
+PASS 3: All three coffee flavors each have a separate single-box record
+PASS 4: All visible catalog products have Korean display names (not full UI translation)
+PASS 5: Catalog initialization is idempotent
+PASS 6: Admin data requires authentication
+PASS 7: Member remains signed in through session cookie
+shop I [Error]: 商品數量不足。
+    at file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:15339
+    at Array.map (<anonymous>)
+    at Y (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:15030)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-CkK00mkZ.js:1:7802)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 400
+}
+PASS 8: Unavailable item cannot be ordered
+shop I [Error]: MIN400：適用商品須滿 NT$400（類別券只計算該類別商品）。
+    at Y (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:14887)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-CkK00mkZ.js:1:7802)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 400
+}
+PASS 9: Coupon minimum rejects small basket and applies to qualifying basket
+shop I [Error]: 請填寫收件人、台灣手機、郵遞區號與完整配送地址。 / Enter a complete Taiwan delivery address.
+    at E (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-CkK00mkZ.js:1:1812)
+    at Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-CkK00mkZ.js:1:8347)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 400
+}
+PASS 10: Checkout requires and saves shipping address
+PASS 11: Payment report reaches admin order queue
+PASS 12: Buyer receipt data remains accessible
+PASS 13: Missing AI connection is reported accurately without creating a product
+PASS 14: Impossible calendar date is rejected
+PASS 15: Confirmed discontinue hides item and seed does not reactivate it
+shop I [Error]: 目前不在韓國代購下單期間；請查看公告。 / Orders are outside the Korean purchase window.
+    at q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:13009)
+    at async Y (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/commerce-DIvEQEas.js:13:14081)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/route-CkK00mkZ.js:1:7802)
+    at async Q (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18269)
+    at async ot (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/_next/static/app-route-handler-dispatch-Dc4xAI2s.js:1:18555)
+    at async Oo.route (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26381)
+    at async t (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/scratch/4bd0e5239ba5/adela-handoff/source/dist/server/index.js:14:165061) {
+  status: 409
+}
+PASS 16: Purchase cutoff enforced on server
+Release checks complete. Live AI connection is NOT covered and remains unconfigured.

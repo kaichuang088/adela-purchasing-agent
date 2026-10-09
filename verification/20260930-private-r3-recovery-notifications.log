@@ -1,0 +1,7 @@
+PASS 1: Korean refund retains amount/order and converts SQLite UTC to Taiwan
+PASS 2: Legacy Chinese body_en is replaced by known English refund template
+PASS 3: Scheduled notice has a Korean template
+PASS 4: Repricing keeps merchant reason and dynamic amounts
+PASS 5: Unknown seller text uses supplied English unchanged
+PASS 6: HTML stays escaped and invalid date stays empty
+PASS 7: Pending, returned and declined credit states stay distinct

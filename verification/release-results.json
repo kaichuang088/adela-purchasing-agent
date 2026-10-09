@@ -1,0 +1,22 @@
+{
+  "release": "2026-09-27-r1",
+  "deployment": "not deployed",
+  "typescript": "passed",
+  "sitesBuild": "passed",
+  "netlifyBuild": "passed",
+  "checks": {
+    "wallet-delivery": 23,
+    "regressions": 18,
+    "catalog-release": 16,
+    "auth": 6,
+    "korea-photo-flow": 10
+  },
+  "aiProvider": "mock only; live unverified",
+  "pdf": "synthetic generation passed; visual and content audit incomplete",
+  "liveSync": "unverified; Business project inaccessible",
+  "catalogVisible": 50,
+  "catalogMissingTaiwanPrice": 35,
+  "catalogMissingKoreanNames": 0,
+  "legacySuites": "commerce-legacy and photo-quotes fail old workflow preconditions; retained logs",
+  "otherSuites": "not claimed as tested"
+}

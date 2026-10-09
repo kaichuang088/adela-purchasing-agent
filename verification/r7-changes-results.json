@@ -1,0 +1,4 @@
+{
+  "checks": 18,
+  "scope": "Compiled worker and isolated SQLite; AI provider mocked, no real phone or live AI verified."
+}

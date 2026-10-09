@@ -1,0 +1,612 @@
+{
+  "verifiedAt": "2026-10-07T16:47:50.760283+00:00",
+  "policy": "Newest user approved actual Korean cost plus flexible service fee; no mandatory Taiwan reference or 95 percent cap. Do not infer Taiwan absence.",
+  "counts": {
+    "researched": 18,
+    "ready": 15,
+    "soldOut": 3
+  },
+  "readyPatches": [
+    {
+      "match": "Torriden DIVE IN Serum 50mL NEW",
+      "nameZh": "Torriden DIVE IN 新版玻尿酸精華 50mL",
+      "nameEn": "Torriden DIVE IN Serum 50mL NEW",
+      "priceKrw": 16900,
+      "taxIncludedJpy": 16900,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.torriden.com/goods/goods_view.php?goodsNo=2268",
+      "spec": "50mL × 1瓶；NEW新版",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "Official page set_goods_price=16900, set_goods_stock=∞, purchase and add-to-cart controls; disabled-buy template also exists. Supplier quantity is uncounted. Official NEW serum packshot detail_062.png visually inspected: single50ml bottle, HYDRATE & GLOW label, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "50mL × 1瓶；NEW新版。韓國供應商公開商品價16,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "50mL × 1瓶；NEW新版. Verified Korean public item price KRW 16,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.torriden.com/goods/goods_view.php?goodsNo=2268"
+      ],
+      "clearTaiwanReference": true,
+      "taiwanReferenceDisposition": "Previous or candidate Taiwan listings did not verify this exact current formula/size/shade. No Taiwan-no-sale claim. Cost-plus ordering does not require comparison.",
+      "imageUrl": "https://godomall-storage.cdn-nhncommerce.com/4d7876b81b0d37f8a7cfa4d402d68be4/goods/2268/image/detail/2268_detail_062.png",
+      "imageEdited": false
+    },
+    {
+      "match": "makeprem Sanrio NMN Ampoule 50mL + 20mL",
+      "nameZh": "makeprem 三麗鷗布丁狗 NMN 彈力安瓶組",
+      "nameEn": "makeprem Sanrio NMN Ampoule 50mL + 20mL",
+      "priceKrw": 23800,
+      "taxIncludedJpy": 23800,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534",
+      "spec": "50mL＋20mL；布丁狗聯名卡夾＋手機支架",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "50mL＋20mL；布丁狗聯名卡夾＋手機支架。韓國供應商公開商品價23,800韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "50mL＋20mL；布丁狗聯名卡夾＋手機支架. Verified Korean public item price KRW 23,800. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809495686636",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/7/8316621821093821059.png",
+      "imageEdited": false
+    },
+    {
+      "match": "UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2",
+      "nameZh": "UNOVE × 飛天小女警絲柔髮油雙入組",
+      "nameEn": "UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2",
+      "priceKrw": 28900,
+      "taxIncludedJpy": 28900,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422",
+      "spec": "Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 008 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環。韓國供應商公開商品價28,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環. Verified Korean public item price KRW 28,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422"
+      ],
+      "supplierOptionNumber": "008",
+      "gtin": "8809669508955",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/8/6443425435239084853.png",
+      "imageEdited": false
+    },
+    {
+      "match": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "nameZh": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
+      "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "priceKrw": 22000,
+      "taxIncludedJpy": 22000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+      "spec": "50g × 1支；Smooth Tone Up",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "50g × 1支；Smooth Tone Up。韓國供應商公開商品價22,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "50g × 1支；Smooth Tone Up. Verified Korean public item price KRW 22,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809936749050"
+    },
+    {
+      "match": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+      "nameZh": "ma:nyo Pure Soybean 大豆卸妝油 200ml",
+      "nameEn": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+      "priceKrw": 15500,
+      "taxIncludedJpy": 15500,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679",
+      "spec": "200ml × 1瓶",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "200ml × 1瓶。韓國供應商公開商品價15,500韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "200ml × 1瓶. Verified Korean public item price KRW 15,500. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809082392292",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0010/A00000010767956ko.jpg?l=ko",
+      "imageEdited": false
+    },
+    {
+      "match": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+      "nameZh": "ILLIYOON 神經醯胺集中保濕霜 75ml",
+      "nameEn": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+      "priceKrw": 6900,
+      "taxIncludedJpy": 6900,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30",
+      "spec": "75ml × 1條",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "75ml × 1條。韓國供應商公開商品價6,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "75ml × 1條. Verified Korean public item price KRW 6,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809925134911",
+      "clearTaiwanReference": true,
+      "taiwanReferenceDisposition": "Previous or candidate Taiwan listings did not verify this exact current formula/size/shade. No Taiwan-no-sale claim. Cost-plus ordering does not require comparison.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023323706ko.png?l=ko",
+      "imageEdited": false
+    },
+    {
+      "match": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+      "nameZh": "Dr.G Red Blemish EX 清爽舒緩面霜企劃組",
+      "nameEn": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+      "priceKrw": 27600,
+      "taxIncludedJpy": 27600,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752",
+      "spec": "EX新版面霜70ml＋贈30ml面霜＋精華10ml × 2",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "EX新版面霜70ml＋贈30ml面霜＋精華10ml × 2。韓國供應商公開商品價27,600韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "EX新版面霜70ml＋贈30ml面霜＋精華10ml × 2. Verified Korean public item price KRW 27,600. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8800310764553",
+      "clearTaiwanReference": true,
+      "taiwanReferenceDisposition": "Previous or candidate Taiwan listings did not verify this exact current formula/size/shade. No Taiwan-no-sale claim. Cost-plus ordering does not require comparison.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/4580757123516222230.jpg",
+      "imageEdited": false
+    },
+    {
+      "match": "Anua Heartleaf 77 Hyaluron Moisturizing Toner 350ml",
+      "nameZh": "Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml",
+      "nameEn": "Anua Heartleaf 77 Hyaluron Moisturizing Toner 350ml",
+      "priceKrw": 22800,
+      "taxIncludedJpy": 22800,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696",
+      "spec": "新版350ml × 1瓶",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "新版350ml × 1瓶。韓國供應商公開商品價22,800韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "新版350ml × 1瓶. Verified Korean public item price KRW 22,800. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8800307378190"
+    },
+    {
+      "match": "Beauty of Joseon Relief Sun 50ml + 20ml",
+      "nameZh": "Beauty of Joseon 米萃防曬 50ml＋20ml",
+      "nameEn": "Beauty of Joseon Relief Sun 50ml + 20ml",
+      "priceKrw": 15000,
+      "taxIncludedJpy": 15000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
+      "spec": "50ml＋贈20ml，1組",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "50ml＋贈20ml，1組。韓國供應商公開商品價15,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "50ml＋贈20ml，1組. Verified Korean public item price KRW 15,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809968131267",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022465715ko.jpg?l=ko",
+      "imageEdited": false
+    },
+    {
+      "match": "Round Lab Dokdo Toner 200ml + 50ml",
+      "nameZh": "ROUND LAB 獨島化妝水 200ml＋50ml",
+      "nameEn": "Round Lab Dokdo Toner 200ml + 50ml",
+      "priceKrw": 13500,
+      "taxIncludedJpy": 13500,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162",
+      "spec": "200ml＋贈50ml，1組",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "200ml＋贈50ml，1組。韓國供應商公開商品價13,500韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "200ml＋贈50ml，1組. Verified Korean public item price KRW 13,500. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809657112829"
+    },
+    {
+      "match": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+      "nameZh": "Torriden DIVE IN 新版精華＋補充包組",
+      "nameEn": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+      "priceKrw": 36000,
+      "taxIncludedJpy": 36000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291",
+      "spec": "NEW新版50ml精華＋50ml補充包，1組",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "NEW新版50ml精華＋50ml補充包，1組。韓國供應商公開商品價36,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "NEW新版50ml精華＋50ml補充包，1組. Verified Korean public item price KRW 36,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809784607632",
+      "clearTaiwanReference": true,
+      "taiwanReferenceDisposition": "Previous or candidate Taiwan listings did not verify this exact current formula/size/shade. No Taiwan-no-sale claim. Cost-plus ordering does not require comparison.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/3235586673857400831.jpg",
+      "imageEdited": false
+    },
+    {
+      "match": "romand Juicy Lasting Tint ZERO Clear",
+      "nameZh": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+      "nameEn": "romand Juicy Lasting Tint ZERO Tinted",
+      "priceKrw": 13000,
+      "taxIncludedJpy": 13000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293",
+      "spec": "ZERO新版有色唇釉，1支；色號任選",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. ZERO is a reformulated tinted line, NOT a transparent clear gloss; six actual source options preserved. Weight is not guessed. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "ZERO新版有色唇釉，1支；色號任選。韓國供應商公開商品價13,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "ZERO新版有色唇釉，1支；色號任選. Verified Korean public item price KRW 13,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [
+        {
+          "id": "zero-z02",
+          "labelZh": "Z02 Nucadamia",
+          "labelEn": "Z02 Nucadamia",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "001",
+          "sku": "8800344920031",
+          "gtin": "8800344920031"
+        },
+        {
+          "id": "zero-z03",
+          "labelZh": "Z03 Bare Grape",
+          "labelEn": "Z03 Bare Grape",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "002",
+          "sku": "8800344920048",
+          "gtin": "8800344920048"
+        },
+        {
+          "id": "zero-z04",
+          "labelZh": "Z04 Fig Fig",
+          "labelEn": "Z04 Fig Fig",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "003",
+          "sku": "8800344920055",
+          "gtin": "8800344920055"
+        },
+        {
+          "id": "zero-z05",
+          "labelZh": "Z05 Jujube",
+          "labelEn": "Z05 Jujube",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "004",
+          "sku": "8800344920062",
+          "gtin": "8800344920062"
+        },
+        {
+          "id": "zero-z06",
+          "labelZh": "Z06 Peeling Cherry",
+          "labelEn": "Z06 Peeling Cherry",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "005",
+          "sku": "8800344920079",
+          "gtin": "8800344920079"
+        },
+        {
+          "id": "zero-z23",
+          "labelZh": "Z23 Peach Peach Me",
+          "labelEn": "Z23 Peach Peach Me",
+          "priceKrw": 13000,
+          "taxIncludedJpy": 13000,
+          "stock": -1,
+          "supplierOptionNumber": "006",
+          "sku": "8800344920239",
+          "gtin": "8800344920239"
+        }
+      ],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8800344920031",
+      "clearTaiwanReference": true,
+      "taiwanReferenceDisposition": "Previous or candidate Taiwan listings did not verify this exact current formula/size/shade. No Taiwan-no-sale claim. Cost-plus ordering does not require comparison.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024829305ko.jpg?l=ko",
+      "imageEdited": false
+    },
+    {
+      "match": "Fillimilli Point Blusher Brush 885",
+      "nameZh": "Fillimilli 885 腮紅刷",
+      "nameEn": "Fillimilli Point Blusher Brush 885",
+      "priceKrw": 10000,
+      "taxIncludedJpy": 10000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
+      "spec": "Point Blusher Brush 885，1支",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "Point Blusher Brush 885，1支。韓國供應商公開商品價10,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "Point Blusher Brush 885，1支. Verified Korean public item price KRW 10,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809865770392",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/5/5221432657770220229.jpg",
+      "imageEdited": false
+    },
+    {
+      "match": "Torriden DIVE-IN Watery Fit Sun Serum 50ml + 20ml",
+      "nameZh": "Torriden DIVE-IN 防曬精華 50ml＋20ml",
+      "nameEn": "Torriden DIVE-IN Watery Fit Sun Serum 50ml + 20ml",
+      "priceKrw": 25000,
+      "taxIncludedJpy": 25000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495",
+      "spec": "50ml＋20ml，1組",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "50ml＋20ml，1組。韓國供應商公開商品價25,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "50ml＋20ml，1組. Verified Korean public item price KRW 25,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809784604037",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/2/7695809272510435269.jpg",
+      "imageEdited": false
+    },
+    {
+      "match": "Round Lab 1025 Dokdo Toner and Lotion 200ml x 2",
+      "nameZh": "Round Lab 1025 獨島化妝水＋乳液組",
+      "nameEn": "Round Lab 1025 Dokdo Toner and Lotion 200ml x 2",
+      "priceKrw": 26000,
+      "taxIncludedJpy": 26000,
+      "currency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179",
+      "spec": "化妝水200ml＋乳液200ml，1組",
+      "stock": -1,
+      "stockQuantityVerified": false,
+      "sourceCheckedAt": "2026-10-07",
+      "sourceNotes": "saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.",
+      "serviceFeePercent": 5,
+      "descriptionZh": "化妝水200ml＋乳液200ml，1組。韓國供應商公開商品價26,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。",
+      "descriptionEn": "化妝水200ml＋乳液200ml，1組. Verified Korean public item price KRW 26,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.",
+      "variants": [],
+      "evidence": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179"
+      ],
+      "supplierOptionNumber": "001",
+      "gtin": "8809657115196",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013717928ko.jpg?l=ko",
+      "imageEdited": false
+    }
+  ],
+  "soldOutPatches": [
+    {
+      "match": "Isntree Onion Newpair Booster Shot 2000 50ml",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+      "stock": 0,
+      "verifiedAt": "2026-10-07T16:44:55.813196+00:00",
+      "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+      "options": [
+        {
+          "optionNumber": "001",
+          "standardCode": "8809800941221",
+          "nameKo": " ",
+          "soldOut": true
+        }
+      ]
+    },
+    {
+      "match": "efilow Heartleaf Madecassoside Soothing Pad 100 Sheets",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+      "stock": 0,
+      "verifiedAt": "2026-10-07T16:45:08.619307+00:00",
+      "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+      "options": [
+        {
+          "optionNumber": "001",
+          "standardCode": "8809800700491",
+          "nameKo": "어성초 진정패드 100매",
+          "soldOut": true
+        }
+      ]
+    },
+    {
+      "match": "AESTURA Atobarrier365 Cream 80ml Set (Toner 25ml + Cleanser 3g x 3)",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864",
+      "stock": 0,
+      "verifiedAt": "2026-10-07T16:45:08.439006+00:00",
+      "reason": "Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.",
+      "options": [
+        {
+          "optionNumber": "001",
+          "standardCode": "8800283697186",
+          "nameKo": "크림80ml+토너25ml+클렌징폼3g*3",
+          "soldOut": true
+        },
+        {
+          "optionNumber": "002",
+          "standardCode": "8809013349050",
+          "nameKo": "크림80ml 단품",
+          "soldOut": true
+        }
+      ]
+    }
+  ],
+  "blockers": [],
+  "sourceDataFile": "verification/catalog-research/r14-beauty-source-options.json",
+  "photoAudit": [
+    {
+      "nameEn": "makeprem Sanrio NMN Ampoule 50mL + 20mL",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/7/8316621821093821059.png",
+      "path": "/tmp/adela-beauty-inspection/A000000262534.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/8/6443425435239084853.png",
+      "path": "/tmp/adela-beauty-inspection/A000000171422.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025185209ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000251852.jpg",
+      "safeNoHumanFace": false,
+      "inspection": "Manual visual contact sheet inspection: Actual human face in circular corner photo"
+    },
+    {
+      "nameEn": "ma:nyo Pure Soybean Cleansing Oil 200ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0010/A00000010767956ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000107679.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "ILLIYOON Ceramide Ato Concentrate Cream 75ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023323706ko.png?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000233237.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Dr.G Red Blemish Clear Soothing Cream EX 70ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/4580757123516222230.jpg",
+      "path": "/tmp/adela-beauty-inspection/A000000255752.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Beauty of Joseon Relief Sun 50ml + 20ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022465715ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000224657.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Round Lab Dokdo Toner 200ml + 50ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013216235ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000132162.jpg",
+      "safeNoHumanFace": false,
+      "inspection": "Manual visual contact sheet inspection: Human model face occupies main thumbnail"
+    },
+    {
+      "nameEn": "Torriden DIVE IN Serum 50ml + 50ml Refill",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/3235586673857400831.jpg",
+      "path": "/tmp/adela-beauty-inspection/A000000258291.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "romand Juicy Lasting Tint ZERO Clear",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024829305ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000248293.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Fillimilli Point Blusher Brush 885",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/5/5221432657770220229.jpg",
+      "path": "/tmp/adela-beauty-inspection/A000000229645.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Torriden DIVE-IN Watery Fit Sun Serum 50ml + 20ml",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/2/7695809272510435269.jpg",
+      "path": "/tmp/adela-beauty-inspection/A000000219495.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Round Lab 1025 Dokdo Toner and Lotion 200ml x 2",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013717928ko.jpg?l=ko",
+      "path": "/tmp/adela-beauty-inspection/A000000137179.jpg",
+      "safeNoHumanFace": true,
+      "inspection": "Manual visual contact sheet inspection: Actual product/packaging only; no human face."
+    },
+    {
+      "nameEn": "Torriden DIVE IN Serum 50mL NEW",
+      "imageUrl": "https://godomall-storage.cdn-nhncommerce.com/4d7876b81b0d37f8a7cfa4d402d68be4/goods/2268/image/detail/2268_detail_062.png",
+      "path": "/tmp/adela-beauty-inspection/torriden-new2268.png",
+      "safeNoHumanFace": true,
+      "inspection": "Visually inspected full image: actual NEW 50ml HYDRATE & GLOW serum bottle on plain background, no person/face.",
+      "checkedAt": "2026-10-07T16:51:44.769486+00:00"
+    }
+  ],
+  "photoNotes": "Two real supplier hero images rejected for human faces; keep existing safe images. Anua lacked inspected source packshot in bounded run. Single Torriden NEW official packshot now visually inspected and safe."
+}

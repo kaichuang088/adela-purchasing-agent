@@ -1,0 +1,213 @@
+{
+  "checkedAt": "2026-10-07T16:53:41.047182+00:00",
+  "policy": "User approved realKoreancost+flexiblemembership/itemfees; no mandatoryTaiwanprice, noShopee used.",
+  "readyPatches": [
+    {
+      "matchNameEn": "Lip Colors Hip Chocolate Salmon Beige reference",
+      "nameZh": "COLORGRAM Nude Blur 唇線筆",
+      "nameEn": "COLORGRAM Nude Blur Lip Pencil",
+      "priceKrw": 8000,
+      "sourceCurrency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
+      "specificationZh": "0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate",
+      "specificationEn": "0.4g single pencil; shade 01 Salmon Beige or 04 Hip Chocolate",
+      "stock": -1,
+      "variants": [
+        {
+          "id": "salmon-beige",
+          "nameZh": "01 Salmon Beige",
+          "nameEn": "01 Salmon Beige",
+          "priceKrw": 8000,
+          "stock": -1,
+          "supplierOptionNumber": "001",
+          "gtin": "8800316295174"
+        },
+        {
+          "id": "hip-chocolate",
+          "nameZh": "04 Hip Chocolate",
+          "nameEn": "04 Hip Chocolate",
+          "priceKrw": 8000,
+          "stock": -1,
+          "supplierOptionNumber": "004",
+          "gtin": "8800316295204"
+        }
+      ],
+      "supplierEvidence": [
+        {
+          "optionNumber": "001",
+          "standardCode": "8800316295174",
+          "optionName": "01 살구살몬",
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2025/11/7196543101258574826.png"
+          },
+          "soldOutFlag": false,
+          "salePrice": 8000,
+          "finalPrice": 7200
+        },
+        {
+          "optionNumber": "004",
+          "standardCode": "8800316295204",
+          "optionName": "04 힙초콜릿",
+          "optionImage": {
+            "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+            "path": "item/2025/11/2761500764839507078.png"
+          },
+          "soldOutFlag": false,
+          "salePrice": 8000,
+          "finalPrice": 7200
+        }
+      ],
+      "pricePolicy": "Conservative regular8000. Current final7200 promotion publicly visible; not assumed for entire10/16–20 batch. quantity0 is placeholder and soldOutFlag:false is availability signal.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023832416ko.jpg?l=ko",
+      "imageLocal": "verification/catalog-research/r14-reference-colorgram.jpg",
+      "imageReviewedNoFaces": true,
+      "references": [
+        "turn310view0"
+      ],
+      "taiwanReference": null
+    },
+    {
+      "matchNameEn": "Body Care Spray reference",
+      "nameZh": "NOT4U Clear Body Mist 身體噴霧200ml",
+      "nameEn": "NOT4U Clear Body Mist 200ml",
+      "priceKrw": 21900,
+      "sourceCurrency": "KRW",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209146",
+      "specificationZh": "200ml單瓶／現行藍色包裝／不含已售完的30ml贈品",
+      "specificationEn": "200ml single bottle, current blue package; no sold-out30ml gift",
+      "stock": -1,
+      "supplierOptionNumber": "003",
+      "gtin": "8809593900788",
+      "supplierEvidence": [
+        {
+          "optionNumber": "003",
+          "standardCode": "8809593900788",
+          "optionName": "[단품] 200ml",
+          "optionImage": null,
+          "soldOutFlag": false,
+          "salePrice": 21900,
+          "finalPrice": 18200
+        },
+        {
+          "optionNumber": "006",
+          "standardCode": "8809593901143",
+          "optionName": "[기획] 200ml+미니어처 30ml",
+          "optionImage": null,
+          "soldOutFlag": true,
+          "salePrice": 21900,
+          "finalPrice": 18200
+        }
+      ],
+      "pricePolicy": "Use conservative regular21900. Current final18200 sale10/08–10/18 ends before entirebatch10/16–20 finishes. Single003 available; gift006 soldout.",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020914640ko.jpg?l=ko",
+      "imageLocal": "verification/catalog-research/r14-reference-not4u.jpg",
+      "imageReviewedNoFaces": true,
+      "imageNote": "Photo has hand/shoulder but no face, genuine current200ml blue bottle.",
+      "references": [
+        "turn310view1"
+      ],
+      "taiwanReference": null
+    },
+    {
+      "matchNameEn": "OFRA Glazed Donut Highlighter reference",
+      "nameZh": "OFRA Glazed Donut Slim Mini 新版打亮餅",
+      "nameEn": "OFRA Glazed Donut Slim Mini Highlighter",
+      "priceKrw": 29000,
+      "sourceCurrency": "KRW",
+      "purchaseUrl": "https://www.ofracosmetics.co.kr/product/detail.html?product_no=614&item_code=P00000XQ000A",
+      "specificationZh": "Glazed Donut／新版Slim Mini／單盤",
+      "specificationEn": "Glazed Donut, renewed Slim Mini, single compact",
+      "stock": -1,
+      "supplierOptionNumber": "P00000XQ000A",
+      "supplierEvidence": {
+        "@type": "Product",
+        "name": "[NEW/RENEWAL] 슬림 미니 하이라이터 글레이즈드 도넛",
+        "image": [
+          "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg"
+        ],
+        "description": "",
+        "brand": {
+          "@type": "Brand",
+          "name": "OFRA"
+        },
+        "sku": "cafe24_wedive_1_614_P00000XQ000A",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "슬림 미니 하이라이터",
+            "value": "글레이즈드 도넛"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.ofracosmetics.co.kr/product/newrenewal-슬림-미니-하이라이터/614/?item_code=P00000XQ000A",
+          "priceCurrency": "KRW",
+          "price": 29000,
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        }
+      },
+      "pricePolicy": "Official614 today is NEW/RENEWAL Slim Mini29000, not oldmini36000. JSONLD exactGlazedDonutSKU InStock. Weight3g knownfrompriorresearch but not revalidated in accessible official text; avoid10g entirely, omitcapacityuntilconfirmed.",
+      "imageUrl": "https://ecimg.cafe24img.com/pg1581b58231759073/wedive/web/product/big/20260915/7bf74a24d523cf2e165fa9d758c8f18d.jpg",
+      "imageLocal": "verification/catalog-research/r14-reference-ofra.jpg",
+      "imageReviewedNoFaces": true,
+      "taiwanReference": null,
+      "shippingNote": "Seller Korean supplier shipping3000 below50000 per priorresearch; combineprocurement or includeactualcost. No unverified quantity claims."
+    }
+  ],
+  "blockedDispositions": [
+    {
+      "matchNameEn": "MEDIHEAL Sanrio Derma Toner Pads",
+      "disposition": "supplier_listing_ended",
+      "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262413",
+      "evidence": "Current primary page explicitly 상품을 찾을 수 없어요 / 판매종료 또는 중지. Searchcache28500–28900 on campaigncategory is stale and cannot establishcurrentorderableoptions.",
+      "references": [
+        "turn310view2"
+      ],
+      "status": "research",
+      "doNotSetStockZero": "Listingendedisnotinventory proof; preserve merchantcountedstock."
+    },
+    {
+      "matchNameEn": "Sanrio Beauty and Accessories reference",
+      "disposition": "collection_reference_not_sku",
+      "evidence": "Screenshot9.07.09 contains multiple unrelated cosmetics/accessories, not one purchasablepack. Preserve asadminreference and link individual verifiedproducts; no inventedbundleprice.",
+      "status": "research"
+    },
+    {
+      "matchNameEn": "Kuromi Cosmetics and Charms reference",
+      "disposition": "collection_reference_not_sku",
+      "evidence": "Screenshot9.06.45 includes UNOVEpromotionalcombmirror/charms pluspossibleCOLORGRAMTintoriEyePalette. ExactKuromivariant stock/price not proven. Ordinary A000000201881 is not evidenceforlimitededition.",
+      "status": "research"
+    },
+    {
+      "matchNameEn": "Hello Kitty Lip Collection reference",
+      "disposition": "multiple_skus_exactoptions_unconfirmed",
+      "evidence": "Reviewedoriginal9.06.51. It shows WAKEMAKE LeopardHelloKitty lipstick/tint/keyringrange (not provenCOLORGRAM). Currentofficialcategory names matchWAKEMAKE LeopardHelloKitty, but exactshade/SKUstock/price hasnotbeenverified. Do notsubstituteordinaryCOLORGRAMTanghulu.",
+      "references": [
+        "turn314search5"
+      ],
+      "status": "research"
+    },
+    {
+      "matchNameEn": "Powerpuff Girls Compact reference",
+      "disposition": "promotional_accessory_misidentified_as_cosmetic",
+      "correctedNameZh": "UNOVE 飛天小女警聯名梳鏡／鑰匙圈（活動周邊）",
+      "evidence": "Original9.06.35 compact is UNOVEpromotionalmirrorcomb/accessory, notpowderfoundation. PriorSeptember PWPcampaigngift cannot be promisedforOct16–20 withoutcurrentlisting. Ordinaryheartmirrorcombo isnotPowerpuff. Preserveadminreference, not fakeactiveSKU.",
+      "status": "research"
+    }
+  ],
+  "summary": {
+    "ready": 3,
+    "blocked": 5
+  },
+  "limitations": [
+    "No full7g59000variant added because current exactfullsource+stock not revalidated; previous10g must notbeused.",
+    "OFRA weightomitted pendingexplicitcurrentofficialweight.",
+    "MEDIHEAL supplierpageended; cannot claimall8orderable."
+  ]
+}

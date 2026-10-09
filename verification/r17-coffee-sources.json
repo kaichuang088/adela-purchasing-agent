@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-09",
+  "scope": "Exact I'MINT 32g Korean sourcing; no purchase performed",
+  "directoryAttempt": "Stripe CLI unavailable; stripe.directory returned unsupported text/markdown; used primary seller pages.",
+  "conclusion": "NT270 results from KRW11350 single-tin source. Verified alternative Espresso pair KRW7480+3000 delivery, and Espresso/Americano 8-tin packs KRW34900+3000 delivery. No unconditional single-tin delivered <=KRW5178 source verified; pack unit costs require real pack acquisition, not assumed shopper demand.",
+  "sources": [
+    {
+      "flavor": "Espresso",
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4851766696",
+      "seller": "과자를더하다 / 구구리테일",
+      "unit": "32g × 2 tins",
+      "packPriceKrw": 7480,
+      "domesticDeliveryKrw": 3000,
+      "deliveredPackKrw": 10480,
+      "allocatedPerTinKrw": 5240,
+      "regularPrice": true,
+      "couponPriceKrw": 6810,
+      "coupon": "9% food flash coupon; availability beyond observed date and eligibility not confirmed, so not used as baseline",
+      "shippingSchedule": "1–2 listing units (2–4 tins): KRW3000; 3–4 listing units: KRW6000; 5–6: KRW9000; 7–8: KRW12000; >=9: KRW15000; island supplements",
+      "supplyEvidence": "Current listing shows cart/buy and estimated departure 2026-10-13; no inventory quantity verified.",
+      "caution": "No proof that an unpurchased pair can be priced as single-tin inventory. For real acquisition of 2 packs, (7480*2+3000)/4 =4490 KRW per tin; do not assume that quantity.",
+      "refs": [
+        "turn43view0"
+      ]
+    },
+    {
+      "flavor": "Espresso",
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4850616563",
+      "seller": "Danchomi / 단미",
+      "unit": "32g × 8 tins (1 box)",
+      "packPriceKrw": 34900,
+      "domesticDeliveryKrw": 3000,
+      "deliveredPackKrw": 37900,
+      "allocatedPerTinKrw": 4737.5,
+      "regularPrice": true,
+      "couponPriceExcluded": true,
+      "freeDeliveryThresholdKrw": 200000,
+      "supplyEvidence": "Current listing cart/buy, estimated delivery probabilities through Oct16; no inventory count verified.",
+      "refs": [
+        "turn40view0",
+        "turn39view2",
+        "turn41view0"
+      ],
+      "caution": "Only valid acquisition costing if entire 8-tin pack is purchased; no independent sealed-resale permission verified."
+    },
+    {
+      "flavor": "Americano",
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4850646197",
+      "seller": "Danchomi / 단미",
+      "unit": "32g × 8 tins (1 box)",
+      "packPriceKrw": 34900,
+      "domesticDeliveryKrw": 3000,
+      "deliveredPackKrw": 37900,
+      "allocatedPerTinKrw": 4737.5,
+      "regularPrice": true,
+      "couponPriceExcluded": true,
+      "freeDeliveryThresholdKrw": 200000,
+      "supplyEvidence": "Current listing cart/buy, estimated Oct14 delivery; no inventory count verified.",
+      "refs": [
+        "turn40view1",
+        "turn39view3",
+        "turn41view1"
+      ],
+      "caution": "Only valid acquisition costing if entire 8-tin pack is purchased; no independent sealed-resale permission verified."
+    }
+  ],
+  "taiwanReferences": [
+    {
+      "url": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+      "priceTwd": 130,
+      "unit": "32g ×1",
+      "flavors": [
+        "Espresso black",
+        "Americano gold",
+        "Matcha green"
+      ],
+      "supply": "Preorder about Oct13 shipment; seller explicitly may cancel if unavailable.",
+      "refs": [
+        "turn40view2"
+      ],
+      "comparisonCaution": "Same-spec preorder seller, not assured Taiwan ready stock."
+    },
+    {
+      "url": "https://mall.iopenmall.tw/117996/index.php?action=product_detail&prod_no=P11799617083460",
+      "priceTwd": 169,
+      "unit": "Espresso 32g ×1",
+      "supply": "Preorder estimated3days",
+      "refs": [
+        "turn40view3"
+      ],
+      "comparisonCaution": "Do not cherry-pick169 to ignore verified same32g130 reference."
+    }
+  ],
+  "unresolved": [
+    {
+      "flavor": "Matcha Latte",
+      "reason": "Could not verify cheaper Korean primary seller with current price and delivery. Older Gmarket4845821356 inaccessible; KRW20300/3 allocation remains stale. Korean CU3800 appears only in customer/blog reports, insufficient to treat verified supplier cost.",
+      "oldSource": "https://item.gmarket.co.kr/Item?goodscode=4845821356"
+    }
+  ],
+  "recommendation": "Use a genuine acquired pack source with explicit pack cost and quantity in internal purchasing records if shop commits to stocking/splitting those tins. Keep acquisition vs retail sale unit distinct. No supplier costs, stock, membership coupons or shipping waived assumptions."
+}

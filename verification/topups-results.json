@@ -1,0 +1,4 @@
+{
+  "checks": 8,
+  "scope": "Compiled APIs and disposable D1 only; no real money, phone push or browser QA"
+}

@@ -1,0 +1,197 @@
+.kk-receipt-actions {
+  display: flex;
+  gap: 8px;
+}
+.kk-receipt-list {
+  max-height: 45vh;
+  overflow: auto;
+  display: grid;
+  gap: 9px;
+}
+.kk-receipt-list label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid #e3e7eb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.kk-receipt-list input {
+  width: 18px;
+  height: 18px;
+  accent-color: #dd5045;
+}
+.kk-receipt-list label div {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+.kk-receipt-list b {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.kk-receipt-list span,
+.kk-receipt-list small {
+  font-size: 12px;
+  color: #6b7280;
+}
+.kk-receipt-list strong {
+  font-size: 13px;
+  white-space: nowrap;
+}
+.kk-receipt-select [role="alert"] {
+  color: #b42318;
+  font-size: 13px;
+}
+.tier-diamond {
+  background: #173a43 !important;
+  color: #ffe4a0 !important;
+}
+.kk-field select {
+  border: 1px solid #d8dee5;
+  padding: 12px;
+  border-radius: 8px;
+  background: white;
+  color: #243347;
+  width: 100%;
+}
+.kk-receipt-list label.unavailable {
+  cursor: not-allowed;
+  background: #f7f8fa;
+  color: #8a93a0;
+}
+.kk-receipt-note {
+  margin: 0;
+  padding: 12px;
+  border-radius: 8px;
+  background: #f2f6fb;
+  color: #526174;
+  font-size: 13px;
+}
+.kk-receipt-filters {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 12px;
+}
+.kk-receipt-filters label {
+  display: grid;
+  gap: 6px;
+  color: #344054;
+  font-size: 13px;
+  font-weight: 700;
+}
+.kk-receipt-filters select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid #d8dee5;
+  border-radius: 8px;
+  background: #fff;
+  color: #243347;
+}
+.kk-single-receipt {
+  display: grid;
+  justify-items: start;
+  gap: 7px;
+}
+.kk-single-receipt [role="alert"] {
+  margin: 0;
+  color: #b42318;
+  font-size: 13px;
+}
+.kk-receipt-list small {
+  font-weight: 700;
+}
+.kk-receipt-select {
+  width: min(650px, calc(100vw - 24px)) !important;
+}
+@media (max-width: 640px) {
+  .kk-receipt-filters {
+    grid-template-columns: 1fr;
+  }
+  .kk-receipt-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .kk-receipt-actions button,
+  .kk-single-receipt button {
+    width: 100%;
+  }
+  .kk-receipt-list label {
+    align-items: flex-start;
+  }
+  .kk-receipt-list strong {
+    align-self: center;
+  }
+  .kk-receipt-select {
+    max-height: 92svh;
+    overflow: auto;
+  }
+}
+.kk-chat-messages {
+  display: grid;
+  gap: 12px;
+  max-height: 45vh;
+  overflow: auto;
+}
+.kk-chat-messages > div {
+  background: #f1f3f6;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 92%;
+  justify-self: start;
+}
+.kk-chat-messages > div.mine {
+  background: #fff1e8;
+  justify-self: end;
+}
+.kk-chat-messages p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+  margin: 6px 0;
+}
+.kk-chat-messages small,
+.kk-chat-messages time {
+  font-size: 11px;
+  color: #707985;
+}
+.kk-chat form {
+  display: grid;
+  gap: 10px;
+}
+.kk-chat textarea {
+  border: 1px solid #d9dfe5;
+  border-radius: 9px;
+  padding: 12px;
+  resize: vertical;
+}
+.kk-support-status{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid #dbe6f6;border-radius:12px;background:#f4f8ff;color:#174b91}.kk-support-status>div{display:grid;gap:2px}.kk-support-status b{font-size:14px}.kk-support-status span{font-size:12px;color:#667085}.kk-support-status.waiting{border-color:#f6d69b;background:#fff9eb;color:#9a5c00}.kk-support-status.human{border-color:#bfe5d3;background:#f0fbf6;color:#176948}.kk-ai-summary{display:flex;gap:10px;padding:14px;border-radius:12px;background:#eef5ff;color:#173d76}.kk-ai-summary svg{color:#0873f2}.kk-ai-summary p{white-space:pre-wrap;margin:4px 0 0;color:#425466;font-size:13px;line-height:1.55}.kk-chat-messages>div.ai{background:#eef5ff;border:1px solid #d7e6fb}.kk-chat-messages>div.system{max-width:100%;justify-self:stretch;text-align:center;background:#fff8e8;border:1px solid #f6ddb0}.kk-chat-error{padding:9px 12px;border-radius:8px;background:#fff0ef;color:#b42318;font-size:13px}.kk-chat-actions{display:flex;justify-content:flex-end}.kk-chat-actions button{width:100%}
+.op-member-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.op-member-row > .op-member {
+  flex: 1;
+}
+.op-member-row > button:last-child {
+  margin-right: 15px;
+}
+.op-window {
+  padding: 15px;
+  border: 1px solid #dce2e8;
+  border-radius: 10px;
+}
+.op-window label {
+  margin: 10px 0;
+}
+.kk-arrival-banner {
+  padding: 12px 18px;
+  background: #fff6e9;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 12px 0;
+}

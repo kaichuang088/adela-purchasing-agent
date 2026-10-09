@@ -1,0 +1,150 @@
+PASS 1: Seller-confirmed payment accrues Korean spend and points
+PASS 2: Cancellation automatically issues full paid amount as credit and sets cancelled status
+PASS 3: Cancellation reverses points, spend and paid item count
+PASS 4: Refund approval notification is automatic
+PASS 5: Repeated cancellation does not duplicate store credit
+PASS 6: Credit pays next order automatically; leftover balance retained
+PASS 7: Cancelling credit-only order restores exactly the reserved credit
+PASS 8: Concurrent checkouts cannot double-spend wallet credit
+PASS 9: Priority delivery is NT$80
+PASS 10: Eleventh priority order blocked server-side across whole ordering window
+PASS 11: Standard delivery is NT$50
+PASS 12: Diamond delivery is free
+PASS 13: Public coupons are discoverable; private codes are not leaked
+PASS 14: Category minimum excludes expensive items from other categories
+PASS 15: Two eligible coupons stack correctly
+PASS 16: Each coupon remains single-use after cancellation
+PASS 17: Member-specific permanent coupon hidden from other users
+PASS 18: Repeated coupon code in one cart discounts only once
+PASS 19: Simultaneous checkouts can consume a member coupon only once
+PASS 20: Losing coupon checkout leaves no extra order or stock reservation
+PASS 21: Coupon expiring after estimate stays visible but checkout rejects it without consumption
+PASS 22: Expired coupon cannot be claimed again
+PASS 23: One remaining coupon across two members can only be claimed once
+PASS 24: Retrying successful claim at quota is idempotent and does not take another slot
+PASS 25: Screenshot-only payment report can be verified by seller
+PASS 26: Unauthenticated payment screenshot access is rejected
+PASS 27: Paid order automatically begins purchasing at planned date
+PASS 28: Purchasing order cannot refund past cutoff
+PASS 29: Explicit refund deadline enforced on server
+PASS 30: Admin can mark collected and resolve order
+Wallet, delivery, coupon and payment flow checks complete.
+shop z [Error]: 購物金餘額已更新，請重新計算金額。
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:10586)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 本期 10 個加急名額已滿，請改一般配送。
+    at Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:10520)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: PUBLIC10：適用商品須滿 NT$100（類別券只計算該類別商品）。
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:24270)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 優惠券已使用：PUBLIC10
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:23854)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 優惠券已使用：RACEONCE
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:23854)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 優惠券無效、已到期或不適用此會員：EXPIRING
+    at ge (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:23726)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:7845)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 優惠券不存在、已到期或不適用此會員。
+    at ne (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:10578)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:4111)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 400
+}
+shop z [Error]: 此優惠券已領完。
+    at ne (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:10777)
+    at async Object.k [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-DP--ZLBk.js:1:4111)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at U (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/commerce-wBI3gRms.js:13:17804)
+    at async Object.a [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-B_OndtJe.js:1:263)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 401
+}
+shop z [Error]: 已開始採買，無法取消或申請退款。
+    at r (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/order-actions-BQN1nOhz.js:1:604)
+    at async Object.s [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-Sv0zgcR4.js:1:456)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}
+shop z [Error]: 已超過退款／取消截止時間。
+    at r (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/order-actions-BQN1nOhz.js:1:710)
+    at async Object.s [as handlerFn] (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/route-Sv0zgcR4.js:1:456)
+    at async at (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18300)
+    at async ot (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/_next/static/app-route-handler-dispatch-BlAWacfF.js:1:18586)
+    at async Ao.route (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26390)
+    at async t (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:2:26599)
+    at async Jm (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:14:169254)
+    at async Object.fetch (file:///workspace/scratch/e5db494e41ea/adela-private-r3/dist/server/index.js:16:296) {
+  status: 409
+}

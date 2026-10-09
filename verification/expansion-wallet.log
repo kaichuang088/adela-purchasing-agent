@@ -1,0 +1,92 @@
+PASS 1: Seller-confirmed payment accrues Korean spend and points
+PASS 2: Cancellation automatically issues full paid amount as credit and sets cancelled status
+PASS 3: Cancellation reverses points, spend and paid item count
+PASS 4: Refund approval notification is automatic
+PASS 5: Repeated cancellation does not duplicate store credit
+PASS 6: Credit pays next order automatically; leftover balance retained
+PASS 7: Cancelling credit-only order restores exactly the reserved credit
+shop I [Error]: 商品或費率已更新，請重新確認金額。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:8261)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+PASS 8: Concurrent checkouts cannot double-spend wallet credit
+PASS 9: Priority delivery is NT$80
+shop I [Error]: 本期 10 個加急名額已滿，請改一般配送。
+    at Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:10390)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+PASS 10: Eleventh priority order blocked server-side across whole ordering window
+PASS 11: Standard delivery is NT$50
+PASS 12: Diamond delivery is free
+PASS 13: Public coupons are discoverable; private codes are not leaked
+shop I [Error]: PUBLIC10：適用商品須滿 NT$100（類別券只計算該類別商品）。
+    at Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:14969)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 400
+}
+PASS 14: Category minimum excludes expensive items from other categories
+PASS 15: Two eligible coupons stack correctly
+shop I [Error]: 優惠券已使用：PUBLIC10
+    at Y (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:14553)
+    at async Object.k [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-7XT2bG7m.js:1:7802)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 400
+}
+PASS 16: Each coupon remains single-use after cancellation
+PASS 17: Member-specific permanent coupon hidden from other users
+PASS 18: Screenshot-only payment report can be verified by seller
+shop I [Error]: 請先登入並加入 KK 會員。 / Please sign in and join KK.
+    at B (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/commerce-C1PeypvO.js:13:9170)
+    at async Object.a [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CTtem6eI.js:1:263)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 401
+}
+PASS 19: Unauthenticated payment screenshot access is rejected
+PASS 20: Paid order automatically begins purchasing at planned date
+shop I [Error]: 已開始採買，無法取消或申請退款。
+    at r (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/order-actions-6vz_YEOS.js:1:604)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CWjWlcHZ.js:1:456)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+PASS 21: Purchasing order cannot refund past cutoff
+shop I [Error]: 已超過退款／取消截止時間。
+    at r (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/order-actions-6vz_YEOS.js:1:710)
+    at async Object.s [as handlerFn] (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/route-CWjWlcHZ.js:1:456)
+    at async Q (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18269)
+    at async ot (file:///workspace/sites/adelapa-private-review/dist/server/_next/static/app-route-handler-dispatch-KuIJtORv.js:1:18555)
+    at async Oo.route (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26381)
+    at async t (file:///workspace/sites/adelapa-private-review/dist/server/index.js:2:26590)
+    at async Wm (file:///workspace/sites/adelapa-private-review/dist/server/index.js:14:165808) {
+  status: 409
+}
+PASS 22: Explicit refund deadline enforced on server
+PASS 23: Admin can mark collected and resolve order
+Wallet, delivery, coupon and payment flow checks complete.
