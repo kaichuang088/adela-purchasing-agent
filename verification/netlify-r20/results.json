@@ -1,0 +1,169 @@
+{
+  "scope": "Generated Netlify frontend; synthetic API fixture; Chromium viewports; no live backend / financial writes / actual provider / physical-device validation",
+  "routeChecks": 2,
+  "browserChecks": 12,
+  "results": [
+    {
+      "width": 375,
+      "label": "home",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-home.png"
+    },
+    {
+      "width": 375,
+      "label": "credit-wallet",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-credit-wallet.png"
+    },
+    {
+      "width": 375,
+      "label": "refund-dialog",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 375,
+          "clientWidth": 373,
+          "scrollWidth": 373
+        }
+      ],
+      "screenshot": "375-refund-dialog.png"
+    },
+    {
+      "width": 375,
+      "label": "refund-submit-visible",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 375,
+          "clientWidth": 373,
+          "scrollWidth": 373
+        }
+      ],
+      "screenshot": "375-refund-submit-visible.png"
+    },
+    {
+      "width": 390,
+      "label": "home",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-home.png"
+    },
+    {
+      "width": 390,
+      "label": "credit-wallet",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-credit-wallet.png"
+    },
+    {
+      "width": 390,
+      "label": "refund-dialog",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 390,
+          "clientWidth": 388,
+          "scrollWidth": 388
+        }
+      ],
+      "screenshot": "390-refund-dialog.png"
+    },
+    {
+      "width": 390,
+      "label": "refund-submit-visible",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 390,
+          "clientWidth": 388,
+          "scrollWidth": 388
+        }
+      ],
+      "screenshot": "390-refund-submit-visible.png"
+    },
+    {
+      "width": 430,
+      "label": "home",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-home.png"
+    },
+    {
+      "width": 430,
+      "label": "credit-wallet",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-credit-wallet.png"
+    },
+    {
+      "width": 430,
+      "label": "refund-dialog",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 430,
+          "clientWidth": 428,
+          "scrollWidth": 428
+        }
+      ],
+      "screenshot": "430-refund-dialog.png"
+    },
+    {
+      "width": 430,
+      "label": "refund-submit-visible",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 0,
+          "right": 430,
+          "clientWidth": 428,
+          "scrollWidth": 428
+        }
+      ],
+      "screenshot": "430-refund-submit-visible.png"
+    }
+  ]
+}

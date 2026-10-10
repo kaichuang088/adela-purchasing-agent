@@ -8,8 +8,8 @@ import "./order-status.css";
 import "./ai-price.css";
 
 export const metadata: Metadata = {
-  title: "Adela's 代購｜韓國商品選物",
-  description: "Adela's 代購，韓國選品、會員優惠與訂單進度。",
+  title: "Adela's Purchasing Agent｜韓國代購",
+  description: "Adela's Purchasing Agent，韓國選品、會員優惠與訂單進度。",
   manifest: "/manifest.webmanifest",
   appleWebApp: {capable:true,title:"Adela’s",statusBarStyle:"default"},
   icons: {

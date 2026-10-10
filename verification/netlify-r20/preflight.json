@@ -1,0 +1,15 @@
+{
+  "siteBaselineVersion": 31,
+  "siteBaselineSourceCommit": "0418b8ed36a43ae973ca227f3ae0767fcdeec25b",
+  "targetFrontend": "https://kk-purchasing-agent-shop.netlify.app",
+  "existingAdmin": "https://kk-purchasing-agent-admin.netlify.app",
+  "netlifyProductionPublished": false,
+  "topupSalesEnabled": false,
+  "genuineBackendVerified": false,
+  "netlifyCredentialPresent": false,
+  "observedNetlifyNetworkResult": "HTTPS CONNECT denied 403 by environment egress proxy; target sites not reached",
+  "providerConnectionVerified": false,
+  "freeAiQuotaVerified": false,
+  "brand": "Adela's Purchasing Agent",
+  "functionBundleSha256": "a4c9bf9874d2211ecd4aee3d1957569131a7ce7bd846ed7c4822de619b2bd244"
+}

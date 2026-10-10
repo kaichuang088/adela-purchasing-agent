@@ -1,3 +1,10 @@
+# Netlify 前台接續 — R20 / Sites 第 31 版
+
+最新部署準備見 [NETLIFY_FRONTEND_R20_20261011.md](NETLIFY_FRONTEND_R20_20261011.md)。
+以使用者提供的 R20 原始碼接續，品牌是 Adela's Purchasing Agent，Netlify 建置
+選用 storefront 模式；目前尚未完成 Netlify production 發布。原 Sites 部署結果
+仍以其交接包根目錄 PROJECT_STATE.json 為準；下方 R19 及更早內容是歷史紀錄。
+
 # 2026-10-10 R19 接續修正版（尚未發布）
 
 先讀 [最新交接](RECOVERY_R19_20261010.md)、[Le Labo逐規格比較](LE_LABO_R19_REVIEW.md)、[全商品缺口](CATALOG_R19_GAPS.md)、[AI／通知](AI_AND_NOTIFICATIONS_R19.md)、[手機尺寸截圖](MOBILE_R19.html)與[personal account交接](PERSONAL_ACCOUNT_HANDOFF.md)。本次有真實公開商品来源查核、25筆受保護商品資料更新、AI授權與Gateway模型一致修正。Sites發布已授權，但當前對話仍缺Sites存取工具，沒有新發布版本。

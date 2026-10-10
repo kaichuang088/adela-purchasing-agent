@@ -4,6 +4,7 @@
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  KK_NETLIFY_TARGET = "storefront"
 
 [[headers]]
   for = "/*"
