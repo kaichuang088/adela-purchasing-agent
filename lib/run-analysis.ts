@@ -1,4 +1,4 @@
-import {aiConfiguration} from './ai-config';
+import {aiConfiguration,aiConnection} from './ai-config';
 import { env } from "cloudflare:workers";
 import {getMedia} from './media-store';
 import { eq } from "drizzle-orm";
@@ -22,7 +22,8 @@ export async function runAnalysis(id:number) {
   if(!claim)throw new Error("AI 正在辨識，請稍候再查看。");
   try {
     const image=await getMedia(row.imageKey);if(!image)throw new Error("找不到商品圖片。");
-    const analysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),row.imageType,env.OPENAI_API_KEY||'netlify-gateway',env.OPENAI_MODEL||"gpt-6.1-sol",row.note,JSON.parse(row.pricingJson||'{}').items?.[0]?.sourceCountry==='JP'?'JP':'KR',env.KK_AI_GATEWAY_URL||'https://api.openai.com/v1/responses',env.KK_AI_GATEWAY_URL?env.KK_AI_GATEWAY_SECRET||'':'');
+    const {endpoint,model}=aiConnection(env);
+    const analysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),row.imageType,env.OPENAI_API_KEY||'netlify-gateway',model,row.note,JSON.parse(row.pricingJson||'{}').items?.[0]?.sourceCountry==='JP'?'JP':'KR',endpoint,env.KK_AI_GATEWAY_URL?env.KK_AI_GATEWAY_SECRET||'':'');
     await rawDb().prepare("UPDATE shopping_requests SET analysis_state='ready',ai_analysis_json=?,updated_at=? WHERE id=?").bind(JSON.stringify(analysis),new Date().toISOString(),id).run();
     const country=JSON.parse(row.pricingJson||'{}').items?.[0]?.sourceCountry==='JP'?'JP':'KR',selection=selectQuoteSource(analysis,country);
     const memberRow=row.memberId?await rawDb().prepare('SELECT * FROM kk_members WHERE id=?').bind(row.memberId).first():null;

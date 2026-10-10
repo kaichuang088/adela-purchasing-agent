@@ -1,0 +1,4 @@
+{
+  "checks": 8,
+  "scope": "Compiled routes and isolated D1 with mock transport; no real provider/model verification"
+}

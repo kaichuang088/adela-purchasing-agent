@@ -1,0 +1,322 @@
+{
+  "scope": "Prepared guarded source-seeded updates, never applied online",
+  "selected": [
+    {
+      "id": 3,
+      "name": "Le Labo Santal 33 Eau de Parfum",
+      "sku": [
+        "J1KR01R000",
+        "J1KP01R000",
+        "J0TF01R000"
+      ],
+      "costKrw": [
+        319000,
+        462000,
+        140000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 4,
+      "name": "Le Labo Another 13 Eau de Parfum",
+      "sku": [
+        "J0R601R000",
+        "J0LL01R000",
+        "J1K401R000"
+      ],
+      "costKrw": [
+        319000,
+        462000,
+        140000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 42,
+      "name": "Le Labo SANTAL 33 Eau de Parfum",
+      "sku": [
+        "J1KR01R000",
+        "J1KP01R000",
+        "J0TF01R000"
+      ],
+      "costKrw": [
+        319000,
+        462000,
+        140000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 43,
+      "name": "Le Labo ANOTHER 13 Perfuming Hand Cream 30ml",
+      "sku": [
+        "J0SG010000"
+      ],
+      "costKrw": [
+        43000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 71,
+      "name": "Le Labo SANTAL 33 Eau de Parfum 50ml",
+      "sku": [
+        "J1KR01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 72,
+      "name": "Le Labo HINOKI Hand Soap 250ml",
+      "sku": [
+        "J0W9010000"
+      ],
+      "costKrw": [
+        44000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 79,
+      "name": "Le Labo ANOTHER 13 - 50ml",
+      "sku": [
+        "J0R601R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 80,
+      "name": "Le Labo THÉ NOIR 29 - 50ml",
+      "sku": [
+        "J0TL01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 81,
+      "name": "Le Labo THÉ MATCHA 26 - 50ml",
+      "sku": [
+        "J34301R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 82,
+      "name": "Le Labo BERGAMOTE 22 - 50ml",
+      "sku": [
+        "J0R901R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 83,
+      "name": "Le Labo ROSE 31 - 50ml",
+      "sku": [
+        "J1KY01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 84,
+      "name": "Le Labo BASIL Hand Soap 250ml",
+      "sku": [
+        "J1X8010000"
+      ],
+      "costKrw": [
+        44000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 85,
+      "name": "Le Labo HINOKI Hand Lotion 250ml",
+      "costKrw": [
+        59000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false,
+      "source": "https://www.ssg.com/item/itemView.ssg?itemId=1000024865773"
+    },
+    {
+      "id": 86,
+      "name": "Le Labo HINOKI Shower Gel 250ml",
+      "sku": [
+        "J0WP010000"
+      ],
+      "costKrw": [
+        49000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 116,
+      "name": "Le Labo AMBRETTE 9 Eau de Parfum 50ml",
+      "sku": [
+        "J0R401R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 117,
+      "name": "Le Labo YLANG 49 Eau de Parfum 50ml",
+      "sku": [
+        "J0TW01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 118,
+      "name": "Le Labo NEROLI 36 Eau de Parfum 50ml",
+      "sku": [
+        "J0T301R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 119,
+      "name": "Le Labo TONKA 25 Eau de Parfum 50ml",
+      "sku": [
+        "J1JL01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 120,
+      "name": "Le Labo LAVANDE 31 Eau de Parfum 50ml",
+      "sku": [
+        "J3LM01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 121,
+      "name": "Le Labo VIOLETTE 30 Eau de Parfum 50ml",
+      "unresolved": "Exact current Korea source not extracted; original product untouched"
+    },
+    {
+      "id": 122,
+      "name": "Le Labo LABDANUM 18 Eau de Parfum 50ml",
+      "sku": [
+        "J0RW01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 123,
+      "name": "Le Labo VETIVER 46 Eau de Parfum 50ml",
+      "sku": [
+        "J0TP01R000"
+      ],
+      "costKrw": [
+        319000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 124,
+      "name": "Le Labo LYS 41 Eau de Parfum 100ml",
+      "sku": [
+        "J0W001R000"
+      ],
+      "costKrw": [
+        462000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 125,
+      "name": "Le Labo BAIE 19 Eau de Parfum 100ml",
+      "sku": [
+        "J2K401R000"
+      ],
+      "costKrw": [
+        462000
+      ],
+      "statusPreserved": "draft",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 132,
+      "name": "Le Labo HINOKI Hand Pomade 55ml",
+      "sku": [
+        "J0L5010000"
+      ],
+      "costKrw": [
+        42000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    },
+    {
+      "id": 166,
+      "name": "Le Labo Deodorant 50mL",
+      "sku": [
+        "J0HM010000"
+      ],
+      "costKrw": [
+        52000
+      ],
+      "statusPreserved": "active",
+      "photoBundlingPending": false
+    }
+  ],
+  "selectedProductCount": 25,
+  "unresolvedProductCount": 1
+}

@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-10T09:33:14.408949+08:00",
+  "scope": "Actual public reference FX response, not a read of current shop rate or administrator-approved transaction FX",
+  "results": [
+    {
+      "source": "https://rate.bot.com.tw/xrt/flcsv/0/day",
+      "status": 200,
+      "responseSha256": "9600989036be0a0bb4712b877455b2ee8438a58b8d1b74139437e018b28b2ac9",
+      "krwCsvRows": [
+        "KRW,本行買入,0.02204,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,本行賣出,0.02594,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,"
+      ]
+    },
+    {
+      "source": "https://open.er-api.com/v6/latest/KRW",
+      "status": 200,
+      "responseSha256": "22c9a522710d29979abc8d0a9ec6bfef130e44ac57aa220da6ae1132127038a0",
+      "result": "success",
+      "base": "KRW",
+      "rateTwd": 0.023824,
+      "providerUpdatedAt": "Sat, 10 Oct 2026 00:02:31 +0000"
+    }
+  ]
+}

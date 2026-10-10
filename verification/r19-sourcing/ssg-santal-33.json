@@ -1,0 +1,13 @@
+{
+  "source": "https://www.ssg.com/item/itemView.ssg?itemId=1000020812971",
+  "checkedDateTaipei": "2026-10-10",
+  "name": "(라벨링서비스)상탈 33 EDP 50ml",
+  "regularKrw": 319000,
+  "displayedInstantDiscountKrw": 303050,
+  "discountOriginalText": "판매가 319,000원 즉시할인가 303,050원 기간 : 2026.10.31까지 상품 즉시할인 : 15,950원 * 행사 기간 및 내용은 사정에 의해 변경될 수 있습니다. * 행사는 일부 회원에게만 적용될 수 있습니다. 닫기 //팝업 - 최적가 개선, 적용중인 쿠폰 보기 var oLowestPriceCoupon = new ssg.View.layerPopup({ sTarge",
+  "deliveryOriginalText": "배송비 무료 (3만원 이상 무료) 포장안내 선물하기로 주문 시 신세계백화점 쇼핑백이 동봉되며, 전용 선물박스로 배송됩",
+  "deliveryKrw": 0,
+  "memberQualificationProven": false,
+  "useDiscountInActualCost": false,
+  "reason": "Supplier explicitly cautions that the campaign may apply only to some members; no qualification or checkout verification"
+}

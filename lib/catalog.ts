@@ -1,3 +1,4 @@
+import {applyCatalogR19} from './catalog-r19';
 import {applyCatalogR17} from './catalog-r17';
 import {applyCatalogR15} from './catalog-r15';
 import {applyCatalogR14} from './catalog-r14';
@@ -39,7 +40,7 @@ export async function catalogList(all = false) {
 async function initializeCatalog() {
   const db=rawDb();
   // Bump this durable marker whenever a catalog migration is added below.
-  const readyKey='adela_catalog_ready_r17';
+  const readyKey='adela_catalog_ready_r19';
   if(await db.prepare('SELECT 1 FROM store_settings WHERE key=?').bind(readyKey).first())return;
   // This marker replaces the Japan assortment without changing historical order snapshots.
   if(!await db.prepare("SELECT value FROM store_settings WHERE key='adela_korea_catalog_v1'").first()){
@@ -279,6 +280,7 @@ async function initializeCatalog() {
  await applyCatalogR14(db);
  await applyCatalogR15(db);
  await applyCatalogR17(db);
+  await applyCatalogR19(db);
  await db.prepare('INSERT OR IGNORE INTO store_settings(key,value) VALUES (?,?)').bind(readyKey,'true').run();
 
 }

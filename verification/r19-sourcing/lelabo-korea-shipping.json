@@ -1,0 +1,9 @@
+{
+  "source": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+  "checkedDateTaipei": "2026-10-10",
+  "responseSha256": "ed5c1dbaacbee8b0a58e9e4b9f1c59bda41726e807019a9838970ffd73f4aa79",
+  "originalText": "금액 배송비 40,000원 미만 구매 시 3,000원 40,000원 이상 구매 시 무료 배송 반품 및 교환 르 라보 공식 온라인 몰에서 구매하신 제품은 해당 온라인 사이트를 통해서",
+  "domesticDeliveryKrwBelow40000": 3000,
+  "domesticDeliveryKrwAtLeast40000": 0,
+  "scope": "Domestic Korea official delivery; not Taiwan international delivery"
+}

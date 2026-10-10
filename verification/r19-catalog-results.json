@@ -1,0 +1,20 @@
+{
+  "checks": 14,
+  "labels": [
+    "Preserves newer administrator edit for 71",
+    "Preserves newer administrator edit for 79",
+    "Preserves newer administrator edit for 80",
+    "Preserves newer administrator edit for 81",
+    "Preserves newer administrator edit for 82",
+    "Replaces researched placeholder cost for 3 with real source price",
+    "Replaces researched placeholder cost for 4 with real source price",
+    "Replaces researched placeholder cost for 42 with real source price",
+    "Replaces researched placeholder cost for 43 with real source price",
+    "No products deleted or automatically published",
+    "Exact 15/50/100 mL references and distinct source photos; no invented stock",
+    "Hand lotion uses exact 250 mL public cost including qualifying domestic delivery",
+    "Historical orders and wallet are untouched",
+    "Concurrent application and repeated initialization are idempotent"
+  ],
+  "scope": "Guarded updater with disposable D1; no online catalog or financial writes"
+}

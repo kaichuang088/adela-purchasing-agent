@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-10T09:32:08.556662+08:00",
+  "source": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255956",
+  "goodsNumber": "A000000255956",
+  "goodsName": "[레오파드 헬로키티]웨이크메이크 스테이 락 메이크업 픽서 50ml",
+  "brand": "wakemake",
+  "spec": "50mL × 1 bottle",
+  "saleable": true,
+  "deliveryFreeFlag": false,
+  "deliveryKrwVerified": false,
+  "promotion": {
+    "discountId": "P000001556534",
+    "discountType": "P601",
+    "discountUnit": "fixed",
+    "discountUnitCode": "10",
+    "discountValue": 2600,
+    "discountAmount": 2600,
+    "discountName": "세일",
+    "discountFullName": "세일 (26.08.30 ~ 26.11.28)",
+    "targetStartDateTime": "2026-08-30T00:00:00",
+    "targetEndDateTime": "2026-11-28T23:59:59"
+  },
+  "couponUsed": false,
+  "options": [
+    {
+      "optionNumber": "002",
+      "standardCode": "8800353605097",
+      "optionName": "[레오파드 헬로키티]스테이락 메이크업픽서",
+      "goodsName": "[레오파드 헬로키티]웨이크메이크 스테이 락 메이크업 픽서 50ml",
+      "optionImage": {
+        "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+        "path": "item/2026/8/3210192895706707419.jpg"
+      },
+      "salePrice": 13000,
+      "finalPrice": 10400,
+      "maxBenefitPrice": 10400,
+      "soldOutFlag": false
+    },
+    {
+      "optionNumber": "001",
+      "standardCode": "8800316299578",
+      "optionName": "스테이 락 메이크업 픽서 50ml",
+      "goodsName": "[레오파드 헬로키티]웨이크메이크 스테이 락 메이크업 픽서 50ml",
+      "optionImage": {
+        "url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/",
+        "path": "item/2026/8/8133475793642160530.jpg"
+      },
+      "salePrice": 13000,
+      "finalPrice": 13000,
+      "maxBenefitPrice": 13000,
+      "soldOutFlag": false
+    }
+  ],
+  "scope": "Actual anonymous product response, member secrets omitted; exact current Hello Kitty SKU, not proven to match the old attachment collage; necessary shipping and Taiwan same-pack comparison unresolved"
+}

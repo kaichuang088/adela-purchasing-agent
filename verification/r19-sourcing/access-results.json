@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml",
+    "status": 200,
+    "bytes": 269546,
+    "finalUrl": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml"
+  },
+  {
+    "url": "https://www.lelabofragrances.co.kr/santal-33-987.html",
+    "status": 200,
+    "bytes": 236038,
+    "finalUrl": "https://www.lelabofragrances.co.kr/santal-33-987.html"
+  },
+  {
+    "url": "https://www.momoshop.com.tw/search/searchShop.jsp?keyword=LE%20LABO",
+    "status": 200,
+    "bytes": 69322,
+    "finalUrl": "https://www.momoshop.com.tw/search/LE%20LABO?viewport=desktop"
+  },
+  {
+    "url": "https://24h.pchome.com.tw/search/?q=Le%20Labo",
+    "status": 200,
+    "bytes": 358892,
+    "finalUrl": "https://24h.pchome.com.tw/search/Le%20Labo"
+  },
+  {
+    "url": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site/api/system/status",
+    "status": 401,
+    "reason": "<!DOCTYPE html><html lang=\"zh-TW\" dir=\"ltr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"/_sites/dispatch-assets/openai-logo.png\"/><link rel=\"preload\" as=\"image\" href=\"/_sites/dispatch-assets/401-petbouncer-black.gif\"/><title>需要登入</title><meta property=\"og:type",
+    "server": "envoy"
+  }
+]

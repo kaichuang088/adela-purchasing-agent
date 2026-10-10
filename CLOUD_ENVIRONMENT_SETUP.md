@@ -18,3 +18,6 @@ node scripts/local-preview.mjs --check
 原本 GitHub checkout 只有 README，已從使用者提供並通過 SHA256／CRC 的 R17 分包還原。新 commit 為本機提交，尚未 push。環境草稿記錄實際 checkout 路徑與完整本機 commit，不替換遠端分支。/workspace/.git 為空的保護目錄，不是 repository；完整遍歷只找到一個有效 checkout，沒有略過不可讀目錄。新的工作恢復本機 commit／匯出還原內容是否完整，尚未獨立驗證；保留全部交付分包，不能只依賴遠端 main。
 
 目前工具沒有 Sites 讀取、修改、發布，亦沒有 Netlify／Cloudflare 平台管理能力。允許網域後仍可能被網站或網路代理403／429拒絕，不能藉來源受阻假造價格。正式服務秘密只由平台安全設定綁定，本機環境變數不代表當前 Sites runtime。
+
+
+2026-10-10 R19接續：另外保存來源CDN／匯率域assets.lltw.lelabo.uncacloud.com、lelabokorea-java.s3.amazonaws.com、static.oliveyoung.co.kr、rate.bot.com.tw、open.er-api.com；保留既有allowlist／package_managers，仍屬未套用草稿。公開台韓官方、PChome與SSG網頁現已能GET，初期新增CDN回403，後續重查已200並完成25張Le Labo照片下載；不据此声称環境草稿已正式發布。啟動先讀RECOVERY_R19_20261010.md；R19瀏覽器測試scripts/verify-r19-mobile.mjs，來源／AI檢查見最新交接。本機新commit仍未push，完整分包及manifest須保存；環境設定草稿不等於Sites讀写工具或平台認證。

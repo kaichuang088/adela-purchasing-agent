@@ -1,0 +1,205 @@
+{
+  "scope": "Unmodified actual supplier images matched by official SKU, not generated or substituted",
+  "results": [
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/015PS33100__PRODUCT_01--IMG_1200--SANTAL33-1335010523.jpg",
+      "sku": "J0TF01R000",
+      "localPath": "/catalog-r19/j0tf01r000.jpg",
+      "bytes": 895250,
+      "sha256": "0fc2f633ec616ae4c73d6a5b8622d96746470297704ce8e0a197f97621eb9ef7",
+      "checkedAt": "2026-10-10T09:27:38.286288+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PS33100__PRODUCT_01--IMG_1200--SANTAL33--1030674724.jpg",
+      "sku": "J1KR01R000",
+      "localPath": "/catalog-r19/j1kr01r000.jpg",
+      "bytes": 854388,
+      "sha256": "94fdff412c9101a521d1127027fa531f93a012718aff1a1c684c330e8fc987a1",
+      "checkedAt": "2026-10-10T09:27:38.250457+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PS33100__PRODUCT_01--IMG_1200--SANTAL33--574634116.jpg",
+      "sku": "J1KP01R000",
+      "localPath": "/catalog-r19/j1kp01r000.jpg",
+      "bytes": 902043,
+      "sha256": "a37397930b1513ccc4de73c582999307d391447c8d3463bf6696b622f3524362",
+      "checkedAt": "2026-10-10T09:27:38.344598+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/015PA13100__PRODUCT_01--IMG_1200--ANOTHER13--1840627082.jpg",
+      "sku": "J1K401R000",
+      "localPath": "/catalog-r19/j1k401r000.jpg",
+      "bytes": 871157,
+      "sha256": "9f9b7ac28995e39c4a26af4cc8d67eb5c09daa3326e32f45e0996503a65cfe0a",
+      "checkedAt": "2026-10-10T09:27:38.247190+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PA13100__PRODUCT_01--IMG_1200--ANOTHER13--1482494231.jpg",
+      "sku": "J0R601R000",
+      "localPath": "/catalog-r19/j0r601r000.jpg",
+      "bytes": 891657,
+      "sha256": "c833d4a00bb9b6b68fddf66e607a538c4d113ce72a3584d4951239ab26329b05",
+      "checkedAt": "2026-10-10T09:27:38.316176+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PA13100__PRODUCT_01--IMG_1200--ANOTHER13--1971533032.jpg",
+      "sku": "J0LL01R000",
+      "localPath": "/catalog-r19/j0ll01r000.jpg",
+      "bytes": 897283,
+      "sha256": "cf18b76c295fe2a98b17b63526bb2c5dede6d5687edb83cb860f04c32ce61c38",
+      "checkedAt": "2026-10-10T09:27:39.890676+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0SG010000__PRODUCT_01--IMG_1200--13ANOTHER13-658999794.jpeg",
+      "sku": "J0SG010000",
+      "localPath": "/catalog-r19/j0sg010000.jpg",
+      "bytes": 190686,
+      "sha256": "cc4dac401ffb3d27d07aab1a3a43b49babb834efd1e127dc729efd118367bb96",
+      "checkedAt": "2026-10-10T09:27:38.532416+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0W9010000__PRODUCT_01--IMG_1200--HANDSOAP--2124061401.jpg",
+      "sku": "J0W9010000",
+      "localPath": "/catalog-r19/j0w9010000.jpg",
+      "bytes": 281661,
+      "sha256": "7c6817208e45f6ed230486381a4be0fe771f19fd276fd8b79916832f192effda",
+      "checkedAt": "2026-10-10T09:27:39.540032+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT29100__PRODUCT_01--IMG_1200--THNOIR29--1338033806.jpg",
+      "sku": "J0TL01R000",
+      "localPath": "/catalog-r19/j0tl01r000.jpg",
+      "bytes": 866687,
+      "sha256": "9ed6b3628dbc1f455deca357f913bef884b3169e870b5042f478acdd281f4195",
+      "checkedAt": "2026-10-10T09:27:39.977135+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J34301R000__Product_01--IMG_1200--THMATCHA26--1277312391.jpg",
+      "sku": "J34301R000",
+      "localPath": "/catalog-r19/j34301r000.jpg",
+      "bytes": 165853,
+      "sha256": "5c1730090dd308f9b061f5cd57d6f7d8d8cb7f11e274f71aede73d0457f8a6b0",
+      "checkedAt": "2026-10-10T09:27:39.637226+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PB22100__PRODUCT_01--IMG_1200--BERGAMOTE22--470601953.jpg",
+      "sku": "J0R901R000",
+      "localPath": "/catalog-r19/j0r901r000.jpg",
+      "bytes": 874102,
+      "sha256": "a5278c587790014a0654a61b3ba1a0c8d433c3851e4c2cef4dbbfdf5893514c9",
+      "checkedAt": "2026-10-10T09:27:40.197795+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PR31100__PRODUCT_01--IMG_1200--ROSE31-917341418.jpg",
+      "sku": "J1KY01R000",
+      "localPath": "/catalog-r19/j1ky01r000.jpg",
+      "bytes": 867569,
+      "sha256": "3b3ee2ad4b198734c459db329baaacebfd1be5011c25922d01ba460f4e3c8cb5",
+      "checkedAt": "2026-10-10T09:27:41.106019+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1X8010000__PRODUCT_01--IMG_1200--HANDSOAP-1118000533.jpg",
+      "sku": "J1X8010000",
+      "localPath": "/catalog-r19/j1x8010000.jpg",
+      "bytes": 276777,
+      "sha256": "9842158b17260a024ec1dba51998b72d8979e31e61b87395c7d95e0a80806416",
+      "checkedAt": "2026-10-10T09:27:40.869716+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0WP010000__PRODUCT_01--IMG_1200--SHOWERGEL--1752151073.jpg",
+      "sku": "J0WP010000",
+      "localPath": "/catalog-r19/j0wp010000.jpg",
+      "bytes": 278443,
+      "sha256": "4e1649f309401c928008b237fc368c635d4e56cd309a5dac4c45787540d007f7",
+      "checkedAt": "2026-10-10T09:27:41.171566+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PA09100__PRODUCT_01--IMG_1200--AMBRETTE9--657710601.jpg",
+      "sku": "J0R401R000",
+      "localPath": "/catalog-r19/j0r401r000.jpg",
+      "bytes": 868580,
+      "sha256": "b14cc0bf824700427663fc68011f7f3ff418a98eb387eb3eee86c803ff7499b4",
+      "checkedAt": "2026-10-10T09:27:41.503679+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_1200--YLANG49-1134123156.jpg",
+      "sku": "J0TW01R000",
+      "localPath": "/catalog-r19/j0tw01r000.jpg",
+      "bytes": 866025,
+      "sha256": "20b4a54a8f68146009c9a7477ed5cc21fce32ecc61b5f92b111279caa79a84c1",
+      "checkedAt": "2026-10-10T09:27:41.740502+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_1200--NEROLI36--1184684923.jpg",
+      "sku": "J0T301R000",
+      "localPath": "/catalog-r19/j0t301r000.jpg",
+      "bytes": 868799,
+      "sha256": "b72a2ed7344c42b694c0da3dfcc4eb2fef10bbbd4f116cf526d17811d576991f",
+      "checkedAt": "2026-10-10T09:27:42.444307+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_1200--TONKA25--880596687.jpg",
+      "sku": "J1JL01R000",
+      "localPath": "/catalog-r19/j1jl01r000.jpg",
+      "bytes": 827769,
+      "sha256": "c66cbf45e85140bd8de6eb624c4ac616c361c31008de359b2bc3dc6aaa4b2253",
+      "checkedAt": "2026-10-10T09:27:42.609247+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J3LM01R000__PRODUCT_01--IMG_1200--31LAVANDE31-1104299997.jpg",
+      "sku": "J3LM01R000",
+      "localPath": "/catalog-r19/j3lm01r000.jpg",
+      "bytes": 602539,
+      "sha256": "c71502cac09dd28e76d1aeaf3183e5a988cace993f06f43835157f8414aecb72",
+      "checkedAt": "2026-10-10T09:27:42.565965+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PL18100__PRODUCT_01--IMG_1200--LABDANUM18--1320480263.jpg",
+      "sku": "J0RW01R000",
+      "localPath": "/catalog-r19/j0rw01r000.jpg",
+      "bytes": 872147,
+      "sha256": "ccde5b7769e87d6347ad6ddd6c1219ba01f9a218e21172d0d13c999f41f0cc03",
+      "checkedAt": "2026-10-10T09:27:43.103530+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PV46100__PRODUCT_01--IMG_1200--VETIVER46--363459925.jpg",
+      "sku": "J0TP01R000",
+      "localPath": "/catalog-r19/j0tp01r000.jpg",
+      "bytes": 863552,
+      "sha256": "db232b0e48c2a3f37b6a6ef2208fba63f6ca713e8be18e1b3b9a67aebc96e13e",
+      "checkedAt": "2026-10-10T09:27:43.311518+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PL41100__PRODUCT_01--IMG_1200--LYS41--1286977057.jpg",
+      "sku": "J0W001R000",
+      "localPath": "/catalog-r19/j0w001r000.jpg",
+      "bytes": 913078,
+      "sha256": "446abfaff8ff2b4d6a7de9bb1dd11912efdc86a50c890f53cdb78288bf8df424",
+      "checkedAt": "2026-10-10T09:27:43.988109+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J2K401R000__PRODUCT_01--IMG_1200--BAIE19-733419614.jpg",
+      "sku": "J2K401R000",
+      "localPath": "/catalog-r19/j2k401r000.jpg",
+      "bytes": 945895,
+      "sha256": "8368e1d09e9cf575b0ba84aacb778a2cfd9310eaa555e3eaa3b3e6561615e0de",
+      "checkedAt": "2026-10-10T09:27:44.153005+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_1200--HANDPOMADE-1173383336.JPG",
+      "sku": "J0L5010000",
+      "localPath": "/catalog-r19/j0l5010000.jpg",
+      "bytes": 339251,
+      "sha256": "23e4ab533f0fa894e5a2eeb82c00e5fd49d4755fee270fb135c227142930e5ac",
+      "checkedAt": "2026-10-10T09:27:43.840561+08:00"
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/G007050100__PRODUCT_01--IMG_1200--DEODORANT-1933061242.jpg",
+      "sku": "J0HM010000",
+      "localPath": "/catalog-r19/j0hm010000.jpg",
+      "bytes": 739745,
+      "sha256": "e3060f1075b0ca1cf6ca543e475812970fda474760714608bac771cc09211319",
+      "checkedAt": "2026-10-10T09:27:44.795869+08:00"
+    }
+  ]
+}

@@ -16,6 +16,6 @@ export async function GET(request:Request){
   const topupBonusPolicyReady=String(topupSchema?.sql||'').includes('160')&&String(topupSchema?.sql||'').includes('600');
   const missingTables=required.filter(name=>!present.has(name));
   const scheduled=await db.prepare("SELECT value FROM store_settings WHERE key='adela_last_scheduled_success'").first();
-  return privateJson({backendId:row?.value,release:'2026-10-09-r18-source',inventoryMigrationReady:present.has('kk_stock_reservations'),databaseReady:missingTables.length===0&&topupBonusPolicyReady,topupBonusPolicyReady,missingTables,aiConfigured:ai.configured,aiMissingConfiguration:ai.missing,aiModel:ai.model,pushConfigured:pushConfigured(env),emailConfigured:emailConfigured(env),lastScheduledAt:scheduled?.value||null});
+  return privateJson({backendId:row?.value,release:'2026-10-10-r19-source',inventoryMigrationReady:present.has('kk_stock_reservations'),databaseReady:missingTables.length===0&&topupBonusPolicyReady,topupBonusPolicyReady,missingTables,aiConfigured:ai.configured,aiMissingConfiguration:ai.missing,aiModel:ai.model,pushConfigured:pushConfigured(env),emailConfigured:emailConfigured(env),lastScheduledAt:scheduled?.value||null});
  }catch{return privateJson({error:'資料服務尚未就緒。'},503);}
 }

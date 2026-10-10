@@ -5,18 +5,27 @@ declare const Netlify: { env: { get(name:string):string|undefined } };
 export default async function proxy(request:Request) {
   const incoming=new URL(request.url);
   if(incoming.pathname==="/api/ai-provider"){
+    if(request.method!=="POST")return Response.json({error:"Method not allowed"},{status:405});
     const secret=Netlify.env.get("KK_AI_GATEWAY_SECRET");
     if(!secret||request.headers.get("x-kk-ai-gateway-secret")!==secret)return Response.json({error:"Forbidden"},{status:403});
     const key=Netlify.env.get("OPENAI_API_KEY")||Netlify.env.get("NETLIFY_AI_GATEWAY_KEY"),base=Netlify.env.get("OPENAI_BASE_URL")||Netlify.env.get("NETLIFY_AI_GATEWAY_URL");
-    if(!base)return Response.json({error:"AI Gateway is unavailable"},{status:503});
-    const baseUrl=new URL(base.endsWith("/")?base:base+"/");
+    if(!base||!key)return Response.json({error:"AI provider endpoint or authorization is not configured"},{status:503});
+    let baseUrl:URL;
+    try{baseUrl=new URL(base.endsWith("/")?base:base+"/");}catch{return Response.json({error:"AI provider endpoint is invalid"},{status:503});}
+    if(baseUrl.protocol!=="https:"||baseUrl.username||baseUrl.password)return Response.json({error:"AI provider endpoint is invalid"},{status:503});
     const responsePath=baseUrl.pathname.replace(/\/$/,"").endsWith("/v1")?"responses":"v1/responses";
     const headers:Record<string,string>={"Content-Type":"application/json"};
     if(key)headers.Authorization=`Bearer ${key}`;
-    const body=JSON.parse(new TextDecoder().decode(await request.arrayBuffer())) as Record<string,unknown>;
-    if(!Netlify.env.get("OPENAI_API_KEY"))body.model=Netlify.env.get("NETLIFY_AI_MODEL")||"gpt-6.1-sol";
-    const response=await fetch(new URL(responsePath,baseUrl),{method:"POST",headers,body:JSON.stringify(body),signal:AbortSignal.timeout(55000)});
-    return new Response(response.body,{status:response.status,headers:{"Content-Type":response.headers.get("content-type")||"application/json","Cache-Control":"no-store"}});
+    let body:Record<string,unknown>;
+    try{body=await request.json();if(!body||Array.isArray(body)||typeof body!=="object")throw new Error();}catch{return Response.json({error:"Invalid AI request"},{status:400});}
+    const requestedModel=typeof body.model==="string"?body.model.trim():"";
+    const configuredModel=Netlify.env.get("NETLIFY_AI_MODEL")||"gpt-6.1-sol";
+    if(!Netlify.env.get("OPENAI_API_KEY")&&requestedModel&&requestedModel!==configuredModel)return Response.json({error:"Backend and Netlify AI model settings do not match; no provider request was sent"},{status:409});
+    body.model=requestedModel||configuredModel;
+    try{
+      const response=await fetch(new URL(responsePath,baseUrl),{method:"POST",headers,body:JSON.stringify(body),redirect:"manual",signal:AbortSignal.timeout(55000)});
+      return new Response(response.body,{status:response.status,headers:{"Content-Type":response.headers.get("content-type")||"application/json","Cache-Control":"no-store"}});
+    }catch{return Response.json({error:"AI provider connection unavailable"},{status:503});}
   }
   const base=Netlify.env.get("KK_BACKEND_URL");
   if(!base)return Response.json({error:"尚未設定共用 Cloudflare 後端，請聯絡管理員。 / Shared backend is not configured."},{status:503});

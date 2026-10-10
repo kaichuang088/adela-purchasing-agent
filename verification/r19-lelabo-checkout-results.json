@@ -1,0 +1,42 @@
+{
+  "checks": 7,
+  "scope": "Source-seeded Basil soap, Hinoki shower gel and pomade price parity plus blocked Another 13; disposable D1 and manual public reference FX, no live transactions",
+  "rows": [
+    {
+      "id": 84,
+      "name": "Le Labo 羅勒洗手露 250 ml",
+      "sourceCostKrw": 44000,
+      "referenceFx": 0.023824,
+      "cardAndDetailTwd": 1116,
+      "cartAndCheckoutItemTwd": 1116,
+      "taiwanTwd": 1250,
+      "ceilingTwd": 1187,
+      "shippingSeparateTwd": 50,
+      "note": "Matches current shared pricing helpers; freshly checked public reference FX, not verified live exchange rate or real stock"
+    },
+    {
+      "id": 86,
+      "name": "Le Labo 檜木沐浴膠 250 ml",
+      "sourceCostKrw": 49000,
+      "referenceFx": 0.023824,
+      "cardAndDetailTwd": 1235,
+      "cartAndCheckoutItemTwd": 1235,
+      "taiwanTwd": 1300,
+      "ceilingTwd": 1235,
+      "shippingSeparateTwd": 50,
+      "note": "Matches current shared pricing helpers; freshly checked public reference FX, not verified live exchange rate or real stock"
+    },
+    {
+      "id": 132,
+      "name": "Le Labo 檜木護手霜 55ml",
+      "sourceCostKrw": 42000,
+      "referenceFx": 0.023824,
+      "cardAndDetailTwd": 1045,
+      "cartAndCheckoutItemTwd": 1045,
+      "taiwanTwd": 1100,
+      "ceilingTwd": 1045,
+      "shippingSeparateTwd": 50,
+      "note": "Matches current shared pricing helpers; freshly checked public reference FX, not verified live exchange rate or real stock"
+    }
+  ]
+}

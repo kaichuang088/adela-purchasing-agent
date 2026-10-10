@@ -34,4 +34,4 @@ writeFileSync(config,JSON.stringify(workerConfig,null,2));
 
 run('pnpm',['exec','wrangler','d1','migrations','apply',process.env.KK_D1_DATABASE_NAME||'kk-purchasing-agent','--remote','--config',config]);
 run('pnpm',['exec','wrangler','deploy','--config',config]);
-run('pnpm',['exec','wrangler','secret','bulk','--config',config],{input:JSON.stringify({ADMIN_PASSWORD:process.env.ADMIN_PASSWORD,OPENAI_API_KEY:process.env.OPENAI_API_KEY,OPENAI_MODEL:process.env.OPENAI_MODEL||'gpt-5.5',KK_AI_GATEWAY_URL:process.env.KK_AI_GATEWAY_URL,KK_AI_GATEWAY_SECRET:process.env.KK_AI_GATEWAY_SECRET})});
+run('pnpm',['exec','wrangler','secret','bulk','--config',config],{input:JSON.stringify({ADMIN_PASSWORD:process.env.ADMIN_PASSWORD,OPENAI_API_KEY:process.env.OPENAI_API_KEY,OPENAI_MODEL:process.env.OPENAI_MODEL||'gpt-6.1-sol',KK_AI_GATEWAY_URL:process.env.KK_AI_GATEWAY_URL,KK_AI_GATEWAY_SECRET:process.env.KK_AI_GATEWAY_SECRET})});

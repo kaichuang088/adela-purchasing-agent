@@ -1,3 +1,4 @@
+import {aiConfiguration,aiConnection} from '@/lib/ai-config';
 import {shippingAddress} from '@/lib/shipping-address';
 import {currencyRate} from '@/lib/currency-rate';
 import {requireShopOpen,requirePhotoQuotesOpen} from '@/lib/commerce';
@@ -28,12 +29,13 @@ async function quoteDraft(draft:Record<string,unknown>,member:Member,a:ProductAn
 async function identifyAndQuote(draft:Record<string,unknown>,member:Member){
  const db=rawDb();
  if(draft.analysis_json){const analysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis;return{analysis,pricing:await quoteDraft(draft,member,analysis)};}
- if(!env.OPENAI_API_KEY&&!env.KK_AI_GATEWAY_URL)throw new ShopError('AI 查價尚未啟用。 / AI pricing is not enabled.',409);
+ if(!aiConfiguration(env).configured)throw new ShopError('AI 查價尚未啟用。 / AI pricing is not enabled.',409);
  const claimed=await db.prepare("UPDATE kk_photo_drafts SET state='analyzing' WHERE id=? AND state IN ('uploaded','failed')").bind(draft.id).run();
  if(!claimed.meta.changes)throw new ShopError('AI 正在辨識與查價，請稍候。 / AI is researching this item.',409);
  try{
   const image=await getMedia(String(draft.image_key));if(!image)throw new Error('Missing image');
-  const analysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),String(draft.image_type),env.OPENAI_API_KEY||'netlify-gateway',env.OPENAI_MODEL||'gpt-6.1-sol',String(draft.note),String(draft.country) as Country,env.KK_AI_GATEWAY_URL||'https://api.openai.com/v1/responses',env.KK_AI_GATEWAY_SECRET||'');
+  const {endpoint,model}=aiConnection(env);
+  const analysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),String(draft.image_type),env.OPENAI_API_KEY||'netlify-gateway',model,String(draft.note),String(draft.country) as Country,endpoint,env.KK_AI_GATEWAY_URL?env.KK_AI_GATEWAY_SECRET||'':'');
   const saved=await db.prepare("UPDATE kk_photo_drafts SET state='identified',analysis_json=? WHERE id=? AND state='analyzing'").bind(JSON.stringify(analysis),draft.id).run();
   if(!saved.meta.changes)throw new ShopError('已取消此查價。 / Search cancelled.',410);
   return{analysis,pricing:await quoteDraft({...draft,analysis_json:JSON.stringify(analysis)},member,analysis)};
@@ -44,7 +46,7 @@ export async function POST(request:Request){try{
  const member=(await currentMember(request,true))!,db=rawDb();
  if(request.headers.get('content-type')?.includes('multipart/form-data')){
  await requirePhotoQuotesOpen();
-  if(!env.OPENAI_API_KEY&&!env.KK_AI_GATEWAY_URL)throw new ShopError('AI 查價尚未啟用，請稍後再試。尚未建立訂單。 / AI pricing is not enabled. No order was created.',409);
+  if(!aiConfiguration(env).configured)throw new ShopError('AI 查價尚未啟用，請稍後再試。尚未建立訂單。 / AI pricing is not enabled. No order was created.',409);
   await cleanupExpiredQuoteMedia();
   const count=await db.prepare("SELECT COUNT(*) AS n FROM kk_photo_drafts WHERE member_id=? AND state NOT IN ('discarded','purchased') AND expires_at>?").bind(member.id,new Date().toISOString()).first();
   if(Number(count?.n)>=5)throw new ShopError('請先完成或取消現有照片查價。 / Complete or cancel an existing photo search.',429);

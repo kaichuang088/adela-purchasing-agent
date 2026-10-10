@@ -1,3 +1,11 @@
+# 2026-10-10 R19 接續修正版（尚未發布）
+
+先讀 [最新交接](RECOVERY_R19_20261010.md)、[Le Labo逐規格比較](LE_LABO_R19_REVIEW.md)、[全商品缺口](CATALOG_R19_GAPS.md)、[AI／通知](AI_AND_NOTIFICATIONS_R19.md)、[手機尺寸截圖](MOBILE_R19.html)與[personal account交接](PERSONAL_ACCOUNT_HANDOFF.md)。本次有真實公開商品来源查核、25筆受保護商品資料更新、AI授權與Gateway模型一致修正。Sites發布已授權，但當前對話仍缺Sites存取工具，沒有新發布版本。
+
+Netlify必須先確認可Finalize再取得publish核准。ZIP不是線上資料庫備份；真實AI、手機通知／Email／cron與全部商品定價不能以本機測試冒充成功。以下是歷史文件，最新狀態以R19交接及交付根目錄PROJECT_STATE.json為準。
+
+---
+
 # 2026-10-09 R18 本機修正版（尚未發布）
 
 先讀 [最新交接](RECOVERY_R18_20261009.md)、[逐規格缺口](CATALOG_R18_GAPS.md)、[Le Labo](LE_LABO_R18_REVIEW.md)、[AI／通知](AI_AND_NOTIFICATIONS_R18.md) 與 [personal account 交接](PERSONAL_ACCOUNT_HANDOFF.md)。安裝、執行、建置、測試與安全遷移方式在最新交接。原私人 Sites 仍為使用者確認的第29版，本次沒有發布。

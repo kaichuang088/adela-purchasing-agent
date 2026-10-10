@@ -1,0 +1,30 @@
+{
+  "scope": "Public read-only search; not verified attachment identification or all product evidence",
+  "queries": [
+    {
+      "query": "컬러그램 헬로키티",
+      "total": 0,
+      "items": []
+    },
+    {
+      "query": "컬러그램 쿠로미",
+      "total": 0,
+      "items": []
+    },
+    {
+      "query": "어노브 헬로키티",
+      "total": 0,
+      "items": []
+    },
+    {
+      "query": "아이딜 산리오",
+      "total": 0,
+      "items": []
+    },
+    {
+      "query": "아이캔디 헬로키티",
+      "total": 0,
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,4540 @@
+[
+  {
+    "region": "TW",
+    "source": "https://www.lelabofragrances.com.tw/front/app/proxy/search?wt=json&q=%2A%3A%2A&rows=1000",
+    "responseSha256": "3779c1ee5a4c32107d893e11385187a3f5877c51143bd9039a02063d3fe3dc48",
+    "checkedAt": "2026-10-10T00:35:20.971708+08:00",
+    "selected": [
+      {
+        "page_name_s": "th-noir-29-1002.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0AG01R000"
+        ],
+        "sku_id_s": "1238",
+        "attr_product_type": [
+          "旅行用淡香精補充組"
+        ],
+        "attr_product_type_fr": [
+          "recharges travel tube kit"
+        ],
+        "price_twd_i": 6000
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W601R000"
+        ],
+        "sku_id_s": "1239",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TJ01R000"
+        ],
+        "sku_id_s": "1241",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TL01R000"
+        ],
+        "sku_id_s": "1247",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "th-noir-29-1004.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "120 ml"
+        ],
+        "attr_size_alt": [
+          "120ml"
+        ],
+        "attr_sku_code": [
+          "J0A3010000"
+        ],
+        "sku_id_s": "1240",
+        "attr_product_type": [
+          "潤膚油"
+        ],
+        "price_twd_i": 2900
+      },
+      {
+        "page_name_s": "th-noir-29-1006.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0A4010000"
+        ],
+        "sku_id_s": "1243",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "香根草 46|VETIVER 46",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W701R000"
+        ],
+        "sku_id_s": "1274",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "香根草 46|VETIVER 46",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TM01R000"
+        ],
+        "sku_id_s": "1276",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "香根草 46|VETIVER 46",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TP01R000"
+        ],
+        "sku_id_s": "1282",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W801R000"
+        ],
+        "sku_id_s": "1291",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TR01R000"
+        ],
+        "sku_id_s": "1293",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TW01R000"
+        ],
+        "sku_id_s": "1299",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "ylang-49-1045.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0ES010000"
+        ],
+        "sku_id_s": "1294",
+        "attr_product_type": [
+          "香氛身體乳液"
+        ],
+        "attr_product_type_fr": [
+          "lotion parfumante pour le corps"
+        ],
+        "price_twd_i": 2850
+      },
+      {
+        "page_name_s": "ylang-49-1046.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0C3010000"
+        ],
+        "sku_id_s": "1295",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "hand-soap-1057.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0W9010000"
+        ],
+        "sku_id_s": "1308",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1250
+      },
+      {
+        "page_name_s": "hand-soap-1058.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0WA010000"
+        ],
+        "sku_id_s": "1309",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1750
+      },
+      {
+        "page_name_s": "hand-lotion-1059.html",
+        "full_product_name_txt_cjk": "護手乳|HAND LOTION",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0L3010000"
+        ],
+        "sku_id_s": "1310",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1600
+      },
+      {
+        "page_name_s": "hand-lotion-1060.html",
+        "full_product_name_txt_cjk": "護手乳|HAND LOTION",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0L4010000"
+        ],
+        "sku_id_s": "1311",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 2400
+      },
+      {
+        "page_name_s": "shower-gel-1061.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WL010000"
+        ],
+        "sku_id_s": "1312",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basilic"
+        ],
+        "price_twd_i": 1300
+      },
+      {
+        "page_name_s": "shower-gel-1062.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WP010000"
+        ],
+        "sku_id_s": "1313",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1300
+      },
+      {
+        "page_name_s": "shower-gel-1063.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WW010000"
+        ],
+        "sku_id_s": "1314",
+        "attr_product_type": [
+          "柑橘"
+        ],
+        "attr_product_type_fr": [
+          "mandarine"
+        ],
+        "price_twd_i": 1300
+      },
+      {
+        "page_name_s": "hand-pomade-1068.html",
+        "full_product_name_txt_cjk": "護手霜|HAND POMADE",
+        "attr_size": [
+          "55 ml"
+        ],
+        "attr_sku_code": [
+          "J0L5010000"
+        ],
+        "sku_id_s": "1319",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1100
+      },
+      {
+        "page_name_s": "another-13-1091.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0HE01R000"
+        ],
+        "sku_id_s": "1342",
+        "attr_product_type": [
+          "旅行用淡香精補充組"
+        ],
+        "attr_product_type_fr": [
+          "recharges travel tube kit"
+        ],
+        "price_twd_i": 6000
+      },
+      {
+        "page_name_s": "another-13-1092.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J038010000"
+        ],
+        "sku_id_s": "1343",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "東加豆 25|TONKA 25",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1JF01R000"
+        ],
+        "sku_id_s": "1358",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "東加豆 25|TONKA 25",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J1JT01R000"
+        ],
+        "sku_id_s": "1356",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "東加豆 25|TONKA 25",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1JL01R000"
+        ],
+        "sku_id_s": "1357",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "hand-lotion-1112.html",
+        "full_product_name_txt_cjk": "護手乳|HAND LOTION",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J1X9010000"
+        ],
+        "sku_id_s": "1366",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basil"
+        ],
+        "price_twd_i": 1600
+      },
+      {
+        "page_name_s": "hand-soap-1113.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J1X8010000"
+        ],
+        "sku_id_s": "1367",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basil"
+        ],
+        "price_twd_i": 1250
+      },
+      {
+        "page_name_s": "hand-pomade-1129.html",
+        "full_product_name_txt_cjk": "護手霜|HAND POMADE",
+        "attr_size": [
+          "55 ml"
+        ],
+        "attr_sku_code": [
+          "J1X3010000"
+        ],
+        "sku_id_s": "1389",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basil"
+        ],
+        "price_twd_i": 1100
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "樹果 19|BAIE 19",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J2K401R000"
+        ],
+        "sku_id_s": "1394",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "樹果 19|BAIE 19",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J2JM01R000"
+        ],
+        "sku_id_s": "1392",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "樹果 19|BAIE 19",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J2JX01R000"
+        ],
+        "sku_id_s": "1393",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "hand-soap-1135.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J2MM010000"
+        ],
+        "sku_id_s": "1398",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basil"
+        ],
+        "price_twd_i": 1750
+      },
+      {
+        "page_name_s": "hand-lotion-1136.html",
+        "full_product_name_txt_cjk": "護手乳|HAND LOTION",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J2MN010000"
+        ],
+        "sku_id_s": "1399",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basil"
+        ],
+        "price_twd_i": 2400
+      },
+      {
+        "page_name_s": "baie-19-1137.html",
+        "full_product_name_txt_cjk": "樹果 19|BAIE 19",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J09D01R000"
+        ],
+        "sku_id_s": "1400",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "baie-19-1139.html",
+        "full_product_name_txt_cjk": "樹果 19|BAIE 19",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J2RX010000"
+        ],
+        "sku_id_s": "1402",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "another-13-1142.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J0AQ01R000"
+        ],
+        "sku_id_s": "1405",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "bergamote-22-1143.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J09S01R000"
+        ],
+        "sku_id_s": "1406",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "lys-41-1147.html",
+        "full_product_name_txt_cjk": "百合 41|LYS 41",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J08B01R000"
+        ],
+        "sku_id_s": "1410",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "neroli-36-1148.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J08D01R000"
+        ],
+        "sku_id_s": "1411",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "rose-31-1150.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J09Q01R000"
+        ],
+        "sku_id_s": "1413",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "santal-33-1151.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J09B01R000"
+        ],
+        "sku_id_s": "1414",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "th-noir-29-1152.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J09Z01R000"
+        ],
+        "sku_id_s": "1415",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "ylang-49-1154.html",
+        "full_product_name_txt_cjk": "依蘭 49|YLANG 49",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J08Q01R000"
+        ],
+        "sku_id_s": "1417",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "tonka-25-1155.html",
+        "full_product_name_txt_cjk": "東加豆 25|TONKA 25",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J0AD01R000"
+        ],
+        "sku_id_s": "1418",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "shower-gel-1160.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_sku_code": [
+          "J15E010000"
+        ],
+        "sku_id_s": "1424",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basilic"
+        ],
+        "price_twd_i": 580
+      },
+      {
+        "page_name_s": "shower-gel-1161.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_sku_code": [
+          "J15F010000"
+        ],
+        "sku_id_s": "1425",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 580
+      },
+      {
+        "page_name_s": "shower-gel-1162.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_sku_code": [
+          "J15G010000"
+        ],
+        "sku_id_s": "1426",
+        "attr_product_type": [
+          "柑橘"
+        ],
+        "attr_product_type_fr": [
+          "mandarine"
+        ],
+        "price_twd_i": 580
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "末茶 26|THÉ MATCHA 26",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J34901R000"
+        ],
+        "sku_id_s": "1465",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "末茶 26|THÉ MATCHA 26",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J34001R000"
+        ],
+        "sku_id_s": "1463",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "末茶 26|THÉ MATCHA 26",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J34301R000"
+        ],
+        "sku_id_s": "1464",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "shower-gel-1199.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J330010000"
+        ],
+        "sku_id_s": "1479",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1850
+      },
+      {
+        "page_name_s": "shower-gel-1200.html",
+        "full_product_name_txt_cjk": "沐浴膠|SHOWER GEL",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J331010000"
+        ],
+        "sku_id_s": "1480",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basilic"
+        ],
+        "price_twd_i": 1850
+      },
+      {
+        "page_name_s": "hand-pomade-1210.html",
+        "full_product_name_txt_cjk": "護手霜|HAND POMADE",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_sku_code": [
+          "J32T010000"
+        ],
+        "sku_id_s": "1490",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 1500
+      },
+      {
+        "page_name_s": "hand-pomade-1211.html",
+        "full_product_name_txt_cjk": "護手霜|HAND POMADE",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_sku_code": [
+          "J32W010000"
+        ],
+        "sku_id_s": "1491",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basilic"
+        ],
+        "price_twd_i": 1500
+      },
+      {
+        "page_name_s": "th-matcha-26-1213.html",
+        "full_product_name_txt_cjk": "末茶 26|THÉ MATCHA 26",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_sku_code": [
+          "J0AB01R000"
+        ],
+        "sku_id_s": "1493",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "price_twd_i": 3900
+      },
+      {
+        "page_name_s": "rose-31-1214.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "4 x 90 ml"
+        ],
+        "attr_sku_code": [
+          "J3LC010000"
+        ],
+        "sku_id_s": "1494",
+        "attr_product_type": [
+          "身體及頭髮護理旅行組"
+        ],
+        "price_twd_i": 3580
+      },
+      {
+        "page_name_s": "santal-33-1215.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "4 x 90 ml"
+        ],
+        "attr_sku_code": [
+          "J3LE010000"
+        ],
+        "sku_id_s": "1495",
+        "attr_product_type": [
+          "身體及頭髮護理旅行組"
+        ],
+        "price_twd_i": 3580
+      },
+      {
+        "page_name_s": "santal-33-1216.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J33R010000"
+        ],
+        "sku_id_s": "1496",
+        "attr_product_type": [
+          "香氛洗髮露"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "santal-33-1217.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_sku_code": [
+          "J33T010000"
+        ],
+        "sku_id_s": "1497",
+        "attr_product_type": [
+          "香氛潤髮乳"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "th-noir-29-1218.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J350010000"
+        ],
+        "sku_id_s": "1498",
+        "attr_product_type": [
+          "香氛洗髮露"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "th-noir-29-1219.html",
+        "full_product_name_txt_cjk": "黑茶 29|THÉ NOIR 29",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_sku_code": [
+          "J352010000"
+        ],
+        "sku_id_s": "1499",
+        "attr_product_type": [
+          "香氛潤髮乳"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "bergamote-22-1220.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J33N010000"
+        ],
+        "sku_id_s": "1500",
+        "attr_product_type": [
+          "香氛洗髮露"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "bergamote-22-1221.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_sku_code": [
+          "J33P010000"
+        ],
+        "sku_id_s": "1501",
+        "attr_product_type": [
+          "香氛潤髮乳"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "th-matcha-26-1222.html",
+        "full_product_name_txt_cjk": "末茶 26|THÉ MATCHA 26",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J3FR010000"
+        ],
+        "sku_id_s": "1502",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "hand-soap-1271.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "1000 ml"
+        ],
+        "attr_sku_code": [
+          "J3E2010000"
+        ],
+        "sku_id_s": "1554",
+        "attr_product_type": [
+          "檜木"
+        ],
+        "attr_product_type_fr": [
+          "hinoki"
+        ],
+        "price_twd_i": 2450
+      },
+      {
+        "page_name_s": "hand-soap-1272.html",
+        "full_product_name_txt_cjk": "洗手露|HAND SOAP",
+        "attr_size": [
+          "1000 ml"
+        ],
+        "attr_sku_code": [
+          "J3E3010000"
+        ],
+        "sku_id_s": "1555",
+        "attr_product_type": [
+          "羅勒"
+        ],
+        "attr_product_type_fr": [
+          "basilic"
+        ],
+        "price_twd_i": 2450
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "香葵 9|AMBRETTE 9",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LK01R000"
+        ],
+        "sku_id_s": "908",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "香葵 9|AMBRETTE 9",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0R201R000"
+        ],
+        "sku_id_s": "910",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "香葵 9|AMBRETTE 9",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R401R000"
+        ],
+        "sku_id_s": "914",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LL01R000"
+        ],
+        "sku_id_s": "923",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J1K401R000"
+        ],
+        "sku_id_s": "925",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R601R000"
+        ],
+        "sku_id_s": "928",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "another-13-748.html",
+        "full_product_name_txt_cjk": "別物 13|ANOTHER 13",
+        "attr_size": [
+          "120 ml"
+        ],
+        "attr_size_alt": [
+          "120ml"
+        ],
+        "attr_sku_code": [
+          "J037010000"
+        ],
+        "sku_id_s": "924",
+        "attr_product_type": [
+          "潤膚油"
+        ],
+        "price_twd_i": 2900
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LM01R000"
+        ],
+        "sku_id_s": "956",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0R701R000"
+        ],
+        "sku_id_s": "958",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R901R000"
+        ],
+        "sku_id_s": "965",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "bergamote-22-772.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "120 ml"
+        ],
+        "attr_size_alt": [
+          "120ml"
+        ],
+        "attr_sku_code": [
+          "J03F010000"
+        ],
+        "sku_id_s": "957",
+        "attr_product_type": [
+          "潤膚油"
+        ],
+        "price_twd_i": 2900
+      },
+      {
+        "page_name_s": "bergamote-22-773.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J03C010000"
+        ],
+        "sku_id_s": "959",
+        "attr_product_type": [
+          "香氛皂"
+        ],
+        "attr_product_type_fr": [
+          "savon parfumé pour le corps"
+        ],
+        "price_twd_i": 1900
+      },
+      {
+        "page_name_s": "bergamote-22-775.html",
+        "full_product_name_txt_cjk": "佛手柑 22|BERGAMOTE 22",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J03G010000"
+        ],
+        "sku_id_s": "961",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "岩薔薇 18|LABDANUM 18",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LY01R000"
+        ],
+        "sku_id_s": "1059",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "岩薔薇 18|LABDANUM 18",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0RR01R000"
+        ],
+        "sku_id_s": "1061",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "岩薔薇 18|LABDANUM 18",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0RW01R000"
+        ],
+        "sku_id_s": "1064",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "labdanum-18-862.html",
+        "full_product_name_txt_cjk": "岩薔薇 18|LABDANUM 18",
+        "attr_size": [
+          "7.5 ml"
+        ],
+        "attr_size_alt": [
+          "7ml"
+        ],
+        "attr_sku_code": [
+          "J06701R000"
+        ],
+        "sku_id_s": "1068",
+        "attr_product_type": [
+          "滾珠香氛油"
+        ],
+        "attr_product_type_fr": [
+          "baume liquide"
+        ],
+        "price_twd_i": 14400
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "百合 41|LYS 41",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W001R000"
+        ],
+        "sku_id_s": "1087",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "百合 41|LYS 41",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0RX01R000"
+        ],
+        "sku_id_s": "1089",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "百合 41|LYS 41",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0T001R000"
+        ],
+        "sku_id_s": "1095",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "lys-41-881.html",
+        "full_product_name_txt_cjk": "百合 41|LYS 41",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J072010000"
+        ],
+        "sku_id_s": "1091",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W101R000"
+        ],
+        "sku_id_s": "1122",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0T101R000"
+        ],
+        "sku_id_s": "1124",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0T301R000"
+        ],
+        "sku_id_s": "1131",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "neroli-36-906.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J07F010000"
+        ],
+        "sku_id_s": "1125",
+        "attr_product_type": [
+          "香氛皂"
+        ],
+        "attr_product_type_fr": [
+          "savon parfumé pour le corps"
+        ],
+        "price_twd_i": 1900
+      },
+      {
+        "page_name_s": "neroli-36-908.html",
+        "full_product_name_txt_cjk": "苦橙 36|NEROLI 36",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J07J010000"
+        ],
+        "sku_id_s": "1127",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "rose-31-961.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J09F01R000"
+        ],
+        "sku_id_s": "1191",
+        "attr_product_type": [
+          "旅行用淡香精補充組"
+        ],
+        "attr_product_type_fr": [
+          "recharges travel tube kit"
+        ],
+        "price_twd_i": 6000
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1KX01R000"
+        ],
+        "sku_id_s": "1192",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TA01R000"
+        ],
+        "sku_id_s": "1194",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1KY01R000"
+        ],
+        "sku_id_s": "1203",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "rose-31-963.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "120 ml"
+        ],
+        "attr_size_alt": [
+          "120ml"
+        ],
+        "attr_sku_code": [
+          "J08W010000"
+        ],
+        "sku_id_s": "1193",
+        "attr_product_type": [
+          "潤膚油"
+        ],
+        "price_twd_i": 2900
+      },
+      {
+        "page_name_s": "rose-31-964.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J08R010000"
+        ],
+        "sku_id_s": "1195",
+        "attr_product_type": [
+          "香氛皂"
+        ],
+        "attr_product_type_fr": [
+          "savon parfumé pour le corps"
+        ],
+        "price_twd_i": 1900
+      },
+      {
+        "page_name_s": "rose-31-966.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J08X010000"
+        ],
+        "sku_id_s": "1197",
+        "attr_product_type": [
+          "香氛潤髮乳"
+        ],
+        "attr_product_type_fr": [
+          "après-shampoing parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "rose-31-967.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J08Y010000"
+        ],
+        "sku_id_s": "1198",
+        "attr_product_type": [
+          "香氛洗髮露"
+        ],
+        "attr_product_type_fr": [
+          "shampoing parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "rose-31-968.html",
+        "full_product_name_txt_cjk": "玫瑰 31|ROSE 31",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J090010000"
+        ],
+        "sku_id_s": "1199",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      },
+      {
+        "page_name_s": "santal-33-986.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0A101R000"
+        ],
+        "sku_id_s": "1219",
+        "attr_product_type": [
+          "旅行用淡香精補充組"
+        ],
+        "attr_product_type_fr": [
+          "recharges travel tube kit"
+        ],
+        "price_twd_i": 6000
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1KP01R000"
+        ],
+        "sku_id_s": "1220",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 10900
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TF01R000"
+        ],
+        "sku_id_s": "1222",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 3350
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1KR01R000"
+        ],
+        "sku_id_s": "1229",
+        "attr_product_type": [
+          "淡香精"
+        ],
+        "attr_product_type_fr": [
+          "eau de parfum"
+        ],
+        "price_twd_i": 7600
+      },
+      {
+        "page_name_s": "santal-33-988.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "120 ml"
+        ],
+        "attr_size_alt": [
+          "120ml"
+        ],
+        "attr_sku_code": [
+          "J09J010000"
+        ],
+        "sku_id_s": "1221",
+        "attr_product_type": [
+          "潤膚油"
+        ],
+        "price_twd_i": 2900
+      },
+      {
+        "page_name_s": "santal-33-989.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J09G010000"
+        ],
+        "sku_id_s": "1223",
+        "attr_product_type": [
+          "香氛皂"
+        ],
+        "attr_product_type_fr": [
+          "savon parfumé pour le corps"
+        ],
+        "price_twd_i": 1900
+      },
+      {
+        "page_name_s": "santal-33-991.html",
+        "full_product_name_txt_cjk": "檀香 33|SANTAL 33",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J09K010000"
+        ],
+        "sku_id_s": "1225",
+        "attr_product_type": [
+          "香氛沐浴膠"
+        ],
+        "attr_product_type_fr": [
+          "gel douche parfumant"
+        ],
+        "price_twd_i": 2350
+      }
+    ],
+    "indexedSkuCount": 260,
+    "readSkuCount": 260
+  },
+  {
+    "region": "KR",
+    "source": "https://www.lelabofragrances.co.kr/front/app/proxy/search?wt=json&q=%2A%3A%2A&rows=1000",
+    "responseSha256": "45b7d033c7dcfeea004ba8f4575dac0100f6e12974ac110d847f7d5372ec6d7b",
+    "checkedAt": "2026-10-10T00:35:20.971708+08:00",
+    "selected": [
+      {
+        "page_name_s": "th-noir-29-1002.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0AG01R000"
+        ],
+        "sku_id_s": "1238",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W601R000"
+        ],
+        "sku_id_s": "1239",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TJ01R000"
+        ],
+        "sku_id_s": "1241",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0TK010000"
+        ],
+        "sku_id_s": "1248",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "th-noir-29-1003.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TL01R000"
+        ],
+        "sku_id_s": "1247",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "th-noir-29-1006.html",
+        "full_product_name_txt_cjk": "떼누아29|THÉNOIR29",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0A4010000"
+        ],
+        "sku_id_s": "1243",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "베티버46|VETIVER46",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W701R000"
+        ],
+        "sku_id_s": "1274",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "베티버46|VETIVER46",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TM01R000"
+        ],
+        "sku_id_s": "1276",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "베티버46|VETIVER46",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0TN010000"
+        ],
+        "sku_id_s": "1283",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "vetiver-46-1029.html",
+        "full_product_name_txt_cjk": "베티버46|VETIVER46",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TP01R000"
+        ],
+        "sku_id_s": "1282",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "ylang-49-1042.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0CF01R000"
+        ],
+        "sku_id_s": "1290",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W801R000"
+        ],
+        "sku_id_s": "1291",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TR01R000"
+        ],
+        "sku_id_s": "1293",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0TT010000"
+        ],
+        "sku_id_s": "1300",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "ylang-49-1043.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0TW01R000"
+        ],
+        "sku_id_s": "1299",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "ylang-49-1045.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0C1010000"
+        ],
+        "sku_id_s": "1294",
+        "attr_product_type": [
+          "바디 로션"
+        ],
+        "attr_product_type_fr": [
+          "바디 로션"
+        ],
+        "price_krw_i": 118000
+      },
+      {
+        "page_name_s": "ylang-49-1046.html",
+        "full_product_name_txt_cjk": "일랑49|YLANG49",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J0C3010000"
+        ],
+        "sku_id_s": "1295",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "hand-soap-1057.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0W9010000"
+        ],
+        "sku_id_s": "1308",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 44000
+      },
+      {
+        "page_name_s": "hand-soap-1058.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0WA010000"
+        ],
+        "sku_id_s": "1309",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 62000
+      },
+      {
+        "page_name_s": "shower-gel-1061.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WL010000"
+        ],
+        "sku_id_s": "1312",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 49000
+      },
+      {
+        "page_name_s": "shower-gel-1062.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WP010000"
+        ],
+        "sku_id_s": "1313",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 49000
+      },
+      {
+        "page_name_s": "shower-gel-1063.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J0WW010000"
+        ],
+        "sku_id_s": "1314",
+        "attr_product_type": [
+          "만다린"
+        ],
+        "attr_product_type_fr": [
+          "만다린"
+        ],
+        "price_krw_i": 49000
+      },
+      {
+        "page_name_s": "hand-pomade-1068.html",
+        "full_product_name_txt_cjk": "핸드포마드|HANDPOMADE",
+        "attr_size": [
+          "55 ml"
+        ],
+        "attr_sku_code": [
+          "J0L5010000"
+        ],
+        "sku_id_s": "1319",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 42000
+      },
+      {
+        "page_name_s": "deodorant-1085.html",
+        "full_product_name_txt_cjk": "데오드란트|DEODORANT",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0HM010000"
+        ],
+        "sku_id_s": "1336",
+        "attr_product_type": [
+          "그루밍"
+        ],
+        "attr_product_type_fr": [
+          "그루밍"
+        ],
+        "price_krw_i": 52000
+      },
+      {
+        "page_name_s": "another-13-1092.html",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J038010000"
+        ],
+        "sku_id_s": "1343",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "tonka-25-1098.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J1J7010000"
+        ],
+        "sku_id_s": "1349",
+        "attr_product_type": [
+          "바디 로션"
+        ],
+        "attr_product_type_fr": [
+          "바디 로션"
+        ],
+        "price_krw_i": 118000
+      },
+      {
+        "page_name_s": "tonka-25-1102.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J1J9010000"
+        ],
+        "sku_id_s": "1353",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "tonka-25-1104.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J1K801R000"
+        ],
+        "sku_id_s": "1355",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1JF01R000"
+        ],
+        "sku_id_s": "1358",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J1JT01R000"
+        ],
+        "sku_id_s": "1356",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J1JA010000"
+        ],
+        "sku_id_s": "1359",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "tonka-25-1105.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1JL01R000"
+        ],
+        "sku_id_s": "1357",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "hand-soap-1113.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "250 ml"
+        ],
+        "attr_size_alt": [
+          "250ml"
+        ],
+        "attr_sku_code": [
+          "J1X8010000"
+        ],
+        "sku_id_s": "1367",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 44000
+      },
+      {
+        "page_name_s": "hand-pomade-1129.html",
+        "full_product_name_txt_cjk": "핸드포마드|HANDPOMADE",
+        "attr_size": [
+          "55 ml"
+        ],
+        "attr_sku_code": [
+          "J1X3010000"
+        ],
+        "sku_id_s": "1389",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 42000
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J2K401R000"
+        ],
+        "sku_id_s": "1394",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J2JM01R000"
+        ],
+        "sku_id_s": "1392",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J2JR010000"
+        ],
+        "sku_id_s": "1397",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "baie-19-1132.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J2JX01R000"
+        ],
+        "sku_id_s": "1393",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "baie-19-1134.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J2KL01R000"
+        ],
+        "sku_id_s": "1396",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "hand-soap-1135.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J2MM010000"
+        ],
+        "sku_id_s": "1398",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 62000
+      },
+      {
+        "page_name_s": "hand-lotion-1136.html",
+        "full_product_name_txt_cjk": "핸드로션|HANDLOTION",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J2MN010000"
+        ],
+        "sku_id_s": "1399",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 85000
+      },
+      {
+        "page_name_s": "baie-19-1139.html",
+        "full_product_name_txt_cjk": "베이19|BAIE19",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J2RX010000"
+        ],
+        "sku_id_s": "1402",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "tonka-25-1155.html",
+        "full_product_name_txt_cjk": "통카25|TONKA25",
+        "attr_size": [
+          "9 ml"
+        ],
+        "attr_size_alt": [
+          "9ml"
+        ],
+        "attr_sku_code": [
+          "J2XL01R000"
+        ],
+        "sku_id_s": "1418",
+        "attr_product_type": [
+          "리퀴드 밤"
+        ],
+        "attr_product_type_fr": [
+          "리퀴드 밤"
+        ],
+        "price_krw_i": 150000
+      },
+      {
+        "page_name_s": "shower-gel-1160.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_size_alt": [
+          "85ml"
+        ],
+        "attr_sku_code": [
+          "J15E010000"
+        ],
+        "sku_id_s": "1424",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 20000
+      },
+      {
+        "page_name_s": "shower-gel-1161.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_size_alt": [
+          "85ml"
+        ],
+        "attr_sku_code": [
+          "J15F010000"
+        ],
+        "sku_id_s": "1425",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 20000
+      },
+      {
+        "page_name_s": "shower-gel-1162.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "85 ml"
+        ],
+        "attr_size_alt": [
+          "85ml"
+        ],
+        "attr_sku_code": [
+          "J15G010000"
+        ],
+        "sku_id_s": "1426",
+        "attr_product_type": [
+          "만다린"
+        ],
+        "attr_product_type_fr": [
+          "만다린"
+        ],
+        "price_krw_i": 19000
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J34901R000"
+        ],
+        "sku_id_s": "1465",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J34001R000"
+        ],
+        "sku_id_s": "1463",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J34H010000"
+        ],
+        "sku_id_s": "1466",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "th-matcha-26-1186.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J34301R000"
+        ],
+        "sku_id_s": "1464",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "th-matcha-26-1188.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J34M01R000"
+        ],
+        "sku_id_s": "1468",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "shower-gel-1199.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J330010000"
+        ],
+        "sku_id_s": "1479",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 67000
+      },
+      {
+        "page_name_s": "shower-gel-1200.html",
+        "full_product_name_txt_cjk": "샤워젤|SHOWERGEL",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J331010000"
+        ],
+        "sku_id_s": "1480",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 67000
+      },
+      {
+        "page_name_s": "hand-pomade-1209.html",
+        "full_product_name_txt_cjk": "핸드포마드|HANDPOMADE",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J32T010000"
+        ],
+        "sku_id_s": "1489",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "attr_product_type_fr": [
+          "히노키"
+        ],
+        "price_krw_i": 54000
+      },
+      {
+        "page_name_s": "hand-pomade-1210.html",
+        "full_product_name_txt_cjk": "핸드포마드|HANDPOMADE",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J32W010000"
+        ],
+        "sku_id_s": "1490",
+        "attr_product_type": [
+          "바질"
+        ],
+        "attr_product_type_fr": [
+          "바질"
+        ],
+        "price_krw_i": 54000
+      },
+      {
+        "page_name_s": "th-matcha-26-1217.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J3FR010000"
+        ],
+        "sku_id_s": "1497",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "th-matcha-26-1218.html",
+        "full_product_name_txt_cjk": "떼마차26|THÉMATCHA26",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J3FW010000"
+        ],
+        "sku_id_s": "1498",
+        "attr_product_type": [
+          "바디 로션"
+        ],
+        "attr_product_type_fr": [
+          "바디 로션"
+        ],
+        "price_krw_i": 118000
+      },
+      {
+        "page_name_s": "hand-soap-1226.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "1000 ml"
+        ],
+        "attr_size_alt": [
+          "1000ml"
+        ],
+        "attr_sku_code": [
+          "J3E3010000"
+        ],
+        "sku_id_s": "1509",
+        "attr_product_type": [
+          "바질"
+        ],
+        "price_krw_i": 87000
+      },
+      {
+        "page_name_s": "hand-soap-1227.html",
+        "full_product_name_txt_cjk": "핸드솝|HANDSOAP",
+        "attr_size": [
+          "1000 ml"
+        ],
+        "attr_size_alt": [
+          "1000ml"
+        ],
+        "attr_sku_code": [
+          "J3E2010000"
+        ],
+        "sku_id_s": "1510",
+        "attr_product_type": [
+          "히노키"
+        ],
+        "price_krw_i": 87000
+      },
+      {
+        "page_name_s": "31--lavande-31-1263.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "1.5ml"
+        ],
+        "attr_size_alt": [
+          "1.5ml"
+        ],
+        "attr_sku_code": [
+          "J3LG010000"
+        ],
+        "sku_id_s": "1546",
+        "attr_product_type": [
+          "디스커버리"
+        ],
+        "price_krw_i": 9000
+      },
+      {
+        "page_name_s": "31--lavande-31-1264.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J3M701R000"
+        ],
+        "sku_id_s": "1547",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "31--lavande-31-1265.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J3LL01R000"
+        ],
+        "sku_id_s": "1549",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "31--lavande-31-1265.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J3LK01R000"
+        ],
+        "sku_id_s": "1548",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "31--lavande-31-1265.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J3LT010000"
+        ],
+        "sku_id_s": "1551",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "31--lavande-31-1265.html",
+        "full_product_name_txt_cjk": "라방드31|LAVANDE31",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J3LM01R000"
+        ],
+        "sku_id_s": "1550",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "classic-collection/another-13/perfuming-hand-cream/30-ml",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "30 ml"
+        ],
+        "attr_size_alt": [
+          "30ml"
+        ],
+        "attr_sku_code": [
+          "J0SG010000"
+        ],
+        "sku_id_s": "1614",
+        "attr_product_type": [
+          "퍼퓨밍 핸드 크림"
+        ],
+        "price_krw_i": 43000
+      },
+      {
+        "page_name_s": "classic-collection/another-13/perfuming-hand-cream/55-ml",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "55 ml"
+        ],
+        "attr_sku_code": [
+          "J493010000"
+        ],
+        "sku_id_s": "1620",
+        "attr_product_type": [
+          "퍼퓨밍 핸드 크림"
+        ],
+        "price_krw_i": 65000
+      },
+      {
+        "page_name_s": "fine-fragrances/sets/another-13-eau-de-parfum-hand",
+        "full_product_name_txt_cjk": "어나더13오드퍼퓸&핸드세트|ANOTHER13EAUDEPARFUM&HANDSET",
+        "attr_size": [
+          "15 ml + 30 ml"
+        ],
+        "attr_sku_code": [
+          "A13EDPHC2"
+        ],
+        "sku_id_s": "1678",
+        "attr_product_type": [
+          "오 드 퍼퓸 & 퍼퓨밍 핸드 크림"
+        ],
+        "price_krw_i": 183000
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "암브레트9|AMBRETTE9",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LK01R000"
+        ],
+        "sku_id_s": "908",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "암브레트9|AMBRETTE9",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0R201R000"
+        ],
+        "sku_id_s": "910",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "암브레트9|AMBRETTE9",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0R3010000"
+        ],
+        "sku_id_s": "915",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "ambrette-9-735.html",
+        "full_product_name_txt_cjk": "암브레트9|AMBRETTE9",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R401R000"
+        ],
+        "sku_id_s": "914",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LL01R000"
+        ],
+        "sku_id_s": "923",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J1K401R000"
+        ],
+        "sku_id_s": "925",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0R5010000"
+        ],
+        "sku_id_s": "929",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "another-13-747.html",
+        "full_product_name_txt_cjk": "어나더13|ANOTHER13",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R601R000"
+        ],
+        "sku_id_s": "928",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "bergamote-22-770.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0HG01R000"
+        ],
+        "sku_id_s": "955",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LM01R000"
+        ],
+        "sku_id_s": "956",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0R701R000"
+        ],
+        "sku_id_s": "958",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0R8010000"
+        ],
+        "sku_id_s": "966",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "bergamote-22-771.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0R901R000"
+        ],
+        "sku_id_s": "965",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "bergamote-22-773.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J03C010000"
+        ],
+        "sku_id_s": "959",
+        "attr_product_type": [
+          "바디 바 솝"
+        ],
+        "attr_product_type_fr": [
+          "바디 바 솝"
+        ],
+        "price_krw_i": 76000
+      },
+      {
+        "page_name_s": "bergamote-22-775.html",
+        "full_product_name_txt_cjk": "베르가못22|BERGAMOTE22",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J03G010000"
+        ],
+        "sku_id_s": "961",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "라다넘18|LABDANUM18",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0LY01R000"
+        ],
+        "sku_id_s": "1059",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "라다넘18|LABDANUM18",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0RR01R000"
+        ],
+        "sku_id_s": "1061",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "라다넘18|LABDANUM18",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0RT010000"
+        ],
+        "sku_id_s": "1065",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "labdanum-18-856.html",
+        "full_product_name_txt_cjk": "라다넘18|LABDANUM18",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0RW01R000"
+        ],
+        "sku_id_s": "1064",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "lys-41-877.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J07E01R000"
+        ],
+        "sku_id_s": "1086",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W001R000"
+        ],
+        "sku_id_s": "1087",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0RX01R000"
+        ],
+        "sku_id_s": "1089",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0RY010000"
+        ],
+        "sku_id_s": "1096",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "lys-41-878.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0T001R000"
+        ],
+        "sku_id_s": "1095",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "lys-41-881.html",
+        "full_product_name_txt_cjk": "리스41|LYS41",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J072010000"
+        ],
+        "sku_id_s": "1091",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "neroli-36-903.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J07Y01R000"
+        ],
+        "sku_id_s": "1121",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J0W101R000"
+        ],
+        "sku_id_s": "1122",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0T101R000"
+        ],
+        "sku_id_s": "1124",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0T2010000"
+        ],
+        "sku_id_s": "1132",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "neroli-36-904.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J0T301R000"
+        ],
+        "sku_id_s": "1131",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "neroli-36-906.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J07F010000"
+        ],
+        "sku_id_s": "1125",
+        "attr_product_type": [
+          "바디 바 솝"
+        ],
+        "attr_product_type_fr": [
+          "바디 바 솝"
+        ],
+        "price_krw_i": 76000
+      },
+      {
+        "page_name_s": "neroli-36-908.html",
+        "full_product_name_txt_cjk": "네롤리36|NEROLI36",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J07J010000"
+        ],
+        "sku_id_s": "1127",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "rose-31-961.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J09F01R000"
+        ],
+        "sku_id_s": "1191",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1KX01R000"
+        ],
+        "sku_id_s": "1192",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TA01R000"
+        ],
+        "sku_id_s": "1194",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0TC010000"
+        ],
+        "sku_id_s": "1205",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "rose-31-962.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1KY01R000"
+        ],
+        "sku_id_s": "1203",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "rose-31-964.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J08R010000"
+        ],
+        "sku_id_s": "1195",
+        "attr_product_type": [
+          "바디 바 솝"
+        ],
+        "attr_product_type_fr": [
+          "바디 바 솝"
+        ],
+        "price_krw_i": 76000
+      },
+      {
+        "page_name_s": "rose-31-968.html",
+        "full_product_name_txt_cjk": "로즈31|ROSE31",
+        "attr_size": [
+          "237 ml"
+        ],
+        "attr_size_alt": [
+          "237ml"
+        ],
+        "attr_sku_code": [
+          "J090010000"
+        ],
+        "sku_id_s": "1199",
+        "attr_product_type": [
+          "샤워 젤"
+        ],
+        "attr_product_type_fr": [
+          "샤워 젤"
+        ],
+        "price_krw_i": 89000
+      },
+      {
+        "page_name_s": "santal-33-986.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "10 ml"
+        ],
+        "attr_size_alt": [
+          "10ml"
+        ],
+        "attr_sku_code": [
+          "J0A101R000"
+        ],
+        "sku_id_s": "1219",
+        "attr_product_type": [
+          "여행용 튜브 리필 세트"
+        ],
+        "attr_product_type_fr": [
+          "여행용 튜브 리필 세트"
+        ],
+        "price_krw_i": 261000
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "100 ml"
+        ],
+        "attr_size_alt": [
+          "100ml"
+        ],
+        "attr_sku_code": [
+          "J1KP01R000"
+        ],
+        "sku_id_s": "1220",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 462000
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "15 ml"
+        ],
+        "attr_size_alt": [
+          "15ml"
+        ],
+        "attr_sku_code": [
+          "J0TF01R000"
+        ],
+        "sku_id_s": "1222",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 140000
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "500 ml"
+        ],
+        "attr_size_alt": [
+          "500ml"
+        ],
+        "attr_sku_code": [
+          "J0TG010000"
+        ],
+        "sku_id_s": "1231",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 1600000
+      },
+      {
+        "page_name_s": "santal-33-987.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "50 ml"
+        ],
+        "attr_size_alt": [
+          "50ml"
+        ],
+        "attr_sku_code": [
+          "J1KR01R000"
+        ],
+        "sku_id_s": "1229",
+        "attr_product_type": [
+          "오 드 퍼퓸"
+        ],
+        "attr_product_type_fr": [
+          "오 드 퍼퓸"
+        ],
+        "price_krw_i": 319000
+      },
+      {
+        "page_name_s": "santal-33-989.html",
+        "full_product_name_txt_cjk": "상탈33|SANTAL33",
+        "attr_size": [
+          "225 g"
+        ],
+        "attr_size_alt": [
+          "225g"
+        ],
+        "attr_sku_code": [
+          "J09G010000"
+        ],
+        "sku_id_s": "1223",
+        "attr_product_type": [
+          "바디 바 솝"
+        ],
+        "attr_product_type_fr": [
+          "바디 바 솝"
+        ],
+        "price_krw_i": 76000
+      }
+    ],
+    "indexedSkuCount": 309,
+    "readSkuCount": 309
+  }
+]

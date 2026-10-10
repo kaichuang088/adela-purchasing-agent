@@ -1,0 +1,265 @@
+{
+  "scope": "R17 source-seeded disposable product catalog only, before R19 updater integration; not a live database backup",
+  "rows": [
+    {
+      "id": 3,
+      "name_zh": "Le Labo SANTAL 33 淡香精",
+      "name_en": "Le Labo Santal 33 Eau de Parfum",
+      "description_zh": "韓國官網確認有此商品；待核對 15／50／100 mL 當前售價、圖片使用方式和庫存後公開。",
+      "description_en": "Confirmed on the Korean official site; price, size availability and image usage require checking.",
+      "price_jpy": 1,
+      "status": "draft",
+      "commerce_json": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PS33100__PRODUCT_01--IMG_1200--SANTAL33--1030674724.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/santal-33-987.html\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 4,
+      "name_zh": "Le Labo ANOTHER 13 淡香精",
+      "name_en": "Le Labo Another 13 Eau de Parfum",
+      "description_zh": "韓國官網確認有此商品；價格及可購容量待核對。",
+      "description_en": "Confirmed on the Korean official site; price and available sizes need verification.",
+      "price_jpy": 1,
+      "status": "draft",
+      "commerce_json": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PA13100__PRODUCT_01--IMG_1200--ANOTHER13--1482494231.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/another-13-747.html\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 42,
+      "name_zh": "Le Labo SANTAL 33 香水",
+      "name_en": "Le Labo SANTAL 33 Eau de Parfum",
+      "description_zh": "韓國官網有售；容量和韓元價格需逐一核實才開放下單。",
+      "description_en": "Available on official Korea site; size and KRW prices require verification before sale.",
+      "price_jpy": 1,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/santal-33-987.html\",\"variants\":[],\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 43,
+      "name_zh": "Le Labo ANOTHER 13 香氛護手霜 30ml",
+      "name_en": "Le Labo ANOTHER 13 Perfuming Hand Cream 30ml",
+      "description_zh": "韓國官網有售；韓元價格待核實。",
+      "description_en": "Official Korean product; KRW price needs verification.",
+      "price_jpy": 1,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml\",\"variants\":[],\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 71,
+      "name_zh": "Le Labo SANTAL 33 淡香精 50ml",
+      "name_en": "Le Labo SANTAL 33 Eau de Parfum 50ml",
+      "description_zh": "Le Labo SANTAL 33淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo SANTAL 33 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 상탈 33 오 드 퍼퓸 50ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"https://sitem.ssgcdn.com/71/29/81/item/1000020812971_i1_1200.jpg\",\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000020812971\",\"taiwanRetailTwd\":6350,\"taiwanRetailSource\":\"https://24h.pchome.com.tw/prod/DDAHN9-A900K0146\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"Le Labo SANTAL 33는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50ml 正裝。韓國新世界百貨一般售價；未預先套用會員、信用卡或退稅優惠。採買時確認價格與庫存。 台灣參考為 PChome 國際航空版 50mL 活動價 NT$6,350（9/30止），通路版本不同。\",\"sourceDescriptionEn\":\"Le Labo SANTAL 33 Eau de Parfum 50ml · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"르 라보 상탈 33 오 드 퍼퓸 50ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}"
+    },
+    {
+      "id": 72,
+      "name_zh": "Le Labo HINOKI 檜木洗手露 250ml",
+      "name_en": "Le Labo HINOKI Hand Soap 250ml",
+      "description_zh": "Le Labo HINOKI 洗手露，以250mL瓶裝呈現檜木香氣的日常手部清潔品。",
+      "description_en": "Le Labo HINOKI Hand Soap is a hinoki-scented hand cleanser in a 250mL bottle.",
+      "price_jpy": 44000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 히노키 핸드 솝 250ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":44000,\"imageUrl\":\"https://img.yec.tw/zp/MerchandiseImages/7E391E1049-SP-20831006.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000024602476\",\"taiwanRetailTwd\":1080,\"taiwanRetailSource\":\"https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-檜木洗手露-250ml-平行輸入-11746093.html\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"르 라보 히노키 핸드 솝은 히노키 향을 담은 250mL 손 세정 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250ml，韓國新世界百貨一般售價 ₩44,000。台灣 Yahoo 平行輸入同容量商品優惠價 NT$1,080；來源價格可能變動。\",\"sourceDescriptionEn\":\"Le Labo HINOKI Hand Soap 250ml · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"르 라보 히노키 핸드 솝 250ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}"
+    },
+    {
+      "id": 79,
+      "name_zh": "Le Labo 別物 13 淡香精 50 ml",
+      "name_en": "Le Labo ANOTHER 13 - 50ml",
+      "description_zh": "Le Labo 別物 13淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo ANOTHER 13 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 어나더 13 오 드 퍼퓸 50ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"50 ml\",\"catalogSourceId\":\"lelabo-another-13-50\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"/catalog-20260927/lelabo-another-13-50.jpg\",\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000026965464\",\"taiwanRetailTwd\":7600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Le Labo ANOTHER 13는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"50 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"50ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 80,
+      "name_zh": "Le Labo 黑茶 29 淡香精 50 ml",
+      "name_en": "Le Labo THÉ NOIR 29 - 50ml",
+      "description_zh": "Le Labo 黑茶 29淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo THÉ NOIR 29 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 떼 누아 29 오 드 퍼퓸 50ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"50 ml\",\"catalogSourceId\":\"lelabo-the-noir-29-50\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"/catalog-20260927/lelabo-the-noir-29-50.jpg\",\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taiwanRetailTwd\":7600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/th-noir-29-1003.html?size=50ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Le Labo THÉ NOIR 29는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"50 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"50ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 81,
+      "name_zh": "Le Labo 末茶 26 淡香精 50 ml",
+      "name_en": "Le Labo THÉ MATCHA 26 - 50ml",
+      "description_zh": "Le Labo 抹茶 26淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo THÉ MATCHA 26 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 떼 마차 26 오 드 퍼퓸 50ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"50 ml\",\"catalogSourceId\":\"lelabo-the-matcha-26-50\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"/catalog-20260927/lelabo-the-matcha-26-50.jpg\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&click=itemMidArea23&itemId=1000229430227&salestrNo=1004&siteNo=6009\",\"taiwanRetailTwd\":7600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/th-matcha-26-1186.html?size=50ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Le Labo THÉ MATCHA 26는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"50 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"50ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 82,
+      "name_zh": "Le Labo 佛手柑 22 淡香精 50 ml",
+      "name_en": "Le Labo BERGAMOTE 22 - 50ml",
+      "description_zh": "Le Labo 佛手柑 22淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo BERGAMOTE 22 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 베르가못 22 오 드 퍼퓸 50ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"50 ml\",\"catalogSourceId\":\"lelabo-bergamote-22-50\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"/catalog-20260927/lelabo-bergamote-22-50.jpg\",\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000020808132\",\"taiwanRetailTwd\":7600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/bergamote-22-771.html?size=50ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Le Labo BERGAMOTE 22는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"50 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"50ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 83,
+      "name_zh": "Le Labo 玫瑰 31 淡香精 50 ml",
+      "name_en": "Le Labo ROSE 31 - 50ml",
+      "description_zh": "Le Labo 玫瑰 31淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo ROSE 31 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 로즈 31 오 드 퍼퓸 50ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"50 ml\",\"catalogSourceId\":\"lelabo-rose-31-50\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":319000,\"imageUrl\":\"/catalog-20260927/lelabo-rose-31-50.jpg\",\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taiwanRetailTwd\":7600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/rose-31-962.html?size=50ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Le Labo ROSE 31는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"50 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"50ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 84,
+      "name_zh": "Le Labo 羅勒洗手露 250 ml",
+      "name_en": "Le Labo BASIL Hand Soap 250ml",
+      "description_zh": "Le Labo BASIL 洗手露，以羅勒香氣呈現250mL瓶裝的手部清潔品。",
+      "description_en": "Le Labo BASIL Hand Soap pairs a basil scent with a 250mL bottle format for hand washing.",
+      "price_jpy": 44000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 바질 핸드 솝 250ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"250 ml\",\"catalogSourceId\":\"lelabo-basil-hand-soap-250\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":44000,\"imageUrl\":\"/catalog-20260927/lelabo-basil-hand-soap-250.jpg\",\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taiwanRetailTwd\":1250,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"르 라보 바질 핸드 솝은 바질 향을 담은 250mL 손 세정 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"250 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"250ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 85,
+      "name_zh": "Le Labo 檜木護手乳 250 ml",
+      "name_en": "Le Labo HINOKI Hand Lotion 250ml",
+      "description_zh": "Le Labo HINOKI 護手乳，250mL瓶裝，以檜木香氣融入手部保養。",
+      "description_en": "Le Labo HINOKI Hand Lotion is a hinoki-scented hand-care lotion in a 250mL bottle.",
+      "price_jpy": 59000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 히노키 핸드 로션 250ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"250 ml\",\"catalogSourceId\":\"lelabo-hinoki-hand-lotion-250\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":59000,\"imageUrl\":\"/catalog-20260927/lelabo-hinoki-hand-lotion-250.jpg\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84\",\"taiwanRetailTwd\":1600,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"르 라보 히노키 핸드 로션은 히노키 향을 담은 250mL 핸드 케어 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"250 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"250ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 86,
+      "name_zh": "Le Labo 檜木沐浴膠 250 ml",
+      "name_en": "Le Labo HINOKI Shower Gel 250ml",
+      "description_zh": "Le Labo HINOKI 沐浴膠，以檜木香氣搭配250mL瓶裝，作為日常沐浴的香氛選擇。",
+      "description_en": "Le Labo HINOKI Shower Gel is a hinoki-scented shower cleanser in a 250mL bottle.",
+      "price_jpy": 49000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 히노키 샤워 젤 250ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"250 ml\",\"catalogSourceId\":\"lelabo-hinoki-shower-gel-250\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":49000,\"imageUrl\":\"/catalog-20260927/lelabo-hinoki-shower-gel-250.jpg\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8\",\"taiwanRetailTwd\":1300,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"르 라보 히노키 샤워 젤은 히노키 향을 담은 250mL 샤워 클렌저입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"250 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"250ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}"
+    },
+    {
+      "id": 116,
+      "name_zh": "Le Labo 香葵 9淡香精 50ml",
+      "name_en": "Le Labo AMBRETTE 9 Eau de Parfum 50ml",
+      "description_zh": "Le Labo 香葵 9淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo AMBRETTE 9 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Le Labo Korea\",\"spec\":\"50mL × 1瓶\",\"nameKo\":\"르 라보 암브레트 9 오 드 퍼퓸 50ml\",\"descriptionKo\":\"Le Labo AMBRETTE 9는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"catalogSourceId\":\"lelabo-ambrette-9-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PA09100__PRODUCT_01--IMG_1200--AMBRETTE9--657710601.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000020698378\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/ambrette-9-735.html\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 50ml × 1. Numeric remaining stock not checked.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"priceKrw\":319000,\"serviceFeePercent\":5,\"sourceNotes\":\"SSG品牌百貨來源公開原價及購買功能；不使用有條件會員／卡片折扣。供應商未公開確切庫存數量，非賣家現貨。\",\"nameZh\":\"Le Labo 香葵 9淡香精 50ml\",\"nameEn\":\"Le Labo AMBRETTE 9 Eau de Parfum 50ml\",\"descriptionZh\":\"50mL × 1瓶。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"descriptionEn\":\"50mL × 1瓶. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionZh\":\"50mL × 1瓶。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"sourceDescriptionEn\":\"50mL × 1瓶. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}"
+    },
+    {
+      "id": 117,
+      "name_zh": "Le Labo 依蘭 49淡香精 50ml",
+      "name_en": "Le Labo YLANG 49 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 일랑 49 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-ylang-49-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_1200--YLANG49-1134123156.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/ylang-49-1043.html\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/ylang-49-1043.html\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 118,
+      "name_zh": "Le Labo 苦橙 36淡香精 50ml",
+      "name_en": "Le Labo NEROLI 36 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 네롤리 36 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-neroli-36-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_1200--NEROLI36--1184684923.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 119,
+      "name_zh": "Le Labo 東加豆 25淡香精 50ml",
+      "name_en": "Le Labo TONKA 25 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 통카 25 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-tonka-25-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_1200--TONKA25--880596687.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/tonka-25-1105.html\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/tonka-25-1105.html\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 120,
+      "name_zh": "Le Labo 薰衣草 31淡香精 50ml",
+      "name_en": "Le Labo LAVANDE 31 Eau de Parfum 50ml",
+      "description_zh": "Le Labo 薰衣草 31淡香精，以50mL瓶裝呈現此款香氛。",
+      "description_en": "Le Labo LAVANDE 31 is an eau de parfum in a 50mL bottle.",
+      "price_jpy": 319000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Le Labo Korea\",\"spec\":\"50mL × 1瓶\",\"nameKo\":\"르 라보 라방드 31 오 드 퍼퓸 50ml\",\"descriptionKo\":\"Le Labo LAVANDE 31는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\",\"catalogSourceId\":\"lelabo-lavande-31-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/J3LM01R000__PRODUCT_01--IMG_1200--31LAVANDE31-1104299997.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000561910236\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/31--lavande-31-1265.html\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 50ml × 1. Numeric remaining stock not checked.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"priceKrw\":319000,\"serviceFeePercent\":5,\"sourceNotes\":\"SSG品牌百貨來源公開原價及購買功能；不使用有條件會員／卡片折扣。供應商未公開確切庫存數量，非賣家現貨。\",\"nameZh\":\"Le Labo 薰衣草 31淡香精 50ml\",\"nameEn\":\"Le Labo LAVANDE 31 Eau de Parfum 50ml\",\"descriptionZh\":\"50mL × 1瓶。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"descriptionEn\":\"50mL × 1瓶. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionZh\":\"50mL × 1瓶。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"sourceDescriptionEn\":\"50mL × 1瓶. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}"
+    },
+    {
+      "id": 121,
+      "name_zh": "Le Labo 紫羅蘭 30淡香精 50ml",
+      "name_en": "Le Labo VIOLETTE 30 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 비올렛 30 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-violette-30-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 122,
+      "name_zh": "Le Labo 岩薔薇 18淡香精 50ml",
+      "name_en": "Le Labo LABDANUM 18 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 라다넘 18 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-labdanum-18-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 123,
+      "name_zh": "Le Labo 香根草 46淡香精 50ml",
+      "name_en": "Le Labo VETIVER 46 Eau de Parfum 50ml",
+      "description_zh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 319000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 베티버 46 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-vetiver-46-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 124,
+      "name_zh": "Le Labo 百合 41淡香精 100ml",
+      "name_en": "Le Labo LYS 41 Eau de Parfum 100ml",
+      "description_zh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 462000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"100ml × 1\",\"nameKo\":\"르 라보 리스 41 오 드 퍼퓸 100ml\",\"descriptionKo\":\"100ml × 1. 한국 판매가 ₩462,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-lys-41-100\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":462000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":438900,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":10650,\"taiwanRetailSource\":\"https://www.1976.com.tw/prod/20424\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"taiwanRetailClassification\":\"retailer_reference_price\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 125,
+      "name_zh": "Le Labo 樹果 19淡香精 100ml",
+      "name_en": "Le Labo BAIE 19 Eau de Parfum 100ml",
+      "description_zh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "description_en": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "price_jpy": 462000,
+      "status": "draft",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"100ml × 1\",\"nameKo\":\"르 라보 베이 19 오 드 퍼퓸 100ml\",\"descriptionKo\":\"100ml × 1. 한국 판매가 ₩462,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-baie-19-100\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":462000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":438900,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}"
+    },
+    {
+      "id": 132,
+      "name_zh": "Le Labo 檜木護手霜 55ml",
+      "name_en": "Le Labo HINOKI Hand Pomade 55ml",
+      "description_zh": "Le Labo HINOKI 護手霜，以檜木香氣搭配55mL軟管包裝，融入日常手部保養。",
+      "description_en": "Le Labo HINOKI Hand Pomade pairs a hinoki scent with a 55mL tube format for daily hand care.",
+      "price_jpy": 42000,
+      "status": "active",
+      "commerce_json": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Le Labo Korea\",\"spec\":\"55ml × 1\",\"nameKo\":\"르 라보 핸드 포마드 히노키 55ml\",\"descriptionKo\":\"르 라보 히노키 핸드 포마드는 히노키 향을 담은 55mL 튜브형 핸드 케어 제품입니다.\",\"catalogSourceId\":\"lelabo-hinoki-hand-pomade-55\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_1200--HANDPOMADE-1173383336.JPG\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/hand-pomade-1068.html\",\"taxIncludedJpy\":42000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/hand-pomade-1068.html\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 55ml × 1. Numeric remaining stock not checked.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"official_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":null,\"taiwanRetailTwd\":1100,\"taiwanRetailSource\":\"https://giftshop-tw.line.me/products/322202829\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"taiwanRetailClassification\":\"official_seller_channel_regular_price\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"55ml × 1。韓國來源標價 ₩42,000，2026-09-30 查核。一般標價；促銷另列。已核對公開購買功能；剩餘數量未公開，採買前再次確認。\",\"sourceDescriptionEn\":\"55ml × 1. Korea-listed price KRW 42,000, checked 2026-09-30. Regular reference; promotions recorded separately. Purchase controls verified; remaining quantity is not public. Recheck before procurement.\",\"sourceDescriptionKo\":\"55ml × 1. 한국 판매가 ₩42,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}"
+    },
+    {
+      "id": 166,
+      "name_zh": "Le Labo 滾珠體香劑 50mL",
+      "name_en": "Le Labo Deodorant 50mL",
+      "description_zh": "Le Labo 滾珠體香劑，50mL瓶裝，以滾珠設計局部塗抹。",
+      "description_en": "Le Labo deodorant comes in a 50mL bottle with a roll-on applicator.",
+      "price_jpy": 52000,
+      "status": "active",
+      "commerce_json": "{\"id\":\"r8-lelabo-deodorant50\",\"nameZh\":\"Le Labo 滾珠體香劑 50mL\",\"nameEn\":\"Le Labo Deodorant 50mL\",\"nameKo\":\"르 라보 데오드란트 50mL\",\"brand\":\"Le Labo\",\"spec\":\"50mL / J0HM010000\",\"category\":\"beauty\",\"priceKrw\":52000,\"taiwanRetailTwd\":1550,\"taiwanRetailSource\":\"https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142\",\"taiwanRetailClassification\":\"taiwan_preorder_retailer\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000037276712&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%8D%94%EB%B0%94%EB%94%94%EC%83%B5%EB%AF%B8%EC%8A%A4%ED%8A%B8\",\"imageUrl\":\"/catalog-r8/lelabo-deodorant50.jpg\",\"descriptionZh\":\"50mL 滾珠式體香劑，單瓶販售。韓國新世界百貨正價 ₩52,000；不預先套用限定會員折扣。台灣 iOPEN 預購通路同容量 NT$1,550，非台灣現貨比較。依採買批次代購。\",\"descriptionEn\":\"One 50mL roll-on deodorant. Sourced from Shinsegae at regular KRW52,000, without assuming conditional promotions. Compared with a Taiwan iOPEN preorder listing at TWD1,550. Scheduled-batch purchase, not Taiwan ready stock.\",\"stock\":-1,\"stockQuantityVerified\":false,\"serviceFeePercent\":5,\"sourceCheckedAt\":\"2026-10-03\",\"variants\":[],\"status\":\"active\",\"catalogSourceId\":\"r8-lelabo-deodorant50\",\"country\":\"KR\",\"currency\":\"KRW\",\"taxIncludedJpy\":52000,\"taxRefundEligible\":false,\"taiwanRetailCheckedAt\":\"2026-10-03\",\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50mL 滾珠式體香劑，單瓶販售。韓國新世界百貨正價 ₩52,000；不預先套用限定會員折扣。台灣 iOPEN 預購通路同容量 NT$1,550，非台灣現貨比較。依採買批次代購。\",\"sourceDescriptionEn\":\"One 50mL roll-on deodorant. Sourced from Shinsegae at regular KRW52,000, without assuming conditional promotions. Compared with a Taiwan iOPEN preorder listing at TWD1,550. Scheduled-batch purchase, not Taiwan ready stock.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"르 라보 데오드란트는 롤온 방식으로 바르는 50mL 보틀 제품입니다.\"}"
+    }
+  ]
+}

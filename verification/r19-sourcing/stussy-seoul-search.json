@@ -1,0 +1,34 @@
+{
+  "checkedDateTaipei": "2026-10-10",
+  "sources": [
+    {
+      "url": "https://kr.stussy.com/products.json?limit=250&page=1",
+      "itemsRead": 250,
+      "responseSha256": "33eefcc7ca34246b7e890797b9a5f1b0d82b90e98442842f52e3e80fa4baab73"
+    },
+    {
+      "url": "https://kr.stussy.com/products.json?limit=250&page=2",
+      "itemsRead": 250,
+      "responseSha256": "c3fa91acbb2d131d8b5a44337c90b2e94ffa285df123da6a1a3340ec4d9a4971"
+    },
+    {
+      "url": "https://kr.stussy.com/products.json?limit=250&page=3",
+      "itemsRead": 250,
+      "responseSha256": "188c198873f1a3acb3f1ff5d2f055a4a19a40d7edbaa6c871a87225a8dd1fd6d"
+    },
+    {
+      "url": "https://kr.stussy.com/products.json?limit=250&page=4",
+      "itemsRead": 250,
+      "responseSha256": "3ba7a2b57ceaa6e73f53b380b07758641075cbd06d9d8ef65fedb6d41731391e"
+    },
+    {
+      "url": "https://kr.stussy.com/products.json?limit=250&page=5",
+      "itemsRead": 58,
+      "responseSha256": "c77b4f2b8dbd0f8b57c837d1d720137225ac548bd1a3f4ce1e37f26c2e22024e"
+    }
+  ],
+  "publicItemsRead": 1058,
+  "publicPaginationComplete": true,
+  "seoulMatches": [],
+  "scope": "Official public online catalogue only; does not determine offline Seoul Chapter stock or prices"
+}

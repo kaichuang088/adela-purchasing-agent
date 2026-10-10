@@ -1,0 +1,29 @@
+{
+  "source": "https://24h.pchome.com.tw/prod/DDAHN9-A900K0146",
+  "checkedDateTaipei": "2026-10-10",
+  "brand": "LE LABO",
+  "spec": "50mL ×1瓶，國際航空版／平行輸入",
+  "classification": "public_promotion",
+  "publicPriceTwd": 6350,
+  "regularOnlinePriceTwd": 6900,
+  "listPriceTwd": 7600,
+  "options": [
+    {
+      "Id": "DDAHN9-A900K0146-001",
+      "Spec": "Santal 33 檀香",
+      "Qty": 20,
+      "isPreOrder24h": 0,
+      "PreOrdDate": ""
+    },
+    {
+      "Id": "DDAHN9-A900K0146-006",
+      "Spec": "Another 13 龍涎香",
+      "Qty": 20,
+      "isPreOrder24h": 0,
+      "PreOrdDate": ""
+    }
+  ],
+  "cashbackIncluded": false,
+  "memberDiscountIncluded": false,
+  "notes": "Public displayed offer; distinguish the international/parallel-import packaging from Taiwan official distribution. No cashback or app/payment-specific benefits counted."
+}

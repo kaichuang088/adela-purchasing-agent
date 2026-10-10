@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-10T09:26:41.993681+08:00",
+  "scope": "Unauthenticated read-only GET and whitelist presence check; no credential values, no platform runtime claim",
+  "requests": [
+    {
+      "url": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site/api/system/status",
+      "status": 401,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://lelabokorea-java.s3.amazonaws.com/images/skus/015PS33100__PRODUCT_01--IMG_1200--SANTAL33-1335010523.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://static.oliveyoung.co.kr/pc-static-root/js/comm/msearch.js",
+      "status": 404,
+      "contentType": "text/html"
+    }
+  ],
+  "availablePlatformTools": [
+    "cloud_environment_onboarding_read_environment_config_draft",
+    "cloud_environment_onboarding_update_environment_config_draft"
+  ],
+  "sitesReadOrPublishToolsAvailable": false,
+  "localEnvironmentPresence": {
+    "OPENAI_API_KEY": false,
+    "KK_AI_GATEWAY_URL": false,
+    "KK_AI_GATEWAY_SECRET": false,
+    "NETLIFY_AUTH_TOKEN": false,
+    "CLOUDFLARE_API_TOKEN": false,
+    "RESEND_API_KEY": false
+  },
+  "publicationAuthorizedByUser": true,
+  "published": false
+}
