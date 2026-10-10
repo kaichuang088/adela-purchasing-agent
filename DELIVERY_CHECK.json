@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "a8f5047a918195c864c69f646f271b741d8b9e18",
+  "published": false,
+  "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "lastUserConfirmedSiteVersion": 29,
+  "trackedSourceFilesMatchingCommit": 1029,
+  "restoredFiles": 1053,
+  "allZipCrcPassed": true,
+  "allPackageAndFileHashesPassed": true,
+  "allSourcePartsUnder32MiB": true,
+  "databaseBackupIncluded": false,
+  "secretsIncluded": false
+}

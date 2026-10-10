@@ -1,0 +1,48 @@
+{
+  "release": "R19-local-unpublished",
+  "published": false,
+  "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "lastKnownSiteVersion": 29,
+  "lastKnownSiteRelease": "R17",
+  "baseSourceCommit": "836405042c07c141b48491b3dc81e09695e9f272",
+  "sourceCommit": "a8f5047a918195c864c69f646f271b741d8b9e18",
+  "sourceIdentity": "All source/ files exactly match this local Git commit; no remote push",
+  "onlineSourceCheck": "User reconfirmed v29 matching export; current URL responds 401 platform login, no Sites read/publish tool",
+  "netlifyPublication": "Not published; user must confirm Finalize then approve publish",
+  "publicReferenceFx": {
+    "midpoint": 0.023824,
+    "bankCashSelling": 0.02594,
+    "isApprovedTransactionFx": false
+  },
+  "remotePhotoAssets": "25 new matched Le Labo supplier photos bundled; unidentified collage product photos remain unresolved",
+  "databaseBackupIncluded": false,
+  "secretsIncluded": false,
+  "nodeModulesIncluded": false,
+  "generatedBuildCachesIncluded": false,
+  "frontend": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site",
+  "admin": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site/admin",
+  "tests": {
+    "pricing": 18,
+    "api": 21,
+    "migration": 4,
+    "r17": 22,
+    "previousR18_r17SSR": 9,
+    "previousR18_r16PriceCombinations": 644,
+    "previousR18_r16Photos": 3,
+    "photoQuoteMock": 20,
+    "previousR18_aiConfiguration": 8,
+    "aiRouteMock": 8,
+    "netlifyGatewayMock": 7,
+    "guardedCatalog": 14,
+    "leLaboCheckoutReferenceFx": 7,
+    "browserChecks": 84,
+    "screenshots": 78
+  },
+  "outstanding": [
+    "Catalog source/evidence for 216 of 234 source-seeded specs (stricter audit)",
+    "Le Labo final qualified prices; 32 internal comparison rows; 25 guarded product updates",
+    "Real AI provider/model and Netlify backend routing",
+    "Physical Web Push, Email delivery, unattended scheduling",
+    "Online migration and original private Sites publication"
+  ]
+}

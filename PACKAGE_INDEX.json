@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "a8f5047a918195c864c69f646f271b741d8b9e18",
+  "published": false,
+  "packages": [
+    {
+      "name": "Adela_R19_01_Source.zip",
+      "bytes": 22311886,
+      "files": 913,
+      "sha256": "6009a39d460e99c3050e9a63b98935130a3525050bcbff090cf7f08b216ff4e0"
+    },
+    {
+      "name": "Adela_R19_02_Assets.zip",
+      "bytes": 29348361,
+      "files": 74,
+      "sha256": "49fa7ed687bbfb622a5704eddd57e55ddfded6e7a88895c86f1a66da4c509ee4"
+    },
+    {
+      "name": "Adela_R19_03_Assets.zip",
+      "bytes": 29099802,
+      "files": 24,
+      "sha256": "345372b7b912d3c1034e8abdebcc4c8b161b4914675e4c0a09dd97bbeecd0a74"
+    },
+    {
+      "name": "Adela_R19_04_Assets.zip",
+      "bytes": 26995004,
+      "files": 30,
+      "sha256": "37fc50e623da1d532090d9f0e9b8e0fcec0f626e6f013fc0712ee387bc0ad78b"
+    },
+    {
+      "name": "Adela_R19_05_Assets.zip",
+      "bytes": 4950407,
+      "files": 12,
+      "sha256": "61743876acb77d51b9fd7a82fccaedf23469565124c5440ee2dcf2ba5217c42a"
+    }
+  ]
+}
