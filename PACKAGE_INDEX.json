@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "00ba5b94c3b5a5c8b4ad22e36ba255ee95216c5e",
+  "published": true,
+  "packages": [
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_01_Source.zip",
+      "bytes": 23037372,
+      "files": 894,
+      "sha256": "5b5f530e05f19be1c2110bed7689b34d66439d8d5611800df057180b64588418"
+    },
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_02_Source.zip",
+      "bytes": 1258340,
+      "files": 70,
+      "sha256": "320506ebd01a32d06fc407d214f9fd3fc48211c1ce0c53831fbd8544a8bc57fa"
+    },
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_03_Assets.zip",
+      "bytes": 29348361,
+      "files": 74,
+      "sha256": "2685d478ff91c594ae393f0c6ddacbe81543b9b43558562f2dc3bc2cc22a5618"
+    },
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_04_Assets.zip",
+      "bytes": 29099802,
+      "files": 24,
+      "sha256": "fbc0c2a3f0b36caeea782ef33d821a0d903155380f4cafdaf39750b548130c8c"
+    },
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_05_Assets.zip",
+      "bytes": 26995002,
+      "files": 30,
+      "sha256": "e3367d7193caa9ac92f458f4e10ad8e2c76eadb04712381b9e364f8ac3697468"
+    },
+    {
+      "name": "Adela_R20_Netlify_Draft_6aca9048_06_Assets.zip",
+      "bytes": 4950407,
+      "files": 12,
+      "sha256": "3579019513933e27193dc954df4467cc4735b3fd52d25f9a9a66c8b148204605"
+    }
+  ]
+}
