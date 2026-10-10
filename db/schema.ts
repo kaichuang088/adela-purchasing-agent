@@ -1,6 +1,6 @@
 // Recovered from the supplied SQL migrations; SQL migrations remain authoritative.
 import {sql} from 'drizzle-orm';
-import {sqliteTable,text,integer,real,index} from 'drizzle-orm/sqlite-core';
+import {sqliteTable,text,integer,real,index,uniqueIndex,check} from 'drizzle-orm/sqlite-core';
 export const orders = sqliteTable("orders", {
   id: integer("id").primaryKey({autoIncrement:true}).notNull(),
   orderNo: text("order_no").notNull(),
@@ -283,3 +283,10 @@ export const kkEmailOutbox = sqliteTable('kk_email_outbox', {
  createdAt:text('created_at').notNull().default(sql`CURRENT_TIMESTAMP`),
  acceptedAt:text('accepted_at'),
 },table=>[index('kk_email_outbox_due').on(table.state,table.nextAttemptMs,table.leaseUntilMs)]);
+
+export const kkCreditWithdrawals=sqliteTable('kk_credit_withdrawals',{
+ id:text('id').primaryKey().notNull(),memberId:text('member_id').notNull(),amountTwd:integer('amount_twd').notNull(),
+ bankCode:text('bank_code').notNull(),bankName:text('bank_name').notNull(),accountNumber:text('account_number').notNull(),accountName:text('account_name').notNull(),
+ note:text('note').notNull().default(''),status:text('status').notNull().default('requested'),sellerNote:text('seller_note').notNull().default(''),transferReference:text('transfer_reference').notNull().default(''),resolutionKey:text('resolution_key').notNull().default(''),
+ createdAt:text('created_at').notNull().default(sql`CURRENT_TIMESTAMP`),updatedAt:text('updated_at').notNull().default(sql`CURRENT_TIMESTAMP`),paidAt:text('paid_at'),
+},t=>[index('kk_credit_withdrawals_member').on(t.memberId,t.createdAt),uniqueIndex('kk_credit_withdrawals_open').on(t.memberId).where(sql`${t.status} IN ('requested','processing')`),check('kk_credit_withdrawals_positive',sql`${t.amountTwd}>0`),check('kk_credit_withdrawals_status',sql`${t.status} IN ('requested','processing','paid','rejected','cancelled')`)]);

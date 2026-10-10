@@ -1,0 +1,14 @@
+PASS 1: Preserves newer administrator edit for 71
+PASS 2: Preserves newer administrator edit for 79
+PASS 3: Preserves newer administrator edit for 80
+PASS 4: Preserves newer administrator edit for 81
+PASS 5: Preserves newer administrator edit for 82
+PASS 6: Replaces researched placeholder cost for 3 with real source price
+PASS 7: Replaces researched placeholder cost for 4 with real source price
+PASS 8: Replaces researched placeholder cost for 42 with real source price
+PASS 9: Replaces researched placeholder cost for 43 with real source price
+PASS 10: No products deleted or automatically published
+PASS 11: Exact 15/50/100 mL references and distinct source photos; no invented stock
+PASS 12: Hand lotion uses exact 250 mL public cost including qualifying domestic delivery
+PASS 13: Historical orders and wallet are untouched
+PASS 14: Concurrent application and repeated initialization are idempotent

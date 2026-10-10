@@ -10,13 +10,17 @@ export function catalogPriceParts(product:ShopProduct,goods:number,fee:number,si
  const ceiling=marketPriceCeiling(product,variantId);
  if(ceiling===null)return {ok:false as const,reason:'reference_missing' as const};
  const limit=ceiling===Number.MAX_SAFE_INTEGER?Infinity:ceiling*quantity;
- if(goods+size>limit)return {ok:false as const,reason:'cost_above_limit' as const};
  const target=productPriceTarget(product,variantId);
- if(target!==null&&target*quantity<goods+size)return {ok:false as const,reason:'target_below_cost' as const};
- const feeRoom=Math.min(limit,target===null?Infinity:target*quantity)-goods-size;
- // A lower member fee remains meaningful even when the market ceiling binds.
+ const bound=Math.min(limit,target===null?Infinity:target*quantity);
+ const originalCostTwd=goods+size;
+ // The owner requires a hard customer-price cap. Keep real cost separately;
+ // any shortfall is a store-funded discount, never a fictitious supplier price.
+ const storeDiscountTwd=Math.max(0,originalCostTwd-bound);
+ const goodsTwd=Math.max(0,goods-Math.max(0,storeDiscountTwd-size));
+ const sizeFeeTwd=Math.max(0,size-storeDiscountTwd);
+ const feeRoom=Math.max(0,bound-originalCostTwd);
  const feeTwd=Math.min(fee,Number.isFinite(feeRoom)?Math.floor(feeRoom*Math.min(1,Math.max(0,memberFactor))):fee);
- return {ok:true as const,goodsTwd:goods,feeTwd,sizeFeeTwd:size};
+ return {ok:true as const,goodsTwd,feeTwd,sizeFeeTwd,originalCostTwd,storeDiscountTwd};
 }
 export function productPriceTarget(product:ShopProduct,variantId?:string):number|null{
  const id=variantId||(product as ShopProduct&{selectedVariantId?:string}).selectedVariantId;

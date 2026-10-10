@@ -1,0 +1,18 @@
+PASS 1: Exactly 5% qualifies
+PASS 2: Below Taiwan but short of 5%, excess 1
+PASS 3: Same price warns
+PASS 4: Above Taiwan discloses both gaps
+PASS 5: Missing source never qualifies
+PASS 6: Different capacity never qualifies
+PASS 7: Different pack count never qualifies
+PASS 8: No implicit member price
+PASS 9: No implicit free Korean delivery
+PASS 10: Placeholder cost rejected
+PASS 11: Cost above limit is disclosed, not falsified
+PASS 12: Shopee excluded
+PASS 13: Exact top-up plans
+PASS 14: Fee reduced without lowering real goods cost
+PASS 15: Spec mismatch also blocks catalog price
+PASS 16: Expensive goods lower fee
+PASS 17: Member tiers lower fee
+PASS 18: Paid purchase frequency lowers fee

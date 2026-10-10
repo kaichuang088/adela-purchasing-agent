@@ -1,5 +1,9 @@
 # R19 AI 與通知現況（2026-10-10）
 
+> 2026-10-10 接手更新：已使用 Sites 讀取同一專案最新版本 29／R17 與原始碼，確認 HEAD 為 836405042c07c141b48491b3dc81e09695e9f272。R19 已整合、建置及隔離測試通過，但未發布；阻擋是完整線上 DB schema／遷移紀錄、安全可還原備份與原子遷移能力。下文原交接的「沒有 Sites 工具」屬上一輪歷史狀態。本輪實際結果以 TAKEOVER_R19_STATUS.md 為準，候選 commit 以分包根目錄 PROJECT_STATE.json 為準。
+
+本輪已實際讀取 Sites runtime revision 5：存在 ADMIN_PASSWORD、OPENAI_MODEL（gpt-6.1-sol）、SHOP_PUBLIC_URL、VAPID_PRIVATE_JWK、VAPID_PUBLIC_KEY。未見 OPENAI_API_KEY、AI Gateway 設定、RESEND_API_KEY 或 EMAIL_FROM。只有模型名稱與 VAPID 設定不能證明真實 AI 或通知送達；沒有修改秘密或設定。以下保留原交接研究與實作說明。
+
 本次能讀原始碼與公開採買來源，沒有 Sites／Netlify／Cloudflare 管理工具。原私人 Sites 的 `/api/system/status` 回應401平台登入頁，未取得當前原始碼、秘密綁定、後端 identity、訂閱、發送紀錄或排程紀錄。這是存取能力缺口，Sites 更新本身已獲使用者授權。
 
 ## 呼叫路徑及已修正問題

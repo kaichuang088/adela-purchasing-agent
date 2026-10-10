@@ -1,7 +1,8 @@
 "use client";
 import {orderTask} from '@/lib/admin-tasks';
 import {OrderTaskList} from './order-task-list';
-import {RefundCreditControls} from './refund-credit-controls';
+import {MemberCreditControls} from './member-credit-controls';
+import type {CreditWithdrawal} from '@/app/credit-wallet';
 import {VariantEvidenceFields} from "./variant-evidence-fields";
 import {PriceReview} from './price-review';
 import {CatalogReview} from "./catalog-review";
@@ -99,6 +100,7 @@ type AdminData = {
   exchange?:{rate:number}|null;
   topups:any[];
   refundCredits:any[];
+  creditWithdrawals:CreditWithdrawal[];
   procurement:any[];
   products: ShopProduct[];
   orders: ShopOrder[];
@@ -321,7 +323,7 @@ export default function OperationsApp() {
   return (
     <>
       <Toaster richColors position="top-right" />
-      <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','notify'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
+      <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','notify'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}{id==='members'&&(data!.creditWithdrawals||[]).some(r=>['requested','processing'].includes(r.status))?' · 有轉帳退款申請':''}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
       <main className="op-shell">
         <aside>
           <a className="op-brand" href="/">
@@ -329,7 +331,7 @@ export default function OperationsApp() {
           </a>
           <nav>
             {menus.map(([id, label, Icon]) => {
-              const count=id==='procurement'?data!.procurement.reduce((n,g)=>n+g.quantity,0):id==='messages'?data!.supportThreads.reduce((n,t)=>n+t.unread_admin,0):(id==='orders'||id==='notify')?data!.orders.filter(o=>!!orderTask(o)).length:0;
+              const count=id==='members'?(data!.creditWithdrawals||[]).filter(r=>['requested','processing'].includes(r.status)).length:id==='procurement'?data!.procurement.reduce((n,g)=>n+g.quantity,0):id==='messages'?data!.supportThreads.reduce((n,t)=>n+t.unread_admin,0):(id==='orders'||id==='notify')?data!.orders.filter(o=>!!orderTask(o)).length:0;
               return <Fragment key={id}>{['orders','products','members','settings'].includes(id)&&<span className="op-nav-heading">{a(id==='orders'?'每日工作':id==='products'?'商品與選品':id==='members'?'會員經營':'商店設定')}</span>}<button className={(tab===id?'active ':'')+(['orders','products','messages','notify'].includes(id)?'op-nav-primary':'op-nav-secondary')} onClick={()=>setTab(id)}>
                 <span className="adela-nav-icon"><Icon/>{count>0&&<strong className="op-unread-count" aria-label={a('未讀通知')+': '+count}>{count>99?'99+':count}</strong>}</span><span>{a(label)}</span>
               </button></Fragment>;
@@ -374,7 +376,7 @@ export default function OperationsApp() {
           <div className="op-content">
             {tab === "procurement" && <ProcurementList groups={data?.procurement||[]} send={async body=>{await api(body);await load();}}/>}
             {tab === "orders" && (
-              <><AdminTopups items={data?.topups||[]} send={async body=>{await api(body);await load();}}/>
+              <><details className="op-legacy-topups"><summary>舊儲值紀錄（已停止販售）</summary><AdminTopups items={data?.topups||[]} send={async body=>{await api(body);await load();}}/></details>
                 <div className="op-hero">
                   <div>
                     <p>ORDER DESK</p>
@@ -536,7 +538,7 @@ export default function OperationsApp() {
                     <span>{a("金鑽會員僅由後台授予，無消費門檻、代購費 0%，可貨到付款。消費與哩程只在收款確認後累計。")}</span>
                   </div>
                 </div>
-                <RefundCreditControls credits={data!.refundCredits||[]} members={data!.members} send={async body=>{await api(body);await load();}}/><div className="op-panel">
+                <div className="op-panel">
                   {data!.members.map((m) => (
                     <div className="op-member-row" key={m.id}>
                       <button
@@ -555,6 +557,7 @@ export default function OperationsApp() {
                         <strong>{m.miles}{a("哩程")}</strong>
                         <ChevronRight />
                       </button>
+                      <MemberCreditControls member={m} credits={(data!.refundCredits||[]).filter(c=>c.member_id===m.id)} requests={(data!.creditWithdrawals||[]).filter(r=>r.member_id===m.id)} send={async body=>{await api(body);await load();}}/>
                       <BuyerChat
                         memberId={m.id}
                         name={m.name}

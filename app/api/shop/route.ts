@@ -1,3 +1,4 @@
+import {creditWithdrawals,requestCreditWithdrawal,resolveCreditWithdrawal} from '@/lib/credit-withdrawals';
 import {topups,createTopup,reportTopup} from '@/lib/topups';
 import {creditBalance,couponWallet,claimCoupon,urgentRemaining} from '@/lib/wallet';
 import {advancePurchasing} from '@/lib/order-scheduler';
@@ -19,7 +20,7 @@ export async function GET(request:Request){try{
  const ledger=member?(await rawDb().prepare('SELECT * FROM kk_ledger WHERE member_id=? ORDER BY id DESC LIMIT 100').bind(member.id).all()).results:[];
  const thread=member?await rawDb().prepare('SELECT unread_member FROM kk_support_threads WHERE member_id=?').bind(member.id).first():null;
  const withinWindow=!!config.orderOpensAt&&!!config.orderClosesAt&&Date.now()>=Date.parse(config.orderOpensAt)&&Date.now()<Date.parse(config.orderClosesAt);
- return privateJson({topups:member?await topups(member.id):[],wallet:member?await couponWallet(member):[],creditTwd:member?await creditBalance(member.id):0,urgentRemaining:await urgentRemaining(config.orderOpensAt+'|'+config.orderClosesAt),unreadChat:Number(thread?.unread_member)||0,fees:config.fees,shippingByTier:config.shippingByTier,shopPaused:config.shopPaused||!withinWindow,photoQuotesPaused:config.photoQuotesPaused,pauseMessage:config.shopPaused?config.pauseMessage:'韓國代購尚未開放或本期已截止下單；既有訂單仍可查詢。 / Korean orders are not currently open.',bank:{name:config.bankName,code:config.bankCode,account:config.bankAccount,accountName:config.bankAccountName},enabledCountries:config.enabledCountries,arrivalWindow:config.arrivalWindow,member,signedIn:!!(await identity(request)),products:ps,offers:os.filter(o=>live(o)&&!o.code&&(!o.memberId||o.memberId===member?.id)&&(!o.memberEmail||o.memberEmail===member?.email)),orders:await Promise.all(orders.map(orderBundle)),messages,ledger,paymentInstructions:config.paymentInstructions,exchange:await exchange({preferCached:true}).catch(()=>null)});
+ return privateJson({creditWithdrawals:member?await creditWithdrawals(member.id):[],topups:member?await topups(member.id):[],wallet:member?await couponWallet(member):[],creditTwd:member?await creditBalance(member.id):0,urgentRemaining:await urgentRemaining(config.orderOpensAt+'|'+config.orderClosesAt),unreadChat:Number(thread?.unread_member)||0,fees:config.fees,shippingByTier:config.shippingByTier,shopPaused:config.shopPaused||!withinWindow,photoQuotesPaused:config.photoQuotesPaused,pauseMessage:config.shopPaused?config.pauseMessage:'韓國代購尚未開放或本期已截止下單；既有訂單仍可查詢。 / Korean orders are not currently open.',bank:{name:config.bankName,code:config.bankCode,account:config.bankAccount,accountName:config.bankAccountName},enabledCountries:config.enabledCountries,arrivalWindow:config.arrivalWindow,member,signedIn:!!(await identity(request)),products:ps,offers:os.filter(o=>live(o)&&!o.code&&(!o.memberId||o.memberId===member?.id)&&(!o.memberEmail||o.memberEmail===member?.email)),orders:await Promise.all(orders.map(orderBundle)),messages,ledger,paymentInstructions:config.paymentInstructions,exchange:await exchange({preferCached:true}).catch(()=>null)});
  }catch(e){return failure(e);}}
 export function failure(e:unknown){console.error('shop',e);return privateJson({error:e instanceof ShopError?e.message:'操作暫時無法完成，請重試。 / Please try again.'},e instanceof ShopError?e.status:503);}
 export async function POST(request:Request){try{
@@ -31,8 +32,10 @@ export async function POST(request:Request){try{
   return privateJson({ok:true,member:await currentMember(request)});
  }
  const member=(await currentMember(request,true))!;
- if(body.action==='create_topup'){return privateJson({ok:true,topup:await createTopup(member.id,Number(body.amount),String(body.id||''))});}
- if(body.action==='report_topup'){await reportTopup(member.id,String(body.id||''),String(body.reference||''));return privateJson({ok:true});}
+ if(body.action==='create_topup'){throw new ShopError('已停止販售儲值商品；既有餘額仍可使用或申請轉帳退款。',410);}
+ if(body.action==='report_topup'){throw new ShopError('已停止新增儲值匯款；如曾付款請聯絡賣家處理。',410);}
+ if(body.action==='request_credit_withdrawal'){return privateJson({ok:true,withdrawal:await requestCreditWithdrawal(member.id,body)});}
+ if(body.action==='cancel_credit_withdrawal'){await resolveCreditWithdrawal(String(body.id||''),'cancelled','','',member.id);return privateJson({ok:true});}
  if(body.action==='claim_coupon'){await claimCoupon(member,String(body.code||''),body.offerId?Number(body.offerId):undefined);return privateJson({ok:true});}
  if(body.action==='price_revision'){await acceptRevision(String(body.id),member.id,body.accept===true);return privateJson({ok:true});}
  if(body.action==='read'){await db.prepare('UPDATE kk_messages SET read_at=? WHERE member_id=? AND read_at IS NULL').bind(new Date().toISOString(),member.id).run();return privateJson({ok:true});}

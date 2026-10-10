@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "tests": 29,
+    "catalog": 14,
+    "ai": 8,
+    "gateway": 7,
+    "photo": 20
+  },
+  "tsc": "passed",
+  "productionBuild": "passed",
+  "browserRerun": false,
+  "providerCalls": "mock only",
+  "liveFinancialWrites": false
+}

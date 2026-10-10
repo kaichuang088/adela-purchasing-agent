@@ -1,0 +1,115 @@
+PASS 1: Server ignores forged bonus, coupons and wallet funding
+PASS 2: 5000 grants exactly 600
+shop H [Error]: 儲值請求已變更，請重新操作。
+    at E (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-DcfPATWg.js:1:1136)
+    at async Object.F [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-DcfPATWg.js:1:6761)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+shop H [Error]: 儲值請求已變更，請重新操作。
+    at E (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-DcfPATWg.js:1:1136)
+    at async Object.F [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-DcfPATWg.js:1:6761)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 3: Cannot reuse id for another amount or member
+PASS 4: Concurrent requests create one top-up
+PASS 5: Retry preserves old pending bonus 200
+PASS 6: Historical top-up credits its recorded 200 once
+PASS 7: New policy never rewrites old confirmed row
+PASS 8: General save passes exactly 5%
+shop H [Error]: 上架價格檢查未通過：50mL × 1：價差不足 5%；超出售價上限 NT$1。 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 9: General save blocks less than 5%
+shop H [Error]: 上架價格檢查未通過：50mL × 1：售價等於或高於台灣；高出 NT$0，超出售價上限 NT$50。 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 10: General save blocks same price
+shop H [Error]: 上架價格檢查未通過：50mL × 1：售價等於或高於台灣；高出 NT$100，超出售價上限 NT$150。 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 11: General save blocks higher than Taiwan
+shop H [Error]: 上架價格檢查未通過：50mL × 1：缺少：有效台灣來源（不得使用蝦皮）、台灣價格、台灣來源查核日期 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 12: General save rejects missing Taiwan evidence
+shop H [Error]: 上架價格檢查未通過：50mL × 1：商品與台灣來源規格不一致，不能作為已符合的比較。 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 13: General save rejects spec mismatch
+shop H [Error]: 上架價格檢查未通過：50mL × 1：缺少：已計入必要韓國運費的確認 可先儲存草稿，完成依據後再上架。
+    at _ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/product-categories-DuTIDJ8U.js:1:4862)
+    at async $ (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:19237)
+    at async Object.ne [as handlerFn] (file:///workspace/sites/adela-r19-live/dist/server/_next/static/route-2_fNxAqQ.js:1:23361)
+    at async at (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18300)
+    at async ot (file:///workspace/sites/adela-r19-live/dist/server/_next/static/app-route-handler-dispatch-BolSHo0Z.js:1:18586)
+    at async jo.route (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26389)
+    at async t (file:///workspace/sites/adela-r19-live/dist/server/index.js:2:26598)
+    at async Zm (file:///workspace/sites/adela-r19-live/dist/server/index.js:14:174719)
+    at async Object.fetch (file:///workspace/sites/adela-r19-live/dist/server/index.js:16:296) {
+  status: 409
+}
+PASS 14: General save rejects unverified necessary freight
+PASS 15: Incomplete draft is saved with warning, never approved
+PASS 16: Published price equals checkout line before shipping
+PASS 17: Unpaid and cancelled purchases never increase loyalty frequency
+PASS 18: In-site top-up confirmation uses saved 600 bonus
+PASS 19: Batch AI cannot bypass source/spec/freight evidence
+PASS 20: Batch approval uses same valid price check
+PASS 21: Batch approval remains single-use

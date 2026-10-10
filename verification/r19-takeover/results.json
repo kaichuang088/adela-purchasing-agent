@@ -1,0 +1,102 @@
+[
+  {
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "exitCode": 0,
+    "seconds": 7.37,
+    "log": "00.log"
+  },
+  {
+    "command": [
+      "node",
+      "/root/.codex/plugins/cache/openai-curated-remote/sites/1.0.0/scripts/build-site.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 8.78,
+    "log": "01.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r19-catalog.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.62,
+    "log": "02.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r19-lelabo-checkout.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 1.33,
+    "log": "03.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r19-ai-routes.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 1.95,
+    "log": "04.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r19-netlify-gateway.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.12,
+    "log": "05.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-photo-quotes.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 1.81,
+    "log": "06.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r18-api.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 1.6,
+    "log": "07.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r18-pricing.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.12,
+    "log": "08.log"
+  },
+  {
+    "command": [
+      "python",
+      "scripts/verify-r18-migration.py"
+    ],
+    "exitCode": 0,
+    "seconds": 0.03,
+    "log": "09.log"
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-r17.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 1.74,
+    "log": "10.log"
+  }
+]

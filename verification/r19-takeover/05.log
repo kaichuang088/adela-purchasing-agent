@@ -1,0 +1,7 @@
+PASS 1: Wrong gateway authorization never reaches provider
+PASS 2: Missing provider credentials cannot be called connected
+PASS 3: Invalid insecure provider endpoint rejected before send
+PASS 4: Mismatched model does not silently override backend request
+PASS 5: Matching model uses correct Responses path and only provider authorization
+PASS 6: Read requests cannot trigger provider usage
+PASS 7: Transport failure is explicit, no false successful reply

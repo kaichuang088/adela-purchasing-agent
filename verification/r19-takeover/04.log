@@ -1,0 +1,8 @@
+PASS 1: direct: model check uses requested endpoint, model and exclusive authorization
+PASS 2: direct: AI product never trusts provider confirmation flags
+PASS 3: direct: batch carries exact evidence as unverified draft
+PASS 4: direct: admin command uses same connection and makes no product changes
+PASS 5: gateway: model check uses requested endpoint, model and exclusive authorization
+PASS 6: gateway: AI product never trusts provider confirmation flags
+PASS 7: gateway: batch carries exact evidence as unverified draft
+PASS 8: gateway: admin command uses same connection and makes no product changes

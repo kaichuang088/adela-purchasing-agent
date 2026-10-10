@@ -11,7 +11,7 @@ export function catalogIssues(products:ShopProduct[],rate?:number):Issue[]{
   return (p.variants.length?p.variants:[undefined]).flatMap(v=>{
    const source=v||p,ceiling=marketPriceCeiling(p,v?.id),cost=rate?Math.ceil((v?.priceJpy??p.priceJpy)*rate):null;
    let reason=ceiling===null?'缺少同規格台灣價格、來源或查核日期':!rate?'匯率尚未取得':cost===null?'成本尚待核對':'';
-   if(!reason&&cost!==null){const r=catalogPriceParts(p,cost,0,Math.ceil(p.sizeFeeTwd),1,v?.id);if(!r.ok)reason=r.reason==='target_below_cost'?'手動售價上限低於實際成本':'實際成本高於台灣價格的 95%，需更換貨源或重核規格';}
+   if(!reason&&cost!==null){const r=catalogPriceParts(p,cost,0,Math.ceil(p.sizeFeeTwd),1,v?.id);if(!r.ok)reason='缺少同規格比較資料';else if(r.storeDiscountTwd>0)reason='售價已符合 5% 規則；店家吸收 NT$'+r.storeDiscountTwd+'，代購費為 0 元';}
    if(!reason){const review=productPriceReview(p,rate||0,v?.id);if(!review.ok)reason=priceReviewMessage(review);}
    if(!reason&&source.stock===0)reason='來源缺貨，尚未恢復供貨';
    return reason?[{product:p,option:v?.labelZh||'',reason,cost,ceiling:ceiling===Number.MAX_SAFE_INTEGER?null:ceiling}]:[];

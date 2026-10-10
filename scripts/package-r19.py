@@ -28,13 +28,13 @@ for p in sorted((handoff / "attachments").rglob("*")):
     if p.is_file():
         files["attachments/" + p.relative_to(handoff / "attachments").as_posix()] = p.read_bytes()
 state = {
-    "release": "R19-local-unpublished", "published": False,
+    "release": "R19-takeover-unpublished", "published": False,
     "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
     "lastKnownSiteVersion": 29, "lastKnownSiteRelease": "R17",
     "baseSourceCommit": "836405042c07c141b48491b3dc81e09695e9f272",
     "sourceCommit": commit,
-    "sourceIdentity": "All source/ files exactly match this local Git commit; no remote push",
-    "onlineSourceCheck": "User reconfirmed v29 matching export; current URL responds 401 platform login, no Sites read/publish tool",
+    "sourceIdentity": "All source/ files exactly match this prepared source Git commit; no Site version saved or deployed",
+    "onlineSourceCheck": "Sites latest version 29 and source HEAD verified directly as baseline; database backup/schema/migration prerequisites blocked publication",
     "netlifyPublication": "Not published; user must confirm Finalize then approve publish",
     "publicReferenceFx": {"midpoint": 0.023824, "bankCashSelling": 0.02594, "isApprovedTransactionFx": False},
     "remotePhotoAssets": "25 new matched Le Labo supplier photos bundled; unidentified collage product photos remain unresolved",
@@ -47,7 +47,7 @@ state = {
               "photoQuoteMock": 20, "previousR18_aiConfiguration": 8,
               "aiRouteMock": 8, "netlifyGatewayMock": 7, "guardedCatalog": 14,
               "leLaboCheckoutReferenceFx": 7,
-              "browserChecks": 84, "screenshots": 78},
+              "inheritedBrowserChecks": 84, "inheritedScreenshots": 78, "browserRerunThisTurn": False, "currentIsolatedChecksPassed": 121},
     "outstanding": ["Catalog source/evidence for 216 of 234 source-seeded specs (stricter audit)",
                     "Le Labo final qualified prices; 32 internal comparison rows; 25 guarded product updates",
                     "Real AI provider/model and Netlify backend routing",
@@ -55,15 +55,15 @@ state = {
                     "Online migration and original private Sites publication"],
 }
 files["PROJECT_STATE.json"] = (json.dumps(state, ensure_ascii=False, indent=2) + "\n").encode()
-files["README_FIRST.md"] = f"""# Adela R19 本機修正版，尚未發布
+files["README_FIRST.md"] = f"""# Adela R19 接手驗證候選版，尚未發布
 
 本機原始碼 commit：{commit}
 原私人 Site：第29版／R17；沒有新 Site 版本。前後台網址仍是原版本。
-先讀 source/RECOVERY_R19_20261010.md、source/CATALOG_R19_GAPS.md、
+先讀 source/TAKEOVER_R19_STATUS.md、source/RECOVERY_R19_20261010.md、source/CATALOG_R19_GAPS.md、
 source/LE_LABO_R19_REVIEW.md、source/AI_AND_NOTIFICATIONS_R19.md、
 source/PERSONAL_ACCOUNT_HANDOFF.md。安裝、建置、測試、遷移及未完成事項都在內。
 
-下載本次所有 Adela_R19_* ZIP 與 SHA256SUMS.txt、FILE_MANIFEST.json、RESTORE.md、restore.py。
+下載本次所有 Adela_R19_Takeover_* ZIP 與 SHA256SUMS.txt、FILE_MANIFEST.json、RESTORE.md、restore.py。
 每包是完整可獨立解壓的 ZIP，請全部解到同一個空目錄，不是二進位切片，不要串接檔案。
 不要覆蓋仍有未提交修改的 checkout 或直接把舊交接蓋到較新的 Site。
 以 python restore.py --destination ./Adela_R19 還原並核對每包 SHA256／CRC、每檔 SHA256。
@@ -143,7 +143,7 @@ if assets:
     groups.append(assets)
 packages = []
 for i, names in enumerate(groups, 1):
-    name = f"Adela_R19_{i:02d}_{'Source' if i <= source_group_count else 'Assets'}.zip"
+    name = f"Adela_R19_Takeover_{i:02d}_{'Source' if i <= source_group_count else 'Assets'}.zip"
     path = out / name
     with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for member in names:
