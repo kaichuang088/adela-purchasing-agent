@@ -30,20 +30,27 @@ manifest 共 1,079 檔已核對；其中 1,052 個 source/ 檔案位元組完全
 
 ## 帳號、權限與待完成條件
 
-使用者已要求發布最新版前台，部署授權仍須來自其選定的 **另一個 Netlify 帳號**。
-該帳號必須有既有前台專案的部署權限；此 Chat 的 Google 帳號不會成為 Netlify
-部署身分。若專案屬於其他帳號，先確認團隊權限或另外安排正式轉移，不能偷偷新建替代站。
+使用者已明確授權 Netlify 發布，並完成官方 CLI OAuth 登入。既有前台 site ID
+為 `5bddbf98-7e39-4173-a0d9-9759be24fbc9`，後台為
+`ceb0a789-be1d-4465-a2c8-97451ae06717`，所選帳號可存取兩者。
+不需要重複詢問發布許可。登入狀態只存在原始碼之外的工具設定，交付不含登入憑證。
 
-`NETLIFY_AUTH_TOKEN` 尚未注入。本環境對 `api.netlify.com` 和兩個既有 Netlify
-站的 HTTPS CONNECT 被網路代理拒絕 403；這不是目標網站本身的 HTTP 狀態。
-因此目前沒有讀到 Netlify owner、site ID、既有設定或線上後端內容。
+2026-10-11 重新查核：Netlify API、官方文件與前台已可連線。前台正式首頁仍是舊 KK
+標題；`/api/shop` 可讀取 14 個舊格式商品。`/api/system/status` 回 404，後台站回401。
+兩個專案的 `KK_BACKEND_URL` 都是
+`https://kk-purchasing-agent.kaichuang0808.workers.dev`；與 Sites 同一 DB 尚未核實。
+舊 payload 缺少 R20 `creditWithdrawals`、`creditTwd`、`photoQuotesPaused` 等欄位。
+本次 Netlify proxy 對舊格式商品回503，且在任何資料寫入前先驗證 R20 payload，
+防止新版 checkout 或退款指令送入舊 API。15項隔離 proxy/Gateway 測試通過。
 
-環境草稿已保留原設定並加入 Netlify API／官方文件／兩個站的必要網域，
-`NETLIFY_AUTH_TOKEN` 為 user-provided 安全需求，目的地限 `api.netlify.com`。
-使用者須在環境設定安全填入所選帳號權杖並儲存／發布；草稿儲存不等於已套用。
-`NETLIFY_SITE_ID` 可暫留空，現有前台域名已知，接通 API 後查出實際 ID。
+環境草稿保留原網路設定並加入已查明的 Worker 網域；草稿不是執行中設定。
+直接連 Worker 仍遭環境代理拒絕403，但經現有 Netlify `/api/shop` 已得到上述證據。
+不會因這個阻礙新建資料庫、切換後端或修改現有會員資料。
 
-接通後必須先讀既有 `KK_BACKEND_URL`，確認 API 可用、R20 資料結構及同一個 backendId。
+先部署同一前台專案的 draft 測試版，正式域名暫不替換，直到確認後端相容。
+Cloudflare 帳號登入尚未取得，該平台的 R20 更新與 DB 保留步驟須另外處理。
+
+已讀到既有 `KK_BACKEND_URL`；接續必須，確認 API 可用、R20 資料結構及同一個 backendId。
 前台或後台的網頁網址不能直接當成真實資料後端。原私人 Sites API 一般請求回 401；
 不能假冒平台登入或偽造身份 header 繞過。若既有 backend 未具備 R20 行為，先提出
 具體差異及必要更新，不發布會導致前台／結帳金額不一致的配置。
@@ -51,7 +58,7 @@ manifest 共 1,079 檔已核對；其中 1,052 個 source/ 檔案位元組完全
 ## 接續部署
 
 先安全驗證 Netlify 帳號、前台 project ID、所有權及既有 backend 設定。
-不要把 token 放到命令列 `--auth`、Git、ZIP 或聊天。工具會讀安全注入的環境變數。
+不要把 token 放到命令列 `--auth`、Git、ZIP 或聊天。工具會使用官方登入狀態或安全注入的環境變數。
 
 ```bash
 cd /workspace/adela-purchasing-agent
@@ -72,11 +79,17 @@ ZIP 仍不等於線上資料庫備份。當前沒有完成 Netlify production de
 
 ## AI 與免費方式
 
-Netlify 官方 `@netlify/ai@1.0.1` SDK 已經由 npm 下載並通過官方 SHA512 integrity。
-它實作取得 site/account AI Gateway token 與 provider 端點的流程，證明 Netlify 有
-由平台提供 gateway 授權的方案；使用者不一定要自行取得 OpenAI API key。
-這不證明其特定帳號的免費額度、計價、模型可用性或本網站已連通。
-官方來源：<https://github.com/netlify/primitives/tree/main/packages/ai>。
+官方文件與帳號 API 已核實 Free (`credit-free`) 方案：每月300 credits，
+檢查時已用0；`auto_topup_enabled=false`、無付款方式、不可累積超額費用。
+AI Gateway 功能開啟，provider 清單含 `gpt-6.1-sol`。網站部署、流量、compute與AI
+共用配額；不是無限免費，不能升級、買額度或啟用自動加值。
+官方文件：<https://docs.netlify.com/build/ai-gateway/overview/>、
+<https://www.netlify.com/pricing/>。
+
+已用平台正式授權對 `gpt-6.1-sol` 發送一個最多64輸出tokens的真實小範圍请求：
+直接 Gateway 路徑回403 `free_direct_disabled`，沒有模型回傳或成功輸出，額度仍為0。
+免費方案須再測試經 Netlify Function 的呼叫路徑；這次失敗不能算 AI 已啟用。
+詳見 `verification/netlify-r20/provider-direct-test.json`。
 
 前台客服／照片查價、後台 AI 新增／編輯／批次都需要共用後端真的成功呼叫 provider。
 單獨發布後台 HTML 不會啟用 AI；部署 Netlify 前台也不會自動配置 Sites 的 AI bindings。

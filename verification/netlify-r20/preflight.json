@@ -6,10 +6,14 @@
   "netlifyProductionPublished": false,
   "topupSalesEnabled": false,
   "genuineBackendVerified": false,
-  "netlifyCredentialPresent": false,
-  "observedNetlifyNetworkResult": "HTTPS CONNECT denied 403 by environment egress proxy; target sites not reached",
+  "netlifyCredentialPresent": true,
+  "observedNetlifyNetworkResult": "Netlify API reachable; OAuth account login completed; production /api/shop HTTP 200 with legacy 14-product payload",
   "providerConnectionVerified": false,
-  "freeAiQuotaVerified": false,
+  "freeAiQuotaVerified": true,
   "brand": "Adela's Purchasing Agent",
-  "functionBundleSha256": "a4c9bf9874d2211ecd4aee3d1957569131a7ce7bd846ed7c4822de619b2bd244"
+  "functionBundleSha256": "a4c9bf9874d2211ecd4aee3d1957569131a7ce7bd846ed7c4822de619b2bd244",
+  "netlifyFrontendSiteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+  "legacyBackendDetected": true,
+  "zeroPaymentRequired": true,
+  "productionReplacementBlockedBy": "R20 backend compatibility and original DB identity not verified"
 }

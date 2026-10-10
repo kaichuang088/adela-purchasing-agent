@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-10T19:17:42.459Z",
+  "accountId": "6a9413a2cdc8b13fed799c35",
+  "slug": "kc4study",
+  "type_name": "Free",
+  "type_slug": "credit-free",
+  "auto_topup_enabled": false,
+  "has_stripe_payment_method": false,
+  "ai_usage_enabled_setting": "enabled",
+  "ai_gateway_available_on_plan": true,
+  "plan_credits": 300,
+  "ai_usage_limit_credits": null,
+  "ai_usage_limit_enforced": false,
+  "credit_features": {
+    "included": true
+  },
+  "credits": {
+    "included": 300,
+    "used": 0
+  },
+  "accumulate_overages": {
+    "included": false
+  },
+  "ai_gateway_disabled": {
+    "included": false
+  }
+}

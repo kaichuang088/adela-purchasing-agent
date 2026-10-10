@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-10T19:18:19.652Z",
+  "kind": "real-provider-request-via-Netlify-AI-Gateway",
+  "websiteEndToEndVerified": false,
+  "endpoint": "https://kk-purchasing-agent-shop.netlify.app/.netlify/ai/v1/responses",
+  "httpStatus": 403,
+  "requestedModel": "gpt-6.1-sol",
+  "actualModel": null,
+  "responseId": null,
+  "responseStatus": null,
+  "usage": null,
+  "error": {
+    "code": "free_direct_disabled",
+    "type": "disabled"
+  },
+  "output": "",
+  "freeOnly": {
+    "plan": "credit-free",
+    "autoTopupEnabled": false,
+    "overagesAllowed": false,
+    "includedCredits": 300,
+    "reportedUsedCredits": 0
+  }
+}

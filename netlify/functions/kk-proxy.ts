@@ -1,5 +1,15 @@
 declare const Netlify: { env: { get(name:string):string|undefined } };
 
+function r20ShopResponse(value:unknown):boolean {
+  if(!value || typeof value!=="object" || Array.isArray(value))return false;
+  const data=value as Record<string,unknown>;
+  return Array.isArray(data.creditWithdrawals) && Array.isArray(data.topups)
+    && typeof data.creditTwd==="number" && typeof data.photoQuotesPaused==="boolean";
+}
+function incompatibleBackend(){
+  return Response.json({error:"共用後端尚未完成 R20 更新，商品、結帳與退款暫時無法使用。既有資料與餘額未變更。 / The shared backend requires the R20 update."},{status:503,headers:{"Cache-Control":"no-store"}});
+}
+
 // Both Netlify sites use the same externally deployed Cloudflare backend.
 // No database, admin password, or AI key is copied to the browser bundle.
 export default async function proxy(request:Request) {
@@ -37,7 +47,14 @@ export default async function proxy(request:Request) {
   const headers=new Headers();
   for(const name of ["content-type","accept","cookie","x-kk-admin-password"]) {const value=request.headers.get(name);if(value)headers.set(name,value);}
   try {
+    // Do not send R20 purchases, refunds or account writes to the legacy backend.
+    // The anonymous shop payload contains these fields in every R20 response.
+    if(!["GET","HEAD","OPTIONS"].includes(request.method)){
+      const compatibility=await fetch(new URL("/api/shop",backend.origin),{headers:{Accept:"application/json"},redirect:"manual",signal:AbortSignal.timeout(15000)});
+      if(!compatibility.ok || !r20ShopResponse(await compatibility.json().catch(()=>null)))return incompatibleBackend();
+    }
     const response=await fetch(destination,{method:request.method,headers,body:["GET","HEAD"].includes(request.method)?undefined:await request.arrayBuffer(),redirect:"manual",signal:AbortSignal.timeout(55000)});
+    if(request.method==="GET" && incoming.pathname==="/api/shop" && response.ok && !r20ShopResponse(await response.clone().json().catch(()=>null)))return incompatibleBackend();
     if(response.status===302 && incoming.pathname==="/api/media/catalog-demo") return Response.redirect(new URL("/kk-hero.png",incoming.origin),302);
     if(response.status>=300&&response.status<400)return Response.json({error:"共用服務回傳登入轉址，請檢查後端的服務存取設定。"},{status:502});
     const resultHeaders=new Headers();
