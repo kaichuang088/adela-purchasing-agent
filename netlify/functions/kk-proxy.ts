@@ -69,4 +69,5 @@ export default async function proxy(request:Request) {
     return new Response(response.body,{status:response.status,headers:resultHeaders});
   }catch{return Response.json({error:"共用服務連線逾時，請稍後再試；已建立的單號仍可查詢。"},{status:503});}
 }
-export const config={path:["/api/*","/request/*"]};
+// Image evidence searches need more than the default 30-second invocation window.
+export const config={path:["/api/*","/request/*"],timeout:60};
