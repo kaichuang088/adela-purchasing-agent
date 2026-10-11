@@ -1,4 +1,4 @@
 {
-  "checks": 15,
+  "checks": 19,
   "scope": "Mock Netlify globals and mock provider; no deployment or actual live provider/model verification"
 }
