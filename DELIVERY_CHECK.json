@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "3c015228665f9b3e91196dae7b61ee4a4cf4f4f6",
+  "draftDeploys": [
+    "6acb3a4ab69e96d75f629e14",
+    "6acb3a6b07a5516d8523067e"
+  ],
+  "allPackagesBelow32MiB": true,
+  "zipCRC": "passed",
+  "completeRestoredFiles": 1158,
+  "exactGitSourceFiles": 1124,
+  "sourceBytesEqualCommit": true,
+  "databaseBackupIncluded": false
+}

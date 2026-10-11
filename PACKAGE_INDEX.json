@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "3c015228665f9b3e91196dae7b61ee4a4cf4f4f6",
+  "published": true,
+  "packages": [
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_01_Source.zip",
+      "bytes": 22979927,
+      "files": 913,
+      "sha256": "92a610d3fe123e20f9cc0253695d99f81c7633e17d2eddc93ea4dcb3be73e6bb"
+    },
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_02_Source.zip",
+      "bytes": 3446905,
+      "files": 105,
+      "sha256": "a0d30685a4f52208f57b8b8b649c59f3d0136a4730838d95df78786c8e39003a"
+    },
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_03_Assets.zip",
+      "bytes": 29348361,
+      "files": 74,
+      "sha256": "2685d478ff91c594ae393f0c6ddacbe81543b9b43558562f2dc3bc2cc22a5618"
+    },
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_04_Assets.zip",
+      "bytes": 29099802,
+      "files": 24,
+      "sha256": "fbc0c2a3f0b36caeea782ef33d821a0d903155380f4cafdaf39750b548130c8c"
+    },
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_05_Assets.zip",
+      "bytes": 26995002,
+      "files": 30,
+      "sha256": "e3367d7193caa9ac92f458f4e10ad8e2c76eadb04712381b9e364f8ac3697468"
+    },
+    {
+      "name": "Adela_Netlify_Front_Admin_Drafts_20261011_06_Assets.zip",
+      "bytes": 4950407,
+      "files": 12,
+      "sha256": "3579019513933e27193dc954df4467cc4735b3fd52d25f9a9a66c8b148204605"
+    }
+  ]
+}
