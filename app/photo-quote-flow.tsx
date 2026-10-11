@@ -19,7 +19,17 @@ export function PhotoQuoteFlow({en,diamond=false,enabledCountries=['KR'],onClose
  const t=useStoreText(en);
  const busy=['uploading','identifying','quoting','buying'].includes(stage);
  useEffect(()=>{if(!file)return;const url=URL.createObjectURL(file);setPreview(url);return()=>URL.revokeObjectURL(url);},[file]);
- async function api(body:object|FormData){const response=await fetch('/api/photo-quotes',{method:'POST',headers:body instanceof FormData?undefined:{'Content-Type':'application/json'},body:body instanceof FormData?body:JSON.stringify(body)});const value=await response.json() as {id:string;analysis:ProductAnalysis;pricing:Pricing;order:ShopOrder;error?:string};if(!response.ok)throw new Error(value.error||t('連線失敗，請重試。','Connection failed. Please retry.'));return value;}
+ async function api(body:object|FormData){
+  const response=await fetch('/api/photo-quotes',{method:'POST',headers:body instanceof FormData?{Accept:'application/vnd.adela.photo-result+json'}:{'Content-Type':'application/json'},body:body instanceof FormData?body:JSON.stringify(body)});
+  const received=await response.json() as {status?:number;result?:unknown};
+  const pendingEnvelope=response.headers.get('content-type')?.includes('application/vnd.adela.photo-result+json');
+  const status=pendingEnvelope?received.status:response.status;
+  if(typeof status!=='number'||!Number.isInteger(status)||status<200||status>599)throw new Error(t('查價結果不完整，請重試。','Incomplete research response. Please retry.'));
+  const value=(pendingEnvelope?received.result:received) as {id:string;analysis:ProductAnalysis;pricing:Pricing;order:ShopOrder;error?:string};
+  if(status>=300)throw new Error(value?.error||t('連線失敗，請重試。','Connection failed. Please retry.'));
+  if(body instanceof FormData&&(!value.id||!value.analysis||!value.pricing))throw new Error(t('查價結果不完整，請重試。','Incomplete research response. Please retry.'));
+  return value;
+ }
  function discard(){const id=draft.current;draft.current='';if(id)void fetch('/api/photo-quotes',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'discard',id})}).catch(()=>undefined);}
  function close(){if(stage==='buying')return;closed.current=true;discard();onClose();}
  async function identify(selected:File){if(running.current)return;running.current=true;setError('');try{

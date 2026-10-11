@@ -37,5 +37,14 @@ try{
  globalThis.fetch=async(url,init={})=>{if(init.method==='POST'){writes++;return Response.json({ok:true});}return Response.json(modern);};
  const good=await proxy(shopReq());check(good.status===200 && (await good.json()).photoQuotesPaused===false,'R20 catalog passes without altering prices or snapshots');
  check((await proxy(shopReq('POST'))).status===200 && writes===1,'Compatible R20 backend receives the requested write once');
+ const photoRequest=()=>new Request('https://isolated-netlify.test/api/photo-quotes',{method:'POST',headers:{'Content-Type':'multipart/form-data; boundary=synthetic','Accept':'application/vnd.adela.photo-result+json'},body:'Synthetic photo request'});
+ for(const status of [401,422,503]){
+  globalThis.fetch=async(url,init={})=>init.method==='POST'?Response.json({error:'Synthetic rejected research'},{status}):Response.json(modern);
+  const pending=await proxy(photoRequest()),final=await pending.json();
+  check(pending.status===202&&final.status===status&&final.result.error==='Synthetic rejected research','Pending photo envelope preserves final failure '+status);
+ }
+ globalThis.fetch=async(url,init={})=>init.method==='POST'?Response.json({id:'synthetic-draft',analysis:{},pricing:{totalTwd:100}},{status:201}):Response.json(modern);
+ const photo=await proxy(photoRequest()),final=await photo.json();
+ check(photo.status===202&&final.status===201&&final.result.id==='synthetic-draft','Pending photo response preserves actual quote success without placing an order');
  await writeFile('verification/netlify-r20/proxy-results.json',JSON.stringify({checks:n,scope:'Mock Netlify globals and mock provider; no deployment or actual live provider/model verification'},null,2));
 }finally{globalThis.fetch=originalFetch;delete globalThis.Netlify;}

@@ -40,3 +40,10 @@ Cloudflare 帳號／秘密。新聊天需連接原 GitHub，另行登入原 Netl
 本環境的靜態資產臨時 JWT 上傳被代理拒絕，因此 Worker 更新保留原 ASSETS；
 前後台圖片、字型及其他 R20 資產由 Netlify 完整提供。可重現部署配置與實際 bundle
 SHA256 另附於交付的 deployment-evidence，沒有憑證。
+
+照片查價串流修正：Netlify 30 秒首回應限制不因 timeout=60 而消失。
+新版前台用 opt-in application/vnd.adela.photo-result+json：代理先回 202 處理中，
+定期傳送 JSON 空白維持串流，最後回 {status,result}；前台檢查實際上游狀態，
+401／422／503 仍顯示失敗，201 且含完整報價才進入確認畫面。購買／付款仍用原 HTTP 狀態。
+19 項代理驗證涵蓋四項串流成功／錯誤保留；真實線上結果見交付根目錄，
+不能把等待訊號或模型有回覆當作有效商品來源或訂單已成立。

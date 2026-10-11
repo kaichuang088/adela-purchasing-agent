@@ -53,7 +53,34 @@ export default async function proxy(request:Request) {
       const compatibility=await fetch(new URL("/api/shop",backend.origin),{headers:{Accept:"application/json"},redirect:"manual",signal:AbortSignal.timeout(15000)});
       if(!compatibility.ok || !r20ShopResponse(await compatibility.json().catch(()=>null)))return incompatibleBackend();
     }
-    const response=await fetch(destination,{method:request.method,headers,body:["GET","HEAD"].includes(request.method)?undefined:await request.arrayBuffer(),redirect:"manual",signal:AbortSignal.timeout(55000)});
+    // Opt-in photo uploads use a 202 pending envelope. Heartbeats keep the
+    // response active while research runs; the final upstream status is preserved
+    // in the envelope and checked by the client. Purchases use normal HTTP status.
+    const payload=["GET","HEAD"].includes(request.method)?undefined:await request.arrayBuffer();
+    if(incoming.pathname==="/api/photo-quotes"&&request.method==="POST"
+      &&request.headers.get("content-type")?.includes("multipart/form-data")
+      &&request.headers.get("accept")==="application/vnd.adela.photo-result+json"){
+      const encoder=new TextEncoder(),abort=new AbortController();
+      let heartbeat:ReturnType<typeof setInterval>|undefined;
+      const stream=new ReadableStream<Uint8Array>({
+        start(controller){
+          controller.enqueue(encoder.encode(" "));
+          heartbeat=setInterval(()=>controller.enqueue(encoder.encode(" ")),5000);
+          void (async()=>{
+            let status=503,result:unknown={error:"照片查價連線逾時，請稍後重試；尚未建立訂單。 / Photo research timed out. No order was created."};
+            try{
+              const upstream=await fetch(destination,{method:"POST",headers,body:payload,redirect:"manual",signal:AbortSignal.any([abort.signal,AbortSignal.timeout(55000)])});
+              status=upstream.status;result=await upstream.json();
+            }catch{/* Keep a concrete failed result instead of claiming success. */}
+            finally{if(heartbeat)clearInterval(heartbeat);}
+            if(!abort.signal.aborted){controller.enqueue(encoder.encode(JSON.stringify({status,result})));controller.close();}
+          })();
+        },
+        cancel(){if(heartbeat)clearInterval(heartbeat);abort.abort();}
+      });
+      return new Response(stream,{status:202,headers:{"Content-Type":"application/vnd.adela.photo-result+json","Cache-Control":"no-store"}});
+    }
+    const response=await fetch(destination,{method:request.method,headers,body:payload,redirect:"manual",signal:AbortSignal.timeout(55000)});
     if(request.method==="GET" && incoming.pathname==="/api/shop" && response.ok && !r20ShopResponse(await response.clone().json().catch(()=>null)))return incompatibleBackend();
     if(response.status===302 && incoming.pathname==="/api/media/catalog-demo") return Response.redirect(new URL("/kk-hero.png",incoming.origin),302);
     if(response.status>=300&&response.status<400)return Response.json({error:"共用服務回傳登入轉址，請檢查後端的服務存取設定。"},{status:502});
