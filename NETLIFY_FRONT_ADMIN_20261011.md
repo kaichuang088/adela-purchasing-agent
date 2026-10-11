@@ -1,6 +1,7 @@
 # Adela Netlify 前後台準備 — 2026-10-11
 
-本次完成前後台分別建置與手機視窗檢查；尚未改名或發布本次原始碼。
+本次完成前後台分別建置與手機視窗檢查。2026-10-11 15:25（台灣時間）
+已完成原兩站Adela改名及免費Function的真實模型測試；部署結果以根PROJECT_STATE.json為準。
 使用者已授權同一 Netlify 專案發布，要求網址改為 Adela，且禁止任何付款。
 以下為接續者需核實的實際狀態，優先於更早的部署前文件。
 
@@ -16,7 +17,7 @@ Sites 第31版，commit `0418b8ed36a43ae973ca227f3ae0767fcdeec25b`；第30版是
 - Sites ID：`appgprj_6ab47d9a2d1881919a796ec9b609c7b4`，保留私人分享與既有資料。
 - Netlify 前台 ID：`5bddbf98-7e39-4173-a0d9-9759be24fbc9`。
 - Netlify 後台 ID：`ceb0a789-be1d-4465-a2c8-97451ae06717`。
-- 目標名稱：`adela-purchasing-agent-shop`、`adela-purchasing-agent-admin`，尚未改名。
+- 已改名：`adela-purchasing-agent-shop`、`adela-purchasing-agent-admin`，原兩站ID未變。
 - 原前台 draft：`6aca904822b00e5a18be294c`，對應原始碼 `00ba5b94c3b5a5c8b4ad22e36ba255ee95216c5e`。
 - 原前台正式版 `6aaebcb75b7bbc4e32221b9b` 未被替換；後台也尚未更新。
 - 既有兩站 backend：`https://kk-purchasing-agent.kaichuang0808.workers.dev`。
@@ -69,16 +70,19 @@ proxy/Gateway的15項測試使用mock，不作真實provider連線證據。
 前次官方API查得 Netlify kc4study 為Free(`credit-free`)：300共享credits，當時使用0，
 無付款方式、`auto_topup_enabled=false`、不可累積超額費用。下次操作前要重新核實。
 禁止升級、買額度或啟用自動加值；免費配額與部署、流量、compute及AI共用，不是無限。
-Gateway清單含 `gpt-6.1-sol`，但真實直接Gateway試呼叫回403 `free_direct_disabled`。
-免費方案必須經Netlify Function測試；405僅證明HTTP入口存在，不代表模型成功。
-本次尚未取得Function真實provider成功回覆，不得宣稱前後台AI已啟用。
+真實直接Gateway試呼叫曾回403 `free_direct_disabled`，免費方案須經Netlify Function。
+2026-10-11 15:24（台灣時間）已用原draft Function成功呼叫真實provider：HTTP200、
+要求與實際模型皆 `gpt-6.1-sol`、狀態completed、回覆OK、共15tokens。
+測試後API仍顯示Free、autoTopup=false、overages=false、當時已用credits=0（計量可能延遲）。
+成功紀錄 `verification/netlify-r20/function-provider-test.json`；不是mock。
+這證明免費模型通道可用，前後台各個業務AI路徑仍需原backend接入，不得稱網站AI全部已啟用。
 
 前台客服／照片查價、後台AI新增／編輯／批次會經共用後端，再透過
 `KK_AI_GATEWAY_URL`／`KK_AI_GATEWAY_SECRET` 或自有OpenAI設定呼叫provider。
 單獨發布HTML不會完成後端Gateway綁定。必須記錄要求模型與服務商實際回報模型。
 自己的OpenAI API不是本次要求的免費方案，不會替使用者建立付費API。
 
-官方CLI帳號重新登入pending，缺實際登入存取，不缺使用者發布許可。
+官方CLI重新登入已成功，平台授權保留，不再缺Netlify帳號存取。
 Cloudflare尚缺安全的 `CLOUDFLARE_API_TOKEN`；不得要求在聊天貼憑證。
 原Worker的D1／R2綁定與Sites是否同一資料庫尚未核實，不能新建或切換DB。
 不要直接執行舊 `scripts/deploy-cloudflare.mjs`：它會套用所有remote migrations，
@@ -88,8 +92,8 @@ Email、手機Web Push、無人開頁排程和完整商品證據仍未完成驗�
 
 ## 交付與personal account接手
 
-本次完整ZIP是尚未發布的前後台準備，對應原始碼SHA載於根 `PROJECT_STATE.json`。
-不能把它標為線上Site最新版或先前draft的部署原始碼。
+本次完整ZIP的部署範圍與原始碼SHA載於根 `PROJECT_STATE.json`。
+不能把它標為已核實線上Site最新版或先前00ba5b94 draft的部署原始碼。
 各包小於32MiB，全部下载並依還原工具驗證SHA256／CRC／逐檔manifest；
 含全部前後台程式、必要資產、鎖檔、遷移、部署設定、測試結果與未完成清單。
 不含node_modules、秘密、登入憑證；ZIP不等於線上資料庫備份。

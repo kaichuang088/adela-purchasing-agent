@@ -5,8 +5,9 @@
 使用者已授權更新兩個既有 Netlify 專案及將網址改為 Adela；不必再要求發布批准。
 前台 ID `5bddbf98-7e39-4173-a0d9-9759be24fbc9`，後台 ID `ceb0a789-be1d-4465-a2c8-97451ae06717`。
 目標網址為 adela-purchasing-agent-shop.netlify.app 與 adela-purchasing-agent-admin.netlify.app，
-尚未完成改名／本次發布，不可當成已上線連結。原專案 ID、資料及安全設定必須保留。
-官方 CLI 帳號重新登入目前 pending；使用平台安全設定或官方登入，不在聊天傳憑證。
+2026-10-11已完成兩站改名，原專案ID、資料及安全設定保留；本次部署結果以根PROJECT_STATE.json為準。
+官方CLI已重新登入。免費Function實際成功回報gpt-6.1-sol，但網站業務AI仍待原backend接入。
+使用平台安全設定或官方登入，不在聊天傳憑證。
 後續必須記錄兩站實際 Netlify project ID、擁有帳號／團隊、backendId、公開 API
 存取及安全綁定。Chat 或 Google 登入、原始碼 ZIP 不會移轉 Netlify／Cloudflare 所有權。
 

@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-11T07:24:53.736Z",
+  "kind": "real-provider-through-Netlify-Function",
+  "endpoint": "https://6aca904822b00e5a18be294c--kk-purchasing-agent-shop.netlify.app/api/ai-provider",
+  "httpStatus": 200,
+  "requestedModel": "gpt-6.1-sol",
+  "actualModel": "gpt-6.1-sol",
+  "responseId": "resp_0c33e8c1188beba2016acb39c473ac87d1b347effa8dd7239a",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 10,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 5,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15
+  },
+  "error": null,
+  "output": "OK",
+  "freeOnly": {
+    "plan": "credit-free",
+    "autoTopupEnabled": false,
+    "overagesAllowed": false,
+    "credits": {
+      "included": 300,
+      "used": 0
+    }
+  },
+  "customerAndAdminAiEndToEndVerified": false
+}

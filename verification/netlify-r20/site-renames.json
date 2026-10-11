@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-11T07:25:11.653Z",
+  "sites": [
+    {
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "oldName": "kk-purchasing-agent-shop",
+      "productionDeployId": "6aaebcb75b7bbc4e32221b9b",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "newName": "adela-purchasing-agent-shop",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "sameProjectId": true,
+      "productionDeployIdAfterRename": "6aaebcb75b7bbc4e32221b9b"
+    },
+    {
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "oldName": "kk-purchasing-agent-admin",
+      "productionDeployId": "6aaebcb6367fc072e79b4f4b",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "newName": "adela-purchasing-agent-admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "sameProjectId": true,
+      "productionDeployIdAfterRename": "6aaebcb6367fc072e79b4f4b"
+    }
+  ],
+  "newSiteCreated": false,
+  "backendChanged": false,
+  "databaseChanged": false
+}
