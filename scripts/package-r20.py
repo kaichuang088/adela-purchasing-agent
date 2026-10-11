@@ -38,7 +38,7 @@ else:
     assert state['published'] is True, 'An unpublished preparation needs an explicit label'
     label = f"Adela_R20_Sites_v{state['siteVersion']}"
 files["PROJECT_STATE.json"] = (json.dumps(state, ensure_ascii=False, indent=2) + "\n").encode()
-files["README_FIRST.md"] = f"""# Adela R20 — Sites 第{state['siteVersion']}版
+files["README_FIRST.md"] = b"" if args.label else f"""# Adela R20 — Sites 第{state['siteVersion']}版
 
 同一私人 Site：{state['frontend']}
 後台：{state['admin']}
