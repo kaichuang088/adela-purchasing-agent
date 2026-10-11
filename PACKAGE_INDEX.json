@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "98e1172a3ac45bf7ff6b9d051183c55829b2c3ea",
+  "published": true,
+  "packages": [
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_01_Source.zip",
+      "bytes": 22961645,
+      "files": 938,
+      "sha256": "a945c70f4553b273a05b4a221505beaeaaf61212437392e76f1f03ff4808c1aa"
+    },
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_02_Source.zip",
+      "bytes": 4935980,
+      "files": 128,
+      "sha256": "5547fa154dd4b1d35211e756703e9975875afeadb940e9f81a3d1b697420615e"
+    },
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_03_Assets.zip",
+      "bytes": 29348361,
+      "files": 74,
+      "sha256": "2685d478ff91c594ae393f0c6ddacbe81543b9b43558562f2dc3bc2cc22a5618"
+    },
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_04_Assets.zip",
+      "bytes": 29099802,
+      "files": 24,
+      "sha256": "fbc0c2a3f0b36caeea782ef33d821a0d903155380f4cafdaf39750b548130c8c"
+    },
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_05_Assets.zip",
+      "bytes": 26995002,
+      "files": 30,
+      "sha256": "e3367d7193caa9ac92f458f4e10ad8e2c76eadb04712381b9e364f8ac3697468"
+    },
+    {
+      "name": "Adela_Netlify_AI_Streaming_20261012_06_Assets.zip",
+      "bytes": 4950407,
+      "files": 12,
+      "sha256": "3579019513933e27193dc954df4467cc4735b3fd52d25f9a9a66c8b148204605"
+    }
+  ]
+}
