@@ -1,0 +1,18 @@
+{
+  "checks": 12,
+  "scope": "Isolated D1 and mock queue/provider evidence; no live data or provider calls",
+  "cases": [
+    "Upload queues work without fake pricing or an order",
+    "Public caller cannot claim private photo jobs",
+    "Claim returns the configured model and required evidence research",
+    "Concurrent claim cannot call the provider twice",
+    "Anonymous caller cannot poll member photos",
+    "Another member cannot poll a private photo",
+    "Completed synthetic research uses real server pricing rules",
+    "Duplicate callback cannot rewrite a quoted result",
+    "Cancelled jobs cannot become quotes",
+    "Missing merchant evidence remains a failed quote",
+    "Provider failure remains explicit to the owner",
+    "Background research creates no order or wallet transaction"
+  ]
+}

@@ -25,17 +25,28 @@ export function PhotoQuoteFlow({en,diamond=false,enabledCountries=['KR'],onClose
   const pendingEnvelope=response.headers.get('content-type')?.includes('application/vnd.adela.photo-result+json');
   const status=pendingEnvelope?received.status:response.status;
   if(typeof status!=='number'||!Number.isInteger(status)||status<200||status>599)throw new Error(t('查價結果不完整，請重試。','Incomplete research response. Please retry.'));
-  const value=(pendingEnvelope?received.result:received) as {id:string;analysis:ProductAnalysis;pricing:Pricing;order:ShopOrder;error?:string};
+  const value=(pendingEnvelope?received.result:received) as {id:string;analysis:ProductAnalysis;pricing:Pricing;order:ShopOrder;state?:string;error?:string};
   if(status>=300)throw new Error(value?.error||t('連線失敗，請重試。','Connection failed. Please retry.'));
-  if(body instanceof FormData&&(!value.id||!value.analysis||!value.pricing))throw new Error(t('查價結果不完整，請重試。','Incomplete research response. Please retry.'));
+  if(body instanceof FormData&&(!value.id||(value.state!=='pending'&&(!value.analysis||!value.pricing))))throw new Error(t('查價結果不完整，請重試。','Incomplete research response. Please retry.'));
   return value;
  }
  function discard(){const id=draft.current;draft.current='';if(id)void fetch('/api/photo-quotes',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'discard',id})}).catch(()=>undefined);}
  function close(){if(stage==='buying')return;closed.current=true;discard();onClose();}
  async function identify(selected:File){if(running.current)return;running.current=true;setError('');try{
   setStage('uploading');const upload=await optimizePhoto(selected);setFile(upload);const form=new FormData();form.set('image',upload);form.set('note',note);form.set('country',country);
-  const result=await api(form);draft.current=result.id;if(closed.current){discard();return;}setAnalysis(result.analysis);setPricing(result.pricing);setStage('quote');
- }catch(e){if(!closed.current){setError(e instanceof Error?e.message:'Please retry');setStage('photo');}}finally{running.current=false;}}
+  let result=await api(form);draft.current=result.id;if(closed.current){discard();return;}
+  if(result.state==='pending'){
+   setStage('identifying');const deadline=Date.now()+180000;
+   while(!closed.current){
+    await new Promise(resolve=>setTimeout(resolve,2000));if(closed.current)return;
+    const response=await fetch('/api/photo-quotes?id='+encodeURIComponent(draft.current)),value=await response.json() as typeof result;
+    if(!response.ok)throw new Error(value.error||t('查價未完成，請重試。','Research failed. Please retry.'));
+    if(response.status===200&&value.state==='quoted'&&value.analysis&&value.pricing){result=value;break;}
+    if(Date.now()>=deadline)throw new Error(t('查價仍未完成，請稍後重試。尚未建立訂單。','Research did not complete. No order was created.'));
+   }
+  }
+  if(closed.current){discard();return;}setAnalysis(result.analysis);setPricing(result.pricing);setStage('quote');
+ }catch(e){discard();if(!closed.current){setError(e instanceof Error?e.message:'Please retry');setStage('photo');}}finally{running.current=false;}}
  async function buy(){if(!pricing||running.current)return;running.current=true;setError('');setStage('buying');try{const result=await api({action:'buy',id:draft.current,approvedAt:pricing.pricedAt,approvedTotal:pricing.totalTwd,paymentMethod,shippingAddress:shipping});draft.current='';onPurchased(result.order);}catch(e){setError(e instanceof Error?e.message:'Please retry');setStage('quote');}finally{running.current=false;}}
  function changePhoto(){discard();setAnalysis(null);setPricing(null);setStage('photo');setError('');}
  const step=['photo','uploading'].includes(stage)?1:['identifying','identity','quoting'].includes(stage)?2:3;

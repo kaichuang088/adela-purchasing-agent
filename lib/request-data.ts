@@ -53,7 +53,7 @@ function outputText(response: { output?: Array<{ type?: string; content?: Array<
   return response.output?.flatMap((item) => item.content ?? []).find((item) => item.type === "output_text")?.text ?? "";
 }
 
-export async function analyzeProductImage(buffer: ArrayBuffer, contentType: string, apiKey: string, model: string, customerNote = "", country: Country="JP", endpoint="https://api.openai.com/v1/responses", gatewaySecret=""): Promise<ProductAnalysis> {
+export function photoAnalysisInput(buffer:ArrayBuffer,contentType:string,model:string,customerNote='',country:Country='JP') {
   const now = new Date().toISOString();
   const schema = {
     type: "object", additionalProperties: false,
@@ -68,11 +68,7 @@ export async function analyzeProductImage(buffer: ArrayBuffer, contentType: stri
     },
     required: ["identifiedNameZh", "identifiedNameEn", "brand", "model", "category", "confidence", "taxRatePercent", "evidenceSummaryZh", "evidenceSummaryEn", "sources"],
   };
-  const response = await fetch(endpoint, {
-    method: "POST",
-    signal: AbortSignal.timeout(90000),
-    headers: { ...(gatewaySecret ? {"X-KK-AI-Gateway-Secret":gatewaySecret} : {"Authorization":`Bearer ${apiKey}`}), "Content-Type": "application/json" },
-    body: JSON.stringify({
+  return {
       model, store: false, include: ["web_search_call.action.sources"],
       tools: [{ type: "web_search" }], tool_choice: "required", max_tool_calls: 3, max_output_tokens: 4000,
       input: [{ role: "user", content: [
@@ -81,10 +77,11 @@ export async function analyzeProductImage(buffer: ArrayBuffer, contentType: stri
         { type: "input_image", image_url: `data:${contentType};base64,${bytesToBase64(buffer)}`, detail: "high" },
       ] }],
       text: { format: { type: "json_schema", name: "product_lookup", strict: true, schema } },
-    }),
-  });
-  if (!response.ok) throw new Error(`OpenAI analysis failed (${response.status})`);
-  const raw = await response.json() as { output?: Array<{ type?: string; action?: { sources?: Array<{url?:string}> }; content?: Array<{ type?: string; text?: string; annotations?: Array<{url?:string}> }> }> };
+    };
+}
+
+export function parsePhotoAnalysis(value:unknown,country:Country,now=new Date().toISOString()):ProductAnalysis {
+  const raw=value as {output?:Array<{type?:string;action?:{sources?:Array<{url?:string}>};content?:Array<{type?:string;text?:string;annotations?:Array<{url?:string}>}>}>};
   const text = outputText(raw);
   if (!text) throw new Error("OpenAI returned no structured analysis");
   const parsed = JSON.parse(text) as ProductAnalysis;
@@ -92,4 +89,9 @@ export async function analyzeProductImage(buffer: ArrayBuffer, contentType: stri
   const evidenceUrls = new Set(raw.output?.flatMap(item => [...(item.action?.sources || []).map(s => s.url), ...(item.content || []).flatMap(c => (c.annotations || []).map(a => a.url))]).filter(Boolean));
   parsed.sources = Array.isArray(parsed.sources) ? parsed.sources.filter(source => evidenceUrls.has(source.url) && /^https:\/\//.test(source.url) && source.localCountry===country && source.currency===countries[country].currency && Number.isFinite(source.originalPrice) && Number(source.originalPrice)>0).slice(0,3).map(source => ({...source,capturedAt:now,taxFreeEligible: source.taxFreeEligible && source.taxFreeForResale===true && !!source.taxFreeConditions?.trim() && evidenceUrls.has(source.taxEvidenceUrl) && Number.isFinite(source.afterTaxPrice) && Number(source.afterTaxPrice)>0 && Number(source.afterTaxPrice)<=Number(source.originalPrice)})) : [];
   return parsed;
+}
+export async function analyzeProductImage(buffer:ArrayBuffer,contentType:string,apiKey:string,model:string,customerNote='',country:Country='JP',endpoint='https://api.openai.com/v1/responses',gatewaySecret=''):Promise<ProductAnalysis> {
+ const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(90000),headers:{...(gatewaySecret?{'X-KK-AI-Gateway-Secret':gatewaySecret}:{Authorization:`Bearer ${apiKey}`}),'Content-Type':'application/json'},body:JSON.stringify(photoAnalysisInput(buffer,contentType,model,customerNote,country))});
+ if(!response.ok)throw new Error(`OpenAI analysis failed (${response.status})`);
+ return parsePhotoAnalysis(await response.json(),country);
 }

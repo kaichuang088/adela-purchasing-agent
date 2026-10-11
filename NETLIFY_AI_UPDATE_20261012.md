@@ -47,3 +47,15 @@ SHA256 另附於交付的 deployment-evidence，沒有憑證。
 401／422／503 仍顯示失敗，201 且含完整報價才進入確認畫面。購買／付款仍用原 HTTP 狀態。
 19 項代理驗證涵蓋四項串流成功／錯誤保留；真實線上結果見交付根目錄，
 不能把等待訊號或模型有回覆當作有效商品來源或訂單已成立。
+
+最終照片背景流程取代上述串流等待：實際平台仍在約30秒中斷一般 HTTP 回應。
+上傳只建查價草稿並排入 Netlify 帳號已有的 Background Functions；前台每2秒查询
+自己的草稿狀態。背景函式直接使用平台注入 AI Gateway 授權與 gpt-6.1-sol，
+不經同步 provider proxy、不需要自有付費 API key，核對實際回報模型後回傳原 Worker。
+私有工作 API 要求 shared secret；原子 claim 防重複 provider 呼叫，取消／到期／
+跨會員讀取／重複 callback 都受限制。Worker 以目前會員等級及已付款頻率算價格，
+有完整商家證據才產生報價，provider 失敗或缺來源明確失敗，不建立訂單或加購物金。
+新增安全平台設定 KK_AI_PHOTO_JOB_URL 指向前台 /.netlify/functions/ai-photo-background。
+即使 Background Functions 在方案內，也會使用有限免費 credits，不能稱無限 AI。
+新增 verify-photo-jobs.mjs、verify-photo-background.mjs 分別測原 Worker 狀態與
+Netlify 授權／模型／provider 錯誤傳遞；mock 與真實 production 測試證據分開交付。

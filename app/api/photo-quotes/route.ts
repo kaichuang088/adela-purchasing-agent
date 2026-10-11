@@ -1,3 +1,4 @@
+import {quoteDraft} from '@/lib/photo-quote-pricing';
 import {aiConfiguration,aiConnection} from '@/lib/ai-config';
 import {shippingAddress} from '@/lib/shipping-address';
 import {currencyRate} from '@/lib/currency-rate';
@@ -16,16 +17,6 @@ import {quoteSourceMessage,selectQuoteSource} from '@/lib/quote-source';
 import {cleanupExpiredQuoteMedia,deleteMedia,getMedia,putMedia,D1_MEDIA_LIMIT} from '@/lib/media-store';
 import {AI_PHOTO_MAX_BYTES} from '@/lib/photo-input';
 
-async function quoteDraft(draft:Record<string,unknown>,member:Member,a:ProductAnalysis){
- const country=String(draft.country) as Country,result=selectQuoteSource(a,country);
- if(result.kind!=='ready')throw new ShopError(quoteSourceMessage(result.kind,country),422);
- const {source,amount:net}=result,jpyRate=await exchange(),foreignRate=await currencyRate(source.currency||countries[country].currency,jpyRate),jpy=source.currency==='JPY'?Math.ceil(net):Math.ceil(net*foreignRate/jpyRate.rate);
- const pricing=await calculate(member,[{kind:'custom',quantity:Number(draft.quantity)||1,unitTwd:source.currency==='JPY'?jpy*jpyRate.rate:net*foreignRate,p:{id:0,nameZh:a.identifiedNameZh,nameEn:a.identifiedNameEn,categoryZh:a.category,categoryEn:a.category,descriptionZh:'',descriptionEn:'',priceJpy:jpy,imageKey:String(draft.image_key),status:'active',addon:false,allowedTiers:tiers,variants:[],sizeFeeTwd:0,stock:-1,purchaseUrl:source.url,sourceRequestId:null}}],'',{photoQuote:true});
- Object.assign(pricing.items[0],{sourceCountry:draft.country,sourceCurrency:source.currency,sourceAmount:net,sourceRateTwd:foreignRate,priceBasis:result.priceBasis,taxIncludedJpy:source.priceTaxIncludedJpy,taxFreeConditions:result.conditions,taxEvidenceUrl:source.taxEvidenceUrl});pricing.expiresAt=String(draft.expires_at);
- const saved=await rawDb().prepare("UPDATE kk_photo_drafts SET state='quoted',pricing_json=? WHERE id=? AND state IN ('identified','quoted') AND expires_at>?").bind(JSON.stringify(pricing),draft.id,new Date().toISOString()).run();
- if(!saved.meta.changes)throw new ShopError('查價已取消或到期。 / Quote cancelled or expired.',409);
- return pricing;
-}
 
 async function identifyAndQuote(draft:Record<string,unknown>,member:Member){
  const db=rawDb();
@@ -60,6 +51,15 @@ export async function POST(request:Request){try{
   await putMedia(imageKey,bytes,file.type);
   try{await db.prepare('INSERT INTO kk_photo_drafts(id,member_id,image_key,image_type,note,expires_at,country) VALUES(?,?,?,?,?,?,?)').bind(id,member.id,imageKey,file.type,note,new Date(Date.now()+2*3600000).toISOString(),country).run();}catch(e){await deleteMedia(imageKey);throw e;}
   const draft=await db.prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).first();
+  if(env.KK_AI_PHOTO_JOB_URL){
+   try{
+    const target=new URL(env.KK_AI_PHOTO_JOB_URL),gateway=new URL(env.KK_AI_GATEWAY_URL||'');
+    if(target.protocol!=='https:'||target.origin!==gateway.origin||target.pathname!=='/.netlify/functions/ai-photo-background')throw new Error('Invalid photo job endpoint');
+    const queued=await fetch(target,{method:'POST',headers:{'Content-Type':'application/json','X-KK-AI-Gateway-Secret':env.KK_AI_GATEWAY_SECRET||''},body:JSON.stringify({id}),signal:AbortSignal.timeout(10000)});
+    if(queued.status!==202)throw new Error('Photo job not accepted');
+    return privateJson({id,state:'pending'},202);
+   }catch{await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).run();await deleteMedia(imageKey);throw new ShopError('背景查價暫時無法啟動；尚未建立訂單。 / Photo research could not start. No order was created.',503);}
+  }
   try{const result=await identifyAndQuote(draft!,member);return privateJson({id,state:'quoted',...result},201);}
   catch(e){await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).run();await deleteMedia(imageKey);throw e;}
  }
@@ -108,4 +108,17 @@ export async function POST(request:Request){try{
   return privateJson({order:await orderBundle(order)},201);
  }
  throw new ShopError('不支援的操作。 / Unsupported action.');
+}catch(e){return failure(e);}}
+
+export async function GET(request:Request){try{
+ const member=(await currentMember(request,true))!,id=new URL(request.url).searchParams.get('id')||'';
+ const draft=await rawDb().prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).first();
+ if(!draft)throw new ShopError('找不到此查價。 / Photo quote not found.',404);
+ if(draft.state==='discarded'||String(draft.expires_at)<=new Date().toISOString())throw new ShopError('查價已取消或到期。 / Quote cancelled or expired.',410);
+ if(draft.state==='quoted'&&draft.analysis_json&&draft.pricing_json)return privateJson({id,state:'quoted',analysis:JSON.parse(String(draft.analysis_json)),pricing:JSON.parse(String(draft.pricing_json))});
+ if(draft.state==='failed'){
+  const detail=draft.analysis_json?JSON.parse(String(draft.analysis_json)):{};
+  return privateJson({error:typeof detail.photoResearchError==='string'?detail.photoResearchError:'AI 查價未完成；尚未建立訂單。 / Research failed. No order was created.',actualProviderModel:detail.photoResearchModel||null},detail.photoResearchStatus===422?422:503);
+ }
+ return privateJson({id,state:'pending'},202);
 }catch(e){return failure(e);}}

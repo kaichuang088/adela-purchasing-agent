@@ -88,3 +88,6 @@ export async function redeemSnack(orderId:number,memberId:string){
  return !!result.meta.changes;
 }
 export async function addOrderUpdate(orderId:number,memberId:string|null,status:string,titleZh:string,titleEn:string,detailZh=''){const db=rawDb();const statements=[db.prepare('INSERT INTO request_events(request_id,status,title_zh,title_en,detail_zh,detail_en) VALUES(?,?,?,?,?,?)').bind(orderId,status,titleZh,titleEn,detailZh,detailZh)];if(memberId)statements.push(db.prepare('INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,?,?,?,?,?)').bind(memberId,titleZh,detailZh||status,titleEn,detailZh||status,orderId));await db.batch(statements);}
+
+// Internal photo jobs need the current tier and paid-order count, never a client snapshot.
+export async function memberForPhotoResearch(id:string){const row=await rawDb().prepare(memberSelect+' WHERE m.id=?').bind(id).first();return row?parseMember(row):null;}

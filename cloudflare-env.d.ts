@@ -13,6 +13,7 @@ declare namespace Cloudflare {
     OPENAI_API_KEY?: string;
     OPENAI_MODEL?: string;
     KK_AI_GATEWAY_URL?: string;
+    KK_AI_PHOTO_JOB_URL?: string;
     KK_AI_GATEWAY_SECRET?: string;
     ASSETS?: Fetcher;
   }
