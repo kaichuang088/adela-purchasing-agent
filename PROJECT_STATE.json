@@ -1,0 +1,69 @@
+{
+  "release": "Adela-Netlify-Front-Admin-Preparation",
+  "sourceCommit": "398e5353ef40f3fedd8d7f9c180387faac1a90fd",
+  "sourceRepository": "kaichuang088/adela-purchasing-agent",
+  "sourceBranch": "netlify-r20-storefront-20261011",
+  "published": false,
+  "publicationType": "Unpublished preparation; no new Sites or Netlify deploy",
+  "checkedAt": "2026-10-11T07:10:19.144676+00:00",
+  "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "baselineSitesVersion": 31,
+  "baselineSourceRelease": "R20",
+  "baselineSitesCommit": "0418b8ed36a43ae973ca227f3ae0767fcdeec25b",
+  "currentSitesVersionVerified": false,
+  "netlifySites": [
+    {
+      "role": "storefront",
+      "id": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "currentName": "kk-purchasing-agent-shop",
+      "targetName": "adela-purchasing-agent-shop",
+      "renameCompleted": false
+    },
+    {
+      "role": "admin",
+      "id": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "currentName": "kk-purchasing-agent-admin",
+      "targetName": "adela-purchasing-agent-admin",
+      "renameCompleted": false
+    }
+  ],
+  "previousFrontendDraft": {
+    "deployId": "6aca904822b00e5a18be294c",
+    "sourceCommit": "00ba5b94c3b5a5c8b4ad22e36ba255ee95216c5e",
+    "url": "https://6aca904822b00e5a18be294c--kk-purchasing-agent-shop.netlify.app",
+    "shopApiStatus": 503
+  },
+  "backend": "https://kk-purchasing-agent.kaichuang0808.workers.dev",
+  "backendCompatible": false,
+  "originalDatabaseIdentityVerified": false,
+  "cloudflareUpdated": false,
+  "stripeEnabled": false,
+  "zeroPaymentRequired": true,
+  "accountUpgradePerformed": false,
+  "actualAIProviderConnectionVerified": false,
+  "netlifyOfficialReauthentication": "pending",
+  "tests": {
+    "typeScript": "passed",
+    "storefrontBuild": "passed",
+    "adminBuild": "passed",
+    "isolatedProxyGatewayChecks": 15,
+    "storefrontChromiumViewportChecks": 12,
+    "adminChromiumViewportChecks": 45,
+    "widths": [
+      375,
+      390,
+      430
+    ],
+    "syntheticAPIOnly": true,
+    "physicalMobileTest": false,
+    "liveFinancialWrites": false
+  },
+  "databaseBackupIncluded": false,
+  "pending": [
+    "有權限讀取同一Sites即時最新版及原始碼，保留較新修改",
+    "官方Netlify重新登入，兩站改名及實際部署",
+    "原Worker與Sites的DB綁定查核，必要R20後端相容更新",
+    "免費Netlify Function真實provider/model及前後台AI端到端驗證",
+    "Email、手機Push、無人開頁排程及R20商品證據缺口"
+  ]
+}

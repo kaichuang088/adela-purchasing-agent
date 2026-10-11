@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "398e5353ef40f3fedd8d7f9c180387faac1a90fd",
+  "published": false,
+  "packages": 7,
+  "allPackagesBelow32MiB": true,
+  "zipCRC": "passed",
+  "completeRestoreFiles": 1150,
+  "exactGitSourceFiles": 1122,
+  "sourceBytesEqualCommit": true,
+  "credentialPatternScanEntries": 1157,
+  "credentialPatternScan": "passed; structural checks and known credential patterns, not a guarantee against every secret format",
+  "databaseBackupIncluded": false
+}
