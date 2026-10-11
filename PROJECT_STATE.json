@@ -1,0 +1,168 @@
+{
+  "release": "Adela-Netlify-Production",
+  "sourceCommit": "3c015228665f9b3e91196dae7b61ee4a4cf4f4f6",
+  "published": true,
+  "publicationType": "Verified existing frontend/admin drafts promoted to production; no rebuild or database change",
+  "checkedAt": "2026-10-11T08:52:27.386249+00:00",
+  "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "baselineSitesVersion": 31,
+  "baselineSourceRelease": "R20",
+  "baselineSitesCommit": "0418b8ed36a43ae973ca227f3ae0767fcdeec25b",
+  "currentSitesVersionVerified": false,
+  "privateSitesOpensForUser": true,
+  "sitesUpdated": false,
+  "netlifyDeploys": [
+    {
+      "role": "storefront",
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "name": "adela-purchasing-agent-shop",
+      "deployId": "6acb3a4ab69e96d75f629e14",
+      "previousProductionDeployId": "6aaebcb75b7bbc4e32221b9b",
+      "sourceCommit": "3c015228665f9b3e91196dae7b61ee4a4cf4f4f6",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "productionDeployId": "6acb3a4ab69e96d75f629e14",
+      "productionReplaced": true,
+      "actualDeployState": "ready",
+      "verifiedStaticFiles": 172,
+      "knownLegacyBackendGuardRetained": true
+    },
+    {
+      "role": "admin",
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "name": "adela-purchasing-agent-admin",
+      "deployId": "6acb3a6b07a5516d8523067e",
+      "previousProductionDeployId": "6aaebcb6367fc072e79b4f4b",
+      "sourceCommit": "3c015228665f9b3e91196dae7b61ee4a4cf4f4f6",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "productionDeployId": "6acb3a6b07a5516d8523067e",
+      "productionReplaced": true,
+      "actualDeployState": "ready",
+      "verifiedStaticFiles": 172,
+      "knownLegacyBackendGuardRetained": true
+    }
+  ],
+  "renames": [
+    {
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "oldName": "kk-purchasing-agent-shop",
+      "productionDeployId": "6aaebcb75b7bbc4e32221b9b",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "newName": "adela-purchasing-agent-shop",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "sameProjectId": true,
+      "productionDeployIdAfterRename": "6aaebcb75b7bbc4e32221b9b"
+    },
+    {
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "oldName": "kk-purchasing-agent-admin",
+      "productionDeployId": "6aaebcb6367fc072e79b4f4b",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "newName": "adela-purchasing-agent-admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "sameProjectId": true,
+      "productionDeployIdAfterRename": "6aaebcb6367fc072e79b4f4b"
+    }
+  ],
+  "sourceRepository": "kaichuang088/adela-purchasing-agent",
+  "sourceBranch": "netlify-r20-storefront-20261011",
+  "backendCompatible": false,
+  "originalDatabaseIdentityVerified": false,
+  "cloudflareUpdated": false,
+  "stripeEnabled": false,
+  "zeroPaymentRequired": true,
+  "freePlan": "credit-free",
+  "autoTopupEnabled": false,
+  "overagesAllowed": false,
+  "ownPaidOpenAIKeyCreated": false,
+  "realFunctionProviderVerified": true,
+  "requestedModel": "gpt-6.1-sol",
+  "actualModel": "gpt-6.1-sol",
+  "providerCheckScope": "Production frontend Function actual provider HTTP200 completed OK,15tokens; business backend paths still pending",
+  "websiteAIEndToEndVerified": false,
+  "tests": {
+    "typeScript": "passed",
+    "storefrontBuild": "passed",
+    "adminBuild": "passed",
+    "isolatedProxyGatewayChecks": 15,
+    "storefrontChromiumViewportChecks": 12,
+    "adminChromiumViewportChecks": 45,
+    "widths": [
+      375,
+      390,
+      430
+    ],
+    "syntheticAPIOnlyForBrowserChecks": true,
+    "physicalMobileTest": false,
+    "liveFinancialWrites": false
+  },
+  "newDraftDirectHTTPVerified": false,
+  "newDraftHTTPBlocker": "Execution egress proxy HTTPS CONNECT403; Netlify API deploy/hash verification used",
+  "databaseBackupIncluded": false,
+  "pending": [
+    "同一Sites即時最新版與來源讀取、保留任何較新修改",
+    "Cloudflare唯讀安全Token，查原Worker/D1/R2及Sites同DB身分",
+    "原共用後端R20相容更新：目前商品/結帳/退款回503防護",
+    "網站客服/照片查價/後台AI新增編輯批次完整後端接入與實測",
+    "後台匿名HTTP401 Login Redirect，登入可用性尚未驗證",
+    "正式線上手機購物流程尚未驗收；本地57項視窗測試為合成API",
+    "Email、手機Push、背景排程及完整商品來源證據"
+  ],
+  "productionReplaced": true,
+  "productionFrontend": "https://adela-purchasing-agent-shop.netlify.app",
+  "productionAdmin": "https://adela-purchasing-agent-admin.netlify.app",
+  "productionStorefrontProviderVerified": true,
+  "cloudflareWorkerFoundByUser": true,
+  "cloudflareCredentialAvailable": false,
+  "productionHTTPResults": [
+    {
+      "role": "storefront",
+      "url": "https://adela-purchasing-agent-shop.netlify.app/",
+      "httpStatus": 200,
+      "title": "Adela&#x27;s Purchasing Agent｜韓國代購"
+    },
+    {
+      "role": "storefront",
+      "url": "https://adela-purchasing-agent-shop.netlify.app/api/shop",
+      "httpStatus": 503,
+      "errorMessage": "共用後端尚未完成 R20 更新，商品、結帳與退款暫時無法使用。既有資料與餘額未變更。 / The shared backend requires the R20 update."
+    },
+    {
+      "role": "storefront",
+      "url": "https://adela-purchasing-agent-shop.netlify.app/api/ai-provider",
+      "httpStatus": 405
+    },
+    {
+      "role": "admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app/",
+      "httpStatus": 401
+    },
+    {
+      "role": "admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app/api/shop",
+      "httpStatus": 401
+    },
+    {
+      "role": "admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app/api/ai-provider",
+      "httpStatus": 401
+    }
+  ],
+  "productionAdminAnonymousHTTP": 401,
+  "productionAdminLoginVerified": false,
+  "productionMobile": {
+    "widths": [
+      375,
+      390,
+      430
+    ],
+    "browser": "Chromium",
+    "actualProductionRequests": true,
+    "httpStatus": 200,
+    "noHorizontalOverflow": true,
+    "backendUnavailableMessageDisplayed": true,
+    "shopApiStatus": 503,
+    "completedPurchaseFlow": false,
+    "physicalDeviceTest": false,
+    "credentialsOrFinancialWrites": false
+  }
+}
