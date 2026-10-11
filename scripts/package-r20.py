@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--output", required=True)
 parser.add_argument("--handoff-root", required=True)
 parser.add_argument("--state", required=True)
+parser.add_argument("--label", help="Explicit label for an unpublished preparation or a non-Sites delivery")
 args = parser.parse_args()
 root = Path(__file__).resolve().parent.parent
 out = Path(args.output).resolve()
@@ -29,8 +30,13 @@ for p in sorted((handoff / "attachments").rglob("*")):
     if p.is_file():
         files["attachments/" + p.relative_to(handoff / "attachments").as_posix()] = p.read_bytes()
 state = json.loads(Path(args.state).read_text())
-assert state['sourceCommit'] == commit and state['published'] is True
-label = f"Adela_R20_Sites_v{state['siteVersion']}"
+assert state['sourceCommit'] == commit and isinstance(state.get('published'), bool)
+if args.label:
+    assert args.label and all(c.isalnum() or c in '-_' for c in args.label), 'Unsafe package label'
+    label = args.label
+else:
+    assert state['published'] is True, 'An unpublished preparation needs an explicit label'
+    label = f"Adela_R20_Sites_v{state['siteVersion']}"
 files["PROJECT_STATE.json"] = (json.dumps(state, ensure_ascii=False, indent=2) + "\n").encode()
 files["README_FIRST.md"] = f"""# Adela R20 — Sites 第{state['siteVersion']}版
 
@@ -61,6 +67,13 @@ files["RESTORE.md"] = """# 還原與續作
 7. 先依RECOVERY_R20_20261010.md建置及測試；Netlify須經Finalize與publish批准，
    Cloudflare後端／DB切換及Stripe啟用另需授權。personal account權限不會隨ZIP轉移。
 """.encode()
+if args.label:
+    # An explicit delivery must supply accurate documents rather than claim a Site publication.
+    for name in ['README_FIRST.md', 'RESTORE.md']:
+        files[name] = (handoff / name).read_bytes()
+    for p in sorted((handoff / 'deployment-evidence').rglob('*')):
+        if p.is_file():
+            files['deployment-evidence/' + p.relative_to(handoff / 'deployment-evidence').as_posix()] = p.read_bytes()
 restore = '''import argparse,hashlib,json,zipfile
 from pathlib import Path,PurePosixPath
 p=argparse.ArgumentParser();p.add_argument('--destination',required=True);a=p.parse_args()
@@ -130,7 +143,7 @@ for i, names in enumerate(groups, 1):
     packages.append({"name": name, "bytes": path.stat().st_size, "files": len(names), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
 for n in ["PROJECT_STATE.json", "README_FIRST.md", "RESTORE.md", "restore.py"]:
     (out / n).write_bytes(files[n])
-(out / "PACKAGE_INDEX.json").write_text(json.dumps({"sourceCommit": commit, "published": True, "packages": packages}, indent=2))
+(out / "PACKAGE_INDEX.json").write_text(json.dumps({"sourceCommit": commit, "published": state['published'], "packages": packages}, indent=2))
 (out / "FILE_MANIFEST.json").write_text(json.dumps({"sourceCommit": commit, "files": metadata}, ensure_ascii=False, indent=2))
 (out / "SHA256SUMS.txt").write_text("".join(f"{p['sha256']}  {p['name']}\n" for p in packages))
 verification = out / f"{label}_{len(packages)+1:02d}_Verification.zip"

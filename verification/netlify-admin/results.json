@@ -1,0 +1,603 @@
+{
+  "scope": "Compiled Netlify admin; synthetic API; Chromium viewports; no live backend, actual AI provider, financial writes or physical mobile device validation",
+  "browserChecks": 45,
+  "results": [
+    {
+      "width": 375,
+      "label": "login",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-login.png"
+    },
+    {
+      "width": 375,
+      "label": "orders",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-orders.png"
+    },
+    {
+      "width": 375,
+      "label": "products",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-products.png"
+    },
+    {
+      "width": 375,
+      "label": "messages",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-messages.png"
+    },
+    {
+      "width": 375,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-notifications.png"
+    },
+    {
+      "width": 375,
+      "label": "product-editor",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ],
+      "screenshot": "375-product-editor.png"
+    },
+    {
+      "width": 375,
+      "label": "ai-editor-unconfigured",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ],
+      "screenshot": "375-ai-editor-unconfigured.png"
+    },
+    {
+      "width": 375,
+      "label": "price-warning",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ],
+      "screenshot": "375-price-warning.png"
+    },
+    {
+      "width": 375,
+      "label": "product-save-visible",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 363,
+          "clientWidth": 349,
+          "scrollWidth": 349
+        }
+      ],
+      "screenshot": "375-product-save-visible.png"
+    },
+    {
+      "width": 375,
+      "label": "more-navigation",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [
+        {
+          "left": 16,
+          "right": 359,
+          "clientWidth": 341,
+          "scrollWidth": 341
+        }
+      ],
+      "screenshot": "375-more-navigation.png"
+    },
+    {
+      "width": 375,
+      "label": "ai",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-ai.png"
+    },
+    {
+      "width": 375,
+      "label": "members",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-members.png"
+    },
+    {
+      "width": 375,
+      "label": "offers",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-offers.png"
+    },
+    {
+      "width": 375,
+      "label": "settings",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-settings.png"
+    },
+    {
+      "width": 375,
+      "label": "procurement",
+      "ok": true,
+      "viewport": 375,
+      "body": 375,
+      "document": 375,
+      "dialogs": [],
+      "screenshot": "375-procurement.png"
+    },
+    {
+      "width": 390,
+      "label": "login",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-login.png"
+    },
+    {
+      "width": 390,
+      "label": "orders",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-orders.png"
+    },
+    {
+      "width": 390,
+      "label": "products",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-products.png"
+    },
+    {
+      "width": 390,
+      "label": "messages",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-messages.png"
+    },
+    {
+      "width": 390,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-notifications.png"
+    },
+    {
+      "width": 390,
+      "label": "product-editor",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ],
+      "screenshot": "390-product-editor.png"
+    },
+    {
+      "width": 390,
+      "label": "ai-editor-unconfigured",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ],
+      "screenshot": "390-ai-editor-unconfigured.png"
+    },
+    {
+      "width": 390,
+      "label": "price-warning",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ],
+      "screenshot": "390-price-warning.png"
+    },
+    {
+      "width": 390,
+      "label": "product-save-visible",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 378,
+          "clientWidth": 364,
+          "scrollWidth": 364
+        }
+      ],
+      "screenshot": "390-product-save-visible.png"
+    },
+    {
+      "width": 390,
+      "label": "more-navigation",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 16,
+          "right": 374,
+          "clientWidth": 356,
+          "scrollWidth": 356
+        }
+      ],
+      "screenshot": "390-more-navigation.png"
+    },
+    {
+      "width": 390,
+      "label": "ai",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 24.950002670288086,
+          "right": 365.0499782562256,
+          "clientWidth": 356,
+          "scrollWidth": 356
+        }
+      ],
+      "screenshot": "390-ai.png"
+    },
+    {
+      "width": 390,
+      "label": "members",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 24.9150390625,
+          "right": 365.0849609375,
+          "clientWidth": 356,
+          "scrollWidth": 356
+        }
+      ],
+      "screenshot": "390-members.png"
+    },
+    {
+      "width": 390,
+      "label": "offers",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [
+        {
+          "left": 24.915327072143555,
+          "right": 365.0846996307373,
+          "clientWidth": 356,
+          "scrollWidth": 356
+        }
+      ],
+      "screenshot": "390-offers.png"
+    },
+    {
+      "width": 390,
+      "label": "settings",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-settings.png"
+    },
+    {
+      "width": 390,
+      "label": "procurement",
+      "ok": true,
+      "viewport": 390,
+      "body": 390,
+      "document": 390,
+      "dialogs": [],
+      "screenshot": "390-procurement.png"
+    },
+    {
+      "width": 430,
+      "label": "login",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-login.png"
+    },
+    {
+      "width": 430,
+      "label": "orders",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-orders.png"
+    },
+    {
+      "width": 430,
+      "label": "products",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-products.png"
+    },
+    {
+      "width": 430,
+      "label": "messages",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-messages.png"
+    },
+    {
+      "width": 430,
+      "label": "notifications",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-notifications.png"
+    },
+    {
+      "width": 430,
+      "label": "product-editor",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ],
+      "screenshot": "430-product-editor.png"
+    },
+    {
+      "width": 430,
+      "label": "ai-editor-unconfigured",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ],
+      "screenshot": "430-ai-editor-unconfigured.png"
+    },
+    {
+      "width": 430,
+      "label": "price-warning",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ],
+      "screenshot": "430-price-warning.png"
+    },
+    {
+      "width": 430,
+      "label": "product-save-visible",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 12,
+          "right": 418,
+          "clientWidth": 404,
+          "scrollWidth": 404
+        }
+      ],
+      "screenshot": "430-product-save-visible.png"
+    },
+    {
+      "width": 430,
+      "label": "more-navigation",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 16.038692474365234,
+          "right": 413.96129989624023,
+          "clientWidth": 396,
+          "scrollWidth": 396
+        }
+      ],
+      "screenshot": "430-more-navigation.png"
+    },
+    {
+      "width": 430,
+      "label": "ai",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 25.950002670288086,
+          "right": 404.0499782562256,
+          "clientWidth": 396,
+          "scrollWidth": 396
+        }
+      ],
+      "screenshot": "430-ai.png"
+    },
+    {
+      "width": 430,
+      "label": "members",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 25.911144256591797,
+          "right": 404.0888786315918,
+          "clientWidth": 396,
+          "scrollWidth": 396
+        }
+      ],
+      "screenshot": "430-members.png"
+    },
+    {
+      "width": 430,
+      "label": "offers",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [
+        {
+          "left": 25.911476135253906,
+          "right": 404.08853912353516,
+          "clientWidth": 396,
+          "scrollWidth": 396
+        }
+      ],
+      "screenshot": "430-offers.png"
+    },
+    {
+      "width": 430,
+      "label": "settings",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-settings.png"
+    },
+    {
+      "width": 430,
+      "label": "procurement",
+      "ok": true,
+      "viewport": 430,
+      "body": 430,
+      "document": 430,
+      "dialogs": [],
+      "screenshot": "430-procurement.png"
+    }
+  ]
+}

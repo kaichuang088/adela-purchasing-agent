@@ -3,12 +3,12 @@ import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
 
 const project = process.cwd();
-const output = resolve(project, "netlify-dist");
 const target = process.env.KK_NETLIFY_TARGET || "both";
-if (!["storefront", "both"].includes(target)) {
-  throw new Error("KK_NETLIFY_TARGET must be storefront or both.");
+if (!["storefront", "admin", "both"].includes(target)) {
+  throw new Error("KK_NETLIFY_TARGET must be storefront, admin or both.");
 }
-const includeAdministration = target === "both";
+const output = resolve(project, target === "admin" ? "netlify-admin-dist" : "netlify-dist");
+const includeAdministration = target !== "storefront";
 // Build in an isolated copy. Never move or remove the backend source routes.
 if (existsSync(resolve(project, ".netlify-build-hold"))) {
   throw new Error("A previous build left .netlify-build-hold. Restore and compare those files before building.");
@@ -20,7 +20,12 @@ try {
   }
   for (const route of ["api", "request"]) rmSync(resolve(stage, "app", route), { recursive: true, force: true });
   symlinkSync(resolve(project, "node_modules"), resolve(stage, "node_modules"), "dir");
-  const result = spawnSync(process.execPath, [resolve(project, "node_modules/next/dist/bin/next"), "build", "--webpack"], { cwd: stage, stdio: "inherit" });
+  const result = spawnSync(process.execPath, [resolve(project, "node_modules/next/dist/bin/next"), "build", "--webpack"], {
+    cwd: stage, stdio: "inherit", env: {
+      ...process.env,
+      ...(target === "admin" ? { NEXT_PUBLIC_KK_STOREFRONT_URL: process.env.NEXT_PUBLIC_KK_STOREFRONT_URL || "https://adela-purchasing-agent-shop.netlify.app" } : {}),
+    },
+  });
   if (result.error) throw result.error;
   if (result.status !== 0) throw new Error(`Next build failed with status ${result.status ?? 1}`);
 
@@ -34,7 +39,7 @@ try {
   mkdirSync(output, { recursive: true });
   cpSync(resolve(project, "public"), output, { recursive: true });
   cpSync(resolve(stage, ".next/static"), resolve(output, "_next/static"), { recursive: true });
-  cpSync(storefront, resolve(output, "index.html"));
+  cpSync(target === "admin" ? administration : storefront, resolve(output, "index.html"));
   if (includeAdministration) {
     mkdirSync(resolve(output, "admin"), { recursive: true });
     cpSync(administration, resolve(output, "admin/index.html"));
@@ -53,7 +58,7 @@ try {
       "/admin /404.html 404!",
       "/admin/* /404.html 404!",
     ]),
-    "/* /index.html 200",
+    ...(target === "admin" ? ["/ /admin/index.html 200", "/* /admin/index.html 200"] : ["/* /index.html 200"]),
     "",
   ].join("\n"));
 } finally {

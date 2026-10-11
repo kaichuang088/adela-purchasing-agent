@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-11T07:08:37.465130+00:00",
+  "requests": "GET only, no credentials, no identity bypass, no live writes",
+  "currentSitesVersionVerified": false,
+  "actualAIProviderVerified": false,
+  "results": [
+    {
+      "label": "private-sites",
+      "url": "https://adelas-korea-shop-preview.workspace-558703.chatgpt.site",
+      "httpStatus": 403
+    },
+    {
+      "label": "previous-netlify-draft",
+      "url": "https://6aca904822b00e5a18be294c--kk-purchasing-agent-shop.netlify.app",
+      "httpStatus": 200
+    },
+    {
+      "label": "previous-draft-shop-api",
+      "url": "https://6aca904822b00e5a18be294c--kk-purchasing-agent-shop.netlify.app/api/shop",
+      "httpStatus": 503
+    },
+    {
+      "label": "previous-draft-ai-route-get-only",
+      "url": "https://6aca904822b00e5a18be294c--kk-purchasing-agent-shop.netlify.app/api/ai-provider",
+      "httpStatus": 405
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 # 交接回 personal account — R20
 
-2026-10-11 的 Netlify 前台部署準備另見 NETLIFY_FRONTEND_R20_20261011.md。
-使用者要使用另一個 Netlify 帳號，須在該帳號／團隊下確認既有前台部署權限。
-品牌為 Adela's Purchasing Agent；前台沿用 kk-purchasing-agent-shop.netlify.app，
-後台沿用 kk-purchasing-agent-admin.netlify.app。當前尚未完成本次 Netlify 發布。
+2026-10-11 的 Netlify 前後台準備另見 NETLIFY_FRONT_ADMIN_20261011.md，
+較早前台 draft 紀錄在 NETLIFY_FRONTEND_R20_20261011.md。
+使用者已授權更新兩個既有 Netlify 專案及將網址改為 Adela；不必再要求發布批准。
+前台 ID `5bddbf98-7e39-4173-a0d9-9759be24fbc9`，後台 ID `ceb0a789-be1d-4465-a2c8-97451ae06717`。
+目標網址為 adela-purchasing-agent-shop.netlify.app 與 adela-purchasing-agent-admin.netlify.app，
+尚未完成改名／本次發布，不可當成已上線連結。原專案 ID、資料及安全設定必須保留。
+官方 CLI 帳號重新登入目前 pending；使用平台安全設定或官方登入，不在聊天傳憑證。
 後續必須記錄兩站實際 Netlify project ID、擁有帳號／團隊、backendId、公開 API
 存取及安全綁定。Chat 或 Google 登入、原始碼 ZIP 不會移轉 Netlify／Cloudflare 所有權。
 
@@ -20,6 +23,6 @@
 5. 記錄前台／後台與 Netlify 的 `KK_BACKEND_URL`、後端 `backendId`、AI endpoint、Gateway 授權和模型覆寫。網址相同或模型名稱已設定都不是端到端成功的證據。接收帳號需用實際 provider 做小範圍測試。
 6. 分別驗證站內訊息、手機 Web Push、Email 與無人開頁時的背景排程，保存實際送達、發送失敗與排程成功紀錄。手機安裝方式、使用者授權及 iOS／Android 行為需要實體裝置驗收。
 7. 發布前重新讀取最新 Site 原始碼並與交接版本比對；若有更新，合併後再測試。保留原資料、私人權限、舊訂單快照、已付款贈額及帳本。只在原資料庫套用尚未執行的遷移，不重播舊遷移。
-8. Sites更新已獲授權，缺存取能力時不得以再次批准作為阻擋理由。正式Netlify須先由使用者確認版本可Finalize，再取得publish核准；Cloudflare後端／資料庫切換及Stripe啟用仍需另行核准。移轉個人帳號的所有權或外部服務歸屬也不由本次原始碼包自動執行。
+8. Sites更新、Netlify前後台發布及網址改為Adela皆已獲使用者授權，缺帳號存取能力時不得重複要求發布批准。發布仍須取得同一Sites當前最新版並保留資料庫身分，不能將舊匯出當作即時最新版。Cloudflare後端／資料庫切換及Stripe啟用仍需另行核准。移轉個人帳號的所有權或外部服務歸屬不會由原始碼包自動執行。
 
 交接完成的驗收是接收帳號實際能繼續維護同一個專案，且資料、秘密綁定、權限與必要服務都已核實；不是只成功解壓 ZIP。
