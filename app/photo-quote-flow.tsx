@@ -8,16 +8,8 @@ import {Dialog,DialogContent,DialogHeader,DialogTitle,DialogDescription} from '@
 import {PriceBreakdown} from './price-breakdown';
 import type {ProductAnalysis} from '@/lib/types';
 import type {Pricing,ShopOrder,PaymentMethod} from '@/lib/commerce-types';
+import {optimizePhoto} from '@/lib/photo-input';
 type Stage='photo'|'uploading'|'identifying'|'identity'|'quoting'|'quote'|'buying';
-async function optimizePhoto(file:File){
- if(file.size<=800*1024)return file;
- const bitmap=await createImageBitmap(file),scale=Math.min(1,1600/Math.max(bitmap.width,bitmap.height)),canvas=document.createElement('canvas');
- canvas.width=Math.max(1,Math.round(bitmap.width*scale));canvas.height=Math.max(1,Math.round(bitmap.height*scale));
- const context=canvas.getContext('2d');if(!context)throw new Error('無法處理照片，請改用較小的圖片。');
- context.fillStyle='#fff';context.fillRect(0,0,canvas.width,canvas.height);context.drawImage(bitmap,0,0,canvas.width,canvas.height);bitmap.close();
- for(const quality of [.82,.72,.62,.52]){const blob=await new Promise<Blob|null>(resolve=>canvas.toBlob(resolve,'image/jpeg',quality));if(blob&&blob.size<=850*1024)return new File([blob],file.name.replace(/\.[^.]+$/,'.jpg'),{type:'image/jpeg'});}
- throw new Error('照片壓縮後仍過大，請改用較小的照片（900KB 以下）。');
-}
 export function PhotoQuoteFlow({en,diamond=false,enabledCountries=['KR'],onClose,onPurchased}:{en:boolean;diamond?:boolean;enabledCountries?:string[];onClose:()=>void;onPurchased:(order:ShopOrder)=>void}){
  const [stage,setStage]=useState<Stage>('photo'),[file,setFile]=useState<File|null>(null),[preview,setPreview]=useState(''),[note,setNote]=useState(''),[analysis,setAnalysis]=useState<ProductAnalysis|null>(null),[pricing,setPricing]=useState<Pricing|null>(null),[error,setError]=useState('');
  const [country,setCountry]=useState<Country>(enabledCountries[0] as Country);

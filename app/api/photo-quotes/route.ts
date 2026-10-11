@@ -14,6 +14,7 @@ import {tiers,type Member,type Pricing} from '@/lib/commerce-types';
 import type {ProductAnalysis} from '@/lib/types';
 import {quoteSourceMessage,selectQuoteSource} from '@/lib/quote-source';
 import {cleanupExpiredQuoteMedia,deleteMedia,getMedia,putMedia,D1_MEDIA_LIMIT} from '@/lib/media-store';
+import {AI_PHOTO_MAX_BYTES} from '@/lib/photo-input';
 
 async function quoteDraft(draft:Record<string,unknown>,member:Member,a:ProductAnalysis){
  const country=String(draft.country) as Country,result=selectQuoteSource(a,country);
@@ -51,8 +52,8 @@ export async function POST(request:Request){try{
   const count=await db.prepare("SELECT COUNT(*) AS n FROM kk_photo_drafts WHERE member_id=? AND state NOT IN ('discarded','purchased') AND expires_at>?").bind(member.id,new Date().toISOString()).first();
   if(Number(count?.n)>=5)throw new ShopError('請先完成或取消現有照片查價。 / Complete or cancel an existing photo search.',429);
   const form=await request.formData(),country=enabledCountry(form.get('country')||'KR',(await settings()).enabledCountries),file=form.get('image'),note=String(form.get('note')||'').trim().slice(0,1200);
-  const maxBytes=env.BUCKET?4194304:D1_MEDIA_LIMIT;
-  if(!(file instanceof File)||!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size<1||file.size>maxBytes)throw new ShopError(env.BUCKET?'請選擇 4MB 以下 JPG、PNG 或 WEBP。 / Choose a JPG, PNG or WEBP under 4MB.':'照片壓縮後仍過大，請改用較小的照片（900KB 以下）。 / The compressed image is still too large. Choose an image under 900KB.');
+  const maxBytes=env.KK_AI_GATEWAY_URL?AI_PHOTO_MAX_BYTES:env.BUCKET?4194304:D1_MEDIA_LIMIT;
+  if(!(file instanceof File)||!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size<1||file.size>maxBytes)throw new ShopError(env.KK_AI_GATEWAY_URL?'請重新從商品照片查價上傳，系統會自動壓縮；若仍過大，請裁切為單一商品。 / Upload through photo search for automatic compression, or crop to one product.':env.BUCKET?'請選擇 4MB 以下 JPG、PNG 或 WEBP。 / Choose a JPG, PNG or WEBP under 4MB.':'照片壓縮後仍過大，請改用較小的照片（900KB 以下）。 / The compressed image is still too large. Choose an image under 900KB.');
   const bytes=await file.arrayBuffer(),s=new Uint8Array(bytes),valid=file.type==='image/jpeg'?s[0]===255&&s[1]===216:file.type==='image/png'?s[0]===137&&s[1]===80&&s[2]===78&&s[3]===71:String.fromCharCode(...s.slice(0,4))==='RIFF'&&String.fromCharCode(...s.slice(8,12))==='WEBP';
   if(!valid)throw new ShopError('圖片格式不符。 / Invalid image format.');
   const id=crypto.randomUUID(),imageKey='quote-drafts/'+id;
