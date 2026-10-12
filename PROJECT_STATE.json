@@ -1,0 +1,26 @@
+{
+  "release": "R21.1 backend knowledge correction (historical)",
+  "published": true,
+  "sourceCommit": "1b4412242d65cba6479ef03f1a98e416b18b6347",
+  "siteVersion": 31,
+  "sitesUpdated": false,
+  "frontend": "https://adela-purchasing-agent-shop.netlify.app",
+  "admin": "https://adela-purchasing-agent-admin.netlify.app",
+  "netlifyFrontendDeploy": "6acc8c7a90d71f60867c5fdd",
+  "netlifyAdminDeploy": "6acc8c7a22b00e5600be2762",
+  "workerVersion": "de1fd5f9-4d2f-4292-947a-fdc427334e0a",
+  "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+  "databaseReplaced": false,
+  "migration": "0027_seller_photo_review.sql",
+  "realAiModel": "gpt-6.1-sol",
+  "knownIssues": [
+    "Mobile More menu omitted notifications after AI replaced that tab; fixed in the following UI release.",
+    "A successful purchasable live photo quote still not verified; test lacked matching merchant evidence.",
+    "Physical phone Push/Email remain unverified."
+  ],
+  "databaseBackupIncluded": false,
+  "netlifyStaticSourceCommit": "f168899e83d53b152c7b3f1d4a7736a2eb1798c2",
+  "netlifyBadgeEnabled": false,
+  "liveMobileChecks": 28,
+  "liveMobileAllPassed": true
+}
