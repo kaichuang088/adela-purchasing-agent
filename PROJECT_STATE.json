@@ -1,0 +1,81 @@
+{
+  "release": "R22",
+  "published": true,
+  "sourceCommit": "d02847774518cb9b22368f97b0b93408e7fd2831",
+  "frontend": "https://adela-purchasing-agent-shop.netlify.app",
+  "admin": "https://adela-purchasing-agent-admin.netlify.app",
+  "netlifyPublications": [
+    {
+      "role": "storefront",
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "name": "adela-purchasing-agent-shop",
+      "deployId": "6accffd936ac214bffa57e88",
+      "previousProductionDeployId": "6acc99b0bec8770dc84cde0e",
+      "sourceCommit": "d02847774518cb9b22368f97b0b93408e7fd2831",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "productionDeployId": "6accffd936ac214bffa57e88",
+      "productionReplaced": true,
+      "actualDeployState": "ready",
+      "verifiedStaticFiles": 173,
+      "knownLegacyBackendGuardRetained": true
+    },
+    {
+      "role": "admin",
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "name": "adela-purchasing-agent-admin",
+      "deployId": "6accffe9bd84bcbd9b5ef5c1",
+      "previousProductionDeployId": "6acc99b331eda3f60dc98f72",
+      "sourceCommit": "d02847774518cb9b22368f97b0b93408e7fd2831",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "productionDeployId": "6accffe9bd84bcbd9b5ef5c1",
+      "productionReplaced": true,
+      "actualDeployState": "ready",
+      "verifiedStaticFiles": 173,
+      "knownLegacyBackendGuardRetained": true
+    }
+  ],
+  "cloudflare": {
+    "checkedAt": "2026-10-12T15:42:55.301007+00:00",
+    "sourceCommit": "d02847774518cb9b22368f97b0b93408e7fd2831",
+    "worker": "kk-purchasing-agent",
+    "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+    "preserveExistingStaticAssets": true,
+    "preserveExistingSecrets": true,
+    "credentialsPrinted": false,
+    "bundleSha256": "85e54f36e53dc2d52c2d07acd04f650e7dfbf197ce87bc2f2948ddb9bf3a9ce9",
+    "versionId": "10b9c23d-e66e-4cad-817c-b8035e496869",
+    "versionUploaded": true,
+    "deployed": true,
+    "cron": "* * * * *"
+  },
+  "d1MigrationCount": 29,
+  "sitesProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "sitesUpdated": false,
+  "sitesBaselineVersion": 31,
+  "sitesBaselineSource": "0418b8ed36a43ae973ca227f3ae0767fcdeec25b",
+  "noDatabaseBackup": true,
+  "tests": {
+    "isolatedWorkflow": 70,
+    "financialRegression": 29,
+    "isolatedChromium": 89,
+    "actualProviderCalls": 2,
+    "productionChromium": 24,
+    "productionChromiumAllPassed": true,
+    "productionAdminPasswordLoginPassed": true
+  },
+  "unresolved": [
+    "210 product specifications still need exact source/shipping/stock/Taiwan price evidence",
+    "No successful purchasable photo quote on live provider verified this release",
+    "Phone Push delivery unverified; Email provider unconfigured",
+    "Pre-R22 admin chat text was not stored and cannot be recovered"
+  ],
+  "budget": {
+    "userObservedBaseline": 907,
+    "minimumReserve": 850,
+    "productionPublications": 2,
+    "listedProductionCredits": 30,
+    "providerCalls": 2,
+    "autoRecharge": false,
+    "liveBalanceApiDelayed": true
+  }
+}

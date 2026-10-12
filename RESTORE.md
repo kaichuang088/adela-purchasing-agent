@@ -1,0 +1,1 @@
+下載完整外層 ZIP、解壓後執行 `python restore.py --destination ./Adela_R22_Restored`。工具核對各包 SHA256、CRC 與逐檔 manifest，目的地必須空白。完整 source/ 逐位元對應實際發布 commit。建置見 source/R22_NETLIFY_UPDATE_20261012.md。只套用尚未執行的遷移，原 D1 已完成 29 項，不能重播歷史遷移。ZIP 不是線上 DB 備份。
