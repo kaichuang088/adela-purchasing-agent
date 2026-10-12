@@ -31,6 +31,7 @@ export const statusLabel: Record<string, { zh: string; en: string }> = {
 };
 
 export type PriceSource = {
+  deliveryAmount?:number;deliveryConfirmed?:boolean;deliveryConditions?:string;deliveryBasis?:'per_order'|'per_unit';
   exactMatch?: boolean; inStock?: boolean; localJapan?:boolean;localCountry?:Country;currency?:Currency;originalPrice?:number;afterTaxPrice?:number|null; taxFreeForResale?:boolean; taxFreeConditions?:string; taxEvidenceUrl?:string;
   storeName: string; url: string; priceTaxIncludedJpy: number; priceTaxFreeJpy: number | null;
   taxFreeEligible: boolean; capturedAt: string; note: string;

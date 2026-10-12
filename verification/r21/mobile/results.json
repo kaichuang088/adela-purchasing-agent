@@ -1,0 +1,246 @@
+{
+  "scope": "Real Chromium viewport rendering of built front/admin and compiled Worker using isolated D1 and mocked AI; not production or physical phone",
+  "checks": 23,
+  "allPassed": true,
+  "results": [
+    {
+      "width": 375,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-ai-floating",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 342.0733947753906,
+          "right": 937.9265441894531,
+          "top": 118.69180297851562,
+          "bottom": 781.3081359863281,
+          "height": 900,
+          "scroll": 618,
+          "client": 618
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    }
+  ]
+}

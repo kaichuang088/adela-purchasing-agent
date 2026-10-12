@@ -20,10 +20,19 @@ import {addLedger,allOffers,orderBundle,parseMember,products,settings,exchange,S
 import {updateOrder,saveProduct} from '@/lib/commerce-admin';
 import {tiers,type Offer,type Tier} from '@/lib/commerce-types';
 import {failure} from '@/app/api/shop/route';
+import {POST as shopPost} from '@/app/api/shop/route';
+import {createAdminMember} from '@/lib/admin-members';
 
 export async function GET(request:Request){if(!isAdmin(request))return privateJson({error:'請先登入管理後台。'},401);try{await advancePurchasing(rawDb(),new Date());const db=rawDb();const orders=(await db.prepare('SELECT * FROM shopping_requests ORDER BY id DESC LIMIT 500').all()).results;const members=(await db.prepare(memberSelect+' ORDER BY m.created_at DESC').all()).results.map(parseMember);const supportThreads=(await db.prepare(`SELECT m.id AS member_id,m.name,m.email,COALESCE(t.status,'human') AS status,COALESCE(t.needs_human,0) AS needs_human,COALESCE(t.ai_summary,'') AS ai_summary,COALESCE(t.unread_admin,0) AS unread_admin,COALESCE(t.unread_member,0) AS unread_member,COALESCE(t.updated_at,(SELECT MAX(created_at) FROM kk_conversations WHERE member_id=m.id)) AS updated_at,(SELECT body FROM kk_conversations WHERE member_id=m.id ORDER BY id DESC LIMIT 1) AS last_body FROM kk_members m LEFT JOIN kk_support_threads t ON t.member_id=m.id WHERE t.member_id IS NOT NULL OR EXISTS(SELECT 1 FROM kk_conversations c WHERE c.member_id=m.id) ORDER BY COALESCE(t.needs_human,0) DESC,updated_at DESC LIMIT 500`).all()).results;return privateJson({creditWithdrawals:await creditWithdrawals(),refundCredits:await refundCredits(),exchange:await exchange({preferCached:true}).catch(()=>null),procurement:await procurement(),topups:await topups(),products:await products(true),orders:await Promise.all(orders.map(orderBundle)),members,supportThreads,offers:await allOffers(),settings:await settings(),aiConfigured:aiConfiguration(env).configured,emailConfigured:emailConfigured(env),emailQueue:await emailQueueSummary(db)});}catch(e){return failure(e);}}
 export async function POST(request:Request){if(!isAdmin(request))return privateJson({error:'請先登入管理後台。'},401);try{
  const b=await request.json() as Record<string,any>,db=rawDb();
+ if(b.action==='create_member')return privateJson({ok:true,member:await createAdminMember(b)},201);
+ if(b.action==='admin_order'){
+  if(!['estimate','checkout'].includes(b.orderAction))throw new ShopError('請先計算代下單金額。');
+  const headers=new Headers({'Content-Type':'application/json','X-KK-Admin-Password':request.headers.get('x-kk-admin-password')||'','X-Adela-Order-Member':String(b.memberId||'')});
+  if(!b.memberId)throw new ShopError('請選擇會員。');
+  return shopPost(new Request(request.url,{method:'POST',headers,body:JSON.stringify({...b,action:b.orderAction,coupons:[],coupon:'',urgent:false,note:'管理員代下單：'+String(b.note||'')})}));
+ }
  if(b.action==='revoke_refund_credit'){await revokeRefundCredit(String(b.memberId||''),String(b.key||''),String(b.reason||''));return privateJson({ok:true});}
  if(b.action==='adjust_credit'){await adjustMemberCredit(String(b.memberId||''),String(b.direction||''),Number(b.amount),String(b.reason||''),String(b.key||''));return privateJson({ok:true});}
  if(b.action==='resolve_credit_withdrawal'){await resolveCreditWithdrawal(String(b.id||''),String(b.outcome||''),String(b.reference||''),String(b.reason||''));return privateJson({ok:true});}
@@ -44,7 +53,7 @@ export async function POST(request:Request){if(!isAdmin(request))return privateJ
  if(b.action==='analyze'){try{return privateJson({ok:true,request:await runAnalysis(Number(b.id))});}catch(e){return privateJson({error:e instanceof Error?e.message:'AI 查價失敗。'},409);}}
  if(b.action==='settle_revision'){await settleRevision(String(b.id),String(b.reference||''));return privateJson({ok:true});}
  if(b.action==='product'||b.action==='publish'){const priceReviews=await saveProduct(b);return privateJson({ok:true,priceReviews});}
- if(['status','quote','eta','payment_state'].includes(b.action)){await updateOrder(b);return privateJson({ok:true});}
+ if(['status','quote','eta','payment_state','approve_photo'].includes(b.action)){await updateOrder(b);return privateJson({ok:true});}
  if(b.action==='member'){
   const member=await db.prepare(memberSelect+' WHERE m.id=?').bind(String(b.id)).first();if(!member)throw new ShopError('找不到會員。');
   if(b.overrideTier!==undefined){if(b.overrideTier!==null&&!tiers.includes(b.overrideTier))throw new ShopError('會員等級無效。');await db.prepare('UPDATE kk_members SET override_tier=? WHERE id=?').bind(b.overrideTier,member.id).run();}

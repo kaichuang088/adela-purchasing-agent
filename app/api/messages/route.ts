@@ -4,7 +4,8 @@ import type {PriceLine} from '@/lib/commerce-types';
 import {env} from 'cloudflare:workers';
 import {rawDb} from '@/lib/catalog';
 import {isAdmin,privateJson} from '@/lib/admin-auth';
-import {currentMember,ShopError,orderBundle,settings,parseMember,memberSelect} from '@/lib/commerce';
+import {currentMember,ShopError,orderBundle,settings,parseMember,memberSelect,products,exchange} from '@/lib/commerce';
+import {catalogDisplayPrice} from '@/lib/catalog-display-price';
 import {failure} from '@/app/api/shop/route';
 import {supportReply,supportSummary} from '@/lib/support-ai';
 
@@ -117,7 +118,10 @@ export async function POST(request:Request){try{
  if(thread?.status==='ai'&&!thread?.needs_human){
   const config=await settings(),member=parseMember((await db.prepare(memberSelect+' WHERE m.id=?').bind(target.id).first())!);
   const selected=b.orderId?await db.prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId,target.id).first():null;
-  const reply=await supportReply(await messages(target.id,b.orderId||undefined),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions});
+  const rate=await exchange({preferCached:true}).catch(()=>null),catalog=await products();
+  const words=String(b.body||'').toLowerCase().match(/[a-z0-9]+|[\u3400-\u9fff]{2,}/g)||[];
+  const relevant=catalog.map(p=>({p,score:words.reduce((n,w)=>n+((p.nameZh+' '+p.nameEn+' '+p.categoryZh+' '+(p.brand||'')).toLowerCase().includes(w)?1:0),0)})).sort((a,b)=>b.score-a.score).slice(0,30).map(({p})=>({id:p.id,name:p.nameZh,nameEn:p.nameEn,description:p.descriptionZh.slice(0,180),spec:p.spec,priceTwd:catalogDisplayPrice(p,{tier:member.tier,fees:config.fees,exchangeRate:rate?.rate,paidOrders:member.paidOrders}).amount,priceIsFrom:p.variants.length>0,options:p.variants.slice(0,8).map(v=>v.labelZh),stockVerified:p.stockQuantityVerified!==false&&p.stock>=0,stock:p.stock>=0?p.stock:null}));
+  const reply=await supportReply(await messages(target.id,b.orderId||undefined),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions,store:{shopPaused:config.shopPaused,photoQuotesPaused:config.photoQuotesPaused,orderOpensAt:config.orderOpensAt,orderClosesAt:config.orderClosesAt,enabledCountries:config.enabledCountries},catalog:relevant});
   await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) SELECT member_id,?,?,? FROM kk_support_threads WHERE member_id=? AND status='ai' AND needs_human=0").bind(reply.modelUsed?'ai':'system',reply.modelUsed?reply.body:reply.body,b.orderId||null,target.id).run();
   if(reply.handoff)await handoff(target.id,b.orderId||null);
   else await db.prepare("UPDATE kk_support_threads SET unread_member=unread_member+1,updated_at=CURRENT_TIMESTAMP WHERE member_id=? AND status='ai' AND needs_human=0").bind(target.id).run();

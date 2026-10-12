@@ -6,8 +6,8 @@ import {requireShopOpen} from '@/lib/commerce';
 import {paymentChoice,transferDeadline,settleCreditOnly} from '@/lib/payments';
 import {acceptRevision} from '@/lib/price-revisions';
 import {rawDb,newOrderNumber} from '@/lib/catalog';
-import {privateJson} from '@/lib/admin-auth';
-import {addOrderUpdate,allOffers,exchange,calculate,currentMember,identity,legacyQuote,live,orderBundle,products,redeemSnack,settings,ShopError} from '@/lib/commerce';
+import {privateJson,isAdmin} from '@/lib/admin-auth';
+import {addOrderUpdate,allOffers,exchange,calculate,currentMember,identity,legacyQuote,live,orderBundle,products,redeemSnack,settings,ShopError,memberForPhotoResearch} from '@/lib/commerce';
 import type {Pricing} from '@/lib/commerce-types';
 import {shippingAddress} from '@/lib/shipping-address';
 
@@ -31,7 +31,10 @@ export async function POST(request:Request){try{
   await db.batch([db.prepare('INSERT OR IGNORE INTO kk_members (id,name,email,miles) VALUES (?,?,?,5)').bind(user.id,name,user.email),db.prepare("INSERT OR IGNORE INTO kk_ledger (event_key,member_id,miles,reason) VALUES (?,?,5,'新會員禮 / Welcome miles')").bind('welcome:'+user.id,user.id)]);
   return privateJson({ok:true,member:await currentMember(request)});
  }
- const member=(await currentMember(request,true))!;
+ const adminMemberId=request.headers.get('x-adela-order-member');
+ if(adminMemberId&&(!isAdmin(request)||!['estimate','checkout'].includes(body.action)))throw new ShopError('代下單需要管理員授權。',401);
+ const member=adminMemberId?await memberForPhotoResearch(adminMemberId):(await currentMember(request,true))!;
+ if(!member)throw new ShopError('找不到會員。',404);
  if(body.action==='create_topup'){throw new ShopError('已停止販售儲值商品；既有餘額仍可使用或申請轉帳退款。',410);}
  if(body.action==='report_topup'){throw new ShopError('已停止新增儲值匯款；如曾付款請聯絡賣家處理。',410);}
  if(body.action==='request_credit_withdrawal'){return privateJson({ok:true,withdrawal:await requestCreditWithdrawal(member.id,body)});}
@@ -65,7 +68,8 @@ export async function POST(request:Request){try{
  }
  const cart=Array.isArray(body.items)?body.items:[];const all=await products();const seen=new Set<string>();
  const lines=cart.map((l:{productId:number;variantId?:string;quantity:number})=>{const source=all.find(p=>p.id===Number(l.productId));if(!source)throw new ShopError('商品已更新，請重新選擇。');const variantId=String(l.variantId||''),variant=source.variants.find(v=>v.id===variantId);if(source.variants.length&&!variant)throw new ShopError('請先選擇商品規格。 / Select a product option first.');if(variant?.stock===0)throw new ShopError('此口味目前供應商缺貨，請選擇其他口味。 / This flavor is currently sold out.',409);const key=source.id+':'+variantId;if(seen.has(key))throw new ShopError('購物車內有重複規格，請重新整理。');seen.add(key);const p=variant?{...source,purchaseUrl:variant.purchaseUrl||source.purchaseUrl,priceJpy:variant.priceJpy,taxIncludedJpy:variant.taxIncludedJpy,nameZh:source.nameZh+'・'+variant.labelZh,nameEn:source.nameEn+' · '+variant.labelEn,selectedVariantId:variant.id,selectedVariantLabelZh:variant.labelZh,selectedVariantLabelEn:variant.labelEn}:source;return{p,quantity:Number(l.quantity)};});
- const pricing=await calculate(member,lines,Array.isArray(body.coupons)?body.coupons:String(body.coupon||''),{urgent:body.urgent===true,useCredit:true});
+ if(adminMemberId&&(body.urgent||body.coupons?.length||body.coupon))throw new ShopError('代下單不使用優惠券、加急或既有購物金；付款由會員確認。',400);
+ const pricing=await calculate(member,lines,Array.isArray(body.coupons)?body.coupons:String(body.coupon||''),{urgent:body.urgent===true,useCredit:!adminMemberId});
  if(body.action==='estimate')return privateJson({pricing,snack:member.miles>=30});
  if((body.approvedPurchaseAtTo||body.approvedPurchaseAt||null)!==(pricing.purchaseAtTo||pricing.purchaseAt)||(body.approvedPurchaseAt||null)!==pricing.purchaseAt||(body.approvedCancelUntil||null)!==pricing.cancelUntil)throw new ShopError('採買日期或取消期限已更新，請重新查看報價。 / Purchase schedule changed. Review the quote again.',409);
  // The customer explicitly approves the current price; reject a changed snapshot.

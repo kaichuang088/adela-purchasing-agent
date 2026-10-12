@@ -1,4 +1,6 @@
 "use client";
+import {AdminAIHub,ChatGPTMark} from './ai-hub';
+import {MemberOrderDesk} from './member-order-desk';
 import {orderTask} from '@/lib/admin-tasks';
 import {OrderTaskList} from './order-task-list';
 import {MemberCreditControls} from './member-credit-controls';
@@ -173,6 +175,7 @@ export default function OperationsApp() {
     [data, setData] = useState<AdminData | null>(null),
     [tab, setTab] = useState<Tab>("orders"),
     [moreOpen, setMoreOpen] = useState(false),
+    [aiOpen,setAiOpen] = useState(false),
     [query, setQuery] = useState(""),[orderGroup,setOrderGroup]=useState("open"),[statusFilter,setStatusFilter]=useState("all");
   const [order, setOrder] = useState<ShopOrder | null>(null),
     [product, setProduct] = useState<any | null>(null),
@@ -315,7 +318,7 @@ export default function OperationsApp() {
     ["messages", "訊息", MessageCircle],
     ["notify", "通知", Bell],
     ["products", "商品", Store],
-    ["ai", "AI 管理", Bot],
+    ["ai", "AI", Bot],
     ["members", "會員", Users],
     ["offers", "優惠", Ticket],
     ["settings", "設定", Settings],
@@ -324,6 +327,8 @@ export default function OperationsApp() {
     <>
       <Toaster richColors position="top-right" />
       <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','notify'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}{id==='members'&&(data!.creditWithdrawals||[]).some(r=>['requested','processing'].includes(r.status))?' · 有轉帳退款申請':''}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
+      <button type="button" className="adela-ai-fab" aria-label={a('開啟 AI 工作助理')} onClick={()=>setAiOpen(true)}><ChatGPTMark/><span>AI</span></button>
+      <Dialog open={aiOpen} onOpenChange={setAiOpen}><DialogContent className="adela-ai-dialog"><DialogHeader><DialogTitle>{a('AI 工作助理')}</DialogTitle><DialogDescription>{a('對話、查價與商店操作')}</DialogDescription></DialogHeader><AdminAIHub password={password} configured={data!.aiConfigured} refresh={load} rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog}/></DialogContent></Dialog>
       <main className="op-shell">
         <aside>
           <a className="op-brand" href="/">
@@ -332,8 +337,8 @@ export default function OperationsApp() {
           <nav>
             {menus.map(([id, label, Icon]) => {
               const count=id==='members'?(data!.creditWithdrawals||[]).filter(r=>['requested','processing'].includes(r.status)).length:id==='procurement'?data!.procurement.reduce((n,g)=>n+g.quantity,0):id==='messages'?data!.supportThreads.reduce((n,t)=>n+t.unread_admin,0):(id==='orders'||id==='notify')?data!.orders.filter(o=>!!orderTask(o)).length:0;
-              return <Fragment key={id}>{['orders','products','members','settings'].includes(id)&&<span className="op-nav-heading">{a(id==='orders'?'每日工作':id==='products'?'商品與選品':id==='members'?'會員經營':'商店設定')}</span>}<button className={(tab===id?'active ':'')+(['orders','products','messages','notify'].includes(id)?'op-nav-primary':'op-nav-secondary')} onClick={()=>setTab(id)}>
-                <span className="adela-nav-icon"><Icon/>{count>0&&<strong className="op-unread-count" aria-label={a('未讀通知')+': '+count}>{count>99?'99+':count}</strong>}</span><span>{a(label)}</span>
+              return <Fragment key={id}>{['orders','products','members','settings'].includes(id)&&<span className="op-nav-heading">{a(id==='orders'?'每日工作':id==='products'?'商品與選品':id==='members'?'會員經營':'商店設定')}</span>}<button className={(tab===id?'active ':'')+(['orders','products','messages','ai'].includes(id)?'op-nav-primary':'op-nav-secondary')+(id==='ai'?' adela-ai-nav':'')} onClick={()=>setTab(id)}>
+                <span className="adela-nav-icon">{id==='ai'?<ChatGPTMark/>:<Icon/>}{count>0&&<strong className="op-unread-count" aria-label={a('未讀通知')+': '+count}>{count>99?'99+':count}</strong>}</span><span>{a(label)}</span>
               </button></Fragment>;
             })}
             <button className={'op-nav-more '+(!['orders','products','messages','notify'].includes(tab)?'active':'')} onClick={()=>setMoreOpen(true)} aria-expanded={moreOpen}><span className="adela-nav-icon"><MoreHorizontal/></span><span>{a('更多')}</span></button>
@@ -374,7 +379,7 @@ export default function OperationsApp() {
             </div>
           </header>
           <div className="op-content">
-            {tab === "procurement" && <ProcurementList groups={data?.procurement||[]} send={async body=>{await api(body);await load();}}/>}
+            {tab === "procurement" && <><ProcurementList groups={data?.procurement||[]} send={async body=>{await api(body);await load();}}/>{data!.orders.some(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status))&&<section className="op-panel adela-member-desk"><h3>{a('已核價購買清單・待付款')}</h3><p>{a('已完成賣家核價；匯款核對前不會標記已付款或已買到。')}</p>{data!.orders.filter(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status)).map(o=><button className="adela-pending-purchase" key={o.id} onClick={()=>setOrder(o)}><span>{o.identifiedNameZh}<small>{o.customerName} · {o.requestNo}</small></span><strong>NT${o.pricing?.totalTwd.toLocaleString()}</strong><ChevronRight/></button>)}</section>}</>}
             {tab === "orders" && (
               <><details className="op-legacy-topups"><summary>舊儲值紀錄（已停止販售）</summary><AdminTopups items={data?.topups||[]} send={async body=>{await api(body);await load();}}/></details>
                 <div className="op-hero">
@@ -480,7 +485,7 @@ export default function OperationsApp() {
                 </div>
               </>
             )}
-            {tab === "ai" && <><div className="op-title"><div><p>AI ASSISTANT</p><h2>{a("AI 商店管理")}</h2><span>{a("商品停售、下單區間與到貨日，確認修改內容後套用。")}</span></div><Button onClick={()=>setProduct({...blankProduct,initialEditMode:"ai"})}><Plus/>{a("AI 新增商品")}</Button></div><AIBulkCommands password={password} configured={data!.aiConfigured} refresh={load}/><AIScan rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog} password={password} configured={data!.aiConfigured} refresh={load}/></>}
+            {tab === "ai" && <AdminAIHub password={password} configured={data!.aiConfigured} refresh={load} rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog}/>}
             {tab === "products" && (
               <>
                 <div className="op-title">
@@ -538,6 +543,7 @@ export default function OperationsApp() {
                     <span>{a("金鑽會員僅由後台授予，無消費門檻、代購費 0%，可貨到付款。消費與哩程只在收款確認後累計。")}</span>
                   </div>
                 </div>
+                <MemberOrderDesk password={password} members={data!.members} products={data!.products} refresh={load}/>
                 <div className="op-panel">
                   {data!.members.map((m) => (
                     <div className="op-member-row" key={m.id}>
@@ -640,9 +646,7 @@ export default function OperationsApp() {
         busy={busy}
         close={() => setOrder(null)}
         save={operation}
-        publish={(id) =>
-          operation({ action: "publish", requestId: id }, "已發布到販售頁")
-        }
+        publish={async id=>{const source=data!.orders.find(o=>o.id===id);if(!source?.pricing)return;const line=source.pricing.items[0];setOrder(null);setProduct({...blankProduct,requestId:id,nameZh:line.nameZh,nameEn:line.nameEn,originalJpy:line.originalJpy,imageKey:source.imageKey,purchaseUrl:line.sourceUrl,stock:0,status:'draft',initialEditMode:'ai'});}}
       />
       <ProductDialog
         rate={data!.exchange?.rate}
@@ -710,11 +714,13 @@ export function OrderDialog({
  const a=useAdminText(),language=useStoreLocale();
   const [draft, setDraft] = useState<any>({}),
     [section, setSection] = useState("quote"),
-    [publishAfterReview,setPublishAfterReview] = useState(true),
+    [publishAfterReview,setPublishAfterReview] = useState(false),
+    [sourceConfirmed,setSourceConfirmed] = useState(false),
     [reference, setReference] = useState(""),
     [autoStarted, setAutoStarted] = useState<number | null>(null);
   useEffect(() => {
     if (value) {
+      setSourceConfirmed(false);
       setDraft({
         nameZh: value.identifiedNameZh,
         nameEn: value.identifiedNameEn,
@@ -904,6 +910,7 @@ export function OrderDialog({
                 )}
               </section>
             )}
+            {value.kind==='custom'&&value.status==='admin_review'&&value.pricing&&<section className="op-form adela-seller-review"><h3>{a('買家已接受預估總價，待賣家核對')}</h3><strong>NT${value.pricing.totalTwd.toLocaleString()} · {a('已含代購費')}</strong><p>{a('請於 24 小時內核對照片、規格、現價及必要運費。原價確認後加入購買清單並通知買家付款；若改價，請使用下方調價流程，買家必須再次接受。')}</p>{value.sellerReviewDueAt&&<p>{a('核價期限')}：{new Date(value.sellerReviewDueAt).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})}</p>}<label className="op-check"><input type="checkbox" checked={sourceConfirmed} onChange={e=>setSourceConfirmed(e.target.checked)}/>{a('已核對商品照片、正確規格、韓國現價與必要運費')}</label><Button disabled={busy||!sourceConfirmed} onClick={()=>void save({action:'approve_photo',id:value.id,approvedTotal:value.pricing!.totalTwd,approvedAt:value.pricing!.pricedAt,sourceConfirmed:true},'已核價並加入購買清單；尚未確認收款')}>{a('確認此總價，加入購買清單')}</Button></section>}
             {!locked && !pending && (
               <form className="op-form" onSubmit={dirtyPrice}>
                 <div className="op-form-title">
@@ -1026,10 +1033,10 @@ export function OrderDialog({
               <Button
                 type="button"
                 variant="outline"
-                disabled={busy || !!pending}
+                disabled={busy || !!pending || value.status==='admin_review'}
                 onClick={() => void publish(value.id)}
               >
-                <Store />{a("發布至商品頁 · 一般會員費率 8%")}</Button>
+                <Store />{a("建立公開商品草稿・核對規格與來源後上架")}</Button>
             )}
           </div>
         )}
@@ -1363,7 +1370,7 @@ export function ProductDialog({
               />
             </label>
           </div>
-          <fieldset className="op-flex-price"><legend>{a("彈性售價")}</legend><p>{a("一般費率 ÷（1＋單件台幣成本／4000），再乘會員費率比例與回購係數。回購係數為 1／（1＋已核款訂單數 × 0.03），最多計 50 筆。含費售價不得高於台灣同規格價格的 95%；成本超出時列入核對清單。")}</p><div className="op-two"><label>{a("個別費率上限 %（留空自動計算）")}<input type="number" min="0" max="100" step="0.1" value={d.serviceFeePercent??''} onChange={e=>p('serviceFeePercent',e.target.value===''?null:+e.target.value)}/></label><label>{a("含服務費售價上限 NT$（不含運費）")}<input type="number" min="1" step="1" value={d.salePriceTwd||''} placeholder="例如 6300" onChange={e=>p('salePriceTwd',e.target.value===''?null:+e.target.value)}/></label></div><small>{a("例如實際成本 NT$6,000，可設定上限 NT$6,300；留空則依費率計算。既有訂單金額不受影響。")}</small></fieldset><fieldset className="op-flex-price"><legend>{a('台灣販售情況')}</legend><select value={d.taiwanAvailability||'listed'} onChange={e=>{p('taiwanAvailability',e.target.value);p('taiwanAbsenceConfirmed',false);}}><option value="listed">{a('台灣有販售：核對同規格價格')}</option><option value="not_sold">{a('台灣無販售：需查核證據')}</option></select>{d.taiwanAvailability==='not_sold'&&<><textarea aria-label={a('台灣無販售查核記錄')} placeholder={a('記錄已查核的品牌、台灣通路、規格及日期；找不到價格不等於沒有販售。')} value={d.taiwanAbsenceEvidence||''} onChange={e=>p('taiwanAbsenceEvidence',e.target.value)}/><label className="op-check"><input type="checkbox" checked={!!d.taiwanAbsenceConfirmed} onChange={e=>p('taiwanAbsenceConfirmed',e.target.checked)}/>{a('我已查核這個規格在台灣無販售')}</label></>}</fieldset>          <div className="op-two">
+          <fieldset className="op-flex-price"><legend>{a("彈性售價")}</legend><p>{a("香水費率上限為 1% ÷（1＋單件台幣成本／2000）；其他商品為一般費率 ÷（1＋單件台幣成本／4000），再乘會員費率比例與回購係數。回購係數為 1／（1＋已核款訂單數 × 0.03），最多計 50 筆。含費售價不得高於台灣同規格價格的 95%；成本超出時列入核對清單。")}</p><div className="op-two"><label>{a("個別費率上限 %（留空自動計算）")}<input type="number" min="0" max="100" step="0.1" value={d.serviceFeePercent??''} onChange={e=>p('serviceFeePercent',e.target.value===''?null:+e.target.value)}/></label><label>{a("含服務費售價上限 NT$（不含運費）")}<input type="number" min="1" step="1" value={d.salePriceTwd||''} placeholder="例如 6300" onChange={e=>p('salePriceTwd',e.target.value===''?null:+e.target.value)}/></label></div><small>{a("例如實際成本 NT$6,000，可設定上限 NT$6,300；留空則依費率計算。既有訂單金額不受影響。")}</small></fieldset><fieldset className="op-flex-price"><legend>{a('台灣販售情況')}</legend><select value={d.taiwanAvailability||'listed'} onChange={e=>{p('taiwanAvailability',e.target.value);p('taiwanAbsenceConfirmed',false);}}><option value="listed">{a('台灣有販售：核對同規格價格')}</option><option value="not_sold">{a('台灣無販售：需查核證據')}</option></select>{d.taiwanAvailability==='not_sold'&&<><textarea aria-label={a('台灣無販售查核記錄')} placeholder={a('記錄已查核的品牌、台灣通路、規格及日期；找不到價格不等於沒有販售。')} value={d.taiwanAbsenceEvidence||''} onChange={e=>p('taiwanAbsenceEvidence',e.target.value)}/><label className="op-check"><input type="checkbox" checked={!!d.taiwanAbsenceConfirmed} onChange={e=>p('taiwanAbsenceConfirmed',e.target.checked)}/>{a('我已查核這個規格在台灣無販售')}</label></>}</fieldset>          <div className="op-two">
             <label>{a("商品狀態")}<select
                 value={d.status}
                 onChange={(e) => p("status", e.target.value)}

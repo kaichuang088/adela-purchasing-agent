@@ -2,8 +2,10 @@ import type {ShopProduct} from './commerce-types';
 import {marketPriceCeiling} from './market-price';
 // Per-product flexibility is a ceiling on service fees, never an added surcharge.
 export function loyaltyFactor(paidOrders=0){return 1/(1+0.03*Math.min(50,Math.max(0,paidOrders)));}
+export function isPerfume(product:Pick<ShopProduct,'nameZh'|'nameEn'|'categoryZh'|'categoryEn'>){return /香水|淡香精|淡香水|perfume|eau de parfum|eau de toilette/i.test(product.nameZh+' '+product.nameEn);}
 export function productFeeRate(product:ShopProduct,memberRate:number,unitCostTwd=0,standardRate=8,paidOrders=0){
- const ceiling=Math.min(product.serviceFeePercent??standardRate,standardRate/(1+Math.max(0,unitCostTwd)/4000));
+ const perfumeCeiling=isPerfume(product)?1/(1+Math.max(0,unitCostTwd)/2000):standardRate;
+ const ceiling=Math.min(product.serviceFeePercent??standardRate,perfumeCeiling,standardRate/(1+Math.max(0,unitCostTwd)/4000));
  return standardRate<=0?0:Number((Math.min(memberRate,ceiling*Math.min(1,memberRate/standardRate))*loyaltyFactor(paidOrders)).toFixed(4));
 }
 export function catalogPriceParts(product:ShopProduct,goods:number,fee:number,size:number,quantity=1,variantId?:string,memberFactor=1){
