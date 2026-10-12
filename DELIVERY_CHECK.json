@@ -1,0 +1,51 @@
+{
+  "sourceCommit": "5cfb75ffea0227d19af2730e6dab82498d398297",
+  "allSourceExactlyMatchesGitArchive": true,
+  "sourceFiles": 1169,
+  "allPartsUnder32MiB": true,
+  "parts": [
+    {
+      "name": "Adela_R21_Final_20261012_01_Source.zip",
+      "bytes": 22821452,
+      "sha256": "e39b86da8b4e509c6334d6c78083e37ae04c1e689bd0607e960a9a396cda4a8a",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_02_Source.zip",
+      "bytes": 7310553,
+      "sha256": "d9e3b6a41054dc6f729994f766e9f492186ab3c743331d43689614d63518b7fd",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_03_Assets.zip",
+      "bytes": 29348361,
+      "sha256": "2685d478ff91c594ae393f0c6ddacbe81543b9b43558562f2dc3bc2cc22a5618",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_04_Assets.zip",
+      "bytes": 29099802,
+      "sha256": "fbc0c2a3f0b36caeea782ef33d821a0d903155380f4cafdaf39750b548130c8c",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_05_Assets.zip",
+      "bytes": 26995885,
+      "sha256": "83a553ec3ae4de752d3e4055fdf3898d4286b7dbd90818266260aad3d1f63e63",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_06_Assets.zip",
+      "bytes": 4950407,
+      "sha256": "3579019513933e27193dc954df4467cc4735b3fd52d25f9a9a66c8b148204605",
+      "crcVerified": true
+    },
+    {
+      "name": "Adela_R21_Final_20261012_07_Verification.zip",
+      "bytes": 69431,
+      "sha256": "d6d65fc90c0b331644d824ac7f2562f099c208db215dab3541d768bcc88c9b93",
+      "crcVerified": true
+    }
+  ],
+  "databaseBackupIncluded": false
+}
