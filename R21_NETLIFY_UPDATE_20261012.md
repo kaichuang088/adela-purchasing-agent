@@ -31,3 +31,7 @@ Node >=22.13，pnpm 11.25。`pnpm install --frozen-lockfile`；開發 `pnpm dev`
 Netlify Personal 每月額度與網站共用，非 GPT 無限使用；保持自動加值關閉，追加預算需另行授權。秘密與平台權限不隨 ZIP／GitHub 移轉。Personal account 交接需另外授予原 GitHub、Netlify、Cloudflare、私人 Sites 的存取與安全秘密設定，不複製登入憑證。
 
 完整 ZIP 不是線上資料庫備份。每次發布根目錄附部署資訊、來源 SHA、驗收、手機瀏覽器截圖及未完成項目；實體手機 Push／Email 不因本次更新而宣稱驗證。
+
+## 正式實測後的 R21.1 後端修正
+
+第一次實測客服已報 NT$5,851，但把設定表的8%基準費率當成該商品費率，且不知道價格已含費。因此伺服器新增 serviceFeeIncluded、實際服務費金額與有效費率，並明確區分基準上限與實際售價。後台 AI 收到完整會員費率、比例、匯率與已付款回購公式。這些是後端資料修正，不修改前後台 React／CSS／資產，Netlify 靜態部署沿用 R21 已核對的檔案。原 Worker 升級為修正版；完整 ZIP 同時記錄靜態部署基準與目前後端 source SHA。缺韓國來源時也明確說明「未取得證據不代表沒有販售」。

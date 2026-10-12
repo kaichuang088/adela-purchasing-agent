@@ -1,5 +1,5 @@
 {
-  "checks": 30,
+  "checks": 31,
   "scope": "Isolated Miniflare D1 + mocked model; synthetic accounts, orders and money only; not real provider evidence",
   "cases": [
     "Anonymous callers cannot create member accounts",
@@ -31,6 +31,7 @@
     "Changed product invalidates an old AI preview",
     "Reviewed custom product can publish without exposing buyer identity",
     "AI new product cannot publish without explicit supplier-availability confirmation",
-    "AI publishes confirmed supplier availability without inventing an inventory quantity"
+    "AI publishes confirmed supplier availability without inventing an inventory quantity",
+    "Support receives server-computed inclusive price, actual fee and effective rate"
   ]
 }

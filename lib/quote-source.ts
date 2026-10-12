@@ -26,7 +26,7 @@ export function selectQuoteSource(analysis:ProductAnalysis,country:Country):Quot
 
 export function quoteSourceMessage(kind:Exclude<QuoteSourceResult['kind'],'ready'>,country:Country){
  const place=countries[country].zh;
- if(kind==='not_sold')return `${place}目前未查到販售此商品。請確認型號或改選其他國家；不會建立訂單。 / This item is not currently found for sale in ${countries[country].en}. No order was created.`;
+ if(kind==='not_sold')return `${place}尚未取得此規格可核對的購買來源與現價。這不代表沒有販售；請補充商品頁或清楚型號，未建立訂單。 / A verifiable retailer and current price for this exact item in ${countries[country].en} were not found. This does not prove it is unavailable. No order was created.`;
  if(kind==='out_of_stock')return `${place}目前沒有可確認的現貨。請稍後再試；不會建立訂單。 / No verifiable local stock is currently available. No order was created.`;
  return 'AI 尚無法確認商品型號。請補充品牌／型號或改用能看清標籤的照片；不會建立訂單。 / The exact item could not be identified. Add the brand/model or upload a photo showing the label. No order was created.';
 }
