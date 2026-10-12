@@ -1,4 +1,8 @@
-"use client";
+'use client';
+import {productCode} from '@/lib/product-code';
+import {AdminNotifications} from './admin-notifications';
+import {PriceReports} from './price-reports';
+
 import {AdminAIHub,ChatGPTMark} from './ai-hub';
 import {MemberOrderDesk} from './member-order-desk';
 import {orderTask} from '@/lib/admin-tasks';
@@ -115,7 +119,7 @@ type AdminData = {
   emailQueue?: Record<string,number>;
 };
 type SupportThread={member_id:string;name:string;email:string;status:'ai'|'waiting'|'human';needs_human:number;ai_summary:string;unread_admin:number;unread_member:number;updated_at:string;last_body:string};
-type Tab = "procurement" | "ai" | "orders" | "products" | "members" | "messages" | "offers" | "notify" | "settings";
+type Tab = "procurement" | "ai" | "orders" | "products" | "members" | "member_orders" | "price_reports" | "messages" | "offers" | "notify" | "settings";
 const FRONT = process.env.NEXT_PUBLIC_KK_STOREFRONT_URL || "/";
 const blankProduct = {
   nameZh: "",
@@ -173,9 +177,10 @@ export default function OperationsApp() {
     [ready, setReady] = useState(false),
     [busy, setBusy] = useState(false),
     [data, setData] = useState<AdminData | null>(null),
-    [tab, setTab] = useState<Tab>("orders"),
+    [tab, setTab] = useState<Tab>(()=>typeof window!=='undefined'&&new URLSearchParams(window.location.search).get('view')==='notify'?'notify':'orders'),
     [moreOpen, setMoreOpen] = useState(false),
     [aiOpen,setAiOpen] = useState(false),
+    [catalogSearch,setCatalogSearch] = useState(''),
     [query, setQuery] = useState(""),[orderGroup,setOrderGroup]=useState("open"),[statusFilter,setStatusFilter]=useState("all");
   const [order, setOrder] = useState<ShopOrder | null>(null),
     [product, setProduct] = useState<any | null>(null),
@@ -315,11 +320,13 @@ export default function OperationsApp() {
   const menus: [Tab, string, any][] = [
     ["orders", "訂單", ShoppingBag],
     ["procurement", "尚未採買", ShoppingBag],
+    ["price_reports", "查價回報", Search],
     ["messages", "訊息", MessageCircle],
     ["notify", "通知", Bell],
     ["products", "商品", Store],
     ["ai", "AI", Bot],
     ["members", "會員", Users],
+    ["member_orders", "會員代下單", Users],
     ["offers", "優惠", Ticket],
     ["settings", "設定", Settings],
   ];
@@ -328,7 +335,7 @@ export default function OperationsApp() {
       <Toaster richColors position="top-right" />
       <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','ai'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}{id==='members'&&(data!.creditWithdrawals||[]).some(r=>['requested','processing'].includes(r.status))?' · 有轉帳退款申請':''}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
       <button type="button" className="adela-ai-fab" aria-label={a('開啟 AI 工作助理')} onClick={()=>setAiOpen(true)}><ChatGPTMark/><span>AI</span></button>
-      <Dialog open={aiOpen} onOpenChange={setAiOpen}><DialogContent className="adela-ai-dialog"><DialogHeader><DialogTitle>{a('AI 工作助理')}</DialogTitle><DialogDescription>{a('對話、查價與商店操作')}</DialogDescription></DialogHeader><AdminAIHub password={password} configured={data!.aiConfigured} refresh={load} rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog}/></DialogContent></Dialog>
+      {aiOpen&&<section role="dialog" aria-modal="false" onKeyDown={e=>{if(e.key==='Escape')setAiOpen(false);}} aria-label={a('AI 工作助理')} className="adela-ai-floating"><button className="adela-ai-close" type="button" aria-label={a('關閉 AI 工作助理')} onClick={()=>setAiOpen(false)}>×</button><AdminAIHub password={password} configured={data!.aiConfigured} refresh={load} rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog}/></section>}
       <main className="op-shell">
         <aside>
           <a className="op-brand" href="/">
@@ -498,8 +505,9 @@ export default function OperationsApp() {
                     <Plus />{a("新增商品")}</Button>
                 </div>
                 <Button variant="outline" onClick={()=>setTab("ai")}><Bot/>{a("開啟 AI 商店管理")}</Button>
+                <label className="adela-catalog-search">{a('搜尋販售商品')}<input type="search" value={catalogSearch} onChange={e=>setCatalogSearch(e.target.value)} placeholder={a('名稱、品牌、商品 ID 或規格 ID')}/></label>
                 <CatalogReview products={data!.products} rate={data!.exchange?.rate} onEdit={p=>setProduct({...p,originalJpy:p.taxIncludedJpy||p.priceJpy})}/><div className="op-card-grid">
-                  {data!.products.map((p) => (
+                  {data!.products.filter(p=>{const term=catalogSearch.trim().toLowerCase().replace(/^#/,'');if(/^\d+(?:-\d+)?$/.test(term))return [String(p.id),...p.variants.map(v=>productCode(p,v.id))].includes(term);return !term||[p.nameZh,p.nameEn,p.brand||'',String(p.id),...p.variants.flatMap(v=>[v.labelZh,v.labelEn,productCode(p,v.id)])].some(value=>value.toLowerCase().includes(term));}).map((p) => (
                     <article className="op-product" key={p.id}>
                       {p.imageKey||p.imageUrl?<img
                         src={p.imageKey?p.imageKey.startsWith('static/')?`/${p.imageKey.slice(7)}`:`/api/media/${p.imageKey}`:p.imageUrl}
@@ -516,7 +524,7 @@ export default function OperationsApp() {
                                 : p.status === "research" ? a("資料待核實") : a("草稿")}
                         </em>
                         <h3>{language==='ko'?(p.nameKo||p.nameEn||p.nameZh):language==='en'?(p.nameEn||p.nameZh):p.nameZh}</h3>
-                        <strong>{p.priceJpy>1?`₩${p.priceJpy.toLocaleString()}`:a("價格待核對")}</strong>
+                        <small>{a('商品 ID')} #{productCode(p)}</small><strong>{p.priceJpy>1?`₩${p.priceJpy.toLocaleString()}`:a("價格待核對")}</strong>
                         <small>
                           {p.addon ? a("加購商品 · ") : ""}
                           {p.stock < 0 ? a(p.stockQuantityVerified===false?"商店剩餘數量未公開":"未設定接單上限") : a('庫存 {count}',{count:p.stock})}
@@ -534,6 +542,8 @@ export default function OperationsApp() {
                 </div>
               </>
             )}
+            {tab === "member_orders" && <><div className="op-title"><div><p>MEMBER ORDERS</p><h2>{a('會員代下單')}</h2><span>{a('可選多個商品，會員會收到待付款訂單通知。')}</span></div></div><MemberOrderDesk password={password} members={data!.members} products={data!.products} refresh={load}/></>}
+            {tab === "price_reports" && <PriceReports password={password} orders={data!.orders} members={data!.members} refresh={load} onOrder={setOrder}/>}
             {tab === "members" && (
               <>
                 <div className="op-title">
@@ -543,7 +553,7 @@ export default function OperationsApp() {
                     <span>{a("金鑽會員僅由後台授予，無消費門檻、代購費 0%，可貨到付款。消費與哩程只在收款確認後累計。")}</span>
                   </div>
                 </div>
-                <MemberOrderDesk password={password} members={data!.members} products={data!.products} refresh={load}/>
+
                 <div className="op-panel">
                   {data!.members.map((m) => (
                     <div className="op-member-row" key={m.id}>
@@ -621,7 +631,7 @@ export default function OperationsApp() {
               </>
             )}
             {tab === "notify" && (
-              <NotifyPanel
+              <><AdminNotifications password={password}/><NotifyPanel
                 data={data!}
                 onSelectOrder={setOrder}
                 adminPassword={password}
@@ -631,7 +641,7 @@ export default function OperationsApp() {
                 setAudience={setAudience}
                 audience={audience}
                 run={run}
-              />
+              /></>
             )}
             {tab === "settings" && (
               <><ServiceStatus password={password}/><StoreSettings data={data!} busy={busy} save={operation} /></>
@@ -1233,13 +1243,13 @@ export function ProductDialog({
  const a=useAdminText(),language=useStoreLocale();
   const [d, setD] = useState<any>(value),
     [uploading, setUploading] = useState(false),
-    [editMode,setEditMode]=useState<'manual'|'ai'>(value?.initialEditMode==='ai'?'ai':'manual'),
+    [editMode,setEditMode]=useState<'manual'|'ai'>('manual'),
     [aiPrompt,setAiPrompt]=useState(''),[aiResearch,setAiResearch]=useState(false),
     [aiImageMode,setAiImageMode]=useState<'research'|'upload'|'link'>('research'),
     [aiImageLink,setAiImageLink]=useState(''),[aiBusy,setAiBusy]=useState(false),
     [aiEvidence,setAiEvidence]=useState(''),[aiConfirmed,setAiConfirmed]=useState(false),
     [imageFailed,setImageFailed]=useState(false);
-  useEffect(() => {setD(value);setEditMode(value?.initialEditMode==='ai'?'ai':'manual');setAiConfirmed(false);setAiEvidence('');setImageFailed(false);}, [value]);
+  useEffect(() => {setD(value);setEditMode('manual');setAiConfirmed(false);setAiEvidence('');setImageFailed(false);}, [value]);
   if (!d) return null;
   const p = (k: string, v: any) => setD((x: any) => ({ ...x, [k]: v }));
   async function suggestProduct(){
@@ -1287,20 +1297,7 @@ export function ProductDialog({
           <DialogTitle>{d.id ? a("編輯商品") : a("新增販售商品")}</DialogTitle>
           <DialogDescription>{a("請填韓國商店標示的韓元售價；台幣售價由系統計算。")}</DialogDescription>
         </DialogHeader>
-        <div className="op-mode-picker" role="group" aria-label={a("商品編輯方式")}><button type="button" aria-pressed={editMode==='manual'} className={editMode==='manual'?'selected':''} onClick={()=>setEditMode('manual')}>{a("手動新增／編輯")}</button><button type="button" aria-pressed={editMode==='ai'} className={editMode==='ai'?'selected':''} onClick={()=>setEditMode('ai')}>{a("AI 協助新增／編輯")}</button></div>
-        {editMode==='ai'&&<section className="op-ai-product-wizard"><h3>{a("AI 協助新增／編輯商品")}</h3>{!aiConfigured&&<p role="status">{a("AI 尚未設定，請先使用手動新增／編輯商品。")}</p>}<p>{a("描述商品、選擇是否研究來源，最後核對照片和價格後才儲存。")}</p><label>{a("告訴 AI 商品資訊")}<textarea rows={2} value={aiPrompt} onChange={e=>setAiPrompt(e.target.value)} placeholder={a("例如：加入韓國 Costco 的 Pepero 15 盒綜合包，韓元 19,490。")}/></label><label className="op-check"><input type="checkbox" checked={aiResearch} onChange={e=>setAiResearch(e.target.checked)}/>{a("AI research：查韓國商店、規格與售價")}</label><label>{a("商品照片取得方式")}<select value={aiImageMode} onChange={e=>setAiImageMode(e.target.value as typeof aiImageMode)}><option value="research">{a("AI 查找圖片並預覽")}</option><option value="upload">{a("由我上傳")}</option><option value="link">{a("提供商品頁或圖片網址")}</option></select></label>{aiImageMode==='link'&&<label>{a("商品頁或圖片 HTTPS 網址")}<input type="url" value={aiImageLink} onChange={e=>setAiImageLink(e.target.value)}/></label>}{aiImageMode==='upload'&&<label>{a("上傳商品圖片")}<input type="file" accept="image/png,image/jpeg,image/webp" onChange={e=>e.target.files?.[0]&&void upload(e.target.files[0])}/></label>}<Button type="button" variant="outline" disabled={!aiConfigured||!aiPrompt.trim()||aiBusy} onClick={()=>void suggestProduct()}>{aiBusy?a("AI 查詢中…"):a("AI 填入商品草稿")}</Button>{aiEvidence&&<div className="op-ai-review"><h4>{a("核對 AI 草稿")}</h4><p>{d.nameZh} · ₩{Number(d.originalJpy||0).toLocaleString()} · {d.status==='active'?a("販售中"):a("草稿")}</p><p role="status">{a("AI 提供的依據：")}{aiEvidence}</p>{(d.imageKey||d.imageUrl)?<img src={d.imageKey?(d.imageKey.startsWith('static/')?`/${d.imageKey.slice(7)}`:`/api/media/${d.imageKey}`):d.imageUrl} alt={a("待確認的商品圖片")} onError={()=>setImageFailed(true)}/>:<p>{a("尚無可核對的商品照片。")}</p>}{imageFailed&&<p role="alert">{a("圖片無法載入，請換網址或上傳照片。")}</p>}<label className="op-check"><input type="checkbox" checked={aiConfirmed} onChange={e=>setAiConfirmed(e.target.checked)}/>{a("我已核對照片、韓元售價、規格及來源")}</label><Button type="button" disabled={!aiConfirmed||imageFailed||!d.imageKey&&!d.imageUrl||!d.originalJpy||busy} onClick={()=>void save({...d,status:'draft'})}>{a("確認並儲存草稿")}</Button>{d.purchaseUrl&&<Button type="button" disabled={!aiConfirmed||imageFailed||!d.imageKey&&!d.imageUrl||!d.originalJpy||busy} onClick={()=>void save({...d,status:'active'})}>{a("確認資料並上架")}</Button>}</div>}</section>}
-        <section className="op-form">
-        <label>{a("商品確切規格（容量／重量、單位、包裝數與選項）")}<input value={d.spec||''} onChange={e=>p('spec',e.target.value)}/></label>
-        <label>{a("台灣來源的確切同規格")}<input value={d.taiwanRetailSpec||''} onChange={e=>p('taiwanRetailSpec',e.target.value)}/></label>
-        <label>{a("台灣價格條件")}<select value={d.taiwanRetailClassification||''} onChange={e=>p('taiwanRetailClassification',e.target.value)}><option value="">{a("尚未確認")}</option><option value="regular">{a("一般售價")}</option><option value="public_promotion">{a("無條件公開促銷")}</option><option value="preorder">{a("預購（非現貨）")}</option><option value="ready_stock">{a("現貨")}</option><option value="member_only">{a("會員限定（不可作一般比較）")}</option></select></label>
-        <label>{a("韓國來源查核日期")}<input type="date" value={(d.sourceCheckedAt||'').slice(0,10)} onChange={e=>p('sourceCheckedAt',e.target.value)}/></label>
-        <label className="op-check"><input type="checkbox" checked={d.sourceDeliveryConfirmed===true} onChange={e=>p('sourceDeliveryConfirmed',e.target.checked)}/>{a("已核對成本包含必要韓國運費、正確包裝換算，未默認會員折扣或免運")}</label>
-<div className="op-two"><label>{a("台灣市售參考價 TWD（同規格，未核對留空）")}<input type="number" min="0" value={d.taiwanRetailTwd||''} onChange={e=>p('taiwanRetailTwd',+e.target.value)}/></label><label>{a("台灣市售參考來源 HTTPS 網址")}<input type="url" value={d.taiwanRetailSource||''} onChange={e=>p('taiwanRetailSource',e.target.value)}/></label></div>
-          <label className="op-check"><input type="checkbox" checked={d.taiwanReferenceConfirmed===true} onChange={e=>p('taiwanReferenceConfirmed',e.target.checked)}/>{a('已核對台灣來源的容量、數量及規格完全相同（儲存時記錄查核日期）')}</label>
-        <label>{a("已包含的必要韓國運費 KRW")}<input type="number" min="0" value={d.sourceDeliveryKrw??''} onChange={e=>p('sourceDeliveryKrw',e.target.value===''?undefined:Number(e.target.value))}/></label><label>{a("運費與折扣條件（包含在成本中，不重複加計）")}<textarea value={d.sourceDeliveryConditions||''} onChange={e=>p('sourceDeliveryConditions',e.target.value)}/></label>
-        <PriceReview product={{...d,variants:(d.variants||[]).map((v:any)=>({...v,taiwanRetailCheckedAt:v.taiwanReferenceConfirmed?new Date().toISOString():v.taiwanRetailCheckedAt})),priceJpy:Number(d.originalJpy)||0,sizeFeeTwd:Number(d.sizeFeeTwd)||0,taiwanRetailCheckedAt:d.taiwanReferenceConfirmed?new Date().toISOString():d.taiwanRetailCheckedAt}} rate={rate} standardRate={standardRate}/>
-        </section>
-        {editMode==='manual'&&<form
+        {true&&<form
           className="op-form"
           onSubmit={(e) => {
             e.preventDefault();

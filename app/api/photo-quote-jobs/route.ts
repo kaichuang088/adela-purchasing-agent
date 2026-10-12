@@ -44,7 +44,7 @@ export async function POST(request:Request){try{
  }catch(error){
   const status=error instanceof ShopError?error.status:503;
   const message=error instanceof ShopError?error.message:'AI 查價資料無法驗證；尚未建立訂單。 / Photo research could not be verified. No order was created.';
-  await db.prepare("UPDATE kk_photo_drafts SET state='failed',analysis_json=?,pricing_json=NULL WHERE id=? AND state IN ('analyzing','identified')").bind(JSON.stringify({photoResearchError:message,photoResearchStatus:status,photoResearchModel:!body.providerFailed&&(body.result as {model?:string})?.model||null}),id).run();
+  await db.prepare("UPDATE kk_photo_drafts SET state='failed',analysis_json=?,pricing_json=NULL WHERE id=? AND state IN ('analyzing','identified')").bind(JSON.stringify({...((await db.prepare('SELECT analysis_json FROM kk_photo_drafts WHERE id=?').bind(id).first())?.analysis_json?JSON.parse(String((await db.prepare('SELECT analysis_json FROM kk_photo_drafts WHERE id=?').bind(id).first())!.analysis_json)):{}),photoResearchError:message,photoResearchStatus:status,photoResearchModel:!body.providerFailed&&(body.result as {model?:string})?.model||null}),id).run();
   return privateJson({ok:false,state:'failed',resultStatus:status});
  }
 }catch(error){return failure(error);}}

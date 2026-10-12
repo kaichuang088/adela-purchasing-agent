@@ -1,0 +1,878 @@
+{
+  "scope": "Real Chromium viewport rendering of built front/admin and compiled Worker using isolated D1 and mocked AI; not production or physical phone",
+  "checks": 89,
+  "allPassed": true,
+  "results": [
+    {
+      "width": 375,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "notifications-in-more-menu",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "multiple-order-items",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-notifications",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-price-reports",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "admin-product-search",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "product-id-search",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "isolated-member-sign-in",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-chat-start",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-markdown-bold",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-markdown",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-history",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-human-handoff",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-orders",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-order-details",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375,
+        "dialog": {
+          "left": 15.713884353637695,
+          "right": 359.28608894348145,
+          "top": 53.57050323486328,
+          "bottom": 846.4295120239258,
+          "height": 900,
+          "scroll": 349,
+          "client": 349
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-payment-report",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375,
+        "dialog": {
+          "left": 12,
+          "right": 363,
+          "top": 45,
+          "bottom": 855,
+          "height": 900,
+          "scroll": 349,
+          "client": 349
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-notifications",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "notifications-in-more-menu",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "multiple-order-items",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-notifications",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-price-reports",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "admin-product-search",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "product-id-search",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "isolated-member-sign-in",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-chat-start",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-markdown-bold",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-markdown",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-history",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-human-handoff",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-orders",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-order-details",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390,
+        "dialog": {
+          "left": 19.130767822265625,
+          "right": 370.8692321777344,
+          "top": 60.78120422363281,
+          "bottom": 839.2188262939453,
+          "height": 900,
+          "scroll": 364,
+          "client": 364
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-payment-report",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390,
+        "dialog": {
+          "left": 12,
+          "right": 378,
+          "top": 45,
+          "bottom": 855,
+          "height": 900,
+          "scroll": 364,
+          "client": 364
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-notifications",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-ai",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-ai-reply",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "notifications-in-more-menu",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "multiple-order-items",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-notifications",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-price-reports",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "admin-product-search",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "product-id-search",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "isolated-member-sign-in",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-chat-start",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-markdown-bold",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-markdown",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-history",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-human-handoff",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-orders",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-order-details",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430,
+        "dialog": {
+          "left": 16.29583168029785,
+          "right": 413.70415687561035,
+          "top": 53.57050323486328,
+          "bottom": 846.4295120239258,
+          "height": 900,
+          "scroll": 404,
+          "client": 404
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-payment-report",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430,
+        "dialog": {
+          "left": 12,
+          "right": 418,
+          "top": 45,
+          "bottom": 855,
+          "height": 900,
+          "scroll": 404,
+          "client": 404
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-notifications",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-orders",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-ai-floating",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 716,
+          "right": 1256,
+          "top": 40,
+          "bottom": 800,
+          "height": 900,
+          "scroll": 538,
+          "client": 538
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "opaque-right-anchored-chat",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "multiple-order-items",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-member-en",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-member-ko",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-notifications",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-price-reports",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-product-search",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "product-id-search",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "isolated-member-sign-in",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "storefront-home",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-chat-start",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-markdown-bold",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-markdown",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-history",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-human-handoff",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-orders",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-order-details",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 294.0277404785156,
+          "right": 985.9723205566406,
+          "top": 60.78120422363281,
+          "bottom": 839.2188262939453,
+          "height": 900,
+          "scroll": 718,
+          "client": 718
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-payment-report",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 280,
+          "right": 1000,
+          "top": 45,
+          "bottom": 855,
+          "height": 900,
+          "scroll": 718,
+          "client": 718
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-notifications",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    }
+  ]
+}

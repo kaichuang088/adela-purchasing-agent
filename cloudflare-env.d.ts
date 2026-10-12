@@ -11,6 +11,7 @@ declare namespace Cloudflare {
     EMAIL_FROM?: string;
     SHOP_PUBLIC_URL?: string;
     OPENAI_API_KEY?: string;
+    KK_TRUST_PLATFORM_HEADERS?: string;
     OPENAI_MODEL?: string;
     KK_AI_GATEWAY_URL?: string;
     KK_AI_PHOTO_JOB_URL?: string;

@@ -1,3 +1,4 @@
+import {chatSession,chatSessions,newChatSession} from '@/lib/ai-chat-history';
 import {advancePurchasing} from '@/lib/order-scheduler';
 import {aiConfiguration} from '@/lib/ai-config';
 import type {PriceLine} from '@/lib/commerce-types';
@@ -25,20 +26,21 @@ async function ensureThread(memberId:string){
  await rawDb().prepare("INSERT OR IGNORE INTO kk_support_threads(member_id,status) VALUES(?,'ai')").bind(memberId).run();
 }
 
-async function messages(memberId:string,orderId?:number){
- const query='SELECT * FROM (SELECT id,sender,body,order_id,created_at FROM kk_conversations WHERE member_id=?'+(orderId?' AND order_id=?':'')+' ORDER BY id DESC LIMIT 200) ORDER BY id';
- const rows=await rawDb().prepare(query).bind(...(orderId?[memberId,orderId]:[memberId])).all();
+async function messages(memberId:string,orderId?:number,sessionId?:string){
+ const query='SELECT * FROM (SELECT id,sender,body,order_id,created_at FROM kk_conversations WHERE member_id=?'+(sessionId?' AND session_id=?':'')+(orderId?' AND order_id=?':'')+' ORDER BY id DESC LIMIT 200) ORDER BY id';
+ const rows=await rawDb().prepare(query).bind(...[memberId,...(sessionId?[sessionId]:[]),...(orderId?[orderId]:[])]).all();
  return rows.results as ChatLine[];
 }
 
-async function handoff(memberId:string,orderId:number|null,body?:string){
- const db=rawDb(),existing=await db.prepare(threadSelect).bind(memberId).first();
+async function handoff(memberId:string,orderId:number|null,body?:string,sessionId?:string){
+ const db=rawDb(),existing=await db.prepare('SELECT support_status AS status FROM kk_ai_sessions WHERE id=? AND owner_id=?').bind(sessionId||'',memberId).first();
  if(existing?.status==='waiting'||existing?.status==='human')return;
- const history=await messages(memberId),summary=await supportSummary(history);
+ const history=await messages(memberId,undefined,sessionId),summary=history.slice(-8).map(m=>(m.sender==='member'?'買家':'回覆')+'：'+m.body).join('\n').slice(0,1800);
  await db.batch([
-  db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'已轉真人客服','對話已保存，Adela 團隊收到通知後會在訊息頁回覆。','Human support requested','Your conversation is saved. The Adela team will reply on the messages page.',?)").bind(memberId,orderId),
+  db.prepare("UPDATE kk_ai_sessions SET support_status='waiting',needs_human=1,ai_summary=? WHERE id=? AND owner_id=?").bind(summary,sessionId||'',memberId),
+  db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'已轉真人客服','對話已保存並送交真人客服；等待時間未知，請留意此對話通知。','Human support requested','Your conversation is saved. The Adela team will reply on the messages page.',?)").bind(memberId,orderId),
   db.prepare("UPDATE kk_support_threads SET status='waiting',needs_human=1,ai_summary=?,unread_admin=unread_admin+1,unread_member=unread_member+1,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(summary,memberId),
-  db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) VALUES(?,'system',?,?)").bind(memberId,body||'已自動轉接真人客服。管理員會看到完整對話與 訴求摘要。 / Human support has been requested automatically. The team can see this conversation and its summary.',orderId)
+  db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) VALUES(?,'system',?,?,?)").bind(memberId,body||'已自動轉接真人客服。等待時間未知。管理員會看到完整對話與訴求摘要。 / Human support has been requested automatically. The team can see this conversation and its summary.',orderId,sessionId||null)
  ]);
 }
 
@@ -49,6 +51,9 @@ export async function GET(request:Request){try{
   return privateJson({threads:rows.results});
  }
  const target=await recipient(request,url.searchParams.get('memberId'));
+ const pendingSession=target.admin&&!url.searchParams.get('sessionId')?await rawDb().prepare("SELECT id FROM kk_ai_sessions WHERE kind='buyer' AND owner_id=? AND needs_human=1 ORDER BY updated_at DESC LIMIT 1").bind(target.id).first():null;
+ const sessionId=await chatSession('buyer',target.id,url.searchParams.get('sessionId')||(pendingSession?String(pendingSession.id):undefined));
+ if(url.searchParams.get('export')==='1')return privateJson({sessionId,sessions:await chatSessions('buyer',target.id),messages:(await rawDb().prepare('SELECT * FROM kk_conversations WHERE member_id=? AND session_id=? ORDER BY id').bind(target.id,sessionId).all()).results,backupAt:new Date().toISOString()});
  const scope=url.searchParams.get('orderId'),orderId=scope===null?undefined:Number(scope);
  if(scope!==null&&(!Number.isSafeInteger(orderId)||Number(orderId)<1))throw new ShopError('訂單編號無效。',400);
  const scopedOrder=orderId?await rawDb().prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(orderId,target.id).first():null;
@@ -59,60 +64,59 @@ export async function GET(request:Request){try{
  else await rawDb().prepare('UPDATE kk_support_threads SET unread_member=0 WHERE member_id=?').bind(target.id).run();}
  await advancePurchasing(rawDb(),new Date());
  const orders=orderId?(await rawDb().prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(orderId,target.id).all()).results:(await rawDb().prepare('SELECT * FROM shopping_requests WHERE member_id=? ORDER BY id DESC LIMIT 100').bind(target.id).all()).results;
- const history=await messages(target.id,orderId),start=target.admin?-1:history.map(x=>x.body).lastIndexOf('新對話已開始。 / New conversation started.'),thread=await rawDb().prepare(threadSelect).bind(target.id).first();
- return privateJson({aiConfigured:aiConfiguration(env).configured,orders:await Promise.all(orders.map(async row=>{const order=await orderBundle(row);if(order.pricing)order.pricing.items=await Promise.all(order.pricing.items.map(async (line:PriceLine)=>{if(line.imageUrl||!line.productId)return line;const product=await rawDb().prepare("SELECT image_key,commerce_json FROM products WHERE id=?").bind(line.productId).first();if(!product)return line;let meta:any={};try{meta=JSON.parse(String(product.commerce_json||"{}"));}catch{}const key=String(product.image_key||"");return {...line,imageUrl:meta.variants?.find((v:any)=>v.id===line.variantId)?.imageUrl||(key?(key.startsWith("static/")?"/"+key.slice(7):"/api/media/"+key):meta.imageUrl)||undefined};}));return order;})),messages:start>=0?history.slice(start):history,thread:orderId&&thread?{...thread,ai_summary:''}:thread});
+ const history=await messages(target.id,orderId,sessionId),globalThread=await rawDb().prepare(threadSelect).bind(target.id).first(),sessionThread=await rawDb().prepare('SELECT support_status AS status,needs_human,ai_summary FROM kk_ai_sessions WHERE id=?').bind(sessionId).first(),thread={...globalThread,...sessionThread};
+ return privateJson({aiConfigured:aiConfiguration(env).configured,orders:await Promise.all(orders.map(async row=>{const order=await orderBundle(row);if(order.pricing)order.pricing.items=await Promise.all(order.pricing.items.map(async (line:PriceLine)=>{if(line.imageUrl||!line.productId)return line;const product=await rawDb().prepare("SELECT image_key,commerce_json FROM products WHERE id=?").bind(line.productId).first();if(!product)return line;let meta:any={};try{meta=JSON.parse(String(product.commerce_json||"{}"));}catch{}const key=String(product.image_key||"");return {...line,imageUrl:meta.variants?.find((v:any)=>v.id===line.variantId)?.imageUrl||(key?(key.startsWith("static/")?"/"+key.slice(7):"/api/media/"+key):meta.imageUrl)||undefined};}));return order;})),messages:history,sessionId,sessions:await chatSessions('buyer',target.id),thread:orderId&&thread?{...thread,ai_summary:''}:thread});
 }catch(e){return failure(e);}}
 
 export async function POST(request:Request){try{
- const b=await request.json() as {memberId?:string;body?:string;orderId?:number;action?:string};
+ const b=await request.json() as {memberId?:string;body?:string;orderId?:number;action?:string;sessionId?:string};
  const target=await recipient(request,b.memberId),db=rawDb();
  await ensureThread(target.id);
+ if(b.action==='new_conversation'){if(target.admin)throw new ShopError('請由會員建立新對話。',403);return privateJson({ok:true,sessionId:await newChatSession('buyer',target.id)},201);}
+ const sessionId=await chatSession('buyer',target.id,b.sessionId);
  if(b.orderId&&!await db.prepare('SELECT id FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId,target.id).first())throw new ShopError('訂單不屬於此會員。 / This order is not yours.',403);
  if(b.action==='share_order'){
   if(!target.admin)throw new ShopError('沒有權限。',403);
   const order=await db.prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId||0,target.id).first();if(!order)throw new ShopError('找不到此會員的訂單。',404);
   const pricing=JSON.parse(String(order.pricing_json||'{}'));
   const summary='訂單 / Order '+order.request_no+'\n'+(pricing.items||[]).map((i:any)=>i.nameZh+' × '+i.quantity).join('\n')+'\n合計 / Total NT$'+Number(pricing.totalTwd||0).toLocaleString('en-US');
-  const result=await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) SELECT ?,'admin',?,? WHERE NOT EXISTS(SELECT 1 FROM kk_conversations WHERE member_id=? AND order_id=? AND sender='admin' AND body=?)").bind(target.id,summary,order.id,target.id,order.id,summary).run();
-  if(result.meta.changes)await db.batch([db.prepare("UPDATE kk_support_threads SET status='human',needs_human=0,unread_member=unread_member+1,last_admin_at=CURRENT_TIMESTAMP,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(target.id),db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'客服傳送了訂單',?,'Order shared by support',?,?)").bind(target.id,summary,summary,order.id)]);
+  const result=await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) SELECT ?,'admin',?,?,? WHERE NOT EXISTS(SELECT 1 FROM kk_conversations WHERE member_id=? AND order_id=? AND sender='admin' AND body=?)").bind(target.id,summary,order.id,sessionId,target.id,order.id,summary).run();
+  if(result.meta.changes)await db.batch([db.prepare("UPDATE kk_ai_sessions SET support_status='human',needs_human=0 WHERE id=? AND owner_id=?").bind(sessionId,target.id),db.prepare("UPDATE kk_support_threads SET status='human',needs_human=0,unread_member=unread_member+1,last_admin_at=CURRENT_TIMESTAMP,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(target.id),db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'客服傳送了訂單',?,'Order shared by support',?,?)").bind(target.id,summary,summary,order.id)]);
   return privateJson({ok:true},201);
  }
  if(b.action==='handoff'){
   if(target.admin)throw new ShopError('此操作只供旅客使用。',403);
-  await handoff(target.id,b.orderId||null);
-  return privateJson({ok:true},201);
- }
- if(b.action==='new_conversation'){
-  if(target.admin)throw new ShopError('此操作只供旅客使用。',403);
-  await db.batch([
-   db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) VALUES(?,'system','新對話已開始。 / New conversation started.',NULL)").bind(target.id),
-   db.prepare("UPDATE kk_support_threads SET status='ai',needs_human=0,ai_summary='',unread_member=0,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(target.id)
-  ]);
+  await handoff(target.id,b.orderId||null,undefined,sessionId);
   return privateJson({ok:true},201);
  }
  if(b.action==='resume_ai'){
   if(!target.admin)throw new ShopError('沒有權限。',403);
   await db.batch([
+   db.prepare("UPDATE kk_ai_sessions SET support_status='ai',needs_human=0,ai_summary='' WHERE id=? AND owner_id=?").bind(sessionId,target.id),
    db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'真人客服已結束','對話已交回 AI，後續仍可申請真人協助。','Human support ended','AI support is available again. You can request human support whenever needed.',?)").bind(target.id,b.orderId||null),
    db.prepare("UPDATE kk_support_threads SET status='ai',needs_human=0,unread_member=unread_member+1,unread_admin=0,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(target.id),
-   db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) VALUES(?,'system',?,?)").bind(target.id,'真人客服已結束，本對話已交回 AI 客服。 / Human support ended; AI support is available again.',b.orderId||null)
+   db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) VALUES(?,'system',?,?,?)").bind(target.id,'真人客服已結束，本對話已交回 AI 客服。 / Human support ended; AI support is available again.',b.orderId||null,sessionId)
   ]);
+  await db.prepare("UPDATE kk_support_threads SET needs_human=CASE WHEN EXISTS(SELECT 1 FROM kk_ai_sessions WHERE owner_id=? AND kind='buyer' AND needs_human=1) THEN 1 ELSE 0 END WHERE member_id=?").bind(target.id,target.id).run();
   return privateJson({ok:true},201);
  }
  const body=String(b.body||'').trim();
+ await db.prepare("UPDATE kk_ai_sessions SET updated_at=?,title=CASE WHEN title='新對話' THEN ? ELSE title END WHERE id=?").bind(new Date().toISOString(),body.slice(0,40),sessionId).run();
  if(!body||body.length>2000)throw new ShopError('訊息需為 1 至 2000 字。 / Message must contain 1 to 2000 characters.');
  if(b.orderId&&!await db.prepare('SELECT id FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId,target.id).first())throw new ShopError('訂單不屬於此會員。',403);
  if(target.admin){
   await db.batch([
-   db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) VALUES(?,'admin',?,?)").bind(target.id,body,b.orderId||null),
+   db.prepare("UPDATE kk_ai_sessions SET support_status='human',needs_human=0 WHERE id=? AND owner_id=?").bind(sessionId,target.id),
+   db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) VALUES(?,'admin',?,?,?)").bind(target.id,body,b.orderId||null,sessionId),
    db.prepare("UPDATE kk_support_threads SET status='human',needs_human=0,unread_member=unread_member+1,last_admin_at=CURRENT_TIMESTAMP,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(target.id),
    db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) VALUES(?,'Adela 真人客服回覆',?,'Reply from Adela support',?,?)").bind(target.id,body,body,b.orderId||null)
   ]);
+  await db.prepare("UPDATE kk_support_threads SET needs_human=CASE WHEN EXISTS(SELECT 1 FROM kk_ai_sessions WHERE owner_id=? AND kind='buyer' AND needs_human=1) THEN 1 ELSE 0 END WHERE member_id=?").bind(target.id,target.id).run();
   return privateJson({ok:true},201);
  }
- const thread=await db.prepare(threadSelect).bind(target.id).first();
+ const thread=await db.prepare('SELECT support_status AS status,needs_human FROM kk_ai_sessions WHERE id=?').bind(sessionId).first();
  await db.batch([
-  db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) VALUES(?,'member',?,?)").bind(target.id,body,b.orderId||null),
+  db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) VALUES(?,'member',?,?,?)").bind(target.id,body,b.orderId||null,sessionId),
   db.prepare("UPDATE kk_support_threads SET unread_admin=unread_admin+?,last_member_at=CURRENT_TIMESTAMP,updated_at=CURRENT_TIMESTAMP WHERE member_id=?").bind(thread?.status==='ai'&&!thread?.needs_human?0:1,target.id)
  ]);
  if(thread?.status==='ai'&&!thread?.needs_human){
@@ -125,9 +129,9 @@ export async function POST(request:Request){try{
    const priceParts=(variantId?:string)=>{const amount=catalogDisplayPrice(p,{...options,variantId}).amount,variant=p.variants.find(v=>v.id===variantId),goods=rate?Math.ceil((variant?.priceJpy??p.priceJpy)*rate.rate):null,fee=amount!==null&&goods!==null?Math.max(0,amount-goods-Math.ceil(p.sizeFeeTwd)):null;return{priceTwd:amount,serviceFeeIncluded:true,serviceFeeTwd:fee,effectiveFeePercent:fee!==null&&goods?Number((fee/goods*100).toFixed(4)):null};};
    return{id:p.id,name:p.nameZh,nameEn:p.nameEn,description:p.descriptionZh.slice(0,180),spec:p.spec,priceTwd:price.amount,serviceFeeIncluded:true,priceIsFrom:p.variants.length>0,...(!p.variants.length?priceParts():{}),options:p.variants.slice(0,8).map(v=>({name:v.labelZh,...priceParts(v.id)})),stockVerified:p.stockQuantityVerified!==false&&p.stock>=0,stock:p.stock>=0?p.stock:null};
   });
-  const reply=await supportReply(await messages(target.id,b.orderId||undefined),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions,store:{shopPaused:config.shopPaused,photoQuotesPaused:config.photoQuotesPaused,orderOpensAt:config.orderOpensAt,orderClosesAt:config.orderClosesAt,enabledCountries:config.enabledCountries},catalog:relevant});
-  await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id) SELECT member_id,?,?,? FROM kk_support_threads WHERE member_id=? AND status='ai' AND needs_human=0").bind(reply.modelUsed?'ai':'system',reply.modelUsed?reply.body:reply.body,b.orderId||null,target.id).run();
-  if(reply.handoff)await handoff(target.id,b.orderId||null);
+  const reply=await supportReply(await messages(target.id,b.orderId||undefined,sessionId),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions,store:{shopPaused:config.shopPaused,photoQuotesPaused:config.photoQuotesPaused,orderOpensAt:config.orderOpensAt,orderClosesAt:config.orderClosesAt,enabledCountries:config.enabledCountries},catalog:relevant});
+  await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) SELECT owner_id,?,?,?,? FROM kk_ai_sessions WHERE owner_id=? AND id=? AND support_status='ai' AND needs_human=0").bind(reply.modelUsed?'ai':'system',reply.modelUsed?reply.body:reply.body,b.orderId||null,sessionId,target.id,sessionId).run();
+  if(reply.handoff)await handoff(target.id,b.orderId||null,undefined,sessionId);
   else await db.prepare("UPDATE kk_support_threads SET unread_member=unread_member+1,updated_at=CURRENT_TIMESTAMP WHERE member_id=? AND status='ai' AND needs_human=0").bind(target.id).run();
  }
  return privateJson({ok:true},201);

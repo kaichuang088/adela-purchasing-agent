@@ -1,7 +1,7 @@
 import {creditWithdrawals,resolveCreditWithdrawal,adjustMemberCredit} from '@/lib/credit-withdrawals';
 import {refundCredits,revokeRefundCredit} from '@/lib/refund-credits';
 import {aiConfiguration} from '@/lib/ai-config';
-import {procurement,proposeDefer,purchaseItems,orderItems} from '@/lib/item-fulfilment';
+import {procurement,proposeDefer,purchaseItems,orderItems,sellerCancelItem} from '@/lib/item-fulfilment';
 import {topups,confirmTopup} from '@/lib/topups';
 import {emailConfigured,emailQueueSummary} from '@/lib/email-outbox';
 import {advancePurchasing} from '@/lib/order-scheduler';
@@ -37,6 +37,7 @@ export async function POST(request:Request){if(!isAdmin(request))return privateJ
  if(b.action==='adjust_credit'){await adjustMemberCredit(String(b.memberId||''),String(b.direction||''),Number(b.amount),String(b.reason||''),String(b.key||''));return privateJson({ok:true});}
  if(b.action==='resolve_credit_withdrawal'){await resolveCreditWithdrawal(String(b.id||''),String(b.outcome||''),String(b.reference||''),String(b.reason||''));return privateJson({ok:true});}
  if(b.action==='refresh')return privateJson({ok:true});
+ if(b.action==='cancel_item'){await sellerCancelItem(Number(b.id),Number(b.lineIndex));return privateJson({ok:true});}
  if(b.action==='defer_item'){await proposeDefer(Number(b.id),Number(b.lineIndex),String(b.date||''),String(b.reason||''));return privateJson({ok:true});}
  if(b.action==='purchase_items'){await purchaseItems(b.items);return privateJson({ok:true});}
  if(b.action==='status'&&b.status==='purchased'){const row=await db.prepare('SELECT * FROM shopping_requests WHERE id=?').bind(Number(b.id)).first();if(!row)throw new ShopError('找不到訂單。',404);const items=await orderItems(row);await purchaseItems(items.filter(i=>i.status!=='cancelled').map(i=>({orderId:Number(b.id),lineIndex:i.lineIndex})));return privateJson({ok:true});}
@@ -102,13 +103,14 @@ export async function POST(request:Request){if(!isAdmin(request))return privateJ
 
 function validateOffer(b:Record<string,any>){
  const discountType=b.discountType||'fee_rate',globalOnly=String(discountType).startsWith('shipping_')||String(discountType).startsWith('order_'),scope=globalOnly?'all':b.scope||'all',value=Number(b.value||0),currency=String(b.currency||'TWD');
- const allowed=['fee_rate','percent','fixed','product_percent','product_fixed','shipping_free','shipping_percent','shipping_fixed','order_percent','order_fixed'];
+ const allowed=['store_credit','fee_rate','percent','fixed','product_percent','product_fixed','shipping_free','shipping_percent','shipping_fixed','order_percent','order_fixed'];
  if(!['all','products','category'].includes(scope)||!allowed.includes(discountType))throw new ShopError('優惠類型或適用範圍無效。');
  const productIds=Array.isArray(b.productIds)?[...new Set(b.productIds.map(Number))]:[];
  if(scope==='products'&&(!productIds.length||productIds.length>100||productIds.some(n=>!Number.isInteger(n)||n<=0)))throw new ShopError('請選擇適用商品。');
  if(scope==='category'&&!productCategories.some(c=>c.zh===b.category))throw new ShopError('請選擇商品分類。');
  const percent=String(discountType).endsWith('_percent')||discountType==='percent',needsValue=!['fee_rate','shipping_free'].includes(discountType);
  if(needsValue&&(!Number.isFinite(value)||value<=0||value>(percent?100:1000000)))throw new ShopError('折扣數值無效。');
+ if(discountType==='store_credit'&&(currency!=='TWD'||!Number.isSafeInteger(value)||!String(b.code||'').trim()||Number(b.minMerchandiseTwd||0)!==0||scope!=='all'))throw new ShopError('購物金券須為台幣正整數並設定優惠碼，領取即入帳；不能設定商品低消或單品限制。');
  if(!supportedCurrencies.includes(currency as typeof supportedCurrencies[number]))throw new ShopError('折抵幣別不支援。');
  return{scope,productIds,category:scope==='category'?String(b.category):'',discountType,value,currency};
 }

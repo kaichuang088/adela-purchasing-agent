@@ -1,0 +1,4 @@
+import {Fragment} from 'react';
+// Render a small, safe Markdown subset as React elements. Never render HTML.
+function inline(text:string){return text.split(/(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\(https:\/\/[^\s)]+\))/g).map((part,i)=>part.startsWith('**')&&part.endsWith('**')?<strong key={i}>{part.slice(2,-2)}</strong>:part.startsWith('`')?<code key={i}>{part.slice(1,-1)}</code>:/^\[/.test(part)?(()=>{const m=part.match(/^\[([^\]]+)\]\((https:\/\/[^\s)]+)\)$/);return m?<a key={i} href={m[2]} target="_blank" rel="noreferrer">{m[1]}</a>:part;})():<Fragment key={i}>{part}</Fragment>);}
+export function ChatText({text}:{text:string}){return <div className="adela-chat-text">{text.split('\n').map((line,i)=><div key={i}>{/^[-•]\s/.test(line)?<><span aria-hidden>• </span>{inline(line.slice(2))}</>:inline(line.replace(/^#{1,3}\s/,''))}{!line&&<br/>}</div>)}</div>;}

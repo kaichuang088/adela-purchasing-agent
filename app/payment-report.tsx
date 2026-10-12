@@ -24,7 +24,7 @@ export function PaymentReport({order:o,bank,en=false,reload}:{order:ShopOrder;ba
   }catch(e){setError(e instanceof Error?e.message:t('付款資料暫時無法送出，請稍後重試。','Payment details could not be submitted. Please try again.'));}
   finally{setBusy(false);}
  }
- return <section className="kk-payment-card">
+ return <section className="kk-payment-card"><p className="kk-note">{t('匯款後請按「我已付款」並送出付款資料；賣家驗證收到款項後，才會加入待買清單。','After transferring, click “I have paid” and submit the payment report. Items enter the purchasing list after the seller verifies receipt.')}</p>
   <div className="kk-payment-summary"><CreditCard aria-hidden="true"/><div>
    <span>{reported?t('已回報・等待賣家核對','Reported · Awaiting verification'):t('訂單已確認・待付款','Order confirmed · Awaiting payment')}</span>
    <strong>NT${(o.pricing?.totalTwd||0).toLocaleString()}</strong>

@@ -1,3 +1,4 @@
+import {requestPhotoReview} from '@/lib/photo-inquiries';
 import {quoteDraft} from '@/lib/photo-quote-pricing';
 import {aiConfiguration,aiConnection} from '@/lib/ai-config';
 import {shippingAddress} from '@/lib/shipping-address';
@@ -68,8 +69,10 @@ export async function POST(request:Request){try{
  if(!draft)throw new ShopError('找不到此查價。 / Photo quote not found.',404);
  const id=String(draft.id),now=new Date().toISOString();
  if(body.action==='buy'&&draft.order_id){const old=await db.prepare('SELECT * FROM shopping_requests WHERE id=?').bind(draft.order_id).first();return privateJson({order:await orderBundle(old!)});}
+ if(body.action==='request_review'){return privateJson({ok:true,inquiry:await requestPhotoReview(draft,member.id)});}
  if(body.action==='discard'){
   const changed=await db.prepare("UPDATE kk_photo_drafts SET state='discarded',analysis_json=NULL,pricing_json=NULL,note='' WHERE id=? AND state!='purchased'").bind(id).run();
+  await db.prepare("UPDATE kk_photo_inquiries SET state='declined' WHERE draft_id=? AND member_id=? AND state IN ('pending','quoted')").bind(id,member.id).run();
   if(changed.meta.changes)await deleteMedia(String(draft.image_key));
   return privateJson({ok:true});
  }
@@ -90,18 +93,21 @@ export async function POST(request:Request){try{
   const pricing=JSON.parse(String(draft.pricing_json)) as Pricing;
   if(body.approvedTotal!==pricing.totalTwd||body.approvedAt!==pricing.pricedAt)throw new ShopError('報價已更新，請重新查看。 / Review the updated quote.',409);
   const image=await getMedia(String(draft.image_key));if(!image)throw new ShopError('圖片已失效，請重新查價。',410);
-  const method=paymentChoice(member,body.paymentMethod),due=null,address=shippingAddress(body.shippingAddress);
+  const sellerReview=await db.prepare("SELECT reviewed_at FROM kk_photo_inquiries WHERE draft_id=? AND member_id=? AND state='quoted'").bind(id,member.id).first();
+  const method=paymentChoice(member,body.paymentMethod),due=sellerReview&&method==='transfer'?transferDeadline():null,address=shippingAddress(body.shippingAddress);
   if(pricing.tier!==member.tier)throw new ShopError('會員等級已更新，請重新查價。 / Membership changed. Refresh quote.',409);
   const publicKey='requests/'+id;await putMedia(publicKey,image.bytes,String(draft.image_type));
+  const purchasedPricing={...pricing,items:pricing.items.map(item=>({...item,imageUrl:'/api/media/'+publicKey}))};
   const no=newOrderNumber(),key='photo-'+id,line=pricing.items[0];
   await db.batch([
-   db.prepare("INSERT OR IGNORE INTO shopping_requests(request_no,submission_key,kind,member_id,customer_name,email,note,image_key,image_name,image_type,status,analysis_state,ai_analysis_json,identified_name_zh,identified_name_en,pricing_json,quote_json,payment_method,payment_due_at) SELECT ?,?,'custom',member_id,?,?,note,?,'photo',image_type,?,'ready',analysis_json,?,?,pricing_json,?,?,? FROM kk_photo_drafts WHERE id=? AND state='quoted' AND pricing_json=? AND expires_at>?").bind(no,key,member.name,member.email,publicKey,'admin_review',line.nameZh,line.nameEn,JSON.stringify(legacyQuote(pricing,line.nameZh,line.nameEn)),method,due,id,draft.pricing_json,now),
+   db.prepare("INSERT OR IGNORE INTO shopping_requests(request_no,submission_key,kind,member_id,customer_name,email,note,image_key,image_name,image_type,status,analysis_state,ai_analysis_json,identified_name_zh,identified_name_en,pricing_json,quote_json,payment_method,payment_due_at) SELECT ?,?,'custom',member_id,?,?,note,?,'photo',image_type,?,'ready',analysis_json,?,?,?,?,?,? FROM kk_photo_drafts WHERE id=? AND state='quoted' AND pricing_json=? AND expires_at>?").bind(no,key,member.name,member.email,publicKey,sellerReview?(method==='cod'?'awaiting_cod':'awaiting_payment'):'admin_review',line.nameZh,line.nameEn,JSON.stringify(purchasedPricing),JSON.stringify(legacyQuote(pricing,line.nameZh,line.nameEn)),method,due,id,draft.pricing_json,now),
    db.prepare('UPDATE shopping_requests SET eta=?,eta_reason=?,purchase_at=?,cancel_until=?,eta_to=?,shipping_address_json=?,quantity=?,seller_review_due_at=? WHERE request_no=?').bind(pricing.estimatedArrival||'',pricing.etaReason||'',pricing.purchaseAt||null,pricing.cancelUntil||null,pricing.estimatedArrivalTo||pricing.estimatedArrival||'',JSON.stringify(address),line.quantity,new Date(Date.now()+86400000).toISOString(),no),
    db.prepare("UPDATE kk_photo_drafts SET state='purchased',order_id=(SELECT id FROM shopping_requests WHERE submission_key=?) WHERE id=? AND EXISTS(SELECT 1 FROM shopping_requests WHERE submission_key=?)").bind(key,id,key),
    db.prepare("UPDATE shopping_requests SET snack_redeemed=1 WHERE request_no=? AND snack_redeemed=0 AND EXISTS(SELECT 1 FROM kk_members m WHERE m.id=shopping_requests.member_id AND m.miles>=30)").bind(no),
-   db.prepare("INSERT INTO request_events(request_id,status,title_zh,title_en) SELECT id,status,'客製訂單待賣家確認','Custom order awaiting seller confirmation' FROM shopping_requests WHERE request_no=?").bind(no),
-   db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) SELECT member_id,'客製訂單待賣家確認',request_no||' 賣家將於 24 小時內確認，可能調整報價；確認前無須付款。','Custom order awaiting review',request_no||': Seller review within 24 hours. No payment is due yet.',id FROM shopping_requests WHERE request_no=?").bind(no)
+   db.prepare("INSERT INTO request_events(request_id,status,title_zh,title_en) SELECT id,status,?,? FROM shopping_requests WHERE request_no=?").bind(sellerReview?'賣家報價已接受，待付款':'客製訂單待賣家確認',sellerReview?'Seller quote accepted, payment pending':'Custom order awaiting seller confirmation',no),
+   db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) SELECT member_id,?,request_no||?,?,request_no||?,id FROM shopping_requests WHERE request_no=?").bind(sellerReview?'已接受賣家報價，請回報付款':'客製訂單待賣家確認',sellerReview?' 已接受賣家查核的含代購費報價；請查看付款資訊，匯款後回報，賣家核款後才進待買清單。':' 賣家將於 24 小時內確認，可能調整報價；確認前無須付款。',sellerReview?'Seller quote accepted, payment pending':'Custom order awaiting review',sellerReview?': Please view payment details and submit the transfer report. Purchasing begins after seller payment verification.':': Seller review within 24 hours. No payment is due yet.',no)
   ]);
+  if(sellerReview)await db.batch([db.prepare('UPDATE shopping_requests SET seller_reviewed_at=?,seller_review_due_at=NULL WHERE submission_key=? AND member_id=?').bind(sellerReview.reviewed_at,key,member.id),db.prepare("UPDATE kk_photo_inquiries SET state='purchased' WHERE draft_id=? AND member_id=? AND state='quoted'").bind(id,member.id)]);
   const order=await db.prepare('SELECT * FROM shopping_requests WHERE submission_key=? AND member_id=?').bind(key,member.id).first();
   if(!order)throw new ShopError('查價已取消或更新，未建立訂單。 / Quote changed or cancelled. No order created.',409);
   await deleteMedia(String(draft.image_key)).catch(()=>undefined);
@@ -118,7 +124,7 @@ export async function GET(request:Request){try{
  if(draft.state==='quoted'&&draft.analysis_json&&draft.pricing_json)return privateJson({id,state:'quoted',analysis:JSON.parse(String(draft.analysis_json)),pricing:JSON.parse(String(draft.pricing_json))});
  if(draft.state==='failed'){
   const detail=draft.analysis_json?JSON.parse(String(draft.analysis_json)):{};
-  return privateJson({error:typeof detail.photoResearchError==='string'?detail.photoResearchError:'AI 查價未完成；尚未建立訂單。 / Research failed. No order was created.',actualProviderModel:detail.photoResearchModel||null},detail.photoResearchStatus===422?422:503);
+  return privateJson({id,analysis:detail,reviewAvailable:true,error:typeof detail.photoResearchError==='string'?detail.photoResearchError:'AI 查價未完成；尚未建立訂單。 / Research failed. No order was created.',actualProviderModel:detail.photoResearchModel||null},detail.photoResearchStatus===422?422:503);
  }
  return privateJson({id,state:'pending'},202);
 }catch(e){return failure(e);}}

@@ -1,3 +1,9 @@
+# Adela R22 — 最新接續
+
+先讀 [R22 更新／執行／交接說明](R22_NETLIFY_UPDATE_20261012.md)。本版發布狀態與 source commit 以完整交付包根目錄 PROJECT_STATE.json 為準；原私人 Sites 未在此輪發布。下方文件是歷史快照，當時的未發布、免費方案或舊授權描述不代表目前狀態。
+
+---
+
 # Netlify 前台接續 — R20 / Sites 第 31 版
 
 最新部署準備見 [NETLIFY_FRONTEND_R20_20261011.md](NETLIFY_FRONTEND_R20_20261011.md)。

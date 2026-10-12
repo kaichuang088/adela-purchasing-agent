@@ -8,6 +8,7 @@ export async function claimCoupon(member:Member,code:string,id?:number){
  if(!offer||!live(offer)||!offerForMember(offer,member))throw new ShopError('優惠券不存在、已到期或不適用此會員。');
  if(!offer.code)throw new ShopError('此活動自動套用，不需要領券。');
  try{await rawDb().prepare('INSERT OR IGNORE INTO kk_coupon_claims(offer_id,member_id) VALUES(?,?)').bind(offer.id,member.id).run();}catch{throw new ShopError('此優惠券已領完。',409);}
+ if(offer.discountType==='store_credit'){const key='credit-coupon:'+offer.id+':'+member.id;await rawDb().batch([rawDb().prepare("INSERT OR IGNORE INTO kk_coupon_uses(id,offer_id,member_id,order_no) VALUES(?,?,?,'credit-grant')").bind(offer.id+':'+member.id,offer.id,member.id),rawDb().prepare("INSERT OR IGNORE INTO kk_wallet_entries(event_key,member_id,order_no,amount_twd,reason) SELECT ?,?,'',?,'領券贈購物金' WHERE EXISTS(SELECT 1 FROM kk_coupon_claims WHERE offer_id=? AND member_id=?)").bind(key,member.id,offer.value,offer.id,member.id),rawDb().prepare("INSERT OR IGNORE INTO kk_messages(member_id,title,body,title_en,body_en,delivery_key) SELECT ?,'已領取購物金優惠券',?,'Store credit coupon claimed',?,? WHERE EXISTS(SELECT 1 FROM kk_wallet_entries WHERE event_key=?)").bind(member.id,'已入帳 NT$'+offer.value,'NT$'+offer.value+' added',key,key)]);}
  return offer;
 }
 export async function couponWallet(member:Member){

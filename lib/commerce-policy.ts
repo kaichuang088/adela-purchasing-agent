@@ -13,12 +13,14 @@ export function offerMatches(o:Offer,p:Pick<ShopProduct,'id'|'categoryZh'>){
 }
 export function offerLabel(o:Offer,language:boolean|'zh'|'en'|'ko'=false){
  if(language==='ko'){
+  if(o.discountType==='store_credit')return `NT$${o.value} 쇼핑 적립금 받기`;
   const threshold=o.minMerchandiseTwd?` · 최소 상품 금액 NT$${o.minMerchandiseTwd.toLocaleString()}`:'';
   const value=o.value||0,currency=o.currency||'TWD';
   const labels:Record<string,string>={percent:`상품 ${value}% 할인`,product_percent:`상품 ${value}% 할인`,fixed:`상품 ${currency} ${value} 할인`,product_fixed:`상품 ${currency} ${value} 할인`,shipping_free:'무료 배송',shipping_percent:`배송비 ${value}% 할인`,shipping_fixed:`배송비 ${currency} ${value} 할인`,order_percent:`주문 전체 ${value}% 할인`,order_fixed:`주문 전체 ${currency} ${value} 할인`};
   return (labels[o.discountType||'']||`구매 대행 수수료 ${o.rate}%`)+threshold;
  }
  const en=language===true||language==='en';
+ if(o.discountType==='store_credit')return en?`Claim NT$${o.value} store credit`:`領取 NT$${o.value} 購物金`;
  const threshold=o.minMerchandiseTwd?`${en?' · Minimum merchandise NT$':' · 商品低消 NT$'}${o.minMerchandiseTwd.toLocaleString()}`:'';
  if(['percent','product_percent'].includes(o.discountType||''))return (en?`${o.value}% off merchandise`:`商品 ${Number((100-(o.value||0))/10).toFixed(1).replace(/\.0$/,'')} 折`)+threshold;
  if(['fixed','product_fixed'].includes(o.discountType||''))return (en?`${o.currency||'TWD'} ${o.value} off merchandise`:`商品折抵 ${o.currency||'TWD'} ${o.value}`)+threshold;

@@ -1,0 +1,7 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {Button} from '@/components/ui/button';
+import {PushSettings} from '@/app/push-settings';
+import {ChatText} from '@/app/chat-text';
+import {useAdminText} from './admin-language';
+export function AdminNotifications({password}:{password:string}){const a=useAdminText(),[alerts,setAlerts]=useState<any[]>([]),[error,setError]=useState('');async function load(){try{const r=await fetch('/api/operations/notifications',{headers:{'X-KK-Admin-Password':password}}),v=await r.json() as any;if(!r.ok)throw Error(v.error);setAlerts(v.alerts);}catch(e){setError(String(e));}}useEffect(()=>{void load();const timer=setInterval(()=>void load(),30000);return()=>clearInterval(timer);},[password]);return <section className="op-panel adela-admin-notifications"><div className="op-panel-head"><h3>{a('管理員通知')}</h3><Button variant="outline" onClick={async()=>{await fetch('/api/operations/notifications',{method:'POST',headers:{'Content-Type':'application/json','X-KK-Admin-Password':password},body:JSON.stringify({action:'read',untilId:alerts[0]?.id})});await load();}}>{a('標示已讀')}</Button></div><PushSettings adminPassword={password}/>{error&&<p role="alert">{error}</p>}<div className="adela-admin-alerts">{alerts.map(row=><article key={row.id} className={row.read_at?'read':'unread'}><strong>{row.title}</strong><ChatText text={row.body}/><small>{new Date(row.created_at.replace(' ','T')+'Z').toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})}</small></article>)}{!alerts.length&&<p>{a('目前沒有管理員通知')}</p>}</div></section>}
