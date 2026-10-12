@@ -1,6 +1,10 @@
 import {koreanErrorText} from './korean-error-text';
 // Storefront copy. Product titles supplied by merchants remain in their original language.
 export const koreanCopy:Record<string,string>={
+"接受此總價，送交賣家核對":"총액에 동의하고 판매자 확인 요청",
+"不接受，取消此查價":"동의하지 않고 가격 조회 취소",
+"預估總價・已含代購費":"예상 총액 · 구매 대행 수수료 포함",
+
 "查看儲值 NT${amount} 商品":"NT${amount} 충전 상품 보기",
 "購買儲值商品 NT${amount}":"NT${amount} 충전 상품 구매",
 "贈 {percent}%（NT${bonus}），總入帳 NT${total}。":"{percent}% 보너스 (NT${bonus}), 총 NT${total} 적립.",

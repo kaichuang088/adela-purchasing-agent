@@ -326,7 +326,7 @@ export default function OperationsApp() {
   return (
     <>
       <Toaster richColors position="top-right" />
-      <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','notify'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}{id==='members'&&(data!.creditWithdrawals||[]).some(r=>['requested','processing'].includes(r.status))?' · 有轉帳退款申請':''}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
+      <Dialog open={moreOpen} onOpenChange={setMoreOpen}><DialogContent className="op-more-dialog"><DialogHeader><DialogTitle>{a('管理工具')}</DialogTitle><DialogDescription>{a('選擇要管理的項目')}</DialogDescription></DialogHeader><div className="op-more-grid">{menus.filter(([id])=>!['orders','products','messages','ai'].includes(id)).map(([id,label,Icon])=><button key={id} onClick={()=>{setTab(id);setMoreOpen(false);}}><Icon/><span>{a(label)}{id==='members'&&(data!.creditWithdrawals||[]).some(r=>['requested','processing'].includes(r.status))?' · 有轉帳退款申請':''}</span><ChevronRight/></button>)}</div></DialogContent></Dialog>
       <button type="button" className="adela-ai-fab" aria-label={a('開啟 AI 工作助理')} onClick={()=>setAiOpen(true)}><ChatGPTMark/><span>AI</span></button>
       <Dialog open={aiOpen} onOpenChange={setAiOpen}><DialogContent className="adela-ai-dialog"><DialogHeader><DialogTitle>{a('AI 工作助理')}</DialogTitle><DialogDescription>{a('對話、查價與商店操作')}</DialogDescription></DialogHeader><AdminAIHub password={password} configured={data!.aiConfigured} refresh={load} rate={data!.exchange?.rate} standardRate={data!.settings.fees?.standard?.catalog}/></DialogContent></Dialog>
       <main className="op-shell">
@@ -341,7 +341,7 @@ export default function OperationsApp() {
                 <span className="adela-nav-icon">{id==='ai'?<ChatGPTMark/>:<Icon/>}{count>0&&<strong className="op-unread-count" aria-label={a('未讀通知')+': '+count}>{count>99?'99+':count}</strong>}</span><span>{a(label)}</span>
               </button></Fragment>;
             })}
-            <button className={'op-nav-more '+(!['orders','products','messages','notify'].includes(tab)?'active':'')} onClick={()=>setMoreOpen(true)} aria-expanded={moreOpen}><span className="adela-nav-icon"><MoreHorizontal/></span><span>{a('更多')}</span></button>
+            <button className={'op-nav-more '+(!['orders','products','messages','ai'].includes(tab)?'active':'')} onClick={()=>setMoreOpen(true)} aria-expanded={moreOpen}><span className="adela-nav-icon"><MoreHorizontal/></span><span>{a('更多')}</span></button>
           </nav>
           <div className={"op-sync"+(syncFailed?" is-stale":"")} role="status">
             <i />

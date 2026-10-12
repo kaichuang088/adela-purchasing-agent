@@ -1,6 +1,6 @@
 {
   "scope": "Real Chromium viewport rendering of built front/admin and compiled Worker using isolated D1 and mocked AI; not production or physical phone",
-  "checks": 23,
+  "checks": 28,
   "allPassed": true,
   "results": [
     {
@@ -35,6 +35,11 @@
     },
     {
       "width": 375,
+      "name": "notifications-in-more-menu",
+      "passed": true
+    },
+    {
+      "width": 375,
       "name": "admin-create-member",
       "metrics": {
         "viewport": 375,
@@ -95,6 +100,11 @@
     },
     {
       "width": 390,
+      "name": "notifications-in-more-menu",
+      "passed": true
+    },
+    {
+      "width": 390,
       "name": "admin-create-member",
       "metrics": {
         "viewport": 390,
@@ -151,6 +161,11 @@
         "body": 430,
         "document": 430
       },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "notifications-in-more-menu",
       "passed": true
     },
     {
@@ -201,10 +216,10 @@
         "body": 1280,
         "document": 1280,
         "dialog": {
-          "left": 342.0733947753906,
-          "right": 937.9265441894531,
-          "top": 118.69180297851562,
-          "bottom": 781.3081359863281,
+          "left": 342.068359375,
+          "right": 937.931640625,
+          "top": 118.68619537353516,
+          "bottom": 781.3137588500977,
           "height": 900,
           "scroll": 618,
           "client": 618
@@ -225,6 +240,26 @@
     {
       "width": 1280,
       "name": "admin-assisted-order",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-member-en",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "admin-member-ko",
       "metrics": {
         "viewport": 1280,
         "body": 1280,
