@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "a6f77678018c7c8a9e70ca59b8df0e40df2f1e48",
+  "published": true,
+  "packages": [
+    {
+      "name": "Adela_R21_3_20261012_01_Source.zip",
+      "bytes": 22822064,
+      "files": 928,
+      "sha256": "1dcf474b6dd7580080a47c8f3fc374957f4b9226084664ff308b5dadbed817c6"
+    },
+    {
+      "name": "Adela_R21_3_20261012_02_Source.zip",
+      "bytes": 7310593,
+      "files": 160,
+      "sha256": "6b10794cd1ca16fe94725064d5cec40aa1c2597b2e7769d83d730459d8945302"
+    },
+    {
+      "name": "Adela_R21_3_20261012_03_Assets.zip",
+      "bytes": 29348361,
+      "files": 74,
+      "sha256": "2685d478ff91c594ae393f0c6ddacbe81543b9b43558562f2dc3bc2cc22a5618"
+    },
+    {
+      "name": "Adela_R21_3_20261012_04_Assets.zip",
+      "bytes": 29099802,
+      "files": 24,
+      "sha256": "fbc0c2a3f0b36caeea782ef33d821a0d903155380f4cafdaf39750b548130c8c"
+    },
+    {
+      "name": "Adela_R21_3_20261012_05_Assets.zip",
+      "bytes": 26995885,
+      "files": 31,
+      "sha256": "83a553ec3ae4de752d3e4055fdf3898d4286b7dbd90818266260aad3d1f63e63"
+    },
+    {
+      "name": "Adela_R21_3_20261012_06_Assets.zip",
+      "bytes": 4950407,
+      "files": 12,
+      "sha256": "3579019513933e27193dc954df4467cc4735b3fd52d25f9a9a66c8b148204605"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "release": "R21.3 current final",
+  "published": true,
+  "sourceCommit": "a6f77678018c7c8a9e70ca59b8df0e40df2f1e48",
+  "siteVersion": 31,
+  "sitesVersionMeaning": "Original export baseline only; no new Sites publication",
+  "sitesUpdated": false,
+  "siteProjectId": "appgprj_6ab47d9a2d1881919a796ec9b609c7b4",
+  "frontend": "https://adela-purchasing-agent-shop.netlify.app",
+  "admin": "https://adela-purchasing-agent-admin.netlify.app",
+  "netlifyFrontendSiteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+  "netlifyAdminSiteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+  "netlifyFrontendDeploy": "6acc99b0bec8770dc84cde0e",
+  "netlifyAdminDeploy": "6acc99b331eda3f60dc98f72",
+  "workerVersion": "042f26b2-c4ed-40d3-9dc2-86c37c25285c",
+  "workerBundleSha256": "3339ae6db1c888a4d727b0a3d0e5891cb188d8eceff2501c2f4884567a0583a4",
+  "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+  "databaseReplaced": false,
+  "migration": "0027_seller_photo_review.sql",
+  "migrationTotal": 27,
+  "ai": {
+    "realModel": "gpt-6.1-sol",
+    "customerChatVerified": true,
+    "adminPasswordLoginVerified": true,
+    "adminAssistantRealProviderVerified": true,
+    "photoRealProviderConnected": true,
+    "photoSuccessfulPurchasableLiveQuoteVerified": false,
+    "photoTestResult": "422 missing exact merchant evidence; no order or wallet writes",
+    "productionAiMutationTested": false
+  },
+  "budget": {
+    "plan": "credit-personal",
+    "includedCredits": 1000,
+    "autoTopupEnabled": false,
+    "additionalCreditsPurchased": false,
+    "billingPlanChangedByAgent": false,
+    "capabilityUsedZeroNotReliableRemainingQuota": true
+  },
+  "netlifyBadgeEnabled": false,
+  "tests": {
+    "isolatedWorkflowChecks": 32,
+    "isolatedMobileChecks": 28,
+    "financialRegression": 29,
+    "photoRegression": 20,
+    "photoJobs": 12,
+    "backgroundTransport": 5,
+    "proxy": 19,
+    "productionMobileChecks": 31,
+    "productionMobileAllPassed": true,
+    "viewportWidths": [
+      375,
+      390,
+      430,
+      1280
+    ]
+  },
+  "unresolved": [
+    "Photo merchant evidence gap: current real probe did not produce a purchasable quote; AI cannot guarantee identification/price accuracy for every image.",
+    "Some perfume prices cannot fall further: existing fee is already zero, true cost or Taiwan price cap consumes margin. Detailed 37-item report included.",
+    "Prior catalog research/source gaps remain; reducing fees does not complete evidence.",
+    "Physical phone Push/Email are unverified; no delivery claim."
+  ],
+  "databaseBackupIncluded": false,
+  "netlifyStaticSourceCommit": "5cfb75ffea0227d19af2730e6dab82498d398297"
+}
