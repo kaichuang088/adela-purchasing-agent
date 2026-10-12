@@ -43,7 +43,7 @@ export async function POST(request:Request){try{
  if(body.action==='price_revision'){await acceptRevision(String(body.id),member.id,body.accept===true);return privateJson({ok:true});}
  if(body.action==='read'){await db.prepare('UPDATE kk_messages SET read_at=? WHERE member_id=? AND read_at IS NULL').bind(new Date().toISOString(),member.id).run();return privateJson({ok:true});}
  if(body.action==='confirm_custom'){
-  await requireShopOpen();
+  // This accepts an existing seller-reviewed quote; pausing new orders must not block it.
   const row=await db.prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(Number(body.id),member.id).first();
   if(!row||!row.pricing_json||row.status!=='quoted')throw new ShopError('目前無法確認此報價。');
   const p=JSON.parse(String(row.pricing_json)) as Pricing;if(p.expiresAt&&Date.parse(p.expiresAt)<Date.now())throw new ShopError('報價已到期，請重新查價。');
