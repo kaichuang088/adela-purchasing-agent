@@ -1,0 +1,1 @@
+下載全部分包，執行 `python restore.py --destination ./Adela_R21_Initial_Restored`。工具驗證 SHA256、CRC 和逐檔內容。Node >=22.13、pnpm 11.25；`pnpm install --frozen-lockfile`、`pnpm dev`、`pnpm build`。完整測試與 Netlify 建置指令见 source/R21_NETLIFY_UPDATE_20261012.md。只套用原 D1 尚未執行的遷移，不能重播0025。ZIP不等於資料庫備份。

@@ -1,0 +1,23 @@
+{
+  "release": "R21 initial publication (superseded by backend context correction)",
+  "published": true,
+  "sourceCommit": "f168899e83d53b152c7b3f1d4a7736a2eb1798c2",
+  "siteVersion": 31,
+  "sitesUpdated": false,
+  "frontend": "https://adela-purchasing-agent-shop.netlify.app",
+  "admin": "https://adela-purchasing-agent-admin.netlify.app",
+  "netlifyFrontendDeploy": "6acc8c7a90d71f60867c5fdd",
+  "netlifyAdminDeploy": "6acc8c7a22b00e5600be2762",
+  "workerVersion": "633f9130-13dc-4df4-a355-6e0517c05387",
+  "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+  "databaseReplaced": false,
+  "migration": "0027_seller_photo_review.sql",
+  "realAiModel": "gpt-6.1-sol",
+  "knownIssues": [
+    "Actual customer AI quoted correct item price but did not explicitly know service fee was already included; backend context correction follows.",
+    "Actual admin AI lacked membership rate context; correction follows.",
+    "Photo actual provider connected but exact merchant evidence missing; no successful live purchasable quote verified.",
+    "Physical phone Push/Email not verified."
+  ],
+  "databaseBackupIncluded": false
+}
