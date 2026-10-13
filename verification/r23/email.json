@@ -1,0 +1,12 @@
+{
+  "scope": "Isolated compiled Worker; mock Brevo, no real emails or secrets",
+  "checks": 6,
+  "cases": [
+    "General email notification queues without a product or order",
+    "Brevo-shaped request accepts provider messageId; this is a mock, not inbox delivery",
+    "Concurrent schedule retries do not resend an accepted notice",
+    "Ambiguous Brevo send is held for review rather than automatic duplicate delivery",
+    "Ambiguous delivery is not sent again on next cron",
+    "Rejected sender/authentication never becomes sent"
+  ]
+}

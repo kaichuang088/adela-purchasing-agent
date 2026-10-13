@@ -5,7 +5,7 @@ const money=(n:number)=>'NT$'+n.toLocaleString();
 export function PriceBreakdown({p,en=false}:{p:Pricing;en?:boolean}){
  const language=useStoreLocale(en),t=useStoreText(en);
  return <div className="kk-price-breakdown">
-  {p.items.map((item,i)=><div className="kk-price-item" key={i}><strong>{language==='zh'?item.nameZh:item.nameEn} × {item.quantity}</strong><div><span>{t('商品售價（含代購服務）','Price including purchasing service')}{item.offerTitle&&' · '+(language==='zh'?item.offerTitle:item.offerTitleEn||item.offerTitle)}</span><b>{money(item.goodsTwd+item.feeTwd+item.sizeFeeTwd)}</b></div></div>)}
+  {p.items.map((item,i)=><div className="kk-price-item" key={i}><strong>{language==='zh'?item.nameZh:item.nameEn} × {item.quantity}</strong><div><span>{t('商品售價（含代購服務）','Price including purchasing service')}{item.offerTitle&&' · '+(language==='zh'?item.offerTitle:item.offerTitleEn||item.offerTitle)}</span><b>{money(item.goodsTwd+item.feeTwd+item.sizeFeeTwd)}</b></div>{item.pricingTaxExclusive&&<small>{t('未稅計價優惠，已含代購費（非退稅承諾）','Net-of-tax pricing discount with service included; no tax refund guaranteed')}</small>}</div>)}
   <div><span>{t('配送費','Delivery')}</span><b>{money(p.shippingTwd)}</b></div>
   {!!p.discountTwd&&<div className="kk-discount-line"><span>{t('優惠券折抵','Coupon discount')} · {language==='zh'?p.discountLabel:p.discountLabelEn||p.discountLabel}</span><b>−{money(p.discountTwd)}</b></div>}
   {!!p.creditAppliedTwd&&<div className="kk-discount-line"><span>{t('購物金折抵','Store credit')}</span><b>−{money(p.creditAppliedTwd)}</b></div>}

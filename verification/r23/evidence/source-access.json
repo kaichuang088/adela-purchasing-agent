@@ -1,0 +1,3270 @@
+{
+  "scope": "Public page availability only; not SKU/price/stock approval; no AI calls",
+  "checked": 219,
+  "http200": 210,
+  "withStructuredMetadata": 129,
+  "rows": [
+    {
+      "url": "https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/",
+      "references": [
+        {
+          "id": 19,
+          "name": "Round Lab 1025 獨島化妝水",
+          "variant": "200 mL",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 19,
+          "name": "Round Lab 1025 獨島化妝水",
+          "variant": "500 mL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.341919+00:00",
+      "status": 200,
+      "finalUrl": "https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/"
+    },
+    {
+      "url": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-200ml",
+      "references": [
+        {
+          "id": 19,
+          "name": "Round Lab 1025 獨島化妝水",
+          "variant": "200 mL",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.342790+00:00",
+      "status": 200,
+      "finalUrl": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-200ml"
+    },
+    {
+      "url": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml",
+      "references": [
+        {
+          "id": 19,
+          "name": "Round Lab 1025 獨島化妝水",
+          "variant": "500 mL",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.343431+00:00",
+      "status": 200,
+      "finalUrl": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml"
+    },
+    {
+      "url": "https://www.roundlab.co.kr/product/%EC%9E%90%EC%9E%91%EB%82%98%EB%AC%B4-%EC%88%98%EB%B6%84-%EC%84%A0%ED%81%AC%EB%A6%BC-50ml/138/category/1/display/2/",
+      "references": [
+        {
+          "id": 20,
+          "name": "Round Lab 白樺樹保濕防曬霜",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.343859+00:00",
+      "status": 200,
+      "finalUrl": "https://www.roundlab.co.kr/product/%EC%9E%90%EC%9E%91%EB%82%98%EB%AC%B4-%EC%88%98%EB%B6%84-%EC%84%A0%ED%81%AC%EB%A6%BC-50ml/138/category/1/display/2/"
+    },
+    {
+      "url": "https://www.roundlab.com.tw/products/round-lab-birch-juice-moisturizing-sunscreen",
+      "references": [
+        {
+          "id": 20,
+          "name": "Round Lab 白樺樹保濕防曬霜",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.346577+00:00",
+      "status": 200,
+      "finalUrl": "https://www.roundlab.com.tw/products/round-lab-birch-juice-moisturizing-sunscreen"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/santal-33-987.html",
+      "references": [
+        {
+          "id": 21,
+          "name": "Le Labo SANTAL 33 淡香精",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 60,
+          "name": "Le Labo SANTAL 33 香水",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:11.347072+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/santal-33-987.html"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/another-13-747.html",
+      "references": [
+        {
+          "id": 22,
+          "name": "Le Labo ANOTHER 13 淡香精",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:12.922365+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/another-13-747.html"
+    },
+    {
+      "url": "https://brand.nongshim.com/shinramyun/main/index?prodCode=687",
+      "references": [
+        {
+          "id": 23,
+          "name": "農心 辛拉麵 5 入裝",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:13.737689+00:00",
+      "status": 200,
+      "finalUrl": "https://brand.nongshim.com/shinramyun/main/index?prodCode=687"
+    },
+    {
+      "url": "https://m.nongshimmall.com/product/detail.html?product_no=4647",
+      "references": [
+        {
+          "id": 24,
+          "name": "農心 辛拉麵 Rosé 4 入裝",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:13.738574+00:00",
+      "status": 200,
+      "finalUrl": "https://m.nongshimmall.com/product/detail.html?product_no=4647"
+    },
+    {
+      "url": "https://www.orionworld.com/goods/view/26?category=0101&goodsno=5",
+      "references": [
+        {
+          "id": 25,
+          "name": "Orion 巧克力派 12 入裝",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:14.076290+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/goods/view/26?category=0101&goodsno=5"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1",
+      "references": [
+        {
+          "id": 26,
+          "name": "Orion 烏龜玉米脆片",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:14.531442+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1"
+    },
+    {
+      "url": "https://www.samyangfoods.com/kor/brand/spicyRamen.do",
+      "references": [
+        {
+          "id": 27,
+          "name": "三養 火雞炒麵系列",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:14.951291+00:00",
+      "status": 200,
+      "finalUrl": "https://www.samyangfoods.com/kor/brand/spicyRamen.do"
+    },
+    {
+      "url": "https://www.bing.co.kr/product/detail?PDT=123",
+      "references": [
+        {
+          "id": 28,
+          "name": "賓格瑞 香蕉牛奶",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:15.094902+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bing.co.kr/product/detail?PDT=123"
+    },
+    {
+      "url": "https://www.imintcandy.com/Product/20260511-211.html",
+      "references": [
+        {
+          "id": 30,
+          "name": "I'MINT 無糖咖啡糖（32g）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:16.597229+00:00",
+      "status": 200,
+      "finalUrl": "https://www.imintcandy.com/Product/20260511-211.html"
+    },
+    {
+      "url": "https://brand.nongshim.com/saewookkang/main/index",
+      "references": [
+        {
+          "id": 31,
+          "name": "農心 蝦味先（새우깡）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:17.121936+00:00",
+      "status": 200,
+      "finalUrl": "https://brand.nongshim.com/saewookkang/main/index"
+    },
+    {
+      "url": "https://brand.nongshim.com/chapagetti/main/index",
+      "references": [
+        {
+          "id": 32,
+          "name": "農心 炸醬麵（짜파게티）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:17.542484+00:00",
+      "status": 200,
+      "finalUrl": "https://brand.nongshim.com/chapagetti/main/index"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1",
+      "references": [
+        {
+          "id": 33,
+          "name": "Orion My Gummy 水果軟糖",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:17.957370+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1"
+    },
+    {
+      "url": "https://www.lottewellfood.com/prcenter/news/1855?page=1&searchText=%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88&searchType2=Y",
+      "references": [
+        {
+          "id": 34,
+          "name": "Lotte 樂天 Pepero 巧克力棒",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:18.289711+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lottewellfood.com/prcenter/news/1855?page=1&searchText=%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88&searchType2=Y"
+    },
+    {
+      "url": "https://en.hbaf.com/products/",
+      "references": [
+        {
+          "id": 35,
+          "name": "HBAF 蜂蜜奶油杏仁",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:19.772737+00:00",
+      "status": 200,
+      "finalUrl": "https://en.hbaf.com/products/"
+    },
+    {
+      "url": "https://www.haitai.co.kr/m/eng/product",
+      "references": [
+        {
+          "id": 36,
+          "name": "海太 蜂蜜奶油洋芋片",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:20.603216+00:00",
+      "status": 200,
+      "finalUrl": "https://www.haitai.co.kr/m/eng/product"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1",
+      "references": [
+        {
+          "id": 37,
+          "name": "Orion 烏龜脆片 辣味",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:20.958350+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5",
+      "references": [
+        {
+          "id": 38,
+          "name": "Orion 巧克力派",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:21.229040+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1",
+      "references": [
+        {
+          "id": 39,
+          "name": "Orion 巧克力蘑菇餅",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:21.842822+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1",
+      "references": [
+        {
+          "id": 40,
+          "name": "Orion 洋芋片",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:21.857602+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1",
+      "references": [
+        {
+          "id": 41,
+          "name": "Orion 雞米花脆點",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:23.559682+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1"
+    },
+    {
+      "url": "https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1",
+      "references": [
+        {
+          "id": 42,
+          "name": "Orion Market O 濕潤巧克力豆餅乾",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:24.073988+00:00",
+      "status": 200,
+      "finalUrl": "https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1"
+    },
+    {
+      "url": "https://brand.nongshim.com/onionrings/main/index",
+      "references": [
+        {
+          "id": 43,
+          "name": "農心 洋蔥圈",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:24.246419+00:00",
+      "status": 200,
+      "finalUrl": "https://brand.nongshim.com/onionrings/main/index"
+    },
+    {
+      "url": "https://brand.nongshim.com/bananakicksnack/main/index",
+      "references": [
+        {
+          "id": 44,
+          "name": "農心 香蕉脆餅",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:24.525794+00:00",
+      "status": 200,
+      "finalUrl": "https://brand.nongshim.com/bananakicksnack/main/index"
+    },
+    {
+      "url": "https://www.lottewellfood.com/prcenter/news/833?page=1",
+      "references": [
+        {
+          "id": 45,
+          "name": "樂天 Malang Cow 牛奶軟糖",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:25.181323+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lottewellfood.com/prcenter/news/833?page=1"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548",
+      "references": [
+        {
+          "id": 46,
+          "name": "LOTTE 樂天 Pepero 六口味綜合包（15 盒）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:25.390787+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/LOTTE-Pepero-Assorted-644g-15PK/p/666548"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Buldak-Cup-Ramyun-105g-x-16/p/638431",
+      "references": [
+        {
+          "id": 47,
+          "name": "三養 火雞炒麵大杯（105g × 16 杯）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:26.742671+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Samyang-Buldak-Cup-Ramyun-105g-x-16/p/638431"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Nogshim-Assorted-Snacks-1080g-36/p/516641",
+      "references": [
+        {
+          "id": 48,
+          "name": "農心 人氣零食綜合包（30g × 36 包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:26.943438+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Nongshim-Assorted-Snacks-1080g-36/p/516641"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Haitai-Homerun-Ball-768g-128g-x-6/p/671210",
+      "references": [
+        {
+          "id": 49,
+          "name": "海太 Homerun Ball 巧克力泡芙（128g × 6）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:27.588185+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Haitai-Homerun-Ball-768g-128g-x-6/p/671210"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Orion-Snack-Assortment-780g-26ea/p/603457",
+      "references": [
+        {
+          "id": 50,
+          "name": "Orion 好麗友零食綜合包（30g × 26 包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:28.394094+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Snack/CookieCracker/Orion-Snack-Assortment-780g-26ea/p/603457"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Non-Fried-Ramyun-97g-x-20/p/620834",
+      "references": [
+        {
+          "id": 51,
+          "name": "農心 辛拉麵非油炸麵（97g × 20 包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:29.356670+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Non-Fried-Ramyun-97g-x-20/p/620834"
+    },
+    {
+      "url": "https://www.costco.co.kr/Foods/Snack/Chocolates-Bars/HBAF-Four-Popcorn-Set-1280g-OPTION1/p/680056-OPTION1",
+      "references": [
+        {
+          "id": 52,
+          "name": "HBAF 四口味爆米花（80g × 16 包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:30.083941+00:00",
+      "status": 200,
+      "finalUrl": "https://www.costco.co.kr/Foods/Snack/Chocolates-Bars/HBAF-Four-Popcorn-Set-1280g-OPTION1/p/680056-OPTION1"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179",
+      "references": [
+        {
+          "id": 54,
+          "name": "Round Lab 1025 獨島化妝水＋乳液組",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:31.059748+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495",
+      "references": [
+        {
+          "id": 55,
+          "name": "Torriden DIVE-IN 防曬精華 50ml＋20ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:31.871710+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513",
+      "references": [
+        {
+          "id": 57,
+          "name": "Torriden SOLID-IN 神經醯胺護唇精華 11ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:32.904742+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000023",
+      "references": [
+        {
+          "id": 57,
+          "name": "Torriden SOLID-IN 神經醯胺護唇精華 11ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:33.206928+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000023"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976849463",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "XS",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:34.086302+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976849463"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976882231",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "S",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:34.426018+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976882231"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976914999",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "M",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:34.476359+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976914999"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976947767",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "L",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:34.593977+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976947767"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976980535",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:35.130257+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976980535"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015977013303",
+      "references": [
+        {
+          "id": 58,
+          "name": "Stüssy Basic Tee 卡其色",
+          "variant": "XXL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:35.198777+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015977013303"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1311209-big-stock-snapback-cap-royal?variant=42083100459063",
+      "references": [
+        {
+          "id": 59,
+          "name": "Stüssy Big Stock 棒球帽 Royal",
+          "variant": "ONE SIZE",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:35.537758+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1311209-big-stock-snapback-cap-royal?variant=42083100459063"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml",
+      "references": [
+        {
+          "id": 61,
+          "name": "Le Labo ANOTHER 13 香氛護手霜 30ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:35.900693+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml"
+    },
+    {
+      "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000023630811",
+      "references": [
+        {
+          "id": 62,
+          "name": "Diptyque Do Son 杜桑淡香精 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:35.901656+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000023630811"
+    },
+    {
+      "url": "https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724",
+      "references": [
+        {
+          "id": 62,
+          "name": "Diptyque Do Son 杜桑淡香精 75ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:36.171442+00:00",
+      "status": 200,
+      "finalUrl": "https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000265165770",
+      "references": [
+        {
+          "id": 63,
+          "name": "Byredo Blanche 返樸歸真淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:36.512611+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000265165770"
+    },
+    {
+      "url": "https://1010online.com.tw/byredo-blanche-edp",
+      "references": [
+        {
+          "id": 63,
+          "name": "Byredo Blanche 返樸歸真淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:36.760090+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/byredo-blanche-edp"
+    },
+    {
+      "url": "https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3",
+      "references": [
+        {
+          "id": 64,
+          "name": "I'MINT 美式咖啡糖（32g × 4）",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 65,
+          "name": "I'MINT 抹茶拿鐵糖（32g × 4）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:37.099799+00:00",
+      "status": 200,
+      "finalUrl": "https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3"
+    },
+    {
+      "url": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162957879",
+      "references": [
+        {
+          "id": 66,
+          "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+          "variant": "S",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:37.238866+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162957879"
+    },
+    {
+      "url": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162990647",
+      "references": [
+        {
+          "id": 66,
+          "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+          "variant": "M",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:37.499569+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162990647"
+    },
+    {
+      "url": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163023415",
+      "references": [
+        {
+          "id": 66,
+          "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+          "variant": "L",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:37.541839+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163023415"
+    },
+    {
+      "url": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163056183",
+      "references": [
+        {
+          "id": 66,
+          "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:37.905226+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163056183"
+    },
+    {
+      "url": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163088951",
+      "references": [
+        {
+          "id": 66,
+          "name": "Stüssy Relaxed Zip Hoodie 連帽外套 Natural",
+          "variant": "XXL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:38.141544+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163088951"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
+      "references": [
+        {
+          "id": 67,
+          "name": "Fillimilli 885 腮紅刷",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:38.526577+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000136300",
+      "references": [
+        {
+          "id": 68,
+          "name": "WAKEMAKE 鐵壁眼線液筆 1+1",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:38.649568+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000136300"
+    },
+    {
+      "url": "https://www.kurly.com/goods/5061325",
+      "references": [
+        {
+          "id": 69,
+          "name": "農心 蝦味先 90g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:38.822803+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kurly.com/goods/5061325"
+    },
+    {
+      "url": "https://www.kurly.com/goods/5069938",
+      "references": [
+        {
+          "id": 70,
+          "name": "好麗友 四種經典零食組（4 包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.073929+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kurly.com/goods/5069938"
+    },
+    {
+      "url": "https://www.kurly.com/goods/5069816",
+      "references": [
+        {
+          "id": 71,
+          "name": "三養原味辣火雞炒麵 140g × 5 包",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.313370+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kurly.com/goods/5069816"
+    },
+    {
+      "url": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC",
+      "references": [
+        {
+          "id": 71,
+          "name": "三養原味辣火雞炒麵 140g × 5 包",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.364320+00:00",
+      "status": 200,
+      "finalUrl": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330",
+      "references": [
+        {
+          "id": 75,
+          "name": "Orion 烏龜四層脆片 抹茶巧克力 104g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.598223+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857",
+      "references": [
+        {
+          "id": 76,
+          "name": "Market O 巧克力布朗尼 120g／6入",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.723406+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790",
+      "references": [
+        {
+          "id": 77,
+          "name": "LOTTE BINCH 巧克力餅乾 102g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.798246+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790"
+    },
+    {
+      "url": "https://tw.buy.yahoo.com/gdsale/Lotte樂天-BINCH巧克力餅乾-102g-8702318.html",
+      "references": [
+        {
+          "id": 77,
+          "name": "LOTTE BINCH 巧克力餅乾 102g",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:39.945897+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.buy.yahoo.com/gdsale/Lotte%E6%A8%82%E5%A4%A9-BINCH%E5%B7%A7%E5%85%8B%E5%8A%9B%E9%A4%85%E4%B9%BE-102g-8702318.html"
+    },
+    {
+      "url": "https://www.kurly.com/goods/1002129007",
+      "references": [
+        {
+          "id": 78,
+          "name": "農心 蝦味條 辣味 90g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.099086+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kurly.com/goods/1002129007"
+    },
+    {
+      "url": "https://m.nongshimmall.com/product/detail.html?product_no=4444",
+      "references": [
+        {
+          "id": 79,
+          "name": "農心 蝦味條 哇沙米 70g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.146953+00:00",
+      "status": 200,
+      "finalUrl": "https://m.nongshimmall.com/product/detail.html?product_no=4444"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293",
+      "references": [
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z02 Nucadamia",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z03 Bare Grape",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z04 Fig Fig",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z05 Jujube",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z06 Peeling Cherry",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 80,
+          "name": "rom&nd Juicy Lasting Tint ZERO 水光唇釉",
+          "variant": "Z23 Peach Peach Me",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.328330+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291",
+      "references": [
+        {
+          "id": 81,
+          "name": "Torriden DIVE IN 新版精華＋補充包組",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.612804+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258291"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162",
+      "references": [
+        {
+          "id": 82,
+          "name": "ROUND LAB 獨島化妝水 200ml＋50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.810813+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000132162"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
+      "references": [
+        {
+          "id": 83,
+          "name": "Beauty of Joseon 米萃防曬 50ml＋20ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:40.866124+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=41475432644663",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "XS",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:41.024243+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=41475432644663"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140714551",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "S",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:41.221981+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140714551"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140649015",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "M",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:41.274046+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140649015"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140681783",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "L",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:41.657116+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140681783"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140780087",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:41.852074+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140780087"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140747319",
+      "references": [
+        {
+          "id": 84,
+          "name": "Stüssy Basic Tee 黑色",
+          "variant": "XXL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:42.083189+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=40195140747319"
+    },
+    {
+      "url": "https://matinkim.com/product/accordion-wallet-in-black/2164/",
+      "references": [
+        {
+          "id": 85,
+          "name": "Matin Kim Accordion Wallet 黑色卡夾",
+          "variant": "FREE",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:42.343757+00:00",
+      "status": 200,
+      "finalUrl": "https://matinkim.com/product/accordion-wallet-in-black/2164/"
+    },
+    {
+      "url": "https://www.musinsa.com/products/5992310",
+      "references": [
+        {
+          "id": 86,
+          "name": "thisisneverthat T-Logo Tee 水洗黑",
+          "variant": "S",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 86,
+          "name": "thisisneverthat T-Logo Tee 水洗黑",
+          "variant": "M",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 86,
+          "name": "thisisneverthat T-Logo Tee 水洗黑",
+          "variant": "L",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 86,
+          "name": "thisisneverthat T-Logo Tee 水洗黑",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:42.701766+00:00",
+      "status": 200,
+      "finalUrl": "https://www.musinsa.com/products/5992310"
+    },
+    {
+      "url": "https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/",
+      "references": [
+        {
+          "id": 87,
+          "name": "Mardi Mercredi FLOWERMARDI 白色綠花",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:42.951841+00:00",
+      "status": 200,
+      "finalUrl": "https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/"
+    },
+    {
+      "url": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-白色-經典小雛菊-綠花-純棉-tshirt-flowermardi-1",
+      "references": [
+        {
+          "id": 87,
+          "name": "Mardi Mercredi FLOWERMARDI 白色綠花",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:43.192306+00:00",
+      "status": 200,
+      "finalUrl": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-%E5%8D%B0%E8%8A%B1%E7%9F%ADtee-%E7%99%BD%E8%89%B2-%E7%B6%93%E5%85%B8%E5%B0%8F%E9%9B%9B%E8%8F%8A-%E7%B6%A0%E8%8A%B1-%E7%B4%94%E6%A3%89-tshirt-flowermardi-1"
+    },
+    {
+      "url": "https://mardimercredi.com/product/tshirt-flowermardioatmeal-black/6184/category/197/display/1/",
+      "references": [
+        {
+          "id": 88,
+          "name": "Mardi Mercredi FLOWERMARDI 燕麥色黑花",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:43.285257+00:00",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-燕麥色-經典小雛菊-黑花-純棉-tshirt-flowermardi-1",
+      "references": [
+        {
+          "id": 88,
+          "name": "Mardi Mercredi FLOWERMARDI 燕麥色黑花",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:43.513497+00:00",
+      "status": 200,
+      "finalUrl": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-%E5%8D%B0%E8%8A%B1%E7%9F%ADtee-%E7%87%95%E9%BA%A5%E8%89%B2-%E7%B6%93%E5%85%B8%E5%B0%8F%E9%9B%9B%E8%8F%8A-%E9%BB%91%E8%8A%B1-%E7%B4%94%E6%A3%89-tshirt-flowermardi-1"
+    },
+    {
+      "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000020812971",
+      "references": [
+        {
+          "id": 89,
+          "name": "Le Labo SANTAL 33 淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:43.760717+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000020812971"
+    },
+    {
+      "url": "https://24h.pchome.com.tw/prod/DDAHN9-A900K0146",
+      "references": [
+        {
+          "id": 89,
+          "name": "Le Labo SANTAL 33 淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:45.237085+00:00",
+      "status": 200,
+      "finalUrl": "https://24h.pchome.com.tw/prod/DDAHN9-A900K0146"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000024602476",
+      "references": [
+        {
+          "id": 90,
+          "name": "Le Labo HINOKI 檜木洗手露 250ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:45.992101+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000024602476"
+    },
+    {
+      "url": "https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-檜木洗手露-250ml-平行輸入-11746093.html",
+      "references": [
+        {
+          "id": 90,
+          "name": "Le Labo HINOKI 檜木洗手露 250ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:46.351739+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-%E6%AA%9C%E6%9C%A8%E6%B4%97%E6%89%8B%E9%9C%B2-250ml-%E5%B9%B3%E8%A1%8C%E8%BC%B8%E5%85%A5-11746093.html"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000023640978",
+      "references": [
+        {
+          "id": 91,
+          "name": "Diptyque BAIES 漿果香氛蠟燭 190g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:46.555431+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000023640978"
+    },
+    {
+      "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004",
+      "references": [
+        {
+          "id": 92,
+          "name": "Byredo Blanche 返樸歸真護手霜 30ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:46.851088+00:00",
+      "status": 200,
+      "finalUrl": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004"
+    },
+    {
+      "url": "https://1010online.com.tw/byredo-hand-cream-blanche",
+      "references": [
+        {
+          "id": 92,
+          "name": "Byredo Blanche 返樸歸真護手霜 30ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:47.000404+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/byredo-hand-cream-blanche"
+    },
+    {
+      "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000026965464",
+      "references": [
+        {
+          "id": 97,
+          "name": "Le Labo 別物 13 淡香精 50 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:47.615890+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000026965464"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml",
+      "references": [
+        {
+          "id": 97,
+          "name": "Le Labo 別物 13 淡香精 50 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:48.702811+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/another-13-747.html?size=50ml"
+    },
+    {
+      "url": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
+      "references": [
+        {
+          "id": 98,
+          "name": "Le Labo 黑茶 29 淡香精 50 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 101,
+          "name": "Le Labo 玫瑰 31 淡香精 50 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 102,
+          "name": "Le Labo 羅勒洗手露 250 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 140,
+          "name": "Le Labo 岩薔薇 18淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 141,
+          "name": "Le Labo 香根草 46淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 142,
+          "name": "Le Labo 百合 41淡香精 100ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 143,
+          "name": "Le Labo 樹果 19淡香精 100ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:48.824076+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/th-noir-29-1003.html?size=50ml",
+      "references": [
+        {
+          "id": 98,
+          "name": "Le Labo 黑茶 29 淡香精 50 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:49.166075+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/th-noir-29-1003.html?size=50ml"
+    },
+    {
+      "url": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&click=itemMidArea23&itemId=1000229430227&salestrNo=1004&siteNo=6009",
+      "references": [
+        {
+          "id": 99,
+          "name": "Le Labo 末茶 26 淡香精 50 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:49.320738+00:00",
+      "status": 200,
+      "finalUrl": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&click=itemMidArea23&itemId=1000229430227&salestrNo=1004&siteNo=6009"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/th-matcha-26-1186.html?size=50ml",
+      "references": [
+        {
+          "id": 99,
+          "name": "Le Labo 末茶 26 淡香精 50 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:49.707485+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/th-matcha-26-1186.html?size=50ml"
+    },
+    {
+      "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000020808132",
+      "references": [
+        {
+          "id": 100,
+          "name": "Le Labo 佛手柑 22 淡香精 50 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:49.869529+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000020808132"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/bergamote-22-771.html?size=50ml",
+      "references": [
+        {
+          "id": 100,
+          "name": "Le Labo 佛手柑 22 淡香精 50 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:50.241742+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/bergamote-22-771.html?size=50ml"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/rose-31-962.html?size=50ml",
+      "references": [
+        {
+          "id": 101,
+          "name": "Le Labo 玫瑰 31 淡香精 50 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:50.452291+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/rose-31-962.html?size=50ml"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml",
+      "references": [
+        {
+          "id": 102,
+          "name": "Le Labo 羅勒洗手露 250 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:50.897228+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml"
+    },
+    {
+      "url": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84",
+      "references": [
+        {
+          "id": 103,
+          "name": "Le Labo 檜木護手乳 250 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:50.985683+00:00",
+      "status": 200,
+      "finalUrl": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml",
+      "references": [
+        {
+          "id": 103,
+          "name": "Le Labo 檜木護手乳 250 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:51.156223+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml"
+    },
+    {
+      "url": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8",
+      "references": [
+        {
+          "id": 104,
+          "name": "Le Labo 檜木沐浴膠 250 ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:51.710980+00:00",
+      "status": 200,
+      "finalUrl": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8"
+    },
+    {
+      "url": "https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml",
+      "references": [
+        {
+          "id": 104,
+          "name": "Le Labo 檜木沐浴膠 250 ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:51.920315+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml"
+    },
+    {
+      "url": "https://www.byredo.com/ko_kr/c/perfume",
+      "references": [
+        {
+          "id": 105,
+          "name": "Byredo Bal d’Afrique 熱帶爵士淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 106,
+          "name": "Byredo Rose of No Man’s Land 無人之境淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 108,
+          "name": "Byredo Bibliothèque 圖書館香氛蠟燭 240g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:52.077131+00:00",
+      "status": 200,
+      "finalUrl": "https://www.byredo.com/ko_kr/c/perfume"
+    },
+    {
+      "url": "https://www.1976.com.tw/prod/17311",
+      "references": [
+        {
+          "id": 105,
+          "name": "Byredo Bal d’Afrique 熱帶爵士淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:52.217617+00:00",
+      "status": 200,
+      "finalUrl": "https://www.1976.com.tw/prod/17311"
+    },
+    {
+      "url": "https://www.1976.com.tw/prod/16998",
+      "references": [
+        {
+          "id": 106,
+          "name": "Byredo Rose of No Man’s Land 無人之境淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:52.363621+00:00",
+      "status": 200,
+      "finalUrl": "https://www.1976.com.tw/prod/16998"
+    },
+    {
+      "url": "https://www.byredo.com/ko_kr/c/eau-de-parfum-50-ml?page=2",
+      "references": [
+        {
+          "id": 107,
+          "name": "Byredo Mojave Ghost 莫哈維之影淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:52.659220+00:00",
+      "status": 200,
+      "finalUrl": "https://www.byredo.com/ko_kr/c/eau-de-parfum-50-ml?page=2"
+    },
+    {
+      "url": "https://www.1976.com.tw/prod/17260",
+      "references": [
+        {
+          "id": 107,
+          "name": "Byredo Mojave Ghost 莫哈維之影淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:53.190066+00:00",
+      "status": 200,
+      "finalUrl": "https://www.1976.com.tw/prod/17260"
+    },
+    {
+      "url": "https://www.byredo.com/ko_kr/c/body-care",
+      "references": [
+        {
+          "id": 109,
+          "name": "Byredo Blanche 返璞歸真沐浴露 225ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 110,
+          "name": "Byredo Blanche 返璞歸真身體乳 225ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:53.934312+00:00",
+      "status": 200,
+      "finalUrl": "https://www.byredo.com/ko_kr/c/body-care"
+    },
+    {
+      "url": "https://1010online.com.tw/byredo-body-wash-blanche",
+      "references": [
+        {
+          "id": 109,
+          "name": "Byredo Blanche 返璞歸真沐浴露 225ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:53.961375+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/byredo-body-wash-blanche"
+    },
+    {
+      "url": "https://1010online.com.tw/byredo-body-lotion-blanche",
+      "references": [
+        {
+          "id": 110,
+          "name": "Byredo Blanche 返璞歸真身體乳 225ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:54.114629+00:00",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000063949833",
+      "references": [
+        {
+          "id": 111,
+          "name": "Diptyque Orphéon 爵夢淡香精 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:54.141734+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000063949833"
+    },
+    {
+      "url": "https://1010online.com.tw/diptyque-eau-de-parfum-orpheon",
+      "references": [
+        {
+          "id": 111,
+          "name": "Diptyque Orphéon 爵夢淡香精 75ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:54.631023+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/diptyque-eau-de-parfum-orpheon"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000023633086",
+      "references": [
+        {
+          "id": 112,
+          "name": "Diptyque Philosykos 希臘無花果淡香精 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:54.872904+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000023633086"
+    },
+    {
+      "url": "https://1010online.com.tw/diptyque-eau-de-parfum-philosykos",
+      "references": [
+        {
+          "id": 112,
+          "name": "Diptyque Philosykos 希臘無花果淡香精 75ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:56.376691+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/diptyque-eau-de-parfum-philosykos"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000026486402",
+      "references": [
+        {
+          "id": 113,
+          "name": "Diptyque Fleur de Peau 肌膚之華淡香精 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:56.377822+00:00",
+      "status": 429,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau",
+      "references": [
+        {
+          "id": 113,
+          "name": "Diptyque Fleur de Peau 肌膚之華淡香精 75ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:56.537823+00:00",
+      "status": 200,
+      "finalUrl": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696",
+      "references": [
+        {
+          "id": 114,
+          "name": "Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:56.670113+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391",
+      "references": [
+        {
+          "id": 115,
+          "name": "COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:57.216696+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391"
+    },
+    {
+      "url": "https://www.beautystage.com.tw/product/2224210177071",
+      "references": [
+        {
+          "id": 115,
+          "name": "COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:57.217814+00:00",
+      "status": 200,
+      "finalUrl": "https://www.beautystage.com.tw/product/2224210177071"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581",
+      "references": [
+        {
+          "id": 116,
+          "name": "SKIN1004 馬達加斯加積雪草安瓶（55ml × 1瓶）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:57.332834+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581"
+    },
+    {
+      "url": "https://www.watsons.com.tw/skin1004-skin1004-%E9%A6%AC%E9%81%94%E5%8A%A0%E6%96%AF%E5%8A%A0%E7%A9%8D%E9%9B%AA%E8%8D%89%E7%B2%BE%E8%8F%AF%E6%B6%B2-55ml/p/BP_278214",
+      "references": [
+        {
+          "id": 116,
+          "name": "SKIN1004 馬達加斯加積雪草安瓶（55ml × 1瓶）",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:57.998580+00:00",
+      "status": 200,
+      "finalUrl": "https://www.watsons.com.tw/skin1004-skin1004-%E9%A6%AC%E9%81%94%E5%8A%A0%E6%96%AF%E5%8A%A0%E7%A9%8D%E9%9B%AA%E8%8D%89%E7%B2%BE%E8%8F%AF%E6%B6%B2-55ml/p/BP_278214"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752",
+      "references": [
+        {
+          "id": 117,
+          "name": "Dr.G Red Blemish EX 清爽舒緩面霜企劃組",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.317395+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30",
+      "references": [
+        {
+          "id": 118,
+          "name": "ILLIYOON 神經醯胺集中保濕霜 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.381649+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864",
+      "references": [
+        {
+          "id": 119,
+          "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.771859+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247215",
+      "references": [
+        {
+          "id": 120,
+          "name": "Bioderma 舒敏高效潔膚液 500ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.824714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247215"
+    },
+    {
+      "url": "https://www.watsons.com.tw/bioderma-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA%E8%88%92%E6%95%8F%E9%AB%98%E6%95%88%E6%BD%94%E8%86%9A%E6%B6%B2500ml/p/BP_218040?text=Bioderma",
+      "references": [
+        {
+          "id": 120,
+          "name": "Bioderma 舒敏高效潔膚液 500ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.930460+00:00",
+      "status": 200,
+      "finalUrl": "https://www.watsons.com.tw/bioderma-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA%E8%88%92%E6%95%8F%E9%AB%98%E6%95%88%E6%BD%94%E8%86%9A%E6%B6%B2500ml/p/BP_218040?text=Bioderma"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232892",
+      "references": [
+        {
+          "id": 121,
+          "name": "LANEIGE 草莓蛋糕晚安唇膜 EX 20g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:58.982691+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232892"
+    },
+    {
+      "url": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html",
+      "references": [
+        {
+          "id": 121,
+          "name": "LANEIGE 草莓蛋糕晚安唇膜 EX 20g",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:59.462294+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
+      "references": [
+        {
+          "id": 122,
+          "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:59.513009+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679",
+      "references": [
+        {
+          "id": 123,
+          "name": "ma:nyo Pure Soybean 大豆卸妝油 200ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:59.689237+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585",
+      "references": [
+        {
+          "id": 124,
+          "name": "SKINFOOD 胡蘿蔔舒緩棉片雙盒組（60片×2＋PDRN棉片2片×3）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:39:59.789855+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020",
+      "references": [
+        {
+          "id": 124,
+          "name": "SKINFOOD 胡蘿蔔舒緩棉片雙盒組（60片×2＋PDRN棉片2片×3）",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.074359+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864",
+      "references": [
+        {
+          "id": 125,
+          "name": "Isntree 洋蔥 Newpair Booster Shot 2000 精華 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.239898+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513458231",
+      "references": [
+        {
+          "id": 126,
+          "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+          "variant": "S",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.241266+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513458231"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513490999",
+      "references": [
+        {
+          "id": 126,
+          "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+          "variant": "M",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.329982+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513490999"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513523767",
+      "references": [
+        {
+          "id": 126,
+          "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+          "variant": "L",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.648868+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513523767"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513556535",
+      "references": [
+        {
+          "id": 126,
+          "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:00.933772+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513556535"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513589303",
+      "references": [
+        {
+          "id": 126,
+          "name": "Stüssy BERRIES TEE 辣椒紅短袖T恤",
+          "variant": "XXL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:01.450335+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1905108-berries-tee-cayenne?variant=41376513589303"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440927287",
+      "references": [
+        {
+          "id": 127,
+          "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+          "variant": "S",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:01.451302+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440927287"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440960055",
+      "references": [
+        {
+          "id": 127,
+          "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+          "variant": "M",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:01.522906+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440960055"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440992823",
+      "references": [
+        {
+          "id": 127,
+          "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+          "variant": "L",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:02.850208+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446440992823"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441025591",
+      "references": [
+        {
+          "id": 127,
+          "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+          "variant": "XL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:04.131448+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441025591"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441058359",
+      "references": [
+        {
+          "id": 127,
+          "name": "Stüssy AUTHORIZED CREW 海軍藍大學T",
+          "variant": "XXL",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:04.133629+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1915122-authorized-crew-navy?variant=41446441058359"
+    },
+    {
+      "url": "https://kr.stussy.com/products/138965-silk-bandana-leopard?variant=41376504578103",
+      "references": [
+        {
+          "id": 128,
+          "name": "Stüssy SILK BANDANA 豹紋真絲方巾",
+          "variant": "ONE SIZE",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:04.372967+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/138965-silk-bandana-leopard?variant=41376504578103"
+    },
+    {
+      "url": "https://kr.stussy.com/products/1321240-waves-skullcap-charcoal?variant=41590206267447",
+      "references": [
+        {
+          "id": 129,
+          "name": "Stüssy WAVES SKULLCAP 炭灰色毛帽",
+          "variant": "ONE SIZE",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:04.611678+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.stussy.com/products/1321240-waves-skullcap-charcoal?variant=41590206267447"
+    },
+    {
+      "url": "https://mardimercredi.com/product/cap-mnavy-white/6143/",
+      "references": [
+        {
+          "id": 130,
+          "name": "Mardi Mercredi CAP M 海軍藍白色棒球帽",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:04.895219+00:00",
+      "status": 200,
+      "finalUrl": "https://mardimercredi.com/product/cap-mnavy-white/6143/"
+    },
+    {
+      "url": "https://mardimercredi.com/product/legere-sneakerspink/5456/",
+      "references": [
+        {
+          "id": 131,
+          "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+          "variant": "230mm",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 131,
+          "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+          "variant": "235mm",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 131,
+          "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+          "variant": "240mm",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 131,
+          "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+          "variant": "245mm",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 131,
+          "name": "Mardi Mercredi LEGERE 粉紅色帆布鞋",
+          "variant": "250mm",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:05.133931+00:00",
+      "status": 200,
+      "finalUrl": "https://mardimercredi.com/product/legere-sneakerspink/5456/"
+    },
+    {
+      "url": "https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/",
+      "references": [
+        {
+          "id": 132,
+          "name": "Mardi Mercredi 羊絨混紡黑粉菱格圓領開襟衫",
+          "variant": "FREE",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:05.828815+00:00",
+      "status": 200,
+      "finalUrl": "https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/"
+    },
+    {
+      "url": "https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/",
+      "references": [
+        {
+          "id": 133,
+          "name": "Mardi Mercredi LA TYPO FRANCAISE 海軍藍帆布托特包",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:05.829999+00:00",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000020698378",
+      "references": [
+        {
+          "id": 134,
+          "name": "Le Labo 香葵 9淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:05.830714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000020698378"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/ylang-49-1043.html",
+      "references": [
+        {
+          "id": 135,
+          "name": "Le Labo 依蘭 49淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:06.056868+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/ylang-49-1043.html"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp",
+      "references": [
+        {
+          "id": 136,
+          "name": "Le Labo 苦橙 36淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:06.727760+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/tonka-25-1105.html",
+      "references": [
+        {
+          "id": 137,
+          "name": "Le Labo 東加豆 25淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:07.714309+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/tonka-25-1105.html"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000561910236",
+      "references": [
+        {
+          "id": 138,
+          "name": "Le Labo 薰衣草 31淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:07.726488+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000561910236"
+    },
+    {
+      "url": "https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009",
+      "references": [
+        {
+          "id": 139,
+          "name": "Le Labo 紫羅蘭 30淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:08.032428+00:00",
+      "status": 200,
+      "finalUrl": "https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009"
+    },
+    {
+      "url": "https://www.1976.com.tw/prod/20424",
+      "references": [
+        {
+          "id": 142,
+          "name": "Le Labo 百合 41淡香精 100ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:08.119367+00:00",
+      "status": 200,
+      "finalUrl": "https://www.1976.com.tw/prod/20424"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+      "references": [
+        {
+          "id": 144,
+          "name": "MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:08.305624+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094",
+      "references": [
+        {
+          "id": 144,
+          "name": "MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:08.386072+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+      "references": [
+        {
+          "id": 145,
+          "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.058226+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852"
+    },
+    {
+      "url": "https://www.kurly.com/goods/1002381011",
+      "references": [
+        {
+          "id": 146,
+          "name": "MEDIHEAL 積雪草保濕防曬精華 50g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.250704+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kurly.com/goods/1002381011"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231",
+      "references": [
+        {
+          "id": 146,
+          "name": "MEDIHEAL 積雪草保濕防曬精華 50g",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.271414+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231"
+    },
+    {
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000866288136",
+      "references": [
+        {
+          "id": 147,
+          "name": "Diptyque 玫瑰之水淡香精 75ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.323639+00:00",
+      "status": 429,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711",
+      "references": [
+        {
+          "id": 148,
+          "name": "Byredo 吉普賽之水淡香精 50ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.603923+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711"
+    },
+    {
+      "url": "https://www.1976.com.tw/prod/17393",
+      "references": [
+        {
+          "id": 148,
+          "name": "Byredo 吉普賽之水淡香精 50ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.816609+00:00",
+      "status": 200,
+      "finalUrl": "https://www.1976.com.tw/prod/17393"
+    },
+    {
+      "url": "https://www.mardimercredi.com/product/sweatshirt-flowermardi-needleworkblack-pink/8030/",
+      "references": [
+        {
+          "id": 149,
+          "name": "Mardi Mercredi 花朵刺繡大學T 黑粉",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:09.868113+00:00",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/hand-pomade-1068.html",
+      "references": [
+        {
+          "id": 150,
+          "name": "Le Labo 檜木護手霜 55ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:10.098700+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lelabofragrances.co.kr/hand-pomade-1068.html"
+    },
+    {
+      "url": "https://giftshop-tw.line.me/products/322202829",
+      "references": [
+        {
+          "id": 150,
+          "name": "Le Labo 檜木護手霜 55ml",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:10.108942+00:00",
+      "status": 200,
+      "finalUrl": "https://giftshop-tw.line.me/products/322202829"
+    },
+    {
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4850616563",
+      "references": [
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "濃縮 · 32g 單盒",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:10.211410+00:00",
+      "status": 200,
+      "finalUrl": "https://item.gmarket.co.kr/Item?goodsCode=4850616563"
+    },
+    {
+      "url": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
+      "references": [
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "濃縮 · 32g 單盒",
+          "role": "taiwanRetailSource"
+        },
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "美式 · 32g 單盒",
+          "role": "taiwanRetailSource"
+        },
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "抹茶拿鐵 · 32g 單盒",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:10.674466+00:00",
+      "status": 200,
+      "finalUrl": "https://myship.7-11.com.tw/general/detail/GM2607092543072"
+    },
+    {
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4850646197",
+      "references": [
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "美式 · 32g 單盒",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:10.806638+00:00",
+      "status": 200,
+      "finalUrl": "https://item.gmarket.co.kr/Item?goodsCode=4850646197"
+    },
+    {
+      "url": "https://item.gmarket.co.kr/Item?goodscode=4845821356",
+      "references": [
+        {
+          "id": 151,
+          "name": "I'MINT 無糖咖啡糖 32g｜單盒選口味",
+          "variant": "抹茶拿鐵 · 32g 單盒",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:11.075047+00:00",
+      "status": 200,
+      "finalUrl": "https://item.gmarket.co.kr/Item?goodscode=4845821356"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420",
+      "references": [
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "葡萄 · 67g 單包",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:11.149458+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420"
+    },
+    {
+      "url": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+      "references": [
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "葡萄 · 67g 單包",
+          "role": "taiwanRetailSource"
+        },
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "荔枝 · 67g 單包",
+          "role": "taiwanRetailSource"
+        },
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "李子 · 67g 單包",
+          "role": "taiwanRetailSource"
+        },
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "奇異果 · 67g 單包",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:11.307039+00:00",
+      "status": 200,
+      "finalUrl": "https://www.koreatop.com.tw/SalePage/Index/11679230"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425",
+      "references": [
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "荔枝 · 67g 單包",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:11.852416+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423",
+      "references": [
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "李子 · 67g 單包",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.047434+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423"
+    },
+    {
+      "url": "https://www.snackok.com/m/product.html?branduid=1348908",
+      "references": [
+        {
+          "id": 152,
+          "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
+          "variant": "奇異果 · 67g 單包",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.217842+00:00",
+      "status": 200,
+      "finalUrl": "https://www.snackok.com/m/product.html?branduid=1348908"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html",
+      "references": [
+        {
+          "id": 153,
+          "name": "Aesop 賦活芳香護手霜 75mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.264409+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html"
+    },
+    {
+      "url": "https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/9319944030686.html",
+      "references": [
+        {
+          "id": 153,
+          "name": "Aesop 賦活芳香護手霜 75mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.460516+00:00",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html",
+      "references": [
+        {
+          "id": 154,
+          "name": "Aesop 賦活芳香手部清潔露 500mL（壓頭）",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.772408+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html"
+    },
+    {
+      "url": "https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html",
+      "references": [
+        {
+          "id": 154,
+          "name": "Aesop 賦活芳香手部清潔露 500mL（壓頭）",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:12.892619+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423",
+      "references": [
+        {
+          "id": 155,
+          "name": "UNOVE × 飛天小女警 深層修護髮膜 320mL × 2",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:13.853359+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423"
+    },
+    {
+      "url": "https://mall.iopenmall.tw/045739/index.php?action=product_detail&prod_no=P4573918998533",
+      "references": [
+        {
+          "id": 155,
+          "name": "UNOVE × 飛天小女警 深層修護髮膜 320mL × 2",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:13.854965+00:00",
+      "status": 200,
+      "finalUrl": "https://mall.iopenmall.tw/045739/index.php?action=product_detail&prod_no=P4573918998533"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422",
+      "references": [
+        {
+          "id": 156,
+          "name": "UNOVE × 飛天小女警絲柔髮油雙入組",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:14.588816+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534",
+      "references": [
+        {
+          "id": 157,
+          "name": "makeprem 三麗鷗布丁狗 NMN 彈力安瓶組",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:15.438835+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262534"
+    },
+    {
+      "url": "https://www.torriden.com/goods/goods_view.php?goodsNo=2268",
+      "references": [
+        {
+          "id": 158,
+          "name": "Torriden DIVE IN 新版玻尿酸精華 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:15.481149+00:00",
+      "status": 200,
+      "finalUrl": "https://www.torriden.com/goods/goods_view.php?goodsNo=2268"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000168270",
+      "references": [
+        {
+          "id": 159,
+          "name": "Condition 青蘋果解酒果凍｜單條",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:15.694676+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000168270"
+    },
+    {
+      "url": "https://renewphy.cafe24.com/product/detail.html?product_no=185",
+      "references": [
+        {
+          "id": 160,
+          "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+          "variant": "開心果巧克力",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 160,
+          "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+          "variant": "地瓜拿鐵",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 160,
+          "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+          "variant": "草莓",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 160,
+          "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
+          "variant": "玉米",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:16.058824+00:00",
+      "status": 200,
+      "finalUrl": "https://renewphy.cafe24.com/product/detail.html?product_no=185"
+    },
+    {
+      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001",
+      "references": [
+        {
+          "id": 162,
+          "name": "CROWN 榛果巧克力威化酥 142g",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:16.319782+00:00",
+      "status": 200,
+      "finalUrl": "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/product/4925565",
+      "references": [
+        {
+          "id": 162,
+          "name": "CROWN 榛果巧克力威化酥 142g",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:16.490347+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/product/4925565"
+    },
+    {
+      "url": "https://www.larocheposay.co.kr/product/view/4689.do",
+      "references": [
+        {
+          "id": 168,
+          "name": "理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:16.595471+00:00",
+      "status": 200,
+      "finalUrl": "https://www.larocheposay.co.kr/product/view/4689.do"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/product/8962228",
+      "references": [
+        {
+          "id": 168,
+          "name": "理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:16.803134+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/product/8962228"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925",
+      "references": [
+        {
+          "id": 169,
+          "name": "Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:17.521693+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925"
+    },
+    {
+      "url": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086",
+      "references": [
+        {
+          "id": 169,
+          "name": "Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:17.727576+00:00",
+      "status": 200,
+      "finalUrl": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209146",
+      "references": [
+        {
+          "id": 172,
+          "name": "NOT4U Clear Body Mist 身體噴霧200ml",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:17.855777+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209146"
+    },
+    {
+      "url": "https://www.ofracosmetics.co.kr/product/detail.html?product_no=614&item_code=P00000XQ000A",
+      "references": [
+        {
+          "id": 173,
+          "name": "OFRA Glazed Donut Slim Mini 新版打亮餅",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.134706+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ofracosmetics.co.kr/product/detail.html?product_no=614&item_code=P00000XQ000A"
+    },
+    {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
+      "references": [
+        {
+          "id": 174,
+          "name": "COLORGRAM Nude Blur 唇線筆",
+          "variant": "01 Salmon Beige",
+          "role": "purchaseUrl"
+        },
+        {
+          "id": 174,
+          "name": "COLORGRAM Nude Blur 唇線筆",
+          "variant": "04 Hip Chocolate",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.276731+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/gifts/fragrant-gifts/silently--hwyl-eau-de-parfum/FR43.html",
+      "references": [
+        {
+          "id": 176,
+          "name": "Aesop 熾靜香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.414319+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/gifts/fragrant-gifts/silently--hwyl-eau-de-parfum/FR43.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/woody/silently--hwyl-eau-de-parfum/FR43.html",
+      "references": [
+        {
+          "id": 176,
+          "name": "Aesop 熾靜香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.480176+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/woody/silently--hwyl-eau-de-parfum/FR43.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/fragrance-category/eternal-karst-eau-de-parfum/FR45.html",
+      "references": [
+        {
+          "id": 177,
+          "name": "Aesop 永岩香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.540183+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/fragrance-category/eternal-karst-eau-de-parfum/FR45.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/eternal-karst-eau-de-parfum/FR45.html",
+      "references": [
+        {
+          "id": 177,
+          "name": "Aesop 永岩香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:18.638385+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/eternal-karst-eau-de-parfum/FR45.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/fresh/tacit-truths-eau-de-parfum/FR41.html",
+      "references": [
+        {
+          "id": 178,
+          "name": "Aesop 悟澈香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:19.796585+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/fresh/tacit-truths-eau-de-parfum/FR41.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/tacit-truths-eau-de-parfum/FR41.html",
+      "references": [
+        {
+          "id": 178,
+          "name": "Aesop 悟澈香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:20.436210+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/tacit-truths-eau-de-parfum/FR41.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/fragrance-all/evoking-eidesis-eau-de-parfum/FR37.html",
+      "references": [
+        {
+          "id": 179,
+          "name": "Aesop 映鏡香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:21.102047+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/fragrance-all/evoking-eidesis-eau-de-parfum/FR37.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/woody/evoking-eidesis-eau-de-parfum/FR37.html",
+      "references": [
+        {
+          "id": 179,
+          "name": "Aesop 映鏡香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:21.832724+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/woody/evoking-eidesis-eau-de-parfum/FR37.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html",
+      "references": [
+        {
+          "id": 180,
+          "name": "Aesop 馥綻香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:22.060662+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html",
+      "references": [
+        {
+          "id": 180,
+          "name": "Aesop 馥綻香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:23.242620+00:00",
+      "error": "IncompleteRead"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/fragrance-category/boundless-eremia-eau-de-parfum/FR35.html",
+      "references": [
+        {
+          "id": 181,
+          "name": "Aesop 曠境香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:24.011211+00:00",
+      "error": "IncompleteRead"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/fresh/boundless-eremia-eau-de-parfum/FR35.html",
+      "references": [
+        {
+          "id": 181,
+          "name": "Aesop 曠境香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:24.753112+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/fresh/boundless-eremia-eau-de-parfum/FR35.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/fragrance-all/unforseen-aer-eau-de-parfum/FR44.html",
+      "references": [
+        {
+          "id": 182,
+          "name": "Aesop 喚空香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:24.760698+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/fragrance-all/unforseen-aer-eau-de-parfum/FR44.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/unforeseen-aer-eau-de-parfum/FR44.html",
+      "references": [
+        {
+          "id": 182,
+          "name": "Aesop 喚空香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:25.540588+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/unforeseen-aer-eau-de-parfum/FR44.html"
+    },
+    {
+      "url": "https://kr.aesop.com/kr/fragrance/floral/entirely-aurner-eau-de-parfum/FR38.html",
+      "references": [
+        {
+          "id": 183,
+          "name": "Aesop 蓓詠香水 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:26.700039+00:00",
+      "status": 200,
+      "finalUrl": "https://kr.aesop.com/kr/fragrance/floral/entirely-aurner-eau-de-parfum/FR38.html"
+    },
+    {
+      "url": "https://tw.aesop.com/fragrance/entirely-aurner-eau-de-parfum/FR38.html",
+      "references": [
+        {
+          "id": 183,
+          "name": "Aesop 蓓詠香水 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:26.710519+00:00",
+      "status": 200,
+      "finalUrl": "https://tw.aesop.com/fragrance/entirely-aurner-eau-de-parfum/FR38.html"
+    },
+    {
+      "url": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000037276712&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%8D%94%EB%B0%94%EB%94%94%EC%83%B5%EB%AF%B8%EC%8A%A4%ED%8A%B8",
+      "references": [
+        {
+          "id": 184,
+          "name": "Le Labo 滾珠體香劑 50mL",
+          "variant": "",
+          "role": "purchaseUrl"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:26.712505+00:00",
+      "status": 200,
+      "finalUrl": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000037276712&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%8D%94%EB%B0%94%EB%94%94%EC%83%B5%EB%AF%B8%EC%8A%A4%ED%8A%B8"
+    },
+    {
+      "url": "https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142",
+      "references": [
+        {
+          "id": 184,
+          "name": "Le Labo 滾珠體香劑 50mL",
+          "variant": "",
+          "role": "taiwanRetailSource"
+        }
+      ],
+      "checkedAt": "2026-10-13T05:40:27.875825+00:00",
+      "status": 200,
+      "finalUrl": "https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142"
+    }
+  ]
+}

@@ -9,24 +9,23 @@ export default async function photoResearch(request:Request){
  const backend=Netlify.env.get('KK_BACKEND_URL')||'';
  let endpoint:URL;
  try{endpoint=new URL('/api/photo-quote-jobs',backend);if(endpoint.protocol!=='https:'||endpoint.username||endpoint.password)return;}catch{return;}
- const send=(body:unknown,timeout=45000)=>fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json','X-KK-AI-Gateway-Secret':secret},body:JSON.stringify(body),redirect:'manual',signal:AbortSignal.timeout(timeout)});
+ const deadline=Date.now()+160000;
+ const send=(body:unknown,timeout=30000)=>fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json','X-KK-AI-Gateway-Secret':secret},body:JSON.stringify(body),redirect:'manual',signal:AbortSignal.timeout(Math.max(1,Math.min(timeout,deadline-Date.now())))});
  let claimed=false;
  try{
-  const claim=await send({id,action:'claim'});if(!claim.ok)return;
-  claimed=true;const {input}=await claim.json() as {input:Record<string,unknown>};
+  const claim=await send({id,action:'claim'},15000);if(!claim.ok)return;
+  claimed=true;const {input,identificationInput}=await claim.json() as {input:Record<string,unknown>;identificationInput?:Record<string,unknown>};
   const model=Netlify.env.get('NETLIFY_AI_MODEL')||'gpt-6.1-sol';
   if(input.model!==model)throw new Error('Model mismatch');
   const base=Netlify.env.get('NETLIFY_AI_GATEWAY_URL'),key=Netlify.env.get('NETLIFY_AI_GATEWAY_KEY');
   if(!base||!key)throw new Error('Platform AI not available');
   const provider=new URL(base.endsWith('/')?base:base+'/');
   if(provider.protocol!=='https:'||provider.username||provider.password)throw new Error('Invalid platform provider');
-  const response=await fetch(new URL(provider.pathname.replace(/\/$/,'').endsWith('/v1')?'responses':'v1/responses',provider),{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+key},body:JSON.stringify(input),redirect:'manual',signal:AbortSignal.timeout(120000)});
-  if(!response.ok)throw new Error('Photo provider request failed');
-  const result=await response.json() as {model?:string};
-  if(result.model!==model)throw new Error('Provider returned a different model');
-  await send({id,action:'complete',result});
+  const run=async(payload:Record<string,unknown>,limit=90000)=>{const timeout=Math.min(limit,deadline-Date.now()-35000);if(timeout<=0)throw new Error('Photo job time budget exhausted');const response=await fetch(new URL(provider.pathname.replace(/\/$/,'').endsWith('/v1')?'responses':'v1/responses',provider),{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+key},body:JSON.stringify(payload),redirect:'manual',signal:AbortSignal.timeout(timeout)});if(!response.ok)throw new Error('Photo provider request failed');const result=await response.json() as {model?:string};if(result.model!==model)throw new Error('Provider returned a different model');return result;};
+  if(identificationInput){const result=await run(identificationInput,45000);const completion=await send({id,action:'complete',result,identifyOnly:true});const value=await completion.json() as {needResearch?:boolean};if(!value.needResearch)return;}
+  const result=await run(input);await send({id,action:'complete',result});
  }catch{
-  if(claimed)await send({id,action:'complete',providerFailed:true}).catch(()=>undefined);
+  if(claimed)await send({id,action:'complete',providerFailed:true},5000).catch(()=>undefined);
  }
 }
 

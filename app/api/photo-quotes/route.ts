@@ -1,3 +1,4 @@
+import {verifyKnownKoreanPhoto} from '@/lib/korean-photo-evidence';
 import {requestPhotoReview} from '@/lib/photo-inquiries';
 import {quoteDraft} from '@/lib/photo-quote-pricing';
 import {aiConfiguration,aiConnection} from '@/lib/ai-config';
@@ -28,7 +29,8 @@ async function identifyAndQuote(draft:Record<string,unknown>,member:Member){
  try{
   const image=await getMedia(String(draft.image_key));if(!image)throw new Error('Missing image');
   const {endpoint,model}=aiConnection(env);
-  const analysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),String(draft.image_type),env.OPENAI_API_KEY||'netlify-gateway',model,String(draft.note),String(draft.country) as Country,endpoint,env.KK_AI_GATEWAY_URL?env.KK_AI_GATEWAY_SECRET||'':'');
+  const identifiedAnalysis=await analyzeProductImage(image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength),String(draft.image_type),env.OPENAI_API_KEY||'netlify-gateway',model,String(draft.note),String(draft.country) as Country,endpoint,env.KK_AI_GATEWAY_URL?env.KK_AI_GATEWAY_SECRET||'':'');
+  const analysis=String(draft.country)==='KR'?await verifyKnownKoreanPhoto(identifiedAnalysis):identifiedAnalysis;
   const saved=await db.prepare("UPDATE kk_photo_drafts SET state='identified',analysis_json=? WHERE id=? AND state='analyzing'").bind(JSON.stringify(analysis),draft.id).run();
   if(!saved.meta.changes)throw new ShopError('已取消此查價。 / Search cancelled.',410);
   return{analysis,pricing:await quoteDraft({...draft,analysis_json:JSON.stringify(analysis)},member,analysis)};

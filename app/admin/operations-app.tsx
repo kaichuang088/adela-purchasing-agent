@@ -1,4 +1,5 @@
 'use client';
+import {productPhoto} from '@/lib/product-photo';
 import {productCode} from '@/lib/product-code';
 import {AdminNotifications} from './admin-notifications';
 import {PriceReports} from './price-reports';
@@ -11,6 +12,7 @@ import {MemberCreditControls} from './member-credit-controls';
 import type {CreditWithdrawal} from '@/app/credit-wallet';
 import {VariantEvidenceFields} from "./variant-evidence-fields";
 import {PriceReview} from './price-review';
+import {PerfumePricingSummary} from './perfume-pricing-summary';
 import {CatalogReview} from "./catalog-review";
 import {PaymentEvidence} from './payment-evidence';
 import {fetchReadJson,HttpResponseError,readJsonResponse} from '@/lib/http-response';
@@ -187,6 +189,7 @@ export default function OperationsApp() {
     [member, setMember] = useState<Member | null>(null),
     [offer, setOffer] = useState<any | null>(null),
     [audience, setAudience] = useState<any>(null);
+  useEffect(()=>{window.scrollTo(0,0);},[tab]);
   const loading=useRef<{pass:string;promise:Promise<void>}|null>(null);
   async function api(body?: any, pass = password) {
     if(!body)return fetchReadJson<AdminData>("/api/operations",{headers:{"X-KK-Admin-Password":pass},cache:"no-store",credentials:"same-origin"});
@@ -504,13 +507,13 @@ export default function OperationsApp() {
                   <Button onClick={() => setProduct({ ...blankProduct })}>
                     <Plus />{a("新增商品")}</Button>
                 </div>
-                <Button variant="outline" onClick={()=>setTab("ai")}><Bot/>{a("開啟 AI 商店管理")}</Button>
+
                 <label className="adela-catalog-search">{a('搜尋販售商品')}<input type="search" value={catalogSearch} onChange={e=>setCatalogSearch(e.target.value)} placeholder={a('名稱、品牌、商品 ID 或規格 ID')}/></label>
                 <CatalogReview products={data!.products} rate={data!.exchange?.rate} onEdit={p=>setProduct({...p,originalJpy:p.taxIncludedJpy||p.priceJpy})}/><div className="op-card-grid">
                   {data!.products.filter(p=>{const term=catalogSearch.trim().toLowerCase().replace(/^#/,'');if(/^\d+(?:-\d+)?$/.test(term))return [String(p.id),...p.variants.map(v=>productCode(p,v.id))].includes(term);return !term||[p.nameZh,p.nameEn,p.brand||'',String(p.id),...p.variants.flatMap(v=>[v.labelZh,v.labelEn,productCode(p,v.id)])].some(value=>value.toLowerCase().includes(term));}).map((p) => (
                     <article className="op-product" key={p.id}>
                       {p.imageKey||p.imageUrl?<img
-                        src={p.imageKey?p.imageKey.startsWith('static/')?`/${p.imageKey.slice(7)}`:`/api/media/${p.imageKey}`:p.imageUrl}
+                        src={productPhoto(p)}
                         alt={language==='ko'?(p.nameKo||p.nameEn||p.nameZh):language==='en'?(p.nameEn||p.nameZh):p.nameZh}
                       />:<span className="op-image-pending">{a("圖片待核對")}</span>}
                       <div>
@@ -525,7 +528,7 @@ export default function OperationsApp() {
                         </em>
                         <h3>{language==='ko'?(p.nameKo||p.nameEn||p.nameZh):language==='en'?(p.nameEn||p.nameZh):p.nameZh}</h3>
                         <small>{a('商品 ID')} #{productCode(p)}</small><strong>{p.priceJpy>1?`₩${p.priceJpy.toLocaleString()}`:a("價格待核對")}</strong>
-                        <small>
+                        <PerfumePricingSummary product={p} rate={data!.exchange?.rate} fees={data!.settings.fees}/><small>
                           {p.addon ? a("加購商品 · ") : ""}
                           {p.stock < 0 ? a(p.stockQuantityVerified===false?"商店剩餘數量未公開":"未設定接單上限") : a('庫存 {count}',{count:p.stock})}
                         </small>
@@ -1083,7 +1086,7 @@ export function OrderDialog({
                 );
               }}
             >
-              <h3>{a("採買與配送進度")}</h3><p className="op-auto-status">{a("採買中由系統依訂單的採買開始日自動更新；賣家只需在實際買到商品後回報。")}<br/>{a("本單採買開始：")}{value.purchaseAt?new Date(value.purchaseAt).toLocaleString("zh-TW",{timeZone:"Asia/Taipei"}):a("尚未設定")}</p>{value.purchasedAt&&value.paidAt&&!value.receivedAt&&!locked&&<Button type="button" disabled={busy} onClick={()=>void save({action:"status",id:value.id,status:"completed",reason:"賣家確認已取貨"},"已標記取貨完成")}>{a("標記已取貨・結案")}</Button>}
+              {(value as any).adminNotes?.length>0&&<section className="adela-order-private-notes"><h3>{a('內部備註（買家不可見）')}</h3>{(value as any).adminNotes.map((n:any)=><p key={n.id}>{n.body}</p>)}</section>}<h3>{a("採買與配送進度")}</h3><p className="op-auto-status">{a("採買中由系統依訂單的採買開始日自動更新；賣家只需在實際買到商品後回報。")}<br/>{a("本單採買開始：")}{value.purchaseAt?new Date(value.purchaseAt).toLocaleString("zh-TW",{timeZone:"Asia/Taipei"}):a("尚未設定")}</p>{value.purchasedAt&&value.paidAt&&!value.receivedAt&&!locked&&<Button type="button" disabled={busy} onClick={()=>void save({action:"status",id:value.id,status:"completed",reason:"賣家確認已取貨"},"已標記取貨完成")}>{a("標記已取貨・結案")}</Button>}
               <p className="op-help">
                 {value.paymentMethod === "cod"
                   ? a("金鑽會員貨到付款：可先採買，收款後才累計消費與哩程。")

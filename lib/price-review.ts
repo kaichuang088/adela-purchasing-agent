@@ -52,6 +52,6 @@ export function priceReviewMessage(review:ReturnType<typeof checkPrice>){
  if(review.status==='spec_mismatch')return '商品與台灣來源規格不一致，不能作為已符合的比較。';
  if(review.status==='same_or_higher')return '售價等於或高於台灣；高出 NT$'+review.higherTwd+'，超出售價上限 NT$'+review.excessTwd+'。';
  if(review.status==='insufficient_discount')return '價差不足 5%；超出售價上限 NT$'+review.excessTwd+'。';
- if(review.status==='cost_above_limit')return '已套用低於台灣至少 5% 的售價；代購費 0 元，店家吸收 NT$'+Math.max(0,(review.costTwd||0)-review.evidence.proposedTwd)+'。真實採買成本保留。';
+ if(review.status==='cost_above_limit')return '已套用低於台灣至少 5% 的售價；店家吸收採買成本差額 NT$'+Math.max(0,(review.costTwd||0)-review.evidence.proposedTwd)+'。真實採買成本保留。';
  return '低於台灣至少 5%，符合規則。';
 }

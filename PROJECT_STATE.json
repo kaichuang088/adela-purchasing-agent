@@ -1,0 +1,46 @@
+{
+  "version": "R23-preparation",
+  "updatedAt": "2026-10-13",
+  "published": false,
+  "sourceBase": "d02847774518cb9b22368f97b0b93408e7fd2831",
+  "sourceBranch": "codex/r23-preparation-20261013",
+  "currentLiveVersion": "R22",
+  "netlify": {
+    "storefront": {
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "deployId": "6accffd936ac214bffa57e88"
+    },
+    "admin": {
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "deployId": "6accffe9bd84bcbd9b5ef5c1"
+    },
+    "creditBaseline": 827.4,
+    "minimumReserve": 750,
+    "newDeploymentsThisPreparation": 0
+  },
+  "cloudflare": {
+    "worker": "kk-purchasing-agent",
+    "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+    "currentCodeVersion": "10b9c23d-e66e-4cad-817c-b8035e496869",
+    "appliedMigrations": 29,
+    "pendingMigration": "0030_admin_order_notes.sql",
+    "deployedThisPreparation": false
+  },
+  "verification": {
+    "offlineChecks": 263,
+    "realModelIdentityCallsThisPreparation": 2,
+    "iPhonePush": "user-confirmed physical system notification",
+    "androidPush": "physical-device verification pending",
+    "email": "adapter mock tests passed; provider/sender/credentials pending",
+    "catalogUnresolvedIssues": 201,
+    "photoQuotes": "one captured identity replay plus current official evidence; full photo accuracy pending"
+  },
+  "notes": [
+    "R23_PREPARATION_20261013.md overrides historical release instructions",
+    "Read HEAD commit from Git or archive name; sourceBase is the starting R22 commit",
+    "No live orders or ledger rewritten",
+    "Source ZIP does not back up live D1 or platform credentials"
+  ]
+}

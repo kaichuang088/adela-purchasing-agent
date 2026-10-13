@@ -1,0 +1,4 @@
+{
+  "checks": 7,
+  "scope": "Mock provider and backend; credential separation, duplicate prevention and failure propagation"
+}

@@ -8,6 +8,7 @@ declare namespace Cloudflare {
     ADMIN_ORIGIN?: string;
     ADMIN_ORIGINS?: string;
     RESEND_API_KEY?: string;
+    BREVO_API_KEY?: string;
     EMAIL_FROM?: string;
     SHOP_PUBLIC_URL?: string;
     OPENAI_API_KEY?: string;

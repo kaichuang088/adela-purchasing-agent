@@ -1,7 +1,7 @@
-export type EmailConfig={RESEND_API_KEY?:string;EMAIL_FROM?:string;SHOP_PUBLIC_URL?:string};
+export type EmailConfig={RESEND_API_KEY?:string;BREVO_API_KEY?:string;EMAIL_FROM?:string;SHOP_PUBLIC_URL?:string};
 type Row={id:string;recipient:string;subject:string;body:string;attempts:number;first_attempt_ms:number|null;payload_json:string|null;lock_token:string};
 const retryWindow=23*60*60*1000;
-export function emailConfigured(config:EmailConfig){return !!config.RESEND_API_KEY?.trim()&&!!config.EMAIL_FROM?.trim();}
+export function emailConfigured(config:EmailConfig){return !!(config.RESEND_API_KEY?.trim()||config.BREVO_API_KEY?.trim())&&!!config.EMAIL_FROM?.trim();}
 
 export async function emailQueueSummary(db:D1Database){
  const rows=await db.prepare('SELECT state,COUNT(*) count FROM kk_email_outbox GROUP BY state').all<{state:string;count:number}>();
@@ -13,6 +13,7 @@ export async function dispatchEmailOutbox(db:D1Database,config:EmailConfig,optio
  if(!emailConfigured(config))return {configured:false,accepted:0,retrying:0,blocked:0,review:0};
  const now=options.now??Date.now(),limit=Math.max(1,Math.min(10,options.limit??5)),transport=options.transport??fetch;
  const result={configured:true,accepted:0,retrying:0,blocked:0,review:0};
+ const brevo=!config.RESEND_API_KEY?.trim()&&!!config.BREVO_API_KEY?.trim();
  // Ambiguous old requests must never be resent beyond the provider's 24-hour key window.
  const expired=await db.prepare("UPDATE kk_email_outbox SET state='review',last_error='retry_window_expired',lock_token=NULL WHERE state IN ('pending','sending') AND ((first_attempt_ms IS NOT NULL AND first_attempt_ms<=?) OR attempts>=8) AND lease_until_ms<=?").bind(now-retryWindow,now).run();
  result.review=Number(expired.meta.changes)||0;
@@ -28,19 +29,23 @@ export async function dispatchEmailOutbox(db:D1Database,config:EmailConfig,optio
   if(!payload){
    let link='';
    try{const url=new URL(config.SHOP_PUBLIC_URL||'');if(url.protocol==='https:'&&!url.username&&!url.password)link='\n\n查看訂單 / View orders: '+url.origin+'/';}catch{}
-   payload=JSON.stringify({from:config.EMAIL_FROM,to:[row.recipient],subject:row.subject.replace(/[\r\n]/g,' ').slice(0,200),text:row.body+link});
+   const sender=String(config.EMAIL_FROM).match(/<([^<>]+)>/)?.[1]||String(config.EMAIL_FROM).trim();
+   payload=JSON.stringify(brevo?{sender:{email:sender,name:"Adela's Purchasing Agent"},to:[{email:row.recipient}],subject:row.subject.replace(/[\r\n]/g,' ').slice(0,200),textContent:row.body+link}: {from:config.EMAIL_FROM,to:[row.recipient],subject:row.subject.replace(/[\r\n]/g,' ').slice(0,200),text:row.body+link});
    // Persist the exact provider payload before first send; retries may not change it.
    await db.prepare('UPDATE kk_email_outbox SET payload_json=? WHERE id=? AND lock_token=?').bind(payload,row.id,token).run();
   }
   let failure='network_error',retry=true;
   try{
-   const response=await transport('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+config.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':'adela-order-email/'+row.id},body:payload,signal:AbortSignal.timeout(8000),redirect:'manual'});
-   const value=await response.json().catch(()=>null) as {id?:string;name?:string}|null;
-   if(response.ok&&typeof value?.id==='string'&&value.id){await finish('accepted',null,value.id);result.accepted++;continue;}
+   const response=await transport(brevo?'https://api.brevo.com/v3/smtp/email':'https://api.resend.com/emails',{method:'POST',headers:brevo?{'api-key':config.BREVO_API_KEY!,'Content-Type':'application/json'}:{Authorization:'Bearer '+config.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':'adela-order-email/'+row.id},body:payload,signal:AbortSignal.timeout(8000),redirect:'manual'});
+   const value=await response.json().catch(()=>null) as {id?:string;messageId?:string;name?:string}|null;
+   const providerId=brevo?value?.messageId:value?.id;
+   if(response.ok&&typeof providerId==='string'&&providerId){await finish('accepted',null,providerId);result.accepted++;continue;}
    failure=response.ok?'invalid_provider_response':'provider_http_'+response.status;
    retry=response.ok||response.status===429||response.status>=500||(response.status===409&&value?.name==='concurrent_idempotent_requests');
   }catch{ /* Never persist provider response bodies, API keys or arbitrary network errors. */ }
-  if(!retry){await finish('blocked',failure);result.blocked++;}
+  // Brevo has no assumed long-lived idempotency guarantee. Ambiguous sends require review.
+  if(brevo&&(failure==='network_error'||failure==='invalid_provider_response'||/^provider_http_5/.test(failure))){await finish('review','delivery_unknown');result.review++;}
+  else if(!retry){await finish('blocked',failure);result.blocked++;}
   else if(row.attempts>=8){await finish('review',failure);result.review++;}
   else{await finish('pending',failure,null,now+Math.min(60*60*1000,30000*2**(row.attempts-1)));result.retrying++;}
  }

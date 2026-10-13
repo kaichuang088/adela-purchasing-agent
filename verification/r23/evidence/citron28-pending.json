@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-13T01:24:55.638097+00:00",
+  "product": "Le Labo CITRON 28 Seoul City Exclusive",
+  "country": "KR",
+  "confirmedSizes": [
+    "15ml",
+    "50ml",
+    "100ml"
+  ],
+  "koreaSource": "https://www.lelabofragrances.co.kr/about-citron-28.html",
+  "taiwanSource": "https://www.lelabofragrances.com.tw/about-citron-28.html",
+  "confirmedSalesPolicy": "Seoul boutiques throughout the year; worldwide online full sizes only during September. Taiwan regular full sizes also September; samples August/September.",
+  "currentMonth": "2026-10",
+  "currentKoreanSameSkuPrice": null,
+  "currentKoreanAvailability": null,
+  "currentTaiwanSameSkuPrice": null,
+  "readyToPublish": false,
+  "reason": "Cannot establish current Seoul boutique price from the available official online SKU index in October. No price, inventory or tax-refund eligibility is invented.",
+  "pending": "Retailer verification after required source domains are enabled; seller source may be needed for boutique-only offer.",
+  "existingResearchNote": "CITRON28 official confirms Seoul boutiques year-round; current retail price and exact-size Taiwan benchmark still missing, no invented price."
+}

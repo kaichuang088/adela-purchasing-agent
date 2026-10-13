@@ -1,3 +1,4 @@
+import {applyCatalogR23} from './catalog-r23';
 import {applyCatalogR19} from './catalog-r19';
 import {applyCatalogR17} from './catalog-r17';
 import {applyCatalogR15} from './catalog-r15';
@@ -34,6 +35,7 @@ export function parseProduct(row: Record<string, unknown>): CatalogProduct {
 }
 export async function catalogList(all = false) {
   await initializeCatalog();
+  await applyCatalogR23(rawDb());
   const rows = await rawDb().prepare(all ? "SELECT * FROM products ORDER BY sort_order, id DESC" : "SELECT * FROM products WHERE status = 'active' ORDER BY sort_order, id DESC").all();
   return rows.results.map(parseProduct);
 }

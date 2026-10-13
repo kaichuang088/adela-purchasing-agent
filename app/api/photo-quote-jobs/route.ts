@@ -1,10 +1,11 @@
+import {verifyKnownKoreanPhoto} from '@/lib/korean-photo-evidence';
 import {env} from 'cloudflare:workers';
 import {rawDb} from '@/lib/catalog';
 import {privateJson} from '@/lib/admin-auth';
 import {failure} from '@/app/api/shop/route';
 import {ShopError,memberForPhotoResearch,requirePhotoQuotesOpen} from '@/lib/commerce';
 import {getMedia} from '@/lib/media-store';
-import {photoAnalysisInput,parsePhotoAnalysis} from '@/lib/request-data';
+import {photoAnalysisInput,photoIdentificationInput,parsePhotoAnalysis} from '@/lib/request-data';
 import {quoteDraft} from '@/lib/photo-quote-pricing';
 import type {Country} from '@/lib/countries';
 
@@ -27,7 +28,7 @@ export async function POST(request:Request){try{
   if(!claimed.meta.changes)throw new ShopError('Photo job already claimed',409);
   const image=await getMedia(String(draft.image_key));if(!image)throw new ShopError('Photo image missing',410);
   const buffer=image.bytes.buffer.slice(image.bytes.byteOffset,image.bytes.byteOffset+image.bytes.byteLength) as ArrayBuffer;
-  return privateJson({input:photoAnalysisInput(buffer,String(draft.image_type),env.OPENAI_MODEL||'gpt-6.1-sol',String(draft.note),String(draft.country) as Country)});
+  return privateJson({identificationInput:photoIdentificationInput(buffer,String(draft.image_type),env.OPENAI_MODEL||'gpt-6.1-sol',String(draft.note),String(draft.country) as Country),input:photoAnalysisInput(buffer,String(draft.image_type),env.OPENAI_MODEL||'gpt-6.1-sol',String(draft.note),String(draft.country) as Country)});
  }
  if(body.action!=='complete')throw new ShopError('Unsupported job action',400);
  if(draft.state!=='analyzing')throw new ShopError('Photo job already completed',409);
@@ -36,7 +37,7 @@ export async function POST(request:Request){try{
   const member=await memberForPhotoResearch(String(draft.member_id));if(!member)throw new ShopError('Member no longer exists',410);
   const actualModel=(body.result as {model?:string})?.model;
   if(actualModel!==(env.OPENAI_MODEL||'gpt-6.1-sol'))throw new ShopError('AI 模型不一致；尚未建立訂單。 / AI model mismatch. No order was created.',503);
-  const analysis={...parsePhotoAnalysis(body.result,String(draft.country) as Country),providerModel:actualModel};
+  const parsed=parsePhotoAnalysis(body.result,String(draft.country) as Country);const verified=String(draft.country)==='KR'?await verifyKnownKoreanPhoto(parsed):parsed;const analysis={...verified,providerModel:actualModel};if((body as any).identifyOnly&&!analysis.sources.length){await db.prepare("UPDATE kk_photo_drafts SET analysis_json=? WHERE id=? AND state='analyzing'").bind(JSON.stringify(analysis),id).run();return privateJson({ok:false,needResearch:true});}
   const changed=await db.prepare("UPDATE kk_photo_drafts SET state='identified',analysis_json=? WHERE id=? AND state='analyzing'").bind(JSON.stringify(analysis),id).run();
   if(!changed.meta.changes)throw new ShopError('Photo job cancelled',410);
   await quoteDraft(draft,member,analysis);

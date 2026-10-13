@@ -6,7 +6,7 @@ import {env} from 'cloudflare:workers';
 import {rawDb} from '@/lib/catalog';
 import {isAdmin,privateJson} from '@/lib/admin-auth';
 import {currentMember,ShopError,orderBundle,settings,parseMember,memberSelect,products,exchange} from '@/lib/commerce';
-import {catalogDisplayPrice} from '@/lib/catalog-display-price';
+import {catalogDisplayPrice,catalogDisplayParts} from '@/lib/catalog-display-price';
 import {failure} from '@/app/api/shop/route';
 import {supportReply,supportSummary} from '@/lib/support-ai';
 
@@ -122,14 +122,14 @@ export async function POST(request:Request){try{
  if(thread?.status==='ai'&&!thread?.needs_human){
   const config=await settings(),member=parseMember((await db.prepare(memberSelect+' WHERE m.id=?').bind(target.id).first())!);
   const selected=b.orderId?await db.prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId,target.id).first():null;
-  const rate=await exchange({preferCached:true}).catch(()=>null),catalog=await products();
+  const asksRate=/匯率|exchange rate|환율/i.test(String(b.body||''));const rate=await exchange({preferCached:!asksRate}).catch(()=>null),catalog=await products();
   const words=String(b.body||'').toLowerCase().match(/[a-z0-9]+|[\u3400-\u9fff]{2,}/g)||[];
-  const relevant=catalog.map(p=>({p,score:words.reduce((n,w)=>n+((p.nameZh+' '+p.nameEn+' '+p.categoryZh+' '+(p.brand||'')).toLowerCase().includes(w)?1:0),0)})).sort((a,b)=>b.score-a.score).slice(0,30).map(({p})=>{
+  const relevant=catalog.map(p=>({p,score:words.reduce((n,w)=>n+((p.nameZh+' '+p.nameEn+' '+p.categoryZh+' '+(p.brand||'')).toLowerCase().includes(w)?1:0),0)})).sort((a,b)=>b.score-a.score).slice(0,12).map(({p})=>{
    const options={tier:member.tier,fees:config.fees,exchangeRate:rate?.rate,paidOrders:member.paidOrders},price=catalogDisplayPrice(p,options);
-   const priceParts=(variantId?:string)=>{const amount=catalogDisplayPrice(p,{...options,variantId}).amount,variant=p.variants.find(v=>v.id===variantId),goods=rate?Math.ceil((variant?.priceJpy??p.priceJpy)*rate.rate):null,fee=amount!==null&&goods!==null?Math.max(0,amount-goods-Math.ceil(p.sizeFeeTwd)):null;return{priceTwd:amount,serviceFeeIncluded:true,serviceFeeTwd:fee,effectiveFeePercent:fee!==null&&goods?Number((fee/goods*100).toFixed(4)):null};};
-   return{id:p.id,name:p.nameZh,nameEn:p.nameEn,description:p.descriptionZh.slice(0,180),spec:p.spec,priceTwd:price.amount,serviceFeeIncluded:true,priceIsFrom:p.variants.length>0,...(!p.variants.length?priceParts():{}),options:p.variants.slice(0,8).map(v=>({name:v.labelZh,...priceParts(v.id)})),stockVerified:p.stockQuantityVerified!==false&&p.stock>=0,stock:p.stock>=0?p.stock:null};
+   const priceParts=(variantId?:string)=>{const amount=catalogDisplayPrice(p,{...options,variantId}).amount,parts=catalogDisplayParts(p,{...options,variantId});return{priceTwd:amount,serviceFeeIncluded:true,pricingTaxExclusive:p.pricingTaxExclusive===true,serviceFeeTwd:parts?.ok?parts.feeTwd:null,effectiveFeePercent:parts?.ok&&parts.goodsTwd?Number((parts.feeTwd/parts.goodsTwd*100).toFixed(4)):null};};
+   return{id:p.id,name:p.nameZh,nameEn:p.nameEn,description:p.descriptionZh.slice(0,120),spec:p.spec,priceTwd:price.amount,serviceFeeIncluded:true,priceIsFrom:p.variants.length>0,...(!p.variants.length?priceParts():{}),options:p.variants.slice(0,6).map(v=>({name:v.labelZh,...priceParts(v.id)})),stockVerified:p.stockQuantityVerified!==false&&p.stock>=0,stock:p.stock>=0?p.stock:null};
   });
-  const reply=await supportReply(await messages(target.id,b.orderId||undefined,sessionId),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions,store:{shopPaused:config.shopPaused,photoQuotesPaused:config.photoQuotesPaused,orderOpensAt:config.orderOpensAt,orderClosesAt:config.orderClosesAt,enabledCountries:config.enabledCountries},catalog:relevant});
+  const reply=await supportReply(await messages(target.id,b.orderId||undefined,sessionId),{order:selected?await orderBundle(selected) as any:undefined,member,fees:config.fees,paymentInstructions:config.paymentInstructions,store:{shopPaused:config.shopPaused,photoQuotesPaused:config.photoQuotesPaused,orderOpensAt:config.orderOpensAt,orderClosesAt:config.orderClosesAt,enabledCountries:config.enabledCountries},catalog:relevant,exchange:rate?{currency:'KRW',twdPerUnit:rate.rate,source:rate.source,checkedAt:rate.at}:null});
   await db.prepare("INSERT INTO kk_conversations(member_id,sender,body,order_id,session_id) SELECT owner_id,?,?,?,? FROM kk_ai_sessions WHERE owner_id=? AND id=? AND support_status='ai' AND needs_human=0").bind(reply.modelUsed?'ai':'system',reply.modelUsed?reply.body:reply.body,b.orderId||null,sessionId,target.id,sessionId).run();
   if(reply.handoff)await handoff(target.id,b.orderId||null,undefined,sessionId);
   else await db.prepare("UPDATE kk_support_threads SET unread_member=unread_member+1,updated_at=CURRENT_TIMESTAMP WHERE member_id=? AND status='ai' AND needs_human=0").bind(target.id).run();
