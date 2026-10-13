@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-13T07:25:55.294021+00:00",
+  "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+  "migration": "0030_admin_order_notes.sql",
+  "appliedMigrations": 30,
+  "tablesAdded": [
+    "kk_admin_order_notes"
+  ],
+  "existingFinancialRowsModified": false
+}

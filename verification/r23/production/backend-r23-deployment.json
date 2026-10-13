@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-13T07:35:54.479679+00:00",
+  "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
+  "worker": "kk-purchasing-agent",
+  "preserveAssets": true,
+  "secretValuesPrinted": false,
+  "deployed": true,
+  "bundleSha256": "8667b935c9d36f984a9157efdf541c9103807a2634b5d79f06860738209755d0",
+  "bindingNames": [
+    "ADMIN_PASSWORD",
+    "ASSETS",
+    "BREVO_API_KEY",
+    "DB",
+    "EMAIL_FROM",
+    "KK_AI_GATEWAY_SECRET",
+    "KK_AI_GATEWAY_URL",
+    "KK_AI_PHOTO_JOB_URL",
+    "KK_TRUST_PLATFORM_HEADERS",
+    "OPENAI_MODEL",
+    "SHOP_PUBLIC_URL",
+    "VAPID_PRIVATE_JWK",
+    "VAPID_PUBLIC_KEY"
+  ],
+  "plaintextBindingNames": [
+    "EMAIL_FROM"
+  ],
+  "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
+  "versionId": "6ecce89b-d1b9-404c-98da-b3cb218e4205",
+  "uploaded": true,
+  "allBindingMetadataPreserved": true,
+  "originalAssetsRetained": true,
+  "verifiedAfterPropagation": true,
+  "verifiedAt": "2026-10-13T07:38:34.483889+00:00",
+  "initialImmediateCheck": "transient binding names mismatch; subsequent authoritative deployment and settings verified",
+  "currentVersionAfterOwnerSecretUpdate": "e6eddc28-e2bc-4d34-a116-9b09fc51e0b5"
+}

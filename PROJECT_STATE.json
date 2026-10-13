@@ -1,22 +1,24 @@
 {
-  "version": "R23-release-candidate",
+  "version": "R23",
   "updatedAt": "2026-10-13",
-  "published": false,
+  "published": true,
   "sourceBase": "d02847774518cb9b22368f97b0b93408e7fd2831",
   "sourceBranch": "codex/r23-preparation-20261013",
-  "currentLiveVersion": "R22",
+  "currentLiveVersion": "R23",
   "netlify": {
     "storefront": {
       "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
       "url": "https://adela-purchasing-agent-shop.netlify.app",
-      "deployId": "6accffd936ac214bffa57e88",
-      "candidateDeployId": "6acddd29474ef111c445cc98"
+      "deployId": "6acddd29474ef111c445cc98",
+      "candidateDeployId": "6acddd29474ef111c445cc98",
+      "published": true
     },
     "admin": {
       "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
       "url": "https://adela-purchasing-agent-admin.netlify.app",
-      "deployId": "6accffe9bd84bcbd9b5ef5c1",
-      "candidateDeployId": "6acddf0ab28644c9b508d105"
+      "deployId": "6acddf0ab28644c9b508d105",
+      "candidateDeployId": "6acddf0ab28644c9b508d105",
+      "published": true
     },
     "creditBaseline": 827.4,
     "minimumReserve": 750,
@@ -26,12 +28,16 @@
       "admin": 208,
       "allMatched": true
     },
-    "newProductionDeploymentsThisPreparation": 0
+    "newProductionDeploymentsThisPreparation": 2,
+    "listedProductionDeploymentCredits": 30,
+    "estimatedCreditsAfterProductionOnly": 797.4,
+    "actualCreditBalanceConfirmed": false,
+    "creditBalanceNote": "Netlify usage API lags; estimate based on user baseline827.4 and listed2x15 deployment credits, excluding other usage"
   },
   "cloudflare": {
     "worker": "kk-purchasing-agent",
     "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
-    "currentCodeVersion": "6ecce89b-d1b9-404c-98da-b3cb218e4205",
+    "currentCodeVersion": "e6eddc28-e2bc-4d34-a116-9b09fc51e0b5",
     "appliedMigrations": 30,
     "pendingMigration": null,
     "deployedThisPreparation": true,
@@ -42,15 +48,25 @@
     "realModelIdentityCallsThisPreparation": 2,
     "iPhonePush": "user-confirmed physical system notification",
     "androidPush": "physical-device verification pending",
-    "email": "One owner test attempted; Brevo rejected authentication HTTP401, not accepted or inbox delivered",
+    "email": "Real owner test accepted by Brevo after API key correction; actual inbox receipt pending",
     "catalogUnresolvedIssues": 195,
-    "photoQuotes": "one captured identity replay plus current official evidence; full photo accuracy pending"
+    "photoQuotes": "one captured identity replay plus current official evidence; full photo accuracy pending",
+    "liveBrowser": {
+      "viewport": 390,
+      "frontAndAdminRendered": true,
+      "overflow": false,
+      "scriptErrors": 0,
+      "cartWidth": 390,
+      "cartHeight": 844
+    },
+    "livePdfDownloads": "Both200 and SHA matches"
   },
   "notes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",
     "Read HEAD commit from Git or archive name; sourceBase is the starting R22 commit",
     "No live orders or ledger rewritten",
-    "Source ZIP does not back up live D1 or platform credentials"
+    "Source ZIP does not back up live D1 or platform credentials",
+    "R23_DEPLOYMENT_20261013.md and PROJECT_STATE.json override preparation/historical documentation"
   ],
   "githubBackup": {
     "status": "backed-up",
@@ -61,10 +77,10 @@
   },
   "publicationStatus": {
     "authorized": true,
-    "emailSetup": "BREVO_API_KEY and EMAIL_FROM saved on original Worker; API authentication rejected HTTP401",
-    "backendBundlePreparation": "Exact committed source and SHA validated; backend already deployed",
-    "netlifyPublished": false
+    "emailSetup": "Brevo authenticated and provider accepted owner test",
+    "netlifyPublished": true,
+    "extraModelCallsDuringPublication": 0
   },
-  "phase": "Backend deployed; Netlify candidates ready; Brevo authentication requires correction",
+  "phase": "Front, admin and backend published; real Brevo owner test accepted",
   "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e"
 }

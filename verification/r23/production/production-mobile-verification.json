@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-13T11:05:55.360Z",
+  "scope": "Actual production HTTPS pages on Chromium390px; anonymous rendering, no provider calls/orders",
+  "results": [
+    {
+      "role": "storefront",
+      "deployId": "6acddd29474ef111c445cc98",
+      "status": 200,
+      "textRendered": true,
+      "viewport": 390,
+      "body": 390,
+      "overflow": false,
+      "scriptErrors": []
+    },
+    {
+      "role": "storefront",
+      "check": "full-screen cart",
+      "width": 390,
+      "height": 844,
+      "passed": true
+    },
+    {
+      "role": "admin",
+      "deployId": "6acddf0ab28644c9b508d105",
+      "status": 200,
+      "textRendered": true,
+      "viewport": 390,
+      "body": 390,
+      "overflow": false,
+      "scriptErrors": []
+    }
+  ]
+}

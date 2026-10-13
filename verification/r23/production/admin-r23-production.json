@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-13T11:04:14.694Z",
+  "role": "admin",
+  "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+  "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
+  "deployId": "6acddf0ab28644c9b508d105",
+  "state": "ready",
+  "deployUrl": "https://6acddf0ab28644c9b508d105--adela-purchasing-agent-admin.netlify.app",
+  "uploaded": true,
+  "productionPublished": true,
+  "previousProductionDeployId": "6accffe9bd84bcbd9b5ef5c1",
+  "productionDeployId": "6acddf0ab28644c9b508d105",
+  "url": "https://adela-purchasing-agent-admin.netlify.app"
+}

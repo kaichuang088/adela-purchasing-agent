@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-13T07:38:35.163467+00:00",
+  "id": "adela-email-test-r23-74e103e9b4f746fe9d3b26d830af5532",
+  "scope": "One email to owner configured sender address only; no customer broadcast",
+  "ordersCreated": false,
+  "queued": true,
+  "state": "accepted",
+  "attempts": 2,
+  "errorCode": null,
+  "providerAccepted": true,
+  "acceptedAt": "2026-10-13T11:02:37.152Z",
+  "inboxReceiptConfirmed": false
+}

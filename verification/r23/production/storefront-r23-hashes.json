@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-13T07:36:26.742Z",
+  "role": "storefront",
+  "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
+  "deployId": "6acddd29474ef111c445cc98",
+  "localFileCount": 208,
+  "matching": 208,
+  "mismatches": [],
+  "missing": [],
+  "unexpected": [],
+  "allMatched": true
+}
