@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-13T20:38:14.093081+00:00",
+  "scope": "Local isolated tests, not production/provider/physical-phone success",
+  "namedChecksPassed": 394,
+  "suites": {
+    "workflows.json": 90,
+    "financial.json": 29,
+    "pricing.json": 29,
+    "email.json": 6,
+    "email-template.json": 8,
+    "catalog-outcomes.json": 8,
+    "mobile/results.json": 166,
+    "photo-choice-jobs.json": 27,
+    "kurly-evidence-checks.json": 15,
+    "photo-source-ranking.json": 7,
+    "photo-background.json": 9
+  },
+  "originalPhotoURLsDecoded": 101,
+  "failedPhotos": 0,
+  "productionDeployments": 0,
+  "paidModelCalls": 0
+}

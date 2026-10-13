@@ -1,5 +1,5 @@
 id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceStatus
-199,Le Labo CITRON 28 首爾城市限定淡香精,,已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。,https://www.lelabofragrances.co.kr/about-citron-28.html,200,,
+199,Le Labo CITRON 28 首爾城市限定淡香精,,已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。,https://www.lelabofragrances.co.kr/about-citron-28.html,200,,
 198,清淨園 蒜洋蔥香草鹽 52g（附件核對）,,"已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。",,,,
 197,米色T字帶鞋（與黑色參考同系列待核）,,外觀與IMG7292接近但尚無官方同款證明；不能猜SD2203BE或共用黑鞋照片/庫存。,,,,
 196,New Balance 黑色T字帶鞋（圖片參考）,,可能Breeze系列，不能憑相似外觀指定SD2202/2203；需官方款號、色號、尺碼、韓國成本、逐尺寸供貨及台灣同款比價。,,,,
@@ -22,8 +22,6 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 172,NOT4U Clear Body Mist 身體噴霧200ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209146,200,,
 171,三麗鷗聯名美妝與配件,,參考圖片尚不能對應核實的可售商品。,,,,
 170,Kuromi 聯名彩妝與掛飾,,參考圖片尚不能對應核實的可售商品。,,,,
-169,Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925,200,https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086,200
-168,理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.larocheposay.co.kr/product/view/4689.do,200,https://www.momoshop.com.tw/product/8962228,200
 167,Hello Kitty 聯名唇彩（參考款）,,參考圖片尚不能對應核實的可售商品。,,,,
 166,飛天小女警聯名粉餅（參考款）,,參考圖片尚不能對應核實的可售商品。,,,,
 165,CU 杜拜巧克力 Q 餅（參考款）,,Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.,,,,
@@ -46,21 +44,10 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 151,I'MINT 無糖咖啡糖 32g｜單盒選口味,濃縮 · 32g 單盒,缺少：台灣同品牌、同款、同規格與數量,https://item.gmarket.co.kr/Item?goodsCode=4850616563,200,https://myship.7-11.com.tw/general/detail/GM2607092543072,200
 151,I'MINT 無糖咖啡糖 32g｜單盒選口味,美式 · 32g 單盒,缺少：台灣同品牌、同款、同規格與數量,https://item.gmarket.co.kr/Item?goodsCode=4850646197,200,https://myship.7-11.com.tw/general/detail/GM2607092543072,200
 151,I'MINT 無糖咖啡糖 32g｜單盒選口味,抹茶拿鐵 · 32g 單盒,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://item.gmarket.co.kr/Item?goodscode=4845821356,200,https://myship.7-11.com.tw/general/detail/GM2607092543072,200
-150,Le Labo 檜木護手霜 55ml,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.lelabofragrances.co.kr/hand-pomade-1068.html,200,https://giftshop-tw.line.me/products/322202829,200
 149,Mardi Mercredi 花朵刺繡大學T 黑粉,,韓國來源、規格或成本尚待核實,https://www.mardimercredi.com/product/sweatshirt-flowermardi-needleworkblack-pink/8030/,404,,
-148,Byredo 吉普賽之水淡香精 50ml,,韓國來源、規格或成本尚待核實,https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711,200,https://www.1976.com.tw/prod/17393,200
-147,Diptyque 玫瑰之水淡香精 75ml,,韓國來源、規格或成本尚待核實,https://www.ssg.com/item/itemView.ssg?itemId=1000866288136,429,,
+148,Byredo 吉普賽之水淡香精 50ml,,已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。,https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711,200,https://www.1976.com.tw/prod/17393,200
+147,Diptyque 玫瑰之水淡香精 75ml,,已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。,https://www.ssg.com/item/itemView.ssg?itemId=1000866288136,429,,
 146,MEDIHEAL 積雪草保濕防曬精華 50g,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.kurly.com/goods/1002381011,200,https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231,200
-145,MEDIHEAL PDRN 保濕潤色防曬精華 50g,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852,200,,
-144,MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274,200,https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094,200
-143,Le Labo 樹果 19淡香精 100ml,,韓國來源、規格或成本尚待核實,https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761,200,,
-142,Le Labo 百合 41淡香精 100ml,,韓國來源、規格或成本尚待核實,https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761,200,https://www.1976.com.tw/prod/20424,200
-141,Le Labo 香根草 46淡香精 50ml,,韓國來源、規格或成本尚待核實,https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761,200,,
-140,Le Labo 岩薔薇 18淡香精 50ml,,韓國來源、規格或成本尚待核實,https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761,200,,
-139,Le Labo 紫羅蘭 30淡香精 50ml,,韓國來源、規格或成本尚待核實,https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009,429,,
-137,Le Labo 東加豆 25淡香精 50ml,,韓國來源、規格或成本尚待核實,https://www.lelabofragrances.co.kr/tonka-25-1105.html,200,,
-136,Le Labo 苦橙 36淡香精 50ml,,韓國來源、規格或成本尚待核實,https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp,200,,
-135,Le Labo 依蘭 49淡香精 50ml,,韓國來源、規格或成本尚待核實,https://www.lelabofragrances.co.kr/ylang-49-1043.html,200,,
 133,Mardi Mercredi LA TYPO FRANCAISE 海軍藍帆布托特包,,Official exact listing returns HTTP404; current cost and buyable stock not verified.,https://mardimercredi.com/product/canvas-tote-bag-la-typo-francaisenavy/14425/,404,,
 132,Mardi Mercredi 羊絨混紡黑粉菱格圓領開襟衫,FREE,缺少同規格台灣價格、來源或查核日期,https://mardimercredi.com/product/cashmere-blend-cardigan-round-neck-argyle-punching-detailblack-pink/15120/,200,,
 131,Mardi Mercredi LEGERE 粉紅色帆布鞋,230mm,缺少同規格台灣價格、來源或查核日期,https://mardimercredi.com/product/legere-sneakerspink/5456/,200,,
@@ -90,8 +77,6 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 119,AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864,200,,
 118,ILLIYOON 神經醯胺集中保濕霜 75ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30,200,,
 117,Dr.G Red Blemish EX 清爽舒緩面霜企劃組,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752,200,,
-116,SKIN1004 馬達加斯加積雪草安瓶（55ml × 1瓶）,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581,200,https://www.watsons.com.tw/skin1004-skin1004-%E9%A6%AC%E9%81%94%E5%8A%A0%E6%96%AF%E5%8A%A0%E7%A9%8D%E9%9B%AA%E8%8D%89%E7%B2%BE%E8%8F%AF%E6%B6%B2-55ml/p/BP_278214,200
-115,COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391,200,https://www.beautystage.com.tw/product/2224210177071,200
 114,Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696,200,,
 113,Diptyque Fleur de Peau 肌膚之華淡香精 75ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.ssg.com/item/itemView.ssg?itemId=1000026486402,429,https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau,200
 112,Diptyque Philosykos 希臘無花果淡香精 75ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.ssg.com/item/itemView.ssg?itemId=1000023633086,429,https://1010online.com.tw/diptyque-eau-de-parfum-philosykos,200
@@ -102,14 +87,9 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 107,Byredo Mojave Ghost 莫哈維之影淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/eau-de-parfum-50-ml?page=2,403,https://www.1976.com.tw/prod/17260,200
 106,Byredo Rose of No Man’s Land 無人之境淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/perfume,403,https://www.1976.com.tw/prod/16998,200
 105,Byredo Bal d’Afrique 熱帶爵士淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/perfume,403,https://www.1976.com.tw/prod/17311,200
-104,Le Labo 檜木沐浴膠 250 ml,,缺少同規格台灣價格、來源或查核日期,https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8,200,https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml,200
 103,Le Labo 檜木護手乳 250 ml,,缺少同規格台灣價格、來源或查核日期,https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84,200,https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml,200
-102,Le Labo 羅勒洗手露 250 ml,,缺少同規格台灣價格、來源或查核日期,https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761,200,https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml,200
-92,Byredo Blanche 返樸歸真護手霜 30ml,,缺少同規格台灣價格、來源或查核日期,https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004,200,https://1010online.com.tw/byredo-hand-cream-blanche,200
 91,Diptyque BAIES 漿果香氛蠟燭 190g,,缺少同規格台灣價格、來源或查核日期,https://www.ssg.com/item/itemView.ssg?itemId=1000023640978,200,,
-90,Le Labo HINOKI 檜木洗手露 250ml,,缺少同規格台灣價格、來源或查核日期,https://www.ssg.com/item/itemView.ssg?itemId=1000024602476,200,https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-檜木洗手露-250ml-平行輸入-11746093.html,200
 88,Mardi Mercredi FLOWERMARDI 燕麥色黑花,,缺少同規格台灣價格、來源或查核日期,https://mardimercredi.com/product/tshirt-flowermardioatmeal-black/6184/category/197/display/1/,404,https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-燕麥色-經典小雛菊-黑花-純棉-tshirt-flowermardi-1,200
-87,Mardi Mercredi FLOWERMARDI 白色綠花,,缺少同規格台灣價格、來源或查核日期,https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/,200,https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-白色-經典小雛菊-綠花-純棉-tshirt-flowermardi-1,200
 86,thisisneverthat T-Logo Tee 水洗黑,,"Prior current Korean cost44000 verified, but size-specific stock not verified; not sufficient for purchasable variants.",https://www.musinsa.com/products/5992310,200,,
 85,Matin Kim Accordion Wallet 黑色卡夾,FREE,缺少同規格台灣價格、來源或查核日期,https://matinkim.com/product/accordion-wallet-in-black/2164/,200,,
 84,Stüssy Basic Tee 黑色,XS,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-black?variant=41475432644663,200,,
@@ -129,7 +109,6 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 80,rom&nd Juicy Lasting Tint ZERO 水光唇釉,Z23 Peach Peach Me,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293,200,,
 79,農心 蝦味條 哇沙米 70g,,缺少同規格台灣價格、來源或查核日期,https://m.nongshimmall.com/product/detail.html?product_no=4444,200,,
 78,農心 蝦味條 辣味 90g,,缺少同規格台灣價格、來源或查核日期,https://www.kurly.com/goods/1002129007,200,,
-77,LOTTE BINCH 巧克力餅乾 102g,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790,200,https://tw.buy.yahoo.com/gdsale/Lotte樂天-BINCH巧克力餅乾-102g-8702318.html,200
 76,Market O 巧克力布朗尼 120g／6入,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230857,200,,
 75,Orion 烏龜四層脆片 抹茶巧克力 104g,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252330,200,,
 71,三養原味辣火雞炒麵 140g × 5 包,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.kurly.com/goods/5069816,200,https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC,200
@@ -142,11 +121,11 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,L,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163023415,200,,
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,XL,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163056183,200,,
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,XXL,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163088951,200,,
-65,I'MINT 抹茶拿鐵糖（32g × 4）,,韓國來源、規格或成本尚待核實,https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3,200,,
-64,I'MINT 美式咖啡糖（32g × 4）,,韓國來源、規格或成本尚待核實,https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3,200,,
+65,I'MINT 抹茶拿鐵糖（32g × 4）,,已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。,https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3,200,,
+64,I'MINT 美式咖啡糖（32g × 4）,,已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。,https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3,200,,
 63,Byredo Blanche 返樸歸真淡香精 50ml,,缺少同規格台灣價格、來源或查核日期,https://www.ssg.com/item/itemView.ssg?itemId=1000265165770,200,https://1010online.com.tw/byredo-blanche-edp,200
 62,Diptyque Do Son 杜桑淡香精 75ml,,缺少同規格台灣價格、來源或查核日期,https://department.ssg.com/item/itemView.ssg?itemId=1000023630811,200,https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724,200
-61,Le Labo ANOTHER 13 香氛護手霜 30ml,,韓國來源、規格或成本尚待核實,https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml,200,,
+61,Le Labo ANOTHER 13 香氛護手霜 30ml,,"已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。",https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml,200,,
 59,Stüssy Big Stock 棒球帽 Royal,ONE SIZE,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1311209-big-stock-snapback-cap-royal?variant=42083100459063,200,,
 58,Stüssy Basic Tee 卡其色,XS,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976849463,200,,
 58,Stüssy Basic Tee 卡其色,S,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976882231,200,,
@@ -154,9 +133,7 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 58,Stüssy Basic Tee 卡其色,L,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976947767,200,,
 58,Stüssy Basic Tee 卡其色,XL,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015976980535,200,,
 58,Stüssy Basic Tee 卡其色,XXL,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/1905000-basic-stussy-tee-khaki?variant=42015977013303,200,,
-57,Torriden SOLID-IN 神經醯胺護唇精華 11ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513,200,https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000023,200
 55,Torriden DIVE-IN 防曬精華 50ml＋20ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000219495,200,,
-54,Round Lab 1025 獨島化妝水＋乳液組,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179,200,,
 52,HBAF 四口味爆米花（80g × 16 包）,,缺少同規格台灣價格、來源或查核日期,https://www.costco.co.kr/Foods/Snack/Chocolates-Bars/HBAF-Four-Popcorn-Set-1280g-OPTION1/p/680056-OPTION1,200,,
 51,農心 辛拉麵非油炸麵（97g × 20 包）,,缺少同規格台灣價格、來源或查核日期,https://www.costco.co.kr/Foods/Processed-Food/PastaNoodles/Nongshim-Shin-Non-Fried-Ramyun-97g-x-20/p/620834,200,,
 50,Orion 好麗友零食綜合包（30g × 26 包）,,缺少同規格台灣價格、來源或查核日期,https://www.costco.co.kr/Foods/Snack/CookieCracker/Orion-Snack-Assortment-780g-26ea/p/603457,200,,
@@ -167,23 +144,23 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 45,樂天 Malang Cow 牛奶軟糖,,韓國來源、規格或成本尚待核實,https://www.lottewellfood.com/prcenter/news/833?page=1,200,,
 44,農心 香蕉脆餅,,韓國來源、規格或成本尚待核實,https://brand.nongshim.com/bananakicksnack/main/index,200,,
 43,農心 洋蔥圈,,韓國來源、規格或成本尚待核實,https://brand.nongshim.com/onionrings/main/index,200,,
-42,Orion Market O 濕潤巧克力豆餅乾,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1,200,,
-41,Orion 雞米花脆點,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1,200,,
-40,Orion 洋芋片,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1,200,,
-39,Orion 巧克力蘑菇餅,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1,200,,
-38,Orion 巧克力派,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5,200,,
-37,Orion 烏龜脆片 辣味,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1,200,,
+42,Orion Market O 濕潤巧克力豆餅乾,,已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1,200,,
+41,Orion 雞米花脆點,,已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1,200,,
+40,Orion 洋芋片,,已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1,200,,
+39,Orion 巧克力蘑菇餅,,已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1,200,,
+38,Orion 巧克力派,,已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5,200,,
+37,Orion 烏龜脆片 辣味,,已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1,200,,
 36,海太 蜂蜜奶油洋芋片,,韓國來源、規格或成本尚待核實,https://www.haitai.co.kr/m/eng/product,200,,
 35,HBAF 蜂蜜奶油杏仁,,韓國來源、規格或成本尚待核實,https://en.hbaf.com/products/,200,,
 34,Lotte 樂天 Pepero 巧克力棒,,韓國來源、規格或成本尚待核實,https://www.lottewellfood.com/prcenter/news/1855?page=1&searchText=%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88&searchType2=Y,200,,
-33,Orion My Gummy 水果軟糖,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1,200,,
+33,Orion My Gummy 水果軟糖,,已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1,200,,
 32,農心 炸醬麵（짜파게티）,,韓國來源、規格或成本尚待核實,https://brand.nongshim.com/chapagetti/main/index,200,,
 31,農心 蝦味先（새우깡）,,韓國來源、規格或成本尚待核實,https://brand.nongshim.com/saewookkang/main/index,200,,
-30,I'MINT 無糖咖啡糖（32g）,,韓國來源、規格或成本尚待核實,https://www.imintcandy.com/Product/20260511-211.html,200,,
-28,賓格瑞 香蕉牛奶,,韓國來源、規格或成本尚待核實,https://www.bing.co.kr/product/detail?PDT=123,200,,
-27,三養 火雞炒麵系列,,韓國來源、規格或成本尚待核實,https://www.samyangfoods.com/kor/brand/spicyRamen.do,200,,
-26,Orion 烏龜玉米脆片,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1,200,,
-25,Orion 巧克力派 12 入裝,,韓國來源、規格或成本尚待核實,https://www.orionworld.com/goods/view/26?category=0101&goodsno=5,200,,
+30,I'MINT 無糖咖啡糖（32g）,,已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。,https://www.imintcandy.com/Product/20260511-211.html,200,,
+28,賓格瑞 香蕉牛奶,,賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。,https://www.bing.co.kr/product/detail?PDT=123,200,,
+27,三養 火雞炒麵系列,,已補三養原味火雞麵的商家原圖供系列辨識；其他口味、容量與包裝尚未逐一確認。保持系列草稿，不以此圖宣稱每款都有照片或已可下單。,https://www.samyangfoods.com/kor/brand/spicyRamen.do,200,,
+26,Orion 烏龜玉米脆片,,已補品牌官網同款原圖（Kkobuk Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1,200,,
+25,Orion 巧克力派 12 入裝,,已補品牌官網同款原圖（오리온 초코파이情）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。,https://www.orionworld.com/goods/view/26?category=0101&goodsno=5,200,,
 24,農心 辛拉麵 Rosé 4 入裝,,缺少同規格台灣價格、來源或查核日期,https://m.nongshimmall.com/product/detail.html?product_no=4647,200,,
 23,農心 辛拉麵 5 入裝,,韓國來源、規格或成本尚待核實,https://brand.nongshim.com/shinramyun/main/index?prodCode=687,200,,
 19,Round Lab 1025 獨島化妝水,500 mL,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/,200,https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml,200

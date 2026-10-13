@@ -1,0 +1,35 @@
+{
+  "scope": "Existing completed owner photo job metadata, read-only and sanitized; no private image, email or customer ID",
+  "observed": {
+    "country": "KR",
+    "state": "failed",
+    "created_at": "2026-10-13 16:50:37",
+    "expires_at": "2026-10-13T18:50:36.972Z",
+    "product": "好丽友 예감 烘烤薯片饼干——照片包含原味、芝士焗烤味及炒洋葱味",
+    "product_en": "Orion Yegam baked potato crackers — Original, Cheese Gratin and Roasted Onion assortment pictured",
+    "model": "Yegam / 예감; pictured weights and pack quantities unresolved",
+    "confidence": 0.96,
+    "source_count": 1,
+    "result_status": 422,
+    "provider_model": "gpt-6.1-sol",
+    "error": "韓國尚未取得此規格可核對的購買來源與現價。這不代表沒有販售；請補充商品頁或清楚型號，未建立訂單。 / A verifiable retailer and current price for this exact item in South Korea were not found. This does not prove it is unavailable. No order was created."
+  },
+  "sourceFacts": [
+    {
+      "storeName": "Emart Everyday / 이마트 에브리데이",
+      "url": "https://emile.emarteveryday.co.kr/product/ProductView?skuCode=8801117282202&strCode=4006",
+      "localCountry": "KR",
+      "currency": "KRW",
+      "originalPrice": 1200,
+      "exactMatch": false,
+      "inStock": false,
+      "deliveryAmount": 0,
+      "deliveryConfirmed": false,
+      "deliveryConditions": "The listing identifies same-day pickup (당일 픽업). A delivery charge and delivery conditions for a one-box purchase were not verified. deliveryAmount=0 is an unknown-value placeholder, not evidence of free shipping."
+    }
+  ],
+  "rootCause": "The model recognised an assortment but pack weights/counts were unresolved. Its64gpickup candidate was not exact, not verified in stock, and shipping0 was explicitly unverified. A forced bundle quote would be false.",
+  "correction": "Explicit verified retailer-package choices with current price/stock/shipping recheck; selecting a known package does not repeat paid vision. Buyer may instead specify other packaging or decline.",
+  "realNewAIRequests": 0,
+  "liveDataChanged": false
+}

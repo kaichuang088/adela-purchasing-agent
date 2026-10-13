@@ -1,0 +1,28 @@
+[
+  {
+    "checkedAt": "2026-10-13T18:44:54.113696+00:00",
+    "name": "[오리온] 예감 치즈 그라탕 204g",
+    "priceKrw": 3580,
+    "basePrice": 3580,
+    "inStock": true,
+    "purchasable": true,
+    "delivery": "3,000원 (4만원 이상 무료)",
+    "buyUnit": 1,
+    "minEa": 1,
+    "noAutoSubstitutionFor42gPhoto": true,
+    "stockCount": "not published"
+  },
+  {
+    "checkedAt": "2026-10-13T18:44:54.114638+00:00",
+    "name": "[오리온] 예감 오리지널 192g",
+    "priceKrw": 3580,
+    "basePrice": 3580,
+    "inStock": true,
+    "purchasable": true,
+    "delivery": "3,000원 (4만원 이상 무료)",
+    "buyUnit": 1,
+    "minEa": 1,
+    "noAutoSubstitutionFor42gPhoto": true,
+    "stockCount": "not published"
+  }
+]

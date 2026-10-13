@@ -1,0 +1,15 @@
+{
+  "checks": 9,
+  "scope": "Mock provider and backend; no real model calls or production changes",
+  "labels": [
+    "Unauthorized work cannot reach backend or provider",
+    "Duplicate claims do not repeat paid calls",
+    "Matching completed research reaches only the bound backend",
+    "Provider failure sends no fabricated result",
+    "A changed provider model cannot be marked successful",
+    "Package choices stop after identification without a second paid research call",
+    "Second-stage research uses the backend visual identity and selected specification",
+    "Rejected identity completion cannot trigger another paid stage",
+    "Replacement research input must retain the configured model"
+  ]
+}

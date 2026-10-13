@@ -1,6 +1,6 @@
 {
   "scope": "Real Chromium viewport rendering of built front/admin and compiled Worker using isolated D1 and mocked AI; not production or physical phone",
-  "checks": 134,
+  "checks": 166,
   "allPassed": true,
   "results": [
     {
@@ -45,12 +45,7 @@
     },
     {
       "width": 375,
-      "name": "admin-create-member",
-      "metrics": {
-        "viewport": 375,
-        "body": 375,
-        "document": 375
-      },
+      "name": "assisted-order-has-no-account-creation-tab",
       "passed": true
     },
     {
@@ -120,6 +115,16 @@
     },
     {
       "width": 375,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
       "name": "admin-product-search",
       "metrics": {
         "viewport": 375,
@@ -176,6 +181,83 @@
     {
       "width": 375,
       "name": "cart-home-tab-closes-cart",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-photo-upload",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375,
+        "dialog": {
+          "left": 10,
+          "right": 365,
+          "top": 10,
+          "bottom": 609.078125,
+          "height": 900,
+          "scroll": 353,
+          "client": 353
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-photo-choice",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375,
+        "dialog": {
+          "left": 10,
+          "right": 365,
+          "top": 10,
+          "bottom": 679.671875,
+          "height": 900,
+          "scroll": 353,
+          "client": 353
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "photo-modal-header-within-viewport",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "collage-has-choices-without-a-price",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "selected-package-is-submitted-for-reverification",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "other-package-details-reach-research-input",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "name": "customer-photo-retry",
+      "metrics": {
+        "viewport": 375,
+        "body": 375,
+        "document": 375,
+        "dialog": {
+          "left": 10,
+          "right": 365,
+          "top": 10,
+          "bottom": 796.46875,
+          "height": 900,
+          "scroll": 353,
+          "client": 353
+        }
+      },
       "passed": true
     },
     {
@@ -333,12 +415,7 @@
     },
     {
       "width": 390,
-      "name": "admin-create-member",
-      "metrics": {
-        "viewport": 390,
-        "body": 390,
-        "document": 390
-      },
+      "name": "assisted-order-has-no-account-creation-tab",
       "passed": true
     },
     {
@@ -408,6 +485,16 @@
     },
     {
       "width": 390,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
       "name": "admin-product-search",
       "metrics": {
         "viewport": 390,
@@ -464,6 +551,83 @@
     {
       "width": 390,
       "name": "cart-home-tab-closes-cart",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-photo-upload",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390,
+        "dialog": {
+          "left": 10,
+          "right": 380,
+          "top": 10,
+          "bottom": 609.078125,
+          "height": 900,
+          "scroll": 368,
+          "client": 368
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-photo-choice",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390,
+        "dialog": {
+          "left": 10,
+          "right": 380,
+          "top": 10,
+          "bottom": 678.671875,
+          "height": 900,
+          "scroll": 368,
+          "client": 368
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "photo-modal-header-within-viewport",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "collage-has-choices-without-a-price",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "selected-package-is-submitted-for-reverification",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "other-package-details-reach-research-input",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "customer-photo-retry",
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "document": 390,
+        "dialog": {
+          "left": 10,
+          "right": 380,
+          "top": 10,
+          "bottom": 795.46875,
+          "height": 900,
+          "scroll": 368,
+          "client": 368
+        }
+      },
       "passed": true
     },
     {
@@ -621,12 +785,7 @@
     },
     {
       "width": 430,
-      "name": "admin-create-member",
-      "metrics": {
-        "viewport": 430,
-        "body": 430,
-        "document": 430
-      },
+      "name": "assisted-order-has-no-account-creation-tab",
       "passed": true
     },
     {
@@ -696,6 +855,16 @@
     },
     {
       "width": 430,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
       "name": "admin-product-search",
       "metrics": {
         "viewport": 430,
@@ -752,6 +921,83 @@
     {
       "width": 430,
       "name": "cart-home-tab-closes-cart",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-photo-upload",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430,
+        "dialog": {
+          "left": 10,
+          "right": 420,
+          "top": 10,
+          "bottom": 609.078125,
+          "height": 900,
+          "scroll": 408,
+          "client": 408
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-photo-choice",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430,
+        "dialog": {
+          "left": 10,
+          "right": 420,
+          "top": 10,
+          "bottom": 678.671875,
+          "height": 900,
+          "scroll": 408,
+          "client": 408
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "photo-modal-header-within-viewport",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "collage-has-choices-without-a-price",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "selected-package-is-submitted-for-reverification",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "other-package-details-reach-research-input",
+      "passed": true
+    },
+    {
+      "width": 430,
+      "name": "customer-photo-retry",
+      "metrics": {
+        "viewport": 430,
+        "body": 430,
+        "document": 430,
+        "dialog": {
+          "left": 10,
+          "right": 420,
+          "top": 10,
+          "bottom": 795.46875,
+          "height": 900,
+          "scroll": 408,
+          "client": 408
+        }
+      },
       "passed": true
     },
     {
@@ -903,12 +1149,7 @@
     },
     {
       "width": 1280,
-      "name": "admin-create-member",
-      "metrics": {
-        "viewport": 1280,
-        "body": 1280,
-        "document": 1280
-      },
+      "name": "assisted-order-has-no-account-creation-tab",
       "passed": true
     },
     {
@@ -998,6 +1239,16 @@
     },
     {
       "width": 1280,
+      "name": "admin-create-member",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
       "name": "admin-product-search",
       "metrics": {
         "viewport": 1280,
@@ -1023,6 +1274,83 @@
         "viewport": 1280,
         "body": 1280,
         "document": 1280
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-photo-upload",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 330,
+          "right": 950,
+          "top": 16,
+          "bottom": 609.484375,
+          "height": 900,
+          "scroll": 618,
+          "client": 618
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-photo-choice",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 330,
+          "right": 950,
+          "top": 16,
+          "bottom": 656.984375,
+          "height": 900,
+          "scroll": 618,
+          "client": 618
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "photo-modal-header-within-viewport",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "collage-has-choices-without-a-price",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "selected-package-is-submitted-for-reverification",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "other-package-details-reach-research-input",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "customer-photo-retry",
+      "metrics": {
+        "viewport": 1280,
+        "body": 1280,
+        "document": 1280,
+        "dialog": {
+          "left": 330,
+          "right": 950,
+          "top": 16,
+          "bottom": 773.78125,
+          "height": 900,
+          "scroll": 618,
+          "client": 618
+        }
       },
       "passed": true
     },

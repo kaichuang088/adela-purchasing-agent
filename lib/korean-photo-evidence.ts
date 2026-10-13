@@ -1,13 +1,17 @@
 import rows from './lelabo-r23-evidence.json';
+import expandedRows from './lelabo-r24-evidence.json';
+import {verifyKurlyPhoto} from './kurly-photo-evidence';
 import type {ProductAnalysis} from './types';
 const normalized=(s:string)=>s.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]/g,'');
 /** Known exact official SKUs are independently repriced; AI-supplied amounts are never trusted. */
 export async function verifyKnownKoreanPhoto(analysis:ProductAnalysis,transport:typeof fetch=fetch){
+ analysis=await verifyKurlyPhoto(analysis,transport);
+ if(analysis.needsProductChoice)return {...analysis,sources:[]};
  const text=[analysis.brand,analysis.model,analysis.identifiedNameZh,analysis.identifiedNameEn].join(' ');
  const format=analysis.category+' '+text;if(!/香水|淡香精|淡香水|perfume|parfum|\bEDP\b/i.test(format)||/護手|乳液|身體乳|沐浴|蠟燭|擴香|\boil\b|\blotion\b|\bshower\b|\bcandles?\b|hand[ -](?:wash|balm|cream)/i.test(format))return analysis;
  if(analysis.confidence<.85||!normalized(text).includes('LELABO')||/套組|禮盒|\bset\b|[×x]\s*(?:[2-9]|[1-9]\d+)|(?:[2-9]|[1-9]\d+)\s*(?:瓶|支|bottles?)/i.test(text))return analysis;
  const sizes=[...text.matchAll(/(?:^|[^\d])(\d+(?:\.\d+)?)\s*(?:ml|毫升)(?=$|[^a-z])/gi)].map(m=>Number(m[1]));if(!sizes.length||new Set(sizes).size!==1)return analysis;
- const match=rows.find(r=>normalized(text).includes(normalized(r.name))&&Number(r.size.replace(/[^\d.]/g,''))===sizes[0]);if(!match)return analysis;
+ const match=[...rows,...expandedRows].find(r=>normalized(text).includes(normalized(r.name))&&Number(r.size.replace(/[^\d.]/g,''))===sizes[0]);if(!match)return analysis;
  const fallback=()=>({...analysis,sources:analysis.sources.filter(s=>{try{return new URL(s.url).hostname.replace(/^www\./,'')!=='lelabofragrances.co.kr';}catch{return false;}})});
  try{
   const read=async(url:string)=>{const r=await transport(url,{headers:{'User-Agent':'Mozilla/5.0',Accept:'application/json'},redirect:'manual',signal:AbortSignal.timeout(7000)});if(!r.ok)throw Error('Official source not readable');return r.json() as Promise<any>;};

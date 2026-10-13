@@ -1,13 +1,245 @@
 {
-  "at": "2026-10-13T15:10:53.193Z",
+  "at": "2026-10-13T20:32:13.080Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R24; no live changes, no provider calls",
   "inputProducts": 199,
   "proposedProducts": 181,
   "exchangeRate": 0.02382,
-  "inspectedPatchesApplied": 6,
-  "unresolvedIssues": 188,
+  "draftPhotosMissing": [
+    {
+      "id": 149,
+      "name": "Mardi Mercredi 花朵刺繡大學T 黑粉"
+    },
+    {
+      "id": 45,
+      "name": "樂天 Malang Cow 牛奶軟糖"
+    },
+    {
+      "id": 44,
+      "name": "農心 香蕉脆餅"
+    },
+    {
+      "id": 43,
+      "name": "農心 洋蔥圈"
+    },
+    {
+      "id": 36,
+      "name": "海太 蜂蜜奶油洋芋片"
+    },
+    {
+      "id": 35,
+      "name": "HBAF 蜂蜜奶油杏仁"
+    },
+    {
+      "id": 34,
+      "name": "Lotte 樂天 Pepero 巧克力棒"
+    },
+    {
+      "id": 32,
+      "name": "農心 炸醬麵（짜파게티）"
+    },
+    {
+      "id": 31,
+      "name": "農心 蝦味先（새우깡）"
+    },
+    {
+      "id": 23,
+      "name": "農心 辛拉麵 5 入裝"
+    }
+  ],
+  "patchResults": [
+    {
+      "id": 153,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 154,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 180,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 181,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 19,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 20,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 135,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 136,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 137,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 139,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 140,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 141,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 142,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 143,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 90,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 102,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 104,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 150,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 87,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 92,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 168,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 54,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 57,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 77,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 115,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 116,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 144,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 145,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 169,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 25,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 26,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 33,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 37,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 38,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 39,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 40,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 41,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 42,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 64,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 65,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 61,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 199,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 30,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 148,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 147,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 27,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 28,
+      "status": "original_photo_added_review_pending"
+    }
+  ],
+  "inspectedPatchesApplied": 29,
+  "unresolvedIssues": 165,
   "counts": {
-    "已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。": 1,
+    "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
     "外觀與IMG7292接近但尚無官方同款證明；不能猜SD2203BE或共用黑鞋照片/庫存。": 1,
     "可能Breeze系列，不能憑相似外觀指定SD2202/2203；需官方款號、色號、尺碼、韓國成本、逐尺寸供貨及台灣同款比價。": 1,
@@ -22,26 +254,42 @@
     "照片是系列展示，不是混合整組；須分4口味確認SKU、各口味價格/庫存及台灣比價。": 1,
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
-    "缺少": 22,
+    "缺少": 17,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
-    "缺少同規格台灣價格、來源或查核日期": 96,
+    "缺少同規格台灣價格、來源或查核日期": 86,
     "參考圖片尚不能對應核實的可售商品。": 5,
     "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.": 1,
     "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.": 1,
     "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。": 1,
-    "韓國來源、規格或成本尚待核實": 36,
+    "韓國來源、規格或成本尚待核實": 11,
+    "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。": 1,
+    "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。": 1,
     "Official exact listing returns HTTP404; current cost and buyable stock not verified.": 1,
     "真實含運成本高於95%售價上限；未默認虧損販售": 6,
     "官方價格136000KRW可確認，但商品頁購買／供貨狀態未能取得，不能把系列目錄當成供貨證明。": 1,
     "Prior current Korean cost44000 verified, but size-specific stock not verified; not sufficient for purchasable variants.": 1,
-    "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified.": 1
+    "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。": 2,
+    "已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。": 1,
+    "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified.": 1,
+    "已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。": 1,
+    "賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。": 1,
+    "已補三養原味火雞麵的商家原圖供系列辨識；其他口味、容量與包裝尚未逐一確認。保持系列草稿，不以此圖宣稱每款都有照片或已可下單。": 1,
+    "已補品牌官網同款原圖（Kkobuk Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "已補品牌官網同款原圖（오리온 초코파이情）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1
   },
   "issues": [
     {
       "id": 199,
       "name": "Le Labo CITRON 28 首爾城市限定淡香精",
       "option": "",
-      "reason": "已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。"
+      "reason": "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。"
     },
     {
       "id": 198,
@@ -184,22 +432,6 @@
       "name": "Kuromi 聯名彩妝與掛飾",
       "option": "",
       "reason": "參考圖片尚不能對應核實的可售商品。"
-    },
-    {
-      "id": 169,
-      "name": "Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 305,
-      "ceiling": 473
-    },
-    {
-      "id": 168,
-      "name": "理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 263,
-      "ceiling": 399
     },
     {
       "id": 167,
@@ -366,14 +598,6 @@
       "ceiling": 123
     },
     {
-      "id": 150,
-      "name": "Le Labo 檜木護手霜 55ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 1001,
-      "ceiling": 1045
-    },
-    {
       "id": 149,
       "name": "Mardi Mercredi 花朵刺繡大學T 黑粉",
       "option": "",
@@ -383,13 +607,13 @@
       "id": 148,
       "name": "Byredo 吉普賽之水淡香精 50ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。"
     },
     {
       "id": 147,
       "name": "Diptyque 玫瑰之水淡香精 75ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。"
     },
     {
       "id": 146,
@@ -398,70 +622,6 @@
       "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
       "cost": 336,
       "ceiling": 375
-    },
-    {
-      "id": 145,
-      "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 525,
-      "ceiling": null
-    },
-    {
-      "id": 144,
-      "name": "MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 263,
-      "ceiling": 348
-    },
-    {
-      "id": 143,
-      "name": "Le Labo 樹果 19淡香精 100ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 142,
-      "name": "Le Labo 百合 41淡香精 100ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 141,
-      "name": "Le Labo 香根草 46淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 140,
-      "name": "Le Labo 岩薔薇 18淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 139,
-      "name": "Le Labo 紫羅蘭 30淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 137,
-      "name": "Le Labo 東加豆 25淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 136,
-      "name": "Le Labo 苦橙 36淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
-    },
-    {
-      "id": 135,
-      "name": "Le Labo 依蘭 49淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
     },
     {
       "id": 133,
@@ -694,22 +854,6 @@
       "ceiling": null
     },
     {
-      "id": 116,
-      "name": "SKIN1004 馬達加斯加積雪草安瓶（55ml × 1瓶）",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 365,
-      "ceiling": 655
-    },
-    {
-      "id": 115,
-      "name": "COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 548,
-      "ceiling": null
-    },
-    {
       "id": 114,
       "name": "Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml",
       "option": "",
@@ -788,35 +932,11 @@
       "ceiling": 4797
     },
     {
-      "id": 104,
-      "name": "Le Labo 檜木沐浴膠 250 ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 1168,
-      "ceiling": null
-    },
-    {
       "id": 103,
       "name": "Le Labo 檜木護手乳 250 ml",
       "option": "",
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 1406,
-      "ceiling": null
-    },
-    {
-      "id": 102,
-      "name": "Le Labo 羅勒洗手露 250 ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 1049,
-      "ceiling": null
-    },
-    {
-      "id": 92,
-      "name": "Byredo Blanche 返樸歸真護手霜 30ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 1263,
       "ceiling": null
     },
     {
@@ -828,24 +948,8 @@
       "ceiling": null
     },
     {
-      "id": 90,
-      "name": "Le Labo HINOKI 檜木洗手露 250ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 1049,
-      "ceiling": null
-    },
-    {
       "id": 88,
       "name": "Mardi Mercredi FLOWERMARDI 燕麥色黑花",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 1072,
-      "ceiling": null
-    },
-    {
-      "id": 87,
-      "name": "Mardi Mercredi FLOWERMARDI 白色綠花",
       "option": "",
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 1072,
@@ -1002,14 +1106,6 @@
       "ceiling": null
     },
     {
-      "id": 77,
-      "name": "LOTTE BINCH 巧克力餅乾 102g",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 67,
-      "ceiling": null
-    },
-    {
       "id": 76,
       "name": "Market O 巧克力布朗尼 120g／6入",
       "option": "",
@@ -1107,13 +1203,13 @@
       "id": 65,
       "name": "I'MINT 抹茶拿鐵糖（32g × 4）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。"
     },
     {
       "id": 64,
       "name": "I'MINT 美式咖啡糖（32g × 4）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。"
     },
     {
       "id": 63,
@@ -1135,7 +1231,7 @@
       "id": 61,
       "name": "Le Labo ANOTHER 13 香氛護手霜 30ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。"
     },
     {
       "id": 59,
@@ -1194,27 +1290,11 @@
       "ceiling": null
     },
     {
-      "id": 57,
-      "name": "Torriden SOLID-IN 神經醯胺護唇精華 11ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 167,
-      "ceiling": null
-    },
-    {
       "id": 55,
       "name": "Torriden DIVE-IN 防曬精華 50ml＋20ml",
       "option": "",
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 596,
-      "ceiling": null
-    },
-    {
-      "id": 54,
-      "name": "Round Lab 1025 獨島化妝水＋乳液組",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 620,
       "ceiling": null
     },
     {
@@ -1293,37 +1373,37 @@
       "id": 42,
       "name": "Orion Market O 濕潤巧克力豆餅乾",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 41,
       "name": "Orion 雞米花脆點",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 40,
       "name": "Orion 洋芋片",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 39,
       "name": "Orion 巧克力蘑菇餅",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 38,
       "name": "Orion 巧克力派",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 37,
       "name": "Orion 烏龜脆片 辣味",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 36,
@@ -1347,7 +1427,7 @@
       "id": 33,
       "name": "Orion My Gummy 水果軟糖",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 32,
@@ -1365,31 +1445,31 @@
       "id": 30,
       "name": "I'MINT 無糖咖啡糖（32g）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。"
     },
     {
       "id": 28,
       "name": "賓格瑞 香蕉牛奶",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。"
     },
     {
       "id": 27,
       "name": "三養 火雞炒麵系列",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補三養原味火雞麵的商家原圖供系列辨識；其他口味、容量與包裝尚未逐一確認。保持系列草稿，不以此圖宣稱每款都有照片或已可下單。"
     },
     {
       "id": 26,
       "name": "Orion 烏龜玉米脆片",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（Kkobuk Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 25,
       "name": "Orion 巧克力派 12 入裝",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補品牌官網同款原圖（오리온 초코파이情）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
     },
     {
       "id": 24,

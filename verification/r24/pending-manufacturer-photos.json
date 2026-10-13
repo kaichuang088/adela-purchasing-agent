@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-13T20:40:01.537109+00:00",
+  "scope": "Pending source candidates only, never applied as completed photo or price proof",
+  "items": [
+    {
+      "id": 23,
+      "page": "https://brand.nongshim.com/shinramyun/main/index?prodCode=687",
+      "manufacturerPhotoCandidates": [
+        "https://image.nongshim.com/non/pro/1734997124337.jpg",
+        "https://image.nongshim.com/non/pro/1734997151278.jpg"
+      ],
+      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "familyOnlyUntilPackageInspection": true
+    },
+    {
+      "id": 31,
+      "page": "https://brand.nongshim.com/saewookkang/main/index",
+      "manufacturerPhotoCandidates": [
+        "https://image.nongshim.com/non/pro/1594682421728.jpg",
+        "https://image.nongshim.com/non/pro/1594682430086.jpg"
+      ],
+      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "familyOnlyUntilPackageInspection": true
+    },
+    {
+      "id": 32,
+      "page": "https://brand.nongshim.com/chapagetti/main/index",
+      "manufacturerPhotoCandidates": [],
+      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "familyOnlyUntilPackageInspection": true
+    },
+    {
+      "id": 43,
+      "page": "https://brand.nongshim.com/onionrings/main/index",
+      "manufacturerPhotoCandidates": [
+        "https://image.nongshim.com/non/pro/1527035393947.jpg",
+        "https://image.nongshim.com/non/pro/1527035414662.gif"
+      ],
+      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "familyOnlyUntilPackageInspection": true
+    },
+    {
+      "id": 44,
+      "page": "https://brand.nongshim.com/bananakicksnack/main/index",
+      "manufacturerPhotoCandidates": [
+        "https://image.nongshim.com/non/pro/1448612776313.jpg",
+        "https://image.nongshim.com/non/pro/1448612781686.jpg"
+      ],
+      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "familyOnlyUntilPackageInspection": true
+    },
+    {
+      "id": 34,
+      "page": "https://www.lottewellfood.com/brand/product?searchType1=LC300",
+      "manufacturerPhotoCandidates": [
+        "https://webimage.ldcc.co.kr/upload/conf/upload/2022/06/23/2022062373d4c0ce28a84c2.png"
+      ],
+      "status": "manufacturer product card labelled Pepero, photo request blocked; not downloaded or approved"
+    },
+    {
+      "id": 45,
+      "page": "https://www.lottewellfood.com/brand/product?searchType1=LC200",
+      "manufacturerPhotoCandidates": [
+        "https://webimage.ldcc.co.kr/upload/conf/upload/2024/06/12/2024061260bcb4db9480425.png"
+      ],
+      "status": "manufacturer product card labelled Malang Cow, image request returned tunnel403; not downloaded or approved"
+    },
+    {
+      "id": 149,
+      "page": "https://www.mardimercredi.com/product/search.html?keyword=FLOWERMARDI%20NEEDLEWORK",
+      "status": "Search returned nine current T-shirt results, not the specified BLACK PINK sweatshirt. No replacement assumed; no absence proof."
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "at": "2026-10-13T15:35:32.559241+00:00",
-  "unresolved": 188,
-  "scope": "All actual unresolved source, specification and cost issues; verified warnings stay visible separately",
+  "at": "2026-10-13T20:38:14.093081+00:00",
+  "unresolved": 165,
+  "scope": "Actual remaining source/specification/cost issues after47 guarded proposed patches; no live edits. Verified warnings remain visible separately.",
   "items": [
     {
       "id": 199,
       "name": "Le Labo CITRON 28 首爾城市限定淡香精",
       "option": "",
-      "reason": "已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。",
+      "reason": "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。",
       "koreanSource": "https://www.lelabofragrances.co.kr/about-citron-28.html",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -221,7 +221,9 @@
       "taiwanSource": "https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1239,
+      "ceiling": 1472
     },
     {
       "id": 175,
@@ -245,7 +247,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 191,
+      "ceiling": null
     },
     {
       "id": 174,
@@ -257,7 +261,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 191,
+      "ceiling": null
     },
     {
       "id": 173,
@@ -269,7 +275,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 691,
+      "ceiling": null
     },
     {
       "id": 172,
@@ -281,7 +289,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 522,
+      "ceiling": null
     },
     {
       "id": 171,
@@ -304,30 +314,6 @@
       "koreanSourceStatus": null,
       "taiwanSource": "",
       "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 169,
-      "name": "Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 168,
-      "name": "理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.larocheposay.co.kr/product/view/4689.do",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.momoshop.com.tw/product/8962228",
-      "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
       "reviewed": false
     },
@@ -401,7 +387,9 @@
       "taiwanSource": "https://www.momoshop.com.tw/product/4925565",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 53,
+      "ceiling": 76
     },
     {
       "id": 160,
@@ -413,7 +401,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 93,
+      "ceiling": null
     },
     {
       "id": 160,
@@ -425,7 +415,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 93,
+      "ceiling": null
     },
     {
       "id": 160,
@@ -437,7 +429,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 93,
+      "ceiling": null
     },
     {
       "id": 160,
@@ -449,7 +443,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 93,
+      "ceiling": null
     },
     {
       "id": 159,
@@ -461,7 +457,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 93,
+      "ceiling": null
     },
     {
       "id": 158,
@@ -473,7 +471,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 403,
+      "ceiling": null
     },
     {
       "id": 157,
@@ -485,7 +485,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 567,
+      "ceiling": null
     },
     {
       "id": 156,
@@ -497,7 +499,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 689,
+      "ceiling": null
     },
     {
       "id": 155,
@@ -521,7 +525,9 @@
       "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 29,
+      "ceiling": 46
     },
     {
       "id": 152,
@@ -533,7 +539,9 @@
       "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 29,
+      "ceiling": 46
     },
     {
       "id": 152,
@@ -545,7 +553,9 @@
       "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 29,
+      "ceiling": 46
     },
     {
       "id": 152,
@@ -557,7 +567,9 @@
       "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 27,
+      "ceiling": 46
     },
     {
       "id": 151,
@@ -569,7 +581,9 @@
       "taiwanSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 113,
+      "ceiling": 123
     },
     {
       "id": 151,
@@ -581,7 +595,9 @@
       "taiwanSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 113,
+      "ceiling": 123
     },
     {
       "id": 151,
@@ -593,19 +609,9 @@
       "taiwanSource": "https://myship.7-11.com.tw/general/detail/GM2607092543072",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 150,
-      "name": "Le Labo 檜木護手霜 55ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.lelabofragrances.co.kr/hand-pomade-1068.html",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://giftshop-tw.line.me/products/322202829",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 162,
+      "ceiling": 123
     },
     {
       "id": 149,
@@ -623,7 +629,7 @@
       "id": 148,
       "name": "Byredo 吉普賽之水淡香精 50ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。",
       "koreanSource": "https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711",
       "koreanSourceStatus": 200,
       "taiwanSource": "https://www.1976.com.tw/prod/17393",
@@ -635,7 +641,7 @@
       "id": 147,
       "name": "Diptyque 玫瑰之水淡香精 75ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。",
       "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000866288136",
       "koreanSourceStatus": 429,
       "taiwanSource": "",
@@ -653,127 +659,9 @@
       "taiwanSource": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 145,
-      "name": "MEDIHEAL PDRN 保濕潤色防曬精華 50g",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 144,
-      "name": "MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 143,
-      "name": "Le Labo 樹果 19淡香精 100ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 142,
-      "name": "Le Labo 百合 41淡香精 100ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.1976.com.tw/prod/20424",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 141,
-      "name": "Le Labo 香根草 46淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 140,
-      "name": "Le Labo 岩薔薇 18淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 139,
-      "name": "Le Labo 紫羅蘭 30淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 137,
-      "name": "Le Labo 東加豆 25淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://www.lelabofragrances.co.kr/tonka-25-1105.html",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 136,
-      "name": "Le Labo 苦橙 36淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 135,
-      "name": "Le Labo 依蘭 49淡香精 50ml",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
-      "koreanSource": "https://www.lelabofragrances.co.kr/ylang-49-1043.html",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 336,
+      "ceiling": 375
     },
     {
       "id": 133,
@@ -797,7 +685,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 3145,
+      "ceiling": null
     },
     {
       "id": 131,
@@ -809,7 +699,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1477,
+      "ceiling": null
     },
     {
       "id": 131,
@@ -821,7 +713,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1477,
+      "ceiling": null
     },
     {
       "id": 131,
@@ -833,7 +727,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1477,
+      "ceiling": null
     },
     {
       "id": 131,
@@ -845,7 +741,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1477,
+      "ceiling": null
     },
     {
       "id": 131,
@@ -857,7 +755,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1477,
+      "ceiling": null
     },
     {
       "id": 130,
@@ -869,7 +769,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1072,
+      "ceiling": null
     },
     {
       "id": 129,
@@ -881,7 +783,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2025,
+      "ceiling": null
     },
     {
       "id": 128,
@@ -893,7 +797,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2359,
+      "ceiling": null
     },
     {
       "id": 127,
@@ -905,7 +811,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4741,
+      "ceiling": null
     },
     {
       "id": 127,
@@ -917,7 +825,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4741,
+      "ceiling": null
     },
     {
       "id": 127,
@@ -929,7 +839,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4741,
+      "ceiling": null
     },
     {
       "id": 127,
@@ -941,7 +853,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4741,
+      "ceiling": null
     },
     {
       "id": 127,
@@ -953,7 +867,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4741,
+      "ceiling": null
     },
     {
       "id": 126,
@@ -965,7 +881,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 126,
@@ -977,7 +895,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 126,
@@ -989,7 +909,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 126,
@@ -1001,7 +923,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 126,
@@ -1013,7 +937,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 125,
@@ -1025,7 +951,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 667,
+      "ceiling": null
     },
     {
       "id": 124,
@@ -1037,7 +965,9 @@
       "taiwanSource": "https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 617,
+      "ceiling": 817
     },
     {
       "id": 123,
@@ -1049,7 +979,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 370,
+      "ceiling": null
     },
     {
       "id": 122,
@@ -1061,7 +993,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 372,
+      "ceiling": null
     },
     {
       "id": 121,
@@ -1073,7 +1007,9 @@
       "taiwanSource": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 391,
+      "ceiling": 589
     },
     {
       "id": 120,
@@ -1085,7 +1021,9 @@
       "taiwanSource": "https://www.watsons.com.tw/bioderma-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA%E8%88%92%E6%95%8F%E9%AB%98%E6%95%88%E6%BD%94%E8%86%9A%E6%B6%B2500ml/p/BP_218040?text=Bioderma",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 428,
+      "ceiling": 807
     },
     {
       "id": 119,
@@ -1097,7 +1035,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 708,
+      "ceiling": null
     },
     {
       "id": 118,
@@ -1109,7 +1049,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 165,
+      "ceiling": null
     },
     {
       "id": 117,
@@ -1121,31 +1063,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 116,
-      "name": "SKIN1004 馬達加斯加積雪草安瓶（55ml × 1瓶）",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.watsons.com.tw/skin1004-skin1004-%E9%A6%AC%E9%81%94%E5%8A%A0%E6%96%AF%E5%8A%A0%E7%A9%8D%E9%9B%AA%E8%8D%89%E7%B2%BE%E8%8F%AF%E6%B6%B2-55ml/p/BP_278214",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 115,
-      "name": "COSRX 96%蝸牛賦活黏液精華（100ml × 1瓶）",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.beautystage.com.tw/product/2224210177071",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 658,
+      "ceiling": null
     },
     {
       "id": 114,
@@ -1157,7 +1077,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 544,
+      "ceiling": null
     },
     {
       "id": 113,
@@ -1169,7 +1091,9 @@
       "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7813,
+      "ceiling": 6602
     },
     {
       "id": 112,
@@ -1181,7 +1105,9 @@
       "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-philosykos",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7813,
+      "ceiling": 6602
     },
     {
       "id": 111,
@@ -1193,7 +1119,9 @@
       "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-orpheon",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7813,
+      "ceiling": 6602
     },
     {
       "id": 110,
@@ -1205,7 +1133,9 @@
       "taiwanSource": "https://1010online.com.tw/byredo-body-lotion-blanche",
       "taiwanSourceStatus": 404,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2382,
+      "ceiling": 2185
     },
     {
       "id": 109,
@@ -1217,7 +1147,9 @@
       "taiwanSource": "https://1010online.com.tw/byredo-body-wash-blanche",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1954,
+      "ceiling": 1719
     },
     {
       "id": 108,
@@ -1241,7 +1173,9 @@
       "taiwanSource": "https://www.1976.com.tw/prod/17260",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7266,
+      "ceiling": 4702
     },
     {
       "id": 106,
@@ -1253,7 +1187,9 @@
       "taiwanSource": "https://www.1976.com.tw/prod/16998",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7266,
+      "ceiling": 5016
     },
     {
       "id": 105,
@@ -1265,19 +1201,9 @@
       "taiwanSource": "https://www.1976.com.tw/prod/17311",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 104,
-      "name": "Le Labo 檜木沐浴膠 250 ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7266,
+      "ceiling": 4797
     },
     {
       "id": 103,
@@ -1289,31 +1215,9 @@
       "taiwanSource": "https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 102,
-      "name": "Le Labo 羅勒洗手露 250 ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 92,
-      "name": "Byredo Blanche 返樸歸真護手霜 30ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://1010online.com.tw/byredo-hand-cream-blanche",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1406,
+      "ceiling": null
     },
     {
       "id": 91,
@@ -1325,19 +1229,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 90,
-      "name": "Le Labo HINOKI 檜木洗手露 250ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000024602476",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-檜木洗手露-250ml-平行輸入-11746093.html",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2430,
+      "ceiling": null
     },
     {
       "id": 88,
@@ -1349,19 +1243,9 @@
       "taiwanSource": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-燕麥色-經典小雛菊-黑花-純棉-tshirt-flowermardi-1",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 87,
-      "name": "Mardi Mercredi FLOWERMARDI 白色綠花",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-白色-經典小雛菊-綠花-純棉-tshirt-flowermardi-1",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1072,
+      "ceiling": null
     },
     {
       "id": 86,
@@ -1385,7 +1269,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2097,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1397,7 +1283,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1409,7 +1297,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1421,7 +1311,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1433,7 +1325,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1445,7 +1339,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 84,
@@ -1457,7 +1353,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 83,
@@ -1469,7 +1367,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 358,
+      "ceiling": null
     },
     {
       "id": 82,
@@ -1481,7 +1381,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 322,
+      "ceiling": null
     },
     {
       "id": 81,
@@ -1493,7 +1395,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 858,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1505,7 +1409,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1517,7 +1423,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1529,7 +1437,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1541,7 +1451,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1553,7 +1465,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 80,
@@ -1565,7 +1479,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 310,
+      "ceiling": null
     },
     {
       "id": 79,
@@ -1577,7 +1493,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 40,
+      "ceiling": null
     },
     {
       "id": 78,
@@ -1589,19 +1507,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 77,
-      "name": "LOTTE BINCH 巧克力餅乾 102g",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://tw.buy.yahoo.com/gdsale/Lotte樂天-BINCH巧克力餅乾-102g-8702318.html",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 31,
+      "ceiling": null
     },
     {
       "id": 76,
@@ -1613,7 +1521,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 79,
+      "ceiling": null
     },
     {
       "id": 75,
@@ -1625,7 +1535,9 @@
       "taiwanSource": "",
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 60,
+      "ceiling": null
     },
     {
       "id": 71,
@@ -1637,7 +1549,9 @@
       "taiwanSource": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 122,
+      "ceiling": 281
     },
     {
       "id": 70,
@@ -1649,7 +1563,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 81,
+      "ceiling": null
     },
     {
       "id": 69,
@@ -1661,7 +1577,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 31,
+      "ceiling": null
     },
     {
       "id": 68,
@@ -1685,7 +1603,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 239,
+      "ceiling": null
     },
     {
       "id": 66,
@@ -1697,7 +1617,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 5217,
+      "ceiling": null
     },
     {
       "id": 66,
@@ -1709,7 +1631,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 5217,
+      "ceiling": null
     },
     {
       "id": 66,
@@ -1721,7 +1645,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 5217,
+      "ceiling": null
     },
     {
       "id": 66,
@@ -1733,7 +1659,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 5217,
+      "ceiling": null
     },
     {
       "id": 66,
@@ -1745,13 +1673,15 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 5217,
+      "ceiling": null
     },
     {
       "id": 65,
       "name": "I'MINT 抹茶拿鐵糖（32g × 4）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。",
       "koreanSource": "https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -1763,7 +1693,7 @@
       "id": 64,
       "name": "I'MINT 美式咖啡糖（32g × 4）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。",
       "koreanSource": "https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -1781,7 +1711,9 @@
       "taiwanSource": "https://1010online.com.tw/byredo-blanche-edp",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 4633,
+      "ceiling": null
     },
     {
       "id": 62,
@@ -1793,13 +1725,15 @@
       "taiwanSource": "https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 7813,
+      "ceiling": null
     },
     {
       "id": 61,
       "name": "Le Labo ANOTHER 13 香氛護手霜 30ml",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。",
       "koreanSource": "https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -1817,7 +1751,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 2025,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1829,7 +1765,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1841,7 +1779,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1853,7 +1793,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1865,7 +1807,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1877,7 +1821,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 58,
@@ -1889,19 +1835,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 57,
-      "name": "Torriden SOLID-IN 神經醯胺護唇精華 11ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000023",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 1787,
+      "ceiling": null
     },
     {
       "id": 55,
@@ -1913,19 +1849,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
-    },
-    {
-      "id": 54,
-      "name": "Round Lab 1025 獨島化妝水＋乳液組",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179",
-      "koreanSourceStatus": 200,
-      "taiwanSource": null,
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 596,
+      "ceiling": null
     },
     {
       "id": 52,
@@ -1937,7 +1863,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 381,
+      "ceiling": null
     },
     {
       "id": 51,
@@ -1949,7 +1877,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 524,
+      "ceiling": null
     },
     {
       "id": 50,
@@ -1961,7 +1891,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 393,
+      "ceiling": null
     },
     {
       "id": 49,
@@ -1973,7 +1905,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 427,
+      "ceiling": null
     },
     {
       "id": 48,
@@ -1985,7 +1919,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 500,
+      "ceiling": null
     },
     {
       "id": 47,
@@ -1997,7 +1933,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 500,
+      "ceiling": null
     },
     {
       "id": 46,
@@ -2051,7 +1989,7 @@
       "id": 42,
       "name": "Orion Market O 濕潤巧克力豆餅乾",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2063,7 +2001,7 @@
       "id": 41,
       "name": "Orion 雞米花脆點",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2075,7 +2013,7 @@
       "id": 40,
       "name": "Orion 洋芋片",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2087,7 +2025,7 @@
       "id": 39,
       "name": "Orion 巧克力蘑菇餅",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2099,7 +2037,7 @@
       "id": 38,
       "name": "Orion 巧克力派",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2111,7 +2049,7 @@
       "id": 37,
       "name": "Orion 烏龜脆片 辣味",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2159,7 +2097,7 @@
       "id": 33,
       "name": "Orion My Gummy 水果軟糖",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2195,7 +2133,7 @@
       "id": 30,
       "name": "I'MINT 無糖咖啡糖（32g）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。",
       "koreanSource": "https://www.imintcandy.com/Product/20260511-211.html",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2207,7 +2145,7 @@
       "id": 28,
       "name": "賓格瑞 香蕉牛奶",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。",
       "koreanSource": "https://www.bing.co.kr/product/detail?PDT=123",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2219,7 +2157,7 @@
       "id": 27,
       "name": "三養 火雞炒麵系列",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補三養原味火雞麵的商家原圖供系列辨識；其他口味、容量與包裝尚未逐一確認。保持系列草稿，不以此圖宣稱每款都有照片或已可下單。",
       "koreanSource": "https://www.samyangfoods.com/kor/brand/spicyRamen.do",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2231,7 +2169,7 @@
       "id": 26,
       "name": "Orion 烏龜玉米脆片",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（Kkobuk Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2243,7 +2181,7 @@
       "id": 25,
       "name": "Orion 巧克力派 12 入裝",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補品牌官網同款原圖（오리온 초코파이情）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。",
       "koreanSource": "https://www.orionworld.com/goods/view/26?category=0101&goodsno=5",
       "koreanSourceStatus": 200,
       "taiwanSource": null,
@@ -2261,7 +2199,9 @@
       "taiwanSource": null,
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 126,
+      "ceiling": null
     },
     {
       "id": 23,
@@ -2285,7 +2225,9 @@
       "taiwanSource": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml",
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
-      "reviewed": false
+      "reviewed": false,
+      "cost": 548,
+      "ceiling": 521
     }
   ]
 }

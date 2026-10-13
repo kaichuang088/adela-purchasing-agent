@@ -6,6 +6,7 @@ import {PriceReports} from './price-reports';
 
 import {AdminAIHub,ChatGPTMark} from './ai-hub';
 import {MemberOrderDesk} from './member-order-desk';
+import {CreateMember} from './create-member';
 import {orderTask} from '@/lib/admin-tasks';
 import {OrderTaskList} from './order-task-list';
 import {MemberCreditControls} from './member-credit-controls';
@@ -374,7 +375,7 @@ export default function OperationsApp() {
           <header>
             <AdminLanguageSelect/>
             <div>
-              <small>ADELA / {tab.toUpperCase()}</small>
+              <small>ADELA / {a(menus.find(([id])=>id===tab)?.[1]||'管理後台')}</small>
               <h1>{a(menus.find((m) => m[0] === tab)?.[1]||'')}{language==='zh'?a("管理"):''}</h1>
             </div>
             <div>
@@ -555,6 +556,7 @@ export default function OperationsApp() {
                     <h2>{a("會員與哩程")}</h2>
                     <span>{a("金鑽會員僅由後台授予，無消費門檻、代購費 0%，可貨到付款。消費與哩程只在收款確認後累計。")}</span>
                   </div>
+                  <CreateMember password={password} refresh={load}/>
                 </div>
 
                 <div className="op-panel">

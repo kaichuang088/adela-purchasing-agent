@@ -1,0 +1,338 @@
+[
+  {
+    "id": 135,
+    "name": "Le Labo 依蘭 49淡香精 50ml",
+    "checkedAt": "2026-10-13T18:26:56.913722+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J0TW01R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1043.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1043.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1299.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_360--YLANG49--1086685038.jpg",
+      "local": "/catalog-r24/09b7726528f10af218ae9e05.jpg",
+      "bytes": 105587,
+      "sha256": "6422022347260b00e7e3ce6261dff4fb29a065b613fe08c1ebbc9ec2cf2dae1c"
+    },
+    "countrySkuIds": {
+      "korea": "1299",
+      "taiwan": "1299"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 136,
+    "name": "Le Labo 苦橙 36淡香精 50ml",
+    "checkedAt": "2026-10-13T18:29:18.248729+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J0T301R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/904.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/904.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1131.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_360--NEROLI36-1023251435.jpg",
+      "local": "/catalog-r24/80d16a197709b1306b603f2e.jpg",
+      "bytes": 103119,
+      "sha256": "1a50df10a7d8b47569e8281af15b2f59a9506852ca0306a35c1c40a67055249f"
+    },
+    "countrySkuIds": {
+      "korea": "1131",
+      "taiwan": "1131"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 137,
+    "name": "Le Labo 東加豆 25淡香精 50ml",
+    "checkedAt": "2026-10-13T18:26:56.914573+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J1JL01R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1105.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1105.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1357.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_360--TONKA25-366282042.jpg",
+      "local": "/catalog-r24/0f7ff8ae1bb41931d38a0307.jpg",
+      "bytes": 93050,
+      "sha256": "f1fcad0f69acaf7a5bc4c7077aed95fdfc27cea6e26aa2dcd360e6d045e33ddf"
+    },
+    "countrySkuIds": {
+      "korea": "1357",
+      "taiwan": "1357"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 139,
+    "name": "Le Labo 紫羅蘭 30淡香精 50ml",
+    "checkedAt": "2026-10-13T18:29:20.445738+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J1BR01R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1349.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1326.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1645.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1BR01R000__PRODUCT_01--IMG_360--30VIOLETTE30-177118657.jpg",
+      "local": "/catalog-r24/cc157d338fb20e90fba10668.jpg",
+      "bytes": 11803,
+      "sha256": "c7fdbc27a6551b33ab594c2608a101d51cb1d9f709bc49bee8ec5769af1e7590"
+    },
+    "countrySkuIds": {
+      "korea": "1645",
+      "taiwan": "1622"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 140,
+    "name": "Le Labo 岩薔薇 18淡香精 50ml",
+    "checkedAt": "2026-10-13T18:27:00.336491+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J0RW01R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/856.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/856.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1064.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PL18100__PRODUCT_01--IMG_360--LABDANUM18--1284184794.jpg",
+      "local": "/catalog-r24/08b1b464457f9e63a37a1ae5.jpg",
+      "bytes": 106548,
+      "sha256": "b9c76fed75c621bc1efa4e1b3c692ea5befc4cce075e8c898e9ff049778b4ff8"
+    },
+    "countrySkuIds": {
+      "korea": "1064",
+      "taiwan": "1064"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 141,
+    "name": "Le Labo 香根草 46淡香精 50ml",
+    "checkedAt": "2026-10-13T18:27:00.362145+00:00",
+    "spec": "50ml × 1瓶",
+    "skuCode": "J0TP01R000",
+    "koreaPrice": 319000,
+    "taiwanPrice": 7600,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1029.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1029.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1282.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PV46100__PRODUCT_01--IMG_360--VETIVER46-1366854732.jpg",
+      "local": "/catalog-r24/04f2b5784d696a81ab92474b.jpg",
+      "bytes": 105066,
+      "sha256": "7133090c8bad19873366ca50d3f77fa8c2714444afada49621c3e6163ef6c02a"
+    },
+    "countrySkuIds": {
+      "korea": "1282",
+      "taiwan": "1282"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 142,
+    "name": "Le Labo 百合 41淡香精 100ml",
+    "checkedAt": "2026-10-13T18:27:02.298153+00:00",
+    "spec": "100ml × 1瓶",
+    "skuCode": "J0W001R000",
+    "koreaPrice": 462000,
+    "taiwanPrice": 10900,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/878.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/878.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1087.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PL41100__PRODUCT_01--IMG_360--LYS41-1877854332.jpg",
+      "local": "/catalog-r24/55fc7f771473ac8e54218d6c.jpg",
+      "bytes": 111759,
+      "sha256": "ae064939fb10b955b574cc503ed119caf7de00e3227c315dfd1651aeaaa2d7f8"
+    },
+    "countrySkuIds": {
+      "korea": "1087",
+      "taiwan": "1087"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 143,
+    "name": "Le Labo 樹果 19淡香精 100ml",
+    "checkedAt": "2026-10-13T18:27:02.716280+00:00",
+    "spec": "100ml × 1瓶",
+    "skuCode": "J2K401R000",
+    "koreaPrice": 462000,
+    "taiwanPrice": 10900,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1132.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1132.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1394.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J2K401R000__PRODUCT_01--IMG_360--BAIE19-2140360648.jpg",
+      "local": "/catalog-r24/ba400d3e80f836a75e1024f8.jpg",
+      "bytes": 85176,
+      "sha256": "fbab3ffbd6ffce2bfdbcb9c44cf705ca2943e366b255f10ce2da3fb0efb8ade6"
+    },
+    "countrySkuIds": {
+      "korea": "1394",
+      "taiwan": "1394"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 90,
+    "name": "Le Labo HINOKI 檜木洗手露 250ml",
+    "checkedAt": "2026-10-13T18:27:03.896388+00:00",
+    "spec": "250ml × 1瓶",
+    "skuCode": "J0W9010000",
+    "koreaPrice": 44000,
+    "taiwanPrice": 1080,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1057.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1057.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1308.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0W9010000__PRODUCT_01--IMG_360--HANDSOAP--1621442042.jpg",
+      "local": "/catalog-r24/735d842c37a7fecd924bcb5c.jpg",
+      "bytes": 46226,
+      "sha256": "14829f97e0872cd5569d5a37673bec6cda8a6ecef78156d3d1c033f15ae88d25"
+    },
+    "countrySkuIds": {
+      "korea": "1308",
+      "taiwan": "1308"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 102,
+    "name": "Le Labo 羅勒洗手露 250 ml",
+    "checkedAt": "2026-10-13T18:27:04.711936+00:00",
+    "spec": "250ml × 1瓶",
+    "skuCode": "J1X8010000",
+    "koreaPrice": 44000,
+    "taiwanPrice": 1250,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1113.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1113.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1367.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1X8010000__PRODUCT_01--IMG_360--HANDSOAP-552725310.jpg",
+      "local": "/catalog-r24/426ca95e2ffc724f28a3767d.jpg",
+      "bytes": 45436,
+      "sha256": "6d758c60f686d2245526f9ecc37f91a155222586ea537d97bc8ba15b33f96fc3"
+    },
+    "countrySkuIds": {
+      "korea": "1367",
+      "taiwan": "1367"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 104,
+    "name": "Le Labo 檜木沐浴膠 250 ml",
+    "checkedAt": "2026-10-13T18:27:05.412811+00:00",
+    "spec": "250ml × 1瓶",
+    "skuCode": "J0WP010000",
+    "koreaPrice": 49000,
+    "taiwanPrice": 1300,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1062.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1062.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1313.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0WP010000__PRODUCT_01--IMG_360--SHOWERGEL--583435731.jpg",
+      "local": "/catalog-r24/e84806c04c81f5b3325d7efe.jpg",
+      "bytes": 45514,
+      "sha256": "d55ac0fdf9a7be1afc4d373df35852aa1fc203658df9ae5d21b40b46f9e89365"
+    },
+    "countrySkuIds": {
+      "korea": "1313",
+      "taiwan": "1313"
+    },
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 150,
+    "name": "Le Labo 檜木護手霜 55ml",
+    "checkedAt": "2026-10-13T18:27:05.921781+00:00",
+    "spec": "55ml × 1瓶",
+    "skuCode": "J0L5010000",
+    "koreaPrice": 42000,
+    "taiwanPrice": 1100,
+    "koreaAvailability": true,
+    "inventoryCount": "not published",
+    "priceEndpoints": {
+      "korea": "https://www.lelabofragrances.co.kr/front/app/product/prices/1068.json",
+      "taiwan": "https://www.lelabofragrances.com.tw/front/app/product/prices/1068.json"
+    },
+    "stockEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1319.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "image": {
+      "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_360--HANDPOMADE--895834976.JPG",
+      "local": "/catalog-r24/60cff684d018c8dbbfc906b1.jpg",
+      "bytes": 57711,
+      "sha256": "a1c998beea8416fc2d178037d18089710c48bd13b81446db7a0d3582183adcbd"
+    },
+    "countrySkuIds": {
+      "korea": "1319",
+      "taiwan": "1319"
+    },
+    "noHistoricalOrderChanges": true
+  }
+]

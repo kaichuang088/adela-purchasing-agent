@@ -1,0 +1,41 @@
+[
+  {
+    "id": 87,
+    "spec": "WHITE GREEN · 單一尺碼 · 1件",
+    "checkedAt": "2026-10-13T14:17:19.820029+00:00",
+    "koreaSource": "https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/",
+    "taiwanSource": "https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-白色-經典小雛菊-綠花-純棉-tshirt-flowermardi-1",
+    "koreaGoods": 45000,
+    "koreaDelivery": 3000,
+    "taiwanPrice": 1104,
+    "stock": -1,
+    "notes": "韓國官方 WHITE GREEN 單一尺碼 1件。單筆未滿 ₩50,000，運費 ₩3,000 已計入成本；商品₩45,000。TW同型號白綠公開促銷NT$1104，非會員限定。",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 92,
+    "spec": "Blanche 30ml × 1條",
+    "checkedAt": "2026-10-13T14:17:22.863908+00:00",
+    "koreaSource": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004",
+    "taiwanSource": "https://1010online.com.tw/byredo-hand-cream-blanche",
+    "koreaGoods": 53000,
+    "koreaDelivery": 3000,
+    "taiwanPrice": 1600,
+    "stock": 0,
+    "notes": "SSG同款30ml：採用一般售價₩53,000，不使用6%優惠券價格₩49,820。單筆韓國一般運費₩3,000已計入。商家soldOut=Y已確認缺貨，禁止下單；剩餘件數不猜測。TW 10/10公開一般售價NT$1600。",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 168,
+    "spec": "Cicaplast 7.5mL × 1條",
+    "checkedAt": "2026-10-13T14:17:52.497865+00:00",
+    "koreaSource": "https://www.larocheposay.co.kr/product/view/4689.do",
+    "taiwanSource": "https://www.momoshop.com.tw/product/8962228",
+    "koreaGoods": 11000,
+    "koreaDelivery": 3000,
+    "taiwanPrice": 420,
+    "stock": -1,
+    "notes": "韓國官方Cicaplast 7.5ml單條售價₩11,000；單筆未滿₩30,000運費₩3,000已計入。一般購買按鈕可用，未宣称剩餘件數。台灣momo官方直營單入公開售價NT$420，不含有條件優惠券。",
+    "noHistoricalOrderChanges": true
+  }
+]

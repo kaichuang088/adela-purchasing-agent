@@ -31,6 +31,7 @@ export const statusLabel: Record<string, { zh: string; en: string }> = {
 };
 
 export type PriceSource = {
+  deliveryFreeThreshold?:number;deliveryFlatAmount?:number;
   deliveryAmount?:number;deliveryConfirmed?:boolean;deliveryConditions?:string;deliveryBasis?:'per_order'|'per_unit';
   exactMatch?: boolean; inStock?: boolean; localJapan?:boolean;localCountry?:Country;currency?:Currency;originalPrice?:number;afterTaxPrice?:number|null; taxFreeForResale?:boolean; taxFreeConditions?:string; taxEvidenceUrl?:string;
   storeName: string; url: string; priceTaxIncludedJpy: number; priceTaxFreeJpy: number | null;
@@ -38,8 +39,13 @@ export type PriceSource = {
 };
 
 export type ProductAnalysis = {
+  retailerChoices?:Array<{id:string;labelZh:string;labelEn:string;model:string;imageUrl:string}>;
+  retailerChoiceId?:string;retailerPhotoUrl?:string;
+  needsProductChoice?:boolean;
+  identificationChoices?:Array<{labelZh:string;labelEn:string;model:string}>;
   identifiedNameZh: string; identifiedNameEn: string; brand: string; model: string; category: string;
   confidence: number; taxRatePercent: number; evidenceSummaryZh: string; evidenceSummaryEn: string;
+  familyConfidence?:number;
   sources: PriceSource[];
 };
 

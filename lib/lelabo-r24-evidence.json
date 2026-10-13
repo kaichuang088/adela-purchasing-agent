@@ -1,0 +1,98 @@
+[
+  {
+    "name": "YLANG 49",
+    "size": "50 ml",
+    "skuCode": "J0TW01R000",
+    "koreaSkuId": "1299",
+    "koreaPage": "https://www.lelabofragrances.co.kr/ylang-49-1043.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1043.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1299.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_360--YLANG49--1086685038.jpg"
+  },
+  {
+    "name": "NEROLI 36",
+    "size": "50 ml",
+    "skuCode": "J0T301R000",
+    "koreaSkuId": "1131",
+    "koreaPage": "https://www.lelabofragrances.co.kr/neroli-36-904.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/904.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1131.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_360--NEROLI36-1023251435.jpg"
+  },
+  {
+    "name": "TONKA 25",
+    "size": "50 ml",
+    "skuCode": "J1JL01R000",
+    "koreaSkuId": "1357",
+    "koreaPage": "https://www.lelabofragrances.co.kr/tonka-25-1105.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1105.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1357.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_360--TONKA25-366282042.jpg"
+  },
+  {
+    "name": "VIOLETTE 30",
+    "size": "50 ml",
+    "skuCode": "J1BR01R000",
+    "koreaSkuId": "1645",
+    "koreaPage": "https://www.lelabofragrances.co.kr/classic-collection/violette-30/eau-de-parfum",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1349.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1645.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1BR01R000__PRODUCT_01--IMG_360--30VIOLETTE30-177118657.jpg"
+  },
+  {
+    "name": "LABDANUM 18",
+    "size": "50 ml",
+    "skuCode": "J0RW01R000",
+    "koreaSkuId": "1064",
+    "koreaPage": "https://www.lelabofragrances.co.kr/labdanum-18-856.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/856.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1064.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PL18100__PRODUCT_01--IMG_360--LABDANUM18--1284184794.jpg"
+  },
+  {
+    "name": "VETIVER 46",
+    "size": "50 ml",
+    "skuCode": "J0TP01R000",
+    "koreaSkuId": "1282",
+    "koreaPage": "https://www.lelabofragrances.co.kr/vetiver-46-1029.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1029.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1282.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PV46100__PRODUCT_01--IMG_360--VETIVER46-1366854732.jpg"
+  },
+  {
+    "name": "LYS 41",
+    "size": "100 ml",
+    "skuCode": "J0W001R000",
+    "koreaSkuId": "1087",
+    "koreaPage": "https://www.lelabofragrances.co.kr/lys-41-878.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/878.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1087.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PL41100__PRODUCT_01--IMG_360--LYS41-1877854332.jpg"
+  },
+  {
+    "name": "BAIE 19",
+    "size": "100 ml",
+    "skuCode": "J2K401R000",
+    "koreaSkuId": "1394",
+    "koreaPage": "https://www.lelabofragrances.co.kr/baie-19-1132.html",
+    "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1132.json",
+    "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1394.json",
+    "deliverySource": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+    "deliveryConditions": "韓國官方單筆滿 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+    "image": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J2K401R000__PRODUCT_01--IMG_360--BAIE19-2140360648.jpg"
+  }
+]

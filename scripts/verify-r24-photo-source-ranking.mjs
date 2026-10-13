@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';import {createRequire} from 'node:module';import {realpathSync} from 'node:fs';import {mkdir,writeFile} from 'node:fs/promises';
+const require=createRequire(realpathSync('node_modules/wrangler/package.json'));await mkdir('work',{recursive:true});require('esbuild').buildSync({entryPoints:['lib/quote-source.ts'],bundle:true,platform:'node',format:'esm',outfile:'work/r24-photo-source-ranking.mjs'});const {selectQuoteSource}=await import('../work/r24-photo-source-ranking.mjs');
+const base={localCountry:'KR',currency:'KRW',priceTaxIncludedJpy:0,taxFreeEligible:false,exactMatch:true,inStock:true,deliveryConfirmed:true,deliveryConditions:'Synthetic verified flat delivery',deliveryBasis:'per_order'},a={confidence:.99,model:'Synthetic exact SKU',sources:[]};let checks=0;const check=(v,label)=>{assert.ok(v,label);checks++;console.log('PASS '+checks+': '+label);};
+const first={...base,storeName:'A',url:'https://a.example.test/sku',originalPrice:3500,deliveryAmount:5000},second={...base,storeName:'B',url:'https://b.example.test/sku',originalPrice:4500,deliveryAmount:3000};
+check(selectQuoteSource({...a,sources:[first,second]},'KR').source.storeName==='B','One-unit price compares mandatory shipping, not just lower goods price');
+check(selectQuoteSource({...a,sources:[first,second]},'KR',5).source.storeName==='A','A larger quantity can legitimately change the cheapest flat-shipping source');
+check(selectQuoteSource({...a,sources:[{...first,originalPrice:1000,deliveryConfirmed:false},second]},'KR').source.storeName==='B','A cheaper unverified-shipping candidate cannot hide a fully evidenced quote');
+const threshold={...first,originalPrice:3000,deliveryAmount:3000,deliveryFlatAmount:3000,deliveryFreeThreshold:40000},perUnit={...second,originalPrice:3100,deliveryAmount:100,deliveryBasis:'per_unit'};
+check(selectQuoteSource({...a,sources:[threshold,perUnit]},'KR').source.storeName==='B','One box does not qualify for an unmet free-shipping threshold');
+check(selectQuoteSource({...a,sources:[threshold,perUnit]},'KR',20).source.storeName==='A','Verified basket threshold is recalculated for the requested quantity');
+const perfumeA={...first,originalPrice:100000,deliveryAmount:0},perfumeB={...second,originalPrice:95000,deliveryAmount:4990};
+const p=selectQuoteSource({...a,sources:[perfumeA,perfumeB]},'KR',1,1/1.1);check(p.source.storeName==='A'&&p.amount===100000,'Owner net-goods pricing compares after the goods discount while preserving real gross source amounts');
+check(selectQuoteSource({...a,sources:[{...first,originalPrice:1}]},'KR').kind!=='ready','Placeholder1KRW cannot become an accepted photo quote');
+await mkdir('verification/r24',{recursive:true});await writeFile('verification/r24/photo-source-ranking.json',JSON.stringify({checks,scope:'Isolated financial source-selection cases, not real merchants or orders'},null,2)+'\n');

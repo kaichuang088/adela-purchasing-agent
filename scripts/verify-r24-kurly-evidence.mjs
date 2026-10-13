@@ -1,0 +1,29 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {realpathSync} from 'node:fs';
+import {mkdir,writeFile} from 'node:fs/promises';
+const require=createRequire(realpathSync('node_modules/wrangler/package.json'));
+await mkdir('work',{recursive:true});require('esbuild').buildSync({entryPoints:['lib/kurly-photo-evidence.ts'],bundle:true,platform:'node',format:'esm',outfile:'work/r24-kurly-evidence.mjs'});
+const {verifyKurlyPhoto,selectKurlyChoice}=await import('../work/r24-kurly-evidence.mjs');let checks=0;
+const check=(v,label)=>{assert.ok(v,label);checks++;console.log('PASS '+checks+': '+label);};
+const analysis={identifiedNameZh:'Orion 預感香烤洋芋片 原味192g 一盒',identifiedNameEn:'Orion Yegam Original 192g one box',brand:'Orion',model:'Yegam Original 192g, one box',category:'Snacks',confidence:.99,taxRatePercent:0,evidenceSummaryZh:'Synthetic visual result',evidenceSummaryEn:'Synthetic visual result',sources:[]};
+// Minimal factual fields from the independently read merchant page. No review,
+// customer or credential data are embedded in this isolated test.
+const option={name:'[오리온] 예감 오리지널 192g',basePrice:3580,buyUnit:1,minEa:1,isSoldOut:false,isPurchaseStatus:true,canPurchaseLevel:true,bundleDiscounts:[],membershipLabels:[]};
+const product={isPurchaseStatus:true,dealProducts:[option],showablePrices:{salesPrice:3580},deliveryTypeInfos:[{deliveryFeeDescription:'3,000원 (4만원 이상 무료)'}]};
+const transport=(p=product)=>async url=>{const cheese=String(url).endsWith('/5095164');const adapted=cheese?{...p,dealProducts:p.dealProducts.map(o=>({...o,name:'[오리온] 예감 치즈 그라탕 204g'}))}:p;return new Response('<script id="__NEXT_DATA__" type="application/json">'+JSON.stringify({props:{pageProps:{product:adapted}}})+'</script><script type="application/ld+json">'+JSON.stringify({'@type':'Product',url:String(url),name:adapted.dealProducts[0].name,image:['https://product-image.kurly.com/product/image/7dcdd76c-508a-42c6-bb25-34734a7644a7.png']})+'</script>');};
+const verified=await verifyKurlyPhoto(analysis,transport());check(verified.sources[0]?.originalPrice===3580&&verified.sources[0]?.deliveryAmount===3000,'Exact original192g uses independently parsed goods and mandatory shipping');
+check(verified.sources[0].deliveryFreeThreshold===40000&&verified.sources[0].deliveryFlatAmount===3000,'Only the verified adapter supplies the basket shipping threshold');
+const supplied={...verified.sources[0],originalPrice:1,deliveryAmount:0};
+const wrong={...analysis,model:'Yegam Original 42g one box',identifiedNameZh:'Orion Yegam 原味42g',identifiedNameEn:'Orion Yegam Original 42g',sources:[supplied]};
+check((await verifyKurlyPhoto(wrong,async()=>{throw Error('Must not research a replacement');})).sources.length===0,'42g is never silently substituted with a192g merchant page');
+check((await verifyKurlyPhoto({...analysis,needsProductChoice:true,sources:[supplied]},transport())).sources.length===0,'A collage cannot inherit a quote from a known source URL');
+check((await verifyKurlyPhoto({...analysis,confidence:.7,sources:[supplied]},transport())).sources.length===0,'An uncertain identity does not become a verified SKU');
+check((await verifyKurlyPhoto({...analysis,sources:[supplied]},transport({...product,dealProducts:[{...option,isSoldOut:true}]}))).sources.length===0,'Sold-out retailer data cannot retain an AI-supplied price');
+check((await verifyKurlyPhoto({...analysis,sources:[supplied]},transport({...product,dealProducts:[{...option,buyUnit:6}]}))).sources.length===0,'A six-box minimum is not priced as one purchasable box');
+check((await verifyKurlyPhoto({...analysis,sources:[supplied]},transport({...product,deliveryTypeInfos:[{deliveryFeeDescription:'Unverified shipping'}]}))).sources.length===0,'Unknown delivery terms stay unresolved');
+check((await verifyKurlyPhoto({...analysis,sources:[supplied]},transport({...product,dealProducts:[{...option,membershipLabels:['member-only']}]}))).sources.length===0,'Member-only offers are not silently treated as public pricing');
+check((await verifyKurlyPhoto({...analysis,sources:[supplied]},async()=>new Response('Unavailable',{status:503}))).sources.length===0,'Merchant failure does not use a cached invented amount');
+const collage=await verifyKurlyPhoto({...analysis,model:'Yegam pictured weights and pack quantities unresolved',identifiedNameEn:'Orion Yegam Original and Cheese Gratin assortment pictured',needsProductChoice:true},transport());check(collage.needsProductChoice&&collage.retailerChoices.length===2&&!collage.sources.length,'A recognised family offers exact current packages without quoting the collage');const selected=await selectKurlyChoice(collage,'5095165',transport());check(selected?.sources[0].originalPrice===3580&&selected.model.includes('192g')&&!selected.needsProductChoice,'Only an explicit valid retailer-package selection produces its exact quote');check(await selectKurlyChoice(collage,'unknown-id',transport())===null,'Client-supplied unknown merchant IDs cannot become quotes');
+const unclearSize=await verifyKurlyPhoto({...analysis,confidence:.5,familyConfidence:.95},transport());check(unclearSize.needsProductChoice&&unclearSize.retailerChoices.length===2&&!unclearSize.sources.length,'Known family with uncertain size is offered choices without inflating photo certainty');const explicit=await selectKurlyChoice(unclearSize,'5095165',transport());check(explicit.confidence===.5&&explicit.retailerChoiceId==='5095165','Buyer confirmation verifies the requested SKU while preserving the uncertain photo score');
+await mkdir('verification/r24',{recursive:true});await writeFile('verification/r24/kurly-evidence-checks.json',JSON.stringify({checks,scope:'Isolated adapter using minimal independently inspected merchant facts and deliberately invalid variants; no live AI calls or orders'},null,2)+'\n');

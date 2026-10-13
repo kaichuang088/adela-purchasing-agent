@@ -1,23 +1,26 @@
 {
-  "scope": "Generated branch PDFs; not published on Netlify",
+  "at": "2026-10-13T20:38:14.093081+00:00",
+  "scope": "Fresh PDFs from actual isolated phone screenshots; branch review artifacts, not live Netlify",
   "files": [
     {
       "role": "Front",
       "file": "public/manuals/Adela_R24_Front_Mobile_Guide.pdf",
       "pages": 10,
-      "bytes": 1021920,
-      "sha256": "4e36be72bfa2d7c405889e95e51e0bd5266c3c0df4bf6b8767a594d1b6681a27",
+      "bytes": 1116557,
+      "sha256": "9567eeb32a16e49a80047d106de9d7f9df3ad7c806c0ac6593f51125fa10de5c",
       "has60Twd": true,
-      "adminLinkPresent": false
+      "adminLinkPresent": false,
+      "status": "branch artifact, not published"
     },
     {
       "role": "Admin",
       "file": "public/manuals/Adela_R24_Admin_Mobile_Guide.pdf",
       "pages": 10,
-      "bytes": 932517,
-      "sha256": "b5f982a57b5e7132a2dbed3e46d476249676fa7400226f88efd5273fa8bb5110",
+      "bytes": 934536,
+      "sha256": "c0861098d173e11142b5123c5141fb048a46492e4acbad0604a3cc956b3b2504",
       "has60Twd": true,
-      "adminLinkPresent": true
+      "adminLinkPresent": true,
+      "status": "branch artifact, not published"
     }
   ]
 }

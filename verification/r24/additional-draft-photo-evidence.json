@@ -1,0 +1,33 @@
+[
+  {
+    "id": 199,
+    "url": "https://lelabokorea-java.s3.amazonaws.com/images/content/289_ONE_SIZE_IMAGE_01_13138_-1732104029.jpg",
+    "source": "https://www.lelabofragrances.co.kr/cityexclusives-citron28-seoul.html",
+    "local": "/catalog-r24/d5362a5082cefe44d1e0d042.jpg",
+    "bytes": 1407121,
+    "visuallyInspected": true,
+    "photoIsOfficial100mlFamilyScene": true,
+    "noPriceOrSupplyClaims": true
+  },
+  {
+    "id": 148,
+    "source": "https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711",
+    "itemId": "1000005403036",
+    "caption": "집시 워터 (GYPSY WATER) 오드퍼퓸 50ml",
+    "url": "https://sitem.ssgcdn.com/36/30/40/item/1000005403036_i1_290.jpg",
+    "local": "/catalog-r24/43ffcc9dddbfddf336d5c1ae.jpg",
+    "bytes": 4393,
+    "skuPriceStillUnresolved": true
+  },
+  {
+    "id": 28,
+    "sourcePage": "https://www.bing.co.kr/product/detail?PDT=123",
+    "original": "https://www.bing.co.kr/upload/product/2026/09/a49bbda6-193b-4eab-a389-837560fb6122.png",
+    "local": "/catalog-r24/ab09aa997c997e15be43c37b.png",
+    "sha256": "d08625628c68cd41b5e6f4d909549b9973fbc0ce068e01155a876d9c73db2764",
+    "bytes": 49120,
+    "checkedAt": "2026-10-13T20:29:22.206929+00:00",
+    "visualInspection": "Actual original Banana Flavored Milk bottle; not a logo or generated substitute",
+    "status": "photo_only_product_spec_price_supply_cold_chain_still_pending"
+  }
+]

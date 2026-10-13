@@ -1,6 +1,6 @@
 {
   "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
-  "checked": 73,
+  "checked": 101,
   "failed": 0,
   "images": [
     {
@@ -440,6 +440,174 @@
       "local": "/catalog-r24/600e2289717aba84624d8743.jpg",
       "width": 600,
       "height": 600
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_360--YLANG49--1086685038.jpg",
+      "local": "/catalog-r24/09b7726528f10af218ae9e05.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_360--NEROLI36-1023251435.jpg",
+      "local": "/catalog-r24/80d16a197709b1306b603f2e.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_360--TONKA25-366282042.jpg",
+      "local": "/catalog-r24/0f7ff8ae1bb41931d38a0307.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1BR01R000__PRODUCT_01--IMG_360--30VIOLETTE30-177118657.jpg",
+      "local": "/catalog-r24/cc157d338fb20e90fba10668.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PL18100__PRODUCT_01--IMG_360--LABDANUM18--1284184794.jpg",
+      "local": "/catalog-r24/08b1b464457f9e63a37a1ae5.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PV46100__PRODUCT_01--IMG_360--VETIVER46-1366854732.jpg",
+      "local": "/catalog-r24/04f2b5784d696a81ab92474b.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/100PL41100__PRODUCT_01--IMG_360--LYS41-1877854332.jpg",
+      "local": "/catalog-r24/55fc7f771473ac8e54218d6c.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J2K401R000__PRODUCT_01--IMG_360--BAIE19-2140360648.jpg",
+      "local": "/catalog-r24/ba400d3e80f836a75e1024f8.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0W9010000__PRODUCT_01--IMG_360--HANDSOAP--1621442042.jpg",
+      "local": "/catalog-r24/735d842c37a7fecd924bcb5c.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J1X8010000__PRODUCT_01--IMG_360--HANDSOAP-552725310.jpg",
+      "local": "/catalog-r24/426ca95e2ffc724f28a3767d.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0WP010000__PRODUCT_01--IMG_360--SHOWERGEL--583435731.jpg",
+      "local": "/catalog-r24/e84806c04c81f5b3325d7efe.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_360--HANDPOMADE--895834976.JPG",
+      "local": "/catalog-r24/60cff684d018c8dbbfc906b1.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/7d682e1ccceafd2b3137af8f11e29f63.png",
+      "local": "/catalog-r24/7c87c6981182cc4ddae1512a.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/65a1684a3425b34ed02112ca5e211836.png",
+      "local": "/catalog-r24/91fb228965ca4c45ed6939b8.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/6e8f8aa5b088e5f53952daf909dc36d9.png",
+      "local": "/catalog-r24/3fb3f31f70b4d6fb748cadbc.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/c6bafeb67b65e636a083d1913cb91aee.png",
+      "local": "/catalog-r24/506d3e7f895055334d184b19.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/3b66ce871a3c28b43b27756cfdb3004c.png",
+      "local": "/catalog-r24/9dce6921d01a0ad44ff90234.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/8d31ecc8f226ad560892cf1e854e2cbf.png",
+      "local": "/catalog-r24/f8c6d3ec6a14fb06e74728bb.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/6f050c269f3da032a9e6fd7340a49527.png",
+      "local": "/catalog-r24/f97830a894d33315528b1c66.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://www.orionworld.com/upload/goods/a37e28952e575f1a4c26d5bae6b475fc.png",
+      "local": "/catalog-r24/810f3bd6cc3349833c4a3bed.png",
+      "width": 468,
+      "height": 468
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0SG010000__PRODUCT_01--IMG_360--13ANOTHER13-60439288.jpeg",
+      "local": "/catalog-r24/eccc3ae18cd255f43e5cedee.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/content/289_ONE_SIZE_IMAGE_01_13138_-1732104029.jpg",
+      "local": "/catalog-r24/d5362a5082cefe44d1e0d042.jpg",
+      "width": 2280,
+      "height": 1000
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/36/30/40/item/1000005403036_i1_290.jpg",
+      "local": "/catalog-r24/43ffcc9dddbfddf336d5c1ae.jpg",
+      "width": 290,
+      "height": 290
+    },
+    {
+      "source": "https://1010online.com.tw/media/catalog/product/cache/5a14358c3bfa1e6937786fba319f561a/d/i/di_dirosep75c_2_2.jpg",
+      "local": "/catalog-r24/76a6c5e2bd8f22664041c487.jpg",
+      "width": 750,
+      "height": 750
+    },
+    {
+      "source": "https://img-cf.kurly.com/shop/data/goods/1635418507102l0.jpg",
+      "local": "/catalog-r24/f2ae600cf07a268624509602.jpg",
+      "width": 550,
+      "height": 708
+    },
+    {
+      "source": "https://product-image.kurly.com/product/image/7dcdd76c-508a-42c6-bb25-34734a7644a7.png",
+      "local": "/catalog-r24/21c62d3e210fd7601ddfae02.png",
+      "width": 720,
+      "height": 936
+    },
+    {
+      "source": "https://product-image.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/product/image/7dcdd76c-508a-42c6-bb25-34734a7644a7.png",
+      "local": "/catalog-r24/21c62d3e210fd7601ddfae02.png",
+      "width": 720,
+      "height": 936
+    },
+    {
+      "source": "https://www.bing.co.kr/upload/product/2026/09/a49bbda6-193b-4eab-a389-837560fb6122.png",
+      "local": "/catalog-r24/ab09aa997c997e15be43c37b.png",
+      "width": 444,
+      "height": 460
     }
   ]
 }

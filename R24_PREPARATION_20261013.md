@@ -1,55 +1,39 @@
-# R24 corrective preparation — NOT published
+# R24 correction — source backup, NOT published
 
-The owner rejected the R23 release because195 catalog issues remained. R24 must not be published until genuine source/specification/cost verification is complete, original product photos are available, and a current balance supports at least750 remaining credits. Original R23 production URLs, deployment IDs, Worker, D1 and secret bindings remain unchanged. This round has zero production deployments, zero paid AI calls and zero real orders, member balance changes or emails sent.
+The owner requires a genuine catalog count of0 and at least750 Netlify credits remaining before another publication. The original R23 front/admin deployments, Cloudflare Worker, D1,13 bindings, financial ledgers and conversations remain unchanged. This corrective work has made zero production deployments, zero paid model calls, and no real orders, balance transactions or new emails.
 
-Verified application-code commit: `dd0fa6354901524d7e01d12eac6b4e861b9571b0`. Later handoff-only edits do not change that application code.
+Branch: `codex/r24-correction-20261013`. Use current Git HEAD for the application, evidence and guides; the earlier `dd0fa635` snapshot is superseded. Read-only Netlify inspection on2026-10-13 confirmed both original sites still have no repository build linkage, so the authorized GitHub branch backup does not trigger Netlify builds. The usage endpoint returned404 and the account capability counter reported0 used; neither proves the current balance. The previous estimate797.4 is not an authoritative balance.
 
-The local corrective branch is `codex/r24-correction-20261013`. GitHub branch backup is authorized and the original Netlify sites have no GitHub automatic builds.
+## Latest corrections
 
-## Completed local changes
+- The assisted-order page now handles only ordering. Account creation moved to member management. The order page has member search, photo/name/brand/product or variant-ID search, explicit specification buttons, multiple compact photo rows, quantity controls and a responsive order summary. Existing estimate/approval/idempotency/payment-validation rules remain.
+- A read-only inspection found the actual failed Orion Yegam photo job: the model recognised the family and multiple flavors, but pictured weights and package quantities were unresolved. Its cited64g pickup candidate did not establish exact match, delivery or stock. No retry was sent to the paid provider.
+- The new photo flow distinguishes family recognition from exact SKU confidence. An ambiguous photo asks for a selection rather than quoting the collage as a mixed bundle. Two independently inspected current Kurly boxes are offered for explicit consent: Original192g (16g×12) or Cheese Gratin204g (17g×12). The interface says these may differ from the pictured package.
+- Choosing a known merchant package refreshes price, availability, quantity and delivery without another paid vision call. It does not inflate photo confidence. Quotes use the selected merchant package photo, retain original private evidence, charge verified basket shipping, and create no order before buyer acceptance. Unknown IDs/client prices cannot become quotes. Confirming a different specification creates an independently scoped job and prevents duplicate paid work and stale callbacks.
+- Background research retains the visual identity and confirmed specification. Package choices stop after identification; rejected completion/model mismatch cannot trigger the next paid stage. Modal headings, photos and controls fit phone/desktop viewports.
 
-- New ordinary Taiwan delivery60TWD; priority80 and Diamond0 retained. Historical snapshots keep their original amounts, including50TWD delivery.
-- Simplified buyer and admin chat: compact header, conversation and composer; removed photo-card menus and repeated order cards. Enter/IME safeguards and admin operation confirmations remain.
-- Buyers can start a new conversation but cannot list, reopen, write into or export archived sessions. The server enforces this. Admins can view all of a selected buyer's sessions and associated orders and export them. Data is retained; updates to an old archive cannot make it the buyer's active session.
-- Mobile cart remains a full page with all five working bottom tabs. The chat composer fits above the tabs.
-- Member cards show identity, KRW spending, miles and credit/actions without overlapping rows or nested panels.
-- All73 existing external catalog-image URLs are cached as unedited originals and decoded successfully. Known old Aesop URLs are repaired in order cards, item progress and procurement lists without rewriting financial JSON. All active products in the inspected snapshot have an original photo;33 draft/reference records still do not. This is not a claim that every requested reference has been resolved.
-- New Brevo/Resend payloads include Adela-branded responsive HTML: gray background, brand header, order/member/status/amount/date details, product table and buyer-site link. Escaping and immutable retry payloads are preserved. Previously sent/accepted emails are not resent. Rendering and mock-provider integration passed; the new template is not live or inbox-tested.
-- R24 front/admin mobile PDFs use the verified phone layouts. Front guide has no admin link or buyer history/backup instructions; it explains new chat, phone notifications and home-screen installation. Ordinary delivery60 is documented.
+Previously prepared R24 changes remain: ordinary Taiwan delivery60, priority80, Diamond0, historical50 snapshots preserved; compact buyer/admin chat and Enter/IME handling; server-enforced current-chat-only buyer access, new conversations allowed, archives/exports admin-only; mobile full-page cart and five working tabs; repaired historical item/procurement photos without financial rewrites; aligned member cards; Adela-branded responsive transactional email with gray background, header/details/product tables, escaping and buyer-only links. The new template has not been deployed or inbox-tested.
 
-## Catalog status —188 genuinely pending
+## Genuine catalog progress and gaps
 
-Read-only production snapshot:199 product records,181 Korean records after the existing country filter.285 original source URLs re-read:249 returned200;144 supplied structured data. A readable page is not approval.152 products with outstanding issues were searched for additional Taiwan sources; only7 searches produced candidates and16 failed. Search results, unrelated variants and snippets were not converted into fabricated evidence.
+An isolated D1 was seeded with the199-row production read-only snapshot. The existing country filter exposes181 Korean rows.47 guarded row patches apply locally:29 source/specification patches and18 photo-only partial patches. Guarded updates preserve any newer merchant edit. Source work reduced the actual unresolved option/record count from188 to165. No live catalog mutation occurred.
 
-Six guarded patches were prepared from actual inspected rows:
+The29 source patches include the earlier Aesop and Round Lab work,12 additional exact Le Labo KR/TW SKU/size checks, Mardi White Green, genuinely sold-out Byredo Blanche hand cream30ml, LRP lip balm7.5ml, and eight exact Olive Young/Momo comparisons. Required Korean shipping is included. The Torriden lip comparison no longer uses a two-pack price for one11ml item. Official Le Labo current prices, availability and40k-free-shipping conditions were checked; gross acquisition costs remain intact. No commercial VAT refund is fabricated.
 
-- Aesop153 Resurrection hand balm75mL: KR42000, TW1050; same official BM06 product/size, differing regional SKUs explicitly recorded.
-- Aesop154 hand wash500mL **pump**: KR58000, TW1350; matching global SKU. The55000KRW refill is not substituted.
-- Aesop180 Rozu Arises and181 Boundless Eremia50mL: KR245000, TW6200, matching50mL SKUs, current availability and free official KR delivery.
-- Round Lab19 **200mL option only**: KR11900 plus necessary2500 delivery, TW359 public offer, current KR source sold out. The unverified500mL option is unchanged.
-- Round Lab20 sunscreen50mL: KR22500, qualifying free KR delivery, TW469 public offer.
+101 source-photo URLs resolve to100 cached original/merchant-supplied thumbnail files and decode successfully. Missing draft/reference photos dropped from33 to10. Some supplied pictures identify only a product family; they do not establish every flavor, size, price or supply. Those records remain draft/research and remain in the audit. CITRON28 has an official100ml display photo, not confirmed15/50ml package photos or current Seoul boutique prices.
 
-Patches require exact commerce/status/price/timestamp equality and preserve newer merchant edits. They have been applied only to disposable local D1 during verification. No live catalog changes were made.
+Remaining issues include86 missing same-spec Taiwan comparison cases,17 incomplete evidence cases,6 unapproved cost conflicts, ambiguous reference models, old/limited editions, current supply and cold-chain requirements. Search candidates and HTTP200 are not completion. Search challenges,429/404 pages and blocked hosts are not proof a product is unavailable. Products were not hidden, retired or falsely marked sold out to lower the count.
 
-188 unresolved options/records remain listed in `verification/r24/catalog-followup.csv`; original product statuses and history are retained. Fully evidenced sold-out items and policy-approved subsidies are visibly listed under reviewed outcomes, rather than pretending they lack evidence. Stock0 still forbids ordering and gross costs remain visible. Tests explicitly show that missing Taiwan/Korean evidence, missing shipping conditions, research records and unapproved cost conflicts cannot disappear through this classification.
+Required source/photo hosts were added additively to the cloud environment draft, including Nongshim/HBAF/Lotte CDNs, Kurly search, PChome search and Momo image hosts. Saving the draft does not activate network access. The owner must apply/review the environment configuration before those blocked operations can resume. This is separate from Netlify publication and does not publish the shop. The Korean-exclusive Taiwan-comparison policy question remains pending; do not apply an unanswered exemption.
 
-Major remaining groups:96 missing Taiwan same-specification references,36 draft records without verified source/specification/cost,22 incomplete evidence cases,6 unresolved cost conflicts, plus reference-model, edition, supply and cold-chain questions. CITRON28 current Seoul boutique15/50/100mL prices remain unavailable from the inspected October official web pages. The owner has been asked for these prices and whether unidentifiable reference products may be replaced with verified current models. No replies yet.
+## Validation and release gate
 
-## Evidence and publication gate
+394 named isolated checks passed: workflow90, financial29, pricing29, email transport6, HTML8, catalog outcomes8, responsive UI166 at375/390/430/1280, photo jobs27, Kurly verifier15, source ranking7, background orchestration9. Provider/mail responses in tests are mocked. Original photos decode; the email renders at390/900. Type checking and backend/front/admin builds passed. The newest extra photo changed catalog assets only; the Worker/static artifacts were rebuilt afterwards.
 
-`verification/r24/` contains source facts, guarded patch evidence, named test reports, original-photo decoding records, responsive email preview and phone/desktop screenshots. Financial and pricing regression reports come from tests re-run against the corrective compiled Worker. All model/provider interactions in those tests are mocked.
+Fresh Front/Admin PDFs have10 pages each, current phone screenshots,60 delivery, notification/home-screen instructions and package-choice guidance. The Front PDF has no admin link, admin-order chapter or buyer-history/export instructions. These are clearly labelled pending-publication guides. Use immutable raw GitHub downloads after branch backup; local preview links previously failed for the owner.
 
-- Workflow90 checks; financial29; pricing29; email transport6; HTML template8; catalog classification8; mobile134. Total304 named checks.
--73 original photos decoded; responsive email rendered at390 and900px.
-- Type checking and backend/front/admin local builds passed.
-- `node scripts/check-r24-release-gate.mjs` **exits1 intentionally**:188 unresolved issues,33 draft/reference photos missing, actual current credit balance unconfirmed. This is a blocked release, not a passing deployment check.
+`node scripts/check-r24-release-gate.mjs` intentionally exits1:165 actual issues,10 missing draft/reference photos, current balance unconfirmed. This is a blocked release, not a passing deployment check. Do not create Netlify candidates or publish while this gate is false. Future two-site publication budget30 must leave750; no topups/purchases or bulk paid research.
 
-The last owner baseline827.4 minus the **previous R23** two15-credit revisions estimates797.4 before other usage. The Netlify API usage counter lagged; do not use it or the estimate as an authoritative current balance. Future two-site publication budget30 must leave750. Do not create Netlify candidates, call paid research in batches or restore the already-published R23 deployments again.
+Actual iPhone system push was previously confirmed by the owner. Physical Android delivery, full new live photo-quote accuracy and new HTML email inbox delivery remain unverified. The prior Brevo owner test was accepted after API-key correction; do not resend it. No new Email credentials are needed for this preparation.
 
-Actual iPhone push delivery was confirmed by the owner in the prior round. Physical Android delivery, full real-provider photo-quote accuracy, and new HTML email inbox delivery are still unverified. Existing Brevo authentication/sender settings were already corrected; do not ask for or dump API keys.
-
-R24 guides are branch artifacts until publication:
-`public/manuals/Adela_R24_Front_Mobile_Guide.pdf`
-`public/manuals/Adela_R24_Admin_Mobile_Guide.pdf`
-
-Use actual GitHub raw download links for review; workspace preview links previously failed for the owner. The source backup is not a live database/financial/conversation backup or platform ownership transfer. Read `PROJECT_STATE.json` and this file for corrective status; `R23_DEPLOYMENT_20261013.md` remains the authoritative record of the unchanged live release.
+Evidence and remaining rows are in `verification/r24/`, including `check-summary.json`, `catalog-remaining.json`, `catalog-followup.csv/json`, source/partial-photo proofs, failed-photo diagnosis, screenshots and PDF hashes. `PROJECT_STATE.json` tracks the corrective status; `R23_DEPLOYMENT_20261013.md` records the unchanged live release. Source backup is not a live D1/conversation backup or ownership transfer.

@@ -6,13 +6,15 @@ export type QuoteSourceResult=
  | {kind:'ready';source:PriceSource;amount:number;priceBasis:'local_after_tax_refund'|'local_tax_included';conditions:string}
  | {kind:'unrecognized'|'not_sold'|'out_of_stock'};
 
-const identified=(analysis:ProductAnalysis)=>analysis.confidence>=.72&&Boolean((analysis.model||analysis.brand||analysis.identifiedNameZh||analysis.identifiedNameEn).trim());
+// retailerChoiceId is stripped from AI output and assigned only after the
+// server verifies a known SKU. It does not inflate the original photo score.
+const identified=(analysis:ProductAnalysis)=>(analysis.confidence>=.72||Boolean(analysis.retailerChoiceId))&&Boolean((analysis.model||analysis.brand||analysis.identifiedNameZh||analysis.identifiedNameEn).trim());
 
-export function selectQuoteSource(analysis:ProductAnalysis,country:Country):QuoteSourceResult{
+export function selectQuoteSource(analysis:ProductAnalysis,country:Country,quantity=1,goodsFactor=1):QuoteSourceResult{
  if(!identified(analysis))return{kind:'unrecognized'};
  const local=analysis.sources.filter(source=>source.exactMatch&&source.localCountry===country&&source.currency===countries[country].currency);
  if(!local.length)return{kind:'not_sold'};
- const stocked=local.filter(source=>source.inStock&&Number(source.originalPrice||source.priceTaxIncludedJpy)>0);
+ const stocked=local.filter(source=>source.inStock&&Number(source.originalPrice||source.priceTaxIncludedJpy)>1);
  if(!stocked.length)return{kind:'out_of_stock'};
  const options=stocked.map(source=>{
   const refunded=Boolean(source.taxFreeEligible&&source.taxFreeForResale&&Number(source.afterTaxPrice)>0);
@@ -20,7 +22,14 @@ export function selectQuoteSource(analysis:ProductAnalysis,country:Country):Quot
   const amount=refunded&&country==='JP'?departmentStoreRefundPrice(taxIncluded,analysis.taxRatePercent,DEFAULT_DEPARTMENT_STORE_REFUND_FEE_PERCENT):refunded?Number(source.afterTaxPrice):taxIncluded;
   const jpNotice=`日本百貨免稅估算已加計 ${DEFAULT_DEPARTMENT_STORE_REFUND_FEE_PERCENT}%（未稅商品價）退稅手續費；實際退稅仍須符合旅客資格並完成出境確認。`;
   return{kind:'ready' as const,source,amount,priceBasis:refunded?'local_after_tax_refund' as const:'local_tax_included' as const,conditions:refunded?(country==='JP'?jpNotice:String(source.taxFreeConditions||'已依商家公開退稅條件計算。')):'未取得適用本次代購交易的退稅證明，因此採用當地商家含稅現價。'};
- }).filter(result=>Number.isFinite(result.amount)&&result.amount>0).sort((a,b)=>a.amount-b.amount);
+ }).filter(result=>Number.isFinite(result.amount)&&result.amount>1);
+ const deliveryKnown=(s:PriceSource)=>s.deliveryConfirmed===true&&Number.isFinite(s.deliveryAmount)&&s.deliveryAmount!>=0&&Boolean(s.deliveryConditions?.trim())&&['per_order','per_unit'].includes(s.deliveryBasis||'');
+ const landed=(r:typeof options[number])=>{
+  const s=r.source,q=Math.max(1,quantity),free=s.deliveryBasis==='per_order'&&Number.isFinite(s.deliveryFreeThreshold)&&s.deliveryFreeThreshold!>0&&Number.isFinite(s.deliveryFlatAmount)&&s.deliveryFlatAmount!>=0;
+  const delivery=free?(r.amount*q>=s.deliveryFreeThreshold!?0:s.deliveryFlatAmount!):s.deliveryAmount!;
+  return r.amount*q*(r.priceBasis==='local_tax_included'?goodsFactor:1)+delivery*(s.deliveryBasis==='per_unit'?q:1);
+ };
+ options.sort((a,b)=>Number(deliveryKnown(b.source))-Number(deliveryKnown(a.source))||(deliveryKnown(a.source)?landed(a)-landed(b):a.amount-b.amount));
  return options[0]||{kind:'not_sold'};
 }
 

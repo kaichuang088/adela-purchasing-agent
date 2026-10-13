@@ -1,0 +1,33 @@
+{
+  "checks": 27,
+  "scope": "Isolated D1 and mock queue/provider evidence; no live data or provider calls",
+  "cases": [
+    "Upload queues work without fake pricing or an order",
+    "Public caller cannot claim private photo jobs",
+    "Claim returns the configured model and required evidence research",
+    "Concurrent claim cannot call the provider twice",
+    "Anonymous caller cannot poll member photos",
+    "Another member cannot poll a private photo",
+    "Completed synthetic research uses real server pricing rules: {\"total\":610,\"goods\":500,\"fee\":50,\"shipping\":60}",
+    "Duplicate callback cannot rewrite a quoted result",
+    "Cancelled jobs cannot become quotes",
+    "Missing merchant evidence remains a failed quote",
+    "Provider failure remains explicit to the owner",
+    "A collage stops before research and does not invent a mixed-bundle price",
+    "The buyer receives visible choices and no fake price",
+    "An unselected collage cannot be purchased",
+    "Blank specification cannot trigger another AI job",
+    "Selection creates one new independently scoped research job",
+    "Repeated selection cannot spend twice on the old draft",
+    "A delayed old callback cannot overwrite the selected specification",
+    "Confirmed specification is included in the subsequent real research input",
+    "A chosen exact variant can advance to a verified quote",
+    "Actual failure shape receives two independently verified merchant-package choices",
+    "A client cannot inject its own price or unverified merchant option",
+    "Chosen192g package includes current3580KRW,3000shipping,10%member fee and60Taiwan delivery at the isolated025rate",
+    "Known retailer selection rechecks one merchant and never repeats paid vision",
+    "Duplicate package confirmation returns the same quote without spending twice",
+    "The quote shows the selected retailer package rather than substituting the original collage",
+    "Background research creates no order or wallet transaction"
+  ]
+}

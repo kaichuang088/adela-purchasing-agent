@@ -1,4 +1,5 @@
 import {verifyKnownKoreanPhoto} from '@/lib/korean-photo-evidence';
+import {selectKurlyChoice} from '@/lib/kurly-photo-evidence';
 import {requestPhotoReview} from '@/lib/photo-inquiries';
 import {quoteDraft} from '@/lib/photo-quote-pricing';
 import {aiConfiguration,aiConnection} from '@/lib/ai-config';
@@ -22,7 +23,7 @@ import {AI_PHOTO_MAX_BYTES} from '@/lib/photo-input';
 
 async function identifyAndQuote(draft:Record<string,unknown>,member:Member){
  const db=rawDb();
- if(draft.analysis_json){const analysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis;return{analysis,pricing:await quoteDraft(draft,member,analysis)};}
+ if(draft.analysis_json){const analysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis;return analysis.needsProductChoice?{state:'identified',analysis}:{state:'quoted',analysis,pricing:await quoteDraft(draft,member,analysis)};}
  if(!aiConfiguration(env).configured)throw new ShopError('AI 查價尚未啟用。 / AI pricing is not enabled.',409);
  const claimed=await db.prepare("UPDATE kk_photo_drafts SET state='analyzing' WHERE id=? AND state IN ('uploaded','failed')").bind(draft.id).run();
  if(!claimed.meta.changes)throw new ShopError('AI 正在辨識與查價，請稍候。 / AI is researching this item.',409);
@@ -33,8 +34,15 @@ async function identifyAndQuote(draft:Record<string,unknown>,member:Member){
   const analysis=String(draft.country)==='KR'?await verifyKnownKoreanPhoto(identifiedAnalysis):identifiedAnalysis;
   const saved=await db.prepare("UPDATE kk_photo_drafts SET state='identified',analysis_json=? WHERE id=? AND state='analyzing'").bind(JSON.stringify(analysis),draft.id).run();
   if(!saved.meta.changes)throw new ShopError('已取消此查價。 / Search cancelled.',410);
-  return{analysis,pricing:await quoteDraft({...draft,analysis_json:JSON.stringify(analysis)},member,analysis)};
+  return analysis.needsProductChoice?{state:'identified',analysis}:{state:'quoted',analysis,pricing:await quoteDraft({...draft,analysis_json:JSON.stringify(analysis)},member,analysis)};
  }catch(e){await db.prepare("UPDATE kk_photo_drafts SET state='failed' WHERE id=? AND state='analyzing'").bind(draft.id).run();if(e instanceof ShopError)throw e;console.error('photo_quote_ai_failed',e);throw new ShopError('AI 查價服務暫時無法連線，請稍後重試；尚未建立訂單。 / The AI pricing service is temporarily unavailable. Retry later; no order was created.',503);}
+}
+
+async function queuePhotoJob(id:string){
+ const target=new URL(env.KK_AI_PHOTO_JOB_URL||''),gateway=new URL(env.KK_AI_GATEWAY_URL||'');
+ if(target.protocol!=='https:'||target.origin!==gateway.origin||target.pathname!=='/.netlify/functions/ai-photo-background')throw new Error('Invalid photo job endpoint');
+ const queued=await fetch(target,{method:'POST',headers:{'Content-Type':'application/json','X-KK-AI-Gateway-Secret':env.KK_AI_GATEWAY_SECRET||''},body:JSON.stringify({id}),signal:AbortSignal.timeout(10000)});
+ if(queued.status!==202)throw new Error('Photo job not accepted');
 }
 
 export async function POST(request:Request){try{
@@ -56,17 +64,14 @@ export async function POST(request:Request){try{
   const draft=await db.prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).first();
   if(env.KK_AI_PHOTO_JOB_URL){
    try{
-    const target=new URL(env.KK_AI_PHOTO_JOB_URL),gateway=new URL(env.KK_AI_GATEWAY_URL||'');
-    if(target.protocol!=='https:'||target.origin!==gateway.origin||target.pathname!=='/.netlify/functions/ai-photo-background')throw new Error('Invalid photo job endpoint');
-    const queued=await fetch(target,{method:'POST',headers:{'Content-Type':'application/json','X-KK-AI-Gateway-Secret':env.KK_AI_GATEWAY_SECRET||''},body:JSON.stringify({id}),signal:AbortSignal.timeout(10000)});
-    if(queued.status!==202)throw new Error('Photo job not accepted');
+    await queuePhotoJob(id);
     return privateJson({id,state:'pending'},202);
    }catch{await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).run();await deleteMedia(imageKey);throw new ShopError('背景查價暫時無法啟動；尚未建立訂單。 / Photo research could not start. No order was created.',503);}
   }
-  try{const result=await identifyAndQuote(draft!,member);return privateJson({id,state:'quoted',...result},201);}
+  try{const result=await identifyAndQuote(draft!,member);return privateJson({id,...result},201);}
   catch(e){await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).run();await deleteMedia(imageKey);throw e;}
  }
- const body=await request.json() as {id?:string;action?:string;approvedAt?:string;approvedTotal?:number;paymentMethod?:string;quantity?:number;shippingAddress?:unknown};
+ const body=await request.json() as {id?:string;action?:string;detail?:string;choiceId?:string;approvedAt?:string;approvedTotal?:number;paymentMethod?:string;quantity?:number;shippingAddress?:unknown};
  const draft=await db.prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(String(body.id||''),member.id).first();
  if(!draft)throw new ShopError('找不到此查價。 / Photo quote not found.',404);
  const id=String(draft.id),now=new Date().toISOString();
@@ -80,6 +85,43 @@ export async function POST(request:Request){try{
  }
  if(draft.state==='discarded'||String(draft.expires_at)<=now)throw new ShopError('查價已失效，請重新上傳。 / Quote expired. Upload again.',410);
  enabledCountry(draft.country,(await settings()).enabledCountries);
+ if(body.action==='select_source'){
+  await requirePhotoQuotesOpen();
+  if(draft.country!=='KR'||!draft.analysis_json)throw new ShopError('請先完成商品辨識。 / Identify the item first.',409);
+  const analysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis,choiceId=String(body.choiceId||'');
+  if(draft.state==='quoted'&&analysis.retailerChoiceId===choiceId&&draft.pricing_json)return privateJson({id,state:'quoted',analysis,pricing:JSON.parse(String(draft.pricing_json))});
+  if(draft.state!=='identified'||!analysis.retailerChoices?.some(c=>c.id===choiceId))throw new ShopError('找不到已核對的包裝選項。 / Verified package option not found.',409);
+  const locked=await db.prepare("UPDATE kk_photo_drafts SET state='selecting' WHERE id=? AND member_id=? AND state='identified'").bind(id,member.id).run();
+  if(!locked.meta.changes)throw new ShopError('包裝確認正在處理。 / Package confirmation is in progress.',409);
+  let selectedJson='';
+  try{
+   const selected=await selectKurlyChoice(analysis,choiceId);if(!selected)throw new ShopError('這個商家包裝的價格或供貨已更新，請重新選擇；未建立訂單。 / Retailer price or availability changed. No order was created.',422);
+   selectedJson=JSON.stringify(selected);
+   const saved=await db.prepare("UPDATE kk_photo_drafts SET state='identified',analysis_json=? WHERE id=? AND member_id=? AND state='selecting'").bind(selectedJson,id,member.id).run();
+   if(!saved.meta.changes)throw new ShopError('查價已取消。 / Quote cancelled.',410);
+   return privateJson({id,state:'quoted',analysis:selected,pricing:await quoteDraft(draft,member,selected)});
+  }catch(e){await db.prepare("UPDATE kk_photo_drafts SET state='identified' WHERE id=? AND member_id=? AND state='selecting'").bind(id,member.id).run();if(selectedJson)await db.prepare("UPDATE kk_photo_drafts SET analysis_json=? WHERE id=? AND member_id=? AND state='identified' AND analysis_json=?").bind(draft.analysis_json,id,member.id,selectedJson).run();throw e;}
+ }
+ if(body.action==='refine'){
+  await requirePhotoQuotesOpen();
+  if(!['identified','failed'].includes(String(draft.state)))throw new ShopError('請等待辨識完成再選擇規格。 / Wait for identification before selecting a specification.',409);
+  const detail=String(body.detail||'').trim();if(!detail||detail.length>400)throw new ShopError('請填寫口味、容量與包裝（400 字以內）。 / Enter flavor, size and packaging (up to 400 characters).');
+  const image=await getMedia(String(draft.image_key));if(!image)throw new ShopError('照片已到期，請重新上傳。 / Photo expired. Upload again.',410);
+  const nextId=crypto.randomUUID(),nextKey='quote-drafts/'+nextId;
+  const claimed=await db.prepare("UPDATE kk_photo_drafts SET state='refining' WHERE id=? AND member_id=? AND state IN ('identified','failed') AND expires_at>?").bind(id,member.id,now).run();
+  if(!claimed.meta.changes)throw new ShopError('規格確認正在處理，請稍候。 / Specification confirmation is in progress.',409);
+  try{
+   await putMedia(nextKey,image.bytes,String(draft.image_type));
+   const inserted=await db.prepare("INSERT INTO kk_photo_drafts(id,member_id,image_key,image_type,note,expires_at,country) SELECT ?,member_id,?,image_type,?,?,country FROM kk_photo_drafts WHERE id=? AND member_id=? AND state='refining' AND expires_at>?").bind(nextId,nextKey,String(draft.note).slice(0,700)+'\nSelected item (shopping context only): '+detail,String(draft.expires_at),id,member.id,now).run();
+   if(!inserted.meta.changes)throw new ShopError('查價已更新，請重新查看。 / Quote changed. Refresh before continuing.',409);
+   if(env.KK_AI_PHOTO_JOB_URL)await queuePhotoJob(nextId);
+   const next=env.KK_AI_PHOTO_JOB_URL?null:await db.prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(nextId,member.id).first();
+   const result=env.KK_AI_PHOTO_JOB_URL?{state:'pending'}:await identifyAndQuote(next!,member);
+   await db.prepare("UPDATE kk_photo_drafts SET state='discarded',analysis_json=NULL,pricing_json=NULL WHERE id=? AND member_id=? AND state='refining'").bind(id,member.id).run();
+   await deleteMedia(String(draft.image_key)).catch(()=>undefined);
+   return privateJson({id:nextId,...result},env.KK_AI_PHOTO_JOB_URL?202:201);
+  }catch(e){await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(nextId,member.id).run();await deleteMedia(nextKey);await db.prepare("UPDATE kk_photo_drafts SET state=? WHERE id=? AND member_id=? AND state='refining'").bind(draft.state,id,member.id).run();throw e;}
+ }
  if(body.action==='identify'){
   await requirePhotoQuotesOpen();
   return privateJson(await identifyAndQuote(draft,member));
@@ -99,7 +141,8 @@ export async function POST(request:Request){try{
   const method=paymentChoice(member,body.paymentMethod),due=sellerReview&&method==='transfer'?transferDeadline():null,address=shippingAddress(body.shippingAddress);
   if(pricing.tier!==member.tier)throw new ShopError('會員等級已更新，請重新查價。 / Membership changed. Refresh quote.',409);
   const publicKey='requests/'+id;await putMedia(publicKey,image.bytes,String(draft.image_type));
-  const purchasedPricing={...pricing,items:pricing.items.map(item=>({...item,imageUrl:'/api/media/'+publicKey}))};
+  const acceptedAnalysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis;
+  const purchasedPricing={...pricing,items:pricing.items.map(item=>({...item,imageUrl:acceptedAnalysis.retailerPhotoUrl||'/api/media/'+publicKey}))};
   const no=newOrderNumber(),key='photo-'+id,line=pricing.items[0];
   await db.batch([
    db.prepare("INSERT OR IGNORE INTO shopping_requests(request_no,submission_key,kind,member_id,customer_name,email,note,image_key,image_name,image_type,status,analysis_state,ai_analysis_json,identified_name_zh,identified_name_en,pricing_json,quote_json,payment_method,payment_due_at) SELECT ?,?,'custom',member_id,?,?,note,?,'photo',image_type,?,'ready',analysis_json,?,?,?,?,?,? FROM kk_photo_drafts WHERE id=? AND state='quoted' AND pricing_json=? AND expires_at>?").bind(no,key,member.name,member.email,publicKey,sellerReview?(method==='cod'?'awaiting_cod':'awaiting_payment'):'admin_review',line.nameZh,line.nameEn,JSON.stringify(purchasedPricing),JSON.stringify(legacyQuote(pricing,line.nameZh,line.nameEn)),method,due,id,draft.pricing_json,now),
@@ -123,6 +166,7 @@ export async function GET(request:Request){try{
  const draft=await rawDb().prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).first();
  if(!draft)throw new ShopError('找不到此查價。 / Photo quote not found.',404);
  if(draft.state==='discarded'||String(draft.expires_at)<=new Date().toISOString())throw new ShopError('查價已取消或到期。 / Quote cancelled or expired.',410);
+ if(draft.state==='identified'&&draft.analysis_json)return privateJson({id,state:'identified',analysis:JSON.parse(String(draft.analysis_json))});
  if(draft.state==='quoted'&&draft.analysis_json&&draft.pricing_json)return privateJson({id,state:'quoted',analysis:JSON.parse(String(draft.analysis_json)),pricing:JSON.parse(String(draft.pricing_json))});
  if(draft.state==='failed'){
   const detail=draft.analysis_json?JSON.parse(String(draft.analysis_json)):{};

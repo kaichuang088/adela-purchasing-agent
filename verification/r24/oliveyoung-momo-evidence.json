@@ -1,0 +1,202 @@
+[
+  {
+    "id": 54,
+    "spec": "200ml化妝水＋200ml乳液 · 1組",
+    "checkedAt": "2026-10-13T14:17:05.185841+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179",
+      "goodsName": "[저자극/세트] 라운드랩 1025 독도 토너/로션 2종 기획 (200ml+200ml)",
+      "option": "001",
+      "barcode": "8809657115196",
+      "goods": 26000,
+      "shipping": 0,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/TP/TP0006926/goodsDetail/TP00069260000237",
+      "goodsCode": "TP00069260000237",
+      "price": 599,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 57,
+    "spec": "11ml × 1條",
+    "checkedAt": "2026-10-13T14:17:07.050547+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513",
+      "goodsName": "[립케어 1등]토리든 솔리드인 세라마이드 립 에센스 11ml",
+      "option": "001",
+      "barcode": "8809784600152",
+      "goods": 5900,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/product/12975663",
+      "goodsCode": "12975663",
+      "price": 212,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 77,
+    "spec": "102g × 1盒",
+    "checkedAt": "2026-10-13T14:17:16.340089+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790",
+      "goodsName": "롯데 빈츠 102g",
+      "option": "001",
+      "barcode": "8801062634415",
+      "goods": 3300,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/product/12145268",
+      "goodsCode": "12145268",
+      "price": 59,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 115,
+    "spec": "100ml × 1瓶",
+    "checkedAt": "2026-10-13T14:17:33.157286+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391",
+      "goodsName": "[보습광채] 코스알엑스 어드벤스드 스네일 96 뮤신 파워 에센스 100ml ",
+      "option": "001",
+      "barcode": "8809416470009",
+      "goods": 19660,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/TP/TP0003062/goodsDetail/TP00030620000011",
+      "goodsCode": "TP00030620000011",
+      "price": 435,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 116,
+    "spec": "55ml × 1瓶",
+    "checkedAt": "2026-10-13T14:17:33.812907+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581",
+      "goodsName": "[누적판매 1700만]스킨1004 마다가스카르 센텔라 앰플 55ml",
+      "option": "001",
+      "barcode": "8809576260601",
+      "goods": 15300,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/product/12727308",
+      "goodsCode": "12727308",
+      "price": 493,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 144,
+    "spec": "Airy Fit 10g × 1支",
+    "checkedAt": "2026-10-13T14:17:44.959216+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274",
+      "goodsName": "[양현종 Pick/NEW] 메디힐 마데카소사이드 선스틱 에어리 핏 10g",
+      "option": "001",
+      "barcode": "8809936748435",
+      "goods": 11000,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000131",
+      "goodsCode": "TP00100280000131",
+      "price": 365,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 145,
+    "spec": "PDRN 50g × 1支",
+    "checkedAt": "2026-10-13T14:17:45.302787+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852",
+      "goodsName": "[NEW] 메디힐 PDRN 수분 선세럼 매끈 톤업 50g",
+      "option": "001",
+      "barcode": "8809936749050",
+      "goods": 22000,
+      "shipping": 0,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000632",
+      "goodsCode": "TP00100280000632",
+      "price": 435,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  },
+  {
+    "id": 169,
+    "spec": "Hello Kitty 薄荷15ml × 2瓶 · 1組",
+    "checkedAt": "2026-10-13T14:17:53.238274+00:00",
+    "korea": {
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925",
+      "goodsName": "[산리오] 가그린 후레쉬브레스 민트 15ml 더블 기획 (+헬로키티 스티커)",
+      "option": "001",
+      "barcode": "8806011619581",
+      "goods": 15800,
+      "shipping": 2500,
+      "soldOut": false,
+      "deliveryType": "10",
+      "deliveryPolicyNumber": "1"
+    },
+    "taiwan": {
+      "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000726",
+      "goodsCode": "TP00100280000726",
+      "price": 488,
+      "classification": "public_promotion"
+    },
+    "deliveryPolicySource": "https://www.oliveyoung.co.kr/store/counsel/getFaqList.do",
+    "policySearchField": "inqTitNm=배송비",
+    "noHistoricalOrderChanges": true
+  }
+]
