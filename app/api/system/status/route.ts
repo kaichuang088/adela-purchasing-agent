@@ -17,6 +17,6 @@ export async function GET(request:Request){
   const missingTables=required.filter(name=>!present.has(name));
   const aiSuccess=await db.prepare("SELECT value FROM store_settings WHERE key='adela_last_ai_success'").first();
   const scheduled=await db.prepare("SELECT value FROM store_settings WHERE key='adela_last_scheduled_success'").first();
-  return privateJson({backendId:row?.value,release:'2026-10-13-r23-prepared',topupSalesEnabled:false,inventoryMigrationReady:present.has('kk_stock_reservations'),databaseReady:missingTables.length===0,topupBonusPolicyReady,missingTables,lastAiSuccess:aiSuccess?JSON.parse(String(aiSuccess.value)):null,aiConfigured:ai.configured,aiMissingConfiguration:ai.missing,aiModel:ai.model,pushConfigured:pushConfigured(env),emailConfigured:emailConfigured(env),lastScheduledAt:scheduled?.value||null});
+  return privateJson({backendId:row?.value,release:'2026-10-13-r23',topupSalesEnabled:false,inventoryMigrationReady:present.has('kk_stock_reservations'),databaseReady:missingTables.length===0,topupBonusPolicyReady,missingTables,lastAiSuccess:aiSuccess?JSON.parse(String(aiSuccess.value)):null,aiConfigured:ai.configured,aiMissingConfiguration:ai.missing,aiModel:ai.model,pushConfigured:pushConfigured(env),emailConfigured:emailConfigured(env),lastScheduledAt:scheduled?.value||null});
  }catch{return privateJson({error:'資料服務尚未就緒。'},503);}
 }
