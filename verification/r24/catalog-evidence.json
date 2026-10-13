@@ -1,0 +1,228 @@
+[
+  {
+    "id": 153,
+    "family": "BM06",
+    "spec": "75mL × 1瓶",
+    "koreanSku": "9319944030815",
+    "taiwanSku": "3614274581096",
+    "matchingBasis": "Same official product family BM06, Resurrection Aromatique Hand Balm, exact75mL single tube; region SKU differs and is recorded explicitly",
+    "koreanOffer": {
+      "@type": "Offer",
+      "price": 42000,
+      "priceCurrency": "KRW",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html?dwvar_BM06_size=75%20mL%20%5E%202.4%20oz",
+      "seller": {
+        "@id": "https://kr.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://kr.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 1050,
+      "priceCurrency": "TWD",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html?dwvar_BM06_size=75%20mL%20%5E%202.6%20oz",
+      "seller": {
+        "@id": "https://tw.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://tw.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "shipping": "Official KR product page: 무료 배송",
+    "sourceCheckedAt": "2026-10-13",
+    "sourceHtmlSha256": "b11c464d89591583c5c2fbd3b21a6a6c43b212ca227722d2cb5a15cccf93f4a2"
+  },
+  {
+    "id": 154,
+    "family": "BT13",
+    "spec": "500mL 壓頭版 × 1瓶",
+    "koreanSku": "3614274581454",
+    "taiwanSku": "3614274581454",
+    "matchingBasis": "Same global SKU",
+    "koreanOffer": {
+      "@type": "Offer",
+      "price": 58000,
+      "priceCurrency": "KRW",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html?dwvar_BT13_size=500%20mL%20%5E%2016.9%20fl%20oz",
+      "seller": {
+        "@id": "https://kr.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://kr.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 1350,
+      "priceCurrency": "TWD",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html?dwvar_BT13_size=500%20mL%20%5E%2016.9%20fl%20oz",
+      "seller": {
+        "@id": "https://tw.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://tw.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "shipping": "Official KR product page: 무료 배송",
+    "sourceCheckedAt": "2026-10-13",
+    "sourceHtmlSha256": "f047d47416ef4ccc7b04919137bba5d75e6f21768ba72f1a8a45fdd650b21127"
+  },
+  {
+    "id": 180,
+    "family": "FR40",
+    "spec": "50mL × 1瓶",
+    "koreanSku": "3614274902785",
+    "taiwanSku": "3614274902785",
+    "matchingBasis": "Same global SKU",
+    "koreanOffer": {
+      "@type": "Offer",
+      "price": 245000,
+      "priceCurrency": "KRW",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://kr.aesop.com/kr/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html?dwvar_FR40_size=50%20mL%20%5E%201.6%20fl%20oz",
+      "seller": {
+        "@id": "https://kr.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://kr.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 6200,
+      "priceCurrency": "TWD",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://tw.aesop.com/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html?dwvar_FR40_size=50%20mL%20%5E%201.6%20fl%20oz",
+      "seller": {
+        "@id": "https://tw.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://tw.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "shipping": "Official KR product page: 무료 배송",
+    "sourceCheckedAt": "2026-10-13",
+    "sourceHtmlSha256": "6ddb6b7912dc01bdeec9adb472c39cf26f93d8f739df4628ebe207b6df42f485"
+  },
+  {
+    "id": 181,
+    "family": "FR35",
+    "spec": "50mL × 1瓶",
+    "koreanSku": "3614274902761",
+    "taiwanSku": "3614274902761",
+    "matchingBasis": "Same global SKU",
+    "koreanOffer": {
+      "@type": "Offer",
+      "price": 245000,
+      "priceCurrency": "KRW",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://kr.aesop.com/kr/fragrance/fragrance-category/boundless-eremia-eau-de-parfum/FR35.html?dwvar_FR35_size=50%20mL%20%5E%201.6%20fl%20oz",
+      "seller": {
+        "@id": "https://kr.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://kr.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 6200,
+      "priceCurrency": "TWD",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://tw.aesop.com/fragrance/fresh/boundless-eremia-eau-de-parfum/FR35.html?dwvar_FR35_size=50%20mL%20%5E%201.6%20fl%20oz",
+      "seller": {
+        "@id": "https://tw.aesop.com/#onlinestore"
+      },
+      "hasMerchantReturnPolicy": {
+        "@id": "https://tw.aesop.com/#return-policy"
+      },
+      "shippingDetails": {
+        "@id": "#shipping_policy"
+      }
+    },
+    "shipping": "Official KR product page: 무료 배송",
+    "sourceCheckedAt": "2026-10-13",
+    "sourceHtmlSha256": "579f430cca0e1b3c225b1e6e3675d696d03d085f0a4d8275582fa1165d9e6bb1"
+  },
+  {
+    "id": 19,
+    "variant": "200ml",
+    "matchingBasis": "Same official RoundLab model and exact single-bottle capacity; public Taiwan official listing, no member price",
+    "koreanOffer": {
+      "@type": "Offer",
+      "url": "https://www.roundlab.co.kr/product/1025-독도-토너-200ml/22/",
+      "priceCurrency": "KRW",
+      "price": 11900,
+      "availability": "https://schema.org/OutOfStock"
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 359.0,
+      "priceCurrency": "TWD",
+      "availability": "http://schema.org/InStock"
+    },
+    "shippingKrw": 2500,
+    "shippingConditions": "KR2500 below15000 / free at15000; exact single SKU evaluated",
+    "sourceCheckedAt": "2026-10-13",
+    "koreanCurrentStock": "out_of_stock",
+    "otherVariantsUntouched": true
+  },
+  {
+    "id": 20,
+    "variant": null,
+    "matchingBasis": "Same official RoundLab model and exact single-bottle capacity; public Taiwan official listing, no member price",
+    "koreanOffer": {
+      "@type": "Offer",
+      "url": "https://www.roundlab.co.kr/product/자작나무-수분-선크림-50ml/138/",
+      "priceCurrency": "KRW",
+      "price": 22500,
+      "availability": "https://schema.org/InStock"
+    },
+    "taiwanOffer": {
+      "@type": "Offer",
+      "price": 469.0,
+      "priceCurrency": "TWD",
+      "availability": "http://schema.org/InStock"
+    },
+    "shippingKrw": 0,
+    "shippingConditions": "KR2500 below15000 / free at15000; exact single SKU evaluated",
+    "sourceCheckedAt": "2026-10-13",
+    "koreanCurrentStock": "in_stock_quantity_unpublished",
+    "otherVariantsUntouched": false
+  }
+]

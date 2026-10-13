@@ -2,7 +2,7 @@ import {feeRates, type Tier, type Offer, type ShopProduct} from './commerce-type
 
 export type FeeTable = Record<Tier,{catalog:number;custom:number}>;
 export type ShippingTable = Record<Tier,number>;
-export const defaultShipping:ShippingTable={standard:50,platinum:50,black:50,diamond:0};
+export const defaultShipping:ShippingTable={standard:60,platinum:60,black:60,diamond:0};
 export const defaultFees:FeeTable=feeRates;
 export const terminalStates=['cancelled','rejected','refunded'];
 export const deliverySteps=['paid','purchasing','purchased','shipped_japan','arrived_taiwan','completed'];

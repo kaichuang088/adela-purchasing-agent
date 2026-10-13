@@ -572,8 +572,8 @@ export default function OperationsApp() {
                           <b>{m.name}</b>
                           <small>{m.email}</small>
                         </div>
-                        <strong>{jy(m.spendJpy)}</strong>
-                        <strong>{m.miles}{a("哩程")}</strong>
+                        <strong><small>{a("累計消費")}</small>{jy(m.spendKrw||0)}</strong>
+                        <strong><small>{a("會員哩程")}</small>{m.miles}{a("哩程")}</strong>
                         <ChevronRight />
                       </button>
                       <MemberCreditControls member={m} credits={(data!.refundCredits||[]).filter(c=>c.member_id===m.id)} requests={(data!.creditWithdrawals||[]).filter(r=>r.member_id===m.id)} send={async body=>{await api(body);await load();}}/>

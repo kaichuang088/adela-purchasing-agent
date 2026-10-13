@@ -1,9 +1,9 @@
 {
-  "version": "R23",
+  "version": "R24 preparation",
   "updatedAt": "2026-10-13",
-  "published": true,
-  "sourceBase": "d02847774518cb9b22368f97b0b93408e7fd2831",
-  "sourceBranch": "codex/r23-preparation-20261013",
+  "published": false,
+  "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
+  "sourceBranch": "codex/r24-correction-20261013",
   "currentLiveVersion": "R23",
   "netlify": {
     "storefront": {
@@ -28,11 +28,13 @@
       "admin": 208,
       "allMatched": true
     },
-    "newProductionDeploymentsThisPreparation": 2,
-    "listedProductionDeploymentCredits": 30,
+    "newProductionDeploymentsThisPreparation": 0,
+    "listedProductionDeploymentCredits": 0,
     "estimatedCreditsAfterProductionOnly": 797.4,
     "actualCreditBalanceConfirmed": false,
-    "creditBalanceNote": "Netlify usage API lags; estimate based on user baseline827.4 and listed2x15 deployment credits, excluding other usage"
+    "creditBalanceNote": "Netlify usage API lags; estimate based on user baseline827.4 and listed2x15 deployment credits, excluding other usage",
+    "previousR23ProductionDeployments": 2,
+    "previousR23ListedProductionDeploymentCredits": 30
   },
   "cloudflare": {
     "worker": "kk-purchasing-agent",
@@ -40,7 +42,7 @@
     "currentCodeVersion": "e6eddc28-e2bc-4d34-a116-9b09fc51e0b5",
     "appliedMigrations": 30,
     "pendingMigration": null,
-    "deployedThisPreparation": true,
+    "deployedThisPreparation": false,
     "allBindingMetadataPreserved": true
   },
   "verification": {
@@ -62,11 +64,10 @@
     "livePdfDownloads": "Both200 and SHA matches"
   },
   "notes": [
-    "R23_PREPARATION_20261013.md overrides historical release instructions",
-    "Read HEAD commit from Git or archive name; sourceBase is the starting R22 commit",
-    "No live orders or ledger rewritten",
-    "Source ZIP does not back up live D1 or platform credentials",
-    "R23_DEPLOYMENT_20261013.md and PROJECT_STATE.json override preparation/historical documentation"
+    "R24 remains blocked by188 genuine unresolved catalog issues and33 draft/reference photos. R23 is still the live release.",
+    "This corrective round has zero production deployments, zero paid AI calls, and no live financial/catalog mutations.",
+    "Buyer archives are server-restricted to admin; latest-created buyer conversation remains accessible and old records are retained.",
+    "Actual current credit balance is unconfirmed; preserve750, do not infer from lagged API usage counters."
   ],
   "githubBackup": {
     "status": "backed-up",
@@ -75,12 +76,47 @@
     "pushed": true,
     "pdfDownloadsVerified": true
   },
-  "publicationStatus": {
-    "authorized": true,
-    "emailSetup": "Brevo authenticated and provider accepted owner test",
-    "netlifyPublished": true,
-    "extraModelCallsDuringPublication": 0
+  "publicationStatus": "R24 NOT published; existing R23 remains live",
+  "phase": "r24-local-fixes-verified-catalog-blocked",
+  "publishedSourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
+  "r24Preparation": {
+    "at": "2026-10-13T15:47:50.581822+00:00",
+    "productionDeployments": 0,
+    "paidModelCalls": 0,
+    "budgetReserve": 750,
+    "verifiedCurrentCredits": null,
+    "actualCreditBalanceConfirmed": false,
+    "catalogUnresolvedIssues": 188,
+    "reviewedProductPatches": 6,
+    "originalExternalPhotosCached": 73,
+    "draftReferencePhotosMissing": 33,
+    "newOrdinaryDeliveryTwd": 60,
+    "priorityDeliveryTwd": 80,
+    "diamondDeliveryTwd": 0,
+    "historicalPricesUnchanged": true,
+    "buyerHistoryAndExports": "forbidden by server; buyer uses current session only and may start new conversation",
+    "adminCustomerHistory": "all sessions and all associated orders; admin-only exports retained",
+    "emailTemplate": "Adela branded responsive HTML tables; tested offline and via mockBrevo, not deployed",
+    "publicManuals": [
+      "/manuals/Adela_R24_Front_Mobile_Guide.pdf",
+      "/manuals/Adela_R24_Admin_Mobile_Guide.pdf"
+    ],
+    "publishReady": false,
+    "releaseGate": "node scripts/check-r24-release-gate.mjs",
+    "remaining": [
+      "188 source/specification/cost issues",
+      "33 draft/reference records missing exact original photos",
+      "CITRON28 current Seoul boutique prices; reference-SKU replacement preference pending",
+      "Current credit balance must confirm at least750 remains after future deployment",
+      "Full photo-quote source accuracy, real Android push and new HTML email inbox delivery not fully verified"
+    ],
+    "namedChecksPassed": 304
   },
-  "phase": "Front, admin and backend published; real Brevo owner test accepted",
-  "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e"
+  "r23PublishedNotes": [
+    "R23_PREPARATION_20261013.md overrides historical release instructions",
+    "Read HEAD commit from Git or archive name; sourceBase is the starting R22 commit",
+    "No live orders or ledger rewritten",
+    "Source ZIP does not back up live D1 or platform credentials",
+    "R23_DEPLOYMENT_20261013.md and PROJECT_STATE.json override preparation/historical documentation"
+  ]
 }

@@ -1,0 +1,445 @@
+{
+  "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
+  "checked": 73,
+  "failed": 0,
+  "images": [
+    {
+      "source": "https://www.kyoto-quality.com/img/item/000801433/%E8%8C%B6%E3%81%AE%E8%8F%93%208%E6%9E%9A%E5%85%A5_pkg.jpg",
+      "local": "/catalog-r24/0dc35d34f4c9f44ccf735a22.jpg",
+      "width": 1200,
+      "height": 801
+    },
+    {
+      "source": "https://storage.googleapis.com/studio-design-asset-files/projects/8dO80b0eOn/s-2000x2996_42d21d89-9501-442b-8ec9-621441747b1e.webp",
+      "local": "/catalog-r24/e7e3d0e1c8dd5ec4e8b1d262.webp",
+      "width": 2000,
+      "height": 2996
+    },
+    {
+      "source": "https://shop.calbee.jp/marche/img/goods/S/MR21001_ba26dc8a06314737af86653c24be58d8.jpg",
+      "local": "/catalog-r24/c2fafdbcbc937eb2f9d1dc83.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://shop.calbee.jp/marche/img/goods/L/MT31354_ffd36bd4662e4f6487067f51ead4becf.jpg",
+      "local": "/catalog-r24/0204d3fc8048cf2ca7841d80.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0573/6742/9258/products/310101a.050.-_1.jpg?v=1681720360",
+      "local": "/catalog-r24/1923f21cc6eadba4ac597fcf.webp",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0573/6742/9258/files/050PA13100__PRODUCT_01.jpg?v=1748479658",
+      "local": "/catalog-r24/a23ff8f2fcf50601c9753887.webp",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "source": "https://www.roundlab.co.kr/web/product/small/202511/1ffc403996430656a003ac012165a2d6.jpg",
+      "local": "/catalog-r24/c9e8edd7b696abc695546c70.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://www.roundlab.co.kr/web/product/small/202511/5382c3e00c3b81536f432dc554d1802b.jpg",
+      "local": "/catalog-r24/507bca78192f3b141d77e13b.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://m.nongshimmall.com/web/product/big/202605/46764057f0cd80cf9cd59c77b1696119.jpg",
+      "local": "/catalog-r24/8f36cc3a1033dde022e8d537.jpg",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/h51/hba/395947361009694.jpg",
+      "local": "/catalog-r24/e78523598daf7f607633cd4c.avif",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/h6a/h39/241424487284766.jpg",
+      "local": "/catalog-r24/09d4945cdc3b336d348c7260.avif",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://samyangfoods.co.kr/data/goods/1/2023/07/100014_2023072617275012.jpg",
+      "local": "/catalog-r24/58c3e6b3639b6101f1633836.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/hb3/hb0/240119692460062.jpg",
+      "local": "/catalog-r24/8a29d82a5b8b10563271d31e.avif",
+      "width": 740,
+      "height": 740
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/hfb/hd5/241424492691486.jpg",
+      "local": "/catalog-r24/dcdd585ebb4bed7c0fcfa933.avif",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/h38/h13/242569486401566.jpg",
+      "local": "/catalog-r24/a8aa9c7544024c863e406e75.avif",
+      "width": 740,
+      "height": 740
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/h8c/h1b/228113698521118.jpg",
+      "local": "/catalog-r24/b55f1575f76f5d4fe4fe3541.avif",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://www.costco.co.kr/medias/sys_master/images/hcc/h27/310622616911902.jpg",
+      "local": "/catalog-r24/976418598bca3a2218a94551.avif",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://img.danuri.io/catalog-image/643/972/123/3849d215f59e4642856a375db5de06fe.jpg?_v=20260824092932&shrink=330%3A%2A",
+      "local": "/catalog-r24/071169f0d128f39a3c01e4d8.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013717928ko.jpg?l=ko",
+      "local": "/catalog-r24/021e0e0ededb4b564bd5761c.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/2/7695809272510435269.jpg",
+      "local": "/catalog-r24/c1809dfeb82cda84dada437c.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://product-image.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/product/image/296c64c3-7151-470d-958e-bd1027ecf5e1.jpg",
+      "local": "/catalog-r24/ec350d242f1c972995db36c7.jpg",
+      "width": 550,
+      "height": 708
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0016/A00000016051323ko.jpg?l=ko",
+      "local": "/catalog-r24/118009e2f5ee95d7af7a27d0.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1905000_KHAK_1.jpg?v=1768244265",
+      "local": "/catalog-r24/2c266cbca9e872ce80b1f236.webp",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1311209_ROYL_1.jpg?v=1785438498",
+      "local": "/catalog-r24/cb50ce0f308a2621c8bf0476.webp",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/11/08/63/item/1000023630811_i1_1200.jpg",
+      "local": "/catalog-r24/5d86a3ee37a662e4ef2e28dc.avif",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/70/57/16/item/1000265165770_i1_1200.jpg",
+      "local": "/catalog-r24/b7685a067be67976db49086b.avif",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/118571_NATL_1.jpg?v=1760550487",
+      "local": "/catalog-r24/671a854b8da56d82575c0f7a.webp",
+      "width": 1600,
+      "height": 2001
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/5/5221432657770220229.jpg",
+      "local": "/catalog-r24/aaede13fbccc1670a78d6362.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A000000136300111ko.jpg?l=ko",
+      "local": "/catalog-r24/4e5b714f1d9a533d78c1e0c4.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://product-image.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/product/image/f52cc0c5-539c-4cbc-a845-01c23dea1585.jpg",
+      "local": "/catalog-r24/2613b796fca3967570c1bb6c.jpg",
+      "width": 550,
+      "height": 708
+    },
+    {
+      "source": "https://img-cf.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/shop/data/goods/1648203345367l0.jpg",
+      "local": "/catalog-r24/a450a3db36b9db6ed4e8cc37.jpg",
+      "width": 550,
+      "height": 708
+    },
+    {
+      "source": "https://product-image.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/product/image/0ac99732-e9ee-4de5-8906-4ac3c8fcc854.jpg",
+      "local": "/catalog-r24/5dfca19514a6642a6e47b615.jpg",
+      "width": 720,
+      "height": 936
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+      "local": "/catalog-r24/5aff8c3842eaa06b588584f2.jpg",
+      "width": 443,
+      "height": 590
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko",
+      "local": "/catalog-r24/d760b66d7f59572a9e57740c.jpg",
+      "width": 443,
+      "height": 590
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542301ko.jpg?l=ko",
+      "local": "/catalog-r24/4157985f09d7bb641c463ab0.jpg",
+      "width": 443,
+      "height": 590
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025233001ko.png?l=ko",
+      "local": "/catalog-r24/ca1ebc5db8c82d5449db62be.png",
+      "width": 1270,
+      "height": 1815
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023085702ko.png?l=ko",
+      "local": "/catalog-r24/47c9539355d6b2a08894679a.png",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0012/A00000012279001ko.jpg?l=ko",
+      "local": "/catalog-r24/b1ab024999e677fe3b2ed76e.jpg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023352902ko.jpg?l=ko",
+      "local": "/catalog-r24/7dc9ae5140611b3fe0ded622.jpg",
+      "width": 700,
+      "height": 700
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023361309ko.jpg?l=ko",
+      "local": "/catalog-r24/3dececf433ddc753fc031540.jpg",
+      "width": 2200,
+      "height": 2200
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024829305ko.jpg?l=ko",
+      "local": "/catalog-r24/9265fc1f5f0ad313b59dc865.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/3235586673857400831.jpg",
+      "local": "/catalog-r24/e6ec5638a39effde361f284e.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022465715ko.jpg?l=ko",
+      "local": "/catalog-r24/207726818f0ec2cc7c43fb2a.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1905000_BLAC_1_0e90312e-e898-40e7-b390-0ba1cbb9ce61.jpg?v=1785182778",
+      "local": "/catalog-r24/1e75c5d0d9b45b3cab8242cf.webp",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://matinkim.com/web/product/big/202511/991e548572223e2d5d12369e075aead9.jpg",
+      "local": "/catalog-r24/be80be9849fb057556579fa5.jpg",
+      "width": 1200,
+      "height": 1800
+    },
+    {
+      "source": "https://image.msscdn.net/thumbnails/images/goods_img/20260206/5992310/5992310_17707113315865_big.jpg?w=1200",
+      "local": "/catalog-r24/1168034b0c6e816267c71742.webp",
+      "width": 1200,
+      "height": 1440
+    },
+    {
+      "source": "https://img.yec.tw/zp/MerchandiseImages/7E391E1049-SP-20831006.jpg",
+      "local": "/catalog-r24/e2195eed3dff43e01066a1e0.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://assets.bongenie.ch/media107206/diptyque-a369752-uniq-2162088-8dpkahwbjt.jpg",
+      "local": "/catalog-r24/d5206163725dfc4e3a8eab36.avif",
+      "width": 951,
+      "height": 1435
+    },
+    {
+      "source": "https://freshbeautyco.com.au/cdn/shop/products/27860423103_600x.jpg?v=1677301633",
+      "local": "/catalog-r24/913e490d9c58d2d94d45a5ec.webp",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://www.imintcandy.com/uploads/images/20260801/c3969b3de9fe25fd5776e8f9f18f5a1e.png",
+      "local": "/catalog-r24/9396cb4937d1c0527ff253aa.png",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://www.imintcandy.com/uploads/images/20260801/b5975e63527389f1bff8a7b5b5b385ed.png",
+      "local": "/catalog-r24/fc6044f8099b35696660a4fa.png",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://gdimg.gmarket.co.kr/4845821356/still/600?ver=1789692552",
+      "local": "/catalog-r24/33149bbcd8303c33ebead4ff.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://www.imintcandy.com/uploads/images/20260908/9647e647681b2ae486954e7962f97932.jpg",
+      "local": "/catalog-r24/e5fba8e4bc256f9f7521c03b.jpg",
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/6/4580757123516222230.jpg",
+      "local": "/catalog-r24/b514b8e16e4851bb280eff2e.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023323706ko.png?l=ko",
+      "local": "/catalog-r24/334965206e741bdd2129335e.png",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0010/A00000010767956ko.jpg?l=ko",
+      "local": "/catalog-r24/c51468afeeee9e25ea2ddaf2.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1905108_CAYA_1.jpg?v=1765902018",
+      "local": "/catalog-r24/1fdab9efd666cd23da49dd63.webp",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1915122_NAVY_1_e61b464d-e2f2-4b2d-b9fb-65785e38df86.jpg?v=1763592707",
+      "local": "/catalog-r24/e8bb11ef43f9127e1c5b9b7f.webp",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/138965_LEOP_2.jpg?v=1764163916",
+      "local": "/catalog-r24/ca2222a9239a8f232db5a47e.webp",
+      "width": 1600,
+      "height": 1999
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1321240_CHAR_1_4a0b3ad7-9154-40d6-a65b-dc5466beff47.jpg?v=1760660657",
+      "local": "/catalog-r24/7e7faf73f53857e0a5ba502b.jpg",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "source": "https://mardimercredi.com/web/product/big/202310/242acff480c7420c0620db3f7412c6ba.jpg",
+      "local": "/catalog-r24/7ae298fa722f164e30b3b914.jpg",
+      "width": 960,
+      "height": 1300
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_1200--YLANG49-1134123156.jpg",
+      "local": "/catalog-r24/c3740a84ef576050150eb5b6.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_1200--NEROLI36--1184684923.jpg",
+      "local": "/catalog-r24/1b0fe0069e64426c515e413c.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_1200--TONKA25--880596687.jpg",
+      "local": "/catalog-r24/40d544ff790fc824bd1a7ecc.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_1200--HANDPOMADE-1173383336.JPG",
+      "local": "/catalog-r24/40e825ad031954ed766da842.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "source": "https://godomall.speedycdn.net/2ac6be74e4add1400a2d415ea74927c8/goods/1000007180/image/magnify/1000007180_magnify_056.jpg",
+      "local": "/catalog-r24/1cd745db9f7573e7eaaea5ef.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0017/A000000171423179ko.png?l=ko",
+      "local": "/catalog-r24/a449b23b06c987e9e287a2a4.png",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/8/6443425435239084853.png",
+      "local": "/catalog-r24/bf22b71f0325cfc1f4f47700.png",
+      "width": 1448,
+      "height": 1800
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/7/8316621821093821059.png",
+      "local": "/catalog-r24/8fba06819350cc40df98e076.png",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://godomall-storage.cdn-nhncommerce.com/4d7876b81b0d37f8a7cfa4d402d68be4/goods/2268/image/detail/2268_detail_062.png",
+      "local": "/catalog-r24/bcd9b1035acb9a5b215c7ee7.png",
+      "width": 1000,
+      "height": 1200
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0016/A00000016827009ko.jpg?l=ko",
+      "local": "/catalog-r24/1a09dd9c0bc97c6e1ffe41e2.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/21/36/46/item/1000566463621_i1_1200.jpg",
+      "local": "/catalog-r24/cbe31dd3b30b229d7f88cb08.avif",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://gdimg.gmarket.co.kr/1673570092/still/600?ver=1568712979",
+      "local": "/catalog-r24/600e2289717aba84624d8743.jpg",
+      "width": 600,
+      "height": 600
+    }
+  ]
+}

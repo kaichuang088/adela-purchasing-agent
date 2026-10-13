@@ -1,4 +1,4 @@
-import {chatSession,chatSessions,newChatSession} from '@/lib/ai-chat-history';
+import {chatSession,chatSessions,newChatSession,activeBuyerSession} from '@/lib/ai-chat-history';
 import {advancePurchasing} from '@/lib/order-scheduler';
 import {aiConfiguration} from '@/lib/ai-config';
 import type {PriceLine} from '@/lib/commerce-types';
@@ -52,8 +52,11 @@ export async function GET(request:Request){try{
  }
  const target=await recipient(request,url.searchParams.get('memberId'));
  const pendingSession=target.admin&&!url.searchParams.get('sessionId')?await rawDb().prepare("SELECT id FROM kk_ai_sessions WHERE kind='buyer' AND owner_id=? AND needs_human=1 ORDER BY updated_at DESC LIMIT 1").bind(target.id).first():null;
- const sessionId=await chatSession('buyer',target.id,url.searchParams.get('sessionId')||(pendingSession?String(pendingSession.id):undefined));
- if(url.searchParams.get('export')==='1')return privateJson({sessionId,sessions:await chatSessions('buyer',target.id),messages:(await rawDb().prepare('SELECT * FROM kk_conversations WHERE member_id=? AND session_id=? ORDER BY id').bind(target.id,sessionId).all()).results,backupAt:new Date().toISOString()});
+ if(!target.admin&&(url.searchParams.has('export')||url.searchParams.has('all')))throw new ShopError('只有管理員可查看或備份歷史對話。',403);
+ const requested=url.searchParams.get('sessionId')||undefined;
+ const allHistory=target.admin&&url.searchParams.get('all')==='1';
+ const sessionId=target.admin?(allHistory?await activeBuyerSession(target.id):await chatSession('buyer',target.id,requested||(pendingSession?String(pendingSession.id):undefined))):await activeBuyerSession(target.id,requested);
+ if(url.searchParams.get('export')==='1')return privateJson({sessionId,sessions:await chatSessions('buyer',target.id),messages:(await rawDb().prepare('SELECT * FROM kk_conversations WHERE member_id=?'+(allHistory?'':' AND session_id=?')+' ORDER BY id').bind(...[target.id,...(allHistory?[]:[sessionId])]).all()).results,backupAt:new Date().toISOString()});
  const scope=url.searchParams.get('orderId'),orderId=scope===null?undefined:Number(scope);
  if(scope!==null&&(!Number.isSafeInteger(orderId)||Number(orderId)<1))throw new ShopError('訂單編號無效。',400);
  const scopedOrder=orderId?await rawDb().prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(orderId,target.id).first():null;
@@ -63,9 +66,9 @@ export async function GET(request:Request){try{
  if(!orderId){if(target.admin)await rawDb().prepare('UPDATE kk_support_threads SET unread_admin=0 WHERE member_id=?').bind(target.id).run();
  else await rawDb().prepare('UPDATE kk_support_threads SET unread_member=0 WHERE member_id=?').bind(target.id).run();}
  await advancePurchasing(rawDb(),new Date());
- const orders=orderId?(await rawDb().prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(orderId,target.id).all()).results:(await rawDb().prepare('SELECT * FROM shopping_requests WHERE member_id=? ORDER BY id DESC LIMIT 100').bind(target.id).all()).results;
- const history=await messages(target.id,orderId,sessionId),globalThread=await rawDb().prepare(threadSelect).bind(target.id).first(),sessionThread=await rawDb().prepare('SELECT support_status AS status,needs_human,ai_summary FROM kk_ai_sessions WHERE id=?').bind(sessionId).first(),thread={...globalThread,...sessionThread};
- return privateJson({aiConfigured:aiConfiguration(env).configured,orders:await Promise.all(orders.map(async row=>{const order=await orderBundle(row);if(order.pricing)order.pricing.items=await Promise.all(order.pricing.items.map(async (line:PriceLine)=>{if(line.imageUrl||!line.productId)return line;const product=await rawDb().prepare("SELECT image_key,commerce_json FROM products WHERE id=?").bind(line.productId).first();if(!product)return line;let meta:any={};try{meta=JSON.parse(String(product.commerce_json||"{}"));}catch{}const key=String(product.image_key||"");return {...line,imageUrl:meta.variants?.find((v:any)=>v.id===line.variantId)?.imageUrl||(key?(key.startsWith("static/")?"/"+key.slice(7):"/api/media/"+key):meta.imageUrl)||undefined};}));return order;})),messages:history,sessionId,sessions:await chatSessions('buyer',target.id),thread:orderId&&thread?{...thread,ai_summary:''}:thread});
+ const orders=orderId?(await rawDb().prepare('SELECT * FROM shopping_requests WHERE id=? AND member_id=?').bind(orderId,target.id).all()).results:(await rawDb().prepare('SELECT * FROM shopping_requests WHERE member_id=? ORDER BY id DESC'+(allHistory?'':' LIMIT 100')).bind(target.id).all()).results;
+ const history=allHistory?(await rawDb().prepare('SELECT id,sender,body,order_id,created_at FROM kk_conversations WHERE member_id=?'+(orderId?' AND order_id=?':'')+' ORDER BY id').bind(...[target.id,...(orderId?[orderId]:[])]).all()).results:await messages(target.id,orderId,sessionId),globalThread=await rawDb().prepare(threadSelect).bind(target.id).first(),sessionThread=await rawDb().prepare('SELECT support_status AS status,needs_human,ai_summary FROM kk_ai_sessions WHERE id=?').bind(sessionId).first(),thread={...globalThread,...sessionThread};
+ return privateJson({aiConfigured:aiConfiguration(env).configured,orders:await Promise.all(orders.map(async row=>{const order=await orderBundle(row);if(order.pricing)order.pricing.items=await Promise.all(order.pricing.items.map(async (line:PriceLine)=>{if(line.imageUrl||!line.productId)return line;const product=await rawDb().prepare("SELECT image_key,commerce_json FROM products WHERE id=?").bind(line.productId).first();if(!product)return line;let meta:any={};try{meta=JSON.parse(String(product.commerce_json||"{}"));}catch{}const key=String(product.image_key||"");return {...line,imageUrl:meta.variants?.find((v:any)=>v.id===line.variantId)?.imageUrl||(key?(key.startsWith("static/")?"/"+key.slice(7):"/api/media/"+key):meta.imageUrl)||undefined};}));return order;})),messages:history,sessionId,...(target.admin?{sessions:await chatSessions('buyer',target.id)}:{}),thread:orderId&&thread?{...thread,ai_summary:''}:thread});
 }catch(e){return failure(e);}}
 
 export async function POST(request:Request){try{
@@ -73,7 +76,7 @@ export async function POST(request:Request){try{
  const target=await recipient(request,b.memberId),db=rawDb();
  await ensureThread(target.id);
  if(b.action==='new_conversation'){if(target.admin)throw new ShopError('請由會員建立新對話。',403);return privateJson({ok:true,sessionId:await newChatSession('buyer',target.id)},201);}
- const sessionId=await chatSession('buyer',target.id,b.sessionId);
+ const sessionId=target.admin?await chatSession('buyer',target.id,b.sessionId):await activeBuyerSession(target.id,b.sessionId);
  if(b.orderId&&!await db.prepare('SELECT id FROM shopping_requests WHERE id=? AND member_id=?').bind(b.orderId,target.id).first())throw new ShopError('訂單不屬於此會員。 / This order is not yours.',403);
  if(b.action==='share_order'){
   if(!target.admin)throw new ShopError('沒有權限。',403);

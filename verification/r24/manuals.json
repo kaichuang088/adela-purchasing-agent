@@ -1,0 +1,23 @@
+{
+  "scope": "Generated branch PDFs; not published on Netlify",
+  "files": [
+    {
+      "role": "Front",
+      "file": "public/manuals/Adela_R24_Front_Mobile_Guide.pdf",
+      "pages": 10,
+      "bytes": 1021920,
+      "sha256": "4e36be72bfa2d7c405889e95e51e0bd5266c3c0df4bf6b8767a594d1b6681a27",
+      "has60Twd": true,
+      "adminLinkPresent": false
+    },
+    {
+      "role": "Admin",
+      "file": "public/manuals/Adela_R24_Admin_Mobile_Guide.pdf",
+      "pages": 10,
+      "bytes": 932517,
+      "sha256": "b5f982a57b5e7132a2dbed3e46d476249676fa7400226f88efd5273fa8bb5110",
+      "has60Twd": true,
+      "adminLinkPresent": true
+    }
+  ]
+}

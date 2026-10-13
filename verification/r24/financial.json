@@ -1,0 +1,42 @@
+{
+  "checks": 29,
+  "labels": [
+    "New top-up APIs disabled; historical row and saved bonus untouched",
+    "Unauthorized and nonpositive adjustments rejected",
+    "Concurrent admin retries add credit exactly once",
+    "Adjustment key cannot change amount or member",
+    "Deduction cannot overdraw wallet",
+    "Invalid or overdrawn request rolls back row and reservation",
+    "Concurrent request retry reserves once",
+    "Other members cannot read or cancel bank details",
+    "Buyer and admin use the same available balance excluding held funds",
+    "Cancellation releases reservation once",
+    "Processing locks buyer cancellation and requires transfer evidence",
+    "Paid resolution never debits a held amount twice",
+    "Seller rejection restores held amount exactly once",
+    "Concurrent debits cannot make the balance negative",
+    "Different simultaneous withdrawals cannot over-reserve",
+    "Competing cancellation/rejection restores funds once",
+    "Real source-seeded Le Labo card/detail and checkout share the 95% cap",
+    "True supplier cost, authorized net pricing discount and included 2% fee are snapshotted",
+    "7601 cost vs 7600 Taiwan becomes 7220 customer price and 381 store discount",
+    "Floating rate falls as cost or purchase frequency increases",
+    "Manual product creation uses net pricing with 2% fee and discloses actual cost gap",
+    "AI batch approval uses the same server pricing policy",
+    "Floating fees do not invent missing reference evidence",
+    "Checkout accepts the previously greyed Le Labo and saves its real cost/discount snapshot",
+    "Wallet adjustments never rewrite historical order prices",
+    "No top-up product, navigation link or top-of-account top-up panel remains",
+    "Balance controls are under each member instead of an unrelated selector",
+    "Anonymous response exposes no bank refund records",
+    "Existing top-up principal, original bonus and history survive all new flows"
+  ],
+  "scope": "Compiled APIs with disposable D1; no real bank transfer, no live DB writes, no real AI provider calls",
+  "leLabo": {
+    "name": "Le Labo 佛手柑 22 淡香精 50 ml",
+    "price": 7050,
+    "cost": 7602,
+    "storeDiscount": 691,
+    "taiwan": 7600
+  }
+}

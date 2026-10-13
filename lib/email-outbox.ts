@@ -1,5 +1,6 @@
+import {notificationEmail,type EmailDetails} from './email-template';
 export type EmailConfig={RESEND_API_KEY?:string;BREVO_API_KEY?:string;EMAIL_FROM?:string;SHOP_PUBLIC_URL?:string};
-type Row={id:string;recipient:string;subject:string;body:string;attempts:number;first_attempt_ms:number|null;payload_json:string|null;lock_token:string};
+type Row={message_id?:number;id:string;recipient:string;subject:string;body:string;attempts:number;first_attempt_ms:number|null;payload_json:string|null;lock_token:string};
 const retryWindow=23*60*60*1000;
 export function emailConfigured(config:EmailConfig){return !!(config.RESEND_API_KEY?.trim()||config.BREVO_API_KEY?.trim())&&!!config.EMAIL_FROM?.trim();}
 
@@ -27,10 +28,11 @@ export async function dispatchEmailOutbox(db:D1Database,config:EmailConfig,optio
   if(!/^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(row.recipient)) {await finish('blocked','invalid_recipient');result.blocked++;continue;}
   let payload=row.payload_json;
   if(!payload){
-   let link='';
-   try{const url=new URL(config.SHOP_PUBLIC_URL||'');if(url.protocol==='https:'&&!url.username&&!url.password)link='\n\n查看訂單 / View orders: '+url.origin+'/';}catch{}
+   const details:EmailDetails={};
+   if(row.message_id){const notice=await db.prepare('SELECT o.request_no,o.customer_name,o.status,o.pricing_json,o.purchase_at FROM kk_messages n JOIN shopping_requests o ON o.id=n.order_id WHERE n.id=?').bind(row.message_id).first<{request_no:string;customer_name:string;status:string;pricing_json:string|null;purchase_at:string|null}>();if(notice){details.customer=notice.customer_name;details.orderNo=notice.request_no;details.status=notice.status;details.purchaseAt=notice.purchase_at;try{const pricing=JSON.parse(notice.pricing_json||'{}');details.totalTwd=Number.isFinite(pricing.totalTwd)?pricing.totalTwd:undefined;details.items=Array.isArray(pricing.items)?pricing.items:undefined;}catch{}}}
+   const email=notificationEmail(row.subject,row.body,config.SHOP_PUBLIC_URL,details);
    const sender=String(config.EMAIL_FROM).match(/<([^<>]+)>/)?.[1]||String(config.EMAIL_FROM).trim();
-   payload=JSON.stringify(brevo?{sender:{email:sender,name:"Adela's Purchasing Agent"},to:[{email:row.recipient}],subject:row.subject.replace(/[\r\n]/g,' ').slice(0,200),textContent:row.body+link}: {from:config.EMAIL_FROM,to:[row.recipient],subject:row.subject.replace(/[\r\n]/g,' ').slice(0,200),text:row.body+link});
+   payload=JSON.stringify(brevo?{sender:{email:sender,name:"Adela's Purchasing Agent"},to:[{email:row.recipient}],subject:email.subject,textContent:email.text,htmlContent:email.html}:{from:config.EMAIL_FROM,to:[row.recipient],subject:email.subject,text:email.text,html:email.html});
    // Persist the exact provider payload before first send; retries may not change it.
    await db.prepare('UPDATE kk_email_outbox SET payload_json=? WHERE id=? AND lock_token=?').bind(payload,row.id,token).run();
   }

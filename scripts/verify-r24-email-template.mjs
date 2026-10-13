@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';import {realpathSync} from 'node:fs';import {mkdir,writeFile} from 'node:fs/promises';
+const require=createRequire(realpathSync('node_modules/wrangler/package.json')),{build}=require('esbuild');
+await mkdir('work',{recursive:true});await build({entryPoints:['lib/email-template.ts'],bundle:true,platform:'node',format:'esm',outfile:'work/r24-email-template.mjs'});
+const {notificationEmail}=await import('../work/r24-email-template.mjs');let checks=0;const check=(v,label)=>{assert.ok(v,label);console.log('PASS '+(++checks)+': '+label);};
+const e=notificationEmail('Adela 訂單採買通知','您的匯款已核對完成。\n\n商品已加入本期採買清單。','https://adela-purchasing-agent-shop.netlify.app',{customer:'操作示例會員',orderNo:'DEMO-20261013',status:'paid',totalTwd:1260,purchaseAt:'2026-10-17T02:00:00Z',items:[{nameZh:'操作示例商品（非真實訂單）',quantity:2,imageUrl:'/catalog-r23/aesop-153.jpg'}]});
+check(e.html.includes('<table')&&e.html.includes('ADELA')&&e.html.includes('max-width:640px'),'Branded, centered responsive table layout');
+check(e.html.includes('DEMO-20261013')&&e.html.includes('NT$1,260')&&e.html.includes('已確認收款'),'Actual provided order amount and status appear in detail rows');
+check(e.html.includes('2026/10/17')&&e.html.includes('10:00:00'),'Purchase date is displayed in Taiwan time');
+check(e.html.includes('https://adela-purchasing-agent-shop.netlify.app/catalog-r23/aesop-153.jpg'),'Local exact product photos become absolute HTTPS email URLs');
+check(!e.html.includes('-admin')&&e.text.includes('https://adela-purchasing-agent-shop.netlify.app/'),'Email links point to buyer website');
+const escaped=notificationEmail('<script>x</script>\r\nSubject','<img src=x onerror=evil()> & 客服','javascript:alert(1)',{customer:'<evil>',items:[{nameZh:'<iframe>',quantity:1,imageUrl:'javascript:evil()'}]});
+check(!escaped.html.includes('<script>')&&!escaped.html.includes('<iframe>')&&escaped.html.includes('&lt;script&gt;'),'Untrusted title, name and body are escaped');
+check(!escaped.html.includes('href="javascript:')&&!escaped.html.includes('src="javascript:'),'Unsafe shop and photo URLs cannot become email links');
+const general=notificationEmail('一般公告','下次採買時間將於通知中心公布。','https://adela-purchasing-agent-shop.netlify.app');
+check(general.html.includes('一般公告')&&!general.html.includes('訂單編號'),'General notices work without inventing an order');
+await mkdir('verification/r24',{recursive:true});await writeFile('verification/r24/email-template.json',JSON.stringify({scope:'Offline renderer, no actual mail delivery',checks},null,2));await writeFile('verification/r24/email-preview.html',e.html);

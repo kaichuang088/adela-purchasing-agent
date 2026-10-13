@@ -1,10 +1,11 @@
 'use client';
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
+import {resolveProductPhoto} from '@/lib/product-photo';
 import {Package} from 'lucide-react';
 import {type ShopOrder} from '@/lib/commerce-types';
 import {useStoreText,useStoreLocale} from './store-language';
 import {OrderStatusBadge} from './order-status-badge';
-function OrderPhoto({src,name}:{src?:string;name:string}){const [failed,setFailed]=useState(false);return src&&!failed?<img src={src} alt={name} loading="lazy" onError={()=>setFailed(true)}/>:<span className="adela-order-photo-empty" aria-label={name}><Package aria-hidden="true"/></span>;}
+function OrderPhoto({src,name}:{src?:string;name:string}){const photo=resolveProductPhoto(src),[failed,setFailed]=useState(false);useEffect(()=>setFailed(false),[photo]);return photo&&!failed?<img src={photo} alt={name} loading="lazy" onError={()=>setFailed(true)}/>:<span className="adela-order-photo-empty" aria-label={name}><Package aria-hidden="true"/></span>;}
 export function OrderMessageCard({order,en=false}:{order:ShopOrder;en?:boolean}){
  const t=useStoreText(en),locale=useStoreLocale(en),items=order.pricing?.items||[],count=items.reduce((n,i)=>n+i.quantity,0);
  return <article className="adela-order-card" aria-label={t('訂單明細','Order details')}>

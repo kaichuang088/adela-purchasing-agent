@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-13T14:59:01.809871+00:00",
+  "publicSourceURLs": 285,
+  "readable": 249,
+  "structuredDataPages": 144,
+  "productSearches": 152,
+  "searchErrors": 16,
+  "withUnverifiedCandidates": 7,
+  "http200IsNotProof": true,
+  "originalExternalPhotoURLs": 73,
+  "cachedPhotos": 73,
+  "decodedPhotos": 73,
+  "photosMissingForDraftReferenceRecords": 33,
+  "productionDeployments": 0,
+  "paidModelCalls": 0
+}

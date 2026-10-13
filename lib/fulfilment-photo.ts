@@ -1,7 +1,7 @@
 import type {PriceLine,ShopProduct} from './commerce-types';
 import curated from './curated-catalog.json';
 import expanded from './expanded-catalog-20260930.json';
-import {productPhoto} from './product-photo';
+import {productPhoto,resolveProductPhoto} from './product-photo';
 
 const historicalPhotos=new Map([
  ...curated.map(p=>[p.nameZh,p.image] as const),
@@ -15,10 +15,10 @@ const localPhotos:Record<string,string>={
 // Enrich the read response only. Historical bundles must not inherit the photo
 // of a single-unit replacement that happens to reuse their product ID.
 export function fulfilmentPhoto(line:PriceLine,products:ShopProduct[]){
- if(line.imageUrl)return line.imageUrl;
+ if(line.imageUrl)return resolveProductPhoto(line.imageUrl)!;
  const historical=localPhotos[line.nameZh]||historicalPhotos.get(line.nameZh);
- if(historical&&!line.variantId)return historical;
+ if(historical&&!line.variantId)return resolveProductPhoto(historical)!;
  const product=products.find(p=>p.id===line.productId);
  if(product&&(!line.variantId||product.variants.some(v=>v.id===line.variantId)))return productPhoto(product,line.variantId);
- return historical||'';
+ return resolveProductPhoto(historical)||'';
 }
