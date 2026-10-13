@@ -44,9 +44,16 @@
     "Source ZIP does not back up live D1 or platform credentials"
   ],
   "githubBackup": {
-    "status": "blocked-by-automatic-approval-review",
-    "localPreparedBranch": "codex/r23-preparation-20261013",
-    "reason": "Specific authorization required for complete source, PDF and verification payload to the new branch",
-    "pushed": false
+    "status": "backed-up",
+    "branch": "codex/r23-preparation-20261013",
+    "commit": "5c08aa828a83f61805295032660c606eb7aab4f6",
+    "pushed": true,
+    "pdfDownloadsVerified": true
+  },
+  "publicationStatus": {
+    "authorized": true,
+    "emailSetup": "Brevo account created; sender verification and original Worker API key/from bindings pending",
+    "backendBundlePreparation": "Not executed: automatic approval review unavailable (model at capacity)",
+    "netlifyPublished": false
   }
 }

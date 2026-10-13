@@ -26,13 +26,13 @@ TypeScript、後端及前後台靜態建置通過。265 項本地檢查：80 工
 
 來源網域恢復可讀後，219 個公開來源重新檢查，有 210 個 HTTP 200、129 個含結構化資料。這是網頁可讀性檢查，沒有直接更改價格／供貨核實狀態。Aesop 賦活芳香護手霜 75mL 與壓頭手部清潔露 500mL 的原官方照片已取回並快取，沒有以相似規格或缺壓頭圖片替代；來源及檔案 SHA 記錄在 `verification/r23/evidence/image-repairs.json`。
 
-使用者提到連接 Brevo，但提供的截圖為 MailerLite。本對話目前沒有 Brevo app 工具；唯讀检查原 Worker，`BREVO_API_KEY`、`RESEND_API_KEY`、`EMAIL_FROM` 均不存在。因此尚未寄出或驗證真實 Email。必須確認實際服務、已驗證寄件人，再於平台秘密設定提供交易寄信憑證；不要貼在聊天。
+使用者已確認只有建立 Brevo 帳號，正在完成寄件人驗證及後端設定。本對話目前沒有 Brevo app 工具；最近唯讀檢查原 Worker 與 Netlify，均沒有 Email 綁定。因此尚未寄出或驗證真實 Email。已提供步驟：Brevo 驗證寄件人，產生 API key，再於原 Cloudflare Worker 安全新增 BREVO_API_KEY（Secret）和 EMAIL_FROM（Text）。不要貼 API key 在聊天。
 
 ## 發布與額度
 
 最新額度基準為使用者提供的 827.4 credits，至少保留 750。本準備版尚未新增 Netlify 部署、Cloudflare 部署或正式資料遷移；沒有購買、升級或開啟自動加值。帳號用量 API 延遲值不能代替當前額度。
 
-使用者要求等待 Email 設定完成並核對其要求後再發布。GitHub 推送被自動核准審查拒絕，理由是完整程式、PDF 與驗證資料傳至新分支缺少明確授權。目前只建立本地準備分支；等待使用者對具體 payload／儲存庫／分支的同意，不繞過拒絕。準備分支只包含原始碼與文件；兩個 Netlify 站未連接 GitHub 自動部署，沒有連動 workflow。本分支不是正式版本。
+使用者已授權 Email 設定完成後直接發布。最新後端 bundle dry-run 的自動核准審查連續兩次因服務模型容量不足而失敗；指令未執行，非判定操作不安全。不可繞過審查。原正式網站及資料庫尚未變更。使用者已明確同意 GitHub 備份。準備版 5c08aa828a83f61805295032660c606eb7aab4f6 已推送至 codex/r23-preparation-20261013；兩份 PDF 的 raw.githubusercontent.com 下載已核對 HTTP 200 及相同檔案雜湊。準備分支包含原始碼與文件；兩個 Netlify 站未連接 GitHub 自動部署，沒有連動 workflow。本分支不是正式版本。
 
 正式發布時保留原 Worker、D1、ASSETS、所有變數及秘密。先驗證並套用 `drizzle/0030_admin_order_notes.sql`，再建置当前 commit。外部舊 `deploy-backend-preserve-assets.py` 會讀取舊 R22 dry-run 檔案，且僅保留 secret bindings；不得直接執行，需先修正及核對完整綁定。不要以新 commit 標註舊 bundle。
 
