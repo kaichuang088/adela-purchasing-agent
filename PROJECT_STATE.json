@@ -1,5 +1,5 @@
 {
-  "version": "R23-preparation",
+  "version": "R23-release-candidate",
   "updatedAt": "2026-10-13",
   "published": false,
   "sourceBase": "d02847774518cb9b22368f97b0b93408e7fd2831",
@@ -9,31 +9,40 @@
     "storefront": {
       "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
       "url": "https://adela-purchasing-agent-shop.netlify.app",
-      "deployId": "6accffd936ac214bffa57e88"
+      "deployId": "6accffd936ac214bffa57e88",
+      "candidateDeployId": "6acddd29474ef111c445cc98"
     },
     "admin": {
       "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
       "url": "https://adela-purchasing-agent-admin.netlify.app",
-      "deployId": "6accffe9bd84bcbd9b5ef5c1"
+      "deployId": "6accffe9bd84bcbd9b5ef5c1",
+      "candidateDeployId": "6acddf0ab28644c9b508d105"
     },
     "creditBaseline": 827.4,
     "minimumReserve": 750,
-    "newDeploymentsThisPreparation": 0
+    "newDeploymentsThisPreparation": 0,
+    "candidateFileHashes": {
+      "storefront": 208,
+      "admin": 208,
+      "allMatched": true
+    },
+    "newProductionDeploymentsThisPreparation": 0
   },
   "cloudflare": {
     "worker": "kk-purchasing-agent",
     "databaseId": "8f6bb2b3-7dd0-498e-8e4b-d0abc7ea0bee",
-    "currentCodeVersion": "10b9c23d-e66e-4cad-817c-b8035e496869",
-    "appliedMigrations": 29,
-    "pendingMigration": "0030_admin_order_notes.sql",
-    "deployedThisPreparation": false
+    "currentCodeVersion": "6ecce89b-d1b9-404c-98da-b3cb218e4205",
+    "appliedMigrations": 30,
+    "pendingMigration": null,
+    "deployedThisPreparation": true,
+    "allBindingMetadataPreserved": true
   },
   "verification": {
     "offlineChecks": 265,
     "realModelIdentityCallsThisPreparation": 2,
     "iPhonePush": "user-confirmed physical system notification",
     "androidPush": "physical-device verification pending",
-    "email": "adapter mock tests passed; provider/sender/credentials pending",
+    "email": "One owner test attempted; Brevo rejected authentication HTTP401, not accepted or inbox delivered",
     "catalogUnresolvedIssues": 195,
     "photoQuotes": "one captured identity replay plus current official evidence; full photo accuracy pending"
   },
@@ -46,14 +55,16 @@
   "githubBackup": {
     "status": "backed-up",
     "branch": "codex/r23-preparation-20261013",
-    "commit": "5c08aa828a83f61805295032660c606eb7aab4f6",
+    "commit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
     "pushed": true,
     "pdfDownloadsVerified": true
   },
   "publicationStatus": {
     "authorized": true,
-    "emailSetup": "Brevo account created; sender verification and original Worker API key/from bindings pending",
-    "backendBundlePreparation": "Not executed: automatic approval review unavailable (model at capacity)",
+    "emailSetup": "BREVO_API_KEY and EMAIL_FROM saved on original Worker; API authentication rejected HTTP401",
+    "backendBundlePreparation": "Exact committed source and SHA validated; backend already deployed",
     "netlifyPublished": false
-  }
+  },
+  "phase": "Backend deployed; Netlify candidates ready; Brevo authentication requires correction",
+  "sourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e"
 }

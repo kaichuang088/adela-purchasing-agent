@@ -1,6 +1,6 @@
 # R23 準備版：尚未發布到正式網站
 
-本文件及 `PROJECT_STATE.json` 優先於 R22 的歷史交接文件。正式前後台仍為 R22；本次修改、0030 遷移及商品來源補丁尚未套用至正式環境。
+本文件及 `PROJECT_STATE.json` 優先於 R22 的歷史交接文件。正式前後台仍為 R22；原後端已升級至 R23，0030 遷移及 17 個完整舊值保護的商品來源補丁已套用。前後台各一個候選部署已完成，等待 Brevo 金鑰認證通過後切換正式站。
 
 ## 已準備的修改
 
@@ -26,13 +26,13 @@ TypeScript、後端及前後台靜態建置通過。265 項本地檢查：80 工
 
 來源網域恢復可讀後，219 個公開來源重新檢查，有 210 個 HTTP 200、129 個含結構化資料。這是網頁可讀性檢查，沒有直接更改價格／供貨核實狀態。Aesop 賦活芳香護手霜 75mL 與壓頭手部清潔露 500mL 的原官方照片已取回並快取，沒有以相似規格或缺壓頭圖片替代；來源及檔案 SHA 記錄在 `verification/r23/evidence/image-repairs.json`。
 
-使用者已確認只有建立 Brevo 帳號，正在完成寄件人驗證及後端設定。本對話目前沒有 Brevo app 工具；最近唯讀檢查原 Worker 與 Netlify，均沒有 Email 綁定。因此尚未寄出或驗證真實 Email。已提供步驟：Brevo 驗證寄件人，產生 API key，再於原 Cloudflare Worker 安全新增 BREVO_API_KEY（Secret）和 EMAIL_FROM（Text）。不要貼 API key 在聊天。
+使用者已新增 Brevo API key Secret 及 EMAIL_FROM Text 到原 Cloudflare Worker，並已核對部署後保留所有 13 個綁定。唯一寄給使用者自身寄件信箱的測試被 Brevo 回覆 HTTP401，未接受、未送達；目前需要重新建立真正的 Brevo API key（非 SMTP key），更新原秘密欄位。本對話目前沒有 Brevo app 工具；Email 綁定存在不代表認證成功。不要將這次測試標成成功，也不要自動重試未經修正的金鑰。已提供步驟：Brevo 驗證寄件人，產生 API key，再於原 Cloudflare Worker 安全新增 BREVO_API_KEY（Secret）和 EMAIL_FROM（Text）。不要貼 API key 在聊天。
 
 ## 發布與額度
 
-最新額度基準為使用者提供的 827.4 credits，至少保留 750。本準備版尚未新增 Netlify 部署、Cloudflare 部署或正式資料遷移；沒有購買、升級或開啟自動加值。帳號用量 API 延遲值不能代替當前額度。
+最新額度基準為使用者提供的 827.4 credits，至少保留 750。本輪有兩個 Netlify 候選部署但尚未正式發布；後端及第30個遷移已發布。沒有購買、升級或開啟自動加值。帳號用量 API 延遲值不能代替當前額度。
 
-使用者已授權 Email 設定完成後直接發布。最新後端 bundle dry-run 的自動核准審查連續兩次因服務模型容量不足而失敗；指令未執行，非判定操作不安全。不可繞過審查。原正式網站及資料庫尚未變更。使用者已明確同意 GitHub 備份。準備版 5c08aa828a83f61805295032660c606eb7aab4f6 已推送至 codex/r23-preparation-20261013；兩份 PDF 的 raw.githubusercontent.com 下載已核對 HTTP 200 及相同檔案雜湊。準備分支包含原始碼與文件；兩個 Netlify 站未連接 GitHub 自動部署，沒有連動 workflow。本分支不是正式版本。
+使用者已授權 Email 設定完成後直接發布。自動審查服務恢復後，已成功升級原後端；最初立即查綁定的傳播差異已以正式部署及重新查詢核實，所有秘密、EMAIL_FROM、原 D1 與 ASSETS 保留。Netlify 正式前後台尚未替換。使用者已明確同意 GitHub 備份。準備版 5c08aa828a83f61805295032660c606eb7aab4f6 已推送至 codex/r23-preparation-20261013；兩份 PDF 的 raw.githubusercontent.com 下載已核對 HTTP 200 及相同檔案雜湊。準備分支包含原始碼與文件；兩個 Netlify 站未連接 GitHub 自動部署，沒有連動 workflow。本分支不是正式版本。
 
 正式發布時保留原 Worker、D1、ASSETS、所有變數及秘密。先驗證並套用 `drizzle/0030_admin_order_notes.sql`，再建置当前 commit。外部舊 `deploy-backend-preserve-assets.py` 會讀取舊 R22 dry-run 檔案，且僅保留 secret bindings；不得直接執行，需先修正及核對完整綁定。不要以新 commit 標註舊 bundle。
 
@@ -45,3 +45,7 @@ TypeScript、後端及前後台靜態建置通過。265 項本地檢查：80 工
 使用既有 `/workspace/adela-purchasing-agent` checkout，保留修改，不建立 worktree。Node >=22.13、pnpm 11.25；以 frozen lockfile 安裝。執行 `node node_modules/typescript/bin/tsc --noEmit`、`node scripts/run-framework.mjs build`；前後台為 `KK_NETLIFY_TARGET=storefront/admin node scripts/build-netlify.mjs`。本地 scripts/verify-r23-* 使用隔離 D1，不需要新部署或真實模型費用。Chromium 在部分沙盒需獲准執行；不關閉 TLS 驗證。
 
 原始碼 ZIP 不包含正式 D1／照片／線上對話資料庫備份，也不是平台帳號移交。秘密不進 Git、ZIP、PDF 或日誌。GitHub、Netlify、Cloudflare 及私人 Sites 權限需分別移交。
+
+## 續做檢查點
+
+以 `/workspace/outputs/adela-r23/publish-handoff.json` 和實際平台狀態為準。候選前台 `6acddd29474ef111c445cc98`、後台 `6acddf0ab28644c9b508d105` 皆源自 `7bb3b79ec06a31607bb8b359ab7be5f3297ad75e`，208個檔案雜湊各全部吻合。不要重建或重複上傳候選。最新後端版本 `6ecce89b-d1b9-404c-98da-b3cb218e4205`。待使用者修正金鑰後，可將被401拒絕的唯一測試排入重試（先確認從未接受）；Brevo接受後執行已備妥的 publish-r23-once.mjs。勿修改其它會員、付款或帳本來做測試。兩站候選的新主機目前被環境網域清單擋住；這不表示頁面壞掉，本地114項手機檢查及部署208檔案雜湊已通過，正式發布後在已允許的正式網域做瀏覽器驗證。
