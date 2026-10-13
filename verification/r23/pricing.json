@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-13T02:48:16.013Z",
+  "at": "2026-10-13T05:51:57.776Z",
   "scope": "Local compiled Worker, isolated D1, official source response fixtures; no live mutation or paid AI",
-  "checks": 27,
+  "checks": 29,
   "allPassed": true,
   "labels": [
     "Net-of-tax pricing keeps actual gross supplier cost and discloses 691 pricing discount",
@@ -30,6 +30,8 @@
     "Inspected perfume source keeps 319000 gross and activates separately calculated net price",
     "Seoul city exclusive is tracked without an invented price or order eligibility",
     "Real sold-out Noir29 100ml remains explicitly unavailable",
-    "Repeated catalog reads do not reapply the source migration"
+    "Repeated catalog reads do not reapply the source migration",
+    "Six exact Aesop 50mL SKUs retain official gross price, matching Taiwan price and confirmed free shipping",
+    "All six Aesop 50mL catalog prices include 2% fee at the actual recorded exchange rate"
   ]
 }

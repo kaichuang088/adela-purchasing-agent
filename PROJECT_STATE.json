@@ -29,12 +29,12 @@
     "deployedThisPreparation": false
   },
   "verification": {
-    "offlineChecks": 263,
+    "offlineChecks": 265,
     "realModelIdentityCallsThisPreparation": 2,
     "iPhonePush": "user-confirmed physical system notification",
     "androidPush": "physical-device verification pending",
     "email": "adapter mock tests passed; provider/sender/credentials pending",
-    "catalogUnresolvedIssues": 201,
+    "catalogUnresolvedIssues": 195,
     "photoQuotes": "one captured identity replay plus current official evidence; full photo accuracy pending"
   },
   "notes": [
@@ -42,5 +42,11 @@
     "Read HEAD commit from Git or archive name; sourceBase is the starting R22 commit",
     "No live orders or ledger rewritten",
     "Source ZIP does not back up live D1 or platform credentials"
-  ]
+  ],
+  "githubBackup": {
+    "status": "blocked-by-automatic-approval-review",
+    "localPreparedBranch": "codex/r23-preparation-20261013",
+    "reason": "Specific authorization required for complete source, PDF and verification payload to the new branch",
+    "pushed": false
+  }
 }

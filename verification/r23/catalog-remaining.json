@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-13T02:26:53.194Z",
+  "at": "2026-10-13T05:50:48.587Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R23; no live changes, no provider calls",
   "inputProducts": 198,
   "proposedProducts": 181,
   "exchangeRate": 0.02382,
-  "inspectedPatchesApplied": 11,
-  "unresolvedIssues": 201,
+  "inspectedPatchesApplied": 17,
+  "unresolvedIssues": 195,
   "counts": {
     "已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
@@ -22,7 +22,7 @@
     "照片是系列展示，不是混合整組；須分4口味確認SKU、各口味價格/庫存及台灣比價。": 1,
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
-    "缺少": 27,
+    "缺少": 21,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
     "缺少同規格台灣價格、來源或查核日期": 96,
     "參考圖片尚不能對應核實的可售商品。": 5,
@@ -144,22 +144,6 @@
       "ceiling": 1472
     },
     {
-      "id": 183,
-      "name": "Aesop 蓓詠香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
-      "id": 182,
-      "name": "Aesop 喚空香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
       "id": 181,
       "name": "Aesop 曠境香水 50mL",
       "option": "",
@@ -170,38 +154,6 @@
     {
       "id": 180,
       "name": "Aesop 馥綻香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
-      "id": 179,
-      "name": "Aesop 映鏡香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
-      "id": 178,
-      "name": "Aesop 悟澈香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
-      "id": 177,
-      "name": "Aesop 永岩香水 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 5836,
-      "ceiling": 5890
-    },
-    {
-      "id": 176,
-      "name": "Aesop 熾靜香水 50mL",
       "option": "",
       "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
       "cost": 5836,
