@@ -2,6 +2,8 @@
 
 The owner rejected the R23 release because195 catalog issues remained. R24 must not be published until genuine source/specification/cost verification is complete, original product photos are available, and a current balance supports at least750 remaining credits. Original R23 production URLs, deployment IDs, Worker, D1 and secret bindings remain unchanged. This round has zero production deployments, zero paid AI calls and zero real orders, member balance changes or emails sent.
 
+Verified application-code commit: `dd0fa6354901524d7e01d12eac6b4e861b9571b0`. Later handoff-only edits do not change that application code.
+
 The local corrective branch is `codex/r24-correction-20261013`. GitHub branch backup is authorized and the original Netlify sites have no GitHub automatic builds.
 
 ## Completed local changes
