@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-14T17:55:12.565840+00:00",
+  "updatedAt": "2026-10-14T18:02:24.658621+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -227,6 +227,12 @@
       "public/manuals/Adela_R25_Front_Mobile_Guide.pdf",
       "public/manuals/Adela_R25_Admin_Mobile_Guide.pdf"
     ],
-    "sourceBackupPending": true
+    "sourceBackupPending": false,
+    "sourceBackupPushed": true,
+    "applicationCommit": "0e9a499abbd4f3e92a22fe04f53bbcf2af59693e",
+    "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
+    "manualDownloadsVerifiedAt": "2026-10-14T18:02:24.658621+00:00",
+    "localBackendDryPackage": true,
+    "originalBackendBindingsVerified": 13
   }
 }
