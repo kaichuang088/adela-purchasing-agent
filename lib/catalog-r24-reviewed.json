@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13",
+  "checkedAt": "2026-10-14",
   "items": [
     {
       "id": 153,
@@ -146,11 +146,23 @@
             "labelZh": "500 mL",
             "labelEn": "500 mL",
             "priceJpy": 23000,
-            "taiwanRetailTwd": 799,
-            "taiwanPromotionTwd": 549,
+            "taiwanRetailTwd": 549,
+            "taiwanPromotionTwd": 0,
             "taiwanRetailSource": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml",
-            "taiwanRetailClassification": "official_taiwan_storefront_list_price",
-            "taiwanRetailCheckedAt": "2026-09-30"
+            "taiwanRetailClassification": "public_promotion",
+            "taiwanRetailCheckedAt": "2026-10-14",
+            "purchaseUrl": "https://www.roundlab.co.kr/product/1025-독도-토너-대용량-500ml/14/",
+            "sourceCheckedAt": "2026-10-14",
+            "sourceDeliveryConfirmed": true,
+            "sourceDeliveryKrw": 0,
+            "sourceDeliveryConditions": "Round Lab韓國官方本單瓶₩23,000達₩15,000免運門檻；未達门檻一般運費₩2,500。不使用會員折扣、訂閱或優惠券。",
+            "sourcePriceBasis": "official_current_public_price",
+            "taiwanRetailSpec": "500 mL",
+            "stock": -1,
+            "stockQuantityVerified": false,
+            "imageUrl": "/catalog-r24/8364a03a04a4a86ee14f39f8.jpg",
+            "imageEdited": false,
+            "sourceNotes": "KR官方單瓶500mL当前₩23,000，可購買按鈕及原生is_soldout_icon=F一致，品절僅displaynone模板；庫存數未公開。TW官方當前同規格公開價格NT$549，此來源缺貨，不宣稱台灣供貨或把旧价799作比價。"
           }
         ]
       },
@@ -207,9 +219,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/09b7726528f10af218ae9e05.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 136,
@@ -237,9 +254,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/80d16a197709b1306b603f2e.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 137,
@@ -267,9 +289,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/0f7ff8ae1bb41931d38a0307.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 139,
@@ -297,9 +324,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/cc157d338fb20e90fba10668.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 140,
@@ -327,9 +359,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/08b1b464457f9e63a37a1ae5.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 141,
@@ -357,9 +394,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/04f2b5784d696a81ab92474b.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "50ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 142,
@@ -387,9 +429,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/55fc7f771473ac8e54218d6c.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "100ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "100ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "100ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 143,
@@ -417,9 +464,14 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "imageUrl": "/catalog-r24/ba400d3e80f836a75e1024f8.jpg",
-        "catalogReviewReason": ""
+        "catalogReviewReason": "",
+        "descriptionKo": "100ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
+      "expectedDescriptionEn": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
+      "descriptionZh": "100ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "100ml × 1瓶. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 90,
@@ -1104,9 +1156,14 @@
         "taiwanRetailTwd": 159,
         "taiwanRetailSource": "https://24h.pchome.com.tw/prod/DBAY48-A900DWS5R",
         "taiwanRetailCheckedAt": "2026-10-14",
-        "taiwanRetailClassification": "regular"
+        "taiwanRetailClassification": "regular",
+        "descriptionKo": "原味 120g × 5包（總600g）. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active"
+      "nextStatus": "active",
+      "expectedDescriptionZh": "每包 120g，5 入裝；採買價與照片核對後公開。",
+      "expectedDescriptionEn": "Five 120g packs. Publish after confirming current purchase price and image.",
+      "descriptionZh": "原味 120g × 5包（總600g）。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
+      "descriptionEn": "原味 120g × 5包（總600g）. The matching Korean source and retail package have been checked. Use the current checkout quote. Procurement begins after you report payment and the seller verifies it."
     },
     {
       "id": 31,
@@ -1550,6 +1607,274 @@
         "imageEdited": false,
         "sourceNotes": "已逐組比對Relief Sun Rice+Probiotics白色版本，主品50mL加兩條10mL旅行裝（共70mL）；不是Aqua-Fresh Rice+B5藍款，也不是50mL加10mL單條。台灣Momo所選舒緩太陽50+20選項，照片同為兩條迷你裝，公開單組NT$1,619，無拆分單瓶或會員券。韓國公開促銷15,000，不用含券最優惠13,500。",
         "catalogReviewReason": ""
+      }
+    },
+    {
+      "id": 149,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Mardi Mercredi\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"1件；Black Pink；商品8030；尺寸選項未確認\",\"nameKo\":\"SWEATSHIRT FLOWERMARDI NEEDLEWORK_BLACK PINK\",\"descriptionKo\":\"1件；Black Pink；商品8030；尺寸選項未確認. 한국 판매가 ₩128,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"mardi-sweatshirt-needlework-black-pink-8030\",\"imageUrl\":null,\"purchaseUrl\":\"https://www.mardimercredi.com/product/sweatshirt-flowermardi-needleworkblack-pink/8030/\",\"taxIncludedJpy\":128000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"official_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":89600,\"classification\":\"promotion\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
+      "expectedStatus": "draft",
+      "expectedPriceKrw": 128000,
+      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "priceKrw": 128000,
+      "photoOnly": true,
+      "changes": {
+        "imageUrl": "/catalog-r24/1029d9dd0df4647c2494317f.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "已補台灣官方同款黑粉刺繡大學T原圖，款號MFK41SPO004BKPK00；韓國相同款號本期價格、必要配送及供貨仍未核實，保持草稿，不能把台灣照片當作韓國可採買證明。"
+      }
+    },
+    {
+      "id": 156,
+      "expectedCommerce": "{\"id\":\"r5-unove-oil\",\"nameZh\":\"UNOVE × 飛天小女警絲柔髮油雙入組\",\"nameEn\":\"UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2\",\"brand\":\"UNOVE\",\"category\":\"beauty\",\"spec\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環\",\"priceKrw\":28900,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/8/6443425435239084853.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 008 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.\",\"variants\":[],\"descriptionZh\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環。韓國供應商公開商品價28,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環. Verified Korean public item price KRW 28,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2\",\"taxIncludedJpy\":28900,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-unove-oil\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"serviceFeePercent\":5,\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422\"],\"supplierOptionNumber\":\"008\",\"gtin\":\"8809669508955\",\"imageEdited\":false,\"sourcePriceBasis\":\"retailer_listing\",\"sourceDescriptionZh\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環。韓國供應商公開商品價28,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環. Verified Korean public item price KRW 28,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"어노브 파워퍼프걸 실크 헤어 오일 듀오입니다. 플로럴 계열 텐더 블룸 향의 70mL 제품 두 병으로 구성되어 있습니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 28900,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 35000,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Tender Bloom柔綻花香70mL × 2瓶＋飛天小女警聯名瓶蓋飾環／完整企劃組",
+        "taiwanRetailSpec": "Tender Bloom柔綻花香70mL × 2瓶＋飛天小女警聯名瓶蓋飾環／完整企劃組",
+        "taiwanRetailTwd": 950,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0010183/goodsDetail/TP00101830001718",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "public_promotion",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 0,
+        "sourceDeliveryConditions": "Olive Young一般配送政策1，未滿₩20,000運費₩2,500；此完整組一般商品價₩35,000已達免運門檻。未使用會員、折價券或不同選項的促銷。",
+        "sourcePriceBasis": "retailer_regular_price_excluding_conditional_coupons",
+        "taxIncludedJpy": 35000,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/bf22b71f0325cfc1f4f47700.png",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對實際聯名選項008、GTIN8809669508955、70mL雙瓶及瓶蓋飾環；當前可購買，數量未公開。採用來源明列一般價₩35,000保守採買預算，不以其他選項009包含₩1,000優惠券的最終價₩27,900作為此選項保證成本。TW原生單一商品規格00003公開整組NT$950，照片70mL Tender Bloom及同款飾環吻合；不是普通雙瓶／另附40mL髮膜。"
+      }
+    },
+    {
+      "id": 174,
+      "expectedCommerce": "{\"id\":\"r5-lip\",\"nameZh\":\"COLORGRAM Nude Blur 唇線筆\",\"nameEn\":\"COLORGRAM Nude Blur Lip Pencil\",\"brand\":\"Lip\",\"category\":\"beauty\",\"spec\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate\",\"priceKrw\":8000,\"imageUrl\":\"/catalog-r14/colorgram-lip-pencil.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"Conservative regular8000. Current final7200 promotion publicly visible; not assumed for entire10/16–20 batch. quantity0 is placeholder and soldOutFlag:false is availability signal.\",\"variants\":[{\"id\":\"salmon-beige\",\"stock\":-1,\"supplierOptionNumber\":\"001\",\"gtin\":\"8800316295174\",\"labelZh\":\"01 Salmon Beige\",\"labelEn\":\"01 Salmon Beige\",\"priceJpy\":8000,\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\"},{\"id\":\"hip-chocolate\",\"stock\":-1,\"supplierOptionNumber\":\"004\",\"gtin\":\"8800316295204\",\"labelZh\":\"04 Hip Chocolate\",\"labelEn\":\"04 Hip Chocolate\",\"priceJpy\":8000,\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\"}],\"descriptionZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"descriptionEn\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Lip Colors Hip Chocolate Salmon Beige reference\",\"taxIncludedJpy\":8000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-lip\",\"imageEdited\":false,\"previousImageUrl\":\"/requested-20261001/9.07.43.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"matchNameEn\":\"Lip Colors Hip Chocolate Salmon Beige reference\",\"sourceCurrency\":\"KRW\",\"specificationZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate\",\"specificationEn\":\"0.4g single pencil; shade 01 Salmon Beige or 04 Hip Chocolate\",\"supplierEvidence\":[{\"optionNumber\":\"001\",\"standardCode\":\"8800316295174\",\"optionName\":\"01 살구살몬\",\"optionImage\":{\"url\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/\",\"path\":\"item/2025/11/7196543101258574826.png\"},\"soldOutFlag\":false,\"salePrice\":8000,\"finalPrice\":7200},{\"optionNumber\":\"004\",\"standardCode\":\"8800316295204\",\"optionName\":\"04 힙초콜릿\",\"optionImage\":{\"url\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/\",\"path\":\"item/2025/11/2761500764839507078.png\"},\"soldOutFlag\":false,\"salePrice\":8000,\"finalPrice\":7200}],\"pricePolicy\":\"Conservative regular8000. Current final7200 promotion publicly visible; not assumed for entire10/16–20 batch. quantity0 is placeholder and soldOutFlag:false is availability signal.\",\"imageLocal\":\"verification/catalog-research/r14-reference-colorgram.jpg\",\"imageReviewedNoFaces\":true,\"references\":[\"turn310view0\"],\"taiwanReference\":null,\"serviceFeePercent\":5,\"sourcePriceBasis\":\"retailer_listing\",\"taiwanPromotionTwd\":0,\"taiwanRetailClassification\":\"\",\"taiwanAbsenceEvidence\":\"\",\"taiwanAvailabilityCheckedAt\":\"\",\"taiwanAvailability\":\"listed\",\"sourceDescriptionZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"sourceDescriptionEn\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"컬러그램 누드 블러 립 펜슬은 0.4g 제품입니다. 01 살몬 베이지와 04 힙 초콜릿의 누드 컬러로 만나볼 수 있습니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 8000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 9700,
+      "nextStatus": "active",
+      "changes": {
+        "variants": [
+          {
+            "id": "salmon-beige",
+            "stock": -1,
+            "supplierOptionNumber": "001",
+            "gtin": "8800316295174",
+            "labelZh": "01 Salmon Beige",
+            "labelEn": "01 Salmon Beige",
+            "priceJpy": 9700,
+            "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
+            "sourceCheckedAt": "2026-10-14",
+            "sourceDeliveryConfirmed": true,
+            "sourceDeliveryKrw": 2500,
+            "sourceDeliveryConditions": "Olive Young一般配送政策1；單支商品公開세일₩7,200未達₩20,000門檻，計入必要配送₩2,500。不使用員工／會員／優惠券。",
+            "sourcePriceBasis": "public_promotion_including_required_delivery",
+            "taiwanRetailSpec": "01 Salmon Beige",
+            "taiwanRetailTwd": 188,
+            "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0006926/goodsDetail/TP00069260000891",
+            "taiwanRetailCheckedAt": "2026-10-14",
+            "taiwanRetailClassification": "public_promotion",
+            "stockQuantityVerified": false,
+            "imageUrl": "/catalog-r24/678b908160eaf591487c2c49.png",
+            "imageEdited": false,
+            "sourceNotes": "核對原Nudy Blur單頭唇線筆的單支指定色號；KR原五色不是NEW06–10，TW同系列五色商品實圖及01／04名稱對應。KR native unitInfo公開10g單位價₩180,000及單支₩7,200吻合0.4g。不是0.7g雙頭多合一版。TW01此來源缺貨，04此來源現有供貨；僅作價格參考，不把台灣件數當韓國庫存。"
+          },
+          {
+            "id": "hip-chocolate",
+            "stock": -1,
+            "supplierOptionNumber": "004",
+            "gtin": "8800316295204",
+            "labelZh": "04 Hip Chocolate",
+            "labelEn": "04 Hip Chocolate",
+            "priceJpy": 9700,
+            "purchaseUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
+            "sourceCheckedAt": "2026-10-14",
+            "sourceDeliveryConfirmed": true,
+            "sourceDeliveryKrw": 2500,
+            "sourceDeliveryConditions": "Olive Young一般配送政策1；單支商品公開세일₩7,200未達₩20,000門檻，計入必要配送₩2,500。不使用員工／會員／優惠券。",
+            "sourcePriceBasis": "public_promotion_including_required_delivery",
+            "taiwanRetailSpec": "04 Hip Chocolate",
+            "taiwanRetailTwd": 188,
+            "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0006926/goodsDetail/TP00069260000891",
+            "taiwanRetailCheckedAt": "2026-10-14",
+            "taiwanRetailClassification": "public_promotion",
+            "stockQuantityVerified": false,
+            "imageUrl": "/catalog-r24/b864aabd7289a28c67e7ee23.png",
+            "imageEdited": false,
+            "sourceNotes": "核對原Nudy Blur單頭唇線筆的單支指定色號；KR原五色不是NEW06–10，TW同系列五色商品實圖及01／04名稱對應。KR native unitInfo公開10g單位價₩180,000及單支₩7,200吻合0.4g。不是0.7g雙頭多合一版。TW01此來源缺貨，04此來源現有供貨；僅作價格參考，不把台灣件數當韓國庫存。"
+          }
+        ],
+        "imageUrl": "/catalog-r24/51341b2f298540ff4cb66893.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": ""
+      }
+    },
+    {
+      "id": 122,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"에필로우 어성초 마데카소사이드 트러블 수딩 패드 100매\",\"brand\":\"efilow\",\"retailer\":\"Olive Young\",\"spec\":\"100片 × 1盒\",\"catalogSourceId\":\"olive-A000000181380\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":0,\"taxRefundEligible\":false,\"taxIncludedJpy\":15600,\"imageUrl\":\"/catalog-r8/product-104.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07T16:45:08.619307+00:00\",\"variants\":[],\"descriptionKo\":\"에필로우 어성초 마데카소사이드 패드는 데일리 페이셜 케어에 사용하는 100매 구성의 제품입니다.\",\"imageEdited\":true,\"previousImageUrl\":\"/catalog-20260927/olive-A000000181380.jpg\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceNotes\":\"Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.\",\"catalogReviewReason\":\"Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.\",\"stockQuantityVerified\":false,\"sourceDescriptionZh\":\"Olive Young 韓國選品。100片 × 1盒；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 15600,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 26000,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Heartleaf Trouble Soothing Toner Pad 積雪草苷＋TECA棉片 180g／100片 × 1罐",
+        "taiwanRetailSpec": "Heartleaf Trouble Soothing Toner Pad 積雪草苷＋TECA棉片 180g／100片 × 1罐",
+        "taiwanRetailTwd": 592,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://www.momoshop.com.tw/TP/TP0010040/goodsDetail/TP00100400005684",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "public_promotion",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 0,
+        "sourceDeliveryConditions": "Olive Young一般配送政策1，滿₩20,000免運；此完整單罐原價₩26,000達門檻，不使用會員／優惠券或假設合單。此來源當前缺貨，禁止下單。",
+        "sourcePriceBasis": "current_public_regular_price",
+        "taxIncludedJpy": 26000,
+        "taxRefundEligible": false,
+        "stock": 0,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/69b63595e3f4e778cca0a8e9.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "KR與TW原始瓶身照片均明列Heartleaf Trouble Soothing Toner Pad、Madecassoside+TECA／Multi Hyaluronic Acid、180g及100pads，名稱Biome是台灣賣家標題差異。韓國native商品及選項001均soldOutFlag=true，僅聲明這一來源目前缺貨，不宣稱韓國所有店沒有販售。TW單罐原生規格00001公開NT$592。"
+      }
+    },
+    {
+      "id": 111,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 오르페옹 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000063949833\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000063949833.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000063949833\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-orpheon\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Orphéon는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 328000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 264500,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Orphéon Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailSpec": "Orphéon Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailTwd": 6950,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://1010online.com.tw/diptyque-eau-de-parfum-orpheon",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "regular",
+        "purchaseUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000560259250",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 3000,
+        "sourceDeliveryConditions": "SSG此韓國境內CJ配送賣家商品單瓶一般價₩261,500加必要配送₩3,000；不是海外直送。15時出貨截止／實際送達以賣家配送資訊為準，不宣稱立即到貨。頁面即時折扣可能僅適用部分會員，未使用折扣、優惠券、SSG MONEY或假設合單免運。",
+        "sourcePriceBasis": "retailer_regular_price_including_required_delivery",
+        "taxIncludedJpy": 264500,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/8c6e320fa2e315861643009f.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對韓國SSG實際供貨品號1000560259250、75mL EDP原裝盒與台灣10/10官方同款75mL公開NT$6,950。不是EDT、Festive edition或不同容量；附贈購物袋／一般送禮包裝不計商品價。SSG銷售狀態20及購買按鈕有效，未將模板庫存995等當作實際件數。保留實際含運採買預算，香水未稅等值／2%計價是店家折扣，不宣稱已取得韓國退稅。"
+      }
+    },
+    {
+      "id": 112,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 필로시코스 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000023633086\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000023633086.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000023633086\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-philosykos\",\"taiwanRetailCheckedAt\":\"2026-09-28\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Philosykos는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 328000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 265000,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Philosykos Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailSpec": "Philosykos Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailTwd": 6950,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://1010online.com.tw/diptyque-eau-de-parfum-philosykos",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "regular",
+        "purchaseUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000569055203",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 3000,
+        "sourceDeliveryConditions": "SSG此韓國境內CJ配送賣家商品單瓶一般價₩262,000加必要配送₩3,000；不是海外直送。15時出貨截止／實際送達以賣家配送資訊為準，不宣稱立即到貨。頁面即時折扣可能僅適用部分會員，未使用折扣、優惠券、SSG MONEY或假設合單免運。",
+        "sourcePriceBasis": "retailer_regular_price_including_required_delivery",
+        "taxIncludedJpy": 265000,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/3551bd834237f2115d82ef77.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對韓國SSG實際供貨品號1000569055203、75mL EDP原裝盒與台灣10/10官方同款75mL公開NT$6,950。不是EDT、Festive edition或不同容量；附贈購物袋／一般送禮包裝不計商品價。SSG銷售狀態20及購買按鈕有效，未將模板庫存995等當作實際件數。保留實際含運採買預算，香水未稅等值／2%計價是店家折扣，不宣稱已取得韓國退稅。"
+      }
+    },
+    {
+      "id": 113,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 플레르 드 뽀 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000026486402\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000026486402.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000026486402\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Fleur de Peau는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 328000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 265000,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Fleur de Peau Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailSpec": "Fleur de Peau Eau de Parfum 75mL × 1瓶／原裝盒",
+        "taiwanRetailTwd": 6950,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "regular",
+        "purchaseUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000558596688",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 3000,
+        "sourceDeliveryConditions": "SSG此韓國境內CJ配送賣家商品單瓶一般價₩262,000加必要配送₩3,000；不是海外直送。15時出貨截止／實際送達以賣家配送資訊為準，不宣稱立即到貨。頁面即時折扣可能僅適用部分會員，未使用折扣、優惠券、SSG MONEY或假設合單免運。",
+        "sourcePriceBasis": "retailer_regular_price_including_required_delivery",
+        "taxIncludedJpy": 265000,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/294e95bafd1612b09da6dc69.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對韓國SSG實際供貨品號1000558596688、75mL EDP原裝盒與台灣10/10官方同款75mL公開NT$6,950。不是EDT、Festive edition或不同容量；附贈購物袋／一般送禮包裝不計商品價。SSG銷售狀態20及購買按鈕有效，未將模板庫存995等當作實際件數。保留實際含運採買預算，香水未稅等值／2%計價是店家折扣，不宣稱已取得韓國退稅。"
+      }
+    },
+    {
+      "id": 109,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"바이레도 블랑쉬 Body Wash 225ml\",\"brand\":\"Byredo\",\"retailer\":\"Byredo Korea\",\"spec\":\"225ml\",\"catalogSourceId\":\"byredo-blanche-wash\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":82000,\"imageUrl\":\"/catalog-20260927/byredo-blanche-wash.jpg\",\"purchaseUrl\":\"https://www.byredo.com/ko_kr/c/body-care\",\"taiwanRetailTwd\":1810,\"taiwanRetailSource\":\"https://1010online.com.tw/byredo-body-wash-blanche\",\"taiwanRetailCheckedAt\":\"2026-09-28\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"바이레도 블랑쉬 바디 워시는 블랑쉬 향을 담은 225mL 샤워 클렌저입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"225ml 單件。韓國 Byredo 官方公開標價；台灣同規格參考價與來源另列。\",\"sourceDescriptionEn\":\"225ml, one item. Byredo Korea public list price. Taiwan reference price and source are recorded separately; verify the exact specification before comparison.\",\"sourceDescriptionKo\":\"225ml 1개. 바이레도 한국 공개 표시 가격 기준입니다. 대만 동일 규격 참고 가격은 별도 가격 항목을 확인하세요.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 82000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 78000,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "BLANCHE Body Wash 沐浴膠225mL × 1瓶／白色圓蓋，不含壓頭",
+        "taiwanRetailSpec": "BLANCHE Body Wash 沐浴膠225mL × 1瓶／白色圓蓋，不含壓頭",
+        "taiwanRetailTwd": 1810,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://1010online.com.tw/byredo-body-wash-blanche",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "regular",
+        "purchaseUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000517448694",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 0,
+        "sourceDeliveryConditions": "SSG 신세계V/S.COM몰 韓國境內配送，單筆滿₩40,000免運；本原装單瓶₩78,000達門檻。頁面目前預估10/19到貨，不保證即時到貨；未使用會員、SSG MONEY或優惠券。",
+        "sourcePriceBasis": "current_public_regular_price",
+        "taxIncludedJpy": 78000,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/d1fea91d6c5acd4551fc53c9.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對SSG全球款號6212931000500、225mL白色圓蓋沐浴膠、實際單一選項화이트/F與原生販売價₩78,000；狀態20，未把頁面1173等件數當作保證餘量。TW 10/10官方SKU BY0065201071當前公開NT$1,810，明列不附壓頭；兩端未編修原图均225mL白色圓蓋、Blanche/Gel Douche/Body Wash。不是新泵頭款6216931001300、身體乳或香水。"
       }
     }
   ]

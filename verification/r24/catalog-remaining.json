@@ -1,15 +1,10 @@
 {
-  "at": "2026-10-14T09:05:55.365Z",
+  "at": "2026-10-14T11:08:38.529Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R24; no live changes, no provider calls",
   "inputProducts": 199,
   "proposedProducts": 181,
   "exchangeRate": 0.02382,
-  "draftPhotosMissing": [
-    {
-      "id": 149,
-      "name": "Mardi Mercredi 花朵刺繡大學T 黑粉"
-    }
-  ],
+  "draftPhotosMissing": [],
   "patchResults": [
     {
       "id": 153,
@@ -258,10 +253,42 @@
     {
       "id": 83,
       "status": "verified_specs_applied"
+    },
+    {
+      "id": 149,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 156,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 174,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 122,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 111,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 112,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 113,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 109,
+      "status": "verified_specs_applied"
     }
   ],
-  "inspectedPatchesApplied": 36,
-  "unresolvedIssues": 155,
+  "inspectedPatchesApplied": 43,
+  "unresolvedIssues": 146,
   "counts": {
     "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
@@ -279,19 +306,20 @@
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
-    "缺少同規格台灣價格、來源或查核日期": 85,
+    "缺少同規格台灣價格、來源或查核日期": 81,
     "參考圖片尚不能對應核實的可售商品。": 5,
     "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.": 1,
     "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.": 1,
     "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。": 1,
-    "缺少": 9,
-    "韓國來源、規格或成本尚待核實": 2,
+    "缺少": 7,
+    "已補台灣官方同款黑粉刺繡大學T原圖，款號MFK41SPO004BKPK00；韓國相同款號本期價格、必要配送及供貨仍未核實，保持草稿，不能把台灣照片當作韓國可採買證明。": 1,
     "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。": 1,
     "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。": 1,
     "Official exact listing returns HTTP404; current cost and buyable stock not verified.": 1,
-    "真實含運成本高於95%售價上限；未默認虧損販售": 6,
     "官方價格136000KRW可確認，但商品頁購買／供貨狀態未能取得，不能把系列目錄當成供貨證明。": 1,
+    "真實含運成本高於95%售價上限；未默認虧損販售": 3,
     "Prior current Korean cost44000 verified, but size-specific stock not verified; not sufficient for purchasable variants.": 1,
+    "韓國來源、規格或成本尚待核實": 1,
     "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。": 2,
     "已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。": 1,
     "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified.": 1,
@@ -409,22 +437,6 @@
       "reason": "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee."
     },
     {
-      "id": 174,
-      "name": "COLORGRAM Nude Blur 唇線筆",
-      "option": "01 Salmon Beige",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 191,
-      "ceiling": null
-    },
-    {
-      "id": 174,
-      "name": "COLORGRAM Nude Blur 唇線筆",
-      "option": "04 Hip Chocolate",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 191,
-      "ceiling": null
-    },
-    {
       "id": 173,
       "name": "OFRA Glazed Donut Slim Mini 新版打亮餅",
       "option": "",
@@ -539,14 +551,6 @@
       "ceiling": null
     },
     {
-      "id": 156,
-      "name": "UNOVE × 飛天小女警絲柔髮油雙入組",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 689,
-      "ceiling": null
-    },
-    {
       "id": 155,
       "name": "UNOVE × 飛天小女警 深層修護髮膜 320mL × 2",
       "option": "",
@@ -580,7 +584,7 @@
       "id": 149,
       "name": "Mardi Mercredi 花朵刺繡大學T 黑粉",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補台灣官方同款黑粉刺繡大學T原圖，款號MFK41SPO004BKPK00；韓國相同款號本期價格、必要配送及供貨仍未核實，保持草稿，不能把台灣照片當作韓國可採買證明。"
     },
     {
       "id": 148,
@@ -785,14 +789,6 @@
       "ceiling": null
     },
     {
-      "id": 122,
-      "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 372,
-      "ceiling": null
-    },
-    {
       "id": 121,
       "name": "LANEIGE 草莓蛋糕晚安唇膜 EX 20g",
       "option": "",
@@ -833,44 +829,12 @@
       "ceiling": null
     },
     {
-      "id": 113,
-      "name": "Diptyque Fleur de Peau 肌膚之華淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
-      "id": 112,
-      "name": "Diptyque Philosykos 希臘無花果淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
-      "id": 111,
-      "name": "Diptyque Orphéon 爵夢淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
       "id": 110,
       "name": "Byredo Blanche 返璞歸真身體乳 225ml",
       "option": "",
       "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
       "cost": 2382,
       "ceiling": 2185
-    },
-    {
-      "id": 109,
-      "name": "Byredo Blanche 返璞歸真沐浴露 225ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 1954,
-      "ceiling": 1719
     },
     {
       "id": 108,
@@ -1433,14 +1397,6 @@
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 126,
       "ceiling": null
-    },
-    {
-      "id": 19,
-      "name": "Round Lab 1025 獨島化妝水",
-      "option": "500 mL",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 548,
-      "ceiling": 521
     }
   ]
 }

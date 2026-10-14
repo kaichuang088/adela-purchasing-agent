@@ -19,8 +19,16 @@
       "availability": "http://schema.org/InStock"
     }
   },
-  "bytesDownloaded": false,
-  "networkHostRequired": "img.shoplineapp.com",
-  "scope": "Official same-model reference identified; image CDN access still pending; no price/supply approval",
-  "koreanSameModelCurrentSupplyStillUnverified": true
+  "bytesDownloaded": true,
+  "networkHostRequired": null,
+  "scope": "Official same-model original downloaded, visually inspected and cached without edits; Korean current price/supply still unverified",
+  "koreanSameModelCurrentSupplyStillUnverified": true,
+  "checkedAt": "2026-10-14T10:25:34.107731+00:00",
+  "photo": {
+    "original": "https://img.shoplineapp.com/media/image_clips/66e800c466bf9f0001717fdd/original.jpg?1726480580",
+    "local": "/catalog-r24/1029d9dd0df4647c2494317f.jpg",
+    "bytes": 337671,
+    "sha256": "23f6d825c018b204e654c37c831c5385835f7adac90162005290ecc154b38b2f",
+    "visuallyChecked": "BLACK PINK FLOWERMARDI NEEDLEWORK embroidered sweatshirt, not ACTIF emblem or printed T-shirt"
+  }
 }

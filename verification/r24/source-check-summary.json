@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T09:35:47.792794+00:00",
+  "at": "2026-10-14T11:10:53.407042+00:00",
   "publicSourceURLs": 285,
   "readable": 249,
   "structuredDataPages": 144,
@@ -7,27 +7,19 @@
   "searchErrors": 16,
   "withUnverifiedCandidates": 7,
   "http200IsNotProof": true,
-  "originalExternalPhotoURLs": 115,
-  "cachedPhotos": 114,
-  "decodedPhotos": 115,
-  "photosMissingForDraftReferenceRecords": 1,
+  "originalExternalPhotoURLs": 125,
+  "cachedPhotos": 124,
+  "decodedPhotos": 125,
+  "photosMissingForDraftReferenceRecords": 0,
   "productionDeployments": 0,
   "paidModelCalls": 0,
   "previousUnresolvedIssues": 188,
-  "currentUnresolvedIssues": 155,
-  "guardedSourcePatches": 36,
-  "partialPhotoOnlyPatches": 26,
-  "missingDraftPhotos": [
-    {
-      "id": 149,
-      "name": "Mardi Mercredi 花朵刺繡大學T 黑粉"
-    }
-  ],
+  "currentUnresolvedIssues": 146,
+  "guardedSourcePatches": 43,
+  "partialPhotoOnlyPatches": 27,
+  "missingDraftPhotos": [],
   "photoOnlyDoesNotApprovePriceOrSupply": true,
-  "networkDomainsAwaitingEnvironmentReview": [
-    "img.shoplineapp.com",
-    "cdn.shoplineapp.com"
-  ],
+  "networkDomainsAwaitingEnvironmentReview": [],
   "additionalSearches": {
     "momoQueries": 71,
     "momoCandidateGroups": 64,
@@ -40,9 +32,10 @@
     "cdn.imweb.me",
     "webimage.ldcc.co.kr",
     "api.kurly.com",
-    "ecshweb.pchome.com.tw"
+    "ecshweb.pchome.com.tw",
+    "img.shoplineapp.com"
   ],
-  "proposedRowPatches": 62,
+  "proposedRowPatches": 70,
   "additionalSourceWork": {
     "confirmedOptions": 8,
     "evidence": "verification/r24/round-2-confirmed.json",
@@ -50,5 +43,13 @@
     "imageSourceCandidate": "verification/r24/mardi-photo-source-pending.json",
     "unansweredVersionAndExclusivePolicyChoices": true,
     "noExceptionsApplied": true
-  }
+  },
+  "round3ExactOptionsVerified": 9,
+  "round3Evidence": "verification/r24/round-3-confirmed.json",
+  "round3NativeCandidatePages": 38,
+  "ownerChoicesUnanswered": [
+    "May old/reference versions be replaced with verified current versions with explicit specification/pack/photo/price changes? Asked again2026-10-14; no response yet.",
+    "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification? Asked again2026-10-14; no response yet."
+  ],
+  "noVersionsOrExceptionsAppliedWithoutReply": true
 }

@@ -1,0 +1,367 @@
+{
+  "scope": "New read-only merchant-native candidate checks; candidate price/title/photo alone is not exact evidence. Approved matches are only in round-3-confirmed.json",
+  "pages": [
+    {
+      "id": 67,
+      "role": "kr",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
+      "status": 200,
+      "title": "필리밀리 포인트 블러셔브러시 885 | 올리브영",
+      "sha256": "a593b4c7a9c517e9e6d5550b09e6c4f28ef60a2cb8001c73d00e96f1a2b7f072"
+    },
+    {
+      "id": 80,
+      "role": "kr",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248293",
+      "status": 200,
+      "title": "롬앤 더 쥬시 래스팅 틴트 제로 | 올리브영",
+      "sha256": "aab0fa21fd5751e7a4453062f10b1c8549005959a0c1efbf0012397b055e35a1"
+    },
+    {
+      "id": 118,
+      "role": "kr",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30",
+      "status": 200,
+      "title": "일리윤 세라마이드 아토 집중 크림 75ML | 올리브영",
+      "sha256": "f763eca439bb780bd87da9f45ddd31e02981afd6280fcd947afda20aac30e478"
+    },
+    {
+      "id": 118,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000460",
+      "status": 200,
+      "title": "【ILLIYOON】【ILLIYOON 一理潤】神經醯胺 ATO 敏感乾燥肌低刺激保養系列",
+      "sha256": "342236fab749dbdb5375885e4c8741192bcb281a5a358a00c6b39212c75187bc"
+    },
+    {
+      "id": 80,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/product/14058906",
+      "status": 200,
+      "title": "【rom&nd】果汁唇釉2.0  3.5g(Romand 韓系唇彩NO.1) - momo購物網 - 好評推薦 -2026年10月",
+      "sha256": "2ee81d0a604cebd651a9639da66332b7e2d508ac09bc965673975b55941fa16b"
+    },
+    {
+      "id": 80,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0002940/goodsDetail/TP00029400001393",
+      "status": 200,
+      "title": "【rom&nd】果汁唇釉2.0 (水光唇釉 唇釉 zoa romand)",
+      "sha256": "155e3e12181455fffe62dc9b45ba0f4a15669dfa2cff86fab6e29f027088ee51"
+    },
+    {
+      "id": 80,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0008904/goodsDetail/TP00089040000231",
+      "status": 200,
+      "title": "❮南他宿❯ 超商免運中 Rom&nd 水波唇膏/水光果凍唇膏/多汁果汁唇釉 INAPSQUARE唇釉 romand",
+      "sha256": "c54ef0142e6d4475f2cb7941424533cf3b96a1873a70a38e074d8f7f7e142f27"
+    },
+    {
+      "id": 82,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0002232/goodsDetail/TP00022320000170",
+      "status": 200,
+      "title": "【roundlab】獨島保養化妝水 化妝水 乳液 面膜 獨島 保濕 補水 韓國美妝 庶務客",
+      "sha256": "2566ad93cb2ec135adee8b65d341165a5083e435e2e0f84c8ec6106658568472"
+    },
+    {
+      "id": 82,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0001035/goodsDetail/TP00010350000170",
+      "status": 200,
+      "title": "【roundlab】獨島1025 深海舒緩化妝水 200ml熱門 推薦 舒緩 化妝水",
+      "sha256": "0cdbd084711943549d987e2d5a4641db8b95b281197746bacbccbc32fd43dc80"
+    },
+    {
+      "id": 61,
+      "role": "tw-prices",
+      "url": "https://www.lelabofragrances.com.tw/front/app/product/prices/1319.json",
+      "status": 200,
+      "title": "",
+      "sha256": "b1f995d7bd27e472c75398878ff80c2f90ace7a739cd53b78845dda88686fcf8"
+    },
+    {
+      "id": 103,
+      "role": "tw-prices",
+      "url": "https://www.lelabofragrances.com.tw/front/app/product/prices/1396.json",
+      "status": 200,
+      "title": "",
+      "sha256": "8b7bc635f141f610f048764d7ccfdb0f57349d246f420af6a4b983ccc7664e06"
+    },
+    {
+      "id": 103,
+      "role": "tw",
+      "url": "https://www.lelabofragrances.com.tw/body-hair-face/body/hand-lotion-hinoki",
+      "status": 200,
+      "title": "404 | Le Labo Fragrances",
+      "sha256": "45702497accc513b890cb73859302febd1f7bc461ec3252aa4875cc158d86599"
+    },
+    {
+      "id": 61,
+      "role": "tw",
+      "url": "https://www.lelabofragrances.com.tw/classic-collection/another-13/perfuming-hand-cream/30-ml",
+      "status": 200,
+      "title": "404 | Le Labo Fragrances",
+      "sha256": "45702497accc513b890cb73859302febd1f7bc461ec3252aa4875cc158d86599"
+    },
+    {
+      "id": 88,
+      "role": "kr",
+      "url": "https://mardimercredi.com/product/tshirt-flowermardioatmeal-black/6184/category/197/display/1/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 88,
+      "role": "tw",
+      "url": "https://www.mardimercredi.com.tw/products/mardi-mercredi-印花短tee-燕麥色-經典小雛菊-黑花-純棉-tshirt-flowermardi-1",
+      "status": 200,
+      "title": "MARDI MERCREDI 印花短TEE 燕麥色 經典小雛菊 黑花 純棉 TSHIRT FLOWERM...",
+      "sha256": "f035a194d5a24ca64225b039d3863a74e2efbf69e4689eb62852134253640fec"
+    },
+    {
+      "id": 105,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000814387764",
+      "status": 200,
+      "title": "바이레도 발 다프리크 오드 퍼퓸 50ml - SSG.COM",
+      "sha256": "d824e897a483293e15d1d0d2b8089746446781bb8b283dcc234d739e2d19029a"
+    },
+    {
+      "id": 105,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000714598085",
+      "status": 200,
+      "title": "바이레도 발다프리크 오 드 퍼퓸 50ml - SSG.COM",
+      "sha256": "e2623249326db17aecd3ca26360effd1b5edf2e004081efdf05c9661b9a919fe"
+    },
+    {
+      "id": 111,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000560259250",
+      "status": 200,
+      "title": "딥디크 오르페옹 오 드 퍼퓸 75ml - 딥디크쇼핑백 - SSG.COM",
+      "sha256": "f241c7b2c25c544d94b5d8f59c40b4633c6b77ce883ba9b94895a9448d91de84"
+    },
+    {
+      "id": 111,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000576174027",
+      "status": 200,
+      "title": "딥디크 오르페옹 오 드 퍼퓸 75ml - 딥디크쇼핑백 - SSG.COM",
+      "sha256": "659b58f2b6e7c0804034cd7eb4a231800c4730aa963bb8e0b50047df0c09d232"
+    },
+    {
+      "id": 112,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000569055203",
+      "status": 200,
+      "title": "딥티크 필로시코스 오 드 퍼퓸 75ml 무료선물포장 - SSG.COM",
+      "sha256": "794d3f90363d28e58953704621ef8754bbf20d96dcf5fc75d16ab6b486746b63"
+    },
+    {
+      "id": 112,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000811510655",
+      "status": 200,
+      "title": "딥티크  필로시코스 오드 퍼퓸 75ml - SSG.COM",
+      "sha256": "2d59b007f4a739900de3f98818ca6fe500ddb87510a3936e3509b128f132a1f3"
+    },
+    {
+      "id": 148,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000684698158",
+      "status": 200,
+      "title": "바이레도 집시워터 오 드 퍼퓸 50ml - SSG.COM",
+      "sha256": "8e003d367c34ab105ea92d37fefed3bff5a441c4ad2fe1512a120bd39e810f6e"
+    },
+    {
+      "id": 113,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000558596688",
+      "status": 200,
+      "title": "딥티크 플레르 드 뽀 오 드 퍼퓸 75ml - 딥디크쇼핑백 - SSG.COM",
+      "sha256": "9547f4404f3a9e2f69dd529056084d35734c6b136371a13b8b8e3ba070fc4240"
+    },
+    {
+      "id": 113,
+      "role": "tw",
+      "url": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau",
+      "status": 200,
+      "title": "Diptyque 肌膚之華淡香精",
+      "sha256": "17bca06cb393d00ca3144eaa68b5ad91d62c46f82c8274d06ddc165ed5bdb440"
+    },
+    {
+      "id": 107,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000739355289",
+      "status": 200,
+      "title": "바이레도 모하비 고스트 오 드 퍼퓸 50ml - SSG.COM",
+      "sha256": "1af90057280518c527595fbf9d46a1ef9570aa4c71e7e359361d558bca57cd68"
+    },
+    {
+      "id": 107,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000814387711",
+      "status": 200,
+      "title": "바이레도 모하비 고스트 오드 퍼퓸 50ml - SSG.COM",
+      "sha256": "da0e0a0d04e852f3e4f0c3f58561a7e3236a53b3e2a900e8be4ecaa6ebf9a6c2"
+    },
+    {
+      "id": 123,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0009027/goodsDetail/TP00090270002572",
+      "status": 200,
+      "title": "【MANYO FACTORY】【日本直送】 Pure Soybean 大豆保濕卸妝乳 200mL 溫和卸妝 低刺激 敏弱肌日常清潔 韓國保養",
+      "sha256": "47c058253133780a729dc3580e51c48860976875721b9b3ed255877701e9df7a"
+    },
+    {
+      "id": 156,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0010183/goodsDetail/TP00101830001718",
+      "status": 200,
+      "title": "【UNOVE】【UNOVE X 飛天小女警聯名款】韓國製造護髮素/洗髮精/護髮油/護手霜/定型噴霧 (UN006799)",
+      "sha256": "a812e906cc5197223d8e05e8244fca3463c692535b361ca16f0b627798f5c896"
+    },
+    {
+      "id": 123,
+      "role": "kr",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679",
+      "status": 200,
+      "title": "마녀공장 퓨어 소이빈 클렌징 오일 200ml | 올리브영",
+      "sha256": "1b802ab91eb2f1a112b956ab610d62340625c4fe7e100c134b9b937bceb42bd4"
+    },
+    {
+      "id": 156,
+      "role": "kr",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422",
+      "status": 200,
+      "title": "[10월올영픽] 어노브 실크 헤어 오일 에센스 70ml 더블 기획 (텐더블룸/웜페탈) | 올리브영",
+      "sha256": "61568fc8852651beddad065a4251ebd8ed9a6a07b9ac7c9d71cb5a4efdab2104"
+    },
+    {
+      "id": 109,
+      "role": "kr",
+      "url": "https://www.byredo.com/ko_kr/c/body-care",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": 109,
+      "role": "tw",
+      "url": "https://1010online.com.tw/byredo-body-wash-blanche",
+      "status": 200,
+      "title": "BYREDO 返樸歸真沐浴膠",
+      "sha256": "303c9ad1737859434edb7d559badbd4e7ab7c7dc177f224c7558840b967f0f6c"
+    },
+    {
+      "id": 110,
+      "role": "kr",
+      "url": "https://www.byredo.com/ko_kr/c/body-care",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": 110,
+      "role": "tw",
+      "url": "https://1010online.com.tw/byredo-body-lotion-blanche",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 109,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000517448694",
+      "status": 200,
+      "title": "블랑쉬 바디워시 225ml 6212931000500 - SSG.COM",
+      "sha256": "d24b8f3af30041551d5b5bb2a0978ad573effeb186c7be2682733129359f7210"
+    },
+    {
+      "id": 109,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000005634506",
+      "status": 200,
+      "title": "블랑쉬 (BLANCHE) 바디워시 225ml - SSG.COM",
+      "sha256": "fcc77b3517b6d25f988db58484fd62b2bed4902ce499fe4f25d6b5c9913c4a2a"
+    },
+    {
+      "id": 198,
+      "role": "kr",
+      "url": "https://www.ssg.com/item/itemView.ssg?itemId=1000025075109",
+      "status": 200,
+      "title": "청정원 허브맛솔트 마늘&양파 52g - SSG.COM",
+      "sha256": "0935615d17200f6404713f0e609adf2fc988136ae06cf767edf6c3b7fa68576b"
+    },
+    {
+      "id": 198,
+      "role": "tw",
+      "url": "https://www.momoshop.com.tw/TP/TP0000152/goodsDetail/TP00001520000139",
+      "status": 200,
+      "title": "大象清淨園 草本海鹽 〈大蒜&洋蔥〉52g",
+      "sha256": "45176534364f72cd72df40b53b0581d983577a26c49f112ab1570f7e93602c3f"
+    }
+  ],
+  "rejectedOrPending": [
+    {
+      "id": 80,
+      "reason": "Native romandZERO original six shade SKUs differ from Taiwan candidate Juicy2.0; no substitution approved"
+    },
+    {
+      "id": 118,
+      "reason": "Native Korean75mL cream vs Taiwan230mL cream/175mLgel; no exact-volume substitution"
+    },
+    {
+      "id": 123,
+      "reason": "Taiwan candidate manufacturer bottle saysPureSoybeanCleansingMilk200mL; Korean actualOil200mL is different, no substitution"
+    },
+    {
+      "id": 173,
+      "reason": "Taiwan new candidate photograph oldwhite-case Mini3g; Korean renewedSlimMini not yet proven equivalent"
+    },
+    {
+      "id": 88,
+      "reason": "Existing Korean6184PDP HTTP404; Taiwan exact adult OatmealBlack T-shirt exists but fresh Korean current supplier not verified"
+    },
+    {
+      "id": 149,
+      "reason": "Exact Taiwan native originalphoto now downloaded/cached/decoded; Korean currentprice/supply still missing"
+    },
+    {
+      "id": 105,
+      "reason": "Lower SSG candidates include coupon discount and actual overseas direct shipping/personalKRimportcode; not approved as Korea-local procurement"
+    },
+    {
+      "id": 107,
+      "reason": "Two lower native SSG candidates are overseas direct-shipping10/23 or10businessdays, not approved as localKRstock"
+    },
+    {
+      "id": 148,
+      "reason": "Native lowest181200 candidate is overseas direct shipping10/23; not approved asKorea-local procurement"
+    },
+    {
+      "id": 110,
+      "reason": "Existing TaiwanByredoBodyLotion225PDP returns404; brand-categoryKR403 is not currentstockproof"
+    },
+    {
+      "id": 198,
+      "reason": "Native KRSSG1000025075109 current3120+mandatory3000 andsellStatCd20; TaiwanmomoTP00001520000139 exact52g115 but native onlySKU expiration2025-03-05 andstock0. Expiredfood reference not used to approve currentfreshbottle."
+    }
+  ],
+  "noPaidCalls": true,
+  "noLiveWrites": true,
+  "at": "2026-10-14T11:05:16.254288+00:00",
+  "verifiedDraftCopyCorrection": {
+    "productIds": [
+      135,
+      136,
+      137,
+      139,
+      140,
+      141,
+      142,
+      143,
+      23
+    ],
+    "obsoleteDraftWarningsReplaced": true,
+    "expectedDescriptionsGuarded": true,
+    "merchantEditsPreserved": true,
+    "historicalOrderDescriptionsUnchanged": true
+  }
+}

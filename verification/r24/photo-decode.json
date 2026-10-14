@@ -1,6 +1,6 @@
 {
   "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
-  "checked": 115,
+  "checked": 125,
   "failed": 0,
   "images": [
     {
@@ -692,6 +692,66 @@
       "local": "/catalog-r24/95a20a10771125a6084e1570.jpg",
       "width": 720,
       "height": 936
+    },
+    {
+      "source": "https://img.shoplineapp.com/media/image_clips/66e800c466bf9f0001717fdd/original.jpg?1726480580",
+      "local": "/catalog-r24/1029d9dd0df4647c2494317f.jpg",
+      "width": 1000,
+      "height": 1235
+    },
+    {
+      "source": "https://www.roundlab.co.kr/web/product/big/202511/d766bcfb678649513f0ed85f0d54659b.jpg",
+      "local": "/catalog-r24/8364a03a04a4a86ee14f39f8.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "source": "https://i6.momoshop.com.tw/1780567460/goodsimg/TP000/6926/0000/891/TP00069260000891_R_m.jpg",
+      "local": "/catalog-r24/51341b2f298540ff4cb66893.jpg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2025/11/7196543101258574826.png",
+      "local": "/catalog-r24/678b908160eaf591487c2c49.png",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2025/11/2761500764839507078.png",
+      "local": "/catalog-r24/b864aabd7289a28c67e7ee23.png",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018138017ko.jpg?l=ko",
+      "local": "/catalog-r24/69b63595e3f4e778cca0a8e9.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/50/92/25/item/1000560259250_i1_1200.jpg",
+      "local": "/catalog-r24/8c6e320fa2e315861643009f.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/03/52/05/item/1000569055203_i1_1200.jpg",
+      "local": "/catalog-r24/3551bd834237f2115d82ef77.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/88/66/59/item/1000558596688_i1_1200.jpg",
+      "local": "/catalog-r24/294e95bafd1612b09da6dc69.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/94/86/44/item/1000517448694_i1_1200.jpg",
+      "local": "/catalog-r24/d1fea91d6c5acd4551fc53c9.jpg",
+      "width": 600,
+      "height": 600
     }
   ]
 }

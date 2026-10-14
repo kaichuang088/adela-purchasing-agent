@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-14T09:35:47.792794+00:00",
-  "unresolved": 155,
+  "at": "2026-10-14T11:10:53.407042+00:00",
+  "unresolved": 146,
   "scope": "Actual remaining source/specification/cost issues after guarded proposed patches; no live edits. Verified warnings remain visible separately.",
   "items": [
     {
@@ -224,34 +224,6 @@
       "reviewed": false
     },
     {
-      "id": 174,
-      "name": "COLORGRAM Nude Blur 唇線筆",
-      "option": "01 Salmon Beige",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 191,
-      "ceiling": null
-    },
-    {
-      "id": 174,
-      "name": "COLORGRAM Nude Blur 唇線筆",
-      "option": "04 Hip Chocolate",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 191,
-      "ceiling": null
-    },
-    {
       "id": 173,
       "name": "OFRA Glazed Donut Slim Mini 新版打亮餅",
       "option": "",
@@ -462,20 +434,6 @@
       "ceiling": null
     },
     {
-      "id": 156,
-      "name": "UNOVE × 飛天小女警絲柔髮油雙入組",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 689,
-      "ceiling": null
-    },
-    {
       "id": 155,
       "name": "UNOVE × 飛天小女警 深層修護髮膜 320mL × 2",
       "option": "",
@@ -533,7 +491,7 @@
       "id": 149,
       "name": "Mardi Mercredi 花朵刺繡大學T 黑粉",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實",
+      "reason": "已補台灣官方同款黑粉刺繡大學T原圖，款號MFK41SPO004BKPK00；韓國相同款號本期價格、必要配送及供貨仍未核實，保持草稿，不能把台灣照片當作韓國可採買證明。",
       "koreanSource": "https://www.mardimercredi.com/product/sweatshirt-flowermardi-needleworkblack-pink/8030/",
       "koreanSourceStatus": 404,
       "taiwanSource": "",
@@ -900,20 +858,6 @@
       "ceiling": null
     },
     {
-      "id": 122,
-      "name": "efilow 魚腥草積雪草苷舒緩棉片 100片",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 372,
-      "ceiling": null
-    },
-    {
       "id": 121,
       "name": "LANEIGE 草莓蛋糕晚安唇膜 EX 20g",
       "option": "",
@@ -984,48 +928,6 @@
       "ceiling": null
     },
     {
-      "id": 113,
-      "name": "Diptyque Fleur de Peau 肌膚之華淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000026486402",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
-      "id": 112,
-      "name": "Diptyque Philosykos 希臘無花果淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000023633086",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-philosykos",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
-      "id": 111,
-      "name": "Diptyque Orphéon 爵夢淡香精 75ml",
-      "option": "",
-      "reason": "真實含運成本高於95%售價上限；未默認虧損販售",
-      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000063949833",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-orpheon",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 7813,
-      "ceiling": 6602
-    },
-    {
       "id": 110,
       "name": "Byredo Blanche 返璞歸真身體乳 225ml",
       "option": "",
@@ -1038,20 +940,6 @@
       "reviewed": false,
       "cost": 2382,
       "ceiling": 2185
-    },
-    {
-      "id": 109,
-      "name": "Byredo Blanche 返璞歸真沐浴露 225ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.byredo.com/ko_kr/c/body-care",
-      "koreanSourceStatus": 403,
-      "taiwanSource": "https://1010online.com.tw/byredo-body-wash-blanche",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 1954,
-      "ceiling": 1719
     },
     {
       "id": 108,
@@ -2076,20 +1964,6 @@
       "reviewed": false,
       "cost": 126,
       "ceiling": null
-    },
-    {
-      "id": 19,
-      "name": "Round Lab 1025 獨島化妝水",
-      "option": "500 mL",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 548,
-      "ceiling": 521
     }
   ]
 }
