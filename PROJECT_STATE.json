@@ -113,7 +113,7 @@
       "Full live photo-quote accuracy, physical Android push and new HTML email inbox delivery remain unverified"
     ],
     "namedChecksPassed": 462,
-    "codeCommit": null,
+    "codeCommit": "6d356fa",
     "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
     "partialPhotoPatches": 27,
     "uniqueCachedPhotoFiles": 125,
@@ -140,7 +140,7 @@
         "matchesBranch": true
       }
     ],
-    "backupAt": "2026-10-14T11:15:13.264142+00:00",
+    "backupAt": "2026-10-14T11:29:15.244018+00:00",
     "noRepositoryBuildLink": true,
     "sourceRound2Evidence": "verification/r24/round-2-confirmed.json",
     "mardiOriginalCandidate": "verification/r24/mardi-photo-source-pending.json",
@@ -150,11 +150,11 @@
       "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification? Asked again2026-10-14; no response yet."
     ],
     "networkActivationPending": [],
-    "lastSourceCheckpoint": "8eb4370",
+    "lastSourceCheckpoint": "6d356fa",
     "sourceRound3Evidence": "verification/r24/round-3-confirmed.json",
     "sourceRound3Work": "verification/r24/round-3-source-work.json",
     "verifiedDraftDescriptionsUpdated": 9,
-    "backupCommit": "8eb4370",
+    "backupCommit": "6d356fa",
     "backupPushed": true,
     "sourceRound3VerifiedOptions": 9,
     "sourceRound4Evidence": "verification/r24/round-4-confirmed.json",
