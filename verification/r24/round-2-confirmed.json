@@ -1,0 +1,205 @@
+{
+  "at": "2026-10-14T09:01:57.433461+00:00",
+  "scope": "Actual native merchant source checks and guarded local proposals; no live writes, paid models or global stock claims",
+  "items": [
+    {
+      "id": 152,
+      "variantId": "peelable-0",
+      "label": "葡萄 · 67g 單包",
+      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420",
+      "koreanGoodsKrw": 1200,
+      "requiredShippingKrw": 2500,
+      "sourceAvailable": true,
+      "stockQuantityPublished": false,
+      "koreanNativeSku": "8801117359607",
+      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+      "taiwanSku": 35430981,
+      "taiwanFlavorWeight": "-1:-1:口味:葡萄67g",
+      "taiwanPublicTwd": 49,
+      "photo": {
+        "original": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko",
+        "local": "/catalog-r24/5aff8c3842eaa06b588584f2.jpg",
+        "bytes": 41155,
+        "sha256": "8cd47a3d9167375602219dbbb64832baed6fd4a3ab9b49d62bee20f80eabe03f"
+      },
+      "evidenceHashes": {
+        "kr": "6077eb98bc526197358dd6e5a92d48e74a871ea703bfad9de8796a197efdfe07",
+        "tw": "3a7584ab52b4c2ff2c7660d353789955dc6de0ff98c21a7c860b3f760f14e332"
+      },
+      "verifiedSourceSoldOutIsNotGlobalAbsence": false
+    },
+    {
+      "id": 152,
+      "variantId": "peelable-1",
+      "label": "荔枝 · 67g 單包",
+      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425",
+      "koreanGoodsKrw": 1200,
+      "requiredShippingKrw": 2500,
+      "sourceAvailable": true,
+      "stockQuantityPublished": false,
+      "koreanNativeSku": "8801117365103",
+      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+      "taiwanSku": 35430979,
+      "taiwanFlavorWeight": "-1:-1:口味:荔枝67g",
+      "taiwanPublicTwd": 49,
+      "photo": {
+        "original": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko",
+        "local": "/catalog-r24/d760b66d7f59572a9e57740c.jpg",
+        "bytes": 42938,
+        "sha256": "e2166c644390da2a351330866b5a0db102df984ea0bab588bf8389519a013246"
+      },
+      "evidenceHashes": {
+        "kr": "ec6851a35ac442a850ad5ad29474676bca6513fdeda5f37a8151c6f9aafd377a",
+        "tw": "3a7584ab52b4c2ff2c7660d353789955dc6de0ff98c21a7c860b3f760f14e332"
+      },
+      "verifiedSourceSoldOutIsNotGlobalAbsence": false
+    },
+    {
+      "id": 152,
+      "variantId": "peelable-2",
+      "label": "李子 · 67g 單包",
+      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423",
+      "koreanGoodsKrw": 1200,
+      "requiredShippingKrw": 2500,
+      "sourceAvailable": true,
+      "stockQuantityPublished": false,
+      "koreanNativeSku": "8801117362409",
+      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+      "taiwanSku": 35430980,
+      "taiwanFlavorWeight": "-1:-1:口味:李子67g",
+      "taiwanPublicTwd": 49,
+      "photo": {
+        "original": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542301ko.jpg?l=ko",
+        "local": "/catalog-r24/4157985f09d7bb641c463ab0.jpg",
+        "bytes": 41730,
+        "sha256": "d7e2ea467bd3703a9bfdad12505e80b49f4542f91028eb1ab01f27b5f76848ff"
+      },
+      "evidenceHashes": {
+        "kr": "9efa613ba52dfbf01e5bdac5b437726a9e67a8b7aacf018b1034001ac1d35536",
+        "tw": "3a7584ab52b4c2ff2c7660d353789955dc6de0ff98c21a7c860b3f760f14e332"
+      },
+      "verifiedSourceSoldOutIsNotGlobalAbsence": false
+    },
+    {
+      "id": 152,
+      "variantId": "peelable-kiwi",
+      "label": "奇異果 · 67g 單包",
+      "koreanSource": "https://www.snackok.com/m/product.html?branduid=1348908",
+      "koreanGoodsKrw": 1120,
+      "requiredShippingKrw": 3000,
+      "sourceAvailable": false,
+      "stockQuantityPublished": false,
+      "koreanNativeSku": "005000000345",
+      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
+      "taiwanSku": 35430982,
+      "taiwanFlavorWeight": "-1:-1:口味:奇異果67g",
+      "taiwanPublicTwd": 49,
+      "photo": {
+        "original": "https://www.snackok.com/shopimages/ohing66/0050000003452.jpg",
+        "local": "/catalog-r24/270eabc2dd851becf81591e1.jpg",
+        "bytes": 392627,
+        "sha256": "e6a910daa11c12b46684c3a1a5d896a899c241bf31a1f582b8f18bbd63b536c4"
+      },
+      "evidenceHashes": {
+        "kr": "9de03ec438dde5c1149aa8507378a5feab41d561ae04830f129c5350c67d9e7f",
+        "tw": "3a7584ab52b4c2ff2c7660d353789955dc6de0ff98c21a7c860b3f760f14e332"
+      },
+      "verifiedSourceSoldOutIsNotGlobalAbsence": true
+    },
+    {
+      "id": 184,
+      "sku": "J0HM010000",
+      "spec": "50mL × 1瓶 / J0HM010000",
+      "koreanSource": "https://www.lelabofragrances.co.kr/deodorant-1085.html?size=50ml",
+      "priceEndpoint": "https://www.lelabofragrances.co.kr/front/app/product/prices/1085.json",
+      "availabilityEndpoint": "https://www.lelabofragrances.co.kr/front/app/sku/available/1336.json",
+      "koreanPublicKrw": 52000,
+      "requiredShippingKrw": 0,
+      "sourceAvailable": true,
+      "taiwanSource": "https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142",
+      "taiwanPublicTwd": 1550,
+      "taiwanConditions": "preorder / estimateddispatch5days, no coupon",
+      "photo": {
+        "original": "https://lelabokorea-java.s3.amazonaws.com/images/skus/G007050100__PRODUCT_01--IMG_360--DEODORANT--1453990115.jpg",
+        "local": "/catalog-r24/540356ecb966a1aa0c602efe.jpg",
+        "bytes": 75654,
+        "sha256": "a5608ae89909e0920f1df37c246e2a33952fcb5db4cad721a1b209a3b7db6336"
+      },
+      "actualSsgSourceIsSoldOut": true,
+      "noGlobalStockClaims": true
+    },
+    {
+      "id": 162,
+      "koreanSource": "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001",
+      "nativeItemId": "1000055745046",
+      "name": "Choco Heim142g ×1",
+      "koreanPublicKrw": 2200,
+      "requiredShippingKrw": 3000,
+      "sourceStatus": "sellStatCd20 plus public buy controls",
+      "stockCount": "not published; native99999 not treated as real",
+      "taiwanSource": "https://www.momoshop.com.tw/product/4925565",
+      "taiwanPublicTwd": 80,
+      "taiwanRegularTwd": 159,
+      "taiwanNativeSku": "001",
+      "photo": {
+        "original": "https://sitem.ssgcdn.com/46/50/74/item/1000055745046_i1_1200.jpg",
+        "local": "/catalog-r24/c3cbbee9f5c19f04f86de0fe.jpg",
+        "bytes": 61100,
+        "sha256": "b6b1277aebbb4187700ff6128a8e51dcaf18f91858ba7b8af13a58fb26f7a05b"
+      },
+      "evidenceHashes": {
+        "kr": "8806a604c0f531c4431c0e615b081e12e39b22beee48a8221f1f11934416104e",
+        "tw": "d96d5f4f1ea7804228e1aac767adfd78103e4bccdec55a136e1b322a0937ab97"
+      },
+      "grossCostPreserved": true
+    },
+    {
+      "id": 71,
+      "koreanSource": "https://www.kurly.com/goods/5069816",
+      "koreanGoodsKrw": 5030,
+      "requiredShippingKrw": 3000,
+      "sourceAvailable": true,
+      "spec": "原味 140g × 5包（總700g）",
+      "taiwanSource": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC",
+      "taiwanNativeSku": "DBAY5B-A900J35EC-001",
+      "taiwanPublicPromotionTwd": 269,
+      "taiwanPublicNormalTwd": 319,
+      "taiwanConditions": "Any1 qualifying pack269,2026/10/06–12/31;expiry2027/01/22;no coupon required",
+      "photo": {
+        "original": "https://product-image.kurly.com/product/image/0ac99732-e9ee-4de5-8906-4ac3c8fcc854.jpg",
+        "local": "/catalog-r24/95a20a10771125a6084e1570.jpg",
+        "bytes": 137943,
+        "sha256": "fafb3daf371447c33a75c5a3516b1aa341bf33dcf17bc9241bb2623d7dcb4d83"
+      },
+      "evidenceHashes": {
+        "kr": "77a0636a4e785130daefbad1c89aeb4681613144b6f73a7999ea6e397764b2d1",
+        "tw": "4c8b48863cb4a00ccd88c44d8912bf0de08bdd6b048ab61c85d33b8370b8f0f8"
+      }
+    },
+    {
+      "id": 83,
+      "spec": "Relief Sun Rice + Probiotics 50mL × 1＋10mL × 2旅行裝（總70mL）",
+      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
+      "koreanPublicRegularKrw": 20000,
+      "koreanPublicPromotionKrw": 15000,
+      "excludedCouponPriceKrw": 13500,
+      "requiredDeliveryKrw": 2500,
+      "sourceAvailable": true,
+      "taiwanSource": "https://www.momoshop.com.tw/TP/TP0010034/goodsDetail/TP00100340000056",
+      "taiwanNativeSku": "002",
+      "taiwanPublicTwd": 1619,
+      "matchingCompletePackAndWhiteFormula": true,
+      "noAquaFreshOrSingleMiniSubstitution": true,
+      "photo": {
+        "original": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022465715ko.jpg?l=ko",
+        "local": "/catalog-r24/207726818f0ec2cc7c43fb2a.jpg",
+        "bytes": 291346,
+        "sha256": "86a605e74cfd024e9473cd662b1765e340421a14ff86cb194ed77da52fc54f66"
+      },
+      "evidenceHashes": {
+        "kr": "6554e3080ee1fdda57f88ea4dede1ef49f878b04d7957a35d306d8f0b9388cea",
+        "tw": "3487571f5e552d32e40726ae5b29f895d488d2bf0b663ec57f2e59eef4c0d64b"
+      }
+    }
+  ]
+}

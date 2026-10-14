@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T05:58:47.396Z",
+  "at": "2026-10-14T09:05:55.365Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R24; no live changes, no provider calls",
   "inputProducts": 199,
   "proposedProducts": 181,
@@ -238,10 +238,30 @@
     {
       "id": 120,
       "status": "verified_specs_applied"
+    },
+    {
+      "id": 152,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 184,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 162,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 71,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 83,
+      "status": "verified_specs_applied"
     }
   ],
-  "inspectedPatchesApplied": 31,
-  "unresolvedIssues": 163,
+  "inspectedPatchesApplied": 36,
+  "unresolvedIssues": 155,
   "counts": {
     "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
@@ -258,13 +278,13 @@
     "照片是系列展示，不是混合整組；須分4口味確認SKU、各口味價格/庫存及台灣比價。": 1,
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
-    "缺少": 16,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
-    "缺少同規格台灣價格、來源或查核日期": 86,
+    "缺少同規格台灣價格、來源或查核日期": 85,
     "參考圖片尚不能對應核實的可售商品。": 5,
     "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.": 1,
     "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.": 1,
     "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。": 1,
+    "缺少": 9,
     "韓國來源、規格或成本尚待核實": 2,
     "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。": 1,
     "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。": 1,
@@ -383,14 +403,6 @@
       "reason": "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。"
     },
     {
-      "id": 184,
-      "name": "Le Labo 滾珠體香劑 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 1239,
-      "ceiling": 1472
-    },
-    {
       "id": 175,
       "name": "Stüssy Seoul 首爾限定 T 恤｜黑／白",
       "option": "",
@@ -471,14 +483,6 @@
       "reason": "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain."
     },
     {
-      "id": 162,
-      "name": "CROWN 榛果巧克力威化酥 142g",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 53,
-      "ceiling": 76
-    },
-    {
       "id": 160,
       "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
       "option": "開心果巧克力",
@@ -547,38 +551,6 @@
       "name": "UNOVE × 飛天小女警 深層修護髮膜 320mL × 2",
       "option": "",
       "reason": "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。"
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "葡萄 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "荔枝 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "李子 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "奇異果 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 27,
-      "ceiling": 46
     },
     {
       "id": 151,
@@ -1017,14 +989,6 @@
       "ceiling": null
     },
     {
-      "id": 83,
-      "name": "Beauty of Joseon 米萃防曬 50ml＋20ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 358,
-      "ceiling": null
-    },
-    {
       "id": 82,
       "name": "ROUND LAB 獨島化妝水 200ml＋50ml",
       "option": "",
@@ -1119,14 +1083,6 @@
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 60,
       "ceiling": null
-    },
-    {
-      "id": 71,
-      "name": "三養原味辣火雞炒麵 140g × 5 包",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 122,
-      "ceiling": 281
     },
     {
       "id": 70,

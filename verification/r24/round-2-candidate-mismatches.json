@@ -1,0 +1,40 @@
+{
+  "scope": "Identified differences require exact evidence; no fake approval, no live mutation",
+  "items": [
+    {
+      "id": 81,
+      "candidateReason": "Current Korean offer is50ml+50ml refill; verify whether the listed collaboration toy is part of the order before treating an ordinary Taiwan refill set as identical.",
+      "automaticApproval": false
+    },
+    {
+      "id": 83,
+      "candidateReason": "Taiwan Aqua-Fresh blue sunscreen is a different formula from Relief Sun rice+probiotics; do not substitute.",
+      "automaticApproval": false
+    },
+    {
+      "id": 114,
+      "candidateReason": "Taiwan455 single bottle is explicitly unboxed/split from a multipack; boxed-versus-split conditions need exact comparison.",
+      "automaticApproval": false
+    },
+    {
+      "id": 119,
+      "candidateReason": "Korean80ml single tube is available but the requested gift pack80+25+3g×3 is sold out; Taiwan80ml single tube is not the full requested pack.",
+      "automaticApproval": false
+    },
+    {
+      "id": 125,
+      "candidateReason": "Taiwan50ml Newpair ampoule is not automatically Booster Shot2000; formulas/models differ.",
+      "automaticApproval": false
+    },
+    {
+      "id": 174,
+      "candidateReason": "Taiwan Multi-Use lip pencils Warm Peach/Cool Pink are different from Nude Blur01/04 currently listed in Korea.",
+      "automaticApproval": false
+    },
+    {
+      "id": 173,
+      "candidateReason": "TaiwanGlazedDonut3g listed in old mini line; actual SlimMini renewal packaging/version still needs confirmation.",
+      "automaticApproval": false
+    }
+  ]
+}

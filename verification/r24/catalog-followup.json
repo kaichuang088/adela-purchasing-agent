@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-14T06:04:50.260444+00:00",
-  "unresolved": 163,
-  "scope": "Actual remaining source/specification/cost issues after57 guarded proposed patches; no live edits. Verified warnings remain visible separately.",
+  "at": "2026-10-14T09:35:47.792794+00:00",
+  "unresolved": 155,
+  "scope": "Actual remaining source/specification/cost issues after guarded proposed patches; no live edits. Verified warnings remain visible separately.",
   "items": [
     {
       "id": 199,
@@ -212,20 +212,6 @@
       "reviewed": false
     },
     {
-      "id": 184,
-      "name": "Le Labo 滾珠體香劑 50mL",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000037276712&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%8D%94%EB%B0%94%EB%94%94%EC%83%B5%EB%AF%B8%EC%8A%A4%ED%8A%B8",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 1239,
-      "ceiling": 1472
-    },
-    {
       "id": 175,
       "name": "Stüssy Seoul 首爾限定 T 恤｜黑／白",
       "option": "",
@@ -378,20 +364,6 @@
       "reviewed": false
     },
     {
-      "id": 162,
-      "name": "CROWN 榛果巧克力威化酥 142g",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001",
-      "koreanSourceStatus": 429,
-      "taiwanSource": "https://www.momoshop.com.tw/product/4925565",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 53,
-      "ceiling": 76
-    },
-    {
       "id": 160,
       "name": "RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包",
       "option": "開心果巧克力",
@@ -514,62 +486,6 @@
       "taiwanSourceStatus": 200,
       "unverifiedCandidateURLs": [],
       "reviewed": false
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "葡萄 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "荔枝 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "李子 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 29,
-      "ceiling": 46
-    },
-    {
-      "id": 152,
-      "name": "Orion 剝皮果實軟糖 67g｜單包選口味",
-      "option": "奇異果 · 67g 單包",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、韓國來源查核日期、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.snackok.com/m/product.html?branduid=1348908",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.koreatop.com.tw/SalePage/Index/11679230",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 27,
-      "ceiling": 46
     },
     {
       "id": 151,
@@ -1344,20 +1260,6 @@
       "ceiling": null
     },
     {
-      "id": 83,
-      "name": "Beauty of Joseon 米萃防曬 50ml＋20ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 358,
-      "ceiling": null
-    },
-    {
       "id": 82,
       "name": "ROUND LAB 獨島化妝水 200ml＋50ml",
       "option": "",
@@ -1524,20 +1426,6 @@
       "reviewed": false,
       "cost": 60,
       "ceiling": null
-    },
-    {
-      "id": 71,
-      "name": "三養原味辣火雞炒麵 140g × 5 包",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.kurly.com/goods/5069816",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 122,
-      "ceiling": 281
     },
     {
       "id": 70,

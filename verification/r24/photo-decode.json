@@ -1,6 +1,6 @@
 {
   "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
-  "checked": 111,
+  "checked": 115,
   "failed": 0,
   "images": [
     {
@@ -668,6 +668,30 @@
       "local": "/catalog-r24/74b44d8468fdc4609d551756.jpg",
       "width": 550,
       "height": 708
+    },
+    {
+      "source": "https://www.snackok.com/shopimages/ohing66/0050000003452.jpg",
+      "local": "/catalog-r24/270eabc2dd851becf81591e1.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "source": "https://lelabokorea-java.s3.amazonaws.com/images/skus/G007050100__PRODUCT_01--IMG_360--DEODORANT--1453990115.jpg",
+      "local": "/catalog-r24/540356ecb966a1aa0c602efe.jpg",
+      "width": 360,
+      "height": 360
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/46/50/74/item/1000055745046_i1_1200.jpg",
+      "local": "/catalog-r24/c3cbbee9f5c19f04f86de0fe.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://product-image.kurly.com/product/image/0ac99732-e9ee-4de5-8906-4ac3c8fcc854.jpg",
+      "local": "/catalog-r24/95a20a10771125a6084e1570.jpg",
+      "width": 720,
+      "height": 936
     }
   ]
 }

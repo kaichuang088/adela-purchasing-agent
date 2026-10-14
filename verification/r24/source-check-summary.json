@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T06:04:50.260444+00:00",
+  "at": "2026-10-14T09:35:47.792794+00:00",
   "publicSourceURLs": 285,
   "readable": 249,
   "structuredDataPages": 144,
@@ -7,15 +7,15 @@
   "searchErrors": 16,
   "withUnverifiedCandidates": 7,
   "http200IsNotProof": true,
-  "originalExternalPhotoURLs": 111,
-  "cachedPhotos": 110,
-  "decodedPhotos": 111,
+  "originalExternalPhotoURLs": 115,
+  "cachedPhotos": 114,
+  "decodedPhotos": 115,
   "photosMissingForDraftReferenceRecords": 1,
   "productionDeployments": 0,
   "paidModelCalls": 0,
   "previousUnresolvedIssues": 188,
-  "currentUnresolvedIssues": 163,
-  "guardedSourcePatches": 31,
+  "currentUnresolvedIssues": 155,
+  "guardedSourcePatches": 36,
   "partialPhotoOnlyPatches": 26,
   "missingDraftPhotos": [
     {
@@ -24,7 +24,10 @@
     }
   ],
   "photoOnlyDoesNotApprovePriceOrSupply": true,
-  "networkDomainsAwaitingEnvironmentReview": [],
+  "networkDomainsAwaitingEnvironmentReview": [
+    "img.shoplineapp.com",
+    "cdn.shoplineapp.com"
+  ],
   "additionalSearches": {
     "momoQueries": 71,
     "momoCandidateGroups": 64,
@@ -39,5 +42,13 @@
     "api.kurly.com",
     "ecshweb.pchome.com.tw"
   ],
-  "proposedRowPatches": 57
+  "proposedRowPatches": 62,
+  "additionalSourceWork": {
+    "confirmedOptions": 8,
+    "evidence": "verification/r24/round-2-confirmed.json",
+    "sourceOrderChecks": 12,
+    "imageSourceCandidate": "verification/r24/mardi-photo-source-pending.json",
+    "unansweredVersionAndExclusivePolicyChoices": true,
+    "noExceptionsApplied": true
+  }
 }

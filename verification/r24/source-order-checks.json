@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-14T09:25:26.888Z",
+  "checks": 12,
+  "scope": "Actual proposed source rows through the compiled server with a simulated member and disposable D1; no live data, paid provider or physical merchant checkout",
+  "cases": [
+    "Verified source 152/peelable-0 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 152/peelable-1 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 152/peelable-2 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 162 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 184 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 71 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 83 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Actual sold-out kiwi source cannot receive a quote while verified available flavors can",
+    "Client price tampering cannot create an order for a newly verified source",
+    "An available verified source can create a local unpaid order only after the buyer accepts the server price",
+    "Repeating the verified-source checkout keeps one unpaid order and does not enter a paid procurement queue",
+    "Source validation causes no wallet entries or external provider/mail calls"
+  ]
+}

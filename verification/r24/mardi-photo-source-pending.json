@@ -1,0 +1,26 @@
+{
+  "id": 149,
+  "exactReferenceName": "SWEATSHIRT FLOWERMARDI NEEDLEWORK BLACK PINK",
+  "officialTaiwanSource": "https://www.mardimercredi.com.tw/products/mardi-mercredi-印花大學tee-黑色-經典小雛菊-刺繡-粉花-純棉-sweatshirt-flowermardi-needlework",
+  "manufacturerModelCode": "MFK41SPO004BKPK00",
+  "product": {
+    "name": "MARDI MERCREDI 印花大學TEE 黑色 經典小雛菊 刺繡 粉花 純棉 SWEATSHIRT FLOWERMARDI NEEDLEWORK",
+    "image": [
+      "https://img.shoplineapp.com/media/image_clips/66e800c066bf9f0001717fd0/original.jpg?1726480576",
+      "https://img.shoplineapp.com/media/image_clips/66e800c266bf9f0001717fd6/original.jpg?1726480578",
+      "https://img.shoplineapp.com/media/image_clips/66e800c366bf9f0001717fda/original.jpg?1726480579",
+      "https://img.shoplineapp.com/media/image_clips/66e800c466bf9f0001717fdd/original.jpg?1726480580",
+      "https://img.shoplineapp.com/media/image_clips/66e800c566bf9f0001717fdf/original.jpg?1726480581"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": 3980.0,
+      "priceCurrency": "TWD",
+      "availability": "http://schema.org/InStock"
+    }
+  },
+  "bytesDownloaded": false,
+  "networkHostRequired": "img.shoplineapp.com",
+  "scope": "Official same-model reference identified; image CDN access still pending; no price/supply approval",
+  "koreanSameModelCurrentSupplyStillUnverified": true
+}
