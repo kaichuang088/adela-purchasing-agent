@@ -1,0 +1,234 @@
+[
+  {
+    "id": 23,
+    "scope": "exact KR/TW five-pack source work",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/5069267",
+    "merchantProductNo": 5069267,
+    "name": "[농심] 신라면 멀티 5입",
+    "volume": "120g*5개입",
+    "salesUnit": "1봉",
+    "goodsKrw": 4150,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 7150,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/53473b75-b8f4-41ed-b425-b27d2fa675e5.jpg",
+      "local": "/catalog-r24/cf2e1df9d072b6a7ab1ec510.jpg",
+      "bytes": 141683,
+      "sha256": "a2dda5c09341ce362d86a32a16a023ba4cce64661a2198e3f46df59f27d07fef"
+    },
+    "taiwanPdp": "https://24h.pchome.com.tw/prod/DBAY48-A900DWS5R",
+    "taiwanPrice": 159,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 31,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/5061325",
+    "merchantProductNo": 5061325,
+    "name": "[농심] 새우깡 90g",
+    "volume": "90g",
+    "salesUnit": "1봉",
+    "goodsKrw": 1260,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 4260,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/f52cc0c5-539c-4cbc-a845-01c23dea1585.jpg",
+      "local": "/catalog-r24/e2f766676b873877e9205f10.jpg",
+      "bytes": 200435,
+      "sha256": "a3267cc0fd1ae45a43a4d6ab79722d5409a811a92a535c5dbf6cce2369c19d58"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 32,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/5061319",
+    "merchantProductNo": 5061319,
+    "name": "[농심] 올리브 짜파게티 5입",
+    "volume": "700g(140g X5입)",
+    "salesUnit": "1팩",
+    "goodsKrw": 5300,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 8300,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/cd1831f7-7088-4802-b7a0-8d1bc7ba46f0.jpg",
+      "local": "/catalog-r24/fa05afa1ff7e287ecefaa5be.jpg",
+      "bytes": 107676,
+      "sha256": "ea7c2a36b47a94f9102cef74caa723e25ef481063e86543541b9c7a7a0d528c9"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 35,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/5054490",
+    "merchantProductNo": 5054490,
+    "name": "[HBAF] 허니버터 아몬드 190g",
+    "volume": "190g",
+    "salesUnit": "1봉",
+    "goodsKrw": 6990,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 9990,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "COLD"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/4158abe9-9501-4aaf-89e6-307ea663f87f.jpg",
+      "local": "/catalog-r24/928f040b11508aa6773756ca.jpg",
+      "bytes": 230961,
+      "sha256": "240c66d9cb1f6b659b261ac618fd628f5378a54d8e579ae07574f989b221c2f2"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": true,
+    "noLiveMutation": true
+  },
+  {
+    "id": 36,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/1000263120",
+    "merchantProductNo": 1000263120,
+    "name": "[해태] 허니버터칩 4번들 (40g x 4묶음)",
+    "volume": "40g x 4개입",
+    "salesUnit": "",
+    "goodsKrw": 3980,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 6980,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/9095f40d-99c4-4ff3-8fb9-e11b7d0e1a95.jpg",
+      "local": "/catalog-r24/d9ed9075a32958452a930bcb.jpg",
+      "bytes": 142748,
+      "sha256": "93d9345c358566b45715a15fb5f8a5aeb9a93e096ccd6bc54c2439fede7f943a"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 43,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/1002129063",
+    "merchantProductNo": 1002129063,
+    "name": "[농심] 양파링 오리지널 80g",
+    "volume": "80g",
+    "salesUnit": "1개",
+    "goodsKrw": 1440,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 4440,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/d836f983-f4b5-42c8-a226-4e19a353c40d.png",
+      "local": "/catalog-r24/63a72843052b1ca009a69316.png",
+      "bytes": 2280343,
+      "sha256": "6e7bb905bdd55bc7fe4c362a37039c549cd763b26eeeceb231bcd9d7199e867e"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 44,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/1002129065",
+    "merchantProductNo": 1002129065,
+    "name": "[농심] 바나나킥 75g",
+    "volume": "75g",
+    "salesUnit": "1개",
+    "goodsKrw": 1440,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 4440,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://product-image.kurly.com/product/image/385c1a86-a796-4580-938f-03523fd8b51e.png",
+      "local": "/catalog-r24/823b2a3e3dd0a2648c3af758.png",
+      "bytes": 2127763,
+      "sha256": "e836c0fe23890a816ad344537044818c9c101ada297d96f102b06b7cd5d3519b"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 45,
+    "scope": "partial photo/source work, still draft",
+    "checkedAt": "2026-10-14",
+    "koreanPdp": "https://www.kurly.com/goods/5071403",
+    "merchantProductNo": 5071403,
+    "name": "[롯데] 말랑카우 밀크 158g",
+    "volume": "158g",
+    "salesUnit": "1봉",
+    "goodsKrw": 3900,
+    "mandatoryLocalDeliveryKrw": 3000,
+    "totalStandaloneKrw": 6900,
+    "available": true,
+    "stockCount": "not published",
+    "storageTypes": [
+      "AMBIENT_TEMPERATURE"
+    ],
+    "image": {
+      "original": "https://img-cf.kurly.com/shop/data/goods/1622003380892l0.jpg",
+      "local": "/catalog-r24/3560a62fc7653f9e9477d9d6.jpg",
+      "bytes": 152728,
+      "sha256": "e57591b966b06b10d175d9f097d91fd6be6a3a47e8a0e5640fb7b7043254f464"
+    },
+    "taiwanPdp": null,
+    "taiwanPrice": null,
+    "buyerTransportStillPending": false,
+    "noLiveMutation": true
+  },
+  {
+    "id": 34,
+    "scope": "photo-only family reference; not price or supply evidence",
+    "original": "https://webimage.ldcc.co.kr/upload/conf/upload/2022/06/23/2022062373d4c0ce28a84c2.png",
+    "local": "/catalog-r24/51a6361193f9a12506a5bfb9.png",
+    "sha256": "baaba3c78103b932efc75e49b92ca521ce782cdc15c07ad772edf9638c8e1421",
+    "checkedAt": "2026-10-14"
+  }
+]

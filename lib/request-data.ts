@@ -105,7 +105,7 @@ export function parsePhotoAnalysis(value:unknown,country:Country,now=new Date().
   parsed.sources = Array.isArray(parsed.sources) ? parsed.sources.filter(source => evidenceUrls.has(sourceUrlKey(source.url)) && /^https:\/\//.test(source.url) && source.localCountry===country && source.currency===countries[country].currency && Number.isFinite(source.originalPrice) && Number(source.originalPrice)>0).slice(0,3).map(source => ({...source,capturedAt:now,taxFreeEligible: source.taxFreeEligible && source.taxFreeForResale===true && !!source.taxFreeConditions?.trim() && evidenceUrls.has(sourceUrlKey(source.taxEvidenceUrl||'')) && Number.isFinite(source.afterTaxPrice) && Number(source.afterTaxPrice)>0 && Number(source.afterTaxPrice)<=Number(source.originalPrice)})) : [];
   if(parsed.needsProductChoice)parsed.sources=[];
   // These fields are established only by the server's retailer verifier.
-  delete parsed.retailerChoices;delete parsed.retailerChoiceId;delete parsed.retailerPhotoUrl;
+  delete parsed.retailerChoices;delete parsed.retailerChoiceId;delete parsed.retailerPhotoUrl;delete parsed.retailerPurchaseLimit;
   for(const source of parsed.sources){delete source.deliveryFreeThreshold;delete source.deliveryFlatAmount;}
   return parsed;
 }

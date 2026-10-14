@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-14T06:04:23.481Z",
+  "scope": "Read-only site build linkage and credit metadata; no deploy or environment mutation",
+  "sites": [
+    {
+      "id": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "name": "adela-purchasing-agent-shop",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "productionDeploy": "6acddd29474ef111c445cc98",
+      "repoConnected": false,
+      "repoBranch": null
+    },
+    {
+      "id": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "name": "adela-purchasing-agent-admin",
+      "accountId": "6a9413a2cdc8b13fed799c35",
+      "productionDeploy": "6acddf0ab28644c9b508d105",
+      "repoConnected": false,
+      "repoBranch": null
+    }
+  ],
+  "creditsCapability": {
+    "included": 1000,
+    "used": 0
+  },
+  "usageStatus": 404,
+  "creditUsage": null,
+  "currentBalanceVerified": false
+}

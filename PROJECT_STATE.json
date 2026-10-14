@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-13T20:38:14.093081+00:00",
+  "updatedAt": "2026-10-14T06:04:50.260444+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -64,7 +64,7 @@
     "livePdfDownloads": "Both200 and SHA matches"
   },
   "notes": [
-    "R24 remains blocked by165 actual catalog issues and10 missing draft/reference photos. R23 is unchanged live.",
+    "R24 remains blocked by163 actual catalog issues and1 missing draft/reference photos. R23 is unchanged live.",
     "This corrective round has zero production deployments, zero paid AI calls, and no live financial/catalog mutations.",
     "Buyer archives are server-restricted to admin; latest-created buyer conversation remains accessible and old records are retained.",
     "Actual current credit balance is unconfirmed; preserve750, do not infer from lagged API usage counters."
@@ -80,16 +80,16 @@
   "phase": "r24-local-fixes-verified-catalog-blocked",
   "publishedSourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
   "r24Preparation": {
-    "at": "2026-10-13T20:38:14.093081+00:00",
+    "at": "2026-10-14T06:04:50.260444+00:00",
     "productionDeployments": 0,
     "paidModelCalls": 0,
     "budgetReserve": 750,
     "verifiedCurrentCredits": null,
     "actualCreditBalanceConfirmed": false,
-    "catalogUnresolvedIssues": 165,
-    "reviewedProductPatches": 29,
-    "originalExternalPhotosCached": 101,
-    "draftReferencePhotosMissing": 10,
+    "catalogUnresolvedIssues": 163,
+    "reviewedProductPatches": 31,
+    "originalExternalPhotosCached": 111,
+    "draftReferencePhotosMissing": 1,
     "newOrdinaryDeliveryTwd": 60,
     "priorityDeliveryTwd": 80,
     "diamondDeliveryTwd": 0,
@@ -104,21 +104,21 @@
     "publishReady": false,
     "releaseGate": "node scripts/check-r24-release-gate.mjs",
     "remaining": [
-      "165 genuine source/specification/cost issues",
-      "10 draft/reference records still lacking originals; some supplied photos are family-only",
-      "Required merchant/photo network domains await environment settings review and activation",
+      "163 genuine source/specification/cost issues",
+      "1 draft/reference records still lacking originals; some supplied photos are family-only",
+      "Native merchant/photo network reads are active; remaining issues concern exact evidence, not pending configuration",
       "CITRON28 Seoul boutique prices and supply; ambiguous reference-model and limited-edition replacement decisions pending",
       "Current balance must support750 credits after future publication",
       "Full live photo-quote accuracy, physical Android push and new HTML email inbox delivery remain unverified"
     ],
-    "namedChecksPassed": 394,
+    "namedChecksPassed": 438,
     "codeCommit": null,
     "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
-    "partialPhotoPatches": 18,
-    "uniqueCachedPhotoFiles": 100,
+    "partialPhotoPatches": 26,
+    "uniqueCachedPhotoFiles": 110,
     "codeCommitNote": "Current corrective code and evidence are on codex/r24-correction-20261013; use current Git HEAD, not the earlier dd0fa635 snapshot.",
     "assistedOrders": "Only ordering in this page; photo/name/ID search and multi-line quantities. Account creation remains in members management.",
-    "photoQuoteCorrection": "Explicit current retailer-package choices, fresh source/availability/shipping recheck, no repeated paid vision for known package; old failed Orion job diagnosed read-only; full new live-provider accuracy unverified."
+    "photoQuoteCorrection": "Explicit current retailer-package choices, fresh source/availability/shipping recheck, no repeated paid vision for known package; 16 additional known food families support native merchant-package discovery; cold storage stops automatic research and offers seller review; actual limits, stock and basket shipping rechecked. Old failed Orion job diagnosed read-only; full new live-provider accuracy unverified."
   },
   "r23PublishedNotes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",

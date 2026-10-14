@@ -1,5 +1,5 @@
 {
-  "checks": 27,
+  "checks": 37,
   "scope": "Isolated D1 and mock queue/provider evidence; no live data or provider calls",
   "cases": [
     "Upload queues work without fake pricing or an order",
@@ -28,6 +28,16 @@
     "Known retailer selection rechecks one merchant and never repeats paid vision",
     "Duplicate package confirmation returns the same quote without spending twice",
     "The quote shows the selected retailer package rather than substituting the original collage",
+    "Five unfinished private drafts cannot cause another paid upload",
+    "Native family discovery reaches the private buyer package-choice flow without fake pricing",
+    "Low photo certainty is retained while the explicitly chosen retailer SKU receives verified pricing",
+    "Only actual merchant purchase limits apply; AI-injected1 and repeated paid vision are not used",
+    "Buyer cannot exceed the verified merchant purchase limit",
+    "A rejected quantity can be corrected without creating an order",
+    "Merchant cold storage stops the next paid research stage even when the model claimed an exact item",
+    "Buyer sees the actual storage and shipping limitation rather than a fabricated quote",
+    "An identified item can be sent to the seller for source and transport review",
+    "Repeated seller review does not duplicate the inquiry",
     "Background research creates no order or wallet transaction"
   ]
 }

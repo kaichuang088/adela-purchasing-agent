@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T20:38:14.093081+00:00",
+  "at": "2026-10-14T06:04:50.260444+00:00",
   "publicSourceURLs": 285,
   "readable": 249,
   "structuredDataPages": 144,
@@ -7,81 +7,37 @@
   "searchErrors": 16,
   "withUnverifiedCandidates": 7,
   "http200IsNotProof": true,
-  "originalExternalPhotoURLs": 101,
-  "cachedPhotos": 100,
-  "decodedPhotos": 101,
-  "photosMissingForDraftReferenceRecords": 10,
+  "originalExternalPhotoURLs": 111,
+  "cachedPhotos": 110,
+  "decodedPhotos": 111,
+  "photosMissingForDraftReferenceRecords": 1,
   "productionDeployments": 0,
   "paidModelCalls": 0,
   "previousUnresolvedIssues": 188,
-  "currentUnresolvedIssues": 165,
-  "guardedSourcePatches": 29,
-  "partialPhotoOnlyPatches": 18,
+  "currentUnresolvedIssues": 163,
+  "guardedSourcePatches": 31,
+  "partialPhotoOnlyPatches": 26,
   "missingDraftPhotos": [
     {
       "id": 149,
       "name": "Mardi Mercredi 花朵刺繡大學T 黑粉"
-    },
-    {
-      "id": 45,
-      "name": "樂天 Malang Cow 牛奶軟糖"
-    },
-    {
-      "id": 44,
-      "name": "農心 香蕉脆餅"
-    },
-    {
-      "id": 43,
-      "name": "農心 洋蔥圈"
-    },
-    {
-      "id": 36,
-      "name": "海太 蜂蜜奶油洋芋片"
-    },
-    {
-      "id": 35,
-      "name": "HBAF 蜂蜜奶油杏仁"
-    },
-    {
-      "id": 34,
-      "name": "Lotte 樂天 Pepero 巧克力棒"
-    },
-    {
-      "id": 32,
-      "name": "農心 炸醬麵（짜파게티）"
-    },
-    {
-      "id": 31,
-      "name": "農心 蝦味先（새우깡）"
-    },
-    {
-      "id": 23,
-      "name": "農心 辛拉麵 5 入裝"
     }
   ],
   "photoOnlyDoesNotApprovePriceOrSupply": true,
-  "networkDomainsAwaitingEnvironmentReview": [
-    "image.nongshim.com",
-    "cdn.imweb.me",
-    "webimage.ldcc.co.kr",
-    "api.kurly.com",
-    "ecshweb.pchome.com.tw",
-    "kream.co.kr",
-    "emile.emarteveryday.co.kr",
-    "i1.momoshop.com.tw",
-    "i2.momoshop.com.tw",
-    "i3.momoshop.com.tw",
-    "i4.momoshop.com.tw",
-    "i5.momoshop.com.tw",
-    "i6.momoshop.com.tw",
-    "i7.momoshop.com.tw",
-    "i8.momoshop.com.tw"
-  ],
+  "networkDomainsAwaitingEnvironmentReview": [],
   "additionalSearches": {
     "momoQueries": 71,
     "momoCandidateGroups": 64,
     "shortWebQueries": 77,
     "shortWebChallenges": 69,
     "candidateIsNotVerified": true
-  }
+  },
+  "nativeNetworkReadsVerified": [
+    "image.nongshim.com",
+    "cdn.imweb.me",
+    "webimage.ldcc.co.kr",
+    "api.kurly.com",
+    "ecshweb.pchome.com.tw"
+  ],
+  "proposedRowPatches": 57
 }

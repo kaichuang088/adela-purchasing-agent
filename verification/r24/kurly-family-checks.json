@@ -1,0 +1,23 @@
+{
+  "checks": 17,
+  "scope": "Isolated fixtures reflecting inspected public merchant shape; no live model, order or financial writes",
+  "labels": [
+    "Uncertain photo offers independently read complete retailer packages without a quote",
+    "Selected package uses fresh public PDP price and mandatory shipping, never search/coupon price1",
+    "Purchase limit is preserved without inflating photo confidence or applying perfume pricing",
+    "Unrecognised brands cannot cause speculative merchant searches",
+    "Explicit uncertain family is not replaced with the SKU confidence",
+    "Arbitrary client IDs outside stored merchant choices cannot be fetched",
+    "Sold-out packages do not retain a previous quoted price",
+    "A changed package is rejected rather than silently replacing the chosen size",
+    "Unverified shipping terms cannot become an accepted quote",
+    "External image URLs cannot replace the verified retailer picture",
+    "Minimum two cannot be priced as one purchasable package",
+    "Membership-only purchase terms remain unresolved",
+    "A known family with unverified retailer capacity is not a completed package",
+    "Cold-chain onward delivery is not assumed by the automatic package flow",
+    "Rejected known merchant data cannot fall back to an AI-supplied Kurly price",
+    "Unavailable known merchant evidence does not retain an AI-supplied source",
+    "Known storage constraints stop the paid second stage and explain seller review"
+  ]
+}

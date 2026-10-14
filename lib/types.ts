@@ -40,7 +40,7 @@ export type PriceSource = {
 
 export type ProductAnalysis = {
   retailerChoices?:Array<{id:string;labelZh:string;labelEn:string;model:string;imageUrl:string}>;
-  retailerChoiceId?:string;retailerPhotoUrl?:string;
+  retailerChoiceId?:string;retailerPhotoUrl?:string;retailerPurchaseLimit?:number;
   needsProductChoice?:boolean;
   identificationChoices?:Array<{labelZh:string;labelEn:string;model:string}>;
   identifiedNameZh: string; identifiedNameEn: string; brand: string; model: string; category: string;

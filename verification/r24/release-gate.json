@@ -1,10 +1,10 @@
 {
-  "at": "2026-10-13T20:38:14.564Z",
+  "at": "2026-10-14T06:04:50.902Z",
   "publishReady": false,
-  "unresolvedIssues": 165,
+  "unresolvedIssues": 163,
   "blockers": [
-    "Catalog has 165 unresolved issues",
-    "10 draft/reference records still lack exact original photos",
+    "Catalog has 163 unresolved issues",
+    "1 draft/reference records still lack exact original photos",
     "Current credit balance and750 reserve are not confirmed"
   ],
   "productionDeploymentsThisRound": 0,

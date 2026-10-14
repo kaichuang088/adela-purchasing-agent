@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T20:32:13.080Z",
+  "at": "2026-10-14T05:58:47.396Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R24; no live changes, no provider calls",
   "inputProducts": 199,
   "proposedProducts": 181,
@@ -8,42 +8,6 @@
     {
       "id": 149,
       "name": "Mardi Mercredi 花朵刺繡大學T 黑粉"
-    },
-    {
-      "id": 45,
-      "name": "樂天 Malang Cow 牛奶軟糖"
-    },
-    {
-      "id": 44,
-      "name": "農心 香蕉脆餅"
-    },
-    {
-      "id": 43,
-      "name": "農心 洋蔥圈"
-    },
-    {
-      "id": 36,
-      "name": "海太 蜂蜜奶油洋芋片"
-    },
-    {
-      "id": 35,
-      "name": "HBAF 蜂蜜奶油杏仁"
-    },
-    {
-      "id": 34,
-      "name": "Lotte 樂天 Pepero 巧克力棒"
-    },
-    {
-      "id": 32,
-      "name": "農心 炸醬麵（짜파게티）"
-    },
-    {
-      "id": 31,
-      "name": "農心 蝦味先（새우깡）"
-    },
-    {
-      "id": 23,
-      "name": "農心 辛拉麵 5 入裝"
     }
   ],
   "patchResults": [
@@ -234,10 +198,50 @@
     {
       "id": 28,
       "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 23,
+      "status": "verified_specs_applied"
+    },
+    {
+      "id": 31,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 32,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 35,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 36,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 43,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 44,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 45,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 34,
+      "status": "original_photo_added_review_pending"
+    },
+    {
+      "id": 120,
+      "status": "verified_specs_applied"
     }
   ],
-  "inspectedPatchesApplied": 29,
-  "unresolvedIssues": 165,
+  "inspectedPatchesApplied": 31,
+  "unresolvedIssues": 163,
   "counts": {
     "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
@@ -254,14 +258,14 @@
     "照片是系列展示，不是混合整組；須分4口味確認SKU、各口味價格/庫存及台灣比價。": 1,
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
-    "缺少": 17,
+    "缺少": 16,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
     "缺少同規格台灣價格、來源或查核日期": 86,
     "參考圖片尚不能對應核實的可售商品。": 5,
     "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.": 1,
     "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.": 1,
     "目前來源仍有普通髮膜可買，但原指定飛天小女警／擠壓器聯名選項已不在可選清單；不擅自替換成普通版。": 1,
-    "韓國來源、規格或成本尚待核實": 11,
+    "韓國來源、規格或成本尚待核實": 2,
     "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。": 1,
     "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。": 1,
     "Official exact listing returns HTTP404; current cost and buyable stock not verified.": 1,
@@ -271,12 +275,15 @@
     "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。": 2,
     "已核對韓國官方 ANOTHER13 30ml 護手霜原圖、SKU J0SG010000、當前₩43,000及一般配送；台灣同規格價格仍未核實。保持草稿，不能以55ml來源替代30ml。": 1,
     "CurrentCostcoPepero15page returns0lines; previous19490KRW saved cost not enough to prove current supply. Do not republish as verified.": 1,
+    "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。": 6,
     "已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
+    "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。 此來源使用冷藏配送；跨境保存與配送方式仍須確認。": 1,
+    "已補樂天官方 Original39g盒裝原圖作為產品系列辨識；各口味、實際採買包裝、價格、供貨與台灣同規格比較仍待核實，保持草稿。": 1,
     "已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。": 1,
     "已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。": 1,
     "賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。": 1,
@@ -822,14 +829,6 @@
       "ceiling": 589
     },
     {
-      "id": 120,
-      "name": "Bioderma 舒敏高效潔膚液 500ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "cost": 428,
-      "ceiling": 807
-    },
-    {
       "id": 119,
       "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
       "option": "",
@@ -1355,19 +1354,19 @@
       "id": 45,
       "name": "樂天 Malang Cow 牛奶軟糖",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 44,
       "name": "農心 香蕉脆餅",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 43,
       "name": "農心 洋蔥圈",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 42,
@@ -1409,19 +1408,19 @@
       "id": 36,
       "name": "海太 蜂蜜奶油洋芋片",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 35,
       "name": "HBAF 蜂蜜奶油杏仁",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。 此來源使用冷藏配送；跨境保存與配送方式仍須確認。"
     },
     {
       "id": 34,
       "name": "Lotte 樂天 Pepero 巧克力棒",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "已補樂天官方 Original39g盒裝原圖作為產品系列辨識；各口味、實際採買包裝、價格、供貨與台灣同規格比較仍待核實，保持草稿。"
     },
     {
       "id": 33,
@@ -1433,13 +1432,13 @@
       "id": 32,
       "name": "農心 炸醬麵（짜파게티）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 31,
       "name": "農心 蝦味先（새우깡）",
       "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
+      "reason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
     },
     {
       "id": 30,
@@ -1478,12 +1477,6 @@
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 126,
       "ceiling": null
-    },
-    {
-      "id": 23,
-      "name": "農心 辛拉麵 5 入裝",
-      "option": "",
-      "reason": "韓國來源、規格或成本尚待核實"
     },
     {
       "id": 19,

@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-14T05:51:31.382461+00:00",
+  "id": 120,
+  "koreanSource": "https://www.kurly.com/goods/5081968",
+  "goodsKrw": 17500,
+  "requiredShippingKrw": 3000,
+  "singleBottle500mL": true,
+  "sourceInStock": true,
+  "publishedStockCount": false,
+  "taiwanSource": "https://www.watsons.com.tw/bioderma-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA%E8%88%92%E6%95%8F%E9%AB%98%E6%95%88%E6%BD%94%E8%86%9A%E6%B6%B2500ml/p/BP_218040",
+  "taiwanPublicSaleTwd": 638,
+  "taiwanRegularTwd": 850,
+  "taiwanPublicPageExcerpt": "$638 76折 $850 (省下:$212)，數量、加入購物袋；容量500ml。",
+  "taiwanGtin": "3401345935571",
+  "merchantPageHashes": {
+    "kr": "50bbdb20f89caa2e688f56f490a8d3fcbaf58ce1e697eb4f97dea97948e17ef4",
+    "tw": "96db0ec1c5b59d9229861b5cdebfac5aa28273bbf8b045cc3418b2af9b5b4e56"
+  },
+  "photo": {
+    "original": "https://product-image.kurly.com/product/image/711416b8-1b52-4b29-b6bf-c63263325065.jpg",
+    "local": "/catalog-r24/74b44d8468fdc4609d551756.jpg",
+    "sha256": "4ecf52262b4d9b0b5dcd369ce2ec4ddbde3019ac790d1b2221cce06a3cb22140"
+  },
+  "noLiveMutation": true
+}

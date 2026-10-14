@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-13T20:40:01.537109+00:00",
-  "scope": "Pending source candidates only, never applied as completed photo or price proof",
+  "at": "2026-10-14T05:59:42.042138+00:00",
+  "scope": "Current source work after applied environment network activation; prior blocked candidates are retained for provenance, not marked as completed pricing.",
   "items": [
     {
       "id": 23,
@@ -9,7 +9,7 @@
         "https://image.nongshim.com/non/pro/1734997124337.jpg",
         "https://image.nongshim.com/non/pro/1734997151278.jpg"
       ],
-      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply.",
       "familyOnlyUntilPackageInspection": true
     },
     {
@@ -19,14 +19,14 @@
         "https://image.nongshim.com/non/pro/1594682421728.jpg",
         "https://image.nongshim.com/non/pro/1594682430086.jpg"
       ],
-      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply.",
       "familyOnlyUntilPackageInspection": true
     },
     {
       "id": 32,
       "page": "https://brand.nongshim.com/chapagetti/main/index",
       "manufacturerPhotoCandidates": [],
-      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply.",
       "familyOnlyUntilPackageInspection": true
     },
     {
@@ -36,7 +36,7 @@
         "https://image.nongshim.com/non/pro/1527035393947.jpg",
         "https://image.nongshim.com/non/pro/1527035414662.gif"
       ],
-      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply.",
       "familyOnlyUntilPackageInspection": true
     },
     {
@@ -46,7 +46,7 @@
         "https://image.nongshim.com/non/pro/1448612776313.jpg",
         "https://image.nongshim.com/non/pro/1448612781686.jpg"
       ],
-      "status": "manufacturer labels inspected; image bytes blocked pending environment activation; not complete",
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply.",
       "familyOnlyUntilPackageInspection": true
     },
     {
@@ -55,7 +55,7 @@
       "manufacturerPhotoCandidates": [
         "https://webimage.ldcc.co.kr/upload/conf/upload/2022/06/23/2022062373d4c0ce28a84c2.png"
       ],
-      "status": "manufacturer product card labelled Pepero, photo request blocked; not downloaded or approved"
+      "status": "Official Original39g package photo downloaded and cached as partial family reference; price, other flavors and supply remain pending."
     },
     {
       "id": 45,
@@ -63,7 +63,7 @@
       "manufacturerPhotoCandidates": [
         "https://webimage.ldcc.co.kr/upload/conf/upload/2024/06/12/2024061260bcb4db9480425.png"
       ],
-      "status": "manufacturer product card labelled Malang Cow, image request returned tunnel403; not downloaded or approved"
+      "status": "Native merchant package original downloaded and cached; see food-source-work.json. Earlier manufacturer candidate is not used to prove pack price or supply."
     },
     {
       "id": 149,

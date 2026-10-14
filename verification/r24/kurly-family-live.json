@@ -1,0 +1,152 @@
+{
+  "at": "2026-10-14T04:49:52.800Z",
+  "scope": "Public merchant native TLS reads; simulated identity only, no live vision claim",
+  "results": [
+    {
+      "brand": "Nongshim",
+      "model": "Shin Ramyun assortment",
+      "scope": "Synthetic visual identity, independently live-read merchant packages; no paid model, order, live D1 or bank changes",
+      "choices": [
+        {
+          "id": "5069267",
+          "model": "[농심] 신라면 멀티 5입 · 120g*5개입 · 1份商家包裝",
+          "imageUrl": "https://product-image.kurly.com/product/image/53473b75-b8f4-41ed-b425-b27d2fa675e5.jpg"
+        },
+        {
+          "id": "1000466118",
+          "model": "[농심] 신라면 20입 · 120g*20입 · 1份商家包裝",
+          "imageUrl": "https://product-image.kurly.com/product/image/806edee8-80e3-4b99-9ec3-011a918a0a20.jpg"
+        },
+        {
+          "id": "5061315",
+          "model": "[농심] 신라면 소컵 6입 · 390g(65gX6입) · 1份商家包裝",
+          "imageUrl": "https://img-cf.kurly.com/shop/data/goods/1605167078176l0.jpg"
+        }
+      ],
+      "selection": {
+        "model": "[농심] 신라면 멀티 5입 · 120g*5개입 · 1份商家包裝",
+        "photoConfidence": 0.4,
+        "limit": 20,
+        "source": {
+          "storeName": "Kurly 韓國",
+          "url": "https://www.kurly.com/goods/5069267",
+          "localCountry": "KR",
+          "currency": "KRW",
+          "originalPrice": 4150,
+          "priceTaxIncludedJpy": 0,
+          "priceTaxFreeJpy": null,
+          "taxFreeEligible": false,
+          "taxFreeForResale": false,
+          "exactMatch": true,
+          "inStock": true,
+          "capturedAt": "2026-10-14T04:49:48.301Z",
+          "deliveryAmount": 3000,
+          "deliveryConfirmed": true,
+          "deliveryBasis": "per_order",
+          "deliveryFreeThreshold": 40000,
+          "deliveryFlatAmount": 3000,
+          "deliveryConditions": "Kurly 韓國一般配送，單筆商品滿 ₩40,000 免運，未滿運費 ₩3,000。以完整商家包裝計價，不拆分整箱，不套用會員或優惠券折扣。",
+          "note": "買家明確選擇此商家 SKU；已重新核對現價、包裝、可購買狀態及購買上限。原照片容量可能不同；未宣稱庫存件數。"
+        }
+      }
+    },
+    {
+      "brand": "Orion",
+      "model": "Choco Pie assorted packages",
+      "scope": "Synthetic visual identity, independently live-read merchant packages; no paid model, order, live D1 or bank changes",
+      "choices": [
+        {
+          "id": "5061296",
+          "model": "[오리온] 초코파이 12입 · 39g x 12개입 · 1份商家包裝",
+          "imageUrl": "https://product-image.kurly.com/product/image/165934bb-23f2-410b-83bb-62534158cf2d.jpg"
+        },
+        {
+          "id": "1001382646",
+          "model": "[오리온] 초코파이 말차쇼콜라 408g · 408g (34g x 12개) · 1份商家包裝",
+          "imageUrl": "https://product-image.kurly.com/product/image/fffd3660-38d1-4dfb-a72d-b08399a110d1.jpg"
+        }
+      ],
+      "selection": {
+        "model": "[오리온] 초코파이 12입 · 39g x 12개입 · 1份商家包裝",
+        "photoConfidence": 0.4,
+        "limit": 20,
+        "source": {
+          "storeName": "Kurly 韓國",
+          "url": "https://www.kurly.com/goods/5061296",
+          "localCountry": "KR",
+          "currency": "KRW",
+          "originalPrice": 4100,
+          "priceTaxIncludedJpy": 0,
+          "priceTaxFreeJpy": null,
+          "taxFreeEligible": false,
+          "taxFreeForResale": false,
+          "exactMatch": true,
+          "inStock": true,
+          "capturedAt": "2026-10-14T04:49:50.543Z",
+          "deliveryAmount": 3000,
+          "deliveryConfirmed": true,
+          "deliveryBasis": "per_order",
+          "deliveryFreeThreshold": 40000,
+          "deliveryFlatAmount": 3000,
+          "deliveryConditions": "Kurly 韓國一般配送，單筆商品滿 ₩40,000 免運，未滿運費 ₩3,000。以完整商家包裝計價，不拆分整箱，不套用會員或優惠券折扣。",
+          "note": "買家明確選擇此商家 SKU；已重新核對現價、包裝、可購買狀態及購買上限。原照片容量可能不同；未宣稱庫存件數。"
+        }
+      }
+    },
+    {
+      "brand": "HBAF",
+      "model": "Honey Butter Almond",
+      "scope": "Synthetic visual identity, independently live-read merchant packages; no paid model, order, live D1 or bank changes",
+      "choices": [],
+      "selection": null
+    },
+    {
+      "brand": "Lotte",
+      "model": "Pepero assorted packages",
+      "scope": "Synthetic visual identity, independently live-read merchant packages; no paid model, order, live D1 or bank changes",
+      "choices": [
+        {
+          "id": "5086556",
+          "model": "[롯데] 아몬드 팔각 빼빼로 132g · 132g · 1份商家包裝",
+          "imageUrl": "https://img-cf.kurly.com/shop/data/goods/1633056144539l0.jpg"
+        },
+        {
+          "id": "1002096110",
+          "model": "[롯데] 빼빼로 딸기 37g · 37g · 1份商家包裝",
+          "imageUrl": "https://product-image.kurly.com/product/image/ac1668b9-bb3f-4e20-8c59-c913a731e576.png"
+        },
+        {
+          "id": "5086557",
+          "model": "[롯데] 크런키 팔각 빼빼로 140g · 140g · 1份商家包裝",
+          "imageUrl": "https://img-cf.kurly.com/shop/data/goods/163305600091l0.jpg"
+        }
+      ],
+      "selection": {
+        "model": "[롯데] 아몬드 팔각 빼빼로 132g · 132g · 1份商家包裝",
+        "photoConfidence": 0.4,
+        "limit": 20,
+        "source": {
+          "storeName": "Kurly 韓國",
+          "url": "https://www.kurly.com/goods/5086556",
+          "localCountry": "KR",
+          "currency": "KRW",
+          "originalPrice": 5900,
+          "priceTaxIncludedJpy": 0,
+          "priceTaxFreeJpy": null,
+          "taxFreeEligible": false,
+          "taxFreeForResale": false,
+          "exactMatch": true,
+          "inStock": true,
+          "capturedAt": "2026-10-14T04:49:52.800Z",
+          "deliveryAmount": 3000,
+          "deliveryConfirmed": true,
+          "deliveryBasis": "per_order",
+          "deliveryFreeThreshold": 40000,
+          "deliveryFlatAmount": 3000,
+          "deliveryConditions": "Kurly 韓國一般配送，單筆商品滿 ₩40,000 免運，未滿運費 ₩3,000。以完整商家包裝計價，不拆分整箱，不套用會員或優惠券折扣。",
+          "note": "買家明確選擇此商家 SKU；已重新核對現價、包裝、可購買狀態及購買上限。原照片容量可能不同；未宣稱庫存件數。"
+        }
+      }
+    }
+  ]
+}

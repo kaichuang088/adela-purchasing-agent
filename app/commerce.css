@@ -126,3 +126,6 @@
 @media(max-width:600px){.kk-support-page{padding:10px 10px 88px}.kk-chat-panel.embedded{height:calc(100dvh - 202px);min-height:350px;padding:13px;border-radius:17px;gap:9px}.kk-chat-heading h1{font-size:17px}.kk-chat-heading{padding-bottom:9px}.kk-chat-messages{padding:10px}.kk-chat-messages>div{max-width:94%;padding:10px 12px}.kk-chat-compose button{font-size:0;width:42px;padding:10px}.kk-chat-compose button svg{width:20px;height:20px}}
 @media(max-width:600px){.kk-chat-panel.embedded{height:calc(100dvh - 268px);min-height:240px}}
 @media(min-width:601px){.kk-chat-panel.embedded{height:min(680px,calc(100dvh - 260px));min-height:280px}}
+
+/* Keep the customer send action legible at every viewport. */
+.kk-chat-panel .kk-chat-compose button{width:auto;min-width:86px;flex:0 0 auto;font-size:13px!important;white-space:nowrap;padding:10px 12px!important;gap:6px}

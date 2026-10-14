@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-14T05:55:54.445907+00:00",
+  "id": 146,
+  "koreanSource": "https://www.kurly.com/goods/1002381011",
+  "koreanPublicPriceKrw": 14100,
+  "requiredStandaloneDeliveryKrw": 3000,
+  "koreanSpec": "Madecassoside Moisture Sun Serum Blemish Repair50g ×1",
+  "taiwanSource": "https://www.momoshop.com.tw/TP/TP0009840/goodsDetail/TP00098400000231",
+  "taiwanOptions": [
+    {
+      "canTipStock": "",
+      "goodsTypeAName": "01 50g",
+      "goodsTypeBName": "單一規格",
+      "goodsNum": "11",
+      "goodsPaymentDescription": "韓國跨境訂單，於預先委任完成後，預計8~13天配達",
+      "goodsTypeAImgUrl": "https://i7.momoshop.com.tw/1785421630/goodsimg/TP000/9840/0000/231/spec/TP00098400000231_01_001_R.jpg",
+      "goodsTypeCode": "001",
+      "goodsTypePrice": {
+        "basePrice": {
+          "sign": "$$",
+          "price": "395",
+          "strPrice": "",
+          "goodsStatus": ""
+        }
+      }
+    },
+    {
+      "canTipStock": "",
+      "goodsTypeAName": "02 50g+50g",
+      "goodsTypeBName": "單一規格",
+      "goodsNum": "9",
+      "goodsPaymentDescription": "韓國跨境訂單，於預先委任完成後，預計8~13天配達",
+      "goodsTypeAImgUrl": "https://i7.momoshop.com.tw/1785421630/goodsimg/TP000/9840/0000/231/spec/TP00098400000231_01_002_R.jpg",
+      "goodsTypeCode": "002",
+      "goodsTypePrice": {
+        "basePrice": {
+          "sign": "$$",
+          "price": "675",
+          "strPrice": "",
+          "goodsStatus": ""
+        }
+      }
+    }
+  ],
+  "comparisonNotClosed": true,
+  "reason": "Momo current selected001 confirms50g395,002 is50g+50g675. Selected001 photograph visibly carriesTRY ME/TESTER. Page title does not clarify retail sealed versus tester condition; no automatic equivalence assumed. Keep audit pending until retail condition or another same-item source is established.",
+  "productionMutation": false
+}

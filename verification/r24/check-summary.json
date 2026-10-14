@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-13T20:38:14.093081+00:00",
+  "at": "2026-10-14T06:04:50.260444+00:00",
   "scope": "Local isolated tests, not production/provider/physical-phone success",
-  "namedChecksPassed": 394,
+  "namedChecksPassed": 438,
   "suites": {
     "workflows.json": 90,
     "financial.json": 29,
@@ -9,13 +9,14 @@
     "email.json": 6,
     "email-template.json": 8,
     "catalog-outcomes.json": 8,
-    "mobile/results.json": 166,
-    "photo-choice-jobs.json": 27,
-    "kurly-evidence-checks.json": 15,
+    "mobile/results.json": 182,
+    "photo-choice-jobs.json": 37,
+    "kurly-evidence-checks.json": 16,
+    "kurly-family-checks.json": 17,
     "photo-source-ranking.json": 7,
     "photo-background.json": 9
   },
-  "originalPhotoURLsDecoded": 101,
+  "originalPhotoURLsDecoded": 111,
   "failedPhotos": 0,
   "productionDeployments": 0,
   "paidModelCalls": 0

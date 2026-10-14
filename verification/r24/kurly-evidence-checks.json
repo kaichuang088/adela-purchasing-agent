@@ -1,4 +1,4 @@
 {
-  "checks": 15,
+  "checks": 16,
   "scope": "Isolated adapter using minimal independently inspected merchant facts and deliberately invalid variants; no live AI calls or orders"
 }

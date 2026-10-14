@@ -10,6 +10,7 @@ import {resolveProductPhoto} from './product-photo';
 export async function quoteDraft(draft:Record<string,unknown>,member:Member,a:ProductAnalysis){
  if(a.needsProductChoice)throw new ShopError('請先選擇照片中的口味、容量與包裝。 / Select the flavor, size and packaging first.',422);
  const country=String(draft.country) as Country,quantity=Number(draft.quantity)||1,perfume=isPerfume({nameZh:a.identifiedNameZh,nameEn:a.identifiedNameEn,categoryZh:a.category,categoryEn:a.category}),result=selectQuoteSource(a,country,quantity,country==='KR'&&perfume?1/1.1:1);
+ if(a.retailerPurchaseLimit&&quantity>a.retailerPurchaseLimit)throw new ShopError('超過商家目前的單筆購買上限；未建立訂單。 / Retailer purchase limit exceeded. No order was created.',422);
  if(result.kind!=='ready')throw new ShopError(quoteSourceMessage(result.kind,country),422);
  const {source,amount}=result;
  if(source.deliveryConfirmed!==true||!Number.isFinite(source.deliveryAmount)||source.deliveryAmount!<0||!source.deliveryConditions?.trim()||!['per_order','per_unit'].includes(source.deliveryBasis||''))throw new ShopError('尚未確認這個規格的必要當地運費與購買條件，不能提供可接受的總價；未建立訂單。 / Mandatory retailer shipping and purchase terms need verification. No order was created.',422);
