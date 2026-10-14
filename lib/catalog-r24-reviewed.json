@@ -4,9 +4,9 @@
     {
       "id": 153,
       "expectedCommerce": "{\"id\":\"r5-aesop-balm\",\"nameZh\":\"Aesop 賦活芳香護手霜 75mL\",\"nameEn\":\"Aesop Resurrection Aromatique Hand Balm 75mL\",\"brand\":\"Aesop\",\"category\":\"beauty\",\"spec\":\"75mL\",\"priceKrw\":42000,\"imageUrl\":\"https://kr.aesop.com/dw/image/v2/AARM_PRD/on/demandware.static/-/Sites-aesop-master-catalog/ko_KR/dwfbbdd53d/images/products/BM06/Aesop_Hand_Resurrection_Aromatique_Hand_Balm_75mL_Web_Front_A_2000x2000px.jpg?bgcolor=fffef2&q=70&sfrm=png&sh=430&sm=cut&sw=430\",\"purchaseUrl\":\"https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html\",\"taiwanRetailTwd\":1050,\"taiwanRetailSource\":\"https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/9319944030686.html\",\"status\":\"active\",\"sourceCheckedAt\":\"2026-10-01\",\"sourceNotes\":\"\",\"variants\":[],\"descriptionZh\":\"75mL。售價已含代購服务；台灣同規格參考來源見下方。\",\"descriptionEn\":\"75mL. Matching Taiwan reference verified.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Aesop Resurrection Aromatique Hand Balm 75mL\",\"taxIncludedJpy\":42000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"2026-10-01\",\"catalogSourceId\":\"r5-aesop-balm\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75mL。售價已含代購服务；台灣同規格參考來源見下方。\",\"sourceDescriptionEn\":\"75mL. Matching Taiwan reference verified.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"이솝 레저렉션 아로마틱 핸드 밤은 데일리 핸드 케어를 위한 75mL 튜브형 제품입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 42000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "spec": "75mL × 1瓶",
         "purchaseUrl": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-balm/BM06.html?dwvar_BM06_size=75%20mL%20%5E%202.4%20oz",
@@ -25,14 +25,15 @@
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
       },
-      "priceKrw": 42000
+      "priceKrw": 42000,
+      "nextStatus": "paused"
     },
     {
       "id": 154,
       "expectedCommerce": "{\"id\":\"r5-aesop-wash\",\"nameZh\":\"Aesop 賦活芳香手部清潔露 500mL（壓頭）\",\"nameEn\":\"Aesop Resurrection Aromatique Hand Wash 500mL Pump\",\"brand\":\"Aesop\",\"category\":\"beauty\",\"spec\":\"500mL 壓頭版\",\"priceKrw\":58000,\"imageUrl\":\"https://kr.aesop.com/dw/image/v2/AARM_PRD/on/demandware.static/-/Sites-aesop-master-catalog/ko_KR/dw41e50847/images/products/BT13/Aesop_Hand_Resurrection_Aromatique_Hand_Wash_500mL_Web_Front_2000x2000px.jpg?bgcolor=fffef2&q=70&sfrm=png&sh=430&sm=cut&sw=430\",\"purchaseUrl\":\"https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html\",\"taiwanRetailTwd\":1350,\"taiwanRetailSource\":\"https://tw.aesop.com/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html\",\"status\":\"active\",\"sourceCheckedAt\":\"2026-10-01\",\"sourceNotes\":\"\",\"variants\":[],\"descriptionZh\":\"500mL 壓頭版。售價已含代購服务；台灣同規格參考來源見下方。\",\"descriptionEn\":\"500mL 壓頭版. Matching Taiwan reference verified.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Aesop Resurrection Aromatique Hand Wash 500mL Pump\",\"taxIncludedJpy\":58000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"2026-10-01\",\"catalogSourceId\":\"r5-aesop-wash\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"500mL 壓頭版。售價已含代購服务；台灣同規格參考來源見下方。\",\"sourceDescriptionEn\":\"500mL 壓頭版. Matching Taiwan reference verified.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"이솝 레저렉션 아로마틱 핸드 워시는 일상적인 손 세정에 사용하는 500mL 펌프형 제품입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 58000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "spec": "500mL 壓頭版 × 1瓶",
         "purchaseUrl": "https://kr.aesop.com/kr/hand-body/hand-washes-balms/resurrection-aromatique-hand-wash/BT13.html?dwvar_BT13_size=500%20mL%20%5E%2016.9%20fl%20oz",
@@ -51,14 +52,15 @@
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
       },
-      "priceKrw": 58000
+      "priceKrw": 58000,
+      "nextStatus": "paused"
     },
     {
       "id": 180,
       "expectedCommerce": "{\"id\":\"r8-aesop-fr40\",\"nameZh\":\"Aesop 馥綻香水 50mL\",\"nameEn\":\"Aesop Rozu Arises Eau de Parfum 50mL\",\"nameKo\":\"Aesop Rozu Arises 50mL\",\"brand\":\"Aesop\",\"spec\":\"50mL / 2026 Fragrant Fables\",\"category\":\"fragrance\",\"priceKrw\":245000,\"taiwanRetailTwd\":6200,\"taiwanRetailSource\":\"https://tw.aesop.com/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html\",\"taiwanRetailClassification\":\"official_regular\",\"purchaseUrl\":\"https://kr.aesop.com/kr/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html\",\"imageUrl\":\"/catalog-r8/r8-aesop-fr40.png\",\"descriptionZh\":\"50mL 單瓶，新版馥香寓言系列。台韓官網核對相同款式與容量。依採買批次代購，非台灣現貨；實際庫存以供應商採買時為準。\",\"descriptionEn\":\"One 50mL bottle, 2026 Fragrant Fables edition. Matching size verified on Korean and Taiwan official stores. Purchased in the scheduled batch; supplier stock is subject to purchase-time confirmation.\",\"stock\":-1,\"stockQuantityVerified\":false,\"serviceFeePercent\":5,\"sourceCheckedAt\":\"2026-10-03\",\"variants\":[],\"status\":\"active\",\"imageSource\":\"https://tw.aesop.com/dw/image/v2/AARM_PRD/on/demandware.static/-/Sites-aesop-master-catalog/zh_TW/dw5a3a0aa5/images/products/FR40/Aesop_Fragrance_Rozu_Arises_Eau_de_Parfum_50mL_NGL_Front_1_2000x2000px.jpg?bgcolor=fffef2&q=70&sfrm=png&sw=600\",\"catalogSourceId\":\"r8-aesop-fr40\",\"country\":\"KR\",\"currency\":\"KRW\",\"taxIncludedJpy\":245000,\"taxRefundEligible\":false,\"taiwanRetailCheckedAt\":\"2026-10-03\",\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50mL 單瓶，新版馥香寓言系列。台韓官網核對相同款式與容量。依採買批次代購，非台灣現貨；實際庫存以供應商採買時為準。\",\"sourceDescriptionEn\":\"One 50mL bottle, 2026 Fragrant Fables edition. Matching size verified on Korean and Taiwan official stores. Purchased in the scheduled batch; supplier stock is subject to purchase-time confirmation.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"Aesop Rozu Arises는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 245000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "spec": "50mL × 1瓶",
         "purchaseUrl": "https://kr.aesop.com/kr/fragrance/floral/rozu-arises-eau-de-parfum/FR40.html?dwvar_FR40_size=50%20mL%20%5E%201.6%20fl%20oz",
@@ -81,14 +83,15 @@
         "serviceFeePercent": 2,
         "allowStoreFundedDiscount": false
       },
-      "priceKrw": 245000
+      "priceKrw": 245000,
+      "nextStatus": "paused"
     },
     {
       "id": 181,
       "expectedCommerce": "{\"id\":\"r8-aesop-fr35\",\"nameZh\":\"Aesop 曠境香水 50mL\",\"nameEn\":\"Aesop Boundless Eremia Eau de Parfum 50mL\",\"nameKo\":\"Aesop Boundless Eremia 50mL\",\"brand\":\"Aesop\",\"spec\":\"50mL / 2026 Fragrant Fables\",\"category\":\"fragrance\",\"priceKrw\":245000,\"taiwanRetailTwd\":6200,\"taiwanRetailSource\":\"https://tw.aesop.com/fragrance/fresh/boundless-eremia-eau-de-parfum/FR35.html\",\"taiwanRetailClassification\":\"official_regular\",\"purchaseUrl\":\"https://kr.aesop.com/kr/fragrance/fragrance-category/boundless-eremia-eau-de-parfum/FR35.html\",\"imageUrl\":\"/catalog-r8/r8-aesop-fr35.png\",\"descriptionZh\":\"50mL 單瓶，新版馥香寓言系列。台韓官網核對相同款式與容量。依採買批次代購，非台灣現貨；實際庫存以供應商採買時為準。\",\"descriptionEn\":\"One 50mL bottle, 2026 Fragrant Fables edition. Matching size verified on Korean and Taiwan official stores. Purchased in the scheduled batch; supplier stock is subject to purchase-time confirmation.\",\"stock\":-1,\"stockQuantityVerified\":false,\"serviceFeePercent\":5,\"sourceCheckedAt\":\"2026-10-03\",\"variants\":[],\"status\":\"active\",\"imageSource\":\"https://tw.aesop.com/dw/image/v2/AARM_PRD/on/demandware.static/-/Sites-aesop-master-catalog/zh_TW/dwb502b756/images/products/FR35/Aesop_Fragrance_Boundless_Eremia_Eau_de_Parfum_50mL_NGL_Front_1_2000x2000px.jpg?bgcolor=fffef2&q=70&sfrm=png&sw=600\",\"catalogSourceId\":\"r8-aesop-fr35\",\"country\":\"KR\",\"currency\":\"KRW\",\"taxIncludedJpy\":245000,\"taxRefundEligible\":false,\"taiwanRetailCheckedAt\":\"2026-10-03\",\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50mL 單瓶，新版馥香寓言系列。台韓官網核對相同款式與容量。依採買批次代購，非台灣現貨；實際庫存以供應商採買時為準。\",\"sourceDescriptionEn\":\"One 50mL bottle, 2026 Fragrant Fables edition. Matching size verified on Korean and Taiwan official stores. Purchased in the scheduled batch; supplier stock is subject to purchase-time confirmation.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"Aesop Boundless Eremia는 개인용 향수로 즐기는 50mL 오 드 퍼퓸입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 245000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "spec": "50mL × 1瓶",
         "purchaseUrl": "https://kr.aesop.com/kr/fragrance/fragrance-category/boundless-eremia-eau-de-parfum/FR35.html?dwvar_FR35_size=50%20mL%20%5E%201.6%20fl%20oz",
@@ -111,14 +114,15 @@
         "serviceFeePercent": 2,
         "allowStoreFundedDiscount": false
       },
-      "priceKrw": 245000
+      "priceKrw": 245000,
+      "nextStatus": "paused"
     },
     {
       "id": 19,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"https://www.roundlab.co.kr/web/product/small/202511/1ffc403996430656a003ac012165a2d6.jpg\",\"purchaseUrl\":\"https://www.roundlab.co.kr/product/1025-%EB%8F%85%EB%8F%84-%ED%86%A0%EB%84%88-200ml/22/category/1/display/2/\",\"variants\":[{\"id\":\"200ml\",\"labelZh\":\"200 mL\",\"labelEn\":\"200 mL\",\"priceJpy\":11900,\"taiwanRetailTwd\":599,\"taiwanPromotionTwd\":359,\"taiwanRetailSource\":\"https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-200ml\",\"taiwanRetailClassification\":\"official_taiwan_storefront_list_price\",\"taiwanRetailCheckedAt\":\"2026-09-30\"},{\"id\":\"500ml\",\"labelZh\":\"500 mL\",\"labelEn\":\"500 mL\",\"priceJpy\":23000,\"taiwanRetailTwd\":799,\"taiwanPromotionTwd\":549,\"taiwanRetailSource\":\"https://www.roundlab.com.tw/products/round-lab-1025-dokdo-toner-500ml\",\"taiwanRetailClassification\":\"official_taiwan_storefront_list_price\",\"taiwanRetailCheckedAt\":\"2026-09-30\"}],\"nameKo\":\"라운드랩 1025 독도 토너\",\"descriptionKo\":\"라운드랩 1025 독도 토너는 데일리 스킨케어에 사용하는 제품입니다. 200mL와 500mL 두 가지 용량이 있습니다.\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"韓國官網 200 mL／500 mL。價格以韓國官網本次查核售價為基準，採買前仍須確認。\",\"sourceDescriptionEn\":\"200 mL or 500 mL. Based on the current Korean official store listing; subject to confirmation.\",\"sourceDescriptionKo\":\"200ml 또는 500ml. 한국 공식 판매처의 확인 당시 가격 기준이며 구매 전에 다시 확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 11900,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "variants": [
           {
@@ -166,14 +170,15 @@
           }
         ]
       },
-      "priceKrw": 11900
+      "priceKrw": 11900,
+      "nextStatus": "paused"
     },
     {
       "id": 20,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"https://www.roundlab.co.kr/web/product/small/202511/5382c3e00c3b81536f432dc554d1802b.jpg\",\"purchaseUrl\":\"https://www.roundlab.co.kr/product/%EC%9E%90%EC%9E%91%EB%82%98%EB%AC%B4-%EC%88%98%EB%B6%84-%EC%84%A0%ED%81%AC%EB%A6%BC-50ml/138/category/1/display/2/\",\"variants\":[],\"nameKo\":\"라운드랩 자작나무 수분 선크림\",\"descriptionKo\":\"라운드랩 자작나무 수분 선크림은 자작나무 라인의 50mL 선 케어 제품입니다.\",\"taiwanRetailTwd\":699,\"taiwanPromotionTwd\":469,\"taiwanRetailSource\":\"https://www.roundlab.com.tw/products/round-lab-birch-juice-moisturizing-sunscreen\",\"taiwanRetailClassification\":\"official_taiwan_storefront_list_price\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50 mL。韓國官網目前售價 ₩22,500，採買前確認價格與庫存。\",\"sourceDescriptionEn\":\"50 mL. Current official Korean listing ₩22,500; reconfirm availability and price.\",\"sourceDescriptionKo\":\"50ml. 한국 공식 판매처 확인 가격 ₩22,500. 구매 가능 여부와 가격을 다시 확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 22500,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "changes": {
         "spec": "50mL × 1瓶",
         "purchaseUrl": "https://www.roundlab.co.kr/product/자작나무-수분-선크림-50ml/138/",
@@ -191,14 +196,15 @@
         "stock": -1,
         "stockQuantityVerified": false
       },
-      "priceKrw": 22500
+      "priceKrw": 22500,
+      "nextStatus": "paused"
     },
     {
       "id": 135,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 일랑 49 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-ylang-49-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PY49100__PRODUCT_01--IMG_1200--YLANG49-1134123156.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/ylang-49-1043.html\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/ylang-49-1043.html\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -222,7 +228,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -231,9 +237,9 @@
     {
       "id": 136,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 네롤리 36 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-neroli-36-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PN36100__PRODUCT_01--IMG_1200--NEROLI36--1184684923.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/neroli-36-904.html?size=50mledp\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -257,7 +263,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -266,9 +272,9 @@
     {
       "id": 137,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 통카 25 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-tonka-25-50\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/050PT25100__PRODUCT_01--IMG_1200--TONKA25--880596687.jpg\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/tonka-25-1105.html\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/tonka-25-1105.html\",\"type\":\"not_verified_for_exact_selected_spec\",\"basis\":\"Exact SKU image and KRW specification confirmed, but did not preserve selected50ml plus current enabled buy controls together. Live browser now unavailable. Do not infer available from generic page controls.\"},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -292,7 +298,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -301,9 +307,9 @@
     {
       "id": 139,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 비올렛 30 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-violette-30-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000780499398&salestrNo=1004&siteNo=6009\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -327,7 +333,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -336,9 +342,9 @@
     {
       "id": 140,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 라다넘 18 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-labdanum-18-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -362,7 +368,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -371,9 +377,9 @@
     {
       "id": 141,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"르 라보 베티버 46 오 드 퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩319,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-vetiver-46-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":319000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":303050,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 319000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 319000,
       "changes": {
         "spec": "50ml × 1瓶",
@@ -397,7 +403,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "50ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "50ml × 1。韓國來源標價 ₩319,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "50ml × 1. Korea-listed price KRW 319,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "50ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -406,9 +412,9 @@
     {
       "id": 142,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"100ml × 1\",\"nameKo\":\"르 라보 리스 41 오 드 퍼퓸 100ml\",\"descriptionKo\":\"100ml × 1. 한국 판매가 ₩462,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-lys-41-100\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":462000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":438900,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":10650,\"taiwanRetailSource\":\"https://www.1976.com.tw/prod/20424\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"taiwanRetailClassification\":\"retailer_reference_price\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 462000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 462000,
       "changes": {
         "spec": "100ml × 1瓶",
@@ -432,7 +438,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "100ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "100ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -441,9 +447,9 @@
     {
       "id": 143,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"100ml × 1\",\"nameKo\":\"르 라보 베이 19 오 드 퍼퓸 100ml\",\"descriptionKo\":\"100ml × 1. 한국 판매가 ₩462,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"lelabo-baie-19-100\",\"imageUrl\":null,\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taxIncludedJpy\":462000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"brand_direct_department_store_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":438900,\"classification\":\"promotion\",\"conditions\":\"Observed separately; member/card/SSG Money offers excluded from regular reference\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 462000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 462000,
       "changes": {
         "spec": "100ml × 1瓶",
@@ -467,7 +473,7 @@
         "catalogReviewReason": "",
         "descriptionKo": "100ml × 1瓶. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "100ml × 1。韓國來源標價 ₩462,000，2026-09-30 查核。一般標價；促銷另列。草稿：精確照片或目前可購性仍待確認，暫不開放下單。",
       "expectedDescriptionEn": "100ml × 1. Korea-listed price KRW 462,000, checked 2026-09-30. Regular reference; promotions recorded separately. Draft: exact photo or current availability remains unverified; not orderable.",
       "descriptionZh": "100ml × 1瓶。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -476,9 +482,9 @@
     {
       "id": 90,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 히노키 핸드 솝 250ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":44000,\"imageUrl\":\"https://img.yec.tw/zp/MerchandiseImages/7E391E1049-SP-20831006.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000024602476\",\"taiwanRetailTwd\":1080,\"taiwanRetailSource\":\"https://tw.buy.yahoo.com/gdsale/Le-Labo-Hinoki-檜木洗手露-250ml-平行輸入-11746093.html\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"르 라보 히노키 핸드 솝은 히노키 향을 담은 250mL 손 세정 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250ml，韓國新世界百貨一般售價 ₩44,000。台灣 Yahoo 平行輸入同容量商品優惠價 NT$1,080；來源價格可能變動。\",\"sourceDescriptionEn\":\"Le Labo HINOKI Hand Soap 250ml · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"르 라보 히노키 핸드 솝 250ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 44000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 44000,
       "changes": {
         "spec": "250ml × 1瓶",
@@ -501,14 +507,14 @@
         "imageUrl": "/catalog-r24/735d842c37a7fecd924bcb5c.jpg",
         "catalogReviewReason": ""
       },
-      "nextStatus": "active"
+      "nextStatus": "paused"
     },
     {
       "id": 102,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 바질 핸드 솝 250ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"250 ml\",\"catalogSourceId\":\"lelabo-basil-hand-soap-250\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":44000,\"imageUrl\":\"/catalog-20260927/lelabo-basil-hand-soap-250.jpg\",\"purchaseUrl\":\"https://department.ssg.com/disp/brandShop.ssg?brandId=3000014761\",\"taiwanRetailTwd\":1250,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/hand-soap-1113.html?size=250ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"르 라보 바질 핸드 솝은 바질 향을 담은 250mL 손 세정 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"250 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"250ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 44000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 44000,
       "changes": {
         "spec": "250ml × 1瓶",
@@ -531,14 +537,14 @@
         "imageUrl": "/catalog-r24/426ca95e2ffc724f28a3767d.jpg",
         "catalogReviewReason": ""
       },
-      "nextStatus": "active"
+      "nextStatus": "paused"
     },
     {
       "id": 104,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"르 라보 히노키 샤워 젤 250ml\",\"brand\":\"Le Labo\",\"retailer\":\"Shinsegae\",\"spec\":\"250 ml\",\"catalogSourceId\":\"lelabo-hinoki-shower-gel-250\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":49000,\"imageUrl\":\"/catalog-20260927/lelabo-hinoki-shower-gel-250.jpg\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024868324&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EC%95%84%EB%B2%A0%EB%8B%A4%EB%A1%9C%EC%A6%88%EB%A7%88%EB%A6%AC%EB%AF%BC%ED%8A%B8\",\"taiwanRetailTwd\":1300,\"taiwanRetailSource\":\"https://www.lelabofragrances.com.tw/shower-gel-1062.html?size=250ml\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"르 라보 히노키 샤워 젤은 히노키 향을 담은 250mL 샤워 클렌저입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"250 ml 單件。韓國新世界百貨品牌直營常規價；會員與信用卡折扣未計入。\",\"sourceDescriptionEn\":\"250 ml single item. Korean department-store regular price; member/card offers excluded.\",\"sourceDescriptionKo\":\"250ml 1개. 한국 백화점 정가 기준이며 회원·카드 혜택은 제외됩니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 49000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 49000,
       "changes": {
         "spec": "250ml × 1瓶",
@@ -561,14 +567,14 @@
         "imageUrl": "/catalog-r24/e84806c04c81f5b3325d7efe.jpg",
         "catalogReviewReason": ""
       },
-      "nextStatus": "active"
+      "nextStatus": "paused"
     },
     {
       "id": 150,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"retailer\":\"Le Labo Korea\",\"spec\":\"55ml × 1\",\"nameKo\":\"르 라보 핸드 포마드 히노키 55ml\",\"descriptionKo\":\"르 라보 히노키 핸드 포마드는 히노키 향을 담은 55mL 튜브형 핸드 케어 제품입니다.\",\"catalogSourceId\":\"lelabo-hinoki-hand-pomade-55\",\"imageUrl\":\"https://lelabokorea-java.s3.amazonaws.com/images/skus/J0L5010000__PRODUCT_01--IMG_1200--HANDPOMADE-1173383336.JPG\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/hand-pomade-1068.html\",\"taxIncludedJpy\":42000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.lelabofragrances.co.kr/hand-pomade-1068.html\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Earlier2026-09-30 live official rendered UI had enabled 장바구니 담기 button and matching capacity selection: 55ml × 1. Numeric remaining stock not checked.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"official_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":null,\"taiwanRetailTwd\":1100,\"taiwanRetailSource\":\"https://giftshop-tw.line.me/products/322202829\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"taiwanRetailClassification\":\"official_seller_channel_regular_price\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"55ml × 1。韓國來源標價 ₩42,000，2026-09-30 查核。一般標價；促銷另列。已核對公開購買功能；剩餘數量未公開，採買前再次確認。\",\"sourceDescriptionEn\":\"55ml × 1. Korea-listed price KRW 42,000, checked 2026-09-30. Regular reference; promotions recorded separately. Purchase controls verified; remaining quantity is not public. Recheck before procurement.\",\"sourceDescriptionKo\":\"55ml × 1. 한국 판매가 ₩42,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 42000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 42000,
       "changes": {
         "spec": "55ml × 1瓶",
@@ -591,14 +597,14 @@
         "imageUrl": "/catalog-r24/60cff684d018c8dbbfc906b1.jpg",
         "catalogReviewReason": ""
       },
-      "nextStatus": "active"
+      "nextStatus": "paused"
     },
     {
       "id": 87,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"마르디 메크르디 FLOWERMARDI White Green\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":0,\"taxRefundEligible\":false,\"taxIncludedJpy\":45000,\"imageUrl\":\"/catalog-r8/product-69.png\",\"purchaseUrl\":\"https://mardimercredi.com/product/tshirt-flowermardiwhite-green/6097/\",\"taiwanRetailTwd\":1104,\"taiwanRetailSource\":\"https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-白色-經典小雛菊-綠花-純棉-tshirt-flowermardi-1\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"마르디 메크르디 플라워마르디 화이트 그린은 화이트 바탕에 그린 플라워 모티프를 더한 디자인입니다.\",\"imageEdited\":true,\"previousImageUrl\":\"https://mardimercredi.com/web/product/small/202212/52e24f0875beec1315c271ec403910d3.jpg\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"FREE尺寸，衣長65／肩46／胸54／袖18cm。來源目前缺貨，補貨後才開放購買；台灣官方缺貨價格僅供參考。\",\"sourceDescriptionEn\":\"Mardi Mercredi FLOWERMARDI White Green · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"마르디 메크르디 FLOWERMARDI White Green. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 45000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 48000,
       "changes": {
         "spec": "WHITE GREEN · 單一尺碼 · 1件",
@@ -618,14 +624,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 92,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"바이레도 블랑쉬 핸드크림 30ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":53000,\"imageUrl\":\"https://freshbeautyco.com.au/cdn/shop/products/27860423103_600x.jpg?v=1677301633\",\"purchaseUrl\":\"https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000566157526&salestrNo=6005&siteNo=6004\",\"taiwanRetailTwd\":1600,\"taiwanRetailSource\":\"https://1010online.com.tw/byredo-hand-cream-blanche\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"바이레도 블랑쉬 핸드크림은 블랑쉬 향을 담은 30mL 핸드 케어 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"30ml 護手霜，韓國 SSG 商家一般售價 ₩53,000。台灣 10/10 官方售價 NT$1,600，來源目前缺貨，價格僅供參考。\",\"sourceDescriptionEn\":\"Byredo Blanche Hand Cream 30ml · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"바이레도 블랑쉬 핸드크림 30ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 53000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 56000,
       "changes": {
         "spec": "Blanche 30ml × 1條",
@@ -645,14 +652,15 @@
         "stock": 0,
         "stockQuantityVerified": true,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 168,
       "expectedCommerce": "{\"id\":\"r5-lrp\",\"nameZh\":\"理膚寶水 Cicaplast 全面修復潤唇膏 7.5mL\",\"nameEn\":\"La Roche-Posay Cicaplast Lip Balm 7.5mL\",\"brand\":\"La\",\"category\":\"beauty\",\"spec\":\"7.5mL 單條\",\"priceKrw\":11000,\"imageUrl\":\"/catalog-r8/product-150.png\",\"purchaseUrl\":\"https://www.larocheposay.co.kr/product/view/4689.do\",\"taiwanRetailTwd\":420,\"taiwanRetailSource\":\"https://www.momoshop.com.tw/product/8962228\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-04\",\"sourceNotes\":\"韓國官方商品價11000；未滿30000另收3000國內運費，集中採買合併處理。\",\"variants\":[],\"descriptionZh\":\"7.5mL 單條。韓國品牌官網與 momo 同容量商品已核對；依採買批次代購，非台灣現貨。\",\"descriptionEn\":\"One 7.5mL tube. Matching size verified at Korean brand store and momo Taiwan. Scheduled-batch preorder.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"La Roche-Posay Cicaplast Lip Balm reference\",\"taxIncludedJpy\":11000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"2026-10-04\",\"catalogSourceId\":\"r5-lrp\",\"imageEdited\":true,\"previousImageUrl\":\"/requested-20261001/9.06.29.png\",\"match\":\"La Roche-Posay Cicaplast Lip Balm reference\",\"taiwanPromotionTwd\":0,\"evidence\":[\"https://www.larocheposay.co.kr/cscenter/noticeView/136315.do\",\"https://www.larocheposay.co.kr/product/view/4689.do\",\"https://www.momoshop.com.tw/product/8962228\"],\"taiwanRetailClassification\":\"retailer_exact_spec\",\"serviceFeePercent\":5,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"7.5mL 單條。韓國品牌官網與 momo 同容量商品已核對；依採買批次代購，非台灣現貨。\",\"sourceDescriptionEn\":\"One 7.5mL tube. Matching size verified at Korean brand store and momo Taiwan. Scheduled-batch preorder.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"라로슈포제 시카플라스트 립밤은 일상적인 입술 관리에 사용하는 7.5mL 튜브형 제품입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 11000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 14000,
       "changes": {
         "spec": "Cicaplast 7.5mL × 1條",
@@ -672,14 +680,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 54,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013717928ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179\",\"nameKo\":\"라운드랩 1025 독도 토너·로션 세트 (각 200ml)\",\"descriptionKo\":\"라운드랩 1025 독도 세트는 토너 200mL와 로션 200mL를 함께 담은 스킨케어 구성입니다.\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"nameZh\":\"Round Lab 1025 獨島化妝水＋乳液組\",\"nameEn\":\"Round Lab 1025 Dokdo Toner and Lotion 200ml x 2\",\"priceKrw\":26000,\"taxIncludedJpy\":26000,\"spec\":\"化妝水200ml＋乳液200ml，1組\",\"stockQuantityVerified\":false,\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.\",\"serviceFeePercent\":5,\"descriptionZh\":\"化妝水200ml＋乳液200ml，1組。韓國供應商公開商品價26,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"化妝水200ml＋乳液200ml，1組. Verified Korean public item price KRW 26,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000137179\"],\"supplierOptionNumber\":\"001\",\"gtin\":\"8809657115196\",\"imageEdited\":false,\"sourcePriceBasis\":\"retailer_listing\",\"sourceDescriptionZh\":\"化妝水200ml＋乳液200ml，1組。韓國供應商公開商品價26,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"化妝水200ml＋乳液200ml，1組. Verified Korean public item price KRW 26,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"한국 올리브영 토너 200ml + 로션 200ml 세트. 표시 가격 ₩27,200. 행사와 재고는 변동될 수 있습니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 26000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 26000,
       "changes": {
         "spec": "200ml化妝水＋200ml乳液 · 1組",
@@ -699,14 +708,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 57,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0016/A00000016051323ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000160513\",\"variants\":[],\"taiwanRetailTwd\":190,\"taiwanRetailSource\":\"https://www.momoshop.com.tw/TP/TP0010028/goodsDetail/TP00100280000023\",\"nameKo\":\"토리든 솔리드인 세라마이드 립 에센스 11ml\",\"descriptionKo\":\"토리든 솔리드인 세라마이드 립 에센스는 일상적인 입술 관리에 사용하는 11mL 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"Olive Young 韓國在售 11ml；頁面標價 ₩7,000，採買時核對現貨與售價。\",\"sourceDescriptionEn\":\"11ml lip essence at Olive Young Korea, listed ₩7,000; verify stock at purchase.\",\"sourceDescriptionKo\":\"립 에센스 11ml. 한국 올리브영 표시 가격 ₩7,000. 구매 시 재고를 확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 7000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 8400,
       "changes": {
         "spec": "11ml × 1條",
@@ -726,14 +736,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 77,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"롯데 빈츠 102g\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":2800,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0012/A00000012279001ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000122790\",\"taiwanRetailTwd\":59,\"taiwanRetailSource\":\"https://tw.buy.yahoo.com/gdsale/Lotte樂天-BINCH巧克力餅乾-102g-8702318.html\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"롯데 빈츠는 초콜릿과 비스킷을 함께 즐기는 과자로, 한 상자 102g입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"韓國 Olive Young 標示商品售價；採買時再次確認庫存。\",\"sourceDescriptionEn\":\"LOTTE Binch Chocolate Biscuits 102g · Korea retail listing. See source for exact pack and availability.\",\"sourceDescriptionKo\":\"롯데 빈츠 102g. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 2800,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 5800,
       "changes": {
         "spec": "102g × 1盒",
@@ -753,14 +764,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 115,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"[보습광채] 코스알엑스 어드벤스드 스네일 96 뮤신 파워 에센스 100ml\",\"brand\":\"COSRX\",\"retailer\":\"Olive Young\",\"spec\":\"100ml × 1瓶\",\"catalogSourceId\":\"olive-cosrx-snail96-100\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":23000,\"imageUrl\":\"/catalog-20260927/olive-cosrx-snail96-100.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000103391\",\"taiwanRetailTwd\":476,\"taiwanRetailSource\":\"https://www.beautystage.com.tw/product/2224210177071\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"코스알엑스 어드밴스드 스네일 96 뮤신 파워 에센스는 데일리 스킨케어에 사용하는 100mL 에센스입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"Olive Young 韓國選品。100ml × 1瓶；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 23000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 22160,
       "changes": {
         "spec": "100ml × 1瓶",
@@ -780,14 +792,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 116,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"[누적판매 1700만]스킨1004 마다가스카르 센텔라 앰플 55ml\",\"brand\":\"SKIN1004\",\"retailer\":\"Olive Young\",\"spec\":\"55ml × 1瓶\",\"catalogSourceId\":\"olive-skin1004-centella-55\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":15300,\"imageUrl\":\"/catalog-20260927/olive-skin1004-centella-55.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000161581\",\"taiwanRetailTwd\":690,\"taiwanRetailSource\":\"https://www.watsons.com.tw/skin1004-skin1004-%E9%A6%AC%E9%81%94%E5%8A%A0%E6%96%AF%E5%8A%A0%E7%A9%8D%E9%9B%AA%E8%8D%89%E7%B2%BE%E8%8F%AF%E6%B6%B2-55ml/p/BP_278214\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"스킨1004 마다가스카르 센텔라 앰플은 스킨케어의 세럼 단계에 사용하는 55mL 페이셜 앰플입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"Olive Young 韓國選品。55ml × 1瓶；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 15300,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 17800,
       "changes": {
         "spec": "55ml × 1瓶",
@@ -807,14 +820,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 144,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"MEDIHEAL\",\"retailer\":\"Olive Young Korea\",\"spec\":\"10g 單支，SPF50+ PA++++，Airy Fit 空氣感款\",\"nameKo\":\"메디힐 마데카소사이드 선스틱 에어리 핏 10g\",\"descriptionKo\":\"메디힐 마데카소사이드 에어리핏 선스틱은 휴대하기 좋은 10g 스틱형 제품입니다.\",\"catalogSourceId\":\"olive-A000000249274\",\"imageUrl\":\"/catalog-r8/product-126.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274\",\"taxIncludedJpy\":11000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Exact single-item title, current KRW price, image, product-specific 장바구니/바로구매 controls and normal delivery shown; not merely header shopping-cart link.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"promotion\",\"sourceCheckedAt\":\"2026-10-04\",\"taiwanRetailTwd\":610,\"taiwanRetailSource\":\"https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094\",\"taiwanRetailCheckedAt\":\"2026-10-04\",\"taiwanRetailClassification\":\"retailer_exact_spec\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"imageEdited\":true,\"previousImageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024927411ko.jpg?l=ko\",\"match\":\"MEDIHEAL Madecassoside Sun Stick Airy Fit 10g\",\"nameZh\":\"MEDIHEAL 積雪草空氣感防曬棒 Airy Fit 10g\",\"nameEn\":\"MEDIHEAL Madecassoside Sun Stick Airy Fit 10g\",\"priceKrw\":11000,\"taiwanPromotionTwd\":367,\"descriptionZh\":\"10g 單支，Airy Fit 空氣感款。韓國 Olive Young 與 momo 同容量單支商品已核對；台灣比價採 momo 公開促銷價367元。依採買批次代購，非台灣現貨。\",\"descriptionEn\":\"One 10g Airy Fit sun stick. Matching single-stick size verified at Korean Olive Young and momo Taiwan, using momo's public NT$367 offer. Scheduled-batch preorder.\",\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000249274\",\"https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000094\"],\"sourceNotes\":\"2026-10-04核查：Olive Young 10g單支公開促銷11000韓元（原15000），顯示加入購物車／立即購買及韓國一般配送免運；未承諾實際庫存數量。momo同容量單支公開促銷367元（市售610），韓國跨境配送，另列70元運費、滿490免運；比價僅用商品367元，未把台灣運費加進基準。\",\"serviceFeePercent\":5,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"10g 單支，Airy Fit 空氣感款。韓國 Olive Young 與 momo 同容量單支商品已核對；台灣比價採 momo 公開促銷價367元。依採買批次代購，非台灣現貨。\",\"sourceDescriptionEn\":\"One 10g Airy Fit sun stick. Matching single-stick size verified at Korean Olive Young and momo Taiwan, using momo's public NT$367 offer. Scheduled-batch preorder.\",\"sourceDescriptionKo\":\"10g × 1. 한국 판매가 ₩11,000, 2026-09-30 확인. 할인가이며 구매 전 재확인합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 11000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 13500,
       "changes": {
         "spec": "Airy Fit 10g × 1支",
@@ -834,14 +848,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 145,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"MEDIHEAL\",\"retailer\":\"Olive Young Korea\",\"spec\":\"50g × 1支；Smooth Tone Up\",\"nameKo\":\"메디힐 PDRN 수분 선세럼 매끈 톤업 50g\",\"descriptionKo\":\"메디힐 PDRN 모이스처 선 세럼 스무스 톤업은 50g 튜브형 톤업 선 케어 제품입니다.\",\"catalogSourceId\":\"olive-A000000251852\",\"imageUrl\":\"/catalog-r8/product-127.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852\",\"taxIncludedJpy\":22000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"availabilityEvidence\":{\"url\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852\",\"type\":\"public_purchase_controls_for_exact_spec\",\"basis\":\"Exact single-item title, current KRW price, image, product-specific 장바구니/바로구매 controls and normal delivery shown; not merely header shopping-cart link.\",\"stockQuantityVerified\":false,\"taiwanPriceNotRequiredForListing\":true},\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"imageEdited\":true,\"previousImageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025185209ko.jpg?l=ko\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"nameZh\":\"MEDIHEAL PDRN 保濕潤色防曬精華 50g\",\"nameEn\":\"MEDIHEAL PDRN Moisture Sun Serum Smooth Tone Up 50g\",\"priceKrw\":22000,\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown.\",\"serviceFeePercent\":5,\"descriptionZh\":\"50g × 1支；Smooth Tone Up。韓國供應商公開商品價22,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"50g × 1支；Smooth Tone Up. Verified Korean public item price KRW 22,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251852\"],\"supplierOptionNumber\":\"001\",\"gtin\":\"8809936749050\",\"sourceDescriptionZh\":\"50g × 1支；Smooth Tone Up。韓國供應商公開商品價22,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"50g × 1支；Smooth Tone Up. Verified Korean public item price KRW 22,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"50g × 1. 한국 판매가 ₩14,400, 2026-09-30 확인. 할인가이며 구매 전 재확인합니다. 구매 기능을 확인했습니다. 남은 수량은 공개되지 않아 구매 전 재확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 22000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 22000,
       "changes": {
         "spec": "PDRN 50g × 1支",
@@ -861,14 +876,15 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 169,
       "expectedCommerce": "{\"id\":\"r5-carp\",\"nameZh\":\"Garglin × Hello Kitty 薄荷口氣清新噴霧 15mL × 2\",\"nameEn\":\"Garglin Sanrio Fresh Breath Mint 15mL x 2\",\"brand\":\"Garglin\",\"category\":\"beauty\",\"spec\":\"15mL × 2（Mild＋Longlasting），附Hello Kitty貼紙\",\"priceKrw\":12800,\"imageUrl\":\"/catalog-r10/garglin-double.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925\",\"taiwanRetailTwd\":718,\"taiwanRetailSource\":\"https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-04\",\"sourceNotes\":\"官方公告與原始拼圖核實為Garglin口氣噴霧，非唇膏或沖牙器。Olive Young雙支聯名組12800韓元，購物車與購買按鈕、韓國免運。momo一般版15mL兩款單支公開249；比較採兩支合計498，不把貼紙加價，不宣稱台灣無販售。\",\"variants\":[],\"descriptionZh\":\"薄荷口氣清新噴霧15mL × 2，附聯名貼紙。台灣參考採momo同品牌、同容量單支價格×2：原價359×2＝718；公開促銷249×2＝498。台灣比較為一般版兩支合計，非相同聯名包裝；贈品不計價。依10/16批次代購。\",\"descriptionEn\":\"Two 15mL breath sprays with Sanrio sticker. Taiwan reference is two regular-edition single units from momo: 359 x 2 = 718, public offer 249 x 2 = 498. Not the identical limited-edition pack; gifts are valued at zero. Scheduled batch preorder.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Carp Lip Care reference\",\"taxIncludedJpy\":12800,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"2026-10-04\",\"catalogSourceId\":\"r5-carp\",\"imageEdited\":false,\"previousImageUrl\":\"/requested-20261001/9.06.35.png\",\"match\":\"Carp Lip Care reference\",\"taiwanPromotionTwd\":498,\"taiwanRetailClassification\":\"retailer_two_units_excludes_gift\",\"evidence\":[\"https://www.dapharm.com/ko/newsroom/press/921\",\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264925\",\"https://www.momoshop.com.tw/TP/TP0009632/goodsDetail/TP00096320000086\"],\"serviceFeePercent\":5,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"薄荷口氣清新噴霧15mL × 2，附聯名貼紙。台灣參考採momo同品牌、同容量單支價格×2：原價359×2＝718；公開促銷249×2＝498。台灣比較為一般版兩支合計，非相同聯名包裝；贈品不計價。依10/16批次代購。\",\"sourceDescriptionEn\":\"Two 15mL breath sprays with Sanrio sticker. Taiwan reference is two regular-edition single units from momo: 359 x 2 = 718, public offer 249 x 2 = 498. Not the identical limited-edition pack; gifts are valued at zero. Scheduled batch preorder.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"가그린 산리오 민트 구강 스프레이 세트입니다. 헬로키티 디자인의 마일드와 롱래스팅 제품이 각각 15mL씩 구성되어 있습니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 12800,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 18300,
       "changes": {
         "spec": "Hello Kitty 薄荷15ml × 2瓶 · 1組",
@@ -888,157 +904,169 @@
         "stock": -1,
         "stockQuantityVerified": false,
         "catalogReviewReason": ""
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 25,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/goods/view/26?category=0101&goodsno=5\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/7c87c6981182cc4ddae1512a.png",
         "catalogReviewReason": "已補品牌官網同款原圖（오리온 초코파이情）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 26,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/37?goodsno=23&page=1\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/91fb228965ca4c45ed6939b8.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Kkobuk Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 33,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/27?goodsno=73&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/3fb3f31f70b4d6fb748cadbc.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Mygummy）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 37,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/26?goodsno=115&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/506d3e7f895055334d184b19.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Kkobuk Chips Spicy flavor）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 38,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/27?category=0101&goodsno=5\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/7c87c6981182cc4ddae1512a.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Orion Choco Pie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 39,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/26?goodsno=55&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/9dce6921d01a0ad44ff90234.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Choco Songyi）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 40,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/28?category=0102&goodsno=26&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/f8c6d3ec6a14fb06e74728bb.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Poca Chips）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 41,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/26?goodsno=18&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/f97830a894d33315528b1c66.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Chicken Pop）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 42,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.orionworld.com/en/goods/view/33?goodsno=58&page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "changes": {
         "imageUrl": "/catalog-r24/810f3bd6cc3349833c4a3bed.png",
         "catalogReviewReason": "已補品牌官網同款原圖（Moist Choco Chip Cookie）；商品仍為草稿，容量、包裝數、可採買現價及台灣同規格比價尚待核實。圖片不代表已完成價格／庫存核對。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 64,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3\",\"variants\":[],\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:45",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/fc6044f8099b35696660a4fa.png",
         "catalogReviewReason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 65,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.imintcandy.com/index.php?a=index&c=Lists&lang=cn&m=home&tid=3\",\"variants\":[],\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:45",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/e5fba8e4bc256f9f7521c03b.jpg",
         "catalogReviewReason": "已補品牌官方同口味32g單盒原圖；照片作為單盒商品辨識，4盒組採買價格／配送／台灣同規格比較仍需核實，尚未開放下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 61,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/classic-collection/another-13/perfuming-hand-cream/30-ml\",\"variants\":[],\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:45",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 43000,
       "photoOnly": true,
       "changes": {
@@ -1050,92 +1078,99 @@
         "sourceDeliveryConfirmed": true,
         "sourceDeliveryKrw": 0,
         "sourceDeliveryConditions": "韓國官方單瓶₩43,000已達₩40,000免運門檻。仍缺台灣同規格比較，未開放下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 199,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Le Labo\",\"spec\":\"CITRON 28 首爾限定 · 15／50／100ml × 1瓶\",\"sourcingOptions\":[\"15ml × 1瓶\",\"50ml × 1瓶\",\"100ml × 1瓶\"],\"purchaseUrl\":\"https://www.lelabofragrances.co.kr/about-citron-28.html\",\"sourceCheckedAt\":\"2026-10-13T00:24:42.562456+00:00\",\"sourcePriceBasis\":\"seoul_boutique_price_pending\",\"catalogReviewReason\":\"已確認首爾限定及15／50／100ml規格；缺少首爾門市本期實際價格、供貨與台灣同規格比較來源。10月官方網店未提供可驗證報價。\",\"sourceDeliveryConfirmed\":false,\"stock\":-1,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"variants\":[],\"sizeFeeTwd\":0,\"pricingTaxExclusive\":true,\"pricingTaxRatePercent\":10,\"serviceFeePercent\":2,\"taxRefundEligible\":false}",
-      "expectedStatus": "research",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 0,
-      "expectedUpdatedAt": "2026-10-13 07:38:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 0,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/d5362a5082cefe44d1e0d042.jpg",
         "catalogReviewReason": "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 30,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.imintcandy.com/Product/20260511-211.html\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/9396cb4937d1c0527ff253aa.png",
         "catalogReviewReason": "已補品牌官方32g濃縮咖啡糖原圖作為系列辨識；口味、採買包裝、真實現價、運費與台灣同規格比價仍需核實，草稿不開放下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 148,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Byredo\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"50ml × 1\",\"nameKo\":\"바이레도 집시 워터 오드퍼퓸 50ml\",\"descriptionKo\":\"50ml × 1. 한국 판매가 ₩305,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"byredo-gypsy-water-50\",\"imageUrl\":null,\"purchaseUrl\":\"https://www.ssg.com/disp/brandShop.ssg?brandId=3000000343&ctgId=6000193711\",\"taxIncludedJpy\":305000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":269468,\"classification\":\"conditional_promotion\"},\"taiwanRetailTwd\":6360,\"taiwanRetailSource\":\"https://www.1976.com.tw/prod/17393\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"taiwanRetailClassification\":\"retailer_reference_price\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanPromotionTwd\":5080,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 305000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 305000,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/43ffcc9dddbfddf336d5c1ae.jpg",
         "catalogReviewReason": "已補商家明列 Gypsy Water 50ml 的原始商品照片；目前購買頁受限，韓國現价／配送／供貨與台灣同規格比價仍未完整核對。不得將品牌列表圖片當作可採買證明。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 147,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Diptyque\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"75ml × 1\",\"nameKo\":\"딥티크 오 드 퍼퓸 오 로즈 75ml\",\"descriptionKo\":\"75ml × 1. 한국 판매가 ₩328,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"diptyque-eau-rose-75\",\"imageUrl\":null,\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000866288136\",\"taxIncludedJpy\":328000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":289788,\"classification\":\"conditional_promotion\",\"expiresAt\":\"2026-09-30\",\"conditions\":\"Includes KRW16400 immediate discount and KRW21812 SSG Money benefit; some members only\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 328000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 328000,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/76a6c5e2bd8f22664041c487.jpg",
         "catalogReviewReason": "已補台灣官方 Eau Rose 75ml 淡香精商品原圖；韓國同款現價、必要運費及可採買狀態尚未完整核實，保持草稿，不宣稱已可下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 27,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.samyangfoods.com/kor/brand/spicyRamen.do\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/5dfca19514a6642a6e47b615.jpg",
         "catalogReviewReason": "已補三養原味火雞麵的商家原圖供系列辨識；其他口味、容量與包裝尚未逐一確認。保持系列草稿，不以此圖宣稱每款都有照片或已可下單。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 28,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.bing.co.kr/product/detail?PDT=123\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/ab09aa997c997e15be43c37b.png",
         "sourceNotes": "賓格瑞官方香蕉味牛奶原廠產品照。代表單瓶外觀；容量、包裝數、價格、供貨及冷鏈未核實，保留草稿，不可當作已完成報價。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 23,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"imageUrl\":\"\",\"purchaseUrl\":\"https://brand.nongshim.com/shinramyun/main/index?prodCode=687\",\"variants\":[],\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 7150,
       "changes": {
         "imageUrl": "/catalog-r24/cf2e1df9d072b6a7ab1ec510.jpg",
@@ -1159,7 +1194,7 @@
         "taiwanRetailClassification": "regular",
         "descriptionKo": "原味 120g × 5包（總600g）. 한국 판매처의 해당 규격과 패키지를 확인했습니다. 결제 금액은 주문 시 견적을 따르며, 판매자가 결제를 확인한 후 구매 절차가 진행됩니다."
       },
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "expectedDescriptionZh": "每包 120g，5 入裝；採買價與照片核對後公開。",
       "expectedDescriptionEn": "Five 120g packs. Publish after confirming current purchase price and image.",
       "descriptionZh": "原味 120g × 5包（總600g）。已核對韓國販售來源與同款包裝；售價以本次結帳報價為準。須回報已付款並經賣家驗證後，才進入待買清單。",
@@ -1168,9 +1203,9 @@
     {
       "id": 31,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://brand.nongshim.com/saewookkang/main/index\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 4260,
       "changes": {
         "imageUrl": "/catalog-r24/e2f766676b873877e9205f10.jpg",
@@ -1188,14 +1223,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 32,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://brand.nongshim.com/chapagetti/main/index\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 8300,
       "changes": {
         "imageUrl": "/catalog-r24/fa05afa1ff7e287ecefaa5be.jpg",
@@ -1213,14 +1249,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 35,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://en.hbaf.com/products/\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 9990,
       "changes": {
         "imageUrl": "/catalog-r24/928f040b11508aa6773756ca.jpg",
@@ -1238,14 +1275,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。 此來源使用冷藏配送；跨境保存與配送方式仍須確認。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 36,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.haitai.co.kr/m/eng/product\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 6980,
       "changes": {
         "imageUrl": "/catalog-r24/d9ed9075a32958452a930bcb.jpg",
@@ -1263,14 +1301,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 43,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://brand.nongshim.com/onionrings/main/index\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 4440,
       "changes": {
         "imageUrl": "/catalog-r24/63a72843052b1ca009a69316.png",
@@ -1288,14 +1327,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 44,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://brand.nongshim.com/bananakicksnack/main/index\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 4440,
       "changes": {
         "imageUrl": "/catalog-r24/823b2a3e3dd0a2648c3af758.png",
@@ -1313,14 +1353,15 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 45,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.lottewellfood.com/prcenter/news/833?page=1\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 6900,
       "changes": {
         "imageUrl": "/catalog-r24/3560a62fc7653f9e9477d9d6.jpg",
@@ -1338,29 +1379,31 @@
         "sourceNotes": "已核對 Kurly 完整商家包裝、現價、可購買狀態、最少購買1份及配送條件。庫存件數未公開。",
         "catalogReviewReason": "韓國完整包裝、現價及照片已核對；台灣同規格比較仍待核實。保留草稿，不以不同容量或包裝價冒充完成。"
       },
-      "photoOnly": true
+      "photoOnly": true,
+      "nextStatus": "paused"
     },
     {
       "id": 34,
       "expectedCommerce": "{\"currency\":\"KRW\",\"country\":\"KR\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"availableFrom\":null,\"availableUntil\":null,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"\",\"purchaseUrl\":\"https://www.lottewellfood.com/prcenter/news/1855?page=1&searchText=%EC%84%9C%ED%8F%AC%ED%84%B0%EC%A6%88&searchType2=Y\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:24:43",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 1,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/51a6361193f9a12506a5bfb9.png",
         "catalogReviewReason": "已補樂天官方 Original39g盒裝原圖作為產品系列辨識；各口味、實際採買包裝、價格、供貨與台灣同規格比較仍待核實，保持草稿。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 120,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"바이오더마 센시비오 H2O 500ml\",\"brand\":\"Bioderma\",\"retailer\":\"Olive Young\",\"spec\":\"500ml × 1\",\"catalogSourceId\":\"olive-A000000247215\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":17960,\"imageUrl\":\"/catalog-20260927/olive-A000000247215.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247215\",\"taiwanRetailTwd\":850,\"taiwanRetailSource\":\"https://www.watsons.com.tw/bioderma-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA-%E8%B2%9D%E8%86%9A%E9%BB%9B%E7%91%AA%E8%88%92%E6%95%8F%E9%AB%98%E6%95%88%E6%BD%94%E8%86%9A%E6%B6%B2500ml/p/BP_218040?text=Bioderma\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"바이오더마 센시비오 H2O는 메이크업 클렌징과 세안 단계에 사용하는 500mL 클렌징 워터입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"Olive Young 韓國選品。500ml × 1；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 17960,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 20500,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "imageUrl": "/catalog-r24/74b44d8468fdc4609d551756.jpg",
         "spec": "Sensibio H2O 500mL × 1瓶",
@@ -1386,11 +1429,11 @@
     {
       "id": 152,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"오리온 과육젤리 67g · 맛 선택\",\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420\",\"taxIncludedJpy\":1200,\"taxRefundEligible\":false,\"stock\":-1,\"variants\":[{\"id\":\"peelable-0\",\"labelZh\":\"葡萄 · 67g 單包\",\"labelEn\":\"Grape · 67g pouch\",\"priceJpy\":1200,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542001ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235420\",\"taiwanRetailTwd\":49,\"taiwanRetailSource\":\"https://www.koreatop.com.tw/SalePage/Index/11679230\",\"taiwanRetailCheckedAt\":\"2026-10-03\",\"taiwanRetailClassification\":\"official_importer_single_67g\"},{\"id\":\"peelable-1\",\"labelZh\":\"荔枝 · 67g 單包\",\"labelEn\":\"Lychee · 67g pouch\",\"priceJpy\":1200,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542501ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235425\",\"taiwanRetailTwd\":49,\"taiwanRetailSource\":\"https://www.koreatop.com.tw/SalePage/Index/11679230\",\"taiwanRetailCheckedAt\":\"2026-10-03\",\"taiwanRetailClassification\":\"official_importer_single_67g\"},{\"id\":\"peelable-2\",\"labelZh\":\"李子 · 67g 單包\",\"labelEn\":\"Plum · 67g pouch\",\"priceJpy\":1200,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023542301ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000235423\",\"taiwanRetailTwd\":49,\"taiwanRetailSource\":\"https://www.koreatop.com.tw/SalePage/Index/11679230\",\"taiwanRetailCheckedAt\":\"2026-10-03\",\"taiwanRetailClassification\":\"official_importer_single_67g\"},{\"id\":\"peelable-kiwi\",\"labelZh\":\"奇異果 · 67g 單包\",\"labelEn\":\"Kiwi · 67g pouch\",\"priceJpy\":1120,\"imageUrl\":\"https://godomall.speedycdn.net/2ac6be74e4add1400a2d415ea74927c8/goods/1000007180/image/magnify/1000007180_magnify_056.jpg\",\"purchaseUrl\":\"https://www.snackok.com/m/product.html?branduid=1348908\",\"taiwanRetailTwd\":49,\"taiwanRetailSource\":\"https://www.koreatop.com.tw/SalePage/Index/11679230\",\"taiwanRetailCheckedAt\":\"2026-10-03\",\"stock\":0,\"availabilityNote\":\"奇異果 67g：已核對規格及台灣參考價；2026/10/03 查核的韓國供應商均顯示無法購買，待確認補貨後開放。 / Kiwi 67g: checked Korean suppliers currently unavailable; ordering opens after restock confirmation.\",\"taiwanRetailClassification\":\"official_importer_single_67g\"}],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"單盒／單包販售，請選擇口味與數量；不同口味可分別加入購物車。\",\"sourceDescriptionEn\":\"Sold individually. Choose a flavor and quantity; add different flavors separately.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"과일 모양을 벗겨 먹는 오리온 과육젤리입니다. 한 봉지 67g이며 포도, 리치, 자두, 키위 맛이 있습니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1200,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 3700,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "variants": [
           {
@@ -1491,11 +1534,11 @@
     {
       "id": 184,
       "expectedCommerce": "{\"id\":\"r8-lelabo-deodorant50\",\"nameZh\":\"Le Labo 滾珠體香劑 50mL\",\"nameEn\":\"Le Labo Deodorant 50mL\",\"nameKo\":\"르 라보 데오드란트 50mL\",\"brand\":\"Le Labo\",\"spec\":\"50mL / J0HM010000\",\"category\":\"beauty\",\"priceKrw\":52000,\"taiwanRetailTwd\":1550,\"taiwanRetailSource\":\"https://mall.iopenmall.tw/109531/index.php?action=product_detail&prod_no=P10953115286142\",\"taiwanRetailClassification\":\"taiwan_preorder_retailer\",\"purchaseUrl\":\"https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000037276712&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%8D%94%EB%B0%94%EB%94%94%EC%83%B5%EB%AF%B8%EC%8A%A4%ED%8A%B8\",\"imageUrl\":\"/catalog-r8/lelabo-deodorant50.jpg\",\"descriptionZh\":\"50mL 滾珠式體香劑，單瓶販售。韓國新世界百貨正價 ₩52,000；不預先套用限定會員折扣。台灣 iOPEN 預購通路同容量 NT$1,550，非台灣現貨比較。依採買批次代購。\",\"descriptionEn\":\"One 50mL roll-on deodorant. Sourced from Shinsegae at regular KRW52,000, without assuming conditional promotions. Compared with a Taiwan iOPEN preorder listing at TWD1,550. Scheduled-batch purchase, not Taiwan ready stock.\",\"stock\":-1,\"stockQuantityVerified\":false,\"serviceFeePercent\":5,\"sourceCheckedAt\":\"2026-10-03\",\"variants\":[],\"status\":\"active\",\"catalogSourceId\":\"r8-lelabo-deodorant50\",\"country\":\"KR\",\"currency\":\"KRW\",\"taxIncludedJpy\":52000,\"taxRefundEligible\":false,\"taiwanRetailCheckedAt\":\"2026-10-03\",\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"50mL 滾珠式體香劑，單瓶販售。韓國新世界百貨正價 ₩52,000；不預先套用限定會員折扣。台灣 iOPEN 預購通路同容量 NT$1,550，非台灣現貨比較。依採買批次代購。\",\"sourceDescriptionEn\":\"One 50mL roll-on deodorant. Sourced from Shinsegae at regular KRW52,000, without assuming conditional promotions. Compared with a Taiwan iOPEN preorder listing at TWD1,550. Scheduled-batch purchase, not Taiwan ready stock.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"르 라보 데오드란트는 롤온 방식으로 바르는 50mL 보틀 제품입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 52000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 52000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "50mL × 1瓶 / J0HM010000",
         "taiwanRetailSpec": "50mL × 1瓶 / J0HM010000",
@@ -1522,11 +1565,11 @@
     {
       "id": 162,
       "expectedCommerce": "{\"id\":\"r5-crown\",\"nameZh\":\"CROWN 榛果巧克力威化酥 142g\",\"nameEn\":\"Crown Choco Heim 142g\",\"brand\":\"Crown\",\"category\":\"snacks\",\"spec\":\"142g 單盒，榛果巧克力口味\",\"priceKrw\":2200,\"imageUrl\":\"https://gdimg.gmarket.co.kr/1673570092/still/600?ver=1568712979\",\"purchaseUrl\":\"https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001\",\"taiwanRetailTwd\":159,\"taiwanRetailSource\":\"https://www.momoshop.com.tw/product/4925565\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-04\",\"sourceNotes\":\"2026-10-04原始核查SSG單盒2200，不含韓國配送3000/次；後續抓取间歇失敗，集中採買合併處理。\",\"variants\":[],\"descriptionZh\":\"142g 單盒。改用韓國 SSG 同規格來源；台灣比價採 momo 同規格公開促銷價。依採買批次代購。\",\"descriptionEn\":\"One 142g box, chocolate and hazelnut. Korean SSG source matched with momo Taiwan same-size public offer. Scheduled-batch preorder.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Crown Choco Heim 142g\",\"taxIncludedJpy\":2200,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"2026-10-04\",\"catalogSourceId\":\"r5-crown\",\"match\":\"Crown Choco Heim 142g\",\"taiwanPromotionTwd\":80,\"evidence\":[\"https://emart.ssg.com/item/itemView.ssg?itemId=1000055745046&salestrNo=6005&siteNo=6001\",\"https://www.momoshop.com.tw/product/4925565\"],\"taiwanRetailClassification\":\"retailer_exact_spec\",\"serviceFeePercent\":5,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"142g 單盒。改用韓國 SSG 同規格來源；台灣比價採 momo 同規格公開促銷價。依採買批次代購。\",\"sourceDescriptionEn\":\"One 142g box, chocolate and hazelnut. Korean SSG source matched with momo Taiwan same-size public offer. Scheduled-batch preorder.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"크라운 초코하임은 헤이즐넛 초콜릿 맛을 담은 웨하스 과자로, 한 상자 142g입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 2200,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 5200,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Choco Heim 榛果巧克力威化酥 142g × 1盒",
         "taiwanRetailSpec": "Choco Heim 榛果巧克力威化酥 142g × 1盒",
@@ -1552,11 +1595,11 @@
     {
       "id": 71,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"variants\":[],\"imageUrl\":\"https://product-image.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/product/image/0ac99732-e9ee-4de5-8906-4ac3c8fcc854.jpg\",\"purchaseUrl\":\"https://www.kurly.com/goods/5069816\",\"nameKo\":\"삼양 불닭볶음면 140g × 5봉\",\"descriptionKo\":\"삼양 오리지널 불닭볶음면은 140g 다섯 봉지 구성으로, 총중량 700g의 매운 볶음면입니다.\",\"match\":\"Samyang Buldak Noodles 140g x 5\",\"nameZh\":\"三養原味辣火雞炒麵 140g × 5 包\",\"nameEn\":\"Samyang Buldak Noodles 140g x 5\",\"priceKrw\":5100,\"taiwanRetailTwd\":319,\"taiwanPromotionTwd\":296,\"taiwanRetailSource\":\"https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC\",\"spec\":\"原味 140g × 5 包，共700g\",\"descriptionZh\":\"原味五入袋裝，每包140g。台灣比價採 PChome 同規格五入商品及公開單件優惠，不混用其他口味。依採買批次代購。\",\"descriptionEn\":\"Five 140g packs, original flavor. Matched against the same PChome five-pack and its public single-item offer. Scheduled-batch preorder.\",\"evidence\":[\"https://www.kurly.com/goods/5069816\",\"https://24h.pchome.com.tw/prod/DBAY5B-A900J35EC\"],\"sourceNotes\":\"Kurly商品價5100；未滿40000另收3000韓國配送費，集中採買合併處理。\",\"sourceCheckedAt\":\"2026-10-04\",\"taiwanRetailCheckedAt\":\"2026-10-04\",\"taiwanRetailClassification\":\"retailer_exact_spec\",\"serviceFeePercent\":5,\"stockQuantityVerified\":false,\"taxIncludedJpy\":5100,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"原味五入袋裝，每包140g。台灣比價採 PChome 同規格五入商品及公開單件優惠，不混用其他口味。依採買批次代購。\",\"sourceDescriptionEn\":\"Five 140g packs, original flavor. Matched against the same PChome five-pack and its public single-item offer. Scheduled-batch preorder.\",\"sourceDescriptionKo\":\"한국 컬리 오리지널 140g × 5봉, 정가 ₩5,100. 온라인 단독 주문 배송비는 별도입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 5100,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 8030,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "原味 140g × 5包（總700g）",
         "taiwanRetailSpec": "原味 140g × 5包（總700g）",
@@ -1582,11 +1625,11 @@
     {
       "id": 83,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"조선미녀 맑은쌀 선크림 50ml + 20ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":15000,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022465715ko.jpg?l=ko\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07\",\"variants\":[],\"descriptionKo\":\"조선미녀 릴리프 선 세트는 50mL와 20mL 두 가지 크기의 선 케어 제품으로 구성되어 있습니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"nameZh\":\"Beauty of Joseon 米萃防曬 50ml＋20ml\",\"nameEn\":\"Beauty of Joseon Relief Sun 50ml + 20ml\",\"priceKrw\":15000,\"spec\":\"50ml＋贈20ml，1組\",\"stockQuantityVerified\":false,\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.\",\"serviceFeePercent\":5,\"descriptionZh\":\"50ml＋贈20ml，1組。韓國供應商公開商品價15,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"50ml＋贈20ml，1組. Verified Korean public item price KRW 15,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224657\"],\"supplierOptionNumber\":\"001\",\"gtin\":\"8809968131267\",\"imageEdited\":false,\"sourceDescriptionZh\":\"50ml＋贈20ml，1組。韓國供應商公開商品價15,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"50ml＋贈20ml，1組. Verified Korean public item price KRW 15,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"조선미녀 맑은쌀 선크림 50ml + 20ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 15000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 17500,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Relief Sun Rice + Probiotics 50mL × 1＋10mL × 2旅行裝（總70mL）",
         "taiwanRetailSpec": "Relief Sun Rice + Probiotics 50mL × 1＋10mL × 2旅行裝（總70mL）",
@@ -1612,25 +1655,26 @@
     {
       "id": 149,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"brand\":\"Mardi Mercredi\",\"retailer\":\"Korean retailer; see source\",\"spec\":\"1件；Black Pink；商品8030；尺寸選項未確認\",\"nameKo\":\"SWEATSHIRT FLOWERMARDI NEEDLEWORK_BLACK PINK\",\"descriptionKo\":\"1件；Black Pink；商品8030；尺寸選項未確認. 한국 판매가 ₩128,000, 2026-09-30 확인. 기준 가격이며 할인가는 별도로 기록합니다. 초안: 정확한 사진 또는 현재 구매 가능 여부 확인이 필요하며 주문할 수 없습니다.\",\"catalogSourceId\":\"mardi-sweatshirt-needlework-black-pink-8030\",\"imageUrl\":null,\"purchaseUrl\":\"https://www.mardimercredi.com/product/sweatshirt-flowermardi-needleworkblack-pink/8030/\",\"taxIncludedJpy\":128000,\"taxRefundEligible\":false,\"stock\":0,\"stockQuantityVerified\":false,\"availabilityEvidence\":null,\"availabilityCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"official_regular_price\",\"sourceCheckedAt\":\"2026-09-30\",\"sourcePromotion\":{\"priceKrw\":89600,\"classification\":\"promotion\"},\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanRetailClassification\":\"\",\"variants\":[],\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\"}",
-      "expectedStatus": "draft",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 128000,
-      "expectedUpdatedAt": "2026-10-11 18:24:50",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 128000,
       "photoOnly": true,
       "changes": {
         "imageUrl": "/catalog-r24/1029d9dd0df4647c2494317f.jpg",
         "imageEdited": false,
         "catalogReviewReason": "已補台灣官方同款黑粉刺繡大學T原圖，款號MFK41SPO004BKPK00；韓國相同款號本期價格、必要配送及供貨仍未核實，保持草稿，不能把台灣照片當作韓國可採買證明。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 156,
       "expectedCommerce": "{\"id\":\"r5-unove-oil\",\"nameZh\":\"UNOVE × 飛天小女警絲柔髮油雙入組\",\"nameEn\":\"UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2\",\"brand\":\"UNOVE\",\"category\":\"beauty\",\"spec\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環\",\"priceKrw\":28900,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/8/6443425435239084853.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 008 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.\",\"variants\":[],\"descriptionZh\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環。韓國供應商公開商品價28,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環. Verified Korean public item price KRW 28,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"UNOVE Powerpuff Girls Silk Hair Oil 70mL x 2\",\"taxIncludedJpy\":28900,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-unove-oil\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"serviceFeePercent\":5,\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422\"],\"supplierOptionNumber\":\"008\",\"gtin\":\"8809669508955\",\"imageEdited\":false,\"sourcePriceBasis\":\"retailer_listing\",\"sourceDescriptionZh\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環。韓國供應商公開商品價28,900韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"Tender Bloom 柔順花香70mL × 2瓶；聯名髮帽環. Verified Korean public item price KRW 28,900. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"어노브 파워퍼프걸 실크 헤어 오일 듀오입니다. 플로럴 계열 텐더 블룸 향의 70mL 제품 두 병으로 구성되어 있습니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 28900,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 35000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Tender Bloom柔綻花香70mL × 2瓶＋飛天小女警聯名瓶蓋飾環／完整企劃組",
         "taiwanRetailSpec": "Tender Bloom柔綻花香70mL × 2瓶＋飛天小女警聯名瓶蓋飾環／完整企劃組",
@@ -1657,11 +1701,11 @@
     {
       "id": 174,
       "expectedCommerce": "{\"id\":\"r5-lip\",\"nameZh\":\"COLORGRAM Nude Blur 唇線筆\",\"nameEn\":\"COLORGRAM Nude Blur Lip Pencil\",\"brand\":\"Lip\",\"category\":\"beauty\",\"spec\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate\",\"priceKrw\":8000,\"imageUrl\":\"/catalog-r14/colorgram-lip-pencil.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"Conservative regular8000. Current final7200 promotion publicly visible; not assumed for entire10/16–20 batch. quantity0 is placeholder and soldOutFlag:false is availability signal.\",\"variants\":[{\"id\":\"salmon-beige\",\"stock\":-1,\"supplierOptionNumber\":\"001\",\"gtin\":\"8800316295174\",\"labelZh\":\"01 Salmon Beige\",\"labelEn\":\"01 Salmon Beige\",\"priceJpy\":8000,\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\"},{\"id\":\"hip-chocolate\",\"stock\":-1,\"supplierOptionNumber\":\"004\",\"gtin\":\"8800316295204\",\"labelZh\":\"04 Hip Chocolate\",\"labelEn\":\"04 Hip Chocolate\",\"priceJpy\":8000,\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238324\"}],\"descriptionZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"descriptionEn\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Lip Colors Hip Chocolate Salmon Beige reference\",\"taxIncludedJpy\":8000,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-lip\",\"imageEdited\":false,\"previousImageUrl\":\"/requested-20261001/9.07.43.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"matchNameEn\":\"Lip Colors Hip Chocolate Salmon Beige reference\",\"sourceCurrency\":\"KRW\",\"specificationZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate\",\"specificationEn\":\"0.4g single pencil; shade 01 Salmon Beige or 04 Hip Chocolate\",\"supplierEvidence\":[{\"optionNumber\":\"001\",\"standardCode\":\"8800316295174\",\"optionName\":\"01 살구살몬\",\"optionImage\":{\"url\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/\",\"path\":\"item/2025/11/7196543101258574826.png\"},\"soldOutFlag\":false,\"salePrice\":8000,\"finalPrice\":7200},{\"optionNumber\":\"004\",\"standardCode\":\"8800316295204\",\"optionName\":\"04 힙초콜릿\",\"optionImage\":{\"url\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/\",\"path\":\"item/2025/11/2761500764839507078.png\"},\"soldOutFlag\":false,\"salePrice\":8000,\"finalPrice\":7200}],\"pricePolicy\":\"Conservative regular8000. Current final7200 promotion publicly visible; not assumed for entire10/16–20 batch. quantity0 is placeholder and soldOutFlag:false is availability signal.\",\"imageLocal\":\"verification/catalog-research/r14-reference-colorgram.jpg\",\"imageReviewedNoFaces\":true,\"references\":[\"turn310view0\"],\"taiwanReference\":null,\"serviceFeePercent\":5,\"sourcePriceBasis\":\"retailer_listing\",\"taiwanPromotionTwd\":0,\"taiwanRetailClassification\":\"\",\"taiwanAbsenceEvidence\":\"\",\"taiwanAvailabilityCheckedAt\":\"\",\"taiwanAvailability\":\"listed\",\"sourceDescriptionZh\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"sourceDescriptionEn\":\"0.4g／單支；01 Salmon Beige 或 04 Hip Chocolate. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionKo\":\"\",\"descriptionKo\":\"컬러그램 누드 블러 립 펜슬은 0.4g 제품입니다. 01 살몬 베이지와 04 힙 초콜릿의 누드 컬러로 만나볼 수 있습니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 8000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 9700,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "variants": [
           {
@@ -1721,11 +1765,11 @@
     {
       "id": 122,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"에필로우 어성초 마데카소사이드 트러블 수딩 패드 100매\",\"brand\":\"efilow\",\"retailer\":\"Olive Young\",\"spec\":\"100片 × 1盒\",\"catalogSourceId\":\"olive-A000000181380\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":0,\"taxRefundEligible\":false,\"taxIncludedJpy\":15600,\"imageUrl\":\"/catalog-r8/product-104.png\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181380\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"taiwanRetailCheckedAt\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07T16:45:08.619307+00:00\",\"variants\":[],\"descriptionKo\":\"에필로우 어성초 마데카소사이드 패드는 데일리 페이셜 케어에 사용하는 100매 구성의 제품입니다.\",\"imageEdited\":true,\"previousImageUrl\":\"/catalog-20260927/olive-A000000181380.jpg\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceNotes\":\"Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.\",\"catalogReviewReason\":\"Supplier product soldOutFlag true and every option soldOutFlag true; generic Buy/Cart buttons are template controls, not evidence of stock.\",\"stockQuantityVerified\":false,\"sourceDescriptionZh\":\"Olive Young 韓國選品。100片 × 1盒；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 15600,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 26000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Heartleaf Trouble Soothing Toner Pad 積雪草苷＋TECA棉片 180g／100片 × 1罐",
         "taiwanRetailSpec": "Heartleaf Trouble Soothing Toner Pad 積雪草苷＋TECA棉片 180g／100片 × 1罐",
@@ -1752,11 +1796,11 @@
     {
       "id": 111,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 오르페옹 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000063949833\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000063949833.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000063949833\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-orpheon\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Orphéon는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 328000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 264500,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Orphéon Eau de Parfum 75mL × 1瓶／原裝盒",
         "taiwanRetailSpec": "Orphéon Eau de Parfum 75mL × 1瓶／原裝盒",
@@ -1784,11 +1828,11 @@
     {
       "id": 112,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 필로시코스 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000023633086\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000023633086.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000023633086\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-philosykos\",\"taiwanRetailCheckedAt\":\"2026-09-28\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Philosykos는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 328000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 265000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Philosykos Eau de Parfum 75mL × 1瓶／原裝盒",
         "taiwanRetailSpec": "Philosykos Eau de Parfum 75mL × 1瓶／原裝盒",
@@ -1816,11 +1860,11 @@
     {
       "id": 113,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 플레르 드 뽀 오 드 퍼퓸 75ml\",\"brand\":\"Diptyque\",\"retailer\":\"Shinsegae\",\"spec\":\"75ml\",\"catalogSourceId\":\"diptyque-1000026486402\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"/catalog-20260927/diptyque-1000026486402.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000026486402\",\"taiwanRetailTwd\":6950,\"taiwanRetailSource\":\"https://1010online.com.tw/diptyque-eau-de-parfum-fleur-de-peau\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"Diptyque Fleur de Peau는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 單瓶。新世界百貨品牌店常規售價，未套用限會員或付款方式折扣。\",\"sourceDescriptionEn\":\"75ml single bottle. Department-store regular price; membership/payment discounts excluded.\",\"sourceDescriptionKo\":\"75ml 1병입니다. 백화점 정가 기준이며 회원·결제 수단별 할인은 제외됩니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 328000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 265000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Fleur de Peau Eau de Parfum 75mL × 1瓶／原裝盒",
         "taiwanRetailSpec": "Fleur de Peau Eau de Parfum 75mL × 1瓶／原裝盒",
@@ -1848,11 +1892,11 @@
     {
       "id": 109,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"바이레도 블랑쉬 Body Wash 225ml\",\"brand\":\"Byredo\",\"retailer\":\"Byredo Korea\",\"spec\":\"225ml\",\"catalogSourceId\":\"byredo-blanche-wash\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":82000,\"imageUrl\":\"/catalog-20260927/byredo-blanche-wash.jpg\",\"purchaseUrl\":\"https://www.byredo.com/ko_kr/c/body-care\",\"taiwanRetailTwd\":1810,\"taiwanRetailSource\":\"https://1010online.com.tw/byredo-body-wash-blanche\",\"taiwanRetailCheckedAt\":\"2026-09-28\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"바이레도 블랑쉬 바디 워시는 블랑쉬 향을 담은 225mL 샤워 클렌저입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"225ml 單件。韓國 Byredo 官方公開標價；台灣同規格參考價與來源另列。\",\"sourceDescriptionEn\":\"225ml, one item. Byredo Korea public list price. Taiwan reference price and source are recorded separately; verify the exact specification before comparison.\",\"sourceDescriptionKo\":\"225ml 1개. 바이레도 한국 공개 표시 가격 기준입니다. 대만 동일 규격 참고 가격은 별도 가격 항목을 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 82000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 78000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "BLANCHE Body Wash 沐浴膠225mL × 1瓶／白色圓蓋，不含壓頭",
         "taiwanRetailSpec": "BLANCHE Body Wash 沐浴膠225mL × 1瓶／白色圓蓋，不含壓頭",
@@ -1880,11 +1924,11 @@
     {
       "id": 62,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 도손 오 드 퍼퓸 75ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"https://sitem.ssgcdn.com/11/08/63/item/1000023630811_i1_1200.jpg\",\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000023630811\",\"taiwanRetailTwd\":6500,\"taiwanRetailSource\":\"https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"Diptyque Do Son는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 淡香精。韓國新世界百貨一般售價；台灣價格為 Marie Claire 2026 年報導的專櫃建議售價，不代表台灣最低價。\",\"sourceDescriptionEn\":\"Diptyque Do Son Eau de Parfum 75ml · Korea retail listing.\",\"sourceDescriptionKo\":\"딥티크 도손 오 드 퍼퓸 75ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 328000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 252240,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Do Son Eau de Parfum 杜桑淡香精75mL × 1瓶／一般零售規格",
         "taiwanRetailSpec": "Do Son Eau de Parfum 杜桑淡香精75mL × 1瓶／一般零售規格",
@@ -1912,11 +1956,11 @@
     {
       "id": 67,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"imageUrl\":\"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/5/5221432657770220229.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645\",\"variants\":[],\"nameKo\":\"필리밀리 마일리지 블러셔 브러시 885\",\"descriptionKo\":\"필리밀리 포인트 블러셔 브러시 885는 블러셔를 바를 때 사용하는 메이크업 브러시입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"nameZh\":\"Fillimilli 885 腮紅刷\",\"nameEn\":\"Fillimilli Point Blusher Brush 885\",\"priceKrw\":10000,\"taxIncludedJpy\":10000,\"spec\":\"Point Blusher Brush 885，1支\",\"stockQuantityVerified\":false,\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"saleableFlag=true, product soldOutFlag=false, selected option 001 soldOutFlag=false. Raw quantity=0 is an uncounted web placeholder; exact supplier quantity unknown. Source image manually inspected: product/packaging only, no human face.\",\"serviceFeePercent\":5,\"descriptionZh\":\"Point Blusher Brush 885，1支。韓國供應商公開商品價10,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"descriptionEn\":\"Point Blusher Brush 885，1支. Verified Korean public item price KRW 10,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"evidence\":[\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645\"],\"supplierOptionNumber\":\"001\",\"gtin\":\"8809865770392\",\"imageEdited\":false,\"sourcePriceBasis\":\"retailer_listing\",\"sourceDescriptionZh\":\"Point Blusher Brush 885，1支。韓國供應商公開商品價10,000韓元，依會員方案加計彈性代購費。批次採買，非台灣現貨；供應庫存以實際採買時為準。\",\"sourceDescriptionEn\":\"Point Blusher Brush 885，1支. Verified Korean public item price KRW 10,000. Flexible member service fee. Batch preorder; supplier availability may change before purchase.\",\"sourceDescriptionKo\":\"한국 올리브영 확인 당시 할인가 ₩8,000, 정가 ₩10,000. 구매 시 실제 판매 가격과 행사 조건을 확인합니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 10000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 12500,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Point Blusher Brush 885／GTIN8809865770392／單支",
         "taiwanRetailSpec": "Point Blusher Brush 885／GTIN8809865770392／單支",
@@ -1944,11 +1988,11 @@
     {
       "id": 91,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 베이 클래식 캔들 190g\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":102000,\"imageUrl\":\"https://assets.bongenie.ch/media107206/diptyque-a369752-uniq-2162088-8dpkahwbjt.jpg\",\"purchaseUrl\":\"https://www.ssg.com/item/itemView.ssg?itemId=1000023640978\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-10-07\",\"variants\":[],\"descriptionKo\":\"딥티크 베이 클래식 캔들은 베리 테마의 향을 담은 190g 홈 프래그런스 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"priceKrw\":102000,\"spec\":\"Baies 香味190g × 1顆\",\"serviceFeePercent\":5,\"sourceNotes\":\"SSG品牌百貨來源公開原價及購買功能；不使用有條件會員／卡片折扣。供應商未公開確切庫存數量，非賣家現貨。\",\"stockQuantityVerified\":false,\"nameZh\":\"Diptyque BAIES 漿果香氛蠟燭 190g\",\"nameEn\":\"Diptyque Baies Classic Candle 190g\",\"descriptionZh\":\"Baies 香味190g × 1顆。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"descriptionEn\":\"Baies 香味190g × 1顆. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"taiwanPromotionTwd\":0,\"taiwanRetailClassification\":\"\",\"taiwanRetailCheckedAt\":\"\",\"taiwanAbsenceEvidence\":\"\",\"taiwanAvailabilityCheckedAt\":\"\",\"taiwanAvailability\":\"listed\",\"sourceDescriptionZh\":\"Baies 香味190g × 1顆。依韓國供應商核實成本與會員彈性代購費定價；批次採買，非台灣現貨。\",\"sourceDescriptionEn\":\"Baies 香味190g × 1顆. Verified Korean cost plus flexible member service fees. Batch preorder, not local stock.\",\"sourceDescriptionKo\":\"딥티크 베이 클래식 캔들 190g. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 102000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 107000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "BAIES漿果香／透明玻璃瓶經典蠟燭190g × 1顆（非補充蕊）",
         "taiwanRetailSpec": "BAIES漿果香／透明玻璃瓶經典蠟燭190g × 1顆（非補充蕊）",
@@ -1976,11 +2020,11 @@
     {
       "id": 121,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"라네즈 립 슬리핑 마스크 EX 20g 스트로베리 쇼트케이크\",\"brand\":\"LANEIGE\",\"retailer\":\"Olive Young\",\"spec\":\"20g × 1\",\"catalogSourceId\":\"olive-A000000232892\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":16400,\"imageUrl\":\"/catalog-20260927/olive-A000000232892.jpg\",\"purchaseUrl\":\"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232892\",\"taiwanRetailTwd\":730,\"taiwanRetailSource\":\"https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html\",\"taiwanRetailCheckedAt\":\"2026-09-30\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"라네즈 립 슬리핑 마스크 EX 스트로베리 쇼트케이크는 20g 용량의 나이트 립 케어 제품입니다.\",\"taiwanRetailClassification\":\"official_regular_price\",\"taiwanPromotionTwd\":621,\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"Olive Young 韓國選品。20g × 1；採商品頁公開價格，不含額外會員或信用卡優惠。\",\"sourceDescriptionEn\":\"Olive Young Korea listing. Exact pack shown in product name; public price before additional member/card offers.\",\"sourceDescriptionKo\":\"한국 올리브영 판매 상품입니다. 상품명에 표시된 정확한 용량과 구성을 확인하세요. 추가 회원·카드 혜택을 적용하기 전의 공개 가격 기준입니다.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 16400,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 23000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "Strawberry Shortcake草莓奶油蛋糕 EX20g × 1罐／GTIN8800283633894",
         "taiwanRetailSpec": "Strawberry Shortcake草莓奶油蛋糕 EX20g × 1罐／GTIN8800283633894",
@@ -2010,11 +2054,11 @@
     {
       "id": 110,
       "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"바이레도 블랑쉬 Body Lotion 225ml\",\"brand\":\"Byredo\",\"retailer\":\"Byredo Korea\",\"spec\":\"225ml\",\"catalogSourceId\":\"byredo-blanche-lotion\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":100000,\"imageUrl\":\"/catalog-20260927/byredo-blanche-lotion.jpg\",\"purchaseUrl\":\"https://www.byredo.com/ko_kr/c/body-care\",\"taiwanRetailTwd\":2300,\"taiwanRetailSource\":\"https://1010online.com.tw/byredo-body-lotion-blanche\",\"taiwanRetailCheckedAt\":\"2026-09-29\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-27\",\"variants\":[],\"descriptionKo\":\"바이레도 블랑쉬 바디 로션은 블랑쉬 향을 담은 225mL 바디 케어 제품입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"225ml 單件。韓國 Byredo 官方公開標價；台灣同規格參考價與來源另列。\",\"sourceDescriptionEn\":\"225ml, one item. Byredo Korea public list price. Taiwan reference price and source are recorded separately; verify the exact specification before comparison.\",\"sourceDescriptionKo\":\"225ml 1개. 바이레도 한국 공개 표시 가격 기준입니다. 대만 동일 규격 참고 가격은 별도 가격 항목을 확인하세요.\"}",
-      "expectedStatus": "active",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 100000,
-      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "priceKrw": 95000,
-      "nextStatus": "active",
+      "nextStatus": "paused",
       "changes": {
         "spec": "BLANCHE返璞歸真 Body Lotion身體乳225mL × 1瓶／原廠瓶蓋，不含壓頭",
         "taiwanRetailSpec": "BLANCHE返璞歸真 Body Lotion身體乳225mL × 1瓶／原廠瓶蓋，不含壓頭",
@@ -2042,9 +2086,9 @@
     {
       "id": 164,
       "expectedCommerce": "{\"id\":\"r5-mediheal\",\"nameZh\":\"MEDIHEAL 三麗鷗聯名棉片\",\"nameEn\":\"MEDIHEAL Sanrio Derma Toner Pads\",\"brand\":\"MEDIHEAL\",\"category\":\"beauty\",\"spec\":\"\",\"priceKrw\":1,\"imageUrl\":\"/catalog-r8/product-146.png\",\"purchaseUrl\":\"\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"參考圖片尚不能對應核實的可售商品。\",\"variants\":[],\"descriptionZh\":\"。已加入選品清單；確認款式、供貨與同規格台灣售價後開放下單。聯名活動已結束，待確認再販售。\",\"descriptionEn\":\". Requested selection: exact specification, availability and Taiwan reference must be confirmed before checkout.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"MEDIHEAL Sanrio Derma Toner Pads\",\"taxIncludedJpy\":1,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-mediheal\",\"imageEdited\":true,\"previousImageUrl\":\"/requested-20261001/9.07.43.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"catalogReviewReason\":\"參考圖片尚不能對應核實的可售商品。\"}",
-      "expectedStatus": "research",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:25:03",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "expectedNameZh": "MEDIHEAL 三麗鷗聯名棉片",
       "expectedNameEn": "MEDIHEAL Sanrio Derma Toner Pads",
       "priceKrw": 1,
@@ -2055,14 +2099,15 @@
         "referencePhotoOnly": true,
         "sourceNotes": "已還原會員原始參考截圖，移除舊版重畫商品圖；截圖不代表完整SKU或可採買證明。原型號／組合、現價及本期供貨仍需逐件核實。",
         "catalogReviewReason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 166,
       "expectedCommerce": "{\"id\":\"r5-powerpuff\",\"nameZh\":\"飛天小女警聯名粉餅（參考款）\",\"nameEn\":\"Powerpuff Girls Compact reference\",\"brand\":\"Powerpuff\",\"category\":\"beauty\",\"spec\":\"\",\"priceKrw\":1,\"imageUrl\":\"/catalog-r8/product-148.png\",\"purchaseUrl\":\"\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"參考圖片尚不能對應核實的可售商品。\",\"variants\":[],\"descriptionZh\":\"。已加入選品清單；確認款式、供貨與同規格台灣售價後開放下單。品牌與型號待辨識，不以其他聯名款替代。\",\"descriptionEn\":\". Requested selection: exact specification, availability and Taiwan reference must be confirmed before checkout.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Powerpuff Girls Compact reference\",\"taxIncludedJpy\":1,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-powerpuff\",\"imageEdited\":true,\"previousImageUrl\":\"/requested-20261001/9.06.35.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"catalogReviewReason\":\"參考圖片尚不能對應核實的可售商品。\"}",
-      "expectedStatus": "research",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:25:03",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "expectedNameZh": "飛天小女警聯名粉餅（參考款）",
       "expectedNameEn": "Powerpuff Girls Compact reference",
       "priceKrw": 1,
@@ -2082,14 +2127,15 @@
       "expectedDescriptionZh": "。已加入選品清單；確認款式、供貨與同規格台灣售價後開放下單。品牌與型號待辨識，不以其他聯名款替代。",
       "expectedDescriptionEn": ". Requested selection: exact specification, availability and Taiwan reference must be confirmed before checkout.",
       "descriptionZh": "原始截圖為UNOVE飛天小女警活動梳鏡／鑰匙圈參考，當期周邊取得條件與供貨待核實。",
-      "descriptionEn": "Original UNOVE Powerpuff promotional comb/mirror and keyring reference. Current acquisition terms and supply remain unverified."
+      "descriptionEn": "Original UNOVE Powerpuff promotional comb/mirror and keyring reference. Current acquisition terms and supply remain unverified.",
+      "nextStatus": "paused"
     },
     {
       "id": 170,
       "expectedCommerce": "{\"id\":\"r5-kuromi\",\"nameZh\":\"Kuromi 聯名彩妝與掛飾\",\"nameEn\":\"Kuromi Cosmetics and Charms reference\",\"brand\":\"Kuromi\",\"category\":\"beauty\",\"spec\":\"\",\"priceKrw\":1,\"imageUrl\":\"/catalog-r8/product-152.png\",\"purchaseUrl\":\"\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"參考圖片尚不能對應核實的可售商品。\",\"variants\":[],\"descriptionZh\":\"。已加入選品清單；確認款式、供貨與同規格台灣售價後開放下單。依附圖確認系列。\",\"descriptionEn\":\". Requested selection: exact specification, availability and Taiwan reference must be confirmed before checkout.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Kuromi Cosmetics and Charms reference\",\"taxIncludedJpy\":1,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-kuromi\",\"imageEdited\":true,\"previousImageUrl\":\"/requested-20261001/9.06.45.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"catalogReviewReason\":\"參考圖片尚不能對應核實的可售商品。\"}",
-      "expectedStatus": "research",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:25:03",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "expectedNameZh": "Kuromi 聯名彩妝與掛飾",
       "expectedNameEn": "Kuromi Cosmetics and Charms reference",
       "priceKrw": 1,
@@ -2100,14 +2146,15 @@
         "referencePhotoOnly": true,
         "sourceNotes": "已還原會員原始參考截圖，移除舊版重畫商品圖；截圖不代表完整SKU或可採買證明。原型號／組合、現價及本期供貨仍需逐件核實。",
         "catalogReviewReason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。"
-      }
+      },
+      "nextStatus": "paused"
     },
     {
       "id": 171,
       "expectedCommerce": "{\"id\":\"r5-sanrio\",\"nameZh\":\"三麗鷗聯名美妝與配件\",\"nameEn\":\"Sanrio Beauty and Accessories reference\",\"brand\":\"Sanrio\",\"category\":\"beauty\",\"spec\":\"\",\"priceKrw\":1,\"imageUrl\":\"/catalog-r8/product-153.png\",\"purchaseUrl\":\"\",\"taiwanRetailTwd\":0,\"taiwanRetailSource\":\"\",\"status\":\"research\",\"sourceCheckedAt\":\"2026-10-07\",\"sourceNotes\":\"參考圖片尚不能對應核實的可售商品。\",\"variants\":[],\"descriptionZh\":\"。已加入選品清單；確認款式、供貨與同規格台灣售價後開放下單。依附圖確認系列。\",\"descriptionEn\":\". Requested selection: exact specification, availability and Taiwan reference must be confirmed before checkout.\",\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"Sanrio Beauty and Accessories reference\",\"taxIncludedJpy\":1,\"taxRefundEligible\":false,\"stock\":-1,\"stockQuantityVerified\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"arrivalHours\":0,\"addon\":false,\"taiwanRetailCheckedAt\":\"\",\"catalogSourceId\":\"r5-sanrio\",\"imageEdited\":true,\"previousImageUrl\":\"/requested-20261001/9.07.09.png\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"catalogReviewReason\":\"參考圖片尚不能對應核實的可售商品。\"}",
-      "expectedStatus": "research",
+      "expectedStatus": "paused",
       "expectedPriceKrw": 1,
-      "expectedUpdatedAt": "2026-10-11 18:25:03",
+      "expectedUpdatedAt": "2026-10-14T15:43:05.815463+00:00",
       "expectedNameZh": "三麗鷗聯名美妝與配件",
       "expectedNameEn": "Sanrio Beauty and Accessories reference",
       "priceKrw": 1,
@@ -2118,7 +2165,8 @@
         "referencePhotoOnly": true,
         "sourceNotes": "已還原會員原始參考截圖，移除舊版重畫商品圖；截圖不代表完整SKU或可採買證明。原型號／組合、現價及本期供貨仍需逐件核實。",
         "catalogReviewReason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。"
-      }
+      },
+      "nextStatus": "paused"
     }
   ]
 }

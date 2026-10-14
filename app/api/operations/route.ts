@@ -116,7 +116,7 @@ function validateOffer(b:Record<string,any>){
 }
 function validateSettings(b:Record<string,any>){
  const extra:Record<string,any>={};
- if(b.fees!==undefined){for(const tier of tiers)for(const kind of ['catalog','custom'])if(typeof b.fees?.[tier]?.[kind]!=='number'||!Number.isFinite(b.fees[tier][kind])||b.fees[tier][kind]<0||b.fees[tier][kind]>100)throw new ShopError('各會員代購費須為 0–100%。');extra.fees=b.fees;}
+ if(b.fees!==undefined){for(const tier of tiers)for(const kind of ['catalog','custom'])if(typeof b.fees?.[tier]?.[kind]!=='number'||!Number.isFinite(b.fees[tier][kind])||b.fees[tier][kind]<0||b.fees[tier][kind]>100)throw new ShopError('各會員代購費須為 0–100%。');extra.fees={...b.fees,diamond:{catalog:3,custom:3}};}
  if(b.shippingByTier!==undefined){for(const tier of tiers)if(!Number.isInteger(b.shippingByTier?.[tier])||b.shippingByTier[tier]<0||b.shippingByTier[tier]>100000)throw new ShopError('請填寫各會員等級的有效運費。');extra.shippingByTier=b.shippingByTier;}
  if(b.purchaseAt!==undefined){if(b.purchaseAt&&!Number.isFinite(Date.parse(b.purchaseAt)))throw new ShopError('採買時間需晚於現在。');extra.purchaseAt=b.purchaseAt?new Date(b.purchaseAt).toISOString():null;}
  if(b.purchaseAtTo){const end=Date.parse(b.purchaseAtTo),start=Date.parse(b.purchaseAt||'');if(!Number.isFinite(start)||!Number.isFinite(end)||end<start)throw new ShopError('採買區間結束不可早於開始。 / Purchase end must be at or after its start.');extra.purchaseAtTo=new Date(end).toISOString();}

@@ -1,6 +1,6 @@
 import {ShopError} from './commerce';
 import type {Member,PaymentMethod} from './commerce-types';
-export function paymentChoice(member:Member,value:unknown):PaymentMethod{const method=value===undefined?'transfer':value;if(!['transfer','cod'].includes(String(method)))throw new ShopError('付款方式無效。 / Invalid payment method.');if(method==='cod'&&member.tier!=='diamond')throw new ShopError('貨到付款僅限後台授予的金鑽會員。 / Cash on delivery is available to Diamond members only.',403);return method as PaymentMethod;}
+export function paymentChoice(member:Member,value:unknown,cashConfirmed=false):PaymentMethod{const method=value===undefined?'transfer':value;if(!['transfer','cash','cod'].includes(String(method)))throw new ShopError('付款方式無效。 / Invalid payment method.');if(method==='cash'&&cashConfirmed!==true)throw new ShopError('請再次確認現金付款選項。 / Confirm the cash payment option.');if(method==='cod'&&member.tier!=='diamond')throw new ShopError('貨到付款僅限後台授予的金鑽會員。 / Cash on delivery is available to Diamond members only.',403);return method as PaymentMethod;}
 export const transferDeadline=()=>new Date(Date.now()+3*86400000).toISOString();
 
 // A zero-cash order has already reserved its wallet funds in the checkout batch.

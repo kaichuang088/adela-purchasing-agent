@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-14T13:13:49.386237+00:00",
+  "updatedAt": "2026-10-14T17:55:12.565840+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -77,8 +77,8 @@
     "pushed": true,
     "pdfDownloadsVerified": true
   },
-  "publicationStatus": "R24 NOT published; existing R23 remains live",
-  "phase": "r24-local-fixes-verified-catalog-blocked",
+  "publicationStatus": "R23 remains live; all199products withdrawn; R25 release awaits current750-reserve balance and final validation",
+  "phase": "r25-local-ready-current-credit-balance-needed",
   "publishedSourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
   "r24Preparation": {
     "at": "2026-10-14T13:13:49.386237+00:00",
@@ -150,12 +150,12 @@
       "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification? Asked again2026-10-14; no response yet."
     ],
     "networkActivationPending": [],
-    "lastSourceCheckpoint": null,
+    "lastSourceCheckpoint": "fbfd8cef8664ec6bce030749ebc3cae6096996bb",
     "sourceRound3Evidence": "verification/r24/round-3-confirmed.json",
     "sourceRound3Work": "verification/r24/round-3-source-work.json",
     "verifiedDraftDescriptionsUpdated": 9,
     "backupCommit": "6d356fa",
-    "backupPushed": false,
+    "backupPushed": true,
     "sourceRound3VerifiedOptions": 9,
     "sourceRound4Evidence": "verification/r24/round-4-confirmed.json",
     "sourceRound4VerifiedOptions": 1,
@@ -178,7 +178,8 @@
       "torriden.tw",
       "cafe24img.poxo.com",
       "ecimg.cafe24img.com"
-    ]
+    ],
+    "supersededGate": "Owner stopped catalog comparison and authorized all-product withdrawal/repricing R25; do not falsify source0"
   },
   "r23PublishedNotes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",
@@ -186,5 +187,46 @@
     "No live orders or ledger rewritten",
     "Source ZIP does not back up live D1 or platform credentials",
     "R23_DEPLOYMENT_20261013.md and PROJECT_STATE.json override preparation/historical documentation"
-  ]
+  ],
+  "r25Preparation": {
+    "at": "2026-10-14T17:55:12.565840+00:00",
+    "liveWithdrawal": {
+      "records": 199,
+      "active": 0,
+      "supplierMetadataPreserved": true,
+      "financialTablesWritten": false
+    },
+    "sourceResearchPausedByOwner": true,
+    "historicalSourceIssuesNotFalsified": 141,
+    "pricingMode": "standard_base",
+    "diamondFeePercent": 3,
+    "pricesRoundedUpTo5": true,
+    "manualPriceWarningsOnly": true,
+    "checkout": "convenience-store pickup and cash/transfer/COD as eligible",
+    "paidModelCalls": 0,
+    "netlifyDeployments": 0,
+    "actualCurrentCredits": null,
+    "minimumRemainingCredits": 750,
+    "workflowChecks": 36,
+    "pricingChecks": 30,
+    "photoChoiceChecks": 37,
+    "mobileChecksBeforeCashCapture": 202,
+    "finalMobilePending": false,
+    "freshProviderValidationPending": true,
+    "sourceReplay": "captured model response with fresh native LeLabo319000KRW;0new provider calls",
+    "publishReady": false,
+    "remaining": [
+      "Latest actual Netlify credit balance and750reserve",
+      "Fresh real-provider verification within budget",
+      "One verified production deploy per original role and shared backend"
+    ],
+    "mobileChecks": 211,
+    "namedLocalChecks": 324,
+    "emailTemplateChecks": 10,
+    "pdfFiles": [
+      "public/manuals/Adela_R25_Front_Mobile_Guide.pdf",
+      "public/manuals/Adela_R25_Admin_Mobile_Guide.pdf"
+    ],
+    "sourceBackupPending": true
+  }
 }

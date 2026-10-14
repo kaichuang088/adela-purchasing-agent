@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "frontPickupCash": true,
+    "frontHasNoAdminLink": true,
+    "frontHasNoAdminOrdersChapter": true,
+    "frontNoOldShipping50": true,
+    "noOldPerfume2Percent": true,
+    "adminEditor": true
+  },
+  "files": [
+    {
+      "role": "Front",
+      "path": "public/manuals/Adela_R25_Front_Mobile_Guide.pdf",
+      "bytes": 1094155,
+      "sha256": "4627f3445922a9a8d33a78c5ed0bad7cbedb788394e700b43c524780031a2738"
+    },
+    {
+      "role": "Admin",
+      "path": "public/manuals/Adela_R25_Admin_Mobile_Guide.pdf",
+      "bytes": 963095,
+      "sha256": "f7363c069096aa2ef95543f61b5582717f5a77bc0847e174a01cdf1dd6d7ec81"
+    }
+  ],
+  "standaloneDownloadsIncluded": true
+}

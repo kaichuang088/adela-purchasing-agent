@@ -1,20 +1,6 @@
-import {exchange,settings,ShopError} from './commerce';
-import {productPriceReview,priceReviewMessage} from './price-review';
+import {exchange,settings} from './commerce';
+import {productPriceReview} from './price-review';
 import type {ShopProduct} from './commerce-types';
-import {catalogDisplayParts} from './catalog-display-price';
-export async function publicationReviews(p:ShopProduct){
- const [config,rate]=await Promise.all([settings(),exchange({preferCached:true}).catch(()=>null)]);
- return (p.variants.length?p.variants:[undefined]).map(v=>({variant:v?.labelZh||p.spec||p.nameZh,...productPriceReview(p,rate?.rate||0,v?.id,config.fees.standard.catalog)}));
-}
-export async function assertPublishablePrice(p:ShopProduct){
- const reviews=await publicationReviews(p);
- if(p.status==='active'){
-  const failures=reviews.filter((r,i)=>(p.variants[i]?.stock??p.stock)!==0&&!r.ok);
-  if(failures.length)throw new ShopError('上架價格檢查未通過：'+failures.map(r=>r.variant+'：'+priceReviewMessage(r)).join('；')+' 可先儲存草稿，完成依據後再上架。',409);
-  if(p.pricingTaxExclusive){
-   const config=await settings(),rate=await exchange({preferCached:true});
-   if((p.variants.length?p.variants:[undefined]).some(v=>(v?.stock??p.stock)!==0&&!catalogDisplayParts(p,{variantId:v?.id,exchangeRate:rate.rate,fees:config.fees})?.ok))throw new ShopError('未稅計價仍無法符合售價上限或固定售價；不能默認額外虧損折讓，請調整來源或先儲存草稿。',409);
-  }
- }
- return reviews;
-}
+export async function publicationReviews(p:ShopProduct){const [config,rate]=await Promise.all([settings(),exchange({preferCached:true}).catch(()=>null)]);return (p.variants.length?p.variants:[undefined]).map(v=>{const review=productPriceReview(p,rate?.rate||0,v?.id,config.fees.standard.catalog),base=v?.salePriceTwd??p.salePriceTwd,cost=(v?.priceJpy??p.priceJpy)>1&&rate?Math.ceil((v?.priceJpy??p.priceJpy)*rate.rate)+Math.ceil(p.sizeFeeTwd):0;return {variant:v?.labelZh||p.spec||p.nameZh,...review,warnings:[...(base&&cost&&base<cost?['售價低於實際成本；管理員確認後仍可儲存。']:[]),...(base&&cost&&base>=cost&&base<cost*1.03?['售價低於金鑽成本＋3%，會員優惠價會以最低階售價為上限。']:[])]};});}
+/** Price/source checks are advisory after the owner's R25 policy change. */
+export async function assertPublishablePrice(p:ShopProduct){return publicationReviews(p);}

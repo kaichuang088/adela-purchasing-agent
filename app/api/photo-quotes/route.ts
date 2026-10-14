@@ -71,7 +71,7 @@ export async function POST(request:Request){try{
   try{const result=await identifyAndQuote(draft!,member);return privateJson({id,...result},201);}
   catch(e){await db.prepare('DELETE FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(id,member.id).run();await deleteMedia(imageKey);throw e;}
  }
- const body=await request.json() as {id?:string;action?:string;detail?:string;choiceId?:string;approvedAt?:string;approvedTotal?:number;paymentMethod?:string;quantity?:number;shippingAddress?:unknown};
+ const body=await request.json() as {id?:string;action?:string;detail?:string;choiceId?:string;approvedAt?:string;approvedTotal?:number;paymentMethod?:string;cashConfirmed?:boolean;quantity?:number;shippingAddress?:unknown};
  const draft=await db.prepare('SELECT * FROM kk_photo_drafts WHERE id=? AND member_id=?').bind(String(body.id||''),member.id).first();
  if(!draft)throw new ShopError('找不到此查價。 / Photo quote not found.',404);
  const id=String(draft.id),now=new Date().toISOString();
@@ -138,7 +138,7 @@ export async function POST(request:Request){try{
   if(body.approvedTotal!==pricing.totalTwd||body.approvedAt!==pricing.pricedAt)throw new ShopError('報價已更新，請重新查看。 / Review the updated quote.',409);
   const image=await getMedia(String(draft.image_key));if(!image)throw new ShopError('圖片已失效，請重新查價。',410);
   const sellerReview=await db.prepare("SELECT reviewed_at FROM kk_photo_inquiries WHERE draft_id=? AND member_id=? AND state='quoted'").bind(id,member.id).first();
-  const method=paymentChoice(member,body.paymentMethod),due=sellerReview&&method==='transfer'?transferDeadline():null,address=shippingAddress(body.shippingAddress);
+  const method=paymentChoice(member,body.paymentMethod,body.cashConfirmed===true),due=sellerReview&&method!=='cod'?transferDeadline():null,address=shippingAddress(body.shippingAddress);
   if(pricing.tier!==member.tier)throw new ShopError('會員等級已更新，請重新查價。 / Membership changed. Refresh quote.',409);
   const publicKey='requests/'+id;await putMedia(publicKey,image.bytes,String(draft.image_type));
   const acceptedAnalysis=JSON.parse(String(draft.analysis_json)) as ProductAnalysis;
@@ -150,7 +150,7 @@ export async function POST(request:Request){try{
    db.prepare("UPDATE kk_photo_drafts SET state='purchased',order_id=(SELECT id FROM shopping_requests WHERE submission_key=?) WHERE id=? AND EXISTS(SELECT 1 FROM shopping_requests WHERE submission_key=?)").bind(key,id,key),
    db.prepare("UPDATE shopping_requests SET snack_redeemed=1 WHERE request_no=? AND snack_redeemed=0 AND EXISTS(SELECT 1 FROM kk_members m WHERE m.id=shopping_requests.member_id AND m.miles>=30)").bind(no),
    db.prepare("INSERT INTO request_events(request_id,status,title_zh,title_en) SELECT id,status,?,? FROM shopping_requests WHERE request_no=?").bind(sellerReview?'賣家報價已接受，待付款':'客製訂單待賣家確認',sellerReview?'Seller quote accepted, payment pending':'Custom order awaiting seller confirmation',no),
-   db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) SELECT member_id,?,request_no||?,?,request_no||?,id FROM shopping_requests WHERE request_no=?").bind(sellerReview?'已接受賣家報價，請回報付款':'客製訂單待賣家確認',sellerReview?' 已接受賣家查核的含代購費報價；請查看付款資訊，匯款後回報，賣家核款後才進待買清單。':' 賣家將於 24 小時內確認，可能調整報價；確認前無須付款。',sellerReview?'Seller quote accepted, payment pending':'Custom order awaiting review',sellerReview?': Please view payment details and submit the transfer report. Purchasing begins after seller payment verification.':': Seller review within 24 hours. No payment is due yet.',no)
+   db.prepare("INSERT INTO kk_messages(member_id,title,body,title_en,body_en,order_id) SELECT member_id,?,request_no||?,?,request_no||?,id FROM shopping_requests WHERE request_no=?").bind(sellerReview?'已接受賣家報價，請回報付款':'客製訂單待賣家確認',sellerReview?' 已接受賣家查核的含代購費報價；請查看付款資訊，付款後回報，賣家核款後才進待買清單。':' 賣家將於 24 小時內確認，可能調整報價；確認前無須付款。',sellerReview?'Seller quote accepted, payment pending':'Custom order awaiting review',sellerReview?': Please view payment details and submit the payment report. Purchasing begins after seller payment verification.':': Seller review within 24 hours. No payment is due yet.',no)
   ]);
   if(sellerReview)await db.batch([db.prepare('UPDATE shopping_requests SET seller_reviewed_at=?,seller_review_due_at=NULL WHERE submission_key=? AND member_id=?').bind(sellerReview.reviewed_at,key,member.id),db.prepare("UPDATE kk_photo_inquiries SET state='purchased' WHERE draft_id=? AND member_id=? AND state='quoted'").bind(id,member.id)]);
   const order=await db.prepare('SELECT * FROM shopping_requests WHERE submission_key=? AND member_id=?').bind(key,member.id).first();

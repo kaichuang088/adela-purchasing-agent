@@ -1,4 +1,6 @@
 'use client';
+import {SimpleProductDialog as ProductDialog} from './simple-product-dialog';
+export {ProductDialog};
 import {productPhoto} from '@/lib/product-photo';
 import {productCode} from '@/lib/product-code';
 import {AdminNotifications} from './admin-notifications';
@@ -183,7 +185,7 @@ export default function OperationsApp() {
     [tab, setTab] = useState<Tab>(()=>typeof window!=='undefined'&&new URLSearchParams(window.location.search).get('view')==='notify'?'notify':'orders'),
     [moreOpen, setMoreOpen] = useState(false),
     [aiOpen,setAiOpen] = useState(false),
-    [catalogSearch,setCatalogSearch] = useState(''),
+    [catalogSearch,setCatalogSearch] = useState(''),[catalogGroup,setCatalogGroup]=useState<'unconfigured'|'active'>('unconfigured'),
     [query, setQuery] = useState(""),[orderGroup,setOrderGroup]=useState("open"),[statusFilter,setStatusFilter]=useState("all");
   const [order, setOrder] = useState<ShopOrder | null>(null),
     [product, setProduct] = useState<any | null>(null),
@@ -390,7 +392,7 @@ export default function OperationsApp() {
             </div>
           </header>
           <div className="op-content">
-            {tab === "procurement" && <><ProcurementList groups={data?.procurement||[]} send={async body=>{await api(body);await load();}}/>{data!.orders.some(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status))&&<section className="op-panel adela-member-desk"><h3>{a('已核價購買清單・待付款')}</h3><p>{a('已完成賣家核價；匯款核對前不會標記已付款或已買到。')}</p>{data!.orders.filter(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status)).map(o=><button className="adela-pending-purchase" key={o.id} onClick={()=>setOrder(o)}><span>{o.identifiedNameZh}<small>{o.customerName} · {o.requestNo}</small></span><strong>NT${o.pricing?.totalTwd.toLocaleString()}</strong><ChevronRight/></button>)}</section>}</>}
+            {tab === "procurement" && <><ProcurementList groups={data?.procurement||[]} send={async body=>{await api(body);await load();}}/>{data!.orders.some(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status))&&<section className="op-panel adela-member-desk"><h3>{a('已核價購買清單・待付款')}</h3><p>{a('已完成賣家核價；匯款核對前不會標記已付款或已買到。')}</p>{data!.orders.filter(o=>o.kind==='custom'&&o.sellerReviewedAt&&!o.paidAt&&['awaiting_payment','payment_review','awaiting_cod'].includes(o.status)).map(o=><button className="adela-pending-purchase" key={o.id} onClick={()=>setOrder(o)}><span>{language==='zh'?o.identifiedNameZh:o.identifiedNameEn||o.identifiedNameZh}<small>{o.customerName} · {o.requestNo}</small></span><strong>NT${o.pricing?.totalTwd.toLocaleString()}</strong><ChevronRight/></button>)}</section>}</>}
             {tab === "orders" && (
               <><details className="op-legacy-topups"><summary>舊儲值紀錄（已停止販售）</summary><AdminTopups items={data?.topups||[]} send={async body=>{await api(body);await load();}}/></details>
                 <div className="op-hero">
@@ -503,15 +505,15 @@ export default function OperationsApp() {
                   <div>
                     <p>CATALOG</p>
                     <h2>{a("販售商品")}</h2>
-                    <span>{a("新增與編輯一律輸入韓元原價 KRW。")}</span>
+                    <span>{a("先設定會員售價，再確認發布。韓元成本保留在進階設定。")}</span>
                   </div>
                   <Button onClick={() => setProduct({ ...blankProduct })}>
                     <Plus />{a("新增商品")}</Button>
                 </div>
 
                 <label className="adela-catalog-search">{a('搜尋販售商品')}<input type="search" value={catalogSearch} onChange={e=>setCatalogSearch(e.target.value)} placeholder={a('名稱、品牌、商品 ID 或規格 ID')}/></label>
-                <CatalogReview products={data!.products} rate={data!.exchange?.rate} onEdit={p=>setProduct({...p,originalJpy:p.taxIncludedJpy||p.priceJpy})}/><div className="op-card-grid">
-                  {data!.products.filter(p=>{const term=catalogSearch.trim().toLowerCase().replace(/^#/,'');if(/^\d+(?:-\d+)?$/.test(term))return [String(p.id),...p.variants.map(v=>productCode(p,v.id))].includes(term);return !term||[p.nameZh,p.nameEn,p.brand||'',String(p.id),...p.variants.flatMap(v=>[v.labelZh,v.labelEn,productCode(p,v.id)])].some(value=>value.toLowerCase().includes(term));}).map((p) => (
+                <div className="op-catalog-tabs" role="tablist" aria-label={a('商品狀態')}><button role="tab" aria-selected={catalogGroup==='unconfigured'} onClick={()=>setCatalogGroup('unconfigured')}>{a('尚未設定好')} <b>{data!.products.filter(p=>p.status!=='active').length}</b></button><button role="tab" aria-selected={catalogGroup==='active'} onClick={()=>setCatalogGroup('active')}>{a('販售中')} <b>{data!.products.filter(p=>p.status==='active').length}</b></button></div><div className="op-card-grid">
+                  {data!.products.filter(p=>catalogGroup==='active'?p.status==='active':p.status!=='active').filter(p=>{const term=catalogSearch.trim().toLowerCase().replace(/^#/,'');if(/^\d+(?:-\d+)?$/.test(term))return [String(p.id),...p.variants.map(v=>productCode(p,v.id))].includes(term);return !term||[p.nameZh,p.nameEn,p.brand||'',String(p.id),...p.variants.flatMap(v=>[v.labelZh,v.labelEn,productCode(p,v.id)])].some(value=>value.toLowerCase().includes(term));}).map((p) => (
                     <article className="op-product" key={p.id}>
                       {p.imageKey||p.imageUrl?<img
                         src={productPhoto(p)}
@@ -522,14 +524,13 @@ export default function OperationsApp() {
                           {p.status === "active"
                             ? a("販售中")
                             : p.status === "paused"
-                              ? a("暫停販售")
+                              ? a("尚未設定好")
                               : p.status === "discontinued"
                                 ? a("已停售")
                                 : p.status === "research" ? a("資料待核實") : a("草稿")}
                         </em>
                         <h3>{language==='ko'?(p.nameKo||p.nameEn||p.nameZh):language==='en'?(p.nameEn||p.nameZh):p.nameZh}</h3>
-                        <small>{a('商品 ID')} #{productCode(p)}</small><strong>{p.priceJpy>1?`₩${p.priceJpy.toLocaleString()}`:a("價格待核對")}</strong>
-                        <PerfumePricingSummary product={p} rate={data!.exchange?.rate} fees={data!.settings.fees}/><small>
+                        <small>{a('商品 ID')} #{productCode(p)}</small><strong>{p.salePriceTwd?'NT$'+p.salePriceTwd.toLocaleString():a('售價待設定')}</strong><small>{a('韓元採買成本')}：{p.priceJpy>1?'₩'+p.priceJpy.toLocaleString():a('尚未核實')}</small><small>
                           {p.addon ? a("加購商品 · ") : ""}
                           {p.stock < 0 ? a(p.stockQuantityVerified===false?"商店剩餘數量未公開":"未設定接單上限") : a('庫存 {count}',{count:p.stock})}
                         </small>
@@ -538,7 +539,7 @@ export default function OperationsApp() {
                         variant="outline"
                         onClick={() => {
                           const category=productCategories.find(category=>category.zh===p.categoryZh)||productCategories[8];
-                          setProduct({ ...p, originalJpy: p.taxIncludedJpy||p.priceJpy, categoryZh:category.zh, categoryEn:category.en });
+                          setProduct({ ...p, originalJpy: p.priceJpy, categoryZh:category.zh, categoryEn:category.en });
                         }}
                       >{a("編輯")}</Button>
                     </article>
@@ -554,7 +555,7 @@ export default function OperationsApp() {
                   <div>
                     <p>MEMBERS</p>
                     <h2>{a("會員與哩程")}</h2>
-                    <span>{a("金鑽會員僅由後台授予，無消費門檻、代購費 0%，可貨到付款。消費與哩程只在收款確認後累計。")}</span>
+                    <span>{a("金鑽會員僅由後台授予，代購費 3%，可貨到付款。其他會員費率依商品彈性調整；消費與哩程只在收款確認後累計。")}</span>
                   </div>
                   <CreateMember password={password} refresh={load}/>
                 </div>
@@ -1065,7 +1066,7 @@ export function OrderDialog({
                   {value.paidAt ? a("已確認收到") : value.paymentReportedAt ? a("待核對") : a("等待買家回報")}
                 </span>
               </div>
-              <div className="op-payment-overview"><div><small>{a("本單應收金額")}</small><strong>NT${value.pricing?.totalTwd.toLocaleString() ?? "—"}</strong><span>{value.requestNo}</span></div><dl><div><dt>{a("買家")}</dt><dd>{value.customerName}<small>{value.email}</small></dd></div><div><dt>{a("付款方式")}</dt><dd>{a(value.paymentMethod === "cod" ? "貨到付款" : "銀行轉帳")}</dd></div><div><dt>{a("已折抵購物金")}</dt><dd>NT${(value.pricing?.creditAppliedTwd || 0).toLocaleString()}</dd></div><div><dt>{a("匯款末五碼")}</dt><dd className="op-bank-reference">{value.paymentReference || "—"}</dd></div></dl></div>
+              <div className="op-payment-overview"><div><small>{a("本單應收金額")}</small><strong>NT${value.pricing?.totalTwd.toLocaleString() ?? "—"}</strong><span>{value.requestNo}</span></div><dl><div><dt>{a("買家")}</dt><dd>{value.customerName}<small>{value.email}</small></dd></div><div><dt>{a("付款方式")}</dt><dd>{a(value.paymentMethod === "cod" ? "貨到付款" : value.paymentMethod === "cash" ? "現金付款" : "銀行轉帳")}</dd></div><div><dt>{a("已折抵購物金")}</dt><dd>NT${(value.pricing?.creditAppliedTwd || 0).toLocaleString()}</dd></div><div><dt>{a(value.paymentMethod === "cash" ? "付款回報" : "匯款末五碼")}</dt><dd className="op-bank-reference">{value.paymentReference || "—"}</dd></div></dl></div>
               <PaymentEvidence id={value.paymentPhotoId||null} password={adminPassword}/>
               {value.paymentMethod === "transfer" && <p className="op-help">{a("買家匯款帳號末五碼：")}<strong>{value.paymentReference || a("尚未提供")}</strong>{value.paymentReportedAt && <>{a("· 回報時間：")}{new Date(value.paymentReportedAt).toLocaleString(language==='ko'?'ko-KR':language==='en'?'en-GB':'zh-TW',{timeZone:'Asia/Taipei'})}</>}</p>}
               {!value.paidAt && value.paymentReportedAt && <><label>{a("未收到款項時的通知說明")}<textarea value={draft.reason || ""} onChange={(e) => patch("reason", e.target.value)} rows={2} placeholder={a("例如：目前尚未查到此筆入帳，請確認帳號及匯款是否成功。")}/></label><div className="op-actions"><Button type="button" variant="outline" disabled={busy || !draft.reason?.trim()} onClick={()=>void save({action:"payment_state",id:value.id,paid:false,reason:draft.reason},"已通知買家尚未收到款項")}>{a("未收到・通知買家重報")}</Button><Button type="button" disabled={busy} onClick={()=>void save({action:"payment_state",id:value.id,paid:true},"已確認收到款項並通知買家")}>{a("已核對・確認收款")}</Button></div></>}
@@ -1092,7 +1093,7 @@ export function OrderDialog({
               <p className="op-help">
                 {value.paymentMethod === "cod"
                   ? a("金鑽會員貨到付款：可先採買，收款後才累計消費與哩程。")
-                  : a("銀行匯款：買家回報末五碼後，請用上方「未收到／已收到」完成付款核對。")}
+                  : value.paymentMethod === "cash" ? a("現金付款：買家回報已交付現金後，請確認實際收到款項。") : a("銀行匯款：買家回報末五碼後，請用上方「未收到／已收到」完成付款核對。")}
                 {value.paymentDueAt &&
                   a(" 匯款期限：") + new Date(value.paymentDueAt).toLocaleString(language==='ko'?'ko-KR':language==='en'?'en-GB':'zh-TW',{timeZone:'Asia/Taipei'})}
                 {value.paymentReportedAt &&
@@ -1222,223 +1223,6 @@ export function OrderDialog({
             </div>
           </div>
         )}
-      </DialogContent>
-    </Dialog>
-  );
-}
-export function ProductDialog({
-  rate,standardRate,
-  aiConfigured = false,
-  value,
-  busy,
-  close,
-  save,
-  apiPassword,
-  orders,
-}: {
-  value: any;
-  busy: boolean;
-  close: () => void;
-  save: (v: any) => Promise<void>;
-  apiPassword: string;
-  orders: ShopOrder[];
-  aiConfigured?: boolean;
-  rate?:number;standardRate?:number;
-}) {
- const a=useAdminText(),language=useStoreLocale();
-  const [d, setD] = useState<any>(value),
-    [uploading, setUploading] = useState(false),
-    [editMode,setEditMode]=useState<'manual'|'ai'>('manual'),
-    [aiPrompt,setAiPrompt]=useState(''),[aiResearch,setAiResearch]=useState(false),
-    [aiImageMode,setAiImageMode]=useState<'research'|'upload'|'link'>('research'),
-    [aiImageLink,setAiImageLink]=useState(''),[aiBusy,setAiBusy]=useState(false),
-    [aiEvidence,setAiEvidence]=useState(''),[aiConfirmed,setAiConfirmed]=useState(false),
-    [imageFailed,setImageFailed]=useState(false);
-  useEffect(() => {setD(value);setEditMode('manual');setAiConfirmed(false);setAiEvidence('');setImageFailed(false);}, [value]);
-  if (!d) return null;
-  const p = (k: string, v: any) => setD((x: any) => ({ ...x, [k]: v }));
-  async function suggestProduct(){
-    if (!aiConfigured) return;
-    setAiBusy(true);setAiConfirmed(false);setImageFailed(false);
-    try{
-      const response=await fetch('/api/operations/ai-product',{method:'POST',headers:{'Content-Type':'application/json','X-KK-Admin-Password':apiPassword},body:JSON.stringify({prompt:aiPrompt,research:aiResearch,imageMode:aiImageMode,imageUrl:aiImageLink})});
-      const result=await readJsonResponse(response) as {error?:string;draft?:any};
-      if(!response.ok||!result.draft)throw new Error(result.error||'AI 查詢失敗');
-      const found=result.draft;
-      setD((old:any)=>({...old,...found,originalJpy:found.priceKrw||old.originalJpy||0,priceJpy:found.priceKrw||old.priceJpy||0,status:'draft',imageKey:old.imageKey||'',imageUrl:found.imageUrl||old.imageUrl,categoryZh:productCategories.some(c=>c.zh===found.categoryZh)?found.categoryZh:'韓國零食'}));
-      setAiEvidence(found.evidence||'來源待確認');
-      toast.success(a('AI 草稿已填入，請先核對圖片、規格與價格'));
-    }catch(e){toast.error(a(e instanceof Error?e.message:'AI 查詢失敗'));}
-    finally{setAiBusy(false);}
-  }
-  const recentCustomers=d.id?orders.filter(o=>o.pricing?.items.some(i=>i.productId===d.id)).slice(0,20):[];
-  async function upload(file: File) {
-    setUploading(true);
-    try {
-      const f = new FormData();
-      f.set("image", file);
-      const r = await fetch("/api/operations/image", {
-          method: "POST",
-          headers: { "X-KK-Admin-Password": apiPassword },
-          body: f,
-        }),
-        v = (await readJsonResponse(r)) as {
-          error?: string;
-          imageKey: string;
-        };
-      if (!r.ok) throw new Error(v.error);
-      setD((old:any)=>({...old,imageKey:v.imageKey,imageUrl:''}));setImageFailed(false);setAiConfirmed(false);
-      toast.success(a("圖片已上傳"));
-    } catch (e) {
-      toast.error(a(e instanceof Error ? e.message : "圖片上傳失敗"));
-    } finally {
-      setUploading(false);
-    }
-  }
-  return (
-    <Dialog open onOpenChange={(o) => !o && close()}>
-      <DialogContent className="op-dialog">
-        <DialogHeader>
-          <DialogTitle>{d.id ? a("編輯商品") : a("新增販售商品")}</DialogTitle>
-          <DialogDescription>{a("請填韓國商店標示的韓元售價；台幣售價由系統計算。")}</DialogDescription>
-        </DialogHeader>
-        {true&&<form
-          className="op-form"
-          onSubmit={(e) => {
-            e.preventDefault();
-            void save(d);
-          }}
-        >
-          <label className="op-image-upload">
-            {d.imageKey || d.imageUrl ? (
-              <img src={d.imageKey?(d.imageKey.startsWith('static/')?`/${d.imageKey.slice(7)}`:`/api/media/${d.imageKey}`):d.imageUrl} alt="" />
-            ) : (
-              <Upload />
-            )}
-            <span>{uploading ? a("上傳中…") : a("上傳商品圖片")}</span>
-            <input
-              type="file"
-              accept="image/png,image/jpeg,image/webp"
-              onChange={(e) =>
-                e.target.files?.[0] && void upload(e.target.files[0])
-              }
-            />
-          </label>
-          <ProductImageField imageUrl={d.imageUrl||''} onChange={imageUrl=>{setD((old:any)=>({...old,imageUrl,imageKey:''}));setImageFailed(false);setAiConfirmed(false);}} />
-          <div className="op-two">
-            <label>{a("中文名稱")}<input
-                value={d.nameZh}
-                onChange={(e) => p("nameZh", e.target.value)}
-                required
-              />
-            </label>
-            <label>{a("英文名稱")}<input
-                value={d.nameEn}
-                onChange={(e) => p("nameEn", e.target.value)}
-              />
-            </label>
-          </div>
-          <ProductKoreanFields name={d.nameKo||''} description={d.descriptionKo||''} onChange={(key,value)=>p(key,value)}/>
-          <label>{a("商品分類")}<select value={d.categoryZh} onChange={(e)=>{const category=productCategories.find(x=>x.zh===e.target.value)||productCategories[8];setD((x:any)=>({...x,categoryZh:category.zh,categoryEn:category.en}));}}>
-              {productCategories.map(category=><option key={category.zh} value={category.zh}>{a(category.zh)}</option>)}
-            </select>
-          </label>
-          <label>{a("中文介紹")}<textarea
-              rows={2}
-              value={d.descriptionZh}
-              onChange={(e) => p("descriptionZh", e.target.value)}
-            />
-          </label>
-          <label>{a("英文介紹")}<textarea
-              rows={2}
-              value={d.descriptionEn}
-              onChange={(e) => p("descriptionEn", e.target.value)}
-            />
-          </label>
-          <div className="op-two">
-            <label>{a("韓國含必要運費成本 KRW")}<input
-                type="number"
-                min="1"
-                value={d.originalJpy || ""}
-                onChange={(e) => p("originalJpy", +e.target.value)}
-                required
-              />
-            </label>
-            <label>{a("庫存（-1 不限）")}<input
-                type="number"
-                min="-1"
-                value={d.stock}
-                onChange={(e) => p("stock", +e.target.value)}
-              />
-            </label>
-          </div>
-          <fieldset className="op-flex-price"><legend>{a("彈性售價")}</legend><p>{a("香水費率上限為 1% ÷（1＋單件台幣成本／2000）；其他商品為一般費率 ÷（1＋單件台幣成本／4000），再乘會員費率比例與回購係數。回購係數為 1／（1＋已核款訂單數 × 0.03），最多計 50 筆。含費售價不得高於台灣同規格價格的 95%；成本超出時列入核對清單。")}</p><div className="op-two"><label>{a("個別費率上限 %（留空自動計算）")}<input type="number" min="0" max="100" step="0.1" value={d.serviceFeePercent??''} onChange={e=>p('serviceFeePercent',e.target.value===''?null:+e.target.value)}/></label><label>{a("含服務費售價上限 NT$（不含運費）")}<input type="number" min="1" step="1" value={d.salePriceTwd||''} placeholder="例如 6300" onChange={e=>p('salePriceTwd',e.target.value===''?null:+e.target.value)}/></label></div><small>{a("例如實際成本 NT$6,000，可設定上限 NT$6,300；留空則依費率計算。既有訂單金額不受影響。")}</small></fieldset><fieldset className="op-flex-price"><legend>{a('台灣販售情況')}</legend><select value={d.taiwanAvailability||'listed'} onChange={e=>{p('taiwanAvailability',e.target.value);p('taiwanAbsenceConfirmed',false);}}><option value="listed">{a('台灣有販售：核對同規格價格')}</option><option value="not_sold">{a('台灣無販售：需查核證據')}</option></select>{d.taiwanAvailability==='not_sold'&&<><textarea aria-label={a('台灣無販售查核記錄')} placeholder={a('記錄已查核的品牌、台灣通路、規格及日期；找不到價格不等於沒有販售。')} value={d.taiwanAbsenceEvidence||''} onChange={e=>p('taiwanAbsenceEvidence',e.target.value)}/><label className="op-check"><input type="checkbox" checked={!!d.taiwanAbsenceConfirmed} onChange={e=>p('taiwanAbsenceConfirmed',e.target.checked)}/>{a('我已查核這個規格在台灣無販售')}</label></>}</fieldset>          <div className="op-two">
-            <label>{a("商品狀態")}<select
-                value={d.status}
-                onChange={(e) => p("status", e.target.value)}
-              >
-                <option value="active">{a("販售中")}</option>
-                <option value="draft">{a("草稿")}</option><option value="research">{a("資料待核實")}</option>
-                <option value="paused">{a("暫停販售")}</option>
-                <option value="discontinued">{a("停售")}</option>
-              </select>
-            </label>
-            <label>{a("尺寸處理費 TWD")}<input
-                type="number"
-                min="0"
-                value={d.sizeFeeTwd || 0}
-                onChange={(e) => p("sizeFeeTwd", +e.target.value)}
-              />
-            </label>
-          </div>
-          <label>{a("下單後預估到貨小時（0 為未設定）")}<input
-              type="number"
-              min="0"
-              max="8760"
-              value={d.arrivalHours || 0}
-              onChange={(e) => p("arrivalHours", +e.target.value)}
-            />
-          </label>
-          <label>{a("預定採買時間 / Purchase time")}<input type="datetime-local" value={dateInput(d.purchaseAt||'')} onChange={e=>p('purchaseAt',e.target.value?new Date(e.target.value).toISOString():'')}/><small>{a("留空採用商店統一時間，24 小時前截止免費取消。 / Blank uses the store schedule.")}</small></label>
-          <div className="op-two"><label>{a("採買區間結束 / Purchase end")}<input type="datetime-local" min={dateInput(d.purchaseAt||'')} value={dateInput(d.purchaseAtTo||'')} onChange={e=>p('purchaseAtTo',e.target.value?new Date(e.target.value).toISOString():'')}/></label><label>{a("限定販售開始 / Available from")}<input type="datetime-local" value={dateInput(d.availableFrom||'')} onChange={e=>p('availableFrom',e.target.value?new Date(e.target.value).toISOString():'')}/></label><label>{a("限定販售結束 / Available until")}<input type="datetime-local" value={dateInput(d.availableUntil||'')} onChange={e=>p('availableUntil',e.target.value?new Date(e.target.value).toISOString():'')}/></label></div>
-          <label>{a("商品規格（每行：中文｜英文｜韓元 KRW） / Variants")}<textarea rows={4} placeholder={'8 個裝｜8 pieces｜1296\n12 個裝｜12 pieces｜1944'} value={(d.variants||[]).map((v:any)=>`${v.labelZh}｜${v.labelEn}｜${v.taxIncludedJpy||v.priceJpy}`).join('\n')} onChange={e=>p('variants',e.target.value.split('\n').filter(Boolean).map((line,i)=>{const [labelZh='',labelEn='',price='']=line.split(/[｜|]/).map(x=>x.trim());return{...(d.variants?.[i]||{}),id:d.variants?.[i]?.id||`option-${i+1}`,labelZh,labelEn:labelEn||labelZh,priceJpy:Number(price)};}))}/><small>{a("有規格時，買家必須先選盒數或 mL 才能加入購物車。")}</small></label>{!!d.variants?.length&&<fieldset className="op-flex-price"><legend>{a("口味／規格供貨")}</legend>{d.variants.map((v:any,i:number)=><label className="op-check" key={v.id}><input type="checkbox" checked={v.stock===0} onChange={e=>p('variants',d.variants.map((item:any,j:number)=>i===j?{...item,stock:e.target.checked?0:-1,availabilityNote:e.target.checked?item.availabilityNote||'韓國貨源缺貨 / Supplier sold out':''}:item))}/>{v.labelZh} · {a("缺貨，暫停此規格下單")}</label>)}<small>{a("補貨與購買來源確認後，再取消勾選；其他規格可繼續販售。")}</small></fieldset>}
-          <VariantEvidenceFields variants={d.variants||[]} onChange={variants=>p('variants',variants)}/>
-          <p className="op-note">{a("公開前請核對韓國售價、來源、圖片與庫存；商品頁顯示的台幣售價已包含代購服務。")}</p>
-          <label>{a("購買來源網址")}<input
-              type="url"
-              value={d.purchaseUrl || ""}
-              onChange={(e) => p("purchaseUrl", e.target.value)}
-            />
-          </label>
-          <label className="op-check">
-            <input
-              type="checkbox"
-              checked={!!d.addon}
-              onChange={(e) => p("addon", e.target.checked)}
-            />{a("此商品只能加購")}</label>
-          <fieldset>
-            <legend>{a("可購買會員")}</legend>
-            {tiers.map((t) => (
-              <label className="op-check" key={t}>
-                <input
-                  type="checkbox"
-                  checked={d.allowedTiers.includes(t)}
-                  onChange={(e) =>
-                    p(
-                      "allowedTiers",
-                      e.target.checked
-                        ? [...d.allowedTiers, t]
-                        : d.allowedTiers.filter((x: Tier) => x !== t),
-                    )
-                  }
-                />
-                {a(tierNames[t][0])}
-              </label>
-            ))}
-          </fieldset>
-          {!!recentCustomers.length&&<details><summary>{a("近期訂購此商品的顧客（")}{recentCustomers.length}{a("筆訂單）")}</summary>{recentCustomers.map(o=><p key={o.id}>{o.customerName} · {o.email} · {o.requestNo} · {a(stateNames[o.status]?.[0]||o.status)}</p>)}</details>}
-          <Button disabled={busy || uploading}>{a("儲存商品")}</Button>
-        </form>}
       </DialogContent>
     </Dialog>
   );

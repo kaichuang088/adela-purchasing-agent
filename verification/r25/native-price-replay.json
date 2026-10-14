@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-14T16:14:08.941Z",
+  "scope": "Real Netlify identification model plus live official Korean price/availability/delivery, compiled R25 pricing in isolated D1; no live orders/member balances changed",
+  "actualModel": "gpt-6.1-sol",
+  "replayedCapturedResponse": true,
+  "liveProviderCalls": 0,
+  "sourceCalls": [
+    {
+      "url": "https://www.lelabofragrances.co.kr/front/app/product/prices/771.json",
+      "status": 200
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/front/app/sku/available/965.json",
+      "status": 200
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+      "status": 200
+    }
+  ],
+  "draftState": "quoted",
+  "identifiedName": "LE LABO BERGAMOTE 22 淡香精，50 毫升，單瓶",
+  "model": "BERGAMOTE 22 50 ml × 1瓶",
+  "sources": [
+    {
+      "storeName": "Le Labo 韓國官方",
+      "url": "https://www.lelabofragrances.co.kr/bergamote-22-771.html?size=50ml",
+      "localCountry": "KR",
+      "currency": "KRW",
+      "originalPrice": 319000,
+      "afterTaxPrice": null,
+      "priceTaxIncludedJpy": 0,
+      "priceTaxFreeJpy": null,
+      "taxFreeEligible": false,
+      "taxFreeForResale": false,
+      "taxFreeConditions": "不假設商業代購可退稅",
+      "taxEvidenceUrl": "",
+      "exactMatch": true,
+      "inStock": true,
+      "capturedAt": "2026-10-14T16:14:08.900Z",
+      "deliveryAmount": 0,
+      "deliveryConfirmed": true,
+      "deliveryConditions": "Le Labo 韓國官方一般配送：單筆满 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+      "deliveryBasis": "per_order",
+      "note": "已以官方價格及庫存接口重新核對 SKU J0R901R000"
+    }
+  ],
+  "pricing": {
+    "itemNetTwd": [
+      8055
+    ],
+    "shippingNetTwd": 60,
+    "purchaseAt": null,
+    "purchaseAtTo": null,
+    "cancelUntil": null,
+    "estimatedArrival": null,
+    "etaReason": "",
+    "urgent": false,
+    "coupons": [],
+    "creditAppliedTwd": 0,
+    "beforeCreditTwd": 8115,
+    "discountTwd": 0,
+    "discountRateTwd": 1,
+    "discountCurrency": "TWD",
+    "discountLabel": "",
+    "discountLabelEn": "",
+    "items": [
+      {
+        "imageUrl": "/api/media/quote-drafts/168736a3-65b3-454e-94b3-9cd6203885e7",
+        "productId": null,
+        "nameZh": "LE LABO BERGAMOTE 22 淡香精，50 毫升，單瓶",
+        "nameEn": "LE LABO Bergamote 22 Eau de Parfum, 50 ml, 1 bottle",
+        "quantity": 1,
+        "originalJpy": 319000,
+        "sourceCurrency": "KRW",
+        "sourceCountry": "KR",
+        "sourceAmount": 319000,
+        "taxIncludedJpy": 319000,
+        "priceBasis": "local_tax_included",
+        "goodsTwd": 7599,
+        "feeTwd": 456,
+        "sizeFeeTwd": 0,
+        "originalCostTwd": 7599,
+        "storeDiscountTwd": 0,
+        "feeRate": 6.0008,
+        "standardPriceTwd": 8055,
+        "manualPriceOverride": false,
+        "costUnverified": false,
+        "sourceUrl": "https://www.lelabofragrances.co.kr/bergamote-22-771.html?size=50ml",
+        "addon": false,
+        "offerTitle": "",
+        "offerTitleEn": "",
+        "sourceRateTwd": 0.02382,
+        "taxFreeConditions": "未取得適用本次代購交易的退稅證明，因此採用當地商家含稅現價。 Le Labo 韓國官方一般配送：單筆满 ₩40,000 免運；此瓶價格已達門檻。不使用會員折扣或退稅假設。",
+        "taxEvidenceUrl": ""
+      }
+    ],
+    "goodsJpy": 319000,
+    "goodsTwd": 7599,
+    "feeTwd": 456,
+    "sizeFeeTwd": 0,
+    "shippingTwd": 60,
+    "totalTwd": 8115,
+    "exchangeRate": 0.02382,
+    "tier": "standard",
+    "coupon": "",
+    "pricedAt": "2026-10-14T16:14:08.919Z",
+    "expiresAt": "2026-10-14T18:14:07.257Z"
+  },
+  "exchangeRate": 0.02382,
+  "ordersCreated": 0,
+  "passed": true
+}

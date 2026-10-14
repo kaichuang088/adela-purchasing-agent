@@ -47,11 +47,12 @@ export function productPriceReview(p:ShopProduct,rate:number,variantId?:string,s
  const proposed=actual.amount??planned;
  return checkPrice({spec:v?.labelZh||p.spec||'',taiwanSpec:r.taiwanRetailSpec||'',taiwanPrice:r.taiwanRetailTwd||0,taiwanSource:r.taiwanRetailSource||'',taiwanDate:r.taiwanRetailCheckedAt||'',classification:r.taiwanRetailClassification||'',koreaCostKrw:cost,koreaSource:v?.purchaseUrl||p.purchaseUrl,koreaDate:v?.sourceCheckedAt||(validPack?pack!.checkedAt:'')||p.sourceCheckedAt||'',deliveryConfirmed:r.sourceDeliveryConfirmed===true||validPack,deliveryKrw:validPack?Math.ceil(pack!.deliveryKrw/pack!.units):r.sourceDeliveryKrw,deliveryConditions:validPack?'整箱採買並按盒數分攤運費':r.sourceDeliveryConditions,exchangeRate:rate,proposedTwd:proposed});
 }
-export function priceReviewMessage(review:ReturnType<typeof checkPrice>){
+export function priceReviewMessage(review:ReturnType<typeof checkPrice>&{warnings?:string[]}){
+ if(review.warnings?.length)return review.warnings.join(' ');
  if(review.status==='missing')return '缺少：'+review.missing.join('、');
  if(review.status==='spec_mismatch')return '商品與台灣來源規格不一致，不能作為已符合的比較。';
  if(review.status==='same_or_higher')return '售價等於或高於台灣；高出 NT$'+review.higherTwd+'，超出售價上限 NT$'+review.excessTwd+'。';
  if(review.status==='insufficient_discount')return '價差不足 5%；超出售價上限 NT$'+review.excessTwd+'。';
- if(review.status==='cost_above_limit')return '已套用低於台灣至少 5% 的售價；店家吸收採買成本差額 NT$'+Math.max(0,(review.costTwd||0)-review.evidence.proposedTwd)+'。真實採買成本保留。';
+ if(review.status==='cost_above_limit')return '售價低於實際採買成本 NT$'+Math.max(0,(review.costTwd||0)-review.evidence.proposedTwd)+'，建議提高最低階售價。此提醒不阻止管理員儲存。';
  return '低於台灣至少 5%，符合規則。';
 }

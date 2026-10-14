@@ -49,7 +49,7 @@ export async function POST(request:Request){try{
   if(!row||!row.pricing_json||row.status!=='quoted')throw new ShopError('目前無法確認此報價。');
   const p=JSON.parse(String(row.pricing_json)) as Pricing;if(p.expiresAt&&Date.parse(p.expiresAt)<Date.now())throw new ShopError('報價已到期，請重新查價。');
   if(body.approvedTotal!==p.totalTwd||body.approvedAt!==p.pricedAt)throw new ShopError('報價剛剛已更新，請重新查看金額後確認。',409);
-  const method=paymentChoice(member,body.paymentMethod),due=method==='transfer'?transferDeadline():null;
+  const method=paymentChoice(member,body.paymentMethod,body.cashConfirmed===true),due=method!=='cod'?transferDeadline():null;
   const credit=Math.min(p.totalTwd,await creditBalance(member.id));const next={...p,beforeCreditTwd:p.beforeCreditTwd??p.totalTwd+(p.creditAppliedTwd||0),creditAppliedTwd:(p.creditAppliedTwd||0)+credit,totalTwd:p.totalTwd-credit};const token=crypto.randomUUID();
   const batch=[db.prepare("UPDATE shopping_requests SET status=?,payment_method=?,payment_due_at=?,purchase_at=?,cancel_until=?,pricing_json=?,updated_at=? WHERE id=? AND status='quoted' AND pricing_json=?").bind(method==='cod'?'awaiting_cod':'awaiting_payment',method,due,p.purchaseAt||null,p.cancelUntil||null,JSON.stringify(next),token,row.id,row.pricing_json)];
   if(credit)batch.push(db.prepare("INSERT INTO kk_wallet_entries(event_key,member_id,order_no,amount_twd,reason) SELECT ?,member_id,request_no,?,'客製訂單購物金折抵' FROM shopping_requests WHERE id=? AND updated_at=?").bind('confirm-credit:'+row.request_no+':'+token,-credit,row.id,token));
@@ -75,7 +75,7 @@ export async function POST(request:Request){try{
  if((body.approvedPurchaseAtTo||body.approvedPurchaseAt||null)!==(pricing.purchaseAtTo||pricing.purchaseAt)||(body.approvedPurchaseAt||null)!==pricing.purchaseAt||(body.approvedCancelUntil||null)!==pricing.cancelUntil)throw new ShopError('採買日期或取消期限已更新，請重新查看報價。 / Purchase schedule changed. Review the quote again.',409);
  // The customer explicitly approves the current price; reject a changed snapshot.
  if(Number(body.approvedTotal)!==pricing.totalTwd||String(body.approvedSignature)!==JSON.stringify(pricing.items))throw new ShopError('商品或費率已更新，請重新確認金額。',409);
- const method=paymentChoice(member,body.paymentMethod),due=method==='transfer'?transferDeadline():null;
+ const method=paymentChoice(member,body.paymentMethod,body.cashConfirmed===true),due=method!=='cod'?transferDeadline():null;
  const address=shippingAddress(body.shippingAddress);
  const no=newOrderNumber(),name=pricing.items.map(l=>l.nameZh+' × '+l.quantity).join('、'),nameEn=pricing.items.map(l=>l.nameEn+' × '+l.quantity).join(', ');
  const statements=[db.prepare(`INSERT INTO shopping_requests (request_no,submission_key,kind,product_id,quantity,member_id,customer_name,email,note,image_key,image_name,image_type,status,analysis_state,identified_name_zh,identified_name_en,pricing_json,quote_json,payment_method,payment_due_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`).bind(no,key,'catalog',lines[0].p.id,pricing.items.reduce((a,l)=>a+l.quantity,0),member.id,member.name,member.email,String(body.note||'').slice(0,1200),lines[0].p.imageKey||'catalog-demo','商品照片','image/png',method==='cod'?'awaiting_cod':'awaiting_payment','not_required',name,nameEn,JSON.stringify(pricing),JSON.stringify(legacyQuote(pricing,name,nameEn)),method,due)];
