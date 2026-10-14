@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T11:10:53.407042+00:00",
+  "at": "2026-10-14T11:26:45.449001+00:00",
   "publicSourceURLs": 285,
   "readable": 249,
   "structuredDataPages": 144,
@@ -7,15 +7,15 @@
   "searchErrors": 16,
   "withUnverifiedCandidates": 7,
   "http200IsNotProof": true,
-  "originalExternalPhotoURLs": 125,
-  "cachedPhotos": 124,
-  "decodedPhotos": 125,
+  "originalExternalPhotoURLs": 126,
+  "cachedPhotos": 125,
+  "decodedPhotos": 126,
   "photosMissingForDraftReferenceRecords": 0,
   "productionDeployments": 0,
   "paidModelCalls": 0,
   "previousUnresolvedIssues": 188,
-  "currentUnresolvedIssues": 146,
-  "guardedSourcePatches": 43,
+  "currentUnresolvedIssues": 145,
+  "guardedSourcePatches": 44,
   "partialPhotoOnlyPatches": 27,
   "missingDraftPhotos": [],
   "photoOnlyDoesNotApprovePriceOrSupply": true,
@@ -35,7 +35,7 @@
     "ecshweb.pchome.com.tw",
     "img.shoplineapp.com"
   ],
-  "proposedRowPatches": 70,
+  "proposedRowPatches": 71,
   "additionalSourceWork": {
     "confirmedOptions": 8,
     "evidence": "verification/r24/round-2-confirmed.json",
@@ -51,5 +51,7 @@
     "May old/reference versions be replaced with verified current versions with explicit specification/pack/photo/price changes? Asked again2026-10-14; no response yet.",
     "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification? Asked again2026-10-14; no response yet."
   ],
-  "noVersionsOrExceptionsAppliedWithoutReply": true
+  "noVersionsOrExceptionsAppliedWithoutReply": true,
+  "round4ExactOptionsVerified": 1,
+  "round4Evidence": "verification/r24/round-4-confirmed.json"
 }

@@ -341,7 +341,13 @@
     },
     {
       "id": 198,
-      "reason": "Native KRSSG1000025075109 current3120+mandatory3000 andsellStatCd20; TaiwanmomoTP00001520000139 exact52g115 but native onlySKU expiration2025-03-05 andstock0. Expiredfood reference not used to approve currentfreshbottle."
+      "reason": "Native KRSSG1000025075109 current3120+mandatory3000 andsellStatCd20; TaiwanmomoTP00001520000139 exact52g115 but native onlySKU expiration2025-03-05 andstock0. Expiredfood reference not used to approve currentfreshbottle.",
+      "nativeTaiwanDateField": {
+        "goodsTypeBTitle": "期限",
+        "goodsTypeBName": "2025.03.05",
+        "nativeOption": "00001",
+        "canTipStock": "0"
+      }
     }
   ],
   "noPaidCalls": true,

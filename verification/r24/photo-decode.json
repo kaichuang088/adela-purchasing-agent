@@ -1,6 +1,6 @@
 {
   "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
-  "checked": 125,
+  "checked": 126,
   "failed": 0,
   "images": [
     {
@@ -750,6 +750,12 @@
     {
       "source": "https://sitem.ssgcdn.com/94/86/44/item/1000517448694_i1_1200.jpg",
       "local": "/catalog-r24/d1fea91d6c5acd4551fc53c9.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/74/38/17/item/1000576173874_i1_1200.jpg",
+      "local": "/catalog-r24/4f6d1a1ce8c45783d5ef9b7d.jpg",
       "width": 600,
       "height": 600
     }

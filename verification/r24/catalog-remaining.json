@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-14T11:08:38.529Z",
+  "at": "2026-10-14T11:24:22.205Z",
   "scope": "Local disposable D1 seeded with actual read-only catalog snapshot, applying proposed R24; no live changes, no provider calls",
   "inputProducts": 199,
   "proposedProducts": 181,
@@ -285,10 +285,14 @@
     {
       "id": 109,
       "status": "verified_specs_applied"
+    },
+    {
+      "id": 62,
+      "status": "verified_specs_applied"
     }
   ],
-  "inspectedPatchesApplied": 43,
-  "unresolvedIssues": 146,
+  "inspectedPatchesApplied": 44,
+  "unresolvedIssues": 145,
   "counts": {
     "已補品牌官方 CITRON28 香氣及100ml展示原圖；不是15或50ml實際包裝照片。15／50／100ml首爾門市本期現價、供貨及台灣同規格比較仍待核實；保持研究記錄，沒有建立可購買價格。": 1,
     "已確認蒜洋蔥52g；韓國單瓶配送預算官方₩6,200或SSG₩6,120，高於momo NT115的95%上限NT109。合併免運及當批供貨未確認，不能只填裸貨成本。": 1,
@@ -306,7 +310,7 @@
     "官方頁確認10條規格與單品選項₩23,800；尚未確認當批可供貨及台灣同規格比價；附件有人臉。": 1,
     "圖為2022包裝；現官方PRO為綠茶等配方，不能視為同款替代。需確認舊版可採購來源、成本及同配方台灣售價。": 1,
     "Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.": 1,
-    "缺少同規格台灣價格、來源或查核日期": 81,
+    "缺少同規格台灣價格、來源或查核日期": 80,
     "參考圖片尚不能對應核實的可售商品。": 5,
     "Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.": 1,
     "MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.": 1,
@@ -1136,14 +1140,6 @@
       "option": "",
       "reason": "缺少同規格台灣價格、來源或查核日期",
       "cost": 4633,
-      "ceiling": null
-    },
-    {
-      "id": 62,
-      "name": "Diptyque Do Son 杜桑淡香精 75ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "cost": 7813,
       "ceiling": null
     },
     {

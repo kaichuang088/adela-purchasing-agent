@@ -1876,6 +1876,38 @@
         "catalogReviewReason": "",
         "sourceNotes": "已核對SSG全球款號6212931000500、225mL白色圓蓋沐浴膠、實際單一選項화이트/F與原生販売價₩78,000；狀態20，未把頁面1173等件數當作保證餘量。TW 10/10官方SKU BY0065201071當前公開NT$1,810，明列不附壓頭；兩端未編修原图均225mL白色圓蓋、Blanche/Gel Douche/Body Wash。不是新泵頭款6216931001300、身體乳或香水。"
       }
+    },
+    {
+      "id": 62,
+      "expectedCommerce": "{\"country\":\"KR\",\"currency\":\"KRW\",\"nameKo\":\"딥티크 도손 오 드 퍼퓸 75ml\",\"arrivalHours\":0,\"addon\":false,\"allowedTiers\":[\"standard\",\"platinum\",\"black\",\"diamond\"],\"sizeFeeTwd\":0,\"stock\":-1,\"taxRefundEligible\":false,\"taxIncludedJpy\":328000,\"imageUrl\":\"https://sitem.ssgcdn.com/11/08/63/item/1000023630811_i1_1200.jpg\",\"purchaseUrl\":\"https://department.ssg.com/item/itemView.ssg?itemId=1000023630811\",\"taiwanRetailTwd\":6500,\"taiwanRetailSource\":\"https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724\",\"sourcePriceBasis\":\"retailer_listing\",\"sourceCheckedAt\":\"2026-09-25\",\"variants\":[],\"descriptionKo\":\"Diptyque Do Son는 개인용 향수로 즐기는 75mL 오 드 퍼퓸입니다.\",\"purchaseAt\":\"2026-10-15T16:00:00.000Z\",\"purchaseAtTo\":\"2026-10-15T16:00:00.000Z\",\"sourceDescriptionZh\":\"75ml 淡香精。韓國新世界百貨一般售價；台灣價格為 Marie Claire 2026 年報導的專櫃建議售價，不代表台灣最低價。\",\"sourceDescriptionEn\":\"Diptyque Do Son Eau de Parfum 75ml · Korea retail listing.\",\"sourceDescriptionKo\":\"딥티크 도손 오 드 퍼퓸 75ml. 한국 판매처의 공개 상품 정보 기준입니다. 정확한 구성과 재고는 출처에서 확인하세요.\"}",
+      "expectedStatus": "active",
+      "expectedPriceKrw": 328000,
+      "expectedUpdatedAt": "2026-10-11 18:25:05",
+      "priceKrw": 252240,
+      "nextStatus": "active",
+      "changes": {
+        "spec": "Do Son Eau de Parfum 杜桑淡香精75mL × 1瓶／一般零售規格",
+        "taiwanRetailSpec": "Do Son Eau de Parfum 杜桑淡香精75mL × 1瓶／一般零售規格",
+        "taiwanRetailTwd": 6950,
+        "taiwanPromotionTwd": 0,
+        "taiwanRetailSource": "https://1010online.com.tw/diptyque-eau-de-parfum-do-son",
+        "taiwanRetailCheckedAt": "2026-10-14",
+        "taiwanRetailClassification": "regular",
+        "purchaseUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000576173874",
+        "sourceCheckedAt": "2026-10-14",
+        "sourceDeliveryConfirmed": true,
+        "sourceDeliveryKrw": 3000,
+        "sourceDeliveryConditions": "SSG韓國境內宅配，單瓶一般價₩249,240加必要配送₩3,000；單筆滿₩500,000才免運，不假設合單。頁面預估10/16到貨，實際送達非保證。即時折扣可能只適用部分會員，未使用折扣／優惠券／SSG MONEY。",
+        "sourcePriceBasis": "retailer_regular_price_including_required_delivery",
+        "taxIncludedJpy": 252240,
+        "taxRefundEligible": false,
+        "stock": -1,
+        "stockQuantityVerified": false,
+        "imageUrl": "/catalog-r24/4f6d1a1ce8c45783d5ef9b7d.jpg",
+        "imageEdited": false,
+        "catalogReviewReason": "",
+        "sourceNotes": "已核對SSG單一來源1000576173874 75mL Eau de Parfum及黑色標籤原瓶，非EDT／其他容量；銷售狀態20可購買、實際庫存數未保證。台灣原引用是介紹文章，改為10/10官方可購買的75mL一般零售品DIDOSONP75CV1公開NT$6,950。採買預算保留一般商品價與必要₩3,000配送；不將韓國來源照片未展示的原裝盒外觀或實際送達日當作保證。香水未稅等值+2%是店家折扣，不宣稱已退稅。"
+      }
     }
   ]
 }

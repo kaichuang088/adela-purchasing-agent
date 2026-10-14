@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-14T11:08:38.447Z",
-  "checks": 23,
+  "at": "2026-10-14T11:24:22.600Z",
+  "checks": 24,
   "scope": "Actual proposed source rows through the compiled server with a simulated member and disposable D1; no live data, paid provider or physical merchant checkout",
   "cases": [
     "A merchant description edit is preserved even if its timestamp was not updated",
@@ -20,6 +20,7 @@
     "Verified source 112 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
     "Verified source 113 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
     "Verified source 109 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
+    "Verified source 62 can receive a server quote with full acquisition cost, Taiwan cap and60 delivery",
     "Actual sold-out kiwi source cannot receive a quote while verified available flavors can",
     "Verified Efilow100-pad native source is sold out and cannot receive an order quote",
     "Client price tampering cannot create an order for a newly verified source",

@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-14T11:21:24.719201+00:00",
+  "scope": "Native public source checks and guarded local proposal only; no live data or provider calls",
+  "items": [
+    {
+      "id": 62,
+      "spec": "Do Son Eau de Parfum 杜桑淡香精75mL × 1瓶／一般零售規格",
+      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000576173874",
+      "koreanItemId": "1000576173874",
+      "koreanRegularGoodsKrw": 249240,
+      "requiredShippingKrw": 3000,
+      "totalStandaloneKrw": 252240,
+      "freeShippingThresholdKrw": 500000,
+      "sourceAvailable": true,
+      "stockCount": "not promised",
+      "shippingScope": "Domestic Korea; native estimate10/16 not a guarantee",
+      "nativeStatus": "sellStatCd20/current buy controls",
+      "conditionalImmediateDiscountExcluded": true,
+      "taiwanSource": "https://1010online.com.tw/diptyque-eau-de-parfum-do-son",
+      "taiwanNativeSku": "DIDOSONP75CV1",
+      "taiwanPublicTwd": 6950,
+      "photo": {
+        "original": "https://sitem.ssgcdn.com/74/38/17/item/1000576173874_i1_1200.jpg",
+        "local": "/catalog-r24/4f6d1a1ce8c45783d5ef9b7d.jpg",
+        "bytes": 42613,
+        "sha256": "6f5f4ae2b4fca8fdda042df084c3fb7a5f3005de4a12c13f28729a7db73a05f3"
+      },
+      "evidenceHashes": {
+        "kr": "d0de95e4cfc8dd5bcdc5195740ef5512c6a21247246fa1d17dfb7f70740e338c",
+        "tw": "3fbbb15682914ff974ef1ef205cac65b04df726f62dd7abb85402fd283ae6bf1"
+      },
+      "previousTaiwanArticleNotRetailProof": true
+    }
+  ],
+  "stillPending": [
+    {
+      "id": 147,
+      "koreanCandidate": "https://www.ssg.com/item/itemView.ssg?itemId=1000791682106",
+      "reason": "Overseas direct shipping10/23; not approved as Korea-local stock, no arbitrary substitution with Limited edition"
+    },
+    {
+      "id": 198,
+      "reason": "Taiwan exact52g source onlySKU expired2025-03-05; not used to approve currentfreshproduct"
+    }
+  ]
+}

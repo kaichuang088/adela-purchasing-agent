@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-14T11:10:53.407042+00:00",
-  "unresolved": 146,
+  "at": "2026-10-14T11:26:45.449001+00:00",
+  "unresolved": 145,
   "scope": "Actual remaining source/specification/cost issues after guarded proposed patches; no live edits. Verified warnings remain visible separately.",
   "items": [
     {
@@ -1475,20 +1475,6 @@
       "unverifiedCandidateURLs": [],
       "reviewed": false,
       "cost": 4633,
-      "ceiling": null
-    },
-    {
-      "id": 62,
-      "name": "Diptyque Do Son 杜桑淡香精 75ml",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://department.ssg.com/item/itemView.ssg?itemId=1000023630811",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://www.marieclaire.com.tw/beauty/perfume-and-nails/89724",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 7813,
       "ceiling": null
     },
     {

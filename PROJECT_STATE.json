@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-14T11:10:53.407042+00:00",
+  "updatedAt": "2026-10-14T11:26:45.449001+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -62,10 +62,10 @@
       "cartHeight": 844
     },
     "livePdfDownloads": "Both200 and SHA matches",
-    "scope": "Historical R23 published checks; current corrective status is in r24Preparation."
+    "scope": "Earlier validation record, not the current corrective round; current results are in r24Preparation."
   },
   "notes": [
-    "R24 remains blocked by146 actual catalog issues and0 missing draft/reference photos. R23 is unchanged live.",
+    "R24 remains blocked by145 actual catalog issues and0 missing draft/reference photos. R23 is unchanged live.",
     "This corrective round has zero production deployments, zero paid AI calls, and no live financial/catalog mutations.",
     "Buyer archives are server-restricted to admin; latest-created buyer conversation remains accessible and old records are retained.",
     "Actual current credit balance is unconfirmed; preserve750, do not infer from lagged API usage counters."
@@ -81,15 +81,15 @@
   "phase": "r24-local-fixes-verified-catalog-blocked",
   "publishedSourceCommit": "7bb3b79ec06a31607bb8b359ab7be5f3297ad75e",
   "r24Preparation": {
-    "at": "2026-10-14T11:10:53.407042+00:00",
+    "at": "2026-10-14T11:26:45.449001+00:00",
     "productionDeployments": 0,
     "paidModelCalls": 0,
     "budgetReserve": 750,
     "verifiedCurrentCredits": null,
     "actualCreditBalanceConfirmed": false,
-    "catalogUnresolvedIssues": 146,
-    "reviewedProductPatches": 43,
-    "originalExternalPhotosCached": 125,
+    "catalogUnresolvedIssues": 145,
+    "reviewedProductPatches": 44,
+    "originalExternalPhotosCached": 126,
     "draftReferencePhotosMissing": 0,
     "newOrdinaryDeliveryTwd": 60,
     "priorityDeliveryTwd": 80,
@@ -105,18 +105,18 @@
     "publishReady": false,
     "releaseGate": "node scripts/check-r24-release-gate.mjs",
     "remaining": [
-      "146 genuine source/specification/cost issues",
+      "145 genuine source/specification/cost issues",
       "0 draft/reference records still lacking originals; some supplied photos are family-only",
       "Native exact Shopline original image downloaded and cached; no original-image host activation pending",
       "CITRON28 Seoul boutique prices and supply; ambiguous reference-model and limited-edition replacement decisions pending",
       "Current balance must support750 credits after future publication",
       "Full live photo-quote accuracy, physical Android push and new HTML email inbox delivery remain unverified"
     ],
-    "namedChecksPassed": 461,
+    "namedChecksPassed": 462,
     "codeCommit": null,
     "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
     "partialPhotoPatches": 27,
-    "uniqueCachedPhotoFiles": 124,
+    "uniqueCachedPhotoFiles": 125,
     "codeCommitNote": "Current corrective code and evidence are on codex/r24-correction-20261013; use current Git HEAD, not the earlier dd0fa635 snapshot.",
     "assistedOrders": "Only ordering in this page; photo/name/ID search and multi-line quantities. Account creation remains in members management.",
     "photoQuoteCorrection": "Explicit current retailer-package choices, fresh source/availability/shipping recheck, no repeated paid vision for known package; 16 additional known food families support native merchant-package discovery; cold storage stops automatic research and offers seller review; actual limits, stock and basket shipping rechecked. Old failed Orion job diagnosed read-only; full new live-provider accuracy unverified.",
@@ -140,7 +140,7 @@
         "matchesBranch": true
       }
     ],
-    "backupAt": "2026-10-14T06:08:13.423990+00:00",
+    "backupAt": "2026-10-14T11:15:13.264142+00:00",
     "noRepositoryBuildLink": true,
     "sourceRound2Evidence": "verification/r24/round-2-confirmed.json",
     "mardiOriginalCandidate": "verification/r24/mardi-photo-source-pending.json",
@@ -150,10 +150,15 @@
       "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification? Asked again2026-10-14; no response yet."
     ],
     "networkActivationPending": [],
-    "lastSourceCheckpoint": "9f68807",
+    "lastSourceCheckpoint": "8eb4370",
     "sourceRound3Evidence": "verification/r24/round-3-confirmed.json",
     "sourceRound3Work": "verification/r24/round-3-source-work.json",
-    "verifiedDraftDescriptionsUpdated": 9
+    "verifiedDraftDescriptionsUpdated": 9,
+    "backupCommit": "8eb4370",
+    "backupPushed": true,
+    "sourceRound3VerifiedOptions": 9,
+    "sourceRound4Evidence": "verification/r24/round-4-confirmed.json",
+    "sourceRound4VerifiedOptions": 1
   },
   "r23PublishedNotes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",
