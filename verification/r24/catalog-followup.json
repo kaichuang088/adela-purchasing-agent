@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-14T11:26:45.449001+00:00",
-  "unresolved": 145,
+  "at": "2026-10-14T13:13:49.386237+00:00",
+  "unresolved": 141,
   "scope": "Actual remaining source/specification/cost issues after guarded proposed patches; no live edits. Verified warnings remain visible separately.",
   "items": [
     {
@@ -255,7 +255,7 @@
       "id": 171,
       "name": "三麗鷗聯名美妝與配件",
       "option": "",
-      "reason": "參考圖片尚不能對應核實的可售商品。",
+      "reason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。",
       "koreanSource": "",
       "koreanSourceStatus": null,
       "taiwanSource": "",
@@ -267,7 +267,7 @@
       "id": 170,
       "name": "Kuromi 聯名彩妝與掛飾",
       "option": "",
-      "reason": "參考圖片尚不能對應核實的可售商品。",
+      "reason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。",
       "koreanSource": "",
       "koreanSourceStatus": null,
       "taiwanSource": "",
@@ -289,9 +289,9 @@
     },
     {
       "id": 166,
-      "name": "飛天小女警聯名粉餅（參考款）",
+      "name": "UNOVE 飛天小女警聯名梳鏡／鑰匙圈（活動周邊）",
       "option": "",
-      "reason": "參考圖片尚不能對應核實的可售商品。",
+      "reason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。",
       "koreanSource": "",
       "koreanSourceStatus": null,
       "taiwanSource": "",
@@ -315,7 +315,7 @@
       "id": 164,
       "name": "MEDIHEAL 三麗鷗聯名棉片",
       "option": "",
-      "reason": "參考圖片尚不能對應核實的可售商品。",
+      "reason": "原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。",
       "koreanSource": "",
       "koreanSourceStatus": null,
       "taiwanSource": "",
@@ -858,20 +858,6 @@
       "ceiling": null
     },
     {
-      "id": 121,
-      "name": "LANEIGE 草莓蛋糕晚安唇膜 EX 20g",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232892",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html",
-      "taiwanSourceStatus": 200,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 391,
-      "ceiling": 589
-    },
-    {
       "id": 119,
       "name": "AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）",
       "option": "",
@@ -926,20 +912,6 @@
       "reviewed": false,
       "cost": 544,
       "ceiling": null
-    },
-    {
-      "id": 110,
-      "name": "Byredo Blanche 返璞歸真身體乳 225ml",
-      "option": "",
-      "reason": "缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件",
-      "koreanSource": "https://www.byredo.com/ko_kr/c/body-care",
-      "koreanSourceStatus": 403,
-      "taiwanSource": "https://1010online.com.tw/byredo-body-lotion-blanche",
-      "taiwanSourceStatus": 404,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 2382,
-      "ceiling": 2185
     },
     {
       "id": 108,
@@ -1007,20 +979,6 @@
       "unverifiedCandidateURLs": [],
       "reviewed": false,
       "cost": 1406,
-      "ceiling": null
-    },
-    {
-      "id": 91,
-      "name": "Diptyque BAIES 漿果香氛蠟燭 190g",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000023640978",
-      "koreanSourceStatus": 200,
-      "taiwanSource": "",
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 2430,
       "ceiling": null
     },
     {
@@ -1354,20 +1312,6 @@
       "taiwanSourceStatus": null,
       "unverifiedCandidateURLs": [],
       "reviewed": false
-    },
-    {
-      "id": 67,
-      "name": "Fillimilli 885 腮紅刷",
-      "option": "",
-      "reason": "缺少同規格台灣價格、來源或查核日期",
-      "koreanSource": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645",
-      "koreanSourceStatus": 200,
-      "taiwanSource": null,
-      "taiwanSourceStatus": null,
-      "unverifiedCandidateURLs": [],
-      "reviewed": false,
-      "cost": 239,
-      "ceiling": null
     },
     {
       "id": 66,

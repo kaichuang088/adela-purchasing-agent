@@ -1,6 +1,6 @@
 {
   "scope": "Original downloaded catalog photos decoded by Chromium, no image editing",
-  "checked": 126,
+  "checked": 129,
   "failed": 0,
   "images": [
     {
@@ -756,6 +756,24 @@
     {
       "source": "https://sitem.ssgcdn.com/74/38/17/item/1000576173874_i1_1200.jpg",
       "local": "/catalog-r24/4f6d1a1ce8c45783d5ef9b7d.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/10/83/36/item/1000726368310_i1_1200.jpg",
+      "local": "/catalog-r24/b197ef2b838f67f3b0bb1a67.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "source": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/item/2026/7/2086426285935521405.png",
+      "local": "/catalog-r24/3579f1fe01f1aea0486515cb.png",
+      "width": 310,
+      "height": 219
+    },
+    {
+      "source": "https://sitem.ssgcdn.com/53/08/40/item/1000791400853_i1_1200.jpg",
+      "local": "/catalog-r24/f9a85ca31e3754bb66f2c6bf.jpg",
       "width": 600,
       "height": 600
     }

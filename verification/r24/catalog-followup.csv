@@ -17,12 +17,12 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 175,Stüssy Seoul 首爾限定 T 恤｜黑／白,,"Screenshot identifies Seoul chapter black/white but no current official buyable source, exact cost or sizes verified. Do not replace with Basic tee.",,,,
 173,OFRA Glazed Donut Slim Mini 新版打亮餅,,缺少同規格台灣價格、來源或查核日期,https://www.ofracosmetics.co.kr/product/detail.html?product_no=614&item_code=P00000XQ000A,200,,
 172,NOT4U Clear Body Mist 身體噴霧200ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000209146,200,,
-171,三麗鷗聯名美妝與配件,,參考圖片尚不能對應核實的可售商品。,,,,
-170,Kuromi 聯名彩妝與掛飾,,參考圖片尚不能對應核實的可售商品。,,,,
+171,三麗鷗聯名美妝與配件,,原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。,,,,
+170,Kuromi 聯名彩妝與掛飾,,原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。,,,,
 167,Hello Kitty 聯名唇彩（參考款）,,參考圖片尚不能對應核實的可售商品。,,,,
-166,飛天小女警聯名粉餅（參考款）,,參考圖片尚不能對應核實的可售商品。,,,,
+166,UNOVE 飛天小女警聯名梳鏡／鑰匙圈（活動周邊）,,原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。,,,,
 165,CU 杜拜巧克力 Q 餅（參考款）,,Reference screenshot SKU/weight/current Korean supplier price remain unidentified; do not invent product price.,,,,
-164,MEDIHEAL 三麗鷗聯名棉片,,參考圖片尚不能對應核實的可售商品。,,,,
+164,MEDIHEAL 三麗鷗聯名棉片,,原始參考照片已還原；其中包含聯名活動周邊或多項商品，仍需逐件SKU、現價、供貨及台灣比較證據，不以一張合照建立混合商品價格。,,,,
 163,Milky Shop 奶油夾心餅乾,,"MilkyShop butter sand is frozen−18C, stated14day shelf life and3800KRW icepack shipping; exact current price unverified. Existing ambientshipping pipeline does not establishcoldchain.",,,,
 160,RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包,開心果巧克力,缺少同規格台灣價格、來源或查核日期,https://renewphy.cafe24.com/product/detail.html?product_no=185,200,,
 160,RE:NEW PHY 한손한끼 巧口奶昔 40g｜單包,地瓜拿鐵,缺少同規格台灣價格、來源或查核日期,https://renewphy.cafe24.com/product/detail.html?product_no=185,200,,
@@ -62,18 +62,15 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 125,Isntree 洋蔥 Newpair Booster Shot 2000 精華 50ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205864,200,,
 124,SKINFOOD 胡蘿蔔舒緩棉片雙盒組（60片×2＋PDRN棉片2片×3）,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585,200,https://www.momoshop.com.tw/TP/TP0010423/goodsDetail/TP00104230000020,200
 123,ma:nyo Pure Soybean 大豆卸妝油 200ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000107679,200,,
-121,LANEIGE 草莓蛋糕晚安唇膜 EX 20g,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000232892,200,https://tw.laneige.com/lip-sleeping-mask-strawberry-shortcake.html,200
 119,AESTURA Atobarrier365 屏障保濕霜企劃組（面霜80ml × 1＋化妝水25ml × 1＋洗面乳3g × 3包）,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000261864,200,,
 118,ILLIYOON 神經醯胺集中保濕霜 75ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?dispCatNo=1000001000300220001&goodsNo=A000000233237&trackingCd=Result_11_30,200,,
 117,Dr.G Red Blemish EX 清爽舒緩面霜企劃組,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255752,200,,
 114,Anua 魚腥草77玻尿酸保濕舒緩化妝水 350ml,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252696,200,,
-110,Byredo Blanche 返璞歸真身體乳 225ml,,缺少：台灣同品牌、同款、同規格與數量、可使用的台灣價格條件；會員限定價不適用、已計入必要韓國運費的確認、韓國運費與折扣適用條件,https://www.byredo.com/ko_kr/c/body-care,403,https://1010online.com.tw/byredo-body-lotion-blanche,404
 108,Byredo Bibliothèque 圖書館香氛蠟燭 240g,,官方價格136000KRW可確認，但商品頁購買／供貨狀態未能取得，不能把系列目錄當成供貨證明。,https://www.byredo.com/ko_kr/c/perfume,403,,
 107,Byredo Mojave Ghost 莫哈維之影淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/eau-de-parfum-50-ml?page=2,403,https://www.1976.com.tw/prod/17260,200
 106,Byredo Rose of No Man’s Land 無人之境淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/perfume,403,https://www.1976.com.tw/prod/16998,200
 105,Byredo Bal d’Afrique 熱帶爵士淡香精 50ml,,真實含運成本高於95%售價上限；未默認虧損販售,https://www.byredo.com/ko_kr/c/perfume,403,https://www.1976.com.tw/prod/17311,200
 103,Le Labo 檜木護手乳 250 ml,,缺少同規格台灣價格、來源或查核日期,https://ferragamo.department.ssg.com/item/itemView.ssg?advertBidId=9999999998&itemId=1000024865773&salestrNo=1004&siteNo=6009&src_area=sdlist&srchPgNo=1&tlidSrchWd=%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84,200,https://www.lelabofragrances.com.tw/hand-lotion-1059.html?size=250ml,200
-91,Diptyque BAIES 漿果香氛蠟燭 190g,,缺少同規格台灣價格、來源或查核日期,https://www.ssg.com/item/itemView.ssg?itemId=1000023640978,200,,
 88,Mardi Mercredi FLOWERMARDI 燕麥色黑花,,缺少同規格台灣價格、來源或查核日期,https://mardimercredi.com/product/tshirt-flowermardioatmeal-black/6184/category/197/display/1/,404,https://www.mardimercredi.com.tw/en/products/mardi-mercredi-印花短tee-燕麥色-經典小雛菊-黑花-純棉-tshirt-flowermardi-1,200
 86,thisisneverthat T-Logo Tee 水洗黑,,"Prior current Korean cost44000 verified, but size-specific stock not verified; not sufficient for purchasable variants.",https://www.musinsa.com/products/5992310,200,,
 85,Matin Kim Accordion Wallet 黑色卡夾,FREE,缺少同規格台灣價格、來源或查核日期,https://matinkim.com/product/accordion-wallet-in-black/2164/,200,,
@@ -98,7 +95,6 @@ id,name,option,reason,koreanSource,koreanSourceStatus,taiwanSource,taiwanSourceS
 70,好麗友 四種經典零食組（4 包）,,缺少同規格台灣價格、來源或查核日期,https://www.kurly.com/goods/5069938,200,,
 69,農心 蝦味先 90g,,缺少同規格台灣價格、來源或查核日期,https://www.kurly.com/goods/5061325,200,,
 68,WAKEMAKE 鐵壁眼線液筆 1+1,,韓國來源、規格或成本尚待核實,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000136300,200,,
-67,Fillimilli 885 腮紅刷,,缺少同規格台灣價格、來源或查核日期,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229645,200,,
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,S,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162957879,200,,
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,M,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607162990647,200,,
 66,Stüssy Relaxed Zip Hoodie 連帽外套 Natural,L,缺少同規格台灣價格、來源或查核日期,https://kr.stussy.com/products/118571-relaxed-zip-hoodie-natural?variant=40607163023415,200,,

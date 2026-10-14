@@ -1,9 +1,9 @@
 {
-  "at": "2026-10-14T11:26:46.312Z",
+  "at": "2026-10-14T13:13:49.716Z",
   "publishReady": false,
-  "unresolvedIssues": 145,
+  "unresolvedIssues": 141,
   "blockers": [
-    "Catalog has 145 unresolved issues",
+    "Catalog has 141 unresolved issues",
     "Current credit balance and750 reserve are not confirmed"
   ],
   "productionDeploymentsThisRound": 0,
