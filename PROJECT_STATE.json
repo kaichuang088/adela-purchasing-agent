@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-14T06:04:50.260444+00:00",
+  "updatedAt": "2026-10-14T06:08:54.560214+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -112,13 +112,35 @@
       "Full live photo-quote accuracy, physical Android push and new HTML email inbox delivery remain unverified"
     ],
     "namedChecksPassed": 438,
-    "codeCommit": null,
+    "codeCommit": "7ccc429b01a8f784052f7057390c03ee676834a2",
     "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
     "partialPhotoPatches": 26,
     "uniqueCachedPhotoFiles": 110,
     "codeCommitNote": "Current corrective code and evidence are on codex/r24-correction-20261013; use current Git HEAD, not the earlier dd0fa635 snapshot.",
     "assistedOrders": "Only ordering in this page; photo/name/ID search and multi-line quantities. Account creation remains in members management.",
-    "photoQuoteCorrection": "Explicit current retailer-package choices, fresh source/availability/shipping recheck, no repeated paid vision for known package; 16 additional known food families support native merchant-package discovery; cold storage stops automatic research and offers seller review; actual limits, stock and basket shipping rechecked. Old failed Orion job diagnosed read-only; full new live-provider accuracy unverified."
+    "photoQuoteCorrection": "Explicit current retailer-package choices, fresh source/availability/shipping recheck, no repeated paid vision for known package; 16 additional known food families support native merchant-package discovery; cold storage stops automatic research and offers seller review; actual limits, stock and basket shipping rechecked. Old failed Orion job diagnosed read-only; full new live-provider accuracy unverified.",
+    "verifiedManualDownloads": [
+      {
+        "role": "Front",
+        "url": "https://raw.githubusercontent.com/kaichuang088/adela-purchasing-agent/7ccc429b01a8f784052f7057390c03ee676834a2/public/manuals/Adela_R24_Front_Mobile_Guide.pdf",
+        "status": 200,
+        "contentType": "application/octet-stream",
+        "bytes": 1139409,
+        "sha256": "71f7ba84022cc6d5aed5d53030d13f32e1396a7564ed3442316b198fadb6527a",
+        "matchesBranch": true
+      },
+      {
+        "role": "Admin",
+        "url": "https://raw.githubusercontent.com/kaichuang088/adela-purchasing-agent/7ccc429b01a8f784052f7057390c03ee676834a2/public/manuals/Adela_R24_Admin_Mobile_Guide.pdf",
+        "status": 200,
+        "contentType": "application/octet-stream",
+        "bytes": 934418,
+        "sha256": "9aa1f4f2880cc80e79a98b0d29d2cc24c948223b73b31d44683c570ef66ae376",
+        "matchesBranch": true
+      }
+    ],
+    "backupAt": "2026-10-14T06:08:13.423990+00:00",
+    "noRepositoryBuildLink": true
   },
   "r23PublishedNotes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",
