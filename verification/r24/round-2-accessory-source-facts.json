@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-14T10:09:38.454072+00:00",
+  "scope": "Partial source verification; same-spec Taiwan comparison still unresolved, no automatic price approval or live mutation",
+  "items": [
+    {
+      "id": 85,
+      "nativeSource": "https://matinkim.com/product/accordion-wallet-in-black/2164/",
+      "nativeModel": "MK2500WL001VBB",
+      "nativePublicKrw": 88000,
+      "sourceAvailable": true,
+      "size": "10.5×7.5×1cm",
+      "manufactureCountry": "China; purchased from Korea",
+      "nativeShippingGuide": "https://matinkim.com/shopinfo/guide.html",
+      "shippingGuideStatesFreeGeneralDelivery": true,
+      "taiwanComparisonPending": "The official flagship990 candidate exposes pink options only; not a black-price reference.",
+      "evidenceHash": "8917febdbcbb876b0900e92bf4afe1cc6ffc64edc5b72a14a40879f2b5e0b686",
+      "additionalTaiwanCandidate": {
+        "url": "https://www.momoshop.com.tw/product/14542075",
+        "searchListingTwd": 2490,
+        "pdpStatus": "HTTP200 management-error page: product not currently displayed or page nonexistent",
+        "priceNotApproved": true
+      }
+    },
+    {
+      "id": 91,
+      "nativeSource": "https://www.ssg.com/item/itemView.ssg?itemId=1000023640978",
+      "nativeModel": "STANDARDCANDLEBAIES190G",
+      "nativePublicRegularKrw": 102000,
+      "excludedSsgMoneyMemberPriceKrw": 90117,
+      "sourceAvailable": false,
+      "sourceStateEvidence": "Native sellStatCd80 and explicit sold-out controls, source-specific; no global absence claim",
+      "necessaryShippingKrw": 0,
+      "deliveryCondition": "Counter source shows free delivery over30000; regular price102000 reaches threshold",
+      "sameSpecTaiwanComparisonPending": true,
+      "evidenceHash": "7d3fa7aae9b549593ab8584c1eeff47bff424cce891745fab07eb7facdcd2d34"
+    }
+  ]
+}

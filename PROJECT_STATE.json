@@ -1,6 +1,6 @@
 {
   "version": "R24 preparation",
-  "updatedAt": "2026-10-14T09:35:47.792794+00:00",
+  "updatedAt": "2026-10-14T10:18:27.550934+00:00",
   "published": false,
   "sourceBase": "8c680576ffb269c3a9dc728f14e4686ce8b9924a",
   "sourceBranch": "codex/r24-correction-20261013",
@@ -143,7 +143,16 @@
     "noRepositoryBuildLink": true,
     "sourceRound2Evidence": "verification/r24/round-2-confirmed.json",
     "mardiOriginalCandidate": "verification/r24/mardi-photo-source-pending.json",
-    "sourceVerificationInProgress": true
+    "sourceVerificationInProgress": true,
+    "pendingOwnerChoices": [
+      "May old/reference versions be replaced by verified current versions with explicit specification/pack/photo/price changes?",
+      "May genuine Korean-exclusive SKUs omit the Taiwan5% comparison after complete Korean source verification?"
+    ],
+    "networkActivationPending": [
+      "img.shoplineapp.com",
+      "cdn.shoplineapp.com"
+    ],
+    "lastSourceCheckpoint": "7b1fd94"
   },
   "r23PublishedNotes": [
     "R23_PREPARATION_20261013.md overrides historical release instructions",
