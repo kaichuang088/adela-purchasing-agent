@@ -1,4 +1,4 @@
-# R25 release — approved for original-site publication
+# R25 release — published2026-10-15 (Taipei)
 
 Owner's latest scope supersedes the research-zero gate: stop catalog comparison, withdraw every product into unconfigured inventory, preserve IDs/Korean source costs and historical financial data, and let administrators set new Standard prices. Historical141 source issues remain unfinished; no source-completion claim is made.
 
@@ -13,3 +13,13 @@ Checkout: convenience-store chain/name/code, recipient and Taiwan mobile instead
 Source branch: codex/r24-correction-20261013. Both original sites have no Git build linkage, so the source backup does not trigger Netlify builds. Publish the exact committed backend bundle with all13 original bindings/assets/D1 retained. Upload one durable candidate ID per original role, then move those same revisions to production. Check production HTML/chunks/PDF bytes and original financial hashes afterward. Never repeat a deploy creation with an uncertain response; inspect/reuse its ID.
 
 No subagents. Native TLS verification remains enabled. Existing Netlify CLI auth requires XDG_CONFIG_HOME=/workspace/adela-netlify-tools/config. Do not dump environment/credential values. No new resources, billing-plan changes, top-ups, customer broadcasts, or live test purchases are authorized. Publication reports will distinguish preparation, actual deployment, production checks and estimated credits.
+
+## Publication completed
+
+Published source59b2e3532d23a421eae32cb78e7ededdd6a51e40. Original storefront revision6ad01e77337bc224489f38f6; admin6ad01ecd564c35ee0589916d; original Worker version31892cde-7e99-4933-82d6-f0f7e265d8d6 at100%, cron unchanged. One revision per Netlify site, no additional paid preview builds. Every341static file per role matched API hashes; original production HTML/chunks and both PDFs matched localSHA256. Front/admin PDFs respond200/application-pdf.
+
+Live original D1:199paused/199repricing/0active/0posted TWD prices. The guarded R24 corrections applied before withdrawal; original pre-withdrawal source snapshot is retained. Existing orders, members, wallets and ledger hashes are exactly unchanged. Original public APIs return Diamond3%, general shipping60, photos open and unauthenticated admin401.
+
+390px and1280px live production responses render without overflow/script errors; full mobile cart390×844 includes all5tabs. Chromium lacks proxy-CA trust in this environment, so unmodified live GET/HEAD responses were forwarded through native TLS-verified transport. No TLS checks were disabled; this does not claim direct Chromium TLS-trust validation. Actual physical iPhone push was owner-confirmed earlier; Android physical receipt and final Email inbox receipt remain unverified.
+
+Estimated credits after the30listed deployment credits:726.9, before two bounded model calls and normal runtime usage. Actual remaining balance is not exposed by native Netlify account APIs; auto recharge remains disabled. Reports:verification/r25/production.json and outside-repo/workspace/outputs/adela-r25. Deployment metadata-only checkpoint does not require another publication. Do not rerun creation helpers for this already completed release.

@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-15T00:33:55.401Z",
+  "published": true,
+  "sourceCommit": "59b2e3532d23a421eae32cb78e7ededdd6a51e40",
+  "workerVersionId": "31892cde-7e99-4933-82d6-f0f7e265d8d6",
+  "originalBindingsPreserved": true,
+  "roles": [
+    {
+      "role": "storefront",
+      "url": "https://adela-purchasing-agent-shop.netlify.app",
+      "siteId": "5bddbf98-7e39-4173-a0d9-9759be24fbc9",
+      "deployId": "6ad01e77337bc224489f38f6",
+      "paidReleaseRevisions": 1,
+      "matchingUploadedFiles": 341,
+      "criticalProductionBytesMatched": true
+    },
+    {
+      "role": "admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app",
+      "siteId": "ceb0a789-be1d-4465-a2c8-97451ae06717",
+      "deployId": "6ad01ecd564c35ee0589916d",
+      "paidReleaseRevisions": 1,
+      "matchingUploadedFiles": 341,
+      "criticalProductionBytesMatched": true
+    }
+  ],
+  "pdfs": [
+    {
+      "role": "Front",
+      "url": "https://adela-purchasing-agent-shop.netlify.app/manuals/Adela_R25_Front_Mobile_Guide.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "role": "Admin",
+      "url": "https://adela-purchasing-agent-admin.netlify.app/manuals/Adela_R25_Admin_Mobile_Guide.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    }
+  ],
+  "catalog": {
+    "records": 199,
+    "active": 0,
+    "paused": 199,
+    "parentPostedPrices": 0,
+    "variantPostedPrices": 0,
+    "repricingFlagged": 199,
+    "koreanCostsSha256": "b8c70d00c92900a8d054fb3fdfba5289f15d1daf5b164592089fc6590fddb964"
+  },
+  "financialTablesPreserved": true,
+  "localChecks": 324,
+  "realAiVerification": {
+    "passed": true,
+    "model": "gpt-6.1-sol",
+    "calls": 2,
+    "liveTestOrders": 0
+  },
+  "productionResponsive": {
+    "passed": true,
+    "transport": "Chromium rendering of unmodified live production HTTP responses forwarded through native verified TLS because browser proxy CA trust is unavailable; all network requests real GET/HEAD; no model calls/orders/customer writes. This is not a direct Chromium TLS-trust test.",
+    "checks": 5
+  },
+  "budget": {
+    "ownerScreenshotBefore": 756.9,
+    "previous750ReserveExplicitlyOverridden": true,
+    "netlifyReleaseRevisions": 2,
+    "listedReleaseCredits": 30,
+    "projectedAfterListedReleaseCredits": 726.9,
+    "additionalUsage": "Two bounded model verification calls and normal runtime usage; actual remaining balance only available in owner dashboard",
+    "actualRemainingVerified": false,
+    "autoRechargeEnabled": false
+  },
+  "historicalResearchIssuesCompleted": false
+}
