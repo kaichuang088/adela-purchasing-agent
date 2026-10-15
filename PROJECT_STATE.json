@@ -189,7 +189,7 @@
     "R23_DEPLOYMENT_20261013.md and PROJECT_STATE.json override preparation/historical documentation"
   ],
   "r25Preparation": {
-    "at": "2026-10-14T17:55:12.565840+00:00",
+    "at": "2026-10-15T00:28:44.608829+00:00",
     "liveWithdrawal": {
       "records": 199,
       "active": 0,
@@ -203,22 +203,22 @@
     "pricesRoundedUpTo5": true,
     "manualPriceWarningsOnly": true,
     "checkout": "convenience-store pickup and cash/transfer/COD as eligible",
-    "paidModelCalls": 0,
+    "paidModelCalls": 2,
     "netlifyDeployments": 0,
-    "actualCurrentCredits": null,
+    "actualCurrentCredits": 756.9,
     "minimumRemainingCredits": 750,
     "workflowChecks": 36,
     "pricingChecks": 30,
     "photoChoiceChecks": 37,
     "mobileChecksBeforeCashCapture": 202,
     "finalMobilePending": false,
-    "freshProviderValidationPending": true,
+    "freshProviderValidationPending": false,
     "sourceReplay": "captured model response with fresh native LeLabo319000KRW;0new provider calls",
-    "publishReady": false,
+    "publishReady": true,
     "remaining": [
-      "Latest actual Netlify credit balance and750reserve",
-      "Fresh real-provider verification within budget",
-      "One verified production deploy per original role and shared backend"
+      "Original Worker publication preserving13bindings",
+      "One verified production deploy per original Netlify role",
+      "Production asset/PDF byte verification and live withdrawal/financial preservation checks"
     ],
     "mobileChecks": 211,
     "namedLocalChecks": 324,
@@ -233,6 +233,18 @@
     "backupUrl": "https://github.com/kaichuang088/adela-purchasing-agent/tree/codex/r24-correction-20261013",
     "manualDownloadsVerifiedAt": "2026-10-14T18:02:24.658621+00:00",
     "localBackendDryPackage": true,
-    "originalBackendBindingsVerified": 13
+    "originalBackendBindingsVerified": 13,
+    "currentCreditsVerifiedAt": "2026-10-15T00:26:40.709208+00:00",
+    "currentCreditsSource": "Owner screenshot:756.9; native Netlify API does not expose remaining balance",
+    "publicationAuthorization": {
+      "at": "2026-10-15T00:26:40.709208+00:00",
+      "ownerInstruction": "發布, in direct reply to warning that two-site publication will lower756.9 to approximately726.9 plus AI verification usage",
+      "overridePrevious750Reserve": true,
+      "listedTwoSiteDeployCredits": 30,
+      "maximumFreshVerificationProviderCalls": 2,
+      "conservativeModelCreditAllocation": 10,
+      "maximumPlannedIncrementalCredits": 40
+    },
+    "freshProviderValidation": "Two real gpt-6.1-sol calls completed: exact LeLabo50mL with current native official319000KRW source, professional customer support; disposable local D1;0live orders"
   }
 }

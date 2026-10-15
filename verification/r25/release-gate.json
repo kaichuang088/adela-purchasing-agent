@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-14T17:55:12.603Z",
+  "at": "2026-10-15T00:28:44.657Z",
   "scope": "Owner-authorized all-product withdrawal and repricing; historical research141 remains unfinished and is not a publishing-zero claim",
   "localReady": true,
-  "publishReady": false,
+  "publishReady": true,
   "localChecks": 324,
   "liveWithdrawal": {
     "records": 199,
@@ -10,11 +10,11 @@
     "supplierMetadataPreserved": true,
     "financialTablesWritten": false
   },
-  "verifiedCredits": null,
-  "minReserve": 750,
+  "verifiedCredits": 756.9,
+  "previousMinReserve": 750,
+  "ownerAuthorizedReserveOverride": true,
+  "maximumPlannedIncrementalCredits": 40,
+  "projectedAfterListedDeploys": 726.9,
   "listedTwoSiteDeployCredits": 30,
-  "blockers": [
-    "Latest actual credit balance and750 reserve not verified",
-    "Fresh real AI validation still pending within credit budget"
-  ]
+  "blockers": []
 }

@@ -1,0 +1,71 @@
+{
+  "at": "2026-10-15T00:28:09.910Z",
+  "scope": "Current compiled R25 photo/customer-support routes, actual existing Netlify provider and fresh native Korean source, disposable local D1 only",
+  "passed": true,
+  "mocked": false,
+  "freshProviderCalls": 2,
+  "conservativeModelCreditAllocation": 10,
+  "verifiedCreditsBefore": 756.9,
+  "provider": [
+    {
+      "status": 200,
+      "model": "gpt-6.1-sol",
+      "state": "completed",
+      "usage": {
+        "input_tokens": 1680,
+        "input_tokens_details": {
+          "cache_write_tokens": 1677,
+          "cached_tokens": 0
+        },
+        "output_tokens": 354,
+        "output_tokens_details": {
+          "reasoning_tokens": 36
+        },
+        "total_tokens": 2034
+      }
+    },
+    {
+      "status": 200,
+      "model": "gpt-6.1-sol",
+      "state": "completed",
+      "usage": {
+        "input_tokens": 1009,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 434,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1443
+      }
+    }
+  ],
+  "nativeSources": [
+    {
+      "url": "https://www.lelabofragrances.co.kr/front/app/sku/available/965.json",
+      "status": 200
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/front/app/product/prices/771.json",
+      "status": 200
+    },
+    {
+      "url": "https://www.lelabofragrances.co.kr/shipping-and-returns.html",
+      "status": 200
+    }
+  ],
+  "photo": {
+    "state": "quoted",
+    "name": "LE LABO BERGAMOTE 22 佛手柑淡香精 50 毫升 — 單瓶",
+    "model": "BERGAMOTE 22 50 ml × 1瓶",
+    "confidence": 0.98,
+    "sourceKrw": 319000,
+    "totalTwd": 8115
+  },
+  "supportReply": "您好，超商取貨資料、現金付款回報與採買時間，請依以下方式確認：\n\n### 1. 超商門市如何填寫\n請填寫：\n- **超商連鎖名稱**：例如 7-ELEVEN、全家。\n- **完整門市名稱**：請確認是您要取貨的分店，避免只寫地區或路名。\n- **收件人姓名**\n- **收件人手機號碼**\n\n超商取貨不需要填寫住家或街道地址。送出前請再次核對門市、姓名及手機，避免影響取貨。\n\n### 2. 現金付款後如何回報、核對\n1. **先確認已實際交付現金**，再透過訂單介面回報付款，並依介面要求填寫資料。\n2. 回報後，代表您已申報付款，**不等於賣家已核實收到現金**。\n3. 仍須由賣家／管理員核對收款，完成確認後才算付款已驗證；請以訂單顯示的核對結果或通知為準。\n\n我可以說明流程，但無法代您回報或確認收款。若介面沒有現金回報選項，請洽人工客服協助，回覆時間目前無法確定。\n\n### 3. 何時開始採買\n目前沒有可查詢的訂單資料，因此**無法確認您的實際採買開始時間**。請以訂單內設定的採買時間為準；商店開放下單的時間不等於該筆訂單的採買時間。\n\n另外，訂單在排定開始日可能自動顯示「採買中」，但這不代表商品已買到；須有**實際購入時間或商品顯示「已購入」**，才能確認賣家已完成購買。",
+  "liveCustomerDataTouched": false,
+  "ordersCreated": 0,
+  "secretsSaved": false
+}
